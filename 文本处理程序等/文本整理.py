@@ -7,7 +7,9 @@ with open("textfile.txt", "r", encoding = "utf8") as textfile:
 def full_stop(matchobj):
     if matchobj.group(1) == "。":
         return ". "
-    elif matchobj.group(1) == "。\n":
+    elif matchobj.group(1) == "。\\n":
+        return ".\\n"
+    else:
         return ".\\n"
 
 def refine_brackets(matchobj):
@@ -16,7 +18,7 @@ def refine_brackets(matchobj):
 def boldsymbols(matchobj):
     return "\\i"+matchobj.group(1)[:-1]+"\\mathbf{"+matchobj.group(1)[-1]+"}"
 
-data = re.sub("([\d]+. )",r"to_be_item ",data)
+data = re.sub("([\d]+. )",r"\\item ",data)
 data = re.sub("\\\\\[",r"$",data)
 data = re.sub("\\\\\]",r"$",data)
 data = data.replace("\\frac","\\dfrac")
@@ -30,9 +32,7 @@ data = re.sub("）[\n]*",")",data)
 data = re.sub("“[\n]*","``",data)
 data = re.sub("”[\n]*","''",data)
 
-data = re.sub("   [ ]+",r"to_be_blank",data)
-data = data.replace("to_be_blank","\\blank{50}")
-data = data.replace("to_be_item", "\\item")
+data = re.sub("   [ ]+",r"\\blank{50}",data)
 
 for i in range(10):
     data = re.sub("(\{\\\\[\w]+[ ]*\}|\{\}|\{\w\})",refine_brackets,data)
