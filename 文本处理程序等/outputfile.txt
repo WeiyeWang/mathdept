@@ -1,11 +1,15 @@
-\item 已知集合$A=\{-1,3,2m-1 \}$, 集合$B=\{3,{m^2}\}$. 若$B\subseteq A$, 则实数$m=$\blank{50}.  
-\item 计算: $\displaystyle\lim_{n\to\infty}\dfrac{{3^n}+1}{{3^{n+1}}+{2^n}}=$\blank{50}.  
-\item 函数$f(x)=\sqrt[3]x+1$的反函数${f^{-1}}(x)=$\blank{50}.  
-\item 函数$f(x)={{(\,\sin x-\cos x\,)}^2}$的最小正周期为\blank{50}.  
-\item 直线$x+2y-1=0 $与直线$y=1 $的夹角大小为\blank{50}(结果用反三角函数值表示).
-\item 已知菱形$ABCD$, 若$|\overrightarrow{AB}|=1$, $A=\dfrac\pi 3$, 则向量$\overrightarrow{AC}$在$\overrightarrow{AB}$上的投影为\blank{50}.  
-\item 已知一个凸多面体的平面展开图由两个正六边形和六个正方形构成, 如右图所示, 若该凸多面体所有棱长均为$1$, 则其体积$V=$\blank{50}.
-\item 已知函数$f(x)={x^3}+\lg \text{(}\sqrt{{x^2}+1}+x)$, 若$f(x)$的定义域中的$a$、$b$满足$f(-a)+f(-b)-3=f(a)+f(b)+3 $, 则$f(a)+f(b)=$\blank{50}.  
-\item 数列$\{{a_n}\}$中, 若${a_1}=3$, $\sqrt{{a_{n+1}}}={a_n}$($n\in {\mathbfN^{*}}$), 则数列$\{{a_n}\}$的通项公式${a_n}=$\blank{50}.
-\item 在代数式$(4{x^2}-2x-5){{( 1+\dfrac1{{x^2}} )}^5}$的展开式中, 常数等于\blank{50}.  
-\item 满足约束条件$|x|+2|y|\le 2 $的目标函数$z=y-x$的最大值是\blank{50}.
+1.已知全集$U=R$, 集合$A=\{ x| (x-1)(x-4)\le 0  \}$, 则集合$A$的补集${C_U}A=$\blank{50}.
+2.指数方程${4^x}-6 \times {2^x}-16=0 $的解是\blank{50}. 
+3.已知无穷等比数列$\{ {a_n} \}$的首项${a_1}=18 $, 公比$q=-\dfrac12$, 则无穷等比数列$\{ {a_n} \}$各项的和是\blank{50}.
+\item 函数$y=\cos 2xx\in [ 0 \pi  ]$的递增区间为\blank{50}.
+\item 抛物线y^2=x上一点M到焦点的距离为1, 则点M的横坐标是\blank{50}.
+6.一盒中装有12个同样大小的球, 其中5个红球, 4个黑球, 2个白球, 1个绿球. 从中随机取出1个球, 则取出的1个球是红球或黑球或白球的概率为\blank{50}.
+7.关于 的函数$f(\theta )={\cos ^2}\theta -2x\cos \theta -1$的最大值记为$M(x)$, 则$M(x)$的解析式为\blank{50}.
+\item 如图所示, 是一个由圆柱和球组成的几何体的三视图, 若$a=2,b=3$, 则该几何体的体积等于\blank{50}.
+9.已知双曲线${x^2}-\dfrac{{y^2}}{{m^2}}=1(m>0)$的渐近线与圆${x^2}+{{(y+2)}^2}=1 $没有公共点,  则该双曲线的焦距的取值范围为\blank{50}.
+10.已知△ABC外接圆的半径为$2 $, 圆心为$O$, 且$\overrightarrow{AB}+\overrightarrow{AC}=2 \overrightarrow{AO}$, $| \overrightarrow{AB} |=| \overrightarrow{AO} |$, 则$\overrightarrow{CA}\cdot \overrightarrow{CB}=$\blank{50}.
+\item 若不等式组$\{ \begin{align}
+  & x\ge 0, \\ 
+ & x+3y\ge 4, \\ 
+ & 3x+y\le 4 \\ 
+\end{align} $所表示的平面区域被直线 分为面积相等的两部分, 则 的值是\blank{50}.
