@@ -1,15 +1,11 @@
-1．函数\[y={{\log }_{3}}(x-1)\]的定义域是         .
-2．集合\[A=\left\{ x|{{x}^{\,2}}-3x<0 \right\}\]，\[B=\left\{ \left. x \right|\left| x \right|<2 \right\}\]，则\[A\bigcup B\]等于         .
-3．若复数\[\frac{1+i}{1-i}+\frac{1}{2}b\]（$i$为虚数单位）的实部与虚部相等，则实数\[b\]的值为       .
-4．已知函数\[f(x)=\left| \begin{matrix}
-   {{\log }_{3}}x & 1  \\
-   2 & 1  \\
-\end{matrix} \right|\]，则\[{{f}^{-1}}(0)=\]          .
-5．若一个圆锥的母线长是底面半径的$3$倍，则该圆锥的侧面积是底面积的      倍.
-6．平面向量$\overrightarrow{a}$与$\overrightarrow{b}$的夹角为$60{}^\circ $，$\left| \overrightarrow{a} \right|=1$，$\overrightarrow{b}=(3,0)$，则$\left| 2\overrightarrow{a}+\overrightarrow{b} \right|=$         .
-7．已知$\vartriangle ABC$的周长为$4$，且$\sin A+\sin B=3\sin C$，则$AB$边的长为      .
-8．若${{a}_{n}}$为${{\left( 1+x \right)}^{n}}$的展开式中的${{x}^{2}}$项的系数，则\[\underset{n\to \infty }{\mathop{\lim }}\,\frac{2{{a}_{n}}}{{{n}^{2}}+1}=\]        .
-9．若$m>0$，$n>0$，$m+n=1$，且$\frac{t}{m}+\frac{1}{n}$（$t>0$）的最小值为$9$，则$t=$     .
-10．若以$x$轴正方向为始边，曲线上的点与圆心的连线为终边的角$\theta $为参数，则圆${{x}^{2}}+{{y}^{2}}-2x=0$的参数方程为        .
-11．若$AB$是圆${{x}^{2}}+{{(y-3)}^{2}}=1$的任意一条直径，\[O\]为坐标原点，则\[\overrightarrow{OA}\cdot \overrightarrow{OB}\]的值为         ．
-
+1．已知集合\[A=\{-1,3,2m-1\}\]，集合\[B=\{3,{{m}^{2}}\}\]．若\[B\subseteq A\]，则实数\[m=\]     ． 
+2．计算：$\underset{n\to \infty }{\mathop{\lim }}\,\frac{{{3}^{n}}+1}{{{3}^{n+1}}+{{2}^{n}}}=$     ． 
+3．函数$f(x)=\sqrt[3]{x}+1$的反函数${{f}^{-1}}(x)=$     ． 
+4．函数\[f(x)={{(\,\sin x-\cos x\,)}^{2}}\]的最小正周期为     ． 
+5．直线\[x+2y-1=0\]与直线\[y=1\]的夹角大小为     （结果用反三角函数值表示）．
+6．已知菱形$ABCD$，若$|\overrightarrow{AB}|=1$，$A=\frac{\pi }{3}$，则向量$\overrightarrow{AC}$在$\overrightarrow{AB}$上的投影为     ． 
+7．已知一个凸多面体的平面展开图由两个正六边形和六个正方形构成，如右图所示，若该凸多面体所有棱长均为$1$，则其体积$V=$     ．
+8．已知函数\[f(x)={{x}^{3}}+\lg \text{(}\sqrt{{{x}^{2}}+1}+x)\]，若$f(x)$的定义域中的$a$、$b$满足\[f(-a)+f(-b)-3=f(a)+f(b)+3\]，则\[f(a)+f(b)=\]     ． 
+9．数列$\{{{a}_{n}}\}$中，若${{a}_{1}}=3$，$\sqrt{{{a}_{n+1}}}={{a}_{n}}$（$n\in {{\mathbf{N}}^{*}}$），则数列$\{{{a}_{n}}\}$的通项公式${{a}_{n}}=$     ．
+10．在代数式$(4{{x}^{2}}-2x-5){{\left( 1+\frac{1}{{{x}^{2}}} \right)}^{5}}$的展开式中，常数等于     ． 
+11．满足约束条件\[|x|+2|y|\le 2\]的目标函数\[z=y-x\]的最大值是     ．

@@ -41,8 +41,8 @@ data = re.sub("\\\\\[",r"$",data)
 data = re.sub("\\\\\]",r"$",data)
 data = data.replace("\\frac","\\dfrac")
 
-data = re.sub("     [ ]+",r"\\blank{50}",data)
-data = re.sub("____[_]+",r"\\blank{50}",data)
+data = re.sub("   [ ]+",r"\\blank{50}",data)
+data = re.sub("__[_]+",r"\\blank{50}",data)
 
 
 for i in range(10):
