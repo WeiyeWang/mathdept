@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  11 JUN 2022 22:23
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  11 JUN 2022 22:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -587,8 +587,7 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \c@coro=\count325
 \c@axiom=\count326
 \c@prop=\count327
-
-No file 赋能.aux.
+ (./赋能.aux)
 \openout1 = `赋能.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -607,7 +606,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 23.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -758,14 +757,14 @@ Overfull \hbox (46.91989pt too wide) in paragraph at lines 285--286
 
 [9] [10] [11] [12] [13]
 Missing character: There is no ; ("3B) in font nullfont!
- [14] [15] [16] (./赋能.aux) ) 
+ [14] [15] [16] [17] (./赋能.aux) ) 
 Here is how much of TeX's memory you used:
- 19842 strings out of 476919
- 449523 string characters out of 5825424
- 784899 words of memory out of 5000000
- 39460 multiletter control sequences out of 15000+600000
- 406095 words of font info for 60 fonts, out of 8000000 for 9000
+ 19850 strings out of 476919
+ 449689 string characters out of 5825424
+ 782735 words of memory out of 5000000
+ 39464 multiletter control sequences out of 15000+600000
+ 406111 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,14n,104p,416b,831s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 赋能.pdf (16 pages).
+Output written on 赋能.pdf (17 pages).
