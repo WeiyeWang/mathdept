@@ -1,20 +1,11 @@
-\item 已知复数$z=2+i$($i$为虚数单位), 则$\overline{{z^2}}=$\blank{50}
-\item 已知集合$A=\{x|\dfrac12\le {2^x}<16\}$, $B=\{x|y={\log _2}(9-{x^2})\}$, 则$A\cap B=$\blank{50}
-\item 在二项式${{(x+\dfrac2x)}^6}$的展开式中, 常数项是\blank{50}
-\item 等轴双曲线${x^2}-{y^2}={a^2}$与抛物线${y^2}=16x$的准线交于$A$、$B$两点, 且$|AB{{|}_}=4\sqrt3$, 则该双曲线的实轴长等于\blank{50}
-\item 若由矩阵$\left( \begin{matrix}
-   a & \item \\
-   2 & a  \\
-\end{matrix} \right)\left( \begin{matrix}
-   x  \\
-   y  \\
-\end{matrix} \right)=\left( \begin{matrix}
-   a+\item \\
-   \item  \\
-\end{matrix} \right)$表示$x$、$y$的二元一次方程组无解, 则实数$a=$\blank{50}
-6.已知$f(x)=sin\dfrac\pi 3x$, $A=\{1,2,3,4,5,6,7,8\}$, 现从集合$A$中任取两个不同元素$s$、$t$, 则使得$f(s)\cdot f(t)=0$发生的概率是\blank{50}
-\item 若圆锥侧面积为$20\pi $, 且母线与底面所成角为$\arccos \dfrac45$, 则该圆锥的体积为\blank{50}
-\item 已知数列$\{{a_n}\}$的通项公式为${a_n}={n^2}+bn$, 若数列$\{{a_n}\}$是单调递增数列, 则实数$b$的取
-值范围是\blank{50}
-\item 将边长为10的正三角形$ABC$, 按``斜二测''画法在水平放置的平面上画出为△$A'B'C'$, 则△$A'B'C'$中最短边的边长为\blank{50}(精确到0.01)\item 已知点$A$是圆$O:{x^2}+{y^2}=4$上的一个定点, 点$B$是圆$O$上的一个动点, 若满足
-$|\overrightarrow{AO}+\overrightarrow{BO}{{|}_}{{=}_}|\overrightarrow{AO}-\overrightarrow{BO}|$, 则$\overrightarrow{AO}\cdot \overrightarrow{AB}=$\blank{50}
+\item 方程$\lg (3x+4)=1$的解$x=$\blank{50}
+\item 若关于$x$的不等式$\dfrac{x-a}{x-b}>0$($a,b\in \mathbf{R}$)的解集为$(-\infty ,1)\cup (4,+\infty )$, 则$a+b=$\blank{50}
+\item 已知数列$\{{a_n}\}$的前$n$项和为${S_n}={2^n}-1$, 则此数列的通项公式为\blank{50}
+\item 函数$f(x)=\sqrtx+1$的反函数是\blank{50}
+\item ${{(1+2x)}^6}$展开式中${x^3}$项的系数为\blank{50}(用数字作答)\item 如图, 已知正方形$ABCD-{A_1}{B_1}{C_1}{D_1}$, $A{A_1}=2$, $E$为
+棱$C{C_1}$的中点, 则三棱锥${D_1}-ADE$的体积为\blank{50}
+\item 从单词``shadow''中任意选取4个不同的字母排成一排, 则其中含有``a''的共有\blank{50}种排法(用数字作答)\item 集合$\{x|\cos (\pi \cos x)=0,x\in [0,\pi ]\}=$\blank{50}(用列举法表示)\item 如图, 已知半径为1的扇形$AOB$, $\angle AOB=60^\circ $, $P$
+为弧$\overset\frown{AB}$上的一个动点, 则$\overrightarrow{OP}\cdot \overrightarrow{AB}$取值范围是\blank{50}
+\item 已知$x$、$y$满足曲线方程${x^2}+\dfrac1{{y^2}}=2$, 则${x^2}+{y^2}$的
+取值范围是\blank{50}
+

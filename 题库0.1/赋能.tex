@@ -4,7 +4,7 @@
 \usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
 \usepackage{ifthen,indentfirst,enumerate,color,titletoc}
 \usepackage{tikz}
-\usetikzlibrary{arrows}
+\usetikzlibrary{arrows,calc}
 \usepackage[bf,small,indentafter,pagestyles]{titlesec}
 \usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
 \renewcommand{\baselinestretch}{1.65}
@@ -175,6 +175,38 @@
 \item 已知数列$\{a_n\}$的通项公式为$a_n=n^2+bn$, 若数列$\{a_n\}$是单调递增数列, 则实数$b$的取值范围是\blank{50}.
 \item 将边长为$10$的正三角形$ABC$, 按``斜二测''画法在水平放置的平面上画出为$\triangle A'B'C'$, 则$\triangle A'B'C'$中最短边的边长为\blank{50}(精确到0.01).
 \item 已知点$A$是圆$O: x^2+y^2=4$上的一个定点, 点$B$是圆$O$上的一个动点, 若满足$|\overrightarrow{AO}+\overrightarrow{BO}|=|\overrightarrow{AO}-\overrightarrow{BO}|$, 则$\overrightarrow{AO}\cdot \overrightarrow{AB}=$\blank{50}.
+
+% 赋能9
+
+\item 方程$\lg (3x+4)=1$的解$x=$\blank{50}.
+\item 若关于$x$的不等式$\dfrac{x-a}{x-b}>0$($a,b\in \mathbf{R}$)的解集为$(-\infty ,1)\cup (4,+\infty)$, 则$a+b=$\blank{50}.
+\item 已知数列$\{a_n\}$的前$n$项和为$S_n=2^n-1$, 则此数列的通项公式为\blank{50}.
+\item 函数$f(x)=\sqrt x+1$的反函数是\blank{50}.
+\item $(1+2x)^6$展开式中$x^3$项的系数为\blank{50}(用数字作答).
+\item 如图, 已知正方形$ABCD-A_1B_1C_1D_1$, $AA_1=2$, $E$为棱$CC_1$的中点, 则三棱锥$D_1-ADE$的体积为\blank{50}.
+\begin{center}
+    \begin{tikzpicture}
+        \draw (0,0) node [below left] {$A$} coordinate (A) --++ (2,0) node [below right] {$B$} coordinate (B) --++ (45:{2/2}) node [right] {$C$} coordinate (C)
+        --++ (0,2) node [above right] {$C_1$} coordinate (C1)
+        --++ (-2,0) node [above left] {$D_1$} coordinate (D1) --++ (225:{2/2}) node [left] {$A_1$} coordinate (A1) -- cycle;
+        \draw (A) ++ (2,2) node [right] {$B_1$} coordinate (B1) -- (B) (B1) --++ (45:{2/2}) (B1) --++ (-2,0);
+        \draw [dashed] (A) --++ (45:{2/2}) node [left] {$D$} coordinate (D) --++ (2,0) (D) --++ (0,2);
+        \draw ($ (C)!0.5!(C1) $) node [right] {$E$} coordinate (E);
+        \draw [dashed] (E) -- (D1) -- (A) -- (E) -- (D);
+    \end{tikzpicture}
+\end{center}
+\item 从单词``shadow''中任意选取$4$个不同的字母排成一排, 则其中含有``a''的共有\blank{50}种排法(用数字作答).
+\item 集合$\{x|\cos (\pi \cos x)=0,x\in [0,\pi]\}=$\blank{50}(用列举法表示).
+\item 如图, 已知半径为1的扇形$AOB$, $\angle AOB=60^\circ$, $P$为弧$\overset\frown{AB}$上的一个动点, 则$\overrightarrow{OP}\cdot \overrightarrow{AB}$取值范围是\blank{50}.
+\begin{center}
+    \begin{tikzpicture}[>=latex,scale = 1.3]
+        \draw (0,0) node [below left] {$O$} -- (2,0) node [below right] {$B$} (0,0) -- (1,{sqrt(3)}) node [above] {$A$} -- cycle;
+        \draw (2,0) arc (0:60:2);
+        \draw [->] (0,0) -- (25:2) node [above right] {$P$};
+        \draw [->] (1,{sqrt(3)}) -- (2,0);
+    \end{tikzpicture}
+\end{center}
+\item 已知$x$、$y$满足曲线方程$x^2+\dfrac1{y^2}=2$, 则$x^2+y^2$的取值范围是\blank{50}.
 
 
 \end{enumerate}
