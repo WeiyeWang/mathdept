@@ -4,12 +4,10 @@ with open("textfile.txt", "r", encoding = "utf8") as textfile:
     data = textfile.read()
 
 def full_stop(matchobj):
-    if matchobj.group(1) == "。":
+    if matchobj.group(1) == "。" or matchobj.group(1) == "．":
         return ". "
-    elif matchobj.group(1) == "。\\n":
-        return ".\\n"
     else:
-        return ".\\n"
+        return ".\n"
 
 def refine_brackets(matchobj):
     return matchobj.group(1)[1:-1]
@@ -20,12 +18,16 @@ def boldsymbols(matchobj):
 def insert_a_blank(matchobj):
     return matchobj.group(1)[:-1]+" "+matchobj.group(1)[-1]
 
-data = re.sub("([\d]+. )",r"\\item ",data)
-data = re.sub("\\\\\[",r"$",data)
-data = re.sub("\\\\\]",r"$",data)
-data = data.replace("\\frac","\\dfrac")
+def limit(matchobj):
+    return "\\displaystyle\\lim_{"+matchobj.group(1)+"\\to\\infty}"
 
+data = re.sub(r"([\d]\\)",insert_a_blank,data)
+
+data = data.replace(r"\left","").replace(r"\right.","").replace(r"\right","")
+
+data = re.sub("　","  ",data)
 data = re.sub("(。[\n]*)",full_stop,data)
+data = re.sub("(．[\n]*)",full_stop,data)
 data = re.sub("，[\n]*",", ",data)
 data = re.sub("：[\n]*",": ",data)
 data = re.sub("；[\n]*","; ",data)
@@ -34,8 +36,13 @@ data = re.sub("）[\n]*",")",data)
 data = re.sub("“[\n]*","``",data)
 data = re.sub("”[\n]*","''",data)
 
-data = re.sub("   [ ]+",r"\\blank{50}",data)
-data = re.sub("__[_]+",r"\\blank{50}",data)
+data = re.sub("([0-9]+\. )",r"\\item ",data)
+data = re.sub("\\\\\[",r"$",data)
+data = re.sub("\\\\\]",r"$",data)
+data = data.replace("\\frac","\\dfrac")
+
+data = re.sub("     [ ]+",r"\\blank{50}",data)
+data = re.sub("____[_]+",r"\\blank{50}",data)
 
 
 for i in range(10):
@@ -45,6 +52,9 @@ data = re.sub("(\\\\overrightarrow[\w])",insert_a_blank,data)
 
 data = data.replace("\\bigc","\\c")
 data = re.sub("\\\i(n[ ]+[R|Q|Z|N|C])",boldsymbols,data)
+
+data = re.sub(r"\\underset{([\w])\\to \\infty }{\\mathop\\lim }\\,",limit,data) 
+data = re.sub(r"\\underset{([\w])\\to \\infty }{\\mathop{lim}}\\,",limit,data) 
 
 with open("outputfile.txt","w",encoding = "utf8") as f:
     f.write(data)

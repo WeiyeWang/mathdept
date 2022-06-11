@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  11 JUN 2022 12:47
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  11 JUN 2022 15:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -740,14 +740,29 @@ Overfull \hbox (6.5386pt too wide) in paragraph at lines 150--151
 []\TU/华文中宋(0)/m/n/10 如 图\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 在 棱 长 为 $\OT1/cmr/m/n/10 1$ \TU/华文中宋(0)/m/n/10 的 正 方 体 $\OML/cmm/m/it/10 ABCD \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 A[]B[]C[]D[]$ \TU/华文中宋(0)/m/n/10 中\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 点 $\OML/cmm/m/it/10 P$ \TU/华文中宋(0)/m/n/10 在 截 面 $\OML/cmm/m/it/10 A[]DB$ \TU/华文中宋(0)/m/n/10 上\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 线 段 $\OML/cmm/m/it/10 AP$ \TU/华文中宋(0)/m/n/10 的 最 小 值 为$[]$\TU/lmr/m/n/10 . 
  []
 
-[4] [5] [6] (./赋能.aux) ) 
+[4] [5] [6]
+Overfull \hbox (3.452pt too wide) in paragraph at lines 235--236
+[]\TU/华文中宋(0)/m/n/10 设 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = []$ \TU/华文中宋(0)/m/n/10 则 当 $\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^T ^^@\OT1/cmr/m/n/10 1$ \TU/华文中宋(0)/m/n/10 时\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )]$ \TU/华文中宋(0)/m/n/10 表 达 式 的 展 开 式 中 含 $[]$ 项 的 系 数 是$[]$\TU/lmr/m/n/10 . 
+ []
+
+[7] [8]
+Overfull \hbox (5.48975pt too wide) in paragraph at lines 274--275
+[]\TU/华文中宋(0)/m/n/10 直 角 坐 标 系 $\OML/cmm/m/it/10 xOy$ \TU/华文中宋(0)/m/n/10 内 有 点 $\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2)$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 将 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 POQ$ \TU/华文中宋(0)/m/n/10 绕 $\OML/cmm/m/it/10 x$ \TU/华文中宋(0)/m/n/10 轴 旋 转 一 周\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 所 得 几 何 体 的 体 积 为$[]$\TU/lmr/m/n/10 . 
+ []
+
+
+Overfull \hbox (46.91989pt too wide) in paragraph at lines 285--286
+[]\TU/华文中宋(0)/m/n/10 将 一 个 正 方 形 绕 着 它 的 一 边 所 在 的 直 线 旋 转 一 周\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 所 得 几 何 体 的 体 积 为 $\OT1/cmr/m/n/10 27\OML/cmm/m/it/10 ^^Y[][]$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 该 几 何 体 的 侧 面 积 为$[]$$[][]$\TU/lmr/m/n/10 . 
+ []
+
+[9] [10] [11] [12] (./赋能.aux) ) 
 Here is how much of TeX's memory you used:
- 19760 strings out of 476919
- 448122 string characters out of 5825424
- 776737 words of memory out of 5000000
- 39376 multiletter control sequences out of 15000+600000
+ 19824 strings out of 476919
+ 449149 string characters out of 5825424
+ 781287 words of memory out of 5000000
+ 39440 multiletter control sequences out of 15000+600000
  406095 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,14n,104p,416b,831s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 赋能.pdf (6 pages).
+Output written on 赋能.pdf (12 pages).
