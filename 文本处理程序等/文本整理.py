@@ -39,7 +39,7 @@ data = re.sub("）[\n]*",")",data)
 data = re.sub("“[\n]*","``",data)
 data = re.sub("”[\n]*","''",data)
 
-data = re.sub("([0-9]+\. )",r"\\item ",data)
+data = re.sub("([0-9]+\.[\s]+)",r"\\item ",data)
 data = re.sub("\\\\\[",r"$",data)
 data = re.sub("\\\\\]",r"$",data)
 data = data.replace("\\frac","\\dfrac")
