@@ -1,13 +1,20 @@
-\item 在复平面内, 复数$\dfrac{5+4i}i$($i$为虚数单位)对应的点的坐标为\blank{50}.
-\item 函数$f(x)=\sqrt{1-\lg x}$的定义域为\blank{50}.  
-\item 二项式${{(x-\dfrac1{2x})}^4}$的展开式中的常数项为\blank{50}.
-\item 若$| \begin{align}
-  & {4^x}\quad 2 \\ 
- & {2^x}\quad 1 \\ 
-\end{align} |=0 $, 则$x=$\blank{50}.
-\item 已知圆$O:{x^2}+{y^2}=1$与圆$O'$关于直线$x+y=5$对称, 则圆$O'$的方程是\blank{50}.
-\item 在坐标平面$xOy$内, $O$为坐标原点, 已知点$A(-\dfrac12,\dfrac{\sqrt3}2)$, 将$\overrightarrow{OA}$绕原点按顺时针方向
-旋转$\dfrac{\pi }2$, 得到$\overrightarrow{OA'}$, 则$\overrightarrow{OA'}$的坐标为\blank{50}.
-\item 某船在海平面$A$处测得灯塔$B$在北偏东$30{}^\circ $方向, 与$A$相距$6.0$海里.船由$A$向正北方向航行$8.1$海里到达$C$处, 这时灯塔$B$与船相距\blank{50}海里. (精确到0.1海里)\item 若公差为$d$的等差数列$\{a_n}\}( n\in {N^{*} )$满足${a_3}{a_4}+1=0$, 则公差$d$的取值范围是\blank{50}.
-\item 著名的斐波那契数列$\{ {a_n} \}:1,1,2,3,5,8,\ldots $, 满足${a_1}={a_2}=1,{a_{n+2}}={a_{n+1}}+{a_n}( n\in {N^{*}} )$, 那么$1+{a_3}+{a_5}+{a_7}+{a_9}+\ldots +{a_{2017}}$是斐波那契数列中的第\blank{50}项.
-\item 若不等式${(-1)}^n}\cdot a<3+\dfrac{{(-1)}^{n+1}{n+1}$对任意正整数$n$恒成立, 则实数$a$的取值范围是\blank{50}.
+\item  设全集$U=\{ 1,2,3,4 \}$, 集合$A=\{ x|{x^2}-5x+4<0,x\in \mathbf{Z} \}$, 则${C_U}A$=\blank{50}.
+\item 参数方程为$\{ \begin{align}
+  & x={t^2} \\ 
+ & y=2t \\ 
+ \end{align} $($t$为参数)的曲线的焦点坐标为\blank{50}.
+\item 已知复数$z$满足$| z |=1 $, 则$| z-2 |$的取值范围是\blank{50}.
+\item 设数列$\{ {a_n} \}$的前$n$项和为$S_n$, 若${S_n}=1-\dfrac23{a_n}(n\in {N^{*}})$, 则$\displaystyle\lim_{n\to\infty}{S_n}$=\blank{50}.
+\item 若${(x+\dfrac1{2x})}^n}(n\ge 4,n\in {N^{*})$的二项展开式中前三项的系数依次成等差数列, 则$n=$\blank{50}.
+\item 把$12345678910 $分别写在$10 $张形状大小一样的卡片上, 随机抽取一张卡片, 则抽到写着偶数或大于$6 $的数的卡片的概率为\blank{50}. (结果用最简分数表示)\item 若行列式$| \begin{align}
+\blank{50}& 124 \\ 
+  & \cos \dfracx2\sin \dfracx20 \\ 
+  & \sin \dfracx2\cos \dfracx28 \\ 
+ \end{align} |$中元素$4 $的代数余子式的值为$\dfrac12$, 则实数$x$的取值集合为
+\blank{50}.
+\item 满足约束条件$| x |+2 | y |\le 2 $的目标函数$z=y-x$的最小值是\blank{50}.
+\item 已知函数$f(x)=\{ \begin{align}
+  & {{\log }_2}x0<x<2 \\ 
+  & {{(\dfrac23)}^x}+\dfrac59x\ge 2 \\ 
+ \end{align} $. 若函数$g(x)=f(x)-k$有两个不同的零点, 则实数$k$的取值范围是\blank{50}.
+\item 某部门有8位员工, 其中6位员工的月工资分别为8200, 8300, 8500, 9100, 9500, 9600(单位: 元), 另两位员工的月工资数据不清楚, 但两人的月工资和为17000元, 则这8位员工月工资的中位数可能的最大值为\blank{50}元.
