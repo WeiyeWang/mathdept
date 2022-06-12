@@ -44,8 +44,8 @@ data = re.sub("\\\\\[",r"$",data)
 data = re.sub("\\\\\]",r"$",data)
 data = data.replace("\\frac","\\dfrac")
 
-data = re.sub("   [ ]+",r"\\blank{50}",data)
-data = re.sub("__[_]+",r"\\blank{50}",data)
+data = re.sub("[ _]{3,}",r"\\blank{50}",data)
+#data = re.sub("__[_]+",r"\\blank{50}",data)
 
 data = re.sub("\\\\text","",data)
 
@@ -61,6 +61,7 @@ data = re.sub("\\\i(n[ ]+[R|Q|Z|N|C])",boldsymbols,data)
 
 data = re.sub(r"\\underset{([\w])\\to \\infty }{\\mathop\\lim }\\,",limit,data) 
 data = re.sub(r"\\underset{([\w])\\to \\infty }{\\mathop{lim}}\\,",limit,data) 
+data = re.sub(r"\\underset{([\w])\\to \\infty }{\\mathop{\\lim }}\\,",limit,data)
 
 data = re.sub("\$\{([^\{\}]{0,10})\}\$",outer_brackets,data)
 

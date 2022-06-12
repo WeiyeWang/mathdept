@@ -1,16 +1,13 @@
-\item 集合$P=\{ x| 0 \le x<3x\in \mathbf{Z}  \}$, $M=\{ x| {x^2} \le 9 \}$, 则$P\cap M=$\blank{50}.
-\item 计算$\underset{n\to \infty }{\mathop{\lim }}\,\dfrac{C_n^2}{{n^2}+1}=$\blank{50}.
-\item 方程$| \begin{matrix}
-   1+\lg x & 3-\lg x  \\
-   1 & 1  \\
-\end{matrix} |=0$的根是\blank{50}.
-\item 已知$\sin \alpha -\dfrac35+(\cos \alpha -\dfrac45)i\,$是纯虚数($i$是虚数单位), 则$sin(\alpha +\dfrac{\pi }4)=$\blank{50}.
-\item 已知直线$l$的一个法向量是$\vecn=(\sqrt3-1)$, 则$l$的倾斜角的大小是\blank{50}.
-\item 从4名男同学和6名女同学中选取3人参加某社团活动, 选出的3人中男女同学都有的不同选法种数是\blank{50}(用数字作答).
-\item 在${( \,1+2x )}^5}$的展开式中, $x^2$项系数为\blank{50}.(用数字作答)\item 如图, 在直三棱柱$ABC-{A_1}{B_1}{C_1}$中, $\angle ACB{=}{{90}^{\circ }$, $AC=4$, $BC=3$, $AB=B{B_1}$, 则异面直线${A_1}B$与${B_1}{C_1}$
-所成角的大小是\blank{50}(结果用反三角函数表示).
-\item 已知数列$\{ {a_n} \}\{ {b_n} \}$满足${b_n}=\ln {a_n}$, $n\in \,{N^{*}}$, 其中$\{ {b_n} \}$
-是等差数列, 且${a_3}\cdot {a_{1007}}={e^4}$, 则${b_1}+{b_2}+\cdots +{b_{1009}}=$\blank{50}.
-\item 如图, 向量$\overrightarrow{OA}$与$\overrightarrow{OB}$的夹角为${120}^{\circ }$, $| \overrightarrow{OA} |=2$ ,
-$| \overrightarrow{OB} |=1$, $P$是以$O$为圆心、$|\overrightarrow{OB}|$为半径的弧$\overset\frown{BC}$上的
-动点, 若$\overrightarrow{OP}=\lambda \overrightarrow{OA}+\mu \overrightarrow{OB}$, 则$\lambda \mu $的最大值是\blank{50}.
+\item 在复平面内, 复数$\dfrac{5+4i}i$($i$为虚数单位)对应的点的坐标为\blank{50}.
+\item 函数$f(x)=\sqrt{1-\lg x}$的定义域为\blank{50}.  
+\item 二项式${{(x-\dfrac1{2x})}^4}$的展开式中的常数项为\blank{50}.
+\item 若$| \begin{align}
+  & {4^x}\quad 2 \\ 
+ & {2^x}\quad 1 \\ 
+\end{align} |=0 $, 则$x=$\blank{50}.
+\item 已知圆$O:{x^2}+{y^2}=1$与圆$O'$关于直线$x+y=5$对称, 则圆$O'$的方程是\blank{50}.
+\item 在坐标平面$xOy$内, $O$为坐标原点, 已知点$A(-\dfrac12,\dfrac{\sqrt3}2)$, 将$\overrightarrow{OA}$绕原点按顺时针方向
+旋转$\dfrac{\pi }2$, 得到$\overrightarrow{OA'}$, 则$\overrightarrow{OA'}$的坐标为\blank{50}.
+\item 某船在海平面$A$处测得灯塔$B$在北偏东$30{}^\circ $方向, 与$A$相距$6.0$海里.船由$A$向正北方向航行$8.1$海里到达$C$处, 这时灯塔$B$与船相距\blank{50}海里. (精确到0.1海里)\item 若公差为$d$的等差数列$\{a_n}\}( n\in {N^{*} )$满足${a_3}{a_4}+1=0$, 则公差$d$的取值范围是\blank{50}.
+\item 著名的斐波那契数列$\{ {a_n} \}:1,1,2,3,5,8,\ldots $, 满足${a_1}={a_2}=1,{a_{n+2}}={a_{n+1}}+{a_n}( n\in {N^{*}} )$, 那么$1+{a_3}+{a_5}+{a_7}+{a_9}+\ldots +{a_{2017}}$是斐波那契数列中的第\blank{50}项.
+\item 若不等式${(-1)}^n}\cdot a<3+\dfrac{{(-1)}^{n+1}{n+1}$对任意正整数$n$恒成立, 则实数$a$的取值范围是\blank{50}.
