@@ -1,18 +1,18 @@
-1．若全集U=R，集合A={x|x≤0或x≥2}，则 UA=          ．
-2．不等式$\frac{x-1}{x}<0$的解为             ．
-3．方程组$\left\{ \begin{align}
-  & 3x-2y=1 \\ 
- & 2x+3y=5 \\ 
-\end{align} \right.$的增广矩阵是             ．
-4．若复数z=2–i（i为虚数单位），则$z\cdot \overline{z}+z$=           ．
-5．已知F1、F2是椭圆$\frac{{{x}^{2}}}{25}+\frac{{{y}^{2}}}{9}=1$的两个焦点，P是椭圆上的一个动点，则|PF1||PF2|的最大值是_______． 
-6．已知x，y满足$\left\{ \begin{align}
-  & x-y+1\ge 0 \\ 
- & x+y-3\ge 0 \\ 
- & x\le 2 \\ 
-\end{align} \right.$，则目标函数k=2x+y的最大值为       ． 
-7．从一副混合后的扑克牌（52张）中随机抽取1张，事件A为“抽得红桃K”，事件B为“抽得为黑桃”，则概率P(A∪B)=     （结果用最简分数表示）． 
-8．已知点A(2，3)、点B(–2，$\sqrt{3}$)，直线l过点P(–1，0)，若直线l与线段AB相交，则直线l的倾斜角的取值范围是        ． 
-9. 数列{an}的通项公式是an=2n–1(nN*)，数列{bn}的通项公式是bn=3n(nN*)，令集合A={a1，a2，…，an，…}，B={b1，b2，…，bn，…}，nN*．将集合A∪B中的所有元素按从小到大的顺序排列，构成的数列记为{cn}．则数列{cn}的前28项的和S28=       ．
-10．向量$\overrightarrow{\ i}$、$\overrightarrow{j}$是平面直角坐标系x轴、y轴的基本单位向量，且|$\overrightarrow{a}$–$\overrightarrow{\ i}$|+|$\overrightarrow{a}$–2$\overrightarrow{j}$|=$\sqrt{5}$，则$|\overrightarrow{a}+2\overrightarrow{\ i}|$的取值范围为        ． 
-
+1．集合\[P=\left\{ x\left| 0\le x<3x\in Z \right. \right\}\]，\[M=\left\{ x\left| {{x}^{2}} \right.\le 9 \right\}\]，则\[P\bigcap M=\]          ．
+2．计算$\underset{n\to \infty }{\mathop{\lim }}\,\frac{C_{n}^{2}}{{{n}^{2}}+1}=$            ．
+3．方程$\left| \begin{matrix}
+   1+\lg x & 3-\lg x  \\
+   1 & 1  \\
+\end{matrix} \right|=0$的根是        ．
+4．已知\[\sin \alpha -\frac{3}{5}+(\cos \alpha -\frac{4}{5})i\,\]是纯虚数（$i$是虚数单位），则\[sin(\alpha +\frac{\pi }{4})=\]      .
+5．已知直线$l$的一个法向量是\[\vec{n}=(\sqrt{3}-1)\]，则$l$的倾斜角的大小是         ．
+6．从4名男同学和6名女同学中选取3人参加某社团活动，选出的3人中男女同学都有的不同选法种数是       （用数字作答）.
+7．在${{\left( \,1+2x \right)}^{5}}$的展开式中，${{x}^{2}}$项系数为               .（用数字作答）
+8．如图，在直三棱柱$ABC-{{A}_{1}}{{B}_{1}}{{C}_{1}}$中，$\angle ACB\text{=}{{90}^{\circ }}$，
+$AC=4$，$BC=3$，$AB=B{{B}_{1}}$，则异面直线\[{{A}_{1}}B\]与\[{{B}_{1}}{{C}_{1}}\]
+所成角的大小是           （结果用反三角函数表示）．
+9．已知数列$\left\{ {{a}_{n}} \right\}\left\{ {{b}_{n}} \right\}$满足${{b}_{n}}=\ln {{a}_{n}}$，$n\in \,{{N}^{*}}$，其中$\left\{ {{b}_{n}} \right\}$
+是等差数列，且${{a}_{3}}\cdot {{a}_{1007}}={{e}^{4}}$，则${{b}_{1}}+{{b}_{2}}+\cdots +{{b}_{1009}}=$        ．
+10．如图，向量\[\overrightarrow{OA}\]与\[\overrightarrow{OB}\]的夹角为${{120}^{\circ }}$，$\left| \overrightarrow{OA} \right|=2$ ,
+$\left| \overrightarrow{OB} \right|=1$，$P$是以$O$为圆心、$|\overrightarrow{OB}|$为半径的弧$\overset\frown{BC}$上的
+动点，若$\overrightarrow{OP}=\lambda \overrightarrow{OA}+\mu \overrightarrow{OB}$，则$\lambda \mu $的最大值是        .

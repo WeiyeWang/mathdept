@@ -1,5 +1,5 @@
 import os,re
-#os.chdir(r"D:\mathdept\文本处理程序等")
+os.chdir(r"D:\mathdept\文本处理程序等")
 with open("textfile.txt", "r", encoding = "utf8") as textfile:
     data = textfile.read()
 
@@ -20,6 +20,9 @@ def insert_a_blank(matchobj):
 
 def limit(matchobj):
     return "\\displaystyle\\lim_{"+matchobj.group(1)+"\\to\\infty}"
+
+def outer_brackets(matchobj):
+    return "$"+ matchobj.group(1) + "$"
 
 data = re.sub(r"([\d]\\)",insert_a_blank,data)
 
@@ -44,9 +47,12 @@ data = data.replace("\\frac","\\dfrac")
 data = re.sub("   [ ]+",r"\\blank{50}",data)
 data = re.sub("__[_]+",r"\\blank{50}",data)
 
+data = re.sub("\\\\text","",data)
 
 for i in range(10):
-    data = re.sub("(\{\\\\[\w]+[ ]*\}|\{\}|\{\w\})",refine_brackets,data)
+    data = re.sub("(\{[\w+\-]\})",refine_brackets,data)
+for i in range(10):
+    data = re.sub("(\{\{.*?\}\})",refine_brackets,data)
 
 data = re.sub("(\\\\overrightarrow[\w])",insert_a_blank,data)
 
@@ -55,6 +61,10 @@ data = re.sub("\\\i(n[ ]+[R|Q|Z|N|C])",boldsymbols,data)
 
 data = re.sub(r"\\underset{([\w])\\to \\infty }{\\mathop\\lim }\\,",limit,data) 
 data = re.sub(r"\\underset{([\w])\\to \\infty }{\\mathop{lim}}\\,",limit,data) 
+
+data = re.sub("\$\{([^\{\}]{0,10})\}\$",outer_brackets,data)
+
+
 
 with open("outputfile.txt","w",encoding = "utf8") as f:
     f.write(data)
