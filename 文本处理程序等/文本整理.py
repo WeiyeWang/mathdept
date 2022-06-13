@@ -5,6 +5,7 @@ except:
     os.chdir(r"D:\mathdept\文本处理程序等")
 with open("textfile.txt", "r", encoding = "utf8") as textfile:
     data = textfile.read()
+    data1 = data
 
 def full_stop(matchobj):
     if matchobj.group(1) == "。" or matchobj.group(1) == "．":
@@ -35,6 +36,7 @@ def replace_i(matchobj):
             string = string[:i] + "\\mathrm{i}" + string[i+1:]
     return string
 
+
 data = re.sub(r"([\d]\\)",insert_a_blank,data)
 
 data = data.replace(r"\left","").replace(r"\right.","").replace(r"\right","")
@@ -58,6 +60,7 @@ data = data.replace("\\frac","\\dfrac")
 data = re.sub("[ _]{3,}",r"\\blank{50}",data)
 
 data = re.sub("\\\\[!,]","",data)
+data = re.sub("[\w\d\s]*?\\\\[\s]+","",data)
 data = re.sub("\{ *?\}","",data)
 data = re.sub("\( *?","(",data)
 data = re.sub(" *?\)",")",data)
@@ -80,10 +83,17 @@ data = re.sub(r"\\underset{([\w])\\to \\infty }{\\mathop\\lim }\\,",limit,data)
 data = re.sub(r"\\underset{([\w])\\to \\infty }{\\mathop{lim}}\\,",limit,data) 
 data = re.sub(r"\\underset{([\w])\\to \\infty }{\\mathop{\\lim }}\\,",limit,data)
 data = re.sub(r"\\underset{([\w])\\to \\infty }{\\mathop{\\lim }}",limit,data)
+data = re.sub(r"\\underset{([\w])\\to \\infty }{\\mathop{\\lim }",limit,data)
+
 data = re.sub("\$\{([^\{\}]{0,10})\}\$",outer_brackets,data)
 
 data = re.sub("(\\n.*?复数.*?\\n)",replace_i,data)
-data = re.sub("\{\([\w]\)\^\{\-1\}\}"
+data = re.sub("(\{[\w]\^\{\-1\}\})",refine_brackets,data)
+
+data = re.sub(r"\\begin{align}","\\\\begin{cases}",data)
+data = re.sub(r"\\\\end{align}","\\\\end{cases}",data)
+data = re.sub(r"\\quad", "", data)
+
 
 
 with open("outputfile.txt","w",encoding = "utf8") as f:

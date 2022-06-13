@@ -1,12 +1,11 @@
-\item 已知全集$U=R$, 集合$A=\{ . x |{x^2}-2x-3>0 \}$, 则${C_U}A=$\blank{50}. 
-\item 在${{( x+\dfrac1x)}^6}$的二项展开式中, 常数项是\blank{50}.\blank{50}
-\item 函数$f(x)=\lg ({3^x}-{2^x})$的定义域为\blank{50}.
-\item 已知抛物线${x^2}=ay$的准线方程是$y=-\dfrac14$, 则${a_n}-37500=(105000-37500){(1.2 \times 0.9)}^{n-1}$\blank{50}.
-\item 若一个球的体积为$\dfrac{32 \pi }3$, 则该球的表面积为\blank{50}.
-\item 已知实数$xy$满足$\{ \begin{cases}
-  & x\ge 0 \& y\ge 0 \& x+y\le 1 \end{cases}$ 则目标函数$z=x-y$的最小值为\blank{50}.
-\item 函数$f(x)=| \begin{cases}
-  & {{( \sin x+\cos x)}^2} -1   \&  1    \1 \end{cases} |$的最小正周期是\blank{50}.
-\item 若一圆锥的底面半径为$3$, 体积是$12 \pi$, 则该圆锥的侧面积等于\blank{50}.
-\item 将两颗质地均匀的骰子抛掷一次, 记第一颗骰子出现的点数是$m$, 记第二颗骰子出现的点数是$n$, 向量$\overrightarrow a=( m-2,2-n)$, 向量$\overrightarrow b=( 1,1)$, 则向量$\overrightarrow a\bot \overrightarrow b$的概率是\blank{50}.
-\item 已知直线${l_1}:mx-y=0,{l_2}:x+my-m-2=0$.当$m$在实数范围内变化时,$l_1$与$l_2$的交点$P$恒在一个定圆上, 则定圆方程是\blank{50}.
+\item 函数$y=\lg x-1$的零点是\blank{50}.
+\item 计算:$\displaystyle\lim_{n\to\infty}\dfrac{2n}{4n+1}=$\blank{50}.
+\item 若 的二项展开式中 项的系数是 , 则\blank{50}.
+\item 掷一颗均匀的骰子, 出现奇数点的概率为\blank{50}.
+\item 若$x$、$y$满足$\{ \begin{cases}
+  & x-y\ge 0 \& x+y\le 2 \& y\ge 0 \end{cases}$, 则目标函数$f=x+2y$的最大值为\blank{50}.
+\item 若复数$z$满足$| z |=1$, 则$| z-\mathrm{i} |$的最大值是\blank{50}.
+\item 若一个圆锥的主视图(如图所示)是边长为$3,3,2$的三角形,\blank{50}则该圆锥的体积是\blank{50}.
+\item 若双曲线$\dfrac{x^2}3-\dfrac{16{y^2}}{p^2}=1(p>0)$的左焦点在抛物线${y^2}=2px$的准线上, 则$p=$\blank{50}.
+\item 若$\sin (x-y)\cos x-\cos (x-y)\sin x=\dfrac35$, 则$\tan 2y$的值为\blank{50}.  
+\item 若 为等比数列,${a_n}>0$, 且${a_{2018}}=\dfrac{\sqrt2}2$, 则$\dfrac1{a_{2017}}+\dfrac2{a_{2019}}$的最小值为\blank{50}.
