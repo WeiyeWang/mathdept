@@ -1,5 +1,8 @@
 import os,re
-os.chdir(r"D:\mathdept\文本处理程序等")
+try:
+    os.chdir(r"D:\mathdept\mathdept\文本处理程序等")
+except:
+    os.chdir(r"D:\mathdept\文本处理程序等")
 with open("textfile.txt", "r", encoding = "utf8") as textfile:
     data = textfile.read()
 
@@ -24,6 +27,14 @@ def limit(matchobj):
 def outer_brackets(matchobj):
     return "$"+ matchobj.group(1) + "$"
 
+def replace_i(matchobj):
+    string = matchobj.group(1)
+    length = len(string)
+    for i in range(length-1,-1,-1):
+        if string[i] == "i" and not "item" in string[i:]:
+            string = string[:i] + "\\mathrm{i}" + string[i+1:]
+    return string
+
 data = re.sub(r"([\d]\\)",insert_a_blank,data)
 
 data = data.replace(r"\left","").replace(r"\right.","").replace(r"\right","")
@@ -45,7 +56,13 @@ data = re.sub("\\\\\]",r"$",data)
 data = data.replace("\\frac","\\dfrac")
 
 data = re.sub("[ _]{3,}",r"\\blank{50}",data)
-#data = re.sub("__[_]+",r"\\blank{50}",data)
+
+data = re.sub("\\\\[!,]","",data)
+data = re.sub("\{ *?\}","",data)
+data = re.sub("\( *?","(",data)
+data = re.sub(" *?\)",")",data)
+data = re.sub("\$ *?","$",data)
+data = re.sub(" *?\$","$",data)
 
 data = re.sub("\\\\text","",data)
 
@@ -62,9 +79,11 @@ data = re.sub("\\\i(n[ ]+[R|Q|Z|N|C])",boldsymbols,data)
 data = re.sub(r"\\underset{([\w])\\to \\infty }{\\mathop\\lim }\\,",limit,data) 
 data = re.sub(r"\\underset{([\w])\\to \\infty }{\\mathop{lim}}\\,",limit,data) 
 data = re.sub(r"\\underset{([\w])\\to \\infty }{\\mathop{\\lim }}\\,",limit,data)
-
+data = re.sub(r"\\underset{([\w])\\to \\infty }{\\mathop{\\lim }}",limit,data)
 data = re.sub("\$\{([^\{\}]{0,10})\}\$",outer_brackets,data)
 
+data = re.sub("(\\n.*?复数.*?\\n)",replace_i,data)
+data = re.sub("\{\([\w]\)\^\{\-1\}\}"
 
 
 with open("outputfile.txt","w",encoding = "utf8") as f:

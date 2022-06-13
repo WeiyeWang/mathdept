@@ -1,20 +1,12 @@
-\item 集合$A=\{ 1,2,3,4 \}$, $B=\{ . x |(x-1)(x-5)<0 \}$, 则$A\cap B=$\blank{50}.
-\item 复数$z=\dfrac{2-i}{1+i}$所对应的点在复平面内位于第\blank{50}象限.
-\item 已知首项为1公差为2的等差数列$\{ {a_n} \}$, 其前$n$项和为$S_n$, 则$\displaystyle\lim_{n\to\infty}\dfrac{{({a_n})}^2}{S_n}=$\blank{50}.
-\item 若方程组$\{ \begin{align}
-  & ax+2y=3 \\ 
- & 2x+ay=2 \\ 
-\end{align} $无解, 则实数$a=$\blank{50}.
-\item 若${{(x+a)}^7}$的二项展开式中, 含$x^6$项的系数为$7$, 则实数$a=$\blank{50}.
-\item 已知双曲线${x^2}-\dfrac{y^2}{a^2}=1(a>0)$,它的渐近线方程是$y=\pm 2x$,则$a$的值为\blank{50}.
-\item 在$\Delta ABC$中, 三边长分别为$a=2$, $b=3$, $c=4$, 则$\dfrac{\sin 2A}{\sin B}=$\blank{50}.
-\item 在平面直角坐标系中, 已知点$P(-2,2)$, 对于任意不全为零的实数$a$、$b$, 直线$l:a(x-1)+b(y+2)=0$, 若点$P$到直线$l$的距离为$d$, 则$d$的取值范围是\blank{50}.
-\item 函数$f(x)=\{ \begin{align}
-  & \begin{matrix}
-\blank{50}| x | & {} & x\le 1  \\
-\end{matrix} \\ 
- & \begin{matrix}
-\blank{50}{{(x-2)}^2} & x>1  \\
-\end{matrix} \\ 
-\end{align} $, 如果方程$f(x)=b$有四个不同的实数解$x_1$、$x_2$、$x_3$、$x_4$, 则${x_1}+{x_2}+{x_3}+{x_4}=$\blank{50}.
-\item 三条侧棱两两垂直的正三棱锥, 其俯视图如图所示, 主视图的边界是底边长为2的等腰三角形, 则主视图的面积等于\blank{50}.
+\item 已知全集$U=R$, 集合$A=\{ . x |{x^2}-2x-3>0 \}$, 则${C_U}A=$\blank{50}. 
+\item 在${{( x+\dfrac1x)}^6}$的二项展开式中, 常数项是\blank{50}.\blank{50}
+\item 函数$f(x)=\lg ({3^x}-{2^x})$的定义域为\blank{50}.
+\item 已知抛物线${x^2}=ay$的准线方程是$y=-\dfrac14$, 则${a_n}-37500=(105000-37500){(1.2 \times 0.9)}^{n-1}$\blank{50}.
+\item 若一个球的体积为$\dfrac{32 \pi }3$, 则该球的表面积为\blank{50}.
+\item 已知实数$xy$满足$\{ \begin{cases}
+  & x\ge 0 \& y\ge 0 \& x+y\le 1 \end{cases}$ 则目标函数$z=x-y$的最小值为\blank{50}.
+\item 函数$f(x)=| \begin{cases}
+  & {{( \sin x+\cos x)}^2} -1   \&  1    \1 \end{cases} |$的最小正周期是\blank{50}.
+\item 若一圆锥的底面半径为$3$, 体积是$12 \pi$, 则该圆锥的侧面积等于\blank{50}.
+\item 将两颗质地均匀的骰子抛掷一次, 记第一颗骰子出现的点数是$m$, 记第二颗骰子出现的点数是$n$, 向量$\overrightarrow a=( m-2,2-n)$, 向量$\overrightarrow b=( 1,1)$, 则向量$\overrightarrow a\bot \overrightarrow b$的概率是\blank{50}.
+\item 已知直线${l_1}:mx-y=0,{l_2}:x+my-m-2=0$.当$m$在实数范围内变化时,$l_1$与$l_2$的交点$P$恒在一个定圆上, 则定圆方程是\blank{50}.
