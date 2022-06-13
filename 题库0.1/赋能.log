@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  12 JUN 2022 22:36
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  13 JUN 2022 10:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -760,16 +760,16 @@ Overfull \hbox (7.82074pt too wide) in paragraph at lines 449--450
 []\TU/华文中宋(0)/m/n/10 抛 物 线 $\OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 x$ \TU/华文中宋(0)/m/n/10 的 焦 点 与 双 曲 线 $[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 = 1$ \TU/华文中宋(0)/m/n/10 的 左 焦 点 重 合\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 这 条 双 曲 线 的 两 条 渐 近 线 的 夹 角 为$[]$\TU/lmr/m/n/10 . 
  []
 
-[15] [16] [17] [18] [19] [20]
+[15] [16] [17] [18] [19] [20] [21]
 Missing character: There is no ; ("3B) in font nullfont!
- [21] [22] [23] (./赋能.aux) ) 
+ [22] [23] [24] (./赋能.aux) ) 
 Here is how much of TeX's memory you used:
- 19897 strings out of 476919
- 450583 string characters out of 5825424
- 785655 words of memory out of 5000000
- 39511 multiletter control sequences out of 15000+600000
+ 19907 strings out of 476919
+ 450719 string characters out of 5825424
+ 781759 words of memory out of 5000000
+ 39521 multiletter control sequences out of 15000+600000
  406111 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,14n,104p,416b,834s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 赋能.pdf (23 pages).
+Output written on 赋能.pdf (24 pages).
