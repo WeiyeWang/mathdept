@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  13 JUN 2022 16:39
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  13 JUN 2022 22:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -780,16 +780,21 @@ Overfull \hbox (5.8269pt too wide) in paragraph at lines 852--853
 []\TU/华文中宋(0)/m/n/10 设 变 量 $\OML/cmm/m/it/10 x; y$ \TU/华文中宋(0)/m/n/10 满 足 条 件 $[]$ 若 该 条 件 表 示 的 平 面 区 域 是 三 角 形\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 实 数 $\OML/cmm/m/it/10 m$ \TU/华文中宋(0)/m/n/10 的 取 值 范 围 是$[]$\TU/lmr/m/n/10 . 
  []
 
-[29] [30] [31] [32] [33]
+[29] [30] [31]
+Overfull \hbox (19.23557pt too wide) in paragraph at lines 1007--1008
+[]\TU/华文中宋(0)/m/n/10 已 知 各 项 均 为 正 数 的 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/华文中宋(0)/m/n/10 满 足 $[] \OT1/cmr/m/n/10 + [] + [] + [] = \OML/cmm/m/it/10 n[] \OT1/cmr/m/n/10 + 3\OML/cmm/m/it/10 n$\TU/lmr/m/n/10 ($\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 2 [][]$\TU/lmr/m/n/10 ), \TU/华文中宋(0)/m/n/10 则 $[] \OT1/cmr/m/n/10 + [] + [] [] =$$[]$\TU/lmr/m/n/10 . 
+ []
+
+[32] [33] [34] [35] [36]
 Missing character: There is no ; ("3B) in font nullfont!
- [34] [35] [36] (./赋能.aux) ) 
+ [37] [38] [39] (./赋能.aux) ) 
 Here is how much of TeX's memory you used:
- 20075 strings out of 476919
- 454884 string characters out of 5825424
- 786925 words of memory out of 5000000
- 39689 multiletter control sequences out of 15000+600000
+ 20124 strings out of 476919
+ 455772 string characters out of 5825424
+ 796241 words of memory out of 5000000
+ 39738 multiletter control sequences out of 15000+600000
  406111 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,14n,104p,416b,836s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,16n,104p,416b,836s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 赋能.pdf (36 pages).
+Output written on 赋能.pdf (39 pages).
