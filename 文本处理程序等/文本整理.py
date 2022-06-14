@@ -36,6 +36,9 @@ def replace_i(matchobj):
             string = string[:i] + "\\mathrm{i}" + string[i+1:]
     return string
 
+def multiple_choice(matchobj):
+    string = "\\fourch" + "{" + matchobj.group(1) + "}{" + matchobj.group(2) + "}{" + matchobj.group(3) + "}{" + matchobj.group(4) + "}"
+    return string
 
 data = re.sub(r"([\d]\\)",insert_a_blank,data)
 
@@ -94,7 +97,9 @@ data = re.sub(r"\\begin{align}","\\\\begin{cases}",data)
 data = re.sub(r"\\\\end{align}","\\\\end{cases}",data)
 data = re.sub(r"\\quad", "", data)
 
-
+data = re.sub(r"\(\\blank\{50\}\)","\\\\bracket{20}",data)
+data = re.sub("\\\\blank\{50\}","",data)
+data = re.sub("A\.([\s\S]*?)B\.([\s\S]*?)C\.([\s\S]*?)D\.([\s\S]*?)\\n",multiple_choice,data)
 
 with open("outputfile.txt","w",encoding = "utf8") as f:
     f.write(data)

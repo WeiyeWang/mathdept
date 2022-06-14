@@ -49,6 +49,112 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 
 \begin{document}
 
+{\bf 2021年秋考}
+
+\begin{enumerate}[1.]
+\item 已知$z_1=1+\mathrm{i}$, $z_2=2+3\mathrm{i}$($i$是虚数单位), 则$z_1+z_2=$\blank{50}.
+\item 已知$A=\{x|2x\le 1\}$, $B=\{-1,0,1\}$, 则$A\cap B=$\blank{50}.
+\item 已知圆$x^2+y^2-2x-4y=0$, 则该圆的圆心坐标为\blank{50}.
+\item 如图, 正方形$ABCD$的边长为$3$, 则$\overrightarrow{AB}\cdot \overrightarrow{AC}=$\blank{50}.
+\begin{center}
+    \begin{tikzpicture}[>=latex]
+        \draw (0,0) -- (0,1) node [above left] {$D$}  -- (1,1) -- (1,0);
+        \draw [->] (0,0) node [below left] {$A$} -- (1,1) node [above right] {$C$};
+        \draw [->] (0,0) -- (1,0) node [below right] {$B$};
+    \end{tikzpicture}
+\end{center}
+\item 已知$f(x)=\dfrac3x+2$, 则$f^{-1}(1)=$\blank{50}.
+\item 已知二项式$(x+a)^5$展开式中,$x^2$项的系数为$80$, 则$a=$\blank{50}.
+\item 已知实数$x,y$满足$\begin{cases} x\le 3,  \\ 2x-y-2 \ge 0,  \\ 3x+y-8 \ge 0,  \end{cases}$ 则$z=x-y$的最大值为\blank{50}.
+\item 已知无穷等比数列$\{a_n\}$和$\{b_n\}$, 满足$a_1=3$, $b_n=a_{2n}$, $a_n$的各项和为$9$, 则数列$\{b_n\}$的各项和为\blank{50}.
+\item 已知圆柱的底面半径为$1$, 高为$2$, AB为上底面圆的一条直径, $C$为下底面圆周上的一个动点, 则$\triangle ABC$的面积的取值范围为\blank{50}.
+\item 已知花博会有四个不同的场馆A、B、C、D, 甲、乙两人每人选$2$个去参观, 则他们的选择中, 恰有一个场馆相同的概率为\blank{50}.
+\item 已知抛物线:$y^2=2px \ (p>0)$, 若第一象限的$A,B$两点在抛物线上, 焦点为$F$, $|AF|=2$, $|BF|=4$, $|AB|=3$, 则直线$AB$的斜率为\blank{50}.
+\item 已知$a_i\in \mathbf{N}^* \ (i=1,2,\cdots,9)$, 若对任意的$k\in \mathbf{N}^* \ (2\le k\le 8)$, $a_k=a_{k-1}+1$或$a_k=a_{k+1}-1$中有且仅有一个成立, 且$a_1=6$, $a_9=9$, 则$a_1+a_2+\cdots+a_9$的最小值为\blank{50}.
+\item 下列函数中, 既是奇函数又是减函数的是\bracket{20}.
+\fourch{$y=-3x$}{$y=x^3$}{$y=\log_3^x$}{$y=3^x$}
+\item 已知参数方程$\begin{cases} x=3t-4t^3, \\ y=2t\sqrt{1-t^2}, \end{cases} (t\in [-1,1])$, 下列选项的图中, 该参数方程对应的曲线为\bracket{20}.
+\fourch{
+\begin{tikzpicture}[>=latex]
+    \draw [->] (-1.3,0) -- (1.3,0) node [above] {$x$};
+    \draw [->] (0,-1.3) -- (0,1.3) node [right] {$y$};
+    \draw (0,0) node [below left] {$O$};
+    \draw [dashed] (-1,-1) -- (-1,1) -- (1,1) -- (1,-1) -- cycle;
+    \draw (1,0) node [below right] {$1$} (-1,0) node [below left] {$-1$} (0,1) node [above left] {$1$} (0,-1) node [below left] {$-1$};
+    \draw [thick, domain = 0:360, samples = 200] plot ({cos(2*\x)},{sin(3*\x)}); 
+\end{tikzpicture}    
+}{
+\begin{tikzpicture}[>=latex]
+    \draw [->] (-1.3,0) -- (1.3,0) node [above] {$x$};
+    \draw [->] (0,-1.3) -- (0,1.3) node [right] {$y$};
+    \draw (0,0) node [below left] {$O$};
+    \draw [dashed] (-1,-1) -- (-1,1) -- (1,1) -- (1,-1) -- cycle;
+    \draw (1,0) node [below right] {$1$} (-1,0) node [below left] {$-1$} (0,1) node [above left] {$1$} (0,-1) node [below left] {$-1$};
+    \draw [thick, domain = 0:180, samples = 200] plot ({-cos(3*\x)},{sin(2*\x)}); 
+\end{tikzpicture} 
+}{
+\begin{tikzpicture}[>=latex]
+    \draw [->] (-1.3,0) -- (1.3,0) node [above] {$x$};
+    \draw [->] (0,-1.3) -- (0,1.3) node [right] {$y$};
+    \draw (0,0) node [below left] {$O$};
+    \draw [dashed] (-1,-1) -- (-1,1) -- (1,1) -- (1,-1) -- cycle;
+    \draw (1,0) node [below right] {$1$} (-1,0) node [below left] {$-1$} (0,1) node [above left] {$1$} (0,-1) node [below left] {$-1$};
+    \draw [thick, domain = 0:90, samples = 200] plot ({sqrt(cos(\x))},{sqrt(sin(\x))});
+    \draw [thick, domain = 0:90, samples = 200] plot ({-sqrt(cos(\x))},{sqrt(sin(\x))});
+    \draw [thick, domain = 0:90, samples = 200] plot ({sqrt(cos(\x))},{-sqrt(sin(\x))}); 
+    \draw [thick, domain = 0:90, samples = 200] plot ({-sqrt(cos(\x))},{-sqrt(sin(\x))});
+\end{tikzpicture} 
+}{
+\begin{tikzpicture}[>=latex]
+    \draw [->] (-1.3,0) -- (1.3,0) node [above] {$x$};
+    \draw [->] (0,-1.3) -- (0,1.3) node [right] {$y$};
+    \draw (0,0) node [below left] {$O$};
+    \draw [dashed] (-1,-1) -- (-1,1) -- (1,1) -- (1,-1) -- cycle;
+    \draw (1,0) node [below right] {$1$} (-1,0) node [below left] {$-1$} (0,1) node [above left] {$1$} (0,-1) node [below left] {$-1$};
+    \draw [thick, domain = 0:360, samples = 200] plot ({sin(\x)},{-cos(2*\x)});
+\end{tikzpicture}     
+}
+\item 已知$f(x)=3\sin x+2$, 对任意的$x_1\in [0,\dfrac{\pi}2]$, 都存在$x_2\in [0,\dfrac{\pi}2]$, 使得$f({x_1})+2f(x_2+\theta)=3$成立, 则在下列选项中$\theta$可能的值为\bracket{20}.
+\fourch{$\dfrac{3\pi}5$}{$\dfrac{4\pi}5$}{$\dfrac{6\pi}5$}{$\dfrac{7\pi}5$}
+\item 已知两两不等的实数$x_1,y_1,x_2,y_2,x_3,y_3$同时满足: \textcircled{1} $x_1<y_1$, $x_2<y_2$, $x_3<y_3$; \textcircled{2} $x_1+y_1=x_2+y_2=x_3+y_3$; \textcircled{3} $x_1y_1+x_3y_3=2x_2y_2>0$, 则下列选项中恒成立的是\bracket{20}.
+\fourch{$2x_2<x_1+x_3$}{$2x_2>x_1+x_3$}{$x_2^2<x_1x_3$}{$x_2^2>x_1x_3$}
+\item 如图, 在长方体$ABCD-A_1B_1C_1D_1$中, 已知$AB=BC=2$, $AA_1=3$.\\
+(1) 若点$P$是棱$A_1D_1$上的动点, 求三棱锥$C-PAD$的体积;\\
+(2) 求直线$AB_1$与平面$ACC_1A_1$的夹角大小.
+\begin{center}
+    \begin{tikzpicture}
+        \draw (0,0) node [below left] {$A$} coordinate (A) --++ (2,0) node [below right] {$B$} coordinate (B) --++ (45:{2/2}) node [right] {$C$} coordinate (C)
+        --++ (0,3) node [above right] {$C_1$} coordinate (C1)
+        --++ (-2,0) node [above left] {$D_1$} coordinate (D1) --++ (225:{2/2}) node [left] {$A_1$} coordinate (A1) -- cycle;
+        \draw (A) ++ (2,3) node [right] {$B_1$} coordinate (B1) -- (B) (B1) --++ (45:{2/2}) (B1) --++ (-2,0);
+        \draw [dashed] (A) --++ (45:{2/2}) node [left] {$D$} coordinate (D) --++ (2,0) (D) --++ (0,3);
+    \end{tikzpicture}
+\end{center}
+\item 已知在$\triangle ABC$中,$A,B,C$所对边分别为$a,b,c$, 且$a=3$, $b=2c$.\\
+(1) 若$A=\dfrac{2\pi}3$, 求$\triangle ABC$的面积;\\ 
+(2) 若$2\sin B-\sin C=1$, 求$\triangle ABC$的周长.
+\item 已知某企业今年(2021年)第一季度的营业额为$1.1$亿元, 以后每个季度的营业额比上个季度增加$0.05$亿元, 该企业第一季度的利润为$0.16$亿元, 以后每季度比前一季度增长$4\%$.\\ 
+(1) 求2021年起前$20$季度营业额的总和;\\ 
+(2) 请问哪一季度的利润首次超过该季度营业额的$18\%$?
+\item 已知椭圆$\Gamma:\dfrac{x^2}2+y^2=1$, $F_1, F_2$是其左右焦点, 直线$l$过点$P(m,0) \ (m<-\sqrt2)$, 交椭圆$\Gamma$于$A,B$两点, 且$A,B$都在$x$轴上方, 点$A$在线段$BP$上.\\
+(1) 若B是上顶点,$|\overrightarrow{BF_1}|=|\overrightarrow{PF_1}|$, 求m的值;\\
+(2) 若$\overrightarrow{F_1A}\cdot \overrightarrow{F_2A}=\dfrac13$, 且原点$O$到直线$l$的距离为$\dfrac{4\sqrt{15}}{15}$, 求直线$l$的方程;\\
+(3) 对于任意点$P$, 是否存在唯一直线$l$, 使得$\overrightarrow{F_1A}\parallel \overrightarrow{F_2B}$成立? 若存在, 求出直线$l$的斜率; 若不存在, 请说明理由.
+\item 已知$f(x)$是定义在$\mathbf{R}$上的函数, 若对任意的$x_1,x_2\in \mathbf{R}$, $x_1-x_2\in S$, 均有$f(x_1)-f(x_2)\in S$, 则称$f(x)$是``$S-$关联''的.\\
+(1) 判断和证明$f(x)=2x+1$是否是``$[0,+\infty)-$关联''的? 是否是``$[0,1]-$关联''的?\\
+(2) 若$f(x)$是``$\{3\}-$关联''的, 且当$x\in [0,3)$时, $f(x)=x^2-2x$, 解不等式$2 \le f(x)\le 3$;\\
+(3) 证明: ``$f(x)$是`$\{1\}-$关联'的, 且是`$[0,+\infty)-$关联'的''当且仅当``$f(x)$是`$[1,2]-$关联'的''.
+
+
+
+
+
+
+
+\end{enumerate}
+
+\newpage
+
 {\bf 2020年秋考}
 
 \begin{enumerate}[1.]

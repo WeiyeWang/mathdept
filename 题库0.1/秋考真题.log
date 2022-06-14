@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  14 JUN 2022 10:42
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  14 JUN 2022 12:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -711,118 +711,137 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 55.
  (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 65.
- (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 65.
- (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 65.
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 68--69
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 75--76
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 70--71
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 116--117
 [][] 
  []
 
 [1
 
 ]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 84--85
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 118--119
+[][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 119.
+(c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 119.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 119.
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 120--121
 [][] 
  []
 
 [2] [3]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 137--138
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 174--175
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 139--140
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 141--142
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 143--144
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 176--177
 [][] 
  []
 
 [4]
-
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 158.
-
-
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 159.
-
-[5] [6]
-Overfull \hbox (10.1159pt too wide) in paragraph at lines 198--199
-[]\TU/华文中宋(0)/m/n/10 已 知 常 数 $\OML/cmm/m/it/10 a > \OT1/cmr/m/n/10 0$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = []$ \TU/华文中宋(0)/m/n/10 的 图 像 经 过 点 $\OML/cmm/m/it/10 P []$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 Q []$\TU/lmr/m/n/10 . \TU/华文中宋(0)/m/n/10 若 $\OT1/cmr/m/n/10 2[] = 36\OML/cmm/m/it/10 pq$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 $\OML/cmm/m/it/10 a \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 201--202
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 190--191
 [][] 
  []
 
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
+[5] [6]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 243--244
+[][] 
+ []
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 226--227
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 245--246
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 247--248
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 249--250
 [][] 
  []
 
 [7]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 228--229
-[][] 
- []
+
+LaTeX Font Warning: Command \LARGE invalid in math mode on input line 264.
+
+
+LaTeX Font Warning: Command \LARGE invalid in math mode on input line 265.
 
 [8] [9]
+Overfull \hbox (10.1159pt too wide) in paragraph at lines 304--305
+[]\TU/华文中宋(0)/m/n/10 已 知 常 数 $\OML/cmm/m/it/10 a > \OT1/cmr/m/n/10 0$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = []$ \TU/华文中宋(0)/m/n/10 的 图 像 经 过 点 $\OML/cmm/m/it/10 P []$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 Q []$\TU/lmr/m/n/10 . \TU/华文中宋(0)/m/n/10 若 $\OT1/cmr/m/n/10 2[] = 36\OML/cmm/m/it/10 pq$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 $\OML/cmm/m/it/10 a \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 307--308
+[][] 
+ []
+
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
- [10]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 319--320
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 332--333
+[][] 
+ []
+
+[10]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 334--335
+[][] 
+ []
+
+[11] [12]
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+ [13]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 425--426
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 321--322
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 427--428
 [][] 
  []
 
 
-Overfull \hbox (6.0198pt too wide) in paragraph at lines 322--323
+Overfull \hbox (6.0198pt too wide) in paragraph at lines 428--429
 []\TU/华文中宋(0)/m/n/10 已 知 $\OML/cmm/m/it/10 a; b; c$ \TU/华文中宋(0)/m/n/10 为 实 常 数\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g$ \TU/华文中宋(0)/m/n/10 的 通 项 $\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 an[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 bn \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 c;  n \OMS/cmsy/m/n/10 2 [][]$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 \TU/lmr/m/n/10 “\TU/华文中宋(0)/m/n/10 存 在 $\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10 2 [][]$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 使 得 $\OML/cmm/m/it/10 x[]; x[]; x[]$
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 323--324
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 429--430
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 325--326
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 431--432
 [][] 
  []
 
-[11] [12] (./秋考真题.aux) ) 
+[14] [15] (./秋考真题.aux) ) 
 Here is how much of TeX's memory you used:
- 19835 strings out of 476919
- 449712 string characters out of 5825424
- 783045 words of memory out of 5000000
- 39446 multiletter control sequences out of 15000+600000
+ 20486 strings out of 476919
+ 463921 string characters out of 5825424
+ 851807 words of memory out of 5000000
+ 40097 multiletter control sequences out of 15000+600000
  406127 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,16n,104p,418b,738s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,16n,104p,418b,866s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 秋考真题.pdf (12 pages).
+Output written on 秋考真题.pdf (15 pages).
