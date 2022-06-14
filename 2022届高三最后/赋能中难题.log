@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  15 JUN 2022 05:54
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  15 JUN 2022 05:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**赋能中易题
-(./赋能中易题.tex
+**赋能中难题
+(./赋能中难题.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -588,8 +588,8 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \c@axiom=\count326
 \c@prop=\count327
 
-No file 赋能中易题.aux.
-\openout1 = `赋能中易题.aux'.
+No file 赋能中难题.aux.
+\openout1 = `赋能中难题.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
@@ -714,18 +714,39 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
 ]
-Overfull \hbox (5.35062pt too wide) in paragraph at lines 130--131
-[]\TU/lmr/m/n/5 53,7,0.860 \TU/华文中宋(0)/m/n/10 在 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 ABC$ \TU/华文中宋(0)/m/n/10 中\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 边 $\OML/cmm/m/it/10 a; b; c$ \TU/华文中宋(0)/m/n/10 所 对 角 分 别 为 $\OML/cmm/m/it/10 A; B; C$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 若 $[] \OT1/cmr/m/n/10 = 0$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 ABC$ \TU/华文中宋(0)/m/n/10 的 形 状 为$[]$\TU/lmr/m/n/10 . 
+LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 136.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 136.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 136.
+ [2]
+Overfull \hbox (5.83861pt too wide) in paragraph at lines 190--191
+[]\TU/lmr/m/n/5 48,9,0.814 \TU/华文中宋(0)/m/n/10 已 知 抛 物 线 型 拱 桥 的 顶 点 距 水 面 $\OT1/cmr/m/n/10 2$ \TU/华文中宋(0)/m/n/10 米 时\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 量 得 水 面 宽 为 $\OT1/cmr/m/n/10 8$ \TU/华文中宋(0)/m/n/10 米\TU/lmr/m/n/10 . \TU/华文中宋(0)/m/n/10 当 水 面 下 降 $\OT1/cmr/m/n/10 1$ \TU/华文中宋(0)/m/n/10 米 后\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 水 面 的 宽 为$[]$
  []
 
-[2] [3] (./赋能中易题.aux) ) 
-Here is how much of TeX's memory you used:
- 19400 strings out of 476919
- 440838 string characters out of 5825424
- 778020 words of memory out of 5000000
- 39025 multiletter control sequences out of 15000+600000
- 405792 words of font info for 59 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 101i,16n,104p,419b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 赋能中易题.pdf (3 pages).
+Overfull \hbox (9.28484pt too wide) in paragraph at lines 192--193
+[]\TU/lmr/m/n/5 49,9,0.814 \TU/华文中宋(0)/m/n/10 设 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = [][] \OML/cmm/m/it/10 x$\TU/lmr/m/n/10 ($\OML/cmm/m/it/10 m > \OT1/cmr/m/n/10 0$ \TU/华文中宋(0)/m/n/10 且 $\OML/cmm/m/it/10 m \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 = 1$\TU/lmr/m/n/10 ), \TU/华文中宋(0)/m/n/10 若 $\OML/cmm/m/it/10 m$ \TU/华文中宋(0)/m/n/10 是 等 比 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$\TU/lmr/m/n/10 ($\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 2 [][]$\TU/lmr/m/n/10 ) \TU/华文中宋(0)/m/n/10 的 公 比\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 且 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a[]a[]a[] [] a[]\OT1/cmr/m/n/10 ) =
+ []
+
+[3]
+Overfull \hbox (3.7028pt too wide) in paragraph at lines 217--218
+[]\TU/lmr/m/n/5 58,7,0.837 \TU/华文中宋(0)/m/n/10 若 行 列 式 $[]$ 中 的 元 素 $\OT1/cmr/m/n/10 4$ \TU/华文中宋(0)/m/n/10 的 代 数 余 子 式 的 值 等 于 $[]$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 实 数 $\OML/cmm/m/it/10 x$ \TU/华文中宋(0)/m/n/10 的 取 值 集 合 为$[]$\TU/lmr/m/n/10 . 
+ []
+
+[4] (./赋能中难题.aux) ) 
+Here is how much of TeX's memory you used:
+ 19537 strings out of 476919
+ 443539 string characters out of 5825424
+ 773020 words of memory out of 5000000
+ 39155 multiletter control sequences out of 15000+600000
+ 406095 words of font info for 60 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 101i,14n,104p,449b,650s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 赋能中难题.pdf (4 pages).

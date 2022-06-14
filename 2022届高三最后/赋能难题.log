@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  15 JUN 2022 05:54
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  15 JUN 2022 05:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**赋能中易题
-(./赋能中易题.tex
+**赋能难题
+(./赋能难题.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -588,8 +588,8 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \c@axiom=\count326
 \c@prop=\count327
 
-No file 赋能中易题.aux.
-\openout1 = `赋能中易题.aux'.
+No file 赋能难题.aux.
+\openout1 = `赋能难题.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
@@ -711,21 +711,37 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 26.
  (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 37.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 37.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 37.
+ [1
 
-]
-Overfull \hbox (5.35062pt too wide) in paragraph at lines 130--131
-[]\TU/lmr/m/n/5 53,7,0.860 \TU/华文中宋(0)/m/n/10 在 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 ABC$ \TU/华文中宋(0)/m/n/10 中\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 边 $\OML/cmm/m/it/10 a; b; c$ \TU/华文中宋(0)/m/n/10 所 对 角 分 别 为 $\OML/cmm/m/it/10 A; B; C$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 若 $[] \OT1/cmr/m/n/10 = 0$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 ABC$ \TU/华文中宋(0)/m/n/10 的 形 状 为$[]$\TU/lmr/m/n/10 . 
+] [2]
+Overfull \hbox (24.52176pt too wide) in paragraph at lines 184--185
+[]\TU/lmr/m/n/5 43,4,0.674 \TU/华文中宋(0)/m/n/10 长 方 体 的 对 角 线 与 过 同 一 个 顶 点 的 三 个 表 面 所 成 的 角 分 别 为 $\OML/cmm/m/it/10 ^^K$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 ^^L$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 ^^M$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 $[][] \OML/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 + [][] \OML/cmm/m/it/10 ^^L \OT1/cmr/m/n/10 + [][] \OML/cmm/m/it/10 ^^M \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
-[2] [3] (./赋能中易题.aux) ) 
-Here is how much of TeX's memory you used:
- 19400 strings out of 476919
- 440838 string characters out of 5825424
- 778020 words of memory out of 5000000
- 39025 multiletter control sequences out of 15000+600000
- 405792 words of font info for 59 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 101i,16n,104p,419b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 赋能中易题.pdf (3 pages).
+Overfull \hbox (23.8952pt too wide) in paragraph at lines 205--206
+[]\TU/lmr/m/n/5 54,9,0.558 \TU/华文中宋(0)/m/n/10 曲 线 $[]$\TU/lmr/m/n/10 ($\OML/cmm/m/it/10 t$ \TU/华文中宋(0)/m/n/10 为 参 数\TU/lmr/m/n/10 ) \TU/华文中宋(0)/m/n/10 与 曲 线 $[]$\TU/lmr/m/n/10 ($\OML/cmm/m/it/10 ^^R$ \TU/华文中宋(0)/m/n/10 为 参 数\TU/lmr/m/n/10 ) \TU/华文中宋(0)/m/n/10 的 公 共 点 的 坐 标 为$[]$\TU/lmr/m/n/10 . 
+ []
+
+[3] (./赋能难题.aux) ) 
+Here is how much of TeX's memory you used:
+ 19594 strings out of 476919
+ 444661 string characters out of 5825424
+ 779079 words of memory out of 5000000
+ 39212 multiletter control sequences out of 15000+600000
+ 406095 words of font info for 60 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 101i,14n,104p,418b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 赋能难题.pdf (3 pages).
