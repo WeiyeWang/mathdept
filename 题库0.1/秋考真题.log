@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  14 JUN 2022 12:51
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  14 JUN 2022 13:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -838,7 +838,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 431--432
 Here is how much of TeX's memory you used:
  20486 strings out of 476919
  463921 string characters out of 5825424
- 851807 words of memory out of 5000000
+ 851806 words of memory out of 5000000
  40097 multiletter control sequences out of 15000+600000
  406127 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
