@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  14 JUN 2022 17:10
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  14 JUN 2022 20:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -548,7 +548,9 @@ File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \arrowsize=\dimen292
 )) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+\pgf@intersect@solutions=\count317
+)) (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box63
 \beforetitleunit=\skip63
@@ -566,9 +568,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count317
-\Gm@cntv=\count318
-\c@Gm@tempcnt=\count319
+\Gm@cnth=\count318
+\Gm@cntv=\count319
+\c@Gm@tempcnt=\count320
 \Gm@bindingoffset=\dimen298
 \Gm@wd@mp=\dimen299
 \Gm@odd@mp=\dimen300
@@ -579,14 +581,14 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen305
 \Gm@dimlist=\toks42
 )
-\c@defi=\count320
-\c@eg=\count321
-\c@ex=\count322
-\c@rem=\count323
-\c@thm=\count324
-\c@coro=\count325
-\c@axiom=\count326
-\c@prop=\count327
+\c@defi=\count321
+\c@eg=\count322
+\c@ex=\count323
+\c@rem=\count324
+\c@thm=\count325
+\c@coro=\count326
+\c@axiom=\count327
+\c@prop=\count328
  (./2022届高三冲刺题选.aux)
 \openout1 = `2022届高三冲刺题选.aux'.
 
@@ -715,36 +717,36 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 56--57
 [][] 
  []
 
-LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 64.
+LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 87.
 (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 64.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 87.
  (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 64.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 87.
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 69--70
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 92--93
 [][] 
  []
 
 [1
 
 ]
-Overfull \hbox (33.03426pt too wide) in paragraph at lines 80--81
+Overfull \hbox (33.03426pt too wide) in paragraph at lines 103--104
 []\TU/华文中宋(0)/m/n/10 已 知 点 $\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 B\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@[]\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 C\OT1/cmr/m/n/10 (4 + []\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 其 中 $\OML/cmm/m/it/10 n$ \TU/华文中宋(0)/m/n/10 为 正 整 数\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 设 $\OML/cmm/m/it/10 S[]$ \TU/华文中宋(0)/m/n/10 表 示 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 ABC$ \TU/华文中宋(0)/m/n/10 外 接 圆 的 面 积\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 $[] [] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
 [2] (./2022届高三冲刺题选.aux) ) 
 Here is how much of TeX's memory you used:
- 19634 strings out of 476919
- 445696 string characters out of 5825424
- 779393 words of memory out of 5000000
- 39250 multiletter control sequences out of 15000+600000
+ 20350 strings out of 476919
+ 461662 string characters out of 5825424
+ 795009 words of memory out of 5000000
+ 39957 multiletter control sequences out of 15000+600000
  406095 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,14n,104p,445b,737s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,14n,104p,445b,794s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on 2022届高三冲刺题选.pdf (2 pages).

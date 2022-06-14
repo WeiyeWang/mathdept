@@ -4,7 +4,7 @@
 \usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
 \usepackage{ifthen,indentfirst,enumerate,color,titletoc}
 \usepackage{tikz}
-\usetikzlibrary{arrows,calc}
+\usetikzlibrary{arrows,calc,intersections}
 \usepackage[bf,small,indentafter,pagestyles]{titlesec}
 \usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
 \renewcommand{\baselinestretch}{1.65}
@@ -61,6 +61,29 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 \item 函数$f(x)=\sin x$, 对于$x_1<x_2<x_3<\cdots<x_n$且$x_1,x_2,\cdots,x_n\in [0,8\pi] \ (n\ge 10, \ n\in \mathbf{N})$, 记$M=|f(x_1)-f(x_2) |+|f(x_2)-f(x_3)|+|f(x_3)-f(x_4)|+\cdots+| f(x_{n-1})-f(x_n)|$, 则$M$的最大值等于\blank{50}. 
 \item 设$\alpha_1,\alpha_2\in \mathbf{R}$, 且$\dfrac1{2+\sin\alpha_1}+\dfrac1{2+\sin(2\alpha_2)}=2$, 则$|10 \pi-\alpha_1-\alpha_2|$的最小值等于\blank{50}.
 \item 正四棱锥$V-ABCD$的表面积为$12$, $AB=2$, $N$为棱$CD$的中点, 直线$AB$在平面$\alpha$内. 将该正四棱锥绕直线$AB$任意旋转, 旋转过程中, 设$V$在$\alpha$内的射影为$O$, 则线段$ON$长的最大值为\blank{50}.
+\begin{center}
+    \begin{tikzpicture}
+        \coordinate (V) at ({4*sqrt(3)/5},{3*sqrt(3)/5});
+        \coordinate (A) at ({3/5+sqrt(2)/4},{-4/5+sqrt(2)/4});
+        \coordinate (B) at ({3/5-sqrt(2)/4},{-4/5-sqrt(2)/4});
+        \coordinate (C) at ({-3/5-sqrt(2)/4},{4/5-sqrt(2)/4});
+        \coordinate (D) at ({-3/5+sqrt(2)/4},{4/5+sqrt(2)/4});
+        \draw (V) node [above right] {$V$} -- (A) node [right] {$A$} -- (B) node [right] {$B$} -- (C) node [left] {$C$} -- (D) node [left] {$D$}  (V) -- (B) (V) -- (C) (V) -- (D);
+        \draw [dashed] (D) -- (A); 
+        \draw (V) -- ({4*sqrt(3)/5},{-4/5}) coordinate (O) node [right] {$O$};
+        \draw (B) ++ (225:0.2) ++ (-2.5,0) coordinate (P);
+        \draw (P) ++ (4.5,0) coordinate (Q);
+        \draw (Q) ++ (45:1.5) coordinate (T) ++ (-4.5,0) coordinate (S);
+        \draw (S) -- (P) -- (Q) -- (T);
+        \path [name path=A--V] (A) -- (V);
+        \path [name path=S--T] (S) -- (T);
+        \path [name path=B--C] (B) -- (C);
+        \path [name intersections={of = A--V and S--T,by=F}];
+        \path [name intersections={of = B--C and S--T,by=E}];
+        \draw (S) -- (E) (F) -- (T);
+        \draw [dashed] (E) -- (F);
+    \end{tikzpicture}
+\end{center}
 \item 已知$a,b$为空间两条互相垂直的直线, 等腰$\mathrm{Rt}\triangle ABC$的直角边$AC$所在直线与$a,b$都垂直, 斜边$AB$以直线$AC$为旋转轴旋转. 有下列结论: \textcircled{1} 当直线$AB$与$a$所成的角为$60^\circ$时, $AB$与$b$所成的角为$30^\circ$; \textcircled{2} 直线$AB$与$a$所成角的最小值为$45^\circ$; \textcircled{3} 直线$AB$与$a$所成角的最大值为$60^\circ$. 其中所有真命题的序号为\blank{50}.
 \item 已知数列$\{a_n\}$满足: \textcircled{1} $a_1=0$; \textcircled{2} 对任意的$n\in \mathbf{N}^*$, 都有$a_{n+1}>a_n$成立. 
 函数$f_n(x)=|\sin \dfrac{1}{n}(x-a_n)|, \ x\in [a_n,a_{n+1}]$满足: 对于任意的实数$m\in [0,1)$, $f_n(x)=m$总是有且仅有两个不同的根, 求$\{a_n\}$的通项公式.
@@ -80,7 +103,7 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 \item 已知点$A(0,\dfrac2n)$, $B(0,-\dfrac2n)$, $C(4+\dfrac2n,0)$, 其中$n$为正整数, 设$S_n$表示$\triangle ABC$外接圆的面积, 则$\displaystyle\lim_{n\to\infty}{S_n}=$\blank{50}.
 \item 如图所示: 矩形$A_nB_nP_nQ_n$的一边$A_nB_n$在$x$轴上, 另两个顶点$P_n,Q_n$在函数$f(x)=\dfrac{2x}{1+x^2}$的图像上(其中点$B_n$的坐标为$(n,0) \ (n\ge 2,\ n\in \mathbf{N}^*)$), 矩形$A_nB_nP_nQ_n$的面积记为$S_n$, 则$\displaystyle\lim_{n\to\infty}{S_n}=$\blank{50}.
 \begin{center}
-    \begin{tikzpicture}
+    \begin{tikzpicture}[>=latex]
         \draw [->] (-1,0) -- (4,0) node [below] {$x$};
         \draw [->] (0,-1) -- (0,2) node [left] {$y$};
         \draw (0,0) node [below left] {$O$};
