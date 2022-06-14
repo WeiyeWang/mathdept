@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  13 JUN 2022 22:51
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  14 JUN 2022 09:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**赋能
-(./赋能.tex
+**秋考真题
+(./秋考真题.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -587,83 +587,84 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \c@coro=\count325
 \c@axiom=\count326
 \c@prop=\count327
- (./赋能.aux)
-\openout1 = `赋能.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
- ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 23.
+No file 秋考真题.aux.
+\openout1 = `秋考真题.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 50.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 23.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 23.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 23.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 23.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 23.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 23.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 23.
-LaTeX Font Info:    Redeclaring math accent \check on input line 23.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 23.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 23.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 23.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 23.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 50.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 50.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 50.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 50.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 50.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 50.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 50.
+LaTeX Font Info:    Redeclaring math accent \check on input line 50.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 50.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 50.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 50.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 50.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 23.
+(Font)              `operators' in the math version `normal' on input line 50.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 23.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 50.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 23.
+(Font)              `operators' in the math version `bold' on input line 50.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 23.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 50.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 23.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 23.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 23.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 23.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 23.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 50.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 23.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 23.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 23.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 23.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 50.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -699,102 +700,129 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 29.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 55.
  (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
-
-]
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 88.
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 65.
  (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 88.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 65.
  (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 88.
- [2]
-Overfull \hbox (26.34555pt too wide) in paragraph at lines 121--122
-[]\TU/华文中宋(0)/m/n/10 已 知 无 穷 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/华文中宋(0)/m/n/10 满 足 $\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = [][]$\TU/lmr/m/n/10 ($\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 2 [][]$\TU/lmr/m/n/10 ), \TU/华文中宋(0)/m/n/10 且 $\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = 1$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 记 $\OML/cmm/m/it/10 S[]$ \TU/华文中宋(0)/m/n/10 为 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/华文中宋(0)/m/n/10 的 前 $\OML/cmm/m/it/10 n$ \TU/华文中宋(0)/m/n/10 项 和\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 $[] \OML/cmm/m/it/10 S[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
- []
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 65.
 
-[3]
-Overfull \hbox (21.78662pt too wide) in paragraph at lines 138--140
-[]\TU/华文中宋(0)/m/n/10 某 班 级 要 从 $\OT1/cmr/m/n/10 5$ \TU/华文中宋(0)/m/n/10 名 男 生 和 $\OT1/cmr/m/n/10 2$ \TU/华文中宋(0)/m/n/10 名 女 生 中 选 出 $\OT1/cmr/m/n/10 3$ \TU/华文中宋(0)/m/n/10 人 参 加 公 益 活 动\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 在 选 出 的 $\OT1/cmr/m/n/10 3$ \TU/华文中宋(0)/m/n/10 人 中 男、|  女 生 均 有 的 概 率 为$[]$\TU/lmr/m/n/10 (\TU/华文中宋(0)/m/n/10 结
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 68--69
+[][] 
  []
 
 
-Overfull \hbox (6.5386pt too wide) in paragraph at lines 150--151
-[]\TU/华文中宋(0)/m/n/10 如 图\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 在 棱 长 为 $\OT1/cmr/m/n/10 1$ \TU/华文中宋(0)/m/n/10 的 正 方 体 $\OML/cmm/m/it/10 ABCD \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 A[]B[]C[]D[]$ \TU/华文中宋(0)/m/n/10 中\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 点 $\OML/cmm/m/it/10 P$ \TU/华文中宋(0)/m/n/10 在 截 面 $\OML/cmm/m/it/10 A[]DB$ \TU/华文中宋(0)/m/n/10 上\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 线 段 $\OML/cmm/m/it/10 AP$ \TU/华文中宋(0)/m/n/10 的 最 小 值 为$[]$\TU/lmr/m/n/10 . 
- []
-
-[4] [5] [6]
-Overfull \hbox (3.452pt too wide) in paragraph at lines 235--236
-[]\TU/华文中宋(0)/m/n/10 设 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = []$ \TU/华文中宋(0)/m/n/10 则 当 $\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^T ^^@\OT1/cmr/m/n/10 1$ \TU/华文中宋(0)/m/n/10 时\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )]$ \TU/华文中宋(0)/m/n/10 表 达 式 的 展 开 式 中 含 $[]$ 项 的 系 数 是$[]$\TU/lmr/m/n/10 . 
- []
-
-[7] [8]
-Overfull \hbox (5.48975pt too wide) in paragraph at lines 274--275
-[]\TU/华文中宋(0)/m/n/10 直 角 坐 标 系 $\OML/cmm/m/it/10 xOy$ \TU/华文中宋(0)/m/n/10 内 有 点 $\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2)$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 将 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 POQ$ \TU/华文中宋(0)/m/n/10 绕 $\OML/cmm/m/it/10 x$ \TU/华文中宋(0)/m/n/10 轴 旋 转 一 周\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 所 得 几 何 体 的 体 积 为$[]$\TU/lmr/m/n/10 . 
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 70--71
+[][] 
  []
 
 
-Overfull \hbox (46.91989pt too wide) in paragraph at lines 285--286
-[]\TU/华文中宋(0)/m/n/10 将 一 个 正 方 形 绕 着 它 的 一 边 所 在 的 直 线 旋 转 一 周\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 所 得 几 何 体 的 体 积 为 $\OT1/cmr/m/n/10 27\OML/cmm/m/it/10 ^^Y[][]$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 该 几 何 体 的 侧 面 积 为$[]$$[][]$\TU/lmr/m/n/10 . 
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 72--73
+[][] 
  []
 
-[9] [10] [11] [12] [13] [14]
-Overfull \hbox (7.82074pt too wide) in paragraph at lines 448--449
-[]\TU/华文中宋(0)/m/n/10 抛 物 线 $\OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 x$ \TU/华文中宋(0)/m/n/10 的 焦 点 与 双 曲 线 $[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 = 1$ \TU/华文中宋(0)/m/n/10 的 左 焦 点 重 合\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 这 条 双 曲 线 的 两 条 渐 近 线 的 夹 角 为$[]$\TU/lmr/m/n/10 . 
+[1
+
+]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 97--98
+[][] 
  []
 
-[15] [16] [17] [18]
-Overfull \hbox (7.78658pt too wide) in paragraph at lines 588--589
-[]\TU/华文中宋(0)/m/n/10 若 从 正 八 边 形 的 $\OT1/cmr/m/n/10 8$ \TU/华文中宋(0)/m/n/10 个 顶 点 中 随 机 选 取 $\OT1/cmr/m/n/10 3$ \TU/华文中宋(0)/m/n/10 个 顶 点\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 以 它 们 作 为 顶 点 的 三 角 形 是 直 角 三 角 形 的 概 率 是$[]$\TU/lmr/m/n/10 . 
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 99--100
+[][] 
  []
 
-[19] [20] [21] [22] [23]
-Overfull \hbox (7.53728pt too wide) in paragraph at lines 692--693
-[]\TU/华文中宋(0)/m/n/10 无 穷 等 比 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/华文中宋(0)/m/n/10 的 通 项 公 式 $\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = ([] \OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )[]$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 前 $\OML/cmm/m/it/10 n$ \TU/华文中宋(0)/m/n/10 项 的 和 为 $\OML/cmm/m/it/10 S[]$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 若 $[] \OML/cmm/m/it/10 S[] \OT1/cmr/m/n/10 = 1$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; ^^Y\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 $\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
+[2]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 101--102
+[][] 
  []
 
-[24] [25]
-Overfull \hbox (23.40912pt too wide) in paragraph at lines 754--755
-[]\TU/华文中宋(0)/m/n/10 若 某 线 性 方 程 组 对 应 的 增 广 矩 阵 是 $[]$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 且 此 方 程 组 有 唯 一 一 组 解\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 实 数 $\OML/cmm/m/it/10 m$ \TU/华文中宋(0)/m/n/10 的 取 值 范 围 是$[]$\TU/lmr/m/n/10 . 
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 103--104
+[][] 
  []
 
-[26] [27] [28]
-Overfull \hbox (5.8269pt too wide) in paragraph at lines 852--853
-[]\TU/华文中宋(0)/m/n/10 设 变 量 $\OML/cmm/m/it/10 x; y$ \TU/华文中宋(0)/m/n/10 满 足 条 件 $[]$ 若 该 条 件 表 示 的 平 面 区 域 是 三 角 形\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 实 数 $\OML/cmm/m/it/10 m$ \TU/华文中宋(0)/m/n/10 的 取 值 范 围 是$[]$\TU/lmr/m/n/10 . 
+
+LaTeX Font Warning: Command \LARGE invalid in math mode on input line 118.
+
+
+LaTeX Font Warning: Command \LARGE invalid in math mode on input line 119.
+
+[3] [4]
+Overfull \hbox (10.1159pt too wide) in paragraph at lines 158--159
+[]\TU/华文中宋(0)/m/n/10 已 知 常 数 $\OML/cmm/m/it/10 a > \OT1/cmr/m/n/10 0$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = []$ \TU/华文中宋(0)/m/n/10 的 图 像 经 过 点 $\OML/cmm/m/it/10 P []$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 Q []$\TU/lmr/m/n/10 . \TU/华文中宋(0)/m/n/10 若 $\OT1/cmr/m/n/10 2[] = 36\OML/cmm/m/it/10 pq$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 $\OML/cmm/m/it/10 a \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
-[29] [30] [31]
-Overfull \hbox (19.23557pt too wide) in paragraph at lines 1007--1008
-[]\TU/华文中宋(0)/m/n/10 已 知 各 项 均 为 正 数 的 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/华文中宋(0)/m/n/10 满 足 $[] \OT1/cmr/m/n/10 + [] + [] + [] = \OML/cmm/m/it/10 n[] \OT1/cmr/m/n/10 + 3\OML/cmm/m/it/10 n$\TU/lmr/m/n/10 ($\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 2 [][]$\TU/lmr/m/n/10 ), \TU/华文中宋(0)/m/n/10 则 $[] \OT1/cmr/m/n/10 + [] + [] [] =$$[]$\TU/lmr/m/n/10 . 
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 161--162
+[][] 
  []
 
-[32] [33] [34] [35] [36]
 Missing character: There is no ; ("3B) in font nullfont!
- [37] [38] [39] (./赋能.aux) ) 
-Here is how much of TeX's memory you used:
- 20124 strings out of 476919
- 455772 string characters out of 5825424
- 796241 words of memory out of 5000000
- 39738 multiletter control sequences out of 15000+600000
- 406111 words of font info for 62 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 101i,16n,104p,416b,836s stack positions out of 5000i,500n,10000p,200000b,80000s
+Missing character: There is no ; ("3B) in font nullfont!
 
-Output written on 赋能.pdf (39 pages).
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 186--187
+[][] 
+ []
+
+[5]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 188--189
+[][] 
+ []
+
+[6] [7]
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+ [8]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 279--280
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 281--282
+[][] 
+ []
+
+
+Overfull \hbox (6.0198pt too wide) in paragraph at lines 282--283
+[]\TU/华文中宋(0)/m/n/10 已 知 $\OML/cmm/m/it/10 a; b; c$ \TU/华文中宋(0)/m/n/10 为 实 常 数\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g$ \TU/华文中宋(0)/m/n/10 的 通 项 $\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 an[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 bn \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 c;  n \OMS/cmsy/m/n/10 2 [][]$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 \TU/lmr/m/n/10 “\TU/华文中宋(0)/m/n/10 存 在 $\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10 2 [][]$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 使 得 $\OML/cmm/m/it/10 x[]; x[]; x[]$
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 283--284
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 285--286
+[][] 
+ []
+
+[9] [10] (./秋考真题.aux) ) 
+Here is how much of TeX's memory you used:
+ 19774 strings out of 476919
+ 448573 string characters out of 5825424
+ 782907 words of memory out of 5000000
+ 39387 multiletter control sequences out of 15000+600000
+ 406127 words of font info for 64 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 101i,16n,104p,418b,738s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 秋考真题.pdf (10 pages).

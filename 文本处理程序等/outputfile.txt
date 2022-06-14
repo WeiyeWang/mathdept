@@ -1,12 +1,16 @@
-\item 设函数$f(x)={a^x}+{a^{-x}}(a>0a\ne 1$, 且$f(1)=3$, 则$f(0)+f(1)+f(2)$的值是\blank{50}.
-\item 已知集合$A=\{x||x-2|<a\}$,$B=\{x|{x^2}-2x-3<0 \}$, 若$B\subseteq A$, 则实数$a$的取值范围是\blank{50}.
-\item 如果复数$z$满足$|z|=1$且${z^2}=a+b\mathrm{i}$, 其中$a,b\\mathrm{i}n \mathbf{R}$, 则$a+b$的最大值是\blank{50}.
-\item 已知$x$、$y$满足$\{ \begin{cases}
-  & x-y+5 \ge 0 \& x+y\ge 0 \& x\le 3 \end{cases}$,若使得$z=ax+y$取最大值的点$(x,y)$有无数个,则$a$的值等于\blank{50}.
-\item 在直角坐标系$xoy$中, 已知三点$A(a,1),B(2,b),C(3,4)$, 若向量$\overrightarrow{OA}$,$\overrightarrow{OB}$在向量$\overrightarrow{OC}$方向上的投影相同, 则$3a-4b$的值是\blank{50}.
-\item 已知$F_1$、$F_2$是椭圆$C:\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1(a>b>0)$的两个焦点,$P$为椭圆上一点, 且$\overrightarrow{P{F_1}}\bot \overrightarrow{P{F_2}}$, 若$\Delta P{F_1}{F_2}$的面积为$9$, 则$b=$\blank{50}. 					
-\item$\Delta ABC$中,$a,b,c$分别是$\angle A,\angle B,\angle C$的对边且$ac+{c^2}={b^2}-{a^2}$, 若$\Delta ABC$最大边长是$\sqrt7$且$\sin C=2 \sin A$, 则$\Delta ABC$最小边的边长为\blank{50}.
-\item 设等差数列$\{{a_n}\}$的公差为$d$, 若${a_1},{a_2},{a_3},{a_4},{a_5},{a_6},{a_7}$的方差为$1$, 则$d$=\blank{50}.
-\item 已知函数$f(x)=\{ \begin{matrix}
-\blank{50}\cos \dfrac{\pi x}2,|x|\le 1  \\blank{50}{x^2}-1,|x|>1  \\end{matrix}$, 则关于$x$的方程${f^2}(x)-3f(x)+2=0$的实根的个数是\blank{50}个.\blank{50}
-
+\item 下列不等式恒成立的是(\blank{50})A.${a^2}+{b^2}\le 2ab$\blank{50}B.${a^2}+{b^2}\ge -2ab$\blank{50}
+C.$a+b\ge 2 \sqrt{|ab|}$\blank{50}D.$a+b\ge -2 \sqrt{|ab|}$
+\item 已知直线方程$3x+4y+1=0$的一个参数方程可以是(\blank{50})A.$\{ \begin{cases}
+  & x=1+3t \& y=-1+4t \end{cases}$\blank{50}B.$\{ \begin{cases}
+  & x=1-4t \& y=-1-3t \end{cases}$\blank{50}C.$\{ \begin{cases}
+  & x=1-3t \& y=-1+4t \end{cases}$\blank{50}D.$\{ \begin{cases}
+  & x=1+4t \& y=-1-3t \end{cases}$
+\item 在棱长为10的正方体$ABCD-{A_1}{B_1}{C_1}{D_1}$中,$P$
+为左侧面$AD{D_1}{A_1}$上一点, 已知点$P$到${A_1}{D_1}$的距离
+为3,$P$到$A{A_1}$的距离为2, 则过点$P$且与${A_1}C$平
+行的直线相交的面是(\blank{50})A.$ABCD$\blank{50}B.$B{B_1}{C_1}C$\blank{50}
+C.$C{C_1}{D_1}D$\blank{50}D.$A{A_1}{B_1}B$
+\item 命题p: 若存在$a\in \mathbfR$且$a\ne 0$, 对任意的$x\in \mathbfR$, 均有$f(x+a)<f(x)+f(a)$恒成立. 
+已知命题$q_1$:$f(x)$单调递减, 且$f(x)>0$恒成立; 命题$q_2$:$f(x)$单调递增, 存在${x_0}<0$
+使得$f({x_0})=0$; 则下列说法正确的是(\blank{50})A.$q_1$、$q_2$都是p的充分条件\blank{50}B. 只有$q_1$是p的充分条件\blank{50}
+C. 只有$q_2$是p的充分条件\blank{50}D.$q_1$、$q_2$都不是p的充分条件
