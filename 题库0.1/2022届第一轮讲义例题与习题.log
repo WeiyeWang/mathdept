@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  17 JUN 2022 22:08
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  17 JUN 2022 23:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -588,8 +588,7 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \c@coro=\count326
 \c@axiom=\count327
 \c@prop=\count328
-
-No file 2022届第一轮讲义例题与习题.aux.
+ (./2022届第一轮讲义例题与习题.aux)
 \openout1 = `2022届第一轮讲义例题与习题.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -608,7 +607,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 41.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -716,9 +715,9 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 ] (./2022届第一轮讲义例题与习题.aux) ) 
 Here is how much of TeX's memory you used:
- 19972 strings out of 476919
- 455558 string characters out of 5825424
- 788419 words of memory out of 5000000
+ 19974 strings out of 476919
+ 455598 string characters out of 5825424
+ 788410 words of memory out of 5000000
  39586 multiletter control sequences out of 15000+600000
  405808 words of font info for 61 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
