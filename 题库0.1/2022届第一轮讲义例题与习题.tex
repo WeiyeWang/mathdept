@@ -1,21 +1,48 @@
-第01讲 集合的概念与运算(1)姓名学号
-【知识梳理】
-1、理解集合中的有关概念
-(1)集合中元素的特征:,,.
-(2)集合与元素的关系用符号用,表示.
-(3)常用数集的符号表示: 自然数集; 正整数集; 整数集; 有理数集;实数集; 复数集.
-(4)集合的表示法:,,等.
-(5)空集$\varnothing$与任意集合$A$的关系:.
-2、集合间的关系及其运算: (1)子集定义:.
-集合$A$是集合$B$的子集, 用符号表示为或.
-(2)真子集定义:.
-集合$A$是集合$B$的真子集, 用符号表示为.
-(3)$A\cap B$=$\{ . x |\_\_\_\_\_\_\_\_ \}$;$A\cup B$=$\{ . x |\_\_\_\_\_\_\_ \}$;$\complement {_U}A=$$\{ . x |\_\_\_\_\_\_\_\_\_\_\_ \}$.
-(4)对于任意集合$A$、$B$, 则: ①$A\cap B$$B\cap A$;$A\cup B$$B\cup A$;$A\cap B$$A\cup B$; ②$A\cap B=A\Leftrightarrow$;$A\cup B=A\Leftrightarrow$; ③$\complement {_U}A\cap \complement {_U}B=\complement {_U}(\underline)$;${=}\complement {_U}(A\cap B)$.
-【基础练习】
-\item 用适当符号($\in ,\notin ,=,$$\subset \ne$)填空:$\pi$$\mathbf{Q}$; 			$\{x|x=2k+1,k\in \operatornameZ\}$$\{x|x=2k-1,k\in \operatornameZ\}$
-$\{3.14 \}$$\mathbf{Q}$;  		$\{y|y={x^2}\}$$\{x|y={x^2}\}$.  
-\item 已知$P=\{y={x^2}+1 \}$,$Q=\{y|y={x^2}+1x\in \mathbf{R}\}$,$E=\{x|y={x^2}+1 . x\in \mathbf{R} \}$,$F=\{(x,y)|y={x^2}+1x\in \mathbf{R}\}$,$G=\{x|x\ge 1 \}$,$H=\{x|{x^2}+1$$=0,x\in \mathbf{R}\}$, 则各集合间关系正确的有. (答案可能不唯一)$(A)$$P=F$$(B)$$Q=E$$(C)$$E=F$$(D)$$Q\subseteq G$$(E)$$H$$\subset \ne$$P$
+\documentclass[10pt,a4paper]{article}
+\usepackage[UTF8,fontset = windows]{ctex}
+\setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{等线}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
+\usepackage{ifthen,indentfirst,enumerate,color,titletoc}
+\usepackage{tikz}
+\usetikzlibrary{arrows,calc,intersections}
+\usepackage[bf,small,indentafter,pagestyles]{titlesec}
+\usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
+\renewcommand{\baselinestretch}{1.65}
+\newtheorem{defi}{定义~}
+\newtheorem{eg}{例~}
+\newtheorem{ex}{~}
+\newtheorem{rem}{注~}
+\newtheorem{thm}{定理~}
+\newtheorem{coro}{推论~}
+\newtheorem{axiom}{公理~}
+\newtheorem{prop}{性质~}
+\newcommand{\blank}[1]{\underline{\hbox to #1pt{}}}
+\newcommand{\bracket}[1]{(\hbox to #1pt{})}
+\newcommand{\onech}[4]{\par\begin{tabular}{p{.9\textwidth}}
+A.~#1\
+B.~#2\
+C.~#3\
+D.~#4
+\end{tabular}}
+\newcommand{\twoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+A.~#1& B.~#2\
+C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\vartwoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+(1)~#1& (2)~#2\
+(3)~#3& (4)~#4
+\end{tabular}}
+\newcommand{\fourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+A.~#1 &B.~#2& C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\varfourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+(1)~#1 &(2)~#2& (3)~#3& (4)~#4
+\end{tabular}}
+\begin{document}
+\begin{enumerate}[1.]
+\item 用适当符号($\in$,$\notin$,$=$,$\subsetneq$)填空:$\pi$\blank{10}$\mathbf{Q}$; $\{x|x=2k+1, \ k\in \mathbf{Z}\}$\blank{10}$\{x|x=2k-1,k\in \mathbf{Z}\}$; $\{3.14\}$\blank{10}$\mathbf{Q}$; $\{y|y=x^2\}$\blank{10}$\{x|y=x^2\}$.  
+\item 已知$P=\{y=x^2+1\}$, $Q=\{y|y=x^2+1, \ x\in \mathbf{R}\}$, $E=\{x|y=x^2+1, \  x\in \mathbf{R}\}$, $F=\{(x,y)|y=x^2+1, \ x\in \mathbf{R}\}$, $G=\{x|x\ge 1\}$, $H=\{x|x^2+1=0, \ x\in \mathbf{R}\}$, 则各集合间关系正确的有\blank{50}. (答案可能不唯一)\\
+(A) $P=F$   (B) $Q=E$   (C) $E=F$   (D) $Q\subseteq G$  (E) $H\subsetneq P$
 
 \item 设全集是实数集$\mathbf{R}$,$M=\{x|-2 \le x\le 2 \}$,$N=\{x|x<1 \}$, 则$\complement {_U}M\cap N=$.
 \item 设$A=\{ x|-4<x<4x\in \mathbf{R} \}$,$B=(-\infty ,1]\cup [3,+\infty)$, 则$\{ x| x\in Ax\notin A\cap B  \}$＝.
@@ -23,7 +50,7 @@ $\{3.14 \}$$\mathbf{Q}$;  		$\{y|y={x^2}\}$$\{x|y={x^2}\}$.
 \item 设全集$U=\{2,3,{a^2}+2a-3 \}$, 集合$A=\{|2a-1|,2 \}$,$\complement {_U}A{=}\{ 5 \}$, 则实数$a=$.
 \item (1)设$M=\{ y|y={x^2},x\in \mathbf{R} \}$,$N=\{ x|x=t,t\in \mathbf{R} \}$,则$M\cap N=$.
 (2)设$M=\{ (x,y)|y={x^2},x\in \mathbf{R} \}$,$N=\{ (t,x)|x=t,t\in \mathbf{R} \}$, 则$M\cap N=$.
-\item 设全集$U$={1, 2, 3, 4},$\complement {_U}A\cap B=\{ 3 \}$,$A\cap \complement {_U}B=\{ 2 \}$},$\complement {_U}A\cup \complement {_U}B=\{ 2,3,4 \}$, 则$\complement {_U}A\cap \complement {_U}B$=.
+\item 设全集$U={1, 2, 3, 4}$,$\complement {_U}A\cap B=\{ 3 \}$,$A\cap \complement {_U}B=\{ 2 \}$,$\complement {_U}A\cup \complement {_U}B=\{ 2,3,4 \}$, 则$\complement {_U}A\cap \complement {_U}B$=.
 【典型例题】
 \item 集合$C=\{ x| x=\dfrac k2\pm \dfrac14,k\in \mathbf{Z}  \},D=\{ x| x=\dfrac k4,k\in \mathbf{Z}  \}$, 试判断$C$与$D$的关系, 并证明.
 \item 集合$A=\{x| {x^2}+4x=0 \}$,$B=\{x| {x^2}+2(a+1)x+{a^2}-1=0,x\in \mathbf{R}\}$, (1)若$A\cap B=A$, 求实数$a$的取值范围;(2)若$A\cup B=A$, 求实数$a$的取值范围.
@@ -43,3 +70,7 @@ $\{3.14 \}$$\mathbf{Q}$;  		$\{y|y={x^2}\}$$\{x|y={x^2}\}$.
 \item 设函数$f(x)=\lg (\dfrac2{x+1}-1)$的定义域为集合$A$, 函数$g( x)=\sqrt{1-| x+a |}$的定义域为集合$B$.
 (1)当$a=1$时, 求集合$B$.
 (2)问:$a\ge 2$是$A\cap B$=$\varnothing$的什么条件(在``充分非必要条件、必要非充分条件、充要条件、既非充分也非必要条件''中选一)？并证明你的结论.
+
+\end{enumerate}
+
+\end{document}
