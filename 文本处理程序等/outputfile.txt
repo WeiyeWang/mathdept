@@ -1,44 +1,44 @@
-第01讲 集合的概念与运算(1)姓名学号
+\blank{50}第01讲 集合的概念与运算(1)\blank{50}姓名\blank{50}学号\blank{50}
 【知识梳理】
 1、理解集合中的有关概念
-(1)集合中元素的特征:,,.
-(2)集合与元素的关系用符号用,表示.
-(3)常用数集的符号表示: 自然数集; 正整数集; 整数集; 有理数集;实数集; 复数集.
-(4)集合的表示法:,,等.
-(5)空集$\varnothing$与任意集合$A$的关系:.
-2、集合间的关系及其运算: (1)子集定义:.
-集合$A$是集合$B$的子集, 用符号表示为或.
-(2)真子集定义:.
-集合$A$是集合$B$的真子集, 用符号表示为.
-(3)$A\cap B$=$\{ . x |\_\_\_\_\_\_\_\_ \}$;$A\cup B$=$\{ . x |\_\_\_\_\_\_\_ \}$;$\complement {_U}A=$$\{ . x |\_\_\_\_\_\_\_\_\_\_\_ \}$.
-(4)对于任意集合$A$、$B$, 则: ①$A\cap B$$B\cap A$;$A\cup B$$B\cup A$;$A\cap B$$A\cup B$; ②$A\cap B=A\Leftrightarrow$;$A\cup B=A\Leftrightarrow$; ③$\complement {_U}A\cap \complement {_U}B=\complement {_U}(\underline)$;${=}\complement {_U}(A\cap B)$.
+(1)集合中元素的特征:\blank{50},\blank{50},\blank{50}.
+(2)集合与元素的关系用符号用\blank{50},\blank{50}表示.
+(3)常用数集的符号表示: 自然数集\blank{50}; 正整数集\blank{50}; 整数集\blank{50}; 有理数集\blank{50};\blank{50}实数集\blank{50}; 复数集\blank{50}.
+(4)集合的表示法:\blank{50},\blank{50},\blank{50}等.
+(5)空集$\varnothing$与任意集合$A$的关系:\blank{50}.
+2、集合间的关系及其运算: (1)子集定义:\blank{50}.
+集合$A$是集合$B$的子集, 用符号表示为\blank{50}或\blank{50}.
+(2)真子集定义:\blank{50}.
+集合$A$是集合$B$的真子集, 用符号表示为\blank{50}.
+(3)$A\cap B$=$\{ . x |\_\_\_\_\_\_\_\_ \}$;\blank{50}$A\cup B$=$\{ . x |\_\_\_\_\_\_\_ \}$;\blank{50}$\complement {_U}A=$$\{ . x |\_\_\_\_\_\_\_\_\_\_\_ \}$.
+(4)对于任意集合$A$、$B$, 则: ①$A\cap B$\blank{50}$B\cap A$;\blank{50}$A\cup B$\blank{50}$B\cup A$;\blank{50}$A\cap B$\blank{50}$A\cup B$; ②$A\cap B=A\Leftrightarrow$\blank{50};\blank{50}$A\cup B=A\Leftrightarrow$\blank{50}; ③$\complement {_U}A\cap \complement {_U}B=\complement {_U}(\underline)$;\blank{50}${=}\complement {_U}(A\cap B)$.
 【基础练习】
-\item 用适当符号($\in ,\notin ,=,$$\subset \ne$)填空:$\pi$$\mathbf{Q}$; 			$\{x|x=2k+1,k\in \operatornameZ\}$$\{x|x=2k-1,k\in \operatornameZ\}$
-$\{3.14 \}$$\mathbf{Q}$;  		$\{y|y={x^2}\}$$\{x|y={x^2}\}$.  
-\item 已知$P=\{y={x^2}+1 \}$,$Q=\{y|y={x^2}+1x\in \mathbf{R}\}$,$E=\{x|y={x^2}+1 . x\in \mathbf{R} \}$,$F=\{(x,y)|y={x^2}+1x\in \mathbf{R}\}$,$G=\{x|x\ge 1 \}$,$H=\{x|{x^2}+1$$=0,x\in \mathbf{R}\}$, 则各集合间关系正确的有. (答案可能不唯一)$(A)$$P=F$$(B)$$Q=E$$(C)$$E=F$$(D)$$Q\subseteq G$$(E)$$H$$\subset \ne$$P$
+\item 用适当符号($\in ,\notin ,=,$$\subset \ne$)填空:$\pi$\blank{50}$\mathbf{Q}$; 			\blank{50}$\{x|x=2k+1,k\in \operatornameZ\}$\blank{50}$\{x|x=2k-1,k\in \operatornameZ\}$
+$\{3.14 \}$\blank{50}$\mathbf{Q}$;  		\blank{50}$\{y|y={x^2}\}$\blank{50}$\{x|y={x^2}\}$.  
+\item 已知$P=\{y={x^2}+1 \}$,$Q=\{y|y={x^2}+1x\in \mathbf{R}\}$,$E=\{x|y={x^2}+1 . x\in \mathbf{R} \}$,$F=\{(x,y)|y={x^2}+1x\in \mathbf{R}\}$,$G=\{x|x\ge 1 \}$,$H=\{x|{x^2}+1$$=0,x\in \mathbf{R}\}$, 则各集合间关系正确的有\blank{50}. (答案可能不唯一)$(A)$$P=F$\blank{50}$(B)$$Q=E$\blank{50}$(C)$$E=F$\blank{50}$(D)$$Q\subseteq G$\blank{50}$(E)$$H$$\subset \ne$$P$
 
-\item 设全集是实数集$\mathbf{R}$,$M=\{x|-2 \le x\le 2 \}$,$N=\{x|x<1 \}$, 则$\complement {_U}M\cap N=$.
-\item 设$A=\{ x|-4<x<4x\in \mathbf{R} \}$,$B=(-\infty ,1]\cup [3,+\infty)$, 则$\{ x| x\in Ax\notin A\cap B  \}$＝.
-\item 设$A=\{ x|x=\sqrt k,k\in \mathbf{N} \}$,$B=\{ x|x\le 3,x\in \mathbf{Q} \}$, 则$A\cap B=$.
-\item 设全集$U=\{2,3,{a^2}+2a-3 \}$, 集合$A=\{|2a-1|,2 \}$,$\complement {_U}A{=}\{ 5 \}$, 则实数$a=$.
-\item (1)设$M=\{ y|y={x^2},x\in \mathbf{R} \}$,$N=\{ x|x=t,t\in \mathbf{R} \}$,则$M\cap N=$.
-(2)设$M=\{ (x,y)|y={x^2},x\in \mathbf{R} \}$,$N=\{ (t,x)|x=t,t\in \mathbf{R} \}$, 则$M\cap N=$.
-\item 设全集$U$={1, 2, 3, 4},$\complement {_U}A\cap B=\{ 3 \}$,$A\cap \complement {_U}B=\{ 2 \}$},$\complement {_U}A\cup \complement {_U}B=\{ 2,3,4 \}$, 则$\complement {_U}A\cap \complement {_U}B$=.
+\item 设全集是实数集$\mathbf{R}$,$M=\{x|-2 \le x\le 2 \}$,$N=\{x|x<1 \}$, 则$\complement {_U}M\cap N=$\blank{50}.
+\item 设$A=\{ x|-4<x<4x\in \mathbf{R} \}$,$B=(-\infty ,1]\cup [3,+\infty)$, 则$\{ x| x\in Ax\notin A\cap B  \}$＝\blank{50}.
+\item 设$A=\{ x|x=\sqrt k,k\in \mathbf{N} \}$,$B=\{ x|x\le 3,x\in \mathbf{Q} \}$, 则$A\cap B=$\blank{50}.
+\item 设全集$U=\{2,3,{a^2}+2a-3 \}$, 集合$A=\{|2a-1|,2 \}$,$\complement {_U}A{=}\{ 5 \}$, 则实数$a=$\blank{50}.
+\item (1)设$M=\{ y|y={x^2},x\in \mathbf{R} \}$,$N=\{ x|x=t,t\in \mathbf{R} \}$,则$M\cap N=$\blank{50}.
+(2)设$M=\{ (x,y)|y={x^2},x\in \mathbf{R} \}$,$N=\{ (t,x)|x=t,t\in \mathbf{R} \}$, 则$M\cap N=$\blank{50}.
+\item 设全集$U$={1, 2, 3, 4},$\complement {_U}A\cap B=\{ 3 \}$,$A\cap \complement {_U}B=\{ 2 \}$},$\complement {_U}A\cup \complement {_U}B=\{ 2,3,4 \}$, 则$\complement {_U}A\cap \complement {_U}B$=\blank{50}.
 【典型例题】
 \item 集合$C=\{ x| x=\dfrac k2\pm \dfrac14,k\in \mathbf{Z}  \},D=\{ x| x=\dfrac k4,k\in \mathbf{Z}  \}$, 试判断$C$与$D$的关系, 并证明.
-\item 集合$A=\{x| {x^2}+4x=0 \}$,$B=\{x| {x^2}+2(a+1)x+{a^2}-1=0,x\in \mathbf{R}\}$, (1)若$A\cap B=A$, 求实数$a$的取值范围;(2)若$A\cup B=A$, 求实数$a$的取值范围.
+\item 集合$A=\{x| {x^2}+4x=0 \}$,$B=\{x| {x^2}+2(a+1)x+{a^2}-1=0,x\in \mathbf{R}\}$, (1)若$A\cap B=A$, 求实数$a$的取值范围;\blank{50}(2)若$A\cup B=A$, 求实数$a$的取值范围.
  
-例3 若集合$A=[2,3]$, 集合$B=[a2a+1]$, (1)若$A$$\subset \ne$$B$, 求实数a的取值范围;(2)若$A\cap B\ne \varnothing$, 求实数a的取值范围.
+例3 若集合$A=[2,3]$, 集合$B=[a2a+1]$, (1)若$A$$\subset \ne$$B$, 求实数a的取值范围;\blank{50}(2)若$A\cap B\ne \varnothing$, 求实数a的取值范围.
 【课后反馈】
-\item 设全集$U=$$\mathbf{R}$,集合$A=\{ x| f(x)=0  \}$,$B=\{ x| g(x)=0  \}$,$C=\{ x| h(x)=0 x\in \mathbf{R} \}$,则方程$\dfrac{{f^2}(x)+{g^2}(x)}{h(x)}=0$的解集是(用$UABC$表示).
-\item (1)已知集合$A=\{ y| y={x^2},x\in \mathbf{R}  \},B=\{ y| y=4-{x^2},x\in \mathbf{R}  \}$, 则$A\cap B$＝.
-(2)已知集合$A=\{ ( x,y)| y={x^2},x\in \mathbf{R}  \}$,$B=\{ ( x,y)| y=4-{x^2},x\in \mathbf{R}  \}$, 则$A\cap B$＝.
+\item 设全集$U=$$\mathbf{R}$,集合$A=\{ x| f(x)=0  \}$,$B=\{ x| g(x)=0  \}$,$C=\{ x| h(x)=0 x\in \mathbf{R} \}$,则方程$\dfrac{{f^2}(x)+{g^2}(x)}{h(x)}=0$的解集是\blank{50}(用$UABC$表示).
+\item (1)已知集合$A=\{ y| y={x^2},x\in \mathbf{R}  \},B=\{ y| y=4-{x^2},x\in \mathbf{R}  \}$, 则$A\cap B$＝\blank{50}.
+(2)已知集合$A=\{ ( x,y)| y={x^2},x\in \mathbf{R}  \}$,$B=\{ ( x,y)| y=4-{x^2},x\in \mathbf{R}  \}$, 则$A\cap B$＝\blank{50}.
 \item 设$m\in \mathbf{R}$, 已知$A=\{ . x |{x^2}-3x+2=0 \}$,$B=\{ . x |mx+1=0 \}$, 且$B\begin{matrix}
-\subset\\ne\end{matrix}A$, 则$m=$.
-\item (1)集合$A$满足$\{ 1 \}\subseteq A$$\subset \ne$$\{1,2,3,4 \}$, 则满足条件的集合$A$有个.
-(2)若$A\cup B=\{1,2 \}$, 将满足条件的集合A、B写成集合对(A, B), 则集合对(A, B)有个.
+\blank{50}\subset\blank{50}\ne\blank{50}\end{matrix}A$, 则$m=$\blank{50}.
+\item (1)集合$A$满足$\{ 1 \}\subseteq A$$\subset \ne$$\{1,2,3,4 \}$, 则满足条件的集合$A$有\blank{50}个.
+(2)若$A\cup B=\{1,2 \}$, 将满足条件的集合A、B写成集合对(A, B), 则集合对(A, B)有\blank{50}个.
 \item 已知$A=\{x|{x^2}-3x+2=0 \}$,$B=\{x|{x^2}-ax+a=0,x\in \mathbf{R}\}$,若$B\begin{matrix}
-\subset\\ne\end{matrix}A$, 求满足题意的实数$a$.
+\blank{50}\subset\blank{50}\ne\blank{50}\end{matrix}A$, 求满足题意的实数$a$.
 \item 设集合$A=\{x|{x^2}+px+1=0,x\in \mathbf{R}\}$, 若$A\cap {R^+}=\varnothing .$ 求实数p的取值范围.
 \item 设函数$f(x)=\lg (\dfrac2{x+1}-1)$的定义域为集合$A$, 函数$g( x)=\sqrt{1-| x+a |}$的定义域为集合$B$.
 (1)当$a=1$时, 求集合$B$.

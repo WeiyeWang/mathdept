@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  17 JUN 2022 23:43
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  18 JUN 2022 08:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -700,27 +700,27 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 43.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 44.
  (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
-] (./2022届第一轮讲义例题与习题.aux) ) 
+] [2] (./2022届第一轮讲义例题与习题.aux) ) 
 Here is how much of TeX's memory you used:
- 19974 strings out of 476919
- 455598 string characters out of 5825424
+ 19952 strings out of 476919
+ 454355 string characters out of 5825424
  788410 words of memory out of 5000000
- 39586 multiletter control sequences out of 15000+600000
+ 39564 multiletter control sequences out of 15000+600000
  405808 words of font info for 61 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,8n,104p,443b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,8n,104p,443b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 2022届第一轮讲义例题与习题.pdf (1 page).
+Output written on 2022届第一轮讲义例题与习题.pdf (2 pages).
