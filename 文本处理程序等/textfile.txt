@@ -1,53 +1,96 @@
-                      第01讲 集合的概念与运算（1）         姓名___________学号___________
-【知识梳理】
-1、理解集合中的有关概念
-（1）集合中元素的特征：__________,___________,___________．
-（2）集合与元素的关系用符号用__________,___________表示．
-（3）常用数集的符号表示：
-自然数集__________；正整数集__________；整数集__________；有理数集__________；    实数集____________；复数集__________．
-（4）集合的表示法：__________,___________,___________等．
-（5）空集\[\varnothing \]与任意集合\[A\]的关系：__________________________________________．
-2、集合间的关系及其运算：
-（1）子集定义：__________________________________ ．
-集合\[A\]是集合\[B\]的子集，用符号表示为__________或__________．
-（2）真子集定义：__________________________________．
-集合\[A\]是集合\[B\]的真子集，用符号表示为_______________ ．
-（3）\[A\bigcap B\]=\[\left\{ \left. x \right|\_\_\_\_\_\_\_\_ \right\}\]；   \[A\bigcup B\]=\[\left\{ \left. x \right|\_\_\_\_\_\_\_ \right\}\]；   \[\complement {{\,}_{U}}A=\]\[\left\{ \left. x \right|\_\_\_\_\_\_\_\_\_\_\_ \right\}\]．
-（4）对于任意集合\[A\]、\[B\]，则：
-①\[A\bigcap B\]_____\[B\bigcap A\]；          \[A\bigcup B\]_____\[B\bigcup A\]；             \[A\bigcap B\]_____\[A\bigcup B\]；
-②\[A\bigcap B=A\Leftrightarrow \]______________ ；                      \[A\bigcup B=A\Leftrightarrow \] _______________；
-③\[\complement {{\,}_{U}}A\bigcap \complement {{\,}_{U}}B=\complement {{\,}_{U}}(\underline{\ \ \ \ \ \ \ \ \ \ })\]；                              ____________\[\text{=}\complement {{\,}_{U}}(A\bigcap B)\]．
-【基础练习】
-1．用适当符号（\[\in ,\notin ,=,\]\[\subset \ne \]）填空：
-\[\text{ }\!\!\pi\!\!\text{ }\]______\[\mathbf{Q}\]；			             \[\{x|x=2k+1,k\in \operatorname{Z}\}\]______\[\{x|x=2k-1,k\in \operatorname{Z}\}\]
-\[\{3.14\}\]______\[\mathbf{Q}\]； 		                         \[\{y|y={{x}^{2}}\}\]______\[\{x|y={{x}^{2}}\}\]． 
-2．已知$P=\{y={{x}^{2}}+1\}$，$Q=\{y|y={{x}^{2}}+1x\in \mathbf{R}\}$，$E=\{x|y={{x}^{2}}+1\left. x\in \mathbf{R} \right\}$，
-$F=\{(x,y)|y={{x}^{2}}+1x\in \mathbf{R}\}$，$G=\{x|x\ge 1\}$，\[H=\{x|{{x}^{2}}+1\]\[=0,x\in \mathbf{R}\}\]，
-则各集合间关系正确的有_______________________．（答案可能不唯一）
-$(A)$$P=F$   $(B)$$Q=E$    $(C)$$E=F$    $(D)$\[Q\subseteq G\]     \[(E)\]\[H\]\[\subset \ne \]\[P\]
+1．如图，$U$为全集，\[M\]、\[P\]、\[S\]是$U$的三个子集，则阴影部分所表示的集合是（    ）.
+A．\[\left( M\cap P \right)\cap S\]        B．\[\left( M\cap P \right)\cup S\]
+C．$(M\cap P)\cap {{C}_{U}}S$     D．$(M\cap P)\cup {{C}_{U}}S$	
 
-3．设全集是实数集\[\mathbf{R}\]，\[M=\{x|-2\le x\le 2\}\]，\[N=\{x|x<1\}\]，则\[\complement {{\,}_{U}}M\bigcap N=\]__________．
+2．设集合$A=\left\{ 5,\ {{\log }_{2}}(a+3) \right\}$，$B=\left\{ a,b \right\}$，若$A\bigcap B=\left\{ 2 \right\}$，则$A\bigcup B$＝________.
 
-4．设\[A=\left\{ x|-4<x<4x\in \mathbf{R} \right\}\]，\[B=(-\infty ,1]\bigcup [3,+\infty )\]，则\[\left\{ x\left| x\in Ax\notin A\bigcap B \right. \right\}\]＝______________．
+3．设集合\[A\cap \{-2,0,1\}=\{0,1\},A\cup \{-2,0,2\}=\{-2,0,1,2\},\]则满足上述条件的集合$A$的个数为   个.
 
-5．设\[A=\left\{ x|x=\sqrt{k},k\in \text{N} \right\}\]，\[B=\left\{ x|x\le 3,x\in \text{Q} \right\}\]，则\[A\bigcap B=\]____________．
+4．若集合\[A=\left\{ x|x\le 2 \right\},B=\left\{ x|x\ge a \right\}\]，满足\[A\cap B=\left\{ 2 \right\}\]，则实数\[a\]＝          .
 
-6．设全集\[U=\{2,3,{{a}^{2}}+2a-3\}\]，集合\[A=\{|2a-1|,2\}\]，\[\complement {{\,}_{U}}A\text{=}\left\{ 5 \right\}\]，则实数\[a=\]_________．
+5．若集合\[M=[a-1,a+1]\],\[N=(-\infty ,-1)\bigcup [2,+\infty )\],且\[M\cap N=\varnothing \]，则实数$a$的取值范围为                .
 
-7．(1)设\[M=\left\{ y|y={{x}^{2}},x\in \mathbf{R} \right\}\],\[N=\left\{ x|x=t,t\in \mathbf{R} \right\}\],则\[M\bigcap N=\]__________．
-(2)设\[M=\left\{ (x,y)|y={{x}^{2}},x\in \mathbf{R} \right\}\]，\[N=\left\{ (t,x)|x=t,t\in \mathbf{R} \right\}\]，则\[M\bigcap N=\]________．
+6．集合$A=\left\{ (x,y)\left| {{x}^{2}}+{{y}^{2}}=25 \right. \right\}$，\[B=\left\{ (x,y)|x=3y=4 \right\}\]，则$A\bigcap B$的子集个数是_________个.
 
-8. 设全集$U$={1，2，3，4}，\[\complement {{\,}_{U}}A\cap B=\left\{ 3 \right\}\]，\[A\cap \complement {{\,}_{U}}B=\left\{ 2 \right\}\]}，\[\complement {{\,}_{U}}A\cup \complement {{\,}_{U}}B=\left\{ 2,3,4 \right\}\]，则\[\complement {{\,}_{U}}A\cap \complement {{\,}_{U}}B\]=           ．
+7．已知集合\[M=\{\ x|x=3m+1\ ,\ \ m\in \text{Z}\ \}\]，\[N=\{\ y|\ y=3m+2,m\in \mathbf{Z}\}\]，
+若${{x}_{0}}\in M\ ,{{y}_{0}}\in N\ ,$ 则${{x}_{0}}{{y}_{0}}$与集合$M\ ,N$的关系是 （     ）.
+A．${{x}_{0}}{{y}_{0}}$$\in M$但${{x}_{0}}{{y}_{0}}$$\notin N$              B．${{x}_{0}}{{y}_{0}}$$\in N$但${{x}_{0}}{{y}_{0}}$$\notin M$ 
+C．${{x}_{0}}{{y}_{0}}$$\notin M$且${{x}_{0}}{{y}_{0}}$$\notin N$              D．${{x}_{0}}{{y}_{0}}$$\in M$且${{x}_{0}}{{y}_{0}}$$\in N$
+
+8. 若\[A=\left\{ x|x=2n,n\in Z \right\}\]，\[B=\left\{ x|x=4m,m\in \operatorname{Z} \right\}\]，求证：\[B\underset{\ne }{\mathop{\subset }}\,A\].
+
+
+
+
+
+
+
+
 
 【典型例题】
-1．集合\[C=\left\{ x\left| x=\frac{k}{2}\pm \frac{1}{4},k\in \text{Z} \right. \right\},D=\left\{ x\left| x=\frac{k}{4},k\in \text{Z} \right. \right\}\]，试判断\[C\]与\[D\]的关系，并证明．
+1．设常数\[a\in \text{R}\]，集合\[A=\{x|\frac{3-2x}{x-1}+1\ge 0,\ x\in \text{R}\}\]， \[B=\left\{ \left. x \right|2ax<a+x,x\in \text{R} \right\}\].若$A\bigcup B=B$，求$a$的取值范围.
 
 
 
 
 
-2．集合$A=\{x\left| {{x}^{2}}+4x=0\} \right.$，$B=\{x\left| {{x}^{2}}+2(a+1)x+{{a}^{2}}-1=0,x\in \mathbf{R}\} \right.$，
-（1）若$A\bigcap B=A$，求实数$a$的取值范围；   （2）若$A\bigcup B=A$，求实数$a$的取值范围．
+
+
+
+
+2．设常数\[m\in \text{R}\],$A=\left\{ (x,y)|{{x}^{2}}+mx-y+2=0,x\in \text{R} \right\}$，$B=\left\{ \left. (x,y) \right|x-y+1=0,x\in M \right\}$，且$A\bigcap B\ne \varnothing $，（1）若\[M=\text{R}\]，求实数$m$的取值范围；（2）若\[M=(\frac{1}{3},2]\]，求实数$m$的取值范围.
+
+
+
+
+
+
+
+
+3．设常数\[k\in \text{R}\]，关于$x$的不等式组$\left\{ \begin{align}
+  & {{x}^{2}}-x-2>0 \\ 
+ & 2{{x}^{2}}+(2k+5)x+5k<0 \\ 
+\end{align} \right.$整数解的集合为\[\left\{ -2 \right\}\]，求实数$k$的取值范围.
+
+
+
+
+
+
+
+
+ 
+【课后反馈】
+1．设$A=\{(x,\ y)|y=-4x+6,x\in \text{R}\},\ \,B=\{(x,\ y)|y=5x-3,x\in \text{R}\}$，则$A\bigcap B=$__________.
+
+2. 已知\[M=\left\{ a|\frac{6}{5-a}\in \operatorname{N}a\in \operatorname{Z} \right\}\]，则用列举法表示\[M=\left\{ \underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ } \right\}\].
+
+3. 定义集合运算：\[A\odot B=\left\{ z|z=xy(x+y),x\in A,y\in B \right\}\]，设集合\[A=\left\{ 0,1 \right\}\]，\[B=\left\{ 2,3 \right\}\]，则集合\[A\odot B\]的所有元素之和为_____.
+
+4．已知全集$U=\text{R}$，$A=\{-1\},\ \,B=\{x|\lg ({{x}^{2}}-2)=\lg x\}$，则（     ）
+A．$A\subseteq B$    					B．\[A\bigcup B=\varnothing \]   
+C．$A\supseteq B$    					D． \[(\complement {{\,}_{U}}A)\bigcap B=\{2\}\]
+
+5.集合\[A=\{(x,y)|y=|x|+1\},\ \,B=\{(x,y)|y=\frac{1}{2}x+a\}\]，若\[A\bigcap B=\varnothing .\] 则\[a\]的取值范围是_____________.
+
+6. 调查某班50名学生，音乐爱好者有40人，体育爱好者有24人，则两方面都爱好的人数最少_________人，最多__________人.
+
+7. 已知集合\[A=\left\{ x|a{{x}^{2}}-3x+2=0 \right\}\]至多有一个元素，则\[a\]的取值范围是________________；若至少有一个元素，则\[a\]的取值范围是______________.
+
+8. 设含有三个实数的集合既可以表示为\[\left\{ a,\frac{b}{a},1 \right\}\]，又可以表示为\[\left\{ {{a}^{2}},a+b,0 \right\}\]，那么\[a+b=\]__________________.
+
+9．设\[f(x)={{x}^{2}}-12x+36,\ \,A=\left\{ a|1\le a\le 10,\ a\in \text{N} \right\},\ \,\]\[B=\left\{ b|b=f(a),\ a\in A \right\}\]，又设\[C=A\bigcap B.\]求集合$C.$
+
+
+
+
+
+10. 设常数\[m\in \text{R}\],\[A=\left\{ \left( x,y \right)\left| y=-{{x}^{2}}+mx-1,x\in \text{R} \right. \right\}\]，$B=\left\{ \left( x,y \right)\left| x+y=3,x\in M\left. {} \right\} \right. \right.$，且$A\bigcap B$的子集有两个. （1）若\[M=\text{R}\]，求实数$m$的值；（2）若$M=\left[ 0,3 \right]$，求实数$m$的取值范围.
+
+
+
+
+
 
 
 
@@ -56,72 +99,3 @@ $(A)$$P=F$   $(B)$$Q=E$    $(C)$$E=F$    $(D)$\[Q\subseteq G\]     \[(E)\]\[H\]\
 
 
  
-例3 若集合$A=[2,3]$，集合$B=[a2a+1]$，
-（1）若$A$$\subset \ne $$B$，求实数a的取值范围；     （2）若$A\bigcap B\ne \varnothing $，求实数a的取值范围．
-
-
-
-
-
-
-
-
-
-【课后反馈】
-1．设全集$U=$$\mathbf{R}$,集合\[A=\left\{ x\left| f(x)=0 \right. \right\}\]，\[B=\left\{ x\left| g(x)=0 \right. \right\}\]，\[C=\left\{ x\left| h(x)=0 \right.x\in R \right\}\],则方程$\frac{{{f}^{2}}(x)+{{g}^{2}}(x)}{h(x)}=0$的解集是                 ________________(用\[UABC\]表示)．
-2．（1）已知集合\[A=\left\{ y\left| y={{x}^{2}},x\in \text{R} \right. \right\},B=\left\{ y\left| y=4-{{x}^{2}},x\in \text{R} \right. \right\}\]，则$A\bigcap B$＝_________．
-（2）已知集合\[A=\left\{ \left( x,y \right)\left| y={{x}^{2}},x\in \mathbf{R} \right. \right\}\]，\[B=\left\{ \left( x,y \right)\left| y=4-{{x}^{2}},x\in \mathbf{R} \right. \right\}\]，
-则$A\bigcap B$＝______________．
-
-3．设\[m\in \mathbf{R}\]，已知\[A=\left\{ \left. x \right|{{x}^{2}}-3x+2=0 \right\}\]，\[B=\left\{ \left. x \right|mx+1=0 \right\}\]，且$B\begin{matrix}
-   \subset   \\
-   \ne   \\
-\end{matrix}A$，则\[m=\]_________．
-
-4．（1）集合$A$满足$\left\{ 1 \right\}\subseteq A$$\subset \ne $\[\{1,2,3,4\}\]，则满足条件的集合$A$有_________个．
-
-（2）若$A\bigcup B=\{1,2\}$，将满足条件的集合A、B写成集合对（A，B），则集合对（A，B）有__________个．
-
-5．已知$A=\{x|{{x}^{2}}-3x+2=0\}$,\[B=\{x|{{x}^{2}}-ax+a=0,x\in \mathbf{R}\}\],若$B\begin{matrix}
-   \subset   \\
-   \ne   \\
-\end{matrix}A$，求满足题意的实数$a$．
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6．设集合\[A=\{x|{{x}^{2}}+px+1=0,x\in \text{R}\}\]，若\[A\bigcap {{\text{R}}^{+}}=\varnothing .\] 求实数p的取值范围．
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7．设函数$f(x)=\lg (\frac{2}{x+1}-1)$的定义域为集合\[\text{A}\]，函数\[g\left( x \right)=\sqrt{1-\left| x+a \right|}\]的定义域为集合\[\text{B}\]．
-（1）当\[a=1\]时，求集合\[\text{B}\]．
-（2）问：\[a\ge 2\]是$A\bigcap B$=$\varnothing $的什么条件（在“充分非必要条件、必要非充分条件、充要条件、既非充分也非必要条件”中选一）？并证明你的结论．
-

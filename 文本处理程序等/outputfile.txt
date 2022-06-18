@@ -1,45 +1,94 @@
-\blank{50}第01讲 集合的概念与运算(1)\blank{50}姓名\blank{50}学号\blank{50}
-【知识梳理】
-1、理解集合中的有关概念
-(1)集合中元素的特征:\blank{50},\blank{50},\blank{50}.
-(2)集合与元素的关系用符号用\blank{50},\blank{50}表示.
-(3)常用数集的符号表示: 自然数集\blank{50}; 正整数集\blank{50}; 整数集\blank{50}; 有理数集\blank{50};\blank{50}实数集\blank{50}; 复数集\blank{50}.
-(4)集合的表示法:\blank{50},\blank{50},\blank{50}等.
-(5)空集$\varnothing$与任意集合$A$的关系:\blank{50}.
-2、集合间的关系及其运算: (1)子集定义:\blank{50}.
-集合$A$是集合$B$的子集, 用符号表示为\blank{50}或\blank{50}.
-(2)真子集定义:\blank{50}.
-集合$A$是集合$B$的真子集, 用符号表示为\blank{50}.
-(3)$A\cap B$=$\{ . x |\_\_\_\_\_\_\_\_ \}$;\blank{50}$A\cup B$=$\{ . x |\_\_\_\_\_\_\_ \}$;\blank{50}$\complement {_U}A=$$\{ . x |\_\_\_\_\_\_\_\_\_\_\_ \}$.
-(4)对于任意集合$A$、$B$, 则: ①$A\cap B$\blank{50}$B\cap A$;\blank{50}$A\cup B$\blank{50}$B\cup A$;\blank{50}$A\cap B$\blank{50}$A\cup B$; ②$A\cap B=A\Leftrightarrow$\blank{50};\blank{50}$A\cup B=A\Leftrightarrow$\blank{50}; ③$\complement {_U}A\cap \complement {_U}B=\complement {_U}(\underline)$;\blank{50}${=}\complement {_U}(A\cap B)$.
-【基础练习】
-\item 用适当符号($\in ,\notin ,=,$$\subset \ne$)填空:$\pi$\blank{50}$\mathbf{Q}$; 			\blank{50}$\{x|x=2k+1,k\in \operatornameZ\}$\blank{50}$\{x|x=2k-1,k\in \operatornameZ\}$
-$\{3.14 \}$\blank{50}$\mathbf{Q}$;  		\blank{50}$\{y|y={x^2}\}$\blank{50}$\{x|y={x^2}\}$.  
-\item 已知$P=\{y={x^2}+1 \}$,$Q=\{y|y={x^2}+1x\in \mathbf{R}\}$,$E=\{x|y={x^2}+1 . x\in \mathbf{R} \}$,$F=\{(x,y)|y={x^2}+1x\in \mathbf{R}\}$,$G=\{x|x\ge 1 \}$,$H=\{x|{x^2}+1$$=0,x\in \mathbf{R}\}$, 则各集合间关系正确的有\blank{50}. (答案可能不唯一)$(A)$$P=F$\blank{50}$(B)$$Q=E$\blank{50}$(C)$$E=F$\blank{50}$(D)$$Q\subseteq G$\blank{50}$(E)$$H$$\subset \ne$$P$
+\item 如图,$U$为全集,$M$、$P$、$S$是$U$的三个子集, 则阴影部分所表示的集合是\bracket{20}.
+\fourch{$( M\cap P)\cap S$\blank{50}}{$( M\cap P)\cup S$
+}{$(M\cap P)\cap {C_U}S$\blank{50}}{$(M\cap P)\cup {C_U}S$	}
+\item 设集合$A=\{ 5,{{\log }_2}(a+3) \}$,$B=\{ a,b \}$, 若$A\cap B=\{ 2 \}$, 则$A\cup B$＝\blank{50}.
 
-\item 设全集是实数集$\mathbf{R}$,$M=\{x|-2 \le x\le 2 \}$,$N=\{x|x<1 \}$, 则$\complement {_U}M\cap N=$\blank{50}.
-\item 设$A=\{ x|-4<x<4x\in \mathbf{R} \}$,$B=(-\infty ,1]\cup [3,+\infty)$, 则$\{ x| x\in Ax\notin A\cap B  \}$＝\blank{50}.
-\item 设$A=\{ x|x=\sqrt k,k\in \mathbf{N} \}$,$B=\{ x|x\le 3,x\in \mathbf{Q} \}$, 则$A\cap B=$\blank{50}.
-\item 设全集$U=\{2,3,{a^2}+2a-3 \}$, 集合$A=\{|2a-1|,2 \}$,$\complement {_U}A{=}\{ 5 \}$, 则实数$a=$\blank{50}.
-\item (1)设$M=\{ y|y={x^2},x\in \mathbf{R} \}$,$N=\{ x|x=t,t\in \mathbf{R} \}$,则$M\cap N=$\blank{50}.
-(2)设$M=\{ (x,y)|y={x^2},x\in \mathbf{R} \}$,$N=\{ (t,x)|x=t,t\in \mathbf{R} \}$, 则$M\cap N=$\blank{50}.
-\item 设全集$U$={1, 2, 3, 4},$\complement {_U}A\cap B=\{ 3 \}$,$A\cap \complement {_U}B=\{ 2 \}$},$\complement {_U}A\cup \complement {_U}B=\{ 2,3,4 \}$, 则$\complement {_U}A\cap \complement {_U}B$=\blank{50}.
+\item 设集合$A\cap \{-2,0,1 \}=\{0,1 \},A\cup \{-2,0,2 \}=\{-2,0,1,2 \},$则满足上述条件的集合$A$的个数为\blank{50}个.
+
+\item 若集合$A=\{ x|x\le 2 \},B=\{ x|x\ge a \}$, 满足$A\cap B=\{ 2 \}$, 则实数$a$＝\blank{50}.
+
+\item 若集合$M=[a-1,a+1]$,$N=(-\infty ,-1)\cup [2,+\infty)$,且$M\cap N=\varnothing$, 则实数$a$的取值范围为\blank{50}.
+
+\item 集合$A=\{ (x,y)| {x^2}+{y^2}=25  \}$,$B=\{ (x,y)|x=3y=4 \}$, 则$A\cap B$的子集个数是\blank{50}个.
+
+\item 已知集合$M=\{x|x=3m+,m\in \mathbf{Z}\}$,$N=\{y|y=3m+2,m\in \mathbf{Z}\}$, 若${x_0}\,{y_0}\,$ 则${x_0}{y_0}$与集合$,N$的关系是 \bracket{20}.
+\fourch{${x_0}{y_0}$$\in M$但${x_0}{y_0}$$\notin N$\blank{50}}{${x_0}{y_0}$$\in \mathbf{N}$但${x_0}{y_0}$$\notin M$ 
+}{${x_0}{y_0}$$\notin M$且${x_0}{y_0}$$\notin N$\blank{50}}{${x_0}{y_0}$$\in M$且${x_0}{y_0}$$\in \mathbf{N}$}
+\item 若$A=\{ x|x=2n,n\in \mathbf{Z} \}$,$B=\{ x|x=4m,m\in \operatornameZ \}$, 求证:$B\underset{\ne }{\mathop{\subset }}A$.
+
+
+
+
+
+
+
+
+
 【典型例题】
-\item 集合$C=\{ x| x=\dfrac k2\pm \dfrac14,k\in \mathbf{Z}  \},D=\{ x| x=\dfrac k4,k\in \mathbf{Z}  \}$, 试判断$C$与$D$的关系, 并证明.
-\item 集合$A=\{x| {x^2}+4x=0 \}$,$B=\{x| {x^2}+2(a+1)x+{a^2}-1=0,x\in \mathbf{R}\}$, (1)若$A\cap B=A$, 求实数$a$的取值范围;\blank{50}(2)若$A\cup B=A$, 求实数$a$的取值范围.
- 
-例3 若集合$A=[2,3]$, 集合$B=[a2a+1]$, (1)若$A$$\subset \ne$$B$, 求实数a的取值范围;\blank{50}(2)若$A\cap B\ne \varnothing$, 求实数a的取值范围.
+\item 设常数$a\in \mathbf{R}$, 集合$A=\{x|\dfrac{3-2x}{x-1}+1 \ge 0,x\in \mathbf{R}\}$,$B=\{ . x |2ax<a+x,x\in \mathbf{R} \}$.若$A\cup B=B$, 求$a$的取值范围.
+
+
+
+
+
+
+
+
+
+\item 设常数$m\in \mathbf{R}$,$A=\{ (x,y)|{x^2}+mx-y+2=0,x\in \mathbf{R} \}$,$B=\{ . (x,y) |x-y+1=0,x\in M \}$, 且$A\cap B\ne \varnothing$, (1)若$M=R$, 求实数$m$的取值范围; (2)若$M=(\dfrac13,2]$, 求实数$m$的取值范围.
+
+
+
+
+
+
+
+
+\item 设常数$k\in \mathbf{R}$, 关于$x$的不等式组$\{ \begin{cases}
+  & {x^2}-x-2>0 \& 2{x^2}+(2k+5)x+5k<0 \end{cases}$整数解的集合为$\{ -2 \}$, 求实数$k$的取值范围.
+
+
+
+
+
+
+
+
+ 
 【课后反馈】
-\item 设全集$U=$$\mathbf{R}$,集合$A=\{ x| f(x)=0  \}$,$B=\{ x| g(x)=0  \}$,$C=\{ x| h(x)=0 x\in \mathbf{R} \}$,则方程$\dfrac{{f^2}(x)+{g^2}(x)}{h(x)}=0$的解集是\blank{50}(用$UABC$表示).
-\item (1)已知集合$A=\{ y| y={x^2},x\in \mathbf{R}  \},B=\{ y| y=4-{x^2},x\in \mathbf{R}  \}$, 则$A\cap B$＝\blank{50}.
-(2)已知集合$A=\{ ( x,y)| y={x^2},x\in \mathbf{R}  \}$,$B=\{ ( x,y)| y=4-{x^2},x\in \mathbf{R}  \}$, 则$A\cap B$＝\blank{50}.
-\item 设$m\in \mathbf{R}$, 已知$A=\{ . x |{x^2}-3x+2=0 \}$,$B=\{ . x |mx+1=0 \}$, 且$B\begin{matrix}
-\blank{50}\subset\blank{50}\ne\blank{50}\end{matrix}A$, 则$m=$\blank{50}.
-\item (1)集合$A$满足$\{ 1 \}\subseteq A$$\subset \ne$$\{1,2,3,4 \}$, 则满足条件的集合$A$有\blank{50}个.
-(2)若$A\cup B=\{1,2 \}$, 将满足条件的集合A、B写成集合对(A, B), 则集合对(A, B)有\blank{50}个.
-\item 已知$A=\{x|{x^2}-3x+2=0 \}$,$B=\{x|{x^2}-ax+a=0,x\in \mathbf{R}\}$,若$B\begin{matrix}
-\blank{50}\subset\blank{50}\ne\blank{50}\end{matrix}A$, 求满足题意的实数$a$.
-\item 设集合$A=\{x|{x^2}+px+1=0,x\in \mathbf{R}\}$, 若$A\cap {R^+}=\varnothing .$ 求实数p的取值范围.
-\item 设函数$f(x)=\lg (\dfrac2{x+1}-1)$的定义域为集合$A$, 函数$g( x)=\sqrt{1-| x+a |}$的定义域为集合$B$.
-(1)当$a=1$时, 求集合$B$.
-(2)问:$a\ge 2$是$A\cap B$=$\varnothing$的什么条件(在``充分非必要条件、必要非充分条件、充要条件、既非充分也非必要条件''中选一)？并证明你的结论.
+\item 设$A=\{(x,y)|y=-4x+6,x\in \mathbf{R}\},B=\{(x,y)|y=5x-3,x\in \mathbf{R}\}$, 则$A\cap B=$\blank{50}.
+
+\item 已知$M=\{ a|\dfrac6{5-a}\in \operatornameNa\in \operatornameZ \}$, 则用列举法表示$M=\{ \underline \}$.
+
+\item 定义集合运算:$A\odot B=\{ z|z=xy(x+y),x\in A,y\in B \}$, 设集合$A=\{ 0,1 \}$,$B=\{ 2,3 \}$, 则集合$A\odot B$的所有元素之和为\blank{50}.
+
+\item 已知全集$U=R$,$A=\{-1 \},B=\{x|\lg ({x^2}-2)=\lg x\}$, 则\bracket{20}\fourch{$A\subseteq B$\blank{50}					}{$A\cup B=\varnothing$\blank{50}
+}{$A\supseteq B$\blank{50}					}{$(\complement {_U}A)\cap B=\{2 \}$}
+5.集合$A=\{(x,y)|y=|x|+1 \},B=\{(x,y)|y=\dfrac12x+a\}$, 若$A\cap B=\varnothing .$ 则$a$的取值范围是\blank{50}.
+
+\item 调查某班50名学生, 音乐爱好者有40人, 体育爱好者有24人, 则两方面都爱好的人数最少\blank{50}人, 最多\blank{50}人.
+
+\item 已知集合$A=\{ x|a{x^2}-3x+2=0 \}$至多有一个元素, 则$a$的取值范围是\blank{50}; 若至少有一个元素, 则$a$的取值范围是\blank{50}.
+
+\item 设含有三个实数的集合既可以表示为$\{ a,\dfrac ba,1 \}$, 又可以表示为$\{ {a^2},a+b,0 \}$, 那么$a+b=$\blank{50}.
+
+\item 设$f(x)={x^2}-12x+36,A=\{ a|1 \le a\le 10,a\in \mathbf{N} \},$$B=\{ b|b=f(a),a\in A \}$, 又设$C=A\cap B.$求集合$C.$
+
+
+
+
+
+\item 设常数$m\in \mathbf{R}$,$A=\{ ( x,y)| y=-{x^2}+mx-1,x\in \mathbf{R}  \}$,$B=\{ ( x,y)| x+y=3,x\in M.  \}$, 且$A\cap B$的子集有两个. (1)若$M=R$, 求实数$m$的值; (2)若$M=[ 0,3 ]$, 求实数$m$的取值范围.
+
+
+
+
+
+
+
+
+
+
+
+
+ 

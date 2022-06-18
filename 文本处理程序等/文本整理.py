@@ -40,6 +40,14 @@ def multiple_choice(matchobj):
     string = "\\fourch" + "{" + matchobj.group(1) + "}{" + matchobj.group(2) + "}{" + matchobj.group(3) + "}{" + matchobj.group(4) + "}"
     return string
 
+def blackboardbold(matchobj):
+    string = "\\mathbf" + "{" + matchobj.group(1) + "}"
+    return string
+
+def frac_sqrt(matchobj):
+    string = matchobj.group(1)[:4] + " " + matchobj.group(1)[-1]
+    return string
+
 data = re.sub(r"([\d]\\)",insert_a_blank,data)
 
 data = data.replace(r"\left","").replace(r"\right.","").replace(r"\right","")
@@ -60,7 +68,7 @@ data = re.sub("\\\\\[",r"$",data)
 data = re.sub("\\\\\]",r"$",data)
 data = data.replace("\\frac","\\dfrac")
 
-data = re.sub("[ _]{3,}",r"\\blank{50}",data)
+data = re.sub("[ __]{5,}",r"\\blank{50}",data)
 
 data = re.sub("\\\\[!,]","",data)
 data = re.sub("[\w\d\s]*?\\\\[\s]+","",data)
@@ -98,8 +106,13 @@ data = re.sub(r"\\\\end{align}","\\\\end{cases}",data)
 data = re.sub(r"\\quad", "", data)
 
 data = re.sub(r"\(\\blank\{50\}\)","\\\\bracket{20}",data)
-data = re.sub("\\\\blank\{50\}","",data)
+data = re.sub(r"\\\\blank\{50\}","",data)
 data = re.sub("A\.([\s\S]*?)B\.([\s\S]*?)C\.([\s\S]*?)D\.([\s\S]*?)\\n",multiple_choice,data)
+
+data = re.sub(r"\\\\end","\\\\end",data)
+data = re.sub(r"\\mathbf([ZRNQC])",blackboardbold,data)
+data = re.sub(r"(sqrt[a-zA-Z])",frac_sqrt,data)
+data = re.sub(r"(frac[a-zA-Z])",frac_sqrt,data)
 
 with open("outputfile.txt","w",encoding = "utf8") as f:
     f.write(data)
