@@ -1,39 +1,45 @@
-【基础练习】
-\item 命题(1)$a>b\Rightarrow$$a{c^2}>b{c^2}$;    (2)$a{c^2}>b{c^2}$$\Rightarrow$$a>b$;     (3)$a>b\Rightarrow \dfrac1a<\dfrac1b$;   
-  
-(4)$a<b<0,c<d<0 \Rightarrow ac>bd$; (5)$\sqrt[n]a>\sqrt[n]b\Rightarrow a>b(n\in {N^{*}})$; (6)$a+c<b+d\Leftrightarrow \{ \begin{cases}
-  & a<b \& c<d \end{cases}$; 
-(7)$a<b<0 \Rightarrow {a^2}>ab>{b^2}$.
-其中真命题的序号是\blank{50}.
-\item 已知$a,b\in \mathbf{R}$,则$ab(a-b)<0$成立的一个充要条件是()
-\fourch{$\dfrac1a>\dfrac1b>0$    }{$\dfrac1a<\dfrac1b$    }{$0<\dfrac1a<\dfrac1b$    }{$\dfrac1a>\dfrac1b$}\item ``$\{ \begin{cases}
-  & 2<x+y<4 \& 0<xy<3 \end{cases}$''是``$\{ \begin{cases}
-  & 2<x<3 \& 0<y<1 \end{cases}$''的\blank{50}条件.
-4.下列函数中,最小值为2的函数有\blank{50}.  
-(1)$y=x+\dfrac1x,x\in ( 0,+\infty)$ (2)$y=x+\dfrac1x,x\in ( 1,+\infty)$ (3)$y=\dfrac{x^2}+3}{\sqrt{{x^2}+2}$   (4)$y={{\log }_3}x+{{\log }_x}3$
-\item$z=(x+y)(\dfrac1x+\dfrac1{4y}),(x,y>0)$的最小值是\blank{50}.
-\item 若正实数$a,b$满足$a+b=1$, 则						()
-\fourch{$\dfrac1a+\dfrac1b$的最大值是4}{$ab$的最小值是$\dfrac14$}{$\sqrt a+\sqrt b$有最大值$\sqrt2$}{${a^2}+{b^2}$有最小值$\dfrac{\sqrt2}2$}\item 如果$0<a<b$,$t>0$, 设$M=\dfrac ab$,$N=\dfrac{a+t}{b+t}$, 那么	()
-\fourch{$M>N$	 }{$M<N$    }{$M=N$		}{$M$与$N$的大小随$t$的变化而变化}\item 将一根铁丝切割成三段做一个面积为2平方米、形状为直角三角形的框架, 则至少需要\blank{50}米的铁丝.(不计损失, 精确到0.1米)
- 
- 
-【典型例题】
-1.(1)比较$1+{a^2}\dfrac1{1-a}$的大小; 
-(2)设$a>0,a\ne 1$,$t>0$,比较$\dfrac12{{\log }_a}t$和${{\log }_a}\dfrac{t+1}2$的大小,证明你的结论.
-\item 已知$x,y\in {R^+}$且$x+y=4$, 求$\dfrac1x+\dfrac2y$的最小值.某学生给出如下解法: 由$x+y=4$得,$4 \ge 2 \sqrt{xy}$①, 即$\dfrac1{\sqrt{xy}}\ge \dfrac12$②, 又因为$\dfrac1x+\dfrac2y\ge 2 \sqrt{\dfrac2{xy}}$③, 由②③得$\dfrac1x+\dfrac2y\ge \sqrt2$④, 即所求最小值为$\sqrt2$⑤.请指出这位同学错误的步骤, 并给出正确的解法.
-\item 已知$x,y\in {R^+},xy=x+y+1$,求$x+y$的取值范围.(试用两种方法求解)
- 【课后反馈】
-\item 设$a,b\in \mathbf{R}$, 若$a-| b |>0$, 则下列不等式中正确的是		()
-\fourch{$b-a>0$  }{${a^3}+{b^3}<0$ }{$b+a>0$ }{${a^2}-{b^2}<0$}\item 已知$0<x<y<a<1$,则								(	)
-\fourch{${{\log }_a}(xy)<0$   }{$0<{{\log }_a}(xy)<1$   }{$1<{{\log }_a}(xy)<2$   	}{${{\log }_a}(xy)>2$}\item 设$a>1>b>-1$, 则下列不等式中恒成立的是				()
-\fourch{$\dfrac1a<\dfrac1b$	}{$\dfrac1a>\dfrac1b$		}{$a>{b^2}$		}{${a^2}>2b$}\item 若$1<a<3$,$-4<b<2$, 则$\dfrac12a-b$的取值范围是\blank{50}.
-5.已知$x,y\in {R^+}$, 且$x+4y=1$, 则$x\cdot y$的最大值为\blank{50}.
-6.函数$y={{\log }_a}(x+3)-1$$(a>0a\ne 1)$的图像恒过定点$A$, 若点$A$在直线$mx+ny+1=0$上, 其中$mn>0$, 则$\dfrac1m+\dfrac2n$的最小值为\blank{50}.
-*\item 如果正数$abcd$满足$a+b=cd=4$, 那么				()
-Ａ.$ab\le c+d$且等号成立时,$abcd$的取值唯一
-Ｂ.$ab\ge c+d$且等号成立时,$abcd$的取值唯一
-Ｃ.$ab\le c+d$且等号成立时,$abcd$的取值不唯一
-Ｄ.$ab\ge c+d$且等号成立时,$abcd$的取值不唯一
-\item (1)设$x<2$, 则$2x+\dfrac8{x-2}$有最____值是\blank{50}, 此时$x=$\blank{50}.
-(2)设$0<x<\sqrt2$,则$x\sqrt{4-2{x^2}}$的最大值是\blank{50}, 此时$x=$\blank{50}.
-9.在等差数列$\{{a_n}\}$和等比数列$\{{b_n}\}$中,${a_1}={b_1}>0,{a_3}={b_3}>0,{a_1}\ne {a_3}$,试比较${a_5}{b_5}$的大小.
+\item 设一元二次方程2x2-6x-3=0的两个实根为x1、x2, 求下列各式的值:
+(1)(x1+1)(x2+1);
+(2)(x21-1)(x22-1).
+\item 设a>b>0, 比较b+2a
+a+2b与ab的值的大小.
+\item 已知x>y, 求证: x3-y3>x2y-xy\item \item 若关于x的不等式(a+1)x-a<0的解集为(2, +\infty), 求实数a的值, 并求不等
+式(a-1)x+3-a>0的解集.
+\item 解下列一元二次不等式:
+(1)-x2+11<-2x-4;
+(2)3x2<13x+10;
+(3)6x+2\ge 5x2;
+(4)x2\le 8(1-x);
+(5)-x2\ge 9(9-2x);
+(6)3(x-3)\le x\item \item 试写出一个二次项系数为1的一元二次不等式, 使它的解集分别为:
+(1) -\infty, \sqrt 2
+(
+)\cup  \sqrt 2, +\infty
+(
+);
+(2)2-\sqrt 3, 2+\sqrt 3
+[
+］.
+\item 求不等式5\le x2-2x+2<26的所有正整数解.
+\item 解下列分式不等式:
+(1)2x+1
+x+7>-3;
+(2) 3x
+x2+2\ge \item \item 设关于x的不等式a1x2+b1x+c1>0与a2x2+b2x+c2>0的解集分别为A、B,
+试用集合运算表示下列不等式组的解集:
+(1) a1x2+b1x+c1>0,
+a2x2+b2x+c2>0;
+烅烄
+烆
+(2) a1x2+b1x+c1\le 0,
+a2x2+b2x+c2>0;
+烅烄
+烆
+(3) a1x2+b1x+c1\le 0,
+a2x2+b2x+c2\le \item 烅烄
+烆
+\item 解下列含绝对值的不等式:
+(1)2x-1\le x;
+(2)2x+1+x-2<\item \item 已知a、b是正数, 求证:  (1+a)(1+b
+\sqrt
+)\ge 1+\sqrt ab. 
