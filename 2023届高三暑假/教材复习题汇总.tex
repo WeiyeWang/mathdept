@@ -499,8 +499,17 @@ $\dfrac 14$及$\dfrac 18$; 乙写错了常数$c$, 得两根$\dfrac 12$及$64$. �
         \draw (0.4,0) arc (0:40:0.4) (0.55,0.15) node {$\theta$};
     \end{tikzpicture}
 \end{center}
+
+\begin{center}
+    \begin{tikzpicture}[>=latex,scale = 0.5]
+        \foreach \i in {0,1,...,4} {\draw [dashed, very thin] (0,\i) -- (6,\i);};
+        \foreach \i in {0,1,...,6} {\draw [dashed, very thin] (\i,0) -- (\i,4);};
+        \draw [thick,->] (0,1) node [left] {$A$} -- (3,4) node [above] {$B$};
+        \draw [thick,->] (1,0) node [below] {$C$} -- (6,1) node [right] {$D$};
+        \draw [thick, ->] (4,4) node [above] {$E$} -- (6,2) node [right] {$F$};       
+    \end{tikzpicture}
+\end{center}
+  
 \end{enumerate}
 \end{document}
 
-
-  
