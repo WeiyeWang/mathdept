@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  19 JUN 2022 22:51
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  20 JUN 2022 09:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,8 +8,8 @@ entering extended mode
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(c:/texlive/2021/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+(c:/texlive/2021/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count175
 \c@section=\count176
@@ -685,12 +685,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -712,30 +712,65 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 50.
  (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \hbox (24.58568pt too wide) in paragraph at lines 59--60
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 59--60
 [][] 
  []
 
 
-Overfull \hbox (24.58568pt too wide) in paragraph at lines 66--67
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 66--67
 [][] 
  []
 
 [1
 
 ]
-Overfull \hbox (24.58568pt too wide) in paragraph at lines 78--79
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 78--79
 [][] 
  []
 
-[2] [3] (./教材复习题汇总.aux) ) 
-Here is how much of TeX's memory you used:
- 19962 strings out of 476919
- 453972 string characters out of 5825424
- 781419 words of memory out of 5000000
- 39566 multiletter control sequences out of 15000+600000
- 408769 words of font info for 73 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 101i,10n,104p,435b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
+[2] [3] [4]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 193--195
+[][]
+ []
 
-Output written on 教材复习题汇总.pdf (3 pages).
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 206--210
+
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 211--212
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 234--272
+[][]
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 272--273
+[][] 
+ []
+
+[6]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 294--336
+[][]
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 336--337
+[][] 
+ []
+
+[7] [8] [9] (./教材复习题汇总.aux) ) 
+Here is how much of TeX's memory you used:
+ 20777 strings out of 476919
+ 471141 string characters out of 5825424
+ 844997 words of memory out of 5000000
+ 40387 multiletter control sequences out of 15000+600000
+ 405824 words of font info for 63 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 101i,13n,104p,435b,816s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 教材复习题汇总.pdf (9 pages).
