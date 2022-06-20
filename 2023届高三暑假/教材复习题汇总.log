@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  20 JUN 2022 16:14
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  20 JUN 2022 22:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -564,6 +564,10 @@ File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 \pgf@intersect@solutions=\count318
+)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )) (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box65
@@ -810,14 +814,14 @@ File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 456.
 Missing character: There is no ; ("3B) in font nullfont!
- [11] (./教材复习题汇总.aux) ) 
+ [11] [12] (./教材复习题汇总.aux) ) 
 Here is how much of TeX's memory you used:
- 21118 strings out of 476919
- 475658 string characters out of 5825424
- 848618 words of memory out of 5000000
- 40715 multiletter control sequences out of 15000+600000
+ 21290 strings out of 476919
+ 480729 string characters out of 5825424
+ 856987 words of memory out of 5000000
+ 40881 multiletter control sequences out of 15000+600000
  406127 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,13n,104p,414b,800s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,13n,104p,414b,796s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 教材复习题汇总.pdf (11 pages).
+Output written on 教材复习题汇总.pdf (12 pages).
