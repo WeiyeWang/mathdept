@@ -509,6 +509,18 @@ $\dfrac 14$及$\dfrac 18$; 乙写错了常数$c$, 得两根$\dfrac 12$及$64$. �
         \draw [thick, ->] (4,4) node [above] {$E$} -- (6,2) node [right] {$F$};       
     \end{tikzpicture}
 \end{center}
+
+\begin{center}
+    \begin{tikzpicture}
+        \draw [thick] (0,0) node [below left] {$B$} coordinate (B) -- (2,0) node [below right] {$C$} coordinate (C) -- (2.4,2.5) node [above right] {$D$} coordinate (D) -- (-0.1,1.5) node [above left] {$A$} coordinate (A) -- cycle;
+        \draw [thick] (A) -- (C) (B) -- (D);
+        \filldraw ($(B)!0.5!(D)$) circle (0.03) node [above] {$M$} coordinate (M);
+        \filldraw ($(A)!0.5!(C)$) circle (0.03) node [below] {$N$} coordinate (N);
+        \filldraw ($(M)!0.5!(N)$) circle (0.03) node [right] {$G$} coordinate (G);
+        \filldraw (3,1) circle (0.03) node [right] {$P$};
+        \draw [thick] (M) -- (N);
+    \end{tikzpicture}
+\end{center}
   
 \end{enumerate}
 \end{document}
