@@ -618,6 +618,216 @@ $\dfrac 14$及$\dfrac 18$; 乙写错了常数$c$, 得两根$\dfrac 12$及$64$. �
         \draw (O) -- (A1) -- (B1) -- (C1) -- (O) (A1) -- (C1) (B1) -- (O);
     \end{tikzpicture}
 \end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick,scale = 2]
+        \draw (0,0) node [left] {$B$} coordinate (B) -- (0,1) node [above left] {$A$} coordinate (A);
+        \draw ({sqrt(2)/2},0) ++ (-45:{sqrt(2)/4}) coordinate (C) node [below] {$C$};
+        \draw ({sqrt(2)},0) node [right] {$D$} coordinate (D) -- (C) -- (B) (A) -- (C) (A) -- (D);
+        \draw ($(A)!{1/3}!(D)$) node [above] {$E$} coordinate (E) -- ($(A)!0.5!(C)$) node [right] {$F$} coordinate (F);
+        \draw (E) -- (F) -- (B);
+        \draw [dashed] (E) -- (B) -- (D);
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick,scale = 1.2]
+        \draw (0,0) node [left] {$A$} coordinate (A) -- (0,2) node [above left] {$E$} coordinate (E);
+        \draw (2,0) node [right] {$C$} coordinate (C) -- (2,1) node [right] {$D$} coordinate (D);
+        \draw (1,0) ++ (-135:{sqrt(3)/2}) node [below] {$B$} coordinate (B) -- (E) (B) -- (D) -- (E) ;
+        \draw ($(E)!0.5!(B)$) node [above right] {$F$} coordinate (F) -- (A) (F) -- (D);
+        \draw [dashed] (A) -- (C);
+        \draw (A) -- (B) -- (C);
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick]
+        \draw (0,0) node [left] {$A$} coordinate (A) -- (2,0) node [above right] {$D$} coordinate (D) -- (2,2) node [above right] {$C$} coordinate (C) -- cycle;
+        \draw (2,0) --++ (-45:1) node [below] {$B$} coordinate (B) -- (A);
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick]
+        \draw (-0.5,0) -- (0,0) node [above left] {$O$} -- (1,0) node [above right] {$A$} coordinate (A) -- (2,0);
+        \draw (0,0) coordinate (O) -- (0,1.7) (0,1.5) node [above right] {$P$} coordinate (P);
+        \draw ($(P)!{-0.1}!(A)$) -- (A);
+        \draw (1.6,0) ++ (45:0.7) node [below] {$a$} --++ (225:1.4);
+        \draw (0,-1.2) coordinate (X);
+        \draw ($(A)!{-0.7}!(P)$) coordinate (Y);
+        \draw (-0.3,0.6) -- (-1.9,-0.6) -- (2,-0.6) -- (3.2,0.6);
+        \path [name path=line1] (O) -- (X);
+        \path [name path=line2] (A) -- (Y);
+        \path [name path=line3] (O) -- (P);
+        \path [name path=line4] (A) -- (P);
+        \path [name path=under_line] (-1.6,-0.6) -- (2,-0.6);
+        \path [name path=above_line] (-0.3,0.6) -- (3.2,0.6);
+        \path [name intersections={of = line1 and under_line, by=U}];
+        \path [name intersections={of = line2 and under_line, by=V}];
+        \path [name intersections={of = line3 and above_line, by=S}];
+        \path [name intersections={of = line4 and above_line, by=T}];
+        \draw (U) -- (X) (V) -- (Y) (-0.3,0.6) -- (S) (T) -- (3.2,0.6);
+        \draw [dashed] (S) -- (T) (O) -- (X) (A) -- (Y);
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick]
+        \draw (-1,0) -- (3,0) --++ (45:2) coordinate (R);
+        \draw (-1,0) --++ (45:2) coordinate (P);
+        \path [name path = aboveline] (P) -- (R);
+        \draw (1,0.3) node [left] {$A$} coordinate (A) -- (2.5,0.3) node [right] {$B$} coordinate (B) -- (1,2.3) node [left] {$D$} coordinate (D);
+        \draw ($(B)!{16/41}!(D)$) node [right] {$E$} coordinate (E) -- (A) -- (D);
+        \path [name path = A--D] (A) -- (D);
+        \path [name path = B--D] (B) -- (D);
+        \path [name intersections = {of = aboveline and A--D, by = U}];
+        \path [name intersections = {of = aboveline and B--D, by = V}];
+        \draw [dashed] (U) -- (V);
+        \draw (P) -- (U) (V) -- (R);
+        \draw [dashed] (A) ++ (45:1) node [left] {$C$} coordinate (C) -- (A) (C) -- (E) (C) -- (B); 
+        \draw (R) --++ (-0.3,0) node [below left] {$\alpha$};
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick]
+        \draw (0,0) node [below left] {$A$} coordinate (A) --++ (3,0) node [below right] {$B$} coordinate (B) --++ (45:{2.5/2}) node [right] {$C$} coordinate (C)
+        --++ (0,2) node [above right] {$C_1$} coordinate (C1)
+        --++ (-3,0) node [above left] {$D_1$} coordinate (D1) --++ (225:{2.5/2}) node [left] {$A_1$} coordinate (A1) -- cycle;
+        \draw (A) ++ (3,2) node [right] {$B_1$} coordinate (B1) -- (B) (B1) --++ (45:{2.5/2}) (B1) --++ (-3,0);
+        \draw [dashed] (A) --++ (45:{2.5/2}) node [left] {$D$} coordinate (D) --++ (3,0) (D) --++ (0,2);
+        \draw [dashed] (A) -- (C1);
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick]
+        \draw (0.4,0) -- (0.8,1) -- (0,2) -- (-0.8,1) -- (-0.4,0);
+        \draw (0.4,0) arc (0:-180:0.4 and 0.1) (0.8,1) arc (0:-180:0.8 and 0.2);
+        \draw [dashed] (0.4,0) arc (0:180:0.4 and 0.1) (0.8,1) arc (0:180:0.8 and 0.2);
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick]
+        \draw [thin] (0,-0.2) -- (0,2.2);
+        \draw (0,0) -- (0.4,0) -- (0.8,1) -- (0,2);
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick]
+        \draw [thin] (0,-0.2) -- (0,2.2);
+        \draw (0,0) -- (0.8,0.7) -- (0,2);
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick]
+        \draw [thin] (0,-0.2) -- (0,2.2);
+        \draw (0,0) -- (0.8,0.7) -- (0.8,2) -- (0,2);
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick]
+        \draw [thin] (0,-0.2) -- (0,2.2);
+        \draw (0,0) -- (0.8,0.7) -- (0.8,1.5) -- (0,2);
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick]
+        \draw (0,0) node [left] {$C$} coordinate (C) -- (3,0) node [right] {$A$} coordinate (A);
+        \draw [dashed] (1,1) node [above right] {$B$} coordinate (B) -- (A) (B) -- (C) (B) --++ (0,2) node [above] {$B_1$} coordinate (B1);
+        \draw (A) --++ (0,2) node [right] {$A_1$} coordinate (A1) -- (B1) -- (0,2) node [left] {$C_1$} coordinate (C1); 
+        \draw (C) -- (C1) -- (A1);
+        \draw ($(A)!0.7!(A1)$) node [right] {$P$} coordinate (P) -- (C);
+        \draw [dashed] (P) -- ($(B)!0.3!(B1)$) node [left] {$Q$} -- (C);
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick]
+        \draw (0,0) node [left] {$A$} -- (0,3) node [left] {$A_1$} -- (4,3) node [right] {$B_1$} -- (4,0) node [right] {$B$};
+        \draw (0,0) arc (180:360:2 and 0.5) (0,3) arc (180:360:2 and 0.5) (0,3) arc (180:0:2 and 0.5);
+        \draw [dashed] (0,0) arc (180:0:2 and 0.5);
+        \filldraw (2,0) circle (0.05) node [below left] {$O$} coordinate (O) (2,3) circle (0.05) node [above] {$O_1$} coordinate (O1);
+        \draw [dashed] (0,0) -- (4,0) -- (0,3) -- ({2+2*cos(-75)},{0.5*sin(-75)}) node [below] {$P$} coordinate (P) (O) -- (P) -- (0,3) (4,0) -- (P) -- (0,0);
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick]
+        \draw (0,0) node [left] {$A$} -- (0,3) node [left] {$D$} coordinate (D) (3,3) node [right] {$C$} -- (3,0) node [right] {$B$};
+        \draw (0,0) arc (180:360:1.5 and 0.5) (0,3) arc (180:-180:1.5 and 0.5);
+        \draw [dashed] (0,0) arc (180:0:1.5 and 0.5);
+        \draw [dashed] ({1.5+1.5*cos(-105)},{0.5*sin(-105)}) node [below] {$E$} coordinate (E) -- (0,0) (E) -- (3,0) (E) -- (0,3) -- (3,0) -- (0,0) -- ($(E)!0.3!(D)$) node [left] {$F$};
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick]
+        \draw [dashed] (0,0)  coordinate (A) --++ (2,0)  coordinate (B) --++ (45:{2/2})  coordinate (C)
+        --++ (0,2)  coordinate (C1) --++ (-2,0)  coordinate (D1) --++ (225:{2/2}) coordinate (A1) -- cycle;
+        \draw [dashed] (A) ++ (2,2) coordinate (B1) -- (B) (B1) --++ (45:{2/2}) (B1) --++ (-2,0);
+        \draw [dashed] (A) --++ (45:{2/2})  coordinate (D) --++ (2,0) (D) --++ (0,2);        
+        \draw ($(A)!0.5!(C)$) ++ ({-sqrt(6)},0) coordinate (L)  arc (180:0:{sqrt(6)});
+        \draw (L) arc (-180:0:{sqrt(6)} and {sqrt(6)/3});
+        \draw [dashed] (L) arc (180:0:{sqrt(6)} and {sqrt(6)/3});
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick,>=latex]
+        \draw (-1,0) -- (0,-3) -- (1,0) arc (0:180:1) arc (180:360:1 and 0.25);
+        \draw [dashed] (0,-3) -- (0,1) (-1,0) -- (1,0) arc (0:180:1 and 0.25);
+        \draw [thin] (1,0) -- (1.6,0) (0,-3) -- (1.6,-3) (0,1) -- (1.6,1);
+        \draw [thin,<->] (1.3,0) -- (1.3,1);
+        \draw [thin,<->] (1.3,0) -- (1.3,-3);
+        \draw (1.5,0.5) node {\rotatebox{90}{$4\text{cm}$}};
+        \draw (1.5,-1.5) node {\rotatebox{90}{$12\text{cm}$}};
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick]
+        \draw (0,0) node [above] {$A$} -- (3,0) node [right] {$B$} coordinate (B) --++ (135:1.5) node [above] {$C$} coordinate (C) --++ (-3,0) node [above] {$D$} coordinate (D) -- cycle;
+        \draw ($(B)!0.5!(D)$) ++ (0,-2) node [below] {$P$} coordinate (P) (P) -- (0,0) (P) -- (D) (P) -- (B);
+        \draw [dashed] (P) -- (C);
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick,>=latex]
+        \draw (-2,-2) -- (-2,2) -- (2,2) -- (2,-2) -- cycle;
+        \fill [gray!30] (0,0) -- (0.8,2) -- (2,2) -- (2,0.8) -- cycle;
+        \fill [gray!30] (0,0) -- (-0.8,2) -- (-2,2) -- (-2,0.8) -- cycle;
+        \fill [gray!30] (0,0) -- (0.8,-2) -- (2,-2) -- (2,-0.8) -- cycle;
+        \fill [gray!30] (0,0) -- (-0.8,-2) -- (-2,-2) -- (-2,-0.8) -- cycle;
+        \draw (0.8,-2) -- (-0.8,2) (-0.8,-2) -- (0.8,2) (-2,0.8) -- (2,-0.8) (-2,-0.8) -- (2,0.8);
+        \draw [dashed] (0,0) -- (0,-2);
+        \draw [thin] (-2,-2.1) -- (-2,-2.3) (2,-2.1) -- (2,-2.3) (-2.1,-2) -- (-2.3,-2) (-2.1,2) -- (-2.3,2) (2.1,2) -- (2.3,2) (2.1,0.8) -- (2.3,0.8);
+        \draw [->,thin] (-0.4,-2.2) -- (-2,-2.2);
+        \draw [->,thin] (0.4,-2.2) -- (2,-2.2);
+        \draw [->,thin] (-2.2,-0.4) -- (-2.2,-2);
+        \draw [->,thin] (-2.2,0.4) -- (-2.2,2);
+        \draw [->,thin] (2.2,0.4) -- (2.2,0.8);
+        \draw [->,thin] (2.2,2.4) -- (2.2,2);
+        \draw (0,-2.2) node {$10$} (-2.2,0) node {\rotatebox{90}{$10$}} (2.2,1.4) node {\rotatebox{90}{$x$}};
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}[thick]
+        \draw (0,0) node [left] {$A$} -- (3,0) node [right] {$B$} coordinate (B) --++ (45:1.5) node [right] {$C$} coordinate (C) ++ (-3,0) node [below right] {$D$} coordinate (D);
+        \draw ($(B)!0.5!(D)$) node [below left] {$O$} coordinate (O) ++ (0,2) node [above] {$E$} coordinate (E) (E) -- (0,0) (E) -- (C) (E) -- (B);
+        \draw [dashed] (E) -- (D);
+        \draw [dashed] ($(B)!0.5!(C)$) node [right] {$F$} coordinate (F) -- (O) -- (E) (C) -- (D) -- (A);
+        \draw (E) -- (F);
+    \end{tikzpicture}
+\end{center}
 \end{enumerate}
 \end{document}
 
