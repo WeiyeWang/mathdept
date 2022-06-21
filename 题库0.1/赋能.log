@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  21 JUN 2022 09:15
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  21 JUN 2022 09:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -593,8 +593,7 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \c@coro=\count326
 \c@axiom=\count327
 \c@prop=\count328
-
-No file 赋能.aux.
+ (./赋能.aux)
 \openout1 = `赋能.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -613,7 +612,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 23.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -796,9 +795,9 @@ Overfull \hbox (19.23557pt too wide) in paragraph at lines 1010--1011
 Missing character: There is no ; ("3B) in font nullfont!
  [37] [38] [39] (./赋能.aux) ) 
 Here is how much of TeX's memory you used:
- 20793 strings out of 476919
- 472393 string characters out of 5825424
- 817455 words of memory out of 5000000
+ 20795 strings out of 476919
+ 472407 string characters out of 5825424
+ 817448 words of memory out of 5000000
  40394 multiletter control sequences out of 15000+600000
  406111 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
