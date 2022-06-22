@@ -54,6 +54,52 @@ data = re.sub("？","? ",data)
 data = re.sub("“","``",data)
 data = re.sub("”","''",data)
 
+#替换全角数字等
+data = re.sub("α",r"\\alpha",data)
+data = re.sub("β",r"\\beta",data)
+data = re.sub("｛","\{",data)
+data = re.sub("｝","\}",data)
+data = re.sub("∪",r"\\cup ",data)
+data = re.sub("∩",r"\\cap ",data)
+data = re.sub("∞",r"\\infty",data)
+data = re.sub("γ",r"\\gamma",data)
+data = re.sub("δ",r"\\delta",data)
+data = re.sub("≤",r"\\le ",data)
+data = re.sub("≥",r"\\ge ",data)
+data = re.sub("槡",r"\\sqrt ",data)
+data = re.sub("ｌｏｇ",r"\\log ",data)
+data = re.sub("ｌｇ",r"\\lg ",data)
+data = re.sub("≠",r"\\ne ",data)
+data = re.sub("π",r"\\pi ",data)
+data = re.sub("θ",r"\\theta ",data)
+data = re.sub("ｓｉｎ",r"\\sin ",data)
+data = re.sub("ｃｏｓ",r"\\cos ",data)
+data = re.sub("ｔａｎ",r"\\tan ",data)
+data = re.sub("ｃｏｔ",r"\\cot ",data)
+data = re.sub("△",r"\\triangle ",data)
+data = re.sub("φ",r"\\varphi ",data)
+data = re.sub("ω",r"\\omega ",data)
+data = re.sub("珗",r"\\overrightarrow ",data)
+data = re.sub("珤犲",r"\\overrightarrow e_ ",data)
+data = re.sub("λ",r"\\lambda e_ ",data)
+data = re.sub("ｉ",r"\\mathrm{i}",data)
+data = re.sub("∈",r"\\in ",data)
+data = re.sub("⊥",r"\\perp ",data)
+data = re.sub("∥",r"\\parallel ",data)
+
+
+whole_numbers = "０１２３４５６７８９＋－＝狆狇狉犕犖＞＜犃犅犆犇狓犝［］｜犪狔犙犽犘犚犫犛犮犈犗犿犣狀犳犵犺狋犻犼狕犉犾′"
+correct_numbers = "0123456789+-=pqrMN><ABCDxU[]|ayQkPRbScEOmZnfghtijzFl'"
+
+
+
+for i in range(len(whole_numbers)):
+    data = re.sub(whole_numbers[i],correct_numbers[i],data)
+
+data = re.sub("A1",r"A_1",data)
+data = re.sub("B1",r"B_1",data)
+data = re.sub("C1",r"C_1",data)
+data = re.sub("D1",r"D_1",data)
 #替换题号
 data = re.sub("([例]*[0-9]+\.[\s]+)","\\\\item ",data)
 
@@ -76,7 +122,11 @@ for i in range(20):
 #复数变成正体i
 data = re.sub("(\\n.*?复数.*?\\n)",replace_i,data)
 
+
+
 data1 = data #替换后暂存data1
+
+
 
 #分离文字和公式
 raw_texts = [] #文字数组
@@ -160,5 +210,6 @@ for i in range(len(modified_texts)):
         modified_data += modified_equations[i]
     except:
         a = 1
+modified_data = re.sub(r"[ ]+\n","\n",modified_data)
 with open("outputfile.txt","w",encoding = "utf8") as f:
     f.write(modified_data)
