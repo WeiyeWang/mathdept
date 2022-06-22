@@ -1,23 +1,3 @@
-\item (1)完成下表(\theta 为弧度数):
-\theta
-1
-\item 5
-\item 1
-\item 01
-\item 001
-\sin \theta
-\sin \theta
-\theta
-(2)观察上表中的数据, 你能发现什么规律?
-(3)已知0<\theta <\pi 2, 利用图形面积公式证明\sin \theta <\theta <\tan \theta , 并应用该公式说明(2)
-中猜想的合理性.
-\item 在\triangle ABC中, 已知A=30°, b=\item 分别根据下列条件求B:
-(1)①a=6, ②a=9, ③a=13, ④a=18, ⑤a=22;
-(2)根据上述计算结果, 讨论使B有一解、两解或无解时a的取值情况.
-\item (1)根据\cos 54°=\sin 36°和三倍角公式, 求\sin 18°的值;
-(2)你还能使用其他方法求\sin 18°的值吗?  若能, 请给出你的求法.
-(第4题)
-\item 如图, 要在A和D两地之间修建一条笔直的隧道, 现在从B
-地和C地测量得到: ∠DBC=\item 2°, ∠DCB=\item 4°, ∠DBA=\item 6°,
-∠DCA=\item 5°. 试求∠DAB 以确定隧道AD 的方向. (结果精确到
-\item 1°)
+拓展与思考
+\item 若复数z1和复数z2满足|z1|=3, |z2|=4, |z1+z2|=5, 求|z1-z2|.
+\item 已知复数z1和复数z2满足z1+z2=3-5\mathrm{i}, z1-z2=-2+3\mathrm{i}. 求z21-z22
