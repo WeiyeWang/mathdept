@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  21 JUN 2022 23:38
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  22 JUN 2022 10:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -819,10 +819,10 @@ Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
  [12] [13] [14] [15] [16] [17] (./教材复习题汇总.aux) ) 
 Here is how much of TeX's memory you used:
- 22076 strings out of 476919
- 494906 string characters out of 5825424
+ 22208 strings out of 476919
+ 497522 string characters out of 5825424
  856987 words of memory out of 5000000
- 41667 multiletter control sequences out of 15000+600000
+ 41799 multiletter control sequences out of 15000+600000
  406127 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,16n,104p,414b,811s stack positions out of 5000i,500n,10000p,200000b,80000s
