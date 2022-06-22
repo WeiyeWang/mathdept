@@ -1,3 +1,4 @@
-拓展与思考
-\item 若复数z1和复数z2满足|z1|=3, |z2|=4, |z1+z2|=5, 求|z1-z2|.
-\item 已知复数z1和复数z2满足z1+z2=3-5\mathrm{i}, z1-z2=-2+3\mathrm{i}. 求z21-z22
+\item 设平面\alpha与平面\beta平行, A\in \alpha, B\in \beta, C是AB的中点. 当A、B分别在\alpha、\beta上
+运动时, 所有的动点C是否保持在同一个平面上?  证明你的结论.
+\item 在长方体ABCDA_1B_1C_1D_1中, 如果对角线AC_1与过点A的相邻三个面所成的
+角分别为\alpha、\beta、\gamma, 那么\cos 2\alpha+\cos 2\beta+\cos 2\gamma= . 

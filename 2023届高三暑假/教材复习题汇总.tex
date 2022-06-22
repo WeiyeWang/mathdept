@@ -722,6 +722,11 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 \item 若复数$z_1$和复数$z_2$满足$|z_1|=3$, $|z_2|=4$, $|z_1+z_2|=5$, 求$|z_1-z_2|$.
 \item 已知复数$z_1$和复数$z_2$满足$z_1+z_2=3-5\mathrm{i}$, $\overline{z_1}-\overline{z_2}=-2+3\mathrm{i}$. 求$z_1^2-z_2^2$.
 \end{enumerate}
+
+必修第十章复习题A组
+\begin{enumerate}[1.]
+\item 如图, 在长方体$ABCD-A_1B_1C_1D_1$中, $E$为$A_1B_1$的中点, $AB=BB_1=2$, $AC=2\sqrt 5$. 求异面直线$BE$与$AC$所成角的
+大小. 
 \begin{center}
     \begin{tikzpicture}[thick]
         \draw (0,0) node [below left] {$A$} coordinate (A) --++ (2,0) node [below right] {$B$} coordinate (B) --++ (45:{2*sqrt(5)/2}) node [right] {$C$} coordinate (C)
@@ -733,7 +738,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
         \draw [dashed] (A) -- (C);
     \end{tikzpicture}
 \end{center}
-
+\item 如图, 设$P$为矩形$ABCD$所在平面外的一点, 矩形对角线的交点为$O$, $M$为$PB$的中点. 判断下列结论是否正确, 并说
+明理由:\\
 \begin{center}
     \begin{tikzpicture}[thick]
         \draw (0,0) node [below left] {$A$} coordinate (A) -- (3,0) node [below right] {$B$} coordinate (B)--++ (45:1.5) node [above right] {$C$} coordinate (C);
@@ -745,7 +751,13 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
         \draw [dashed] (M) -- (O) (P) -- (D);
     \end{tikzpicture}
 \end{center}
+(1) $OM\parallel PD$;\\
+(2) $OM\parallel\text{平面}PCD$;\\
+(3) $OM\parallel\text{平面}PDA$;\\
+(4) $OM\parallel\text{平面}PBA$;\\
+(5) $OM\parallel\text{平面}PBC$.
 
+\item 如图, 正方体的棱长是$a$, 点$E$、$F$分别是两条棱的中点.
 \begin{center}
     \begin{tikzpicture}[thick]
         \path (0,0) node [below left] {$A$} coordinate (A) --++ (2.5,0) node [below right] {$B$} coordinate (B) --++ (45:{2.5/2}) node [right] {$C$} coordinate (C)
@@ -760,7 +772,15 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
         \draw (A) -- (B) -- (C) -- (C1) -- (D1) -- (A1) -- (A) (B1) -- (A1) (B1) -- (C1) (B1) -- (B);
     \end{tikzpicture}
 \end{center}
-
+(1) 求证: 四边形$BDEF$(图中阴影部分)是一个梯形;\\
+(2) 求四边形$BDEF$的面积.
+\item 判断下列命题的真假, 并说明理由:\\
+(1) 若直线$l$与平面$M$斜交, 则$M$内不存在与$l$垂直的直线;\\
+(2) 若直线$l\perp\text{平面}M$, 则$M$内不存在与$l$不垂直的直线;\\
+(3) 若直线$l$与平面$M$斜交, 则$M$内不存在与$l$平行的直线;\\
+(4) 若直线$l\parallel\text{平面}M$, 则$M$内不存在与$l$不平行的直线.
+\item 如果不在平面上的一条直线上有两点到这个平面的距离相等, 那么这条直线和这个平面有什么位置关系? 画示意图表示.
+\item 如图, 直线$AA'$、$BB'$、$CC'$相交于点$O$, 且$AO=A'O$, $BO=B'O$, $CO=C'O$. 求证: $\text{平面}ABC\parallel \text{平面}A'B'C'$.
 \begin{center}
     \begin{tikzpicture}[thick]
         \draw (0,0) node [below left] {$A$} coordinate (A);
@@ -775,7 +795,12 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
         \draw (O) -- (A1) -- (B1) -- (C1) -- (O) (A1) -- (C1) (B1) -- (O);
     \end{tikzpicture}
 \end{center}
-
+\item 已知直线$l\perp\text{平面}\alpha$, 直线$m\subset\text{平面}\beta$, 判断下列命题的真假, 并说明理由:\\
+(1) 若$\alpha\parallel \beta$, 则$l\perp m$;\\
+(2) 若$\alpha\perp \beta$, 则$l\parallel m$;\\
+(3) 若$l\parallel m$, 则$\alpha\perp \beta$;\\
+(4) 若$l\perp m$, 则$\alpha\parallel \beta$.
+\item 如图, 已知线段$AB$垂直于三角形$BCD$所在的平面, 且$AB=BC=CD=1$, $\angle BCD=90^\circ$. $BE\perp AD$, $E$为垂足, $F$为$AC$的中点. 求$EF$的长.
 \begin{center}
     \begin{tikzpicture}[thick,scale = 2]
         \draw (0,0) node [left] {$B$} coordinate (B) -- (0,1) node [above left] {$A$} coordinate (A);
@@ -786,7 +811,19 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
         \draw [dashed] (E) -- (B) -- (D);
     \end{tikzpicture}
 \end{center}
+\item 设正六边形$ABCDEF$的边长为$a$, 线段$PA$垂直于正六边形所在的平面, 且$PA=2a$. 分别求点$P$到$CD$、$DE$与$BC$所在直线的距离. 
+\end{enumerate}
 
+必修第十章复习题B组
+
+\begin{enumerate}[1.]
+\item 已知直线$a$、$b$和平面$\alpha$、$\beta$, 判断下列命题的真假, 并说明理由:\\
+(1) 若$a\parallel \alpha$, $b\perp a$, 则$b\perp \alpha$;\\
+(2) 若$a\parallel \alpha$, $\alpha\perp \beta$, 则$a\perp \beta$;\\
+(3) 若$a\parallel b$, $b\subset\alpha$, 则$a\parallel \alpha$.
+\item 证明: 如果平面$\alpha$和不在这个平面上的直线$a$都垂直于平面$\beta$, 那么直线$a$必平行于平面$\alpha$.
+\item 三个平面两两相交, 得到三条交线. 求证: 这三条交线交于一点或两两平行.
+\item 如图, 已知$\triangle ABC$是正三角形, $EA$、$CD$都垂直于平面$ABC$, 且$EA=AB=2a$, $DC=a$, $F$是$BE$的中点.
 \begin{center}
     \begin{tikzpicture}[thick,scale = 1.2]
         \draw (0,0) node [left] {$A$} coordinate (A) -- (0,2) node [above left] {$E$} coordinate (E);
@@ -797,13 +834,18 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
         \draw (A) -- (B) -- (C);
     \end{tikzpicture}
 \end{center}
-
+(1) 求证: $FD\parallel \text{平面}ABC$;\\
+(2) 求证: $AF\perp \text{平面}EDB$.
+\item 证明: 如果一个平面的一条平行线垂直于另一个平面, 那么这两个平面互相垂直.
+\item 如图, 以等腰直角三角形$ABC$斜边$BC$上的高$AD$为折痕, 使$\triangle ABD$和$\triangle ACD$折成互相垂直的两个面. 求证: $BD\perp CD$, 且$\angle BAC=60^\circ$.
 \begin{center}
     \begin{tikzpicture}[thick]
         \draw (0,0) node [left] {$A$} coordinate (A) -- (2,0) node [above right] {$D$} coordinate (D) -- (2,2) node [above right] {$C$} coordinate (C) -- cycle;
         \draw (2,0) --++ (-45:1) node [below] {$B$} coordinate (B) -- (A);
     \end{tikzpicture}
 \end{center}
+\item 证明: 如果共点的三条直线两两垂直, 那么它们中每两条直线所确定的平面也两两垂直. 
+\item 如图, $P$是平面$\alpha$外一点, 直线$PA$与平面$\alpha$斜交于点$A$, 从点$P$作平面$\alpha$上的一条直线$OA$的垂线$PO$, 垂足为$O$. 又设$a$是平面$\alpha$上的一条直线, 且$a\perp OA$, $a\perp PA$.
 
 \begin{center}
     \begin{tikzpicture}[thick]
@@ -828,7 +870,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
         \draw [dashed] (S) -- (T) (O) -- (X) (A) -- (Y);
     \end{tikzpicture}
 \end{center}
-
+求证: $PO\perp \text{平面}\alpha$, 从而$OA$是$PA$在平面$\alpha$上的投影.
+\item 如图, 直角三角形$ABC$在平面$\alpha$上, 且$\angle BAC=90^\circ$. 以$A$为垂足作$DA\perp \alpha$, 在$DB$上取一点$E$, 使$AE\perp DB$. 求证: $CE\perp DB$.
 \begin{center}
     \begin{tikzpicture}[thick]
         \draw (-1,0) -- (3,0) --++ (45:2) coordinate (R);
@@ -846,7 +889,14 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
         \draw (R) --++ (-0.3,0) node [below left] {$\alpha$};
     \end{tikzpicture}
 \end{center}
+\end{enumerate}
 
+必修第十章拓展与思考
+
+\begin{enumerate}[1.]
+\item 设平面$\alpha$与平面$\beta$平行, $A\in \alpha$, $B\in \beta$, $C$是$AB$的中点. 当$A$、$B$分别在$\alpha$、$\beta$上
+运动时, 所有的动点$C$是否保持在同一个平面上? 证明你的结论.
+\item 在长方体$ABCD-A_1B_1C_1D_1$中, 如果对角线$AC_1$与过点$A$的相邻三个面所成的角分别为$\alpha$、$\beta$、$\gamma$, 那么$\cos^2\alpha+\cos^2\beta+\cos^2\gamma=$\blank{50}.
 \begin{center}
     \begin{tikzpicture}[thick]
         \draw (0,0) node [below left] {$A$} coordinate (A) --++ (3,0) node [below right] {$B$} coordinate (B) --++ (45:{2.5/2}) node [right] {$C$} coordinate (C)
@@ -857,6 +907,19 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
         \draw [dashed] (A) -- (C1);
     \end{tikzpicture}
 \end{center}
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
 
 \begin{center}
     \begin{tikzpicture}[thick]
