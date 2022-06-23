@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  22 JUN 2022 22:52
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  23 JUN 2022 14:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -858,14 +858,34 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 1137--1138
 [][] 
  []
 
-[27] [28] [29] [30] [31] [32] (./教材复习题汇总.aux) ) 
+[27] [28] [29] [30] [31] [32] [33] [34] [35]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1489--1491
+[][]
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1491--1492
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1509--1511
+[][]
+ []
+
+[36]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1511--1512
+[][] 
+ []
+
+[37] [38] (./教材复习题汇总.aux) ) 
 Here is how much of TeX's memory you used:
- 22525 strings out of 476919
- 503784 string characters out of 5825424
+ 22547 strings out of 476919
+ 505027 string characters out of 5825424
  861987 words of memory out of 5000000
- 42113 multiletter control sequences out of 15000+600000
+ 42135 multiletter control sequences out of 15000+600000
  406143 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,16n,104p,901b,812s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 教材复习题汇总.pdf (32 pages).
+Output written on 教材复习题汇总.pdf (38 pages).
