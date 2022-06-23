@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  23 JUN 2022 14:30
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  23 JUN 2022 15:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**教材复习题汇总
-(./教材复习题汇总.tex
+**教材复习题汇总_含空格
+(./教材复习题汇总_含空格.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -607,8 +607,9 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \c@coro=\count327
 \c@axiom=\count328
 \c@prop=\count329
- (./教材复习题汇总.aux)
-\openout1 = `教材复习题汇总.aux'.
+
+No file 教材复习题汇总_含空格.aux.
+\openout1 = `教材复习题汇总_含空格.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
@@ -626,7 +627,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
- ABD: EverySelectfont initializing macros
+ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 42.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -719,173 +720,173 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 51.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 52.
  (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 60--61
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 67--68
-[][] 
- []
-
-[1
+) [1
 
 ]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 79--80
-[][] 
- []
-
-[2] [3] [4]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 194--196
-[][]
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 207--211
-
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 212--213
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 235--273
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 68--70
 [][]
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 273--274
-[][] 
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 78--80
+[][]
  []
 
-[6]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 295--337
+[2] [3]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 98--100
+[][]
+ []
+
+[4] [5] [6] [7] [8] [9] [10] [11]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 256--258
 [][]
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 337--338
-[][] 
+Overfull \hbox (0.45642pt too wide) in paragraph at lines 258--260
+[][]  
  []
 
-[7] [8]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 393--395
+[12] [13]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 281--283
+[][]
+ []
+
+[14]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 313--351
 [][]
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 395--396
-[][] 
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 351--353
+[][]
  []
 
-[9]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 419--424
+[15] [16]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 382--424
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--428
-
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 424--426
+[][]
  []
 
-[10]
-LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 456.
+[17] [18] [19] [20] [21]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 510--512
+[][]
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 512--514
+[][]
+ []
+
+[22] [23]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 547--552
+[][]
+ []
+
+[24] [25] [26]
+LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 596.
  (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 456.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 596.
  (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 456.
- [11]
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 596.
+ [27] [28] [29]
 Missing character: There is no ; ("3B) in font nullfont!
- [12]
-Overfull \hbox (6.37685pt too wide) in paragraph at lines 530--534
+ [30]
+Overfull \hbox (6.37685pt too wide) in paragraph at lines 688--693
 []\TU/等线(0)/m/n/10 说 明\TU/lmr/m/n/10 : \TU/等线(0)/m/n/10 用 上 一 章 \TU/lmr/m/n/10 6.3 \TU/等线(0)/m/n/10 节 给 出 的 记 号 $[]$ 与 $[]$\TU/lmr/m/n/10 (\TU/等线(0)/m/n/10 见 必 修 第 二 册 教 材 第 \TU/lmr/m/n/10 45 \TU/等线(0)/m/n/10 页\TU/lmr/m/n/10 ), \TU/等线(0)/m/n/10 可 以 定 义 函 数 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 x \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 2
  []
 
-[13]
+[31] [32]
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
- [14] [15]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 679--681
+ [33] [34] [35] [36] [37] [38]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 872--874
 [][]
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 681--682
-[][] 
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 874--876
+[][]
  []
 
-[16]
-Overfull \hbox (13.23642pt too wide) in paragraph at lines 711--713
+[39]
+Overfull \hbox (13.23642pt too wide) in paragraph at lines 912--914
 [][] \TU/lmr/m/n/10 (2)
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 713--714
-[][] 
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 914--916
+[][]
  []
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 741--743
+[40] [41]
+Underfull \hbox (badness 10000) in paragraph at lines 951--953
 
  []
 
-[18] [19] [20] [21]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 947--948
-[][] 
+[42] [43] [44] [45] [46] [47]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1179--1181
+[][]
  []
 
-[22] [23] [24] [25] [26]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1137--1138
-[][] 
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1413--1415
+[][]
  []
 
-[27] [28] [29] [30] [31] [32] [33] [34] [35]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1489--1491
+[58] [59] [60] [61] [62] [63] [64] [65] [66] [67]
+Overfull \hbox (0.45642pt too wide) in paragraph at lines 1641--1643
+[][]  
+ []
+
+[68] [69] [70] [71] [72] [73] [74] [75] [76]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1850--1852
 [][]
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1491--1492
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1509--1511
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1852--1854
 [][]
  []
 
-[36]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1511--1512
-[][] 
+[77] [78]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1881--1883
+[][]
  []
 
-[37] [38] (./教材复习题汇总.aux) ) 
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1883--1885
+[][]
+ []
+
+[79] [80] [81] (./教材复习题汇总_含空格.aux) ) 
 Here is how much of TeX's memory you used:
- 22547 strings out of 476919
- 505027 string characters out of 5825424
- 861987 words of memory out of 5000000
+ 22545 strings out of 476919
+ 505035 string characters out of 5825424
+ 837883 words of memory out of 5000000
  42135 multiletter control sequences out of 15000+600000
  406143 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,16n,104p,901b,812s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,16n,104p,905b,822s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 教材复习题汇总.pdf (38 pages).
+Output written on 教材复习题汇总_含空格.pdf (81 pages).
