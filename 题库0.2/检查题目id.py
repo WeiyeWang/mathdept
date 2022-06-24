@@ -1,4 +1,4 @@
-import re
+import os,re
 #os.chdir(r"d:\mathdept\mathdept\题库0.2")
 vaults = [f for f in os.listdir() if "题库" in f and f[-4:] == ".txt"]
 s = [str(i).zfill(6) for i in range(1,99999)]
