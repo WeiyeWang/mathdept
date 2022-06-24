@@ -1,28 +1,20 @@
-第一章 集合和命题
-一.集合
-例 1  写出集合\[\left\{ 1,2 \right\}\]的所有子集.
-例 2  已知集合\[A=\left\{ x\left| 1 \right.\le x<3,x\in R \right\}B=\left\{ x\left| x>2,x\in R \right. \right\}\]求. \[A\bigcap B,A\bigcup B\].
-例 3  已知集合\[\bigcup =\left\{ x\left| x30 \right. \right\}\]，A,B是\[\bigcup \]的两个子集，且满足\[A\bigcap {{\complement }_{\text{v}}}B=\left\{ 5,13,23 \right\}\]，\[{{\complement }_{v}}A\bigcap B=\left\{ 11,19,29 \right\}\],\[{{\complement }_{v}}A\bigcap {{\complement }_{v}}B=\left\{ 3,7 \right\}\]，求\[A,B\].
-例 4  已知集合\[A=\left\{ x\left| {{x}^{2}}- \right.ax+{{a}^{2}}-19=0 \right\}\]，\[B=\left\{ x\left| {{x}^{2}}- \right.5x+6=0 \right\}\]，\[C=\left\{ x\left| {{x}^{2}}+ \right.2x-8=0 \right\}\]满足\[A\bigcap B\ne \varnothing \]，\[A\bigcap C=\varnothing \]，求实数\[a\]的值.
-例 5  已知集合\[A=\left\{ x\left| {{x}^{2}}-5x+4\le 0 \right. \right\}\]与\[B=\left\{ x\left| {{x}^{2}}-2ax+a+2\le 0 \right.,a\in R \right\}\]满足\[B\subseteq A\],求\[a\]的取值范围.
-例 6  已知集合\[A=\left\{ x\left| {{x}^{2}} \right.+\left( \rho +2 \right)x+1=0,x\in R \right\}\],且\[A\bigcap {{R}^{+}}=\varnothing \]，求实数\[\rho \]的取值范围.
-【训练题】
-(一) 集合的概念
-(A)
-1.在“①难解的题目，②方程\[{{x}^{2}}+1=0\]在实数集内的解，③直角坐标平面内第四象限的一些点，④很多多项式”中，能够组成集合的是(    )
-(A)②.           (B)①③.             (C)②④.            (D)①②④
-2.集合\[M=\left\{ \left( x,y \right)\left| xy\ge 0,x\in R,y\in R \right. \right\}\]是指(    )
-(A)第一象限内的点集.                       (B)第三象限内的点集.
-(C)在第一、三象限内的点集.                 (D)不在第二、四象限内的点集
-3.下列四个关系中，正确的是(    )
-(A)\[\varnothing \in \left\{ a \right\}\]      (B)\[a\notin \left\{ a \right\}\]      (C)\[\left\{ a \right\}\in \left\{ a,b \right\}\]      (D)\[a\in \left\{ a,b \right\}\]
-4.方程组\[\left\{ \begin{align}
-  & 2x+y=0, \\ 
- & x-y+3=0 \\ 
-\end{align} \right.\]的解集是(   )
-(A)\[\left\{ -1,2 \right\}\]   (B)\[\left( -1,2 \right)\]   (C)\[\left\{ \left( -1,2 \right) \right\}\]   (D)\[\left\{ \left( x,y \right)\left| x=-1y=2 \right. \right\}\]
-5.下列各题中的M与P表示同一个集合的是 (   )
-(A)\[M=\left\{ \left( 1,-3 \right) \right\},P=\left\{ \left( -3,1 \right) \right\}\]
-(B)\[M=\varnothing ,P=\left\{ 0 \right\}\]
-(C)\[M=\left\{ y\left| y={{x}^{2}}+1,x\in R \right. \right\},P\left\{ \left( x,y \right)\left| y={{x}^{2}}+1,x\in R \right. \right\}\]
-(D)\[M=\left\{ y\left| y={{x}^{2}}+1,x\in R \right. \right\},P\left\{ t\left| t={{\left( y-1 \right)}^{2}}+1,y\in R \right. \right\}\]
+1．； $-\frac{3}{5}$；2．2 ； 3． 6；4．-160  ；5． \[\frac{1}{12}\]；6. 1 ；7． \[{{a}_{n}}={{2}^{n-1}}\]
+8．\[\frac{\pi }{3}\]；9． ；10．\[\alpha =\frac{k\pi }{2}-\frac{\pi }{6}(k\in {{N}^{*}})\]；
+1．$(-1\ ,\ 0]$    2.．$-\frac{4}{5}$  3．$\frac{1}{3}$      4．$\frac{32\pi }{3}$     5．$4$    6．$18$      7．$\frac{2\pi }{3}$          8．$1120$       9．$\frac{1}{2}$           10．$-1+\frac{{{(-1)}^{n}}}{n+1}$或$\left\{ \begin{align}
+  & -\frac{n+2}{n+1}\ ,\ n\  \\ 
+ & -\frac{n}{n+1}\ ,\ n \\ 
+\end{align} \right.$
+1.   $\left\{ 1,4 \right\}$     2.  $(1,0)$      3.  $\left[ 1,3 \right]$       4.  \[1\]       5.  $8$      
+ 6.  \[\frac{7}{10}\]      7.  $\left\{ x|x=2k\pi \pm \frac{\pi }{3},k\in Z \right\}$   8.  \[-2\]    9.  $(\frac{5}{9},1)$     10. $8800$ 
+1.$1$       2. $\left( -\infty ,0 \right)\bigcup \left( 1,+\infty  \right)$     3.$3$       4. $-1+i$      5.$2$      6.$\frac{1}{169}$
+7. $1\le m\le \sqrt{2}$.     8. $5$      9. $4$      10.$20\pi $
+1．$x=4$； 2．$\{-1,0\}$； 3．$1$；  4．$x+y-1=0$；  5．16； 6．$4\sqrt{10}\pi $； 7．$\left[ -\frac{1}{2},1 \right]$； 8．$9$； 9．$\frac{2}{9}$；  10．$\frac{\sqrt{3}}{2}$；
+1.\[\frac{\pi }{2}\];      2.\[[0,1)\];      3.\[\sqrt{10}\];      4.16;      5.\[\frac{4}{3}\]；      6.2；
+7.15；     8.\[\frac{8}{3}\]；       9.0；        10.64；
+1、\[\{2,3,4\}\]；   2、四；    3、$4$；    4、$\pm 2$；    5、1；   6、2  ；
+7、$\frac{7}{6}$；   8、$[0,5]$；    9、4；   10、$\frac{\sqrt{6}}{3}$ ；	
+1. $[0\text{ }2]$；　　2. $2$；　　3.$-1$；　　4.$\frac{3}{4}$；　 　5.$[\frac{2}{3}\text{ }1)$；　 　6. $-4$； 
+7. $[3\text{ }7]$；　8. $\frac{7}{8}$；　9.$\frac{3}{7}$；  10. $\frac{3}{2}$；　
+1．$\left( 1,{{\log }_{2}}3 \right)$；     2．12；   3．2；   4．35；            5．$-3$           
+6．$\frac{\sqrt{5}}{5}$；7．$\left( -\infty ,-1 \right)\bigcup \left( 0,+\infty  \right)$；   8．255；     9．$\left( \frac{\sqrt{2}}{4},+\infty  \right)$   10．8；
+1.\[[2,4)\]   2.\[1\]    3.\[8\text{ }\!\!\pi\!\!\text{ }\]     4.2   5.5   6.9   7.0.98   8. \[\left[ 0,\frac{2}{3}\text{ }\!\!\pi\!\!\text{ } \right]\]    9.\[\frac{1}{4}\]     10.6
