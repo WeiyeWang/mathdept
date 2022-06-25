@@ -30,18 +30,18 @@ for id in ids:
             answer = trim(re.findall("<B答案>([\s\S]*?)<E答案>",problem_set)[0])
         except:
             answer = "暂无答案"
-        students_string = "\\item "+problem+"\n"
+        students_string = "\\item ("+id+")"+problem+"\n"
         teachers_string = students_string+"\n\n答案: "+answer + "\n"
         data_teachers += teachers_string
         data_students += students_string
 #生成学生的文件和教师的源文件
 
 try:
-    os.remove("teachers.pdf")
+    os.remove("题库teachers.pdf")
 except:
     a=1
 try:
-    os.remove("students.pdf")
+    os.remove("题库students.pdf")
 except:
     a=1
 #删除已有的文件
@@ -49,9 +49,9 @@ except:
 with open("problems_file.tex","w",encoding="utf8") as f:
     f.write(data_teachers)
 os.system("xelatex to_compile.tex")
-os.rename("to_compile.pdf","teachers.pdf")
+os.rename("to_compile.pdf","题库teachers.pdf")
 with open("problems_file.tex","w",encoding="utf8") as f:
     f.write(data_students)
 os.system("xelatex to_compile.tex")
-os.rename("to_compile.pdf","students.pdf")
+os.rename("to_compile.pdf","题库students.pdf")
 #生成学生的pdf和教师的pdf(含答案)
