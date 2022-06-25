@@ -1403,7 +1403,74 @@ F & F &&&&&\\
 \item (001009)设$A=\{(x,y)|3x+2y=5\}$, $B=\{(x,y)|x+y=2\}$, 则$A\cap B=$\blank{50}.
 \item (001010)试用集合$A,B,C$的交, 并, 以及关于全集$U$的补运算表示下列文氏图所示的集合.
 \begin{center}
-(图待重画){pngs/venn5.png}
+\begin{tikzpicture}[scale = 1.3]
+    \begin{scope}
+        \clip (1,2) circle (0.8);
+        \clip (2,1.5) circle (0.8);     
+        \fill [gray!50] (0,0) rectangle (3,3);
+    \end{scope}
+    \draw (1,2) circle (0.8) node [above left] {$A$};
+    \draw (2,1.5) circle (0.8) node [right] {$B$};
+    \draw (1.3,1) circle (0.8) node [below left] {$C$};
+    \draw (3,0) node [above left] {$U$} rectangle (0,3);
+    \draw (1.5,0) node [below] {(1)};   
+\end{tikzpicture}
+\begin{tikzpicture}[scale = 1.3]
+    \begin{scope}
+        \clip (1,2) circle (0.8);
+        \clip (2,1.5) circle (0.8);     
+        \fill [gray!50] (0,0) rectangle (3,3);
+    \end{scope}
+    \begin{scope}
+        \clip (1.3,1) circle (0.8);
+        \clip (2,1.5) circle (0.8);     
+        \fill [gray!50] (0,0) rectangle (3,3);
+    \end{scope}
+    \begin{scope}
+        \clip (1.3,1) circle (0.8);
+        \clip (1,2) circle (0.8);     
+        \fill [gray!50] (0,0) rectangle (3,3);
+    \end{scope}
+    \draw (1,2) circle (0.8) node [above left] {$A$};
+    \draw (2,1.5) circle (0.8) node [right] {$B$};
+    \draw (1.3,1) circle (0.8) node [below left] {$C$};
+    \draw (3,0) node [above left] {$U$} rectangle (0,3);
+    \draw (1.5,0) node [below] {(2)};   
+\end{tikzpicture}
+\begin{tikzpicture}[scale = 1.3]
+    \begin{scope}[even odd rule]
+        \clip (1,2) circle (0.8) (2,1.5) circle (0.8) (1.3,1) circle (0.8) (0,0) rectangle (3,3);
+        \fill [gray!50] (1,2) circle (0.8);
+        \fill [gray!50] (2,1.5) circle (0.8);
+    \end{scope}
+    \draw (1,2) circle (0.8) node [above left] {$A$};
+    \draw (2,1.5) circle (0.8) node [right] {$B$};
+    \draw (1.3,1) circle (0.8) node [below left] {$C$};
+    \draw (3,0) node [above left] {$U$} rectangle (0,3);
+    \draw (1.5,0) node [below] {(3)};   
+\end{tikzpicture}
+\begin{tikzpicture}[scale = 1.3]
+    \begin{scope}[even odd rule]
+        \clip (1,2) circle (0.8) (0,0) rectangle (3,3);
+        \clip (2,1.5) circle (0.8) (0,0) rectangle (3,3);
+        \fill [gray!50] (1.3,1) circle (0.8);
+    \end{scope}
+    \begin{scope}[even odd rule]
+        \clip (1.3,1) circle (0.8) (0,0) rectangle (3,3);
+        \clip (2,1.5) circle (0.8) (0,0) rectangle (3,3);
+        \fill [gray!50] (1,2) circle (0.8);
+    \end{scope}
+    \begin{scope}[even odd rule]
+        \clip (1,2) circle (0.8) (0,0) rectangle (3,3);
+        \clip (1.3,1) circle (0.8) (0,0) rectangle (3,3);
+        \fill [gray!50] (2,1.5) circle (0.8);
+    \end{scope}
+    \draw (1,2) circle (0.8) node [above left] {$A$};
+    \draw (2,1.5) circle (0.8) node [right] {$B$};
+    \draw (1.3,1) circle (0.8) node [below left] {$C$};
+    \draw (3,0) node [above left] {$U$} rectangle (0,3);
+    \draw (1.5,0) node [below] {(4)};   
+\end{tikzpicture}
 \end{center} 
 1. \blank{200};2. \blank{200};\\ 
 3. \blank{200};4. \blank{200}.
@@ -1762,14 +1829,71 @@ B市 & $8$ & $5$
 \item (001173)在以下坐标系中分别作出下列函数的图像(用铅笔, 要求清晰, 交代关键信息):\\ 
 \begin{tabular}{ll}
 (1) $y=\sqrt{|x|}$;& (2) $y=|x-1|-|x+1|$;\\
-(图待重画){pngs/coordinates01.png} & (图待重画){pngs/coordinates01.png}\\
+\begin{tikzpicture}[>=latex]
+    \foreach \i in {-4,-3,...,4} {\draw [dashed, gray!90] (-4,\i) -- (4,\i) (\i,-4) -- (\i,4);};
+    \draw [->] (-4,0) -- (4,0) node [below] {$x$};
+    \draw [->] (0,-4) -- (0,4) node [left] {$y$};
+    \draw (0,0) node [below left] {$O$};
+    \draw (0,1) node [left] {$1$};
+    \draw (1,0) node [below] {$1$};
+\end{tikzpicture} & 
+\begin{tikzpicture}[>=latex]
+    \foreach \i in {-4,-3,...,4} {\draw [dashed, gray!90] (-4,\i) -- (4,\i) (\i,-4) -- (\i,4);};
+    \draw [->] (-4,0) -- (4,0) node [below] {$x$};
+    \draw [->] (0,-4) -- (0,4) node [left] {$y$};
+    \draw (0,0) node [below left] {$O$};
+    \draw (0,1) node [left] {$1$};
+    \draw (1,0) node [below] {$1$};
+\end{tikzpicture}
+\end{tabular}
+\begin{tabular}{ll}
 (3) $y=x-[x]$;& (4) $y=x+\dfrac{1}{x}$;\\
-(图待重画){pngs/coordinates01.png}&(图待重画){pngs/coordinates01.png}\\
+\begin{tikzpicture}[>=latex]
+    \foreach \i in {-4,-3,...,4} {\draw [dashed, gray!90] (-4,\i) -- (4,\i) (\i,-4) -- (\i,4);};
+    \draw [->] (-4,0) -- (4,0) node [below] {$x$};
+    \draw [->] (0,-4) -- (0,4) node [left] {$y$};
+    \draw (0,0) node [below left] {$O$};
+    \draw (0,1) node [left] {$1$};
+    \draw (1,0) node [below] {$1$};
+\end{tikzpicture} & 
+\begin{tikzpicture}[>=latex]
+    \foreach \i in {-4,-3,...,4} {\draw [dashed, gray!90] (-4,\i) -- (4,\i) (\i,-4) -- (\i,4);};
+    \draw [->] (-4,0) -- (4,0) node [below] {$x$};
+    \draw [->] (0,-4) -- (0,4) node [left] {$y$};
+    \draw (0,0) node [below left] {$O$};
+    \draw (0,1) node [left] {$1$};
+    \draw (1,0) node [below] {$1$};
+\end{tikzpicture}
+\end{tabular}
+\begin{tabular}{ll}
 (5) $y=x-\dfrac{1}{x}$;& (6) $y=\dfrac{6x}{1+x^2}$.\\
-(图待重画){pngs/coordinates01.png} & (图待重画){pngs/coordinates01.png}
+\begin{tikzpicture}[>=latex]
+    \foreach \i in {-4,-3,...,4} {\draw [dashed, gray!90] (-4,\i) -- (4,\i) (\i,-4) -- (\i,4);};
+    \draw [->] (-4,0) -- (4,0) node [below] {$x$};
+    \draw [->] (0,-4) -- (0,4) node [left] {$y$};
+    \draw (0,0) node [below left] {$O$};
+    \draw (0,1) node [left] {$1$};
+    \draw (1,0) node [below] {$1$};
+\end{tikzpicture} & 
+\begin{tikzpicture}[>=latex]
+    \foreach \i in {-4,-3,...,4} {\draw [dashed, gray!90] (-4,\i) -- (4,\i) (\i,-4) -- (\i,4);};
+    \draw [->] (-4,0) -- (4,0) node [below] {$x$};
+    \draw [->] (0,-4) -- (0,4) node [left] {$y$};
+    \draw (0,0) node [below left] {$O$};
+    \draw (0,1) node [left] {$1$};
+    \draw (1,0) node [below] {$1$};
+\end{tikzpicture}
 \end{tabular}
 \item (001174)某种茶杯每个$0.5$元, 买$x$个茶杯的钱数为$y$元. 画出$y$关于$x$的函数的图像.\\ 
-(图待重画){pngs/coordinates02.png}
+\begin{tikzpicture}[>=latex]
+    \foreach \i in {0,1,...,7} {\draw [dashed, gray!90] (0,\i) -- (16,\i);};
+    \foreach \i in {0,1,...,16} {\draw [dashed, gray!90] (\i,0) -- (\i,7);};
+    \draw [->] (-0.5,0) -- (16,0) node [below] {$x$};
+    \draw [->] (0,-0.5) -- (0,7) node [left] {$y$};
+    \draw (0,0) node [below left] {$O$};
+    \draw (0,1) node [left] {$1$};
+    \draw (1,0) node [below] {$1$};
+\end{tikzpicture}
 \item (001175)证明: 函数$y=\dfrac{1}{x}$的图像关于原点对称(一个图形关于原点对称是指任取该图形上的一点, 它关于原点对称所得的点也在该图形上).
 \item (001176)求证: 函数$y=x^3$的图像不是一条直线(本题不能使用斜率的概念).
 \item (001177)试求出函数$y=x^2$的图像分别进行如下变换后, 所得的各个图像对应的函数.\\ 
@@ -1832,7 +1956,14 @@ B市 & $8$ & $5$
 \item (001198)在同一坐标系中通过平移和放缩作出以下函数的图像, 并写出变换的方法.
 $y=|x|$; $y=|x-1|$; $y=\dfrac{|x-1|}2$; $y=\dfrac{|x-1|}2-3$; $y=\dfrac{|2x-1|}2-3$.
 \begin{center}
-(图待重画)[width=8cm]{pngs/coordinates01.png}
+\begin{tikzpicture}[>=latex]
+    \foreach \i in {-4,-3,...,4} {\draw [dashed, gray!90] (-4,\i) -- (4,\i) (\i,-4) -- (\i,4);};
+    \draw [->] (-4,0) -- (4,0) node [below] {$x$};
+    \draw [->] (0,-4) -- (0,4) node [left] {$y$};
+    \draw (0,0) node [below left] {$O$};
+    \draw (0,1) node [left] {$1$};
+    \draw (1,0) node [below] {$1$};
+\end{tikzpicture}
 \end{center}
 \item (001199)(1)欲将函数$y=x^2$的图像通过先平移后放缩的方式变为函数$y=\dfrac{1}{2}x^2+x$的图像, 所需的步骤依次为: (同时写出每步变换后所得图像对应的函数)\\ 
 (2)欲将函数$y=x^2$的图像通过先放缩后平移的方式变为函数$y=\dfrac{1}{2}x^2+x$的图像, 所需的步骤依次为: (同时写出每步变换后所得图像对应的函数)
@@ -2228,8 +2359,27 @@ $$S=\sqrt{p(p-a)(p-b)(p-c)}.$$
 (1) 已知$a=8$, $b=16$, 求证$0^\circ<A\le 30^\circ$;\\ 
 (2) 承(1), 证明上述范围内的$A$都可能取到(即使得三角形有解);\\ 
 (3, 选做) 已知$a=16$, $b=8$, 求角$A$的取值范围.
-\item (001384)如图, 为了测定对岸$A,B$两点之间的距离, 在河的一岸定一条基线CD, 测得$CD=100$米, $\angle ACD=80^\circ$, $\angle BCD=45^\circ$, $\angle BDC=70^\circ$, $\angle ADC=33^\circ$, 求$A,B$间的距离.\\ 
-(图待重画){pngs/sem2-ex2104-1.png}
+\item (001384)如图, 为了测定对岸$A,B$两点之间的距离, 在河的一岸定一条基线$CD$, 测得$CD=100$米, $\angle ACD=80^\circ$, $\angle BCD=45^\circ$, $\angle BDC=70^\circ$, $\angle ADC=33^\circ$, 求$A,B$间的距离.\\ 
+\begin{center}
+\begin{tikzpicture}
+    \clip (-1.5,-1) rectangle (6.5,4);
+    \fill [gray!60] (-1,1.1) rectangle (6,2.2);
+    \draw (0,0) node [below left] {$C$} coordinate (C) ++ (-8:5) node [below right] {$D$} coordinate (D);
+    \path [name path = lineBC] (C) --++ (37:10);
+    \path [name path = lineBD] (D) --++(102:10);
+    \path [name intersections={of = lineBC and lineBD, by=B}];
+    \draw (C) -- (B) node [above right] {$B$} --(D);
+    \path [name path = lineAC] (C) --++ (72:10);
+    \path [name path = lineAD] (D) --++(139:10);
+    \path [name intersections={of = lineAC and lineAD, by=A}];
+    \draw (B) -- (A) -- (C) -- (D) -- (A) node [above left] {$A$};
+    \draw (C) ++ (-8:0.3) arc (-8:72:0.3) node [above right] {$80^\circ$};
+    \draw (C) ++ (-8:0.4) arc (-8:37:0.4) node [right] {$45^\circ$};
+    \draw (D) ++ (172:0.4) arc (172:139:0.4) node [left] {$33^\circ$};
+    \draw (D) ++ (172:0.3) arc (172:102:0.3) node [above left] {$70^\circ$};
+    \draw (-1,1.1) -- (6,1.1) (-1,2.2) -- (6,2.2);
+\end{tikzpicture}
+\end{center}
 \item (001385)将下列角度制下角的大小用弧度制表示:
 \begin{enumerate}[(1)]
 \item $90^\circ=$\blank{40}弧度;\\ 
@@ -2250,8 +2400,16 @@ $$S=\sqrt{p(p-a)(p-b)(p-c)}.$$
 \item (001388)如图, 已知扇形$OAB$, $OA=16$, 弧$AB$的长度为$24$, 求:\\ 
 (1) $\angle AOB$的弧度数和度数;\\ 
 (2) 扇形$OAB$的面积;\\ 
-(3) 弓形$AMB$的面积.\\ 
-(图待重画){pngs/sem2-ex2201.png}
+(3) 弓形$AMB$的面积.
+\begin{center}
+\begin{tikzpicture}
+    \draw (0,0) node [below] {$O$} coordinate (O);
+    \draw (O) ++ ({90-0.75*180/pi}:2) node [right] {$B$} coordinate (B);
+    \draw (O) ++ ({90+0.75*180/pi}:2) node [left] {$A$} coordinate (A);
+    \draw (A) -- (O) -- (B) -- cycle;
+    \draw (A) arc ({90+0.75*180/pi}:{90-0.75*180/pi}:2);
+\end{tikzpicture}
+\end{center}
 \item (001389)已知一扇形的周长为$20$, 当扇形的中心角为多大时, 它有最大的面积?
 \item (001390)计算器上除了表示角度制的{\rm Deg}, 弧度制的{\rm Rad}外, 还有一个符号{\rm Gra}. 这个其实是百分度制, 它把一个周角分成$400$等份, 每一等份称为$1$百分度.\\ 
 (1) 填空: $1$弧度$=$\blank{40}百分度; $1$百分度$=$\blank{40}弧度.\\ 
@@ -2733,8 +2891,18 @@ R: $\sin A\sin B<\cos A\cos B$.\\
 \item (001596)已知不共线的三点$A,B,C$均在平面$\alpha$上. 证明以下命题(每一步均需说明根据):\\ 
 (1) 直线$AB$上的每一点都在平面$\alpha$上;\\ 
 (2) 三角形$ABC$的重心$G$在平面$\alpha$上.
-\item (001597)指出图中正方体各线段所在直线的位置关系(相交, 平行或异面):\\ 
-(图待重画){pngs/sem2-ex2001.png}\\ 
+\item (001597)指出图中正方体各线段所在直线的位置关系(相交, 平行或异面):
+\begin{center}
+\begin{tikzpicture}
+    \draw (0,0) node [below left] {$A$} coordinate (A) --++ (3,0) node [below right] {$B$} coordinate (B) --++ (45:{3/2}) node [right] {$C$} coordinate (C)
+    --++ (0,3) node [above right] {$C'$} coordinate (C1)
+    --++ (-3,0) node [above left] {$D'$} coordinate (D1) --++ (225:{3/2}) node [left] {$A'$} coordinate (A1) -- cycle;
+    \draw (A) ++ (3,3) node [right] {$B'$} coordinate (B1) -- (B) (B1) --++ (45:{3/2}) (B1) --++ (-3,0);
+    \draw [dashed] (A) --++ (45:{3/2}) node [left] {$D$} coordinate (D) --++ (3,0) (D) --++ (0,3);
+    \draw [dashed] (D1) -- (B) (A1) -- (C);
+    \draw (C) -- (B1) (A1) -- (C1);
+\end{tikzpicture}
+\end{center}
 \begin{enumerate}[\blank{50}(1)]
 \item $AB$和$CC'$;\\ 
 \item $A'C$和$BD'$;\\ 
@@ -2758,13 +2926,46 @@ R: $\sin A\sin B<\cos A\cos B$.\\
 \item (001600)已知$m,n$是异面直线, 直线$s$分别与$m,n$相交于点$A,B$, 直线$t$分别与$m,n$相交于点$C,D$, $A,B,C,D$两两不同. 求证: $s,t$也是异面直线.
 \item (001601)过一点$O$的三条直线$OA,OB,OC$不共面, 且$D,E$在$OA$上, $F$在$OB$上, $G$在$OC$上, $D,E,F,G$两两不同, 且均不与点$O$重合. 求证: $DF$与$EG$是异面直线.
 \item (001602)如图, 在长方体$ABCD-A_1B_1C_1D_1$中, $P$, $Q$分别为$CC_1$, $AA_1$的中点, 求证: $BP\parallel D_1Q$.
-(图待重画){pngs/sem2-ex1.png}
+\begin{center}
+\begin{tikzpicture}
+    \draw (0,0) node [below left] {$A$} coordinate (A) --++ (3,0) node [below right] {$B$} coordinate (B) --++ (45:{3/2}) node [right] {$C$} coordinate (C)
+    --++ (0,3) node [above right] {$C_1$} coordinate (C1)
+    --++ (-3,0) node [above left] {$D_1$} coordinate (D1) --++ (225:{3/2}) node [left] {$A_1$} coordinate (A1) -- cycle;
+    \draw (A) ++ (3,3) node [below left] {$B_1$} coordinate (B1) -- (B) (B1) --++ (45:{3/2}) (B1) --++ (-3,0);
+    \draw [dashed] (A) --++ (45:{3/2}) node [above right] {$D$} coordinate (D) --++ (3,0) (D) --++ (0,3);
+    \draw [dashed] (D1) -- ($(C)!0.5!(C1)$) node [right] {$Q$};
+    \draw (B) -- ($(A)!0.5!(A1)$) node [left] {$P$};
+\end{tikzpicture}
+\end{center}
 \item (001603)如图, 在正方体$ABCD-A_1B_1C_1D_1$中, $E,F$分别是棱$A_1B_1$和棱$B_1C_1$的中点.\\ 
 (1) 求异面直线$A_1D$和$BC_1$所成角的大小;\\ 
-(2) 求异面直线$BE$和$CF$所成角的余弦值.\\ 
-(图待重画){pngs/sem2-ex2103-2.png}
+(2) 求异面直线$BE$和$CF$所成角的余弦值.
+\begin{center}
+\begin{tikzpicture}
+    \draw (0,0) node [below left] {$A$} coordinate (A) --++ (3,0) node [below right] {$B$} coordinate (B) --++ (45:{3/2}) node [right] {$C$} coordinate (C)
+    --++ (0,3) node [above right] {$C_1$} coordinate (C1)
+    --++ (-3,0) node [above left] {$D_1$} coordinate (D1) --++ (225:{3/2}) node [left] {$A_1$} coordinate (A1) -- cycle;
+    \draw (A) ++ (3,3) node [right] {$B_1$} coordinate (B1) -- (B) (B1) --++ (45:{3/2}) (B1) --++ (-3,0);
+    \draw [dashed] (A) --++ (45:{3/2}) node [left] {$D$} coordinate (D) --++ (3,0) (D) --++ (0,3);
+    \draw [dashed] (A1) -- (D);
+    \draw (C1) -- (B) -- ($(A1)!0.5!(B1)$) node [above] {$E$};
+    \draw (C) --  ($(C1)!0.5!(B1)$) node [above left] {$F$};
+\end{tikzpicture}
+\end{center}
 \item (001604)如图, 在正方体$ABCD-A_1B_1C_1D_1$中, $P$, $Q$分别为$B_1C$, $BD$上的点, 且$B_1P=BQ=\dfrac{2}{3}B_1C$, 求: 直线$PQ$与$CD$所成角的正切值.\\ 
-(图待重画){pngs/sem2-ex2.png}
+\begin{center}
+\begin{tikzpicture}
+    \draw (0,0) node [below left] {$A$} coordinate (A) --++ (3,0) node [below right] {$B$} coordinate (B) --++ (45:{3/2}) node [right] {$C$} coordinate (C)
+    --++ (0,3) node [above right] {$C_1$} coordinate (C1)
+    --++ (-3,0) node [above left] {$D_1$} coordinate (D1) --++ (225:{3/2}) node [left] {$A_1$} coordinate (A1) -- cycle;
+    \draw (A) ++ (3,3) node [right] {$B_1$} coordinate (B1) -- (B) (B1) --++ (45:{3/2}) (B1) --++ (-3,0);
+    \draw [dashed] (A) --++ (45:{3/2}) node [left] {$D$} coordinate (D) --++ (3,0) (D) --++ (0,3);
+    \draw ($(B)!0.5!(D)$) node [below left] {$Q$} coordinate (Q);
+    \draw ($(B1)!0.5!(C)$) node [above right] {$P$} coordinate (P);
+    \draw [dashed] (B) -- (D) (P) -- (Q);
+    \draw (B1) -- (C);
+\end{tikzpicture}
+\end{center}
 \item (001605)判断下列命题的真假, 在横线上用``T''或``F''表示.\\ 
 \begin{enumerate}[\blank{30}(1)]
 \item 平行四边形一定在一个平面上;\\ 

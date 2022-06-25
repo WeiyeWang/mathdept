@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  25 JUN 2022 18:42
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  25 JUN 2022 23:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1115,14 +1115,45 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 1386--1387
 [][] 
  []
 
-[39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
-[54]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1860--1861
+[39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51]
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (22.92969pt too wide) in paragraph at lines 1829--1887
+[]
+ []
+
+
+Overfull \hbox (22.92969pt too wide) in paragraph at lines 1829--1887
+[]
+ []
+
+
+Overfull \hbox (22.92969pt too wide) in paragraph at lines 1829--1887
+[] 
+ []
+
+[52]
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (7.11055pt too wide) in paragraph at lines 1887--1897
+[] 
+ []
+
+[53] [54] [55]
+Missing character: There is no ; ("3B) in font nullfont!
+ [56]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1991--1992
 [][] 
  []
 
-[55] [56] [57]
-Overfull \hbox (5.30197pt too wide) in paragraph at lines 1944--1948
+[57] [58] [59]
+Overfull \hbox (5.30197pt too wide) in paragraph at lines 2075--2079
 []\TU/lmr/m/n/10 (001226)(1) \TU/等线(0)/m/n/10 函 数 $\OML/cmm/m/it/10 y \OT1/cmr/
 m/n/10 = 1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 x[];  x \OMS/cmsy/m/n/10 2 \OT
 1/cmr/m/n/10 [\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/
@@ -1130,91 +1161,95 @@ m/n/10 1]$ \TU/等线(0)/m/n/10 的 最 大 值 为$[]$\TU/lmr/m/n/10 , \TU/等�
 值 为$[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 最 大 值 点 为$[]$\TU/lmr/m/n/10 ,
  []
 
-[58] [59] [60]
-Overfull \hbox (8.8285pt too wide) in paragraph at lines 2023--2024
+[60] [61] [62]
+Overfull \hbox (8.8285pt too wide) in paragraph at lines 2154--2155
 []\TU/lmr/m/n/10 (001274) \TU/等线(0)/m/n/10 已 知 $\OML/cmm/m/it/10 k$ \TU/等线(0)/m
 /n/10 是 实 数\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 函 数 $\OML/cmm/m/it/10 y \OT1/cmr/m
 /n/10 = []$ \TU/等线(0)/m/n/10 的 定 义 域 为 $[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 
 $\OML/cmm/m/it/10 k$ \TU/等线(0)/m/n/10 的 取 值 范 围 为$[]$\TU/lmr/m/n/10 . 
  []
 
-[61]
-Underfull \hbox (badness 10000) in paragraph at lines 2030--2042
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2044--2046
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2046--2050
-
- []
-
-[62]
-Underfull \hbox (badness 10000) in paragraph at lines 2085--2087
-
- []
-
 [63]
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2091
+Underfull \hbox (badness 10000) in paragraph at lines 2161--2173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2094
+Underfull \hbox (badness 10000) in paragraph at lines 2175--2177
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2104--2106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2106--2108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2114--2116
+Underfull \hbox (badness 10000) in paragraph at lines 2177--2181
 
  []
 
 [64]
-Underfull \hbox (badness 10000) in paragraph at lines 2148--2150
+Underfull \hbox (badness 10000) in paragraph at lines 2216--2218
 
  []
 
+
+Overfull \vbox (10.72444pt too high) has occurred while \output is active []
+
+
 [65]
-Underfull \hbox (badness 10000) in paragraph at lines 2150--2152
+Underfull \hbox (badness 10000) in paragraph at lines 2220--2222
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2224--2225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2235--2237
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2237--2239
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2245--2247
 
  []
 
 [66]
-Underfull \hbox (badness 10000) in paragraph at lines 2196--2197
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2197--2198
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2198--2199
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2199--2200
+Underfull \hbox (badness 10000) in paragraph at lines 2279--2281
 
  []
 
 [67]
-Overfull \hbox (20.08441pt too wide) in paragraph at lines 2224--2226
+Underfull \hbox (badness 10000) in paragraph at lines 2281--2283
+
+ []
+
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 2327--2328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2328--2329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2329--2330
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2330--2331
+
+ []
+
+[69]
+Overfull \hbox (20.08441pt too wide) in paragraph at lines 2355--2357
 []\TU/lmr/m/n/10 (001381)(1) \TU/等线(0)/m/n/10 如 果 在 三 角 形 $\OML/cmm/m/it/10 ABC
 $ \TU/等线(0)/m/n/10 中\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 a \OT1/cmr/m/n/10 : \OML
 /cmm/m/it/10 b \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 A \OT1/cmr/m/n/10 : [] \OM
@@ -1222,114 +1257,119 @@ L/cmm/m/it/10 B$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 那 么 三 角 形 $\OML/
 BC$ \TU/等线(0)/m/n/10 为$[]$\TU/lmr/m/n/10 ; 
  []
 
-[68]
-Underfull \hbox (badness 10000) in paragraph at lines 2235--2236
+[70]
+Underfull \hbox (badness 10000) in paragraph at lines 2362--2363
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2236--2237
+Underfull \hbox (badness 10000) in paragraph at lines 2385--2386
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2237--2238
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2387
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2238--2239
+Underfull \hbox (badness 10000) in paragraph at lines 2387--2388
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2242--2243
+Underfull \hbox (badness 10000) in paragraph at lines 2388--2389
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2243--2244
+Underfull \hbox (badness 10000) in paragraph at lines 2392--2393
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2244--2245
-
- []
-
-[69]
-Underfull \hbox (badness 10000) in paragraph at lines 2264--2265
+Underfull \hbox (badness 10000) in paragraph at lines 2393--2394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2265--2266
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2395
+
+ []
+
+[71]
+Underfull \hbox (badness 10000) in paragraph at lines 2422--2423
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2266--2267
+Underfull \hbox (badness 10000) in paragraph at lines 2423--2424
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2267--2268
+Underfull \hbox (badness 10000) in paragraph at lines 2424--2425
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2268--2269
+Underfull \hbox (badness 10000) in paragraph at lines 2425--2426
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2269--2270
+Underfull \hbox (badness 10000) in paragraph at lines 2426--2427
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2270--2271
+Underfull \hbox (badness 10000) in paragraph at lines 2427--2428
+
+ []
+
+[72]
+Underfull \hbox (badness 10000) in paragraph at lines 2428--2429
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2271--2272
+Underfull \hbox (badness 10000) in paragraph at lines 2429--2430
 
  []
 
 
-Overfull \hbox (22.63264pt too wide) in paragraph at lines 2274--2275
+Overfull \hbox (22.63264pt too wide) in paragraph at lines 2432--2433
 []\TU/等线(0)/m/n/10 终 边 和 $[]$ 的 终 边 重 合 的 角 的 集 合 为$[]$\TU/lmr/m/n/10 ; \TU/等线(
 0)/m/n/10 终 边 和 $[]$ 的 终 边 垂 直 的 角 的 集 合 为$[]$\TU/lmr/m/n/10 ; 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2274--2275
+Underfull \hbox (badness 10000) in paragraph at lines 2432--2433
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2276
-
- []
-
-[70]
-Underfull \hbox (badness 10000) in paragraph at lines 2276--2277
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2277--2278
+Underfull \hbox (badness 10000) in paragraph at lines 2434--2435
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2278--2279
+Underfull \hbox (badness 10000) in paragraph at lines 2435--2436
 
  []
 
 
-Overfull \hbox (1.56049pt too wide) in paragraph at lines 2279--2280
+Underfull \hbox (badness 10000) in paragraph at lines 2436--2437
+
+ []
+
+
+Overfull \hbox (1.56049pt too wide) in paragraph at lines 2437--2438
 []\TU/等线(0)/m/n/10 终 边 和 $[]$ 的 终 边 关 于 直 线 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10
  = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 对 称 的 角 的 集 合 为$[]$
 \TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 其 中 在 $\OT1/cmr/m/n/10 [\OMS/cmsy/m/n/10 ^^@\
@@ -1338,22 +1378,22 @@ m/n/10 ;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2279--2280
+Underfull \hbox (badness 10000) in paragraph at lines 2437--2438
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2280--2281
+Underfull \hbox (badness 10000) in paragraph at lines 2438--2439
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2281--2282
+Underfull \hbox (badness 10000) in paragraph at lines 2439--2440
 
  []
 
-[71]
-Overfull \hbox (7.65115pt too wide) in paragraph at lines 2316--2318
+[73]
+Overfull \hbox (7.65115pt too wide) in paragraph at lines 2474--2476
 []\TU/lmr/m/n/10 (001403)(1) \TU/等线(0)/m/n/10 若 $[] \OML/cmm/m/it/10 ^^K \OT1/c
 mr/m/n/10 = \OMS/cmsy/m/n/10 ^^@[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 $\OML/cm
 m/m/it/10 ^^Y < ^^K < []$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 那 么 $[] \OML/cmm/m/i
@@ -1362,16 +1402,16 @@ mr/m/n/10 =$$[]$\TU/lmr/m/n/10 , $[] \OML/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 =$$[]
 $\TU/lmr/m/n/10 ,
  []
 
-[72] [73]
-Overfull \hbox (3.49286pt too wide) in paragraph at lines 2375--2376
+[74] [75]
+Overfull \hbox (3.49286pt too wide) in paragraph at lines 2533--2534
 []\TU/lmr/m/n/10 (001427) \TU/等线(0)/m/n/10 已 知 $[] [] [] [] \OT1/cmr/m/n/10 + [
 ] [] [] [] = \OMS/cmsy/m/n/10 ^^@[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 $[] \OM
 L/cmm/m/it/10 < ^^K < \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ^^Y$\TU/lmr/m/n/10 , \T
 U/等线(0)/m/n/10 则 $[] [] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
-[74] [75] [76]
-Overfull \hbox (2.1752pt too wide) in paragraph at lines 2453--2454
+[76] [77] [78]
+Overfull \hbox (2.1752pt too wide) in paragraph at lines 2611--2612
 []\TU/lmr/m/n/10 (001458) \TU/等线(0)/m/n/10 已 知 $[] \OML/cmm/m/it/10 ^^K \OT1/cm
 r/m/n/10 = \OMS/cmsy/m/n/10 ^^@[]$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 ^^K \OMS/c
 msy/m/n/10 2 []$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $[] \OT1/cmr/m/n/10 2\OML/c
@@ -1380,503 +1420,153 @@ mm/m/it/10 ^^K \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 ; $[] \OT1/cmr/m/n/10 2\OML
 L/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 = []$\TU/lmr/m/n/10 . 
  []
 
-[77]
-Underfull \hbox (badness 10000) in paragraph at lines 2495--2496
+[79] [80]
+Underfull \hbox (badness 10000) in paragraph at lines 2653--2654
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2497--2498
+Underfull \hbox (badness 10000) in paragraph at lines 2655--2656
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2498--2499
+Underfull \hbox (badness 10000) in paragraph at lines 2656--2657
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2499--2500
-
- []
-
-[78]
-Underfull \hbox (badness 10000) in paragraph at lines 2500--2501
+Underfull \hbox (badness 10000) in paragraph at lines 2657--2658
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2501--2502
+Underfull \hbox (badness 10000) in paragraph at lines 2658--2659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2502--2503
+Underfull \hbox (badness 10000) in paragraph at lines 2659--2660
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2503--2504
+Underfull \hbox (badness 10000) in paragraph at lines 2660--2661
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2504--2505
+Underfull \hbox (badness 10000) in paragraph at lines 2661--2662
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2505--2506
+Underfull \hbox (badness 10000) in paragraph at lines 2662--2663
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2506--2507
+Underfull \hbox (badness 10000) in paragraph at lines 2663--2664
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2507--2508
+Underfull \hbox (badness 10000) in paragraph at lines 2664--2665
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2508--2509
+Underfull \hbox (badness 10000) in paragraph at lines 2665--2666
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2509--2510
+Underfull \hbox (badness 10000) in paragraph at lines 2666--2667
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2510--2511
+Underfull \hbox (badness 10000) in paragraph at lines 2667--2668
+
+ []
+
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 2668--2669
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2511--2512
+Underfull \hbox (badness 10000) in paragraph at lines 2669--2670
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2512--2513
+Underfull \hbox (badness 10000) in paragraph at lines 2670--2671
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2513--2514
+Underfull \hbox (badness 10000) in paragraph at lines 2671--2672
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2514--2515
-
- []
-
-[79]
-Underfull \hbox (badness 10000) in paragraph at lines 2515--2516
+Underfull \hbox (badness 10000) in paragraph at lines 2672--2673
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2516--2517
+Underfull \hbox (badness 10000) in paragraph at lines 2673--2674
 
  []
 
-[80] [81] [82] [83] [84]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 2656--2657
+
+Underfull \hbox (badness 10000) in paragraph at lines 2674--2675
+
+ []
+
+[82] [83] [84] [85] [86]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 2814--2815
 [][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 2677--2678
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 2679--2680
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 2683--2684
-[][] 
- []
-
-[85]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 2692--2693
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2712--2713
-
- []
-
-[86]
-Underfull \hbox (badness 10000) in paragraph at lines 2713--2714
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2714--2715
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2715--2716
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2721--2722
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2722--2723
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2723--2724
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2724--2725
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2725--2726
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2726--2727
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2728
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2728--2729
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2729--2730
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2730--2731
-
  []
 
 [87]
-Underfull \hbox (badness 10000) in paragraph at lines 2731--2732
-
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 2835--2836
+[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2736--2738
-
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 2837--2838
+[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2739--2740
-
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 2841--2842
+[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2740--2741
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2741--2742
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2742--2743
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2743--2744
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2744--2745
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2748--2749
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2749--2750
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2750--2751
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2751--2752
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2752--2753
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2753--2754
-
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 2850--2851
+[][] 
  []
 
 [88]
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2755
+Underfull \hbox (badness 10000) in paragraph at lines 2870--2871
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2755--2756
+Underfull \hbox (badness 10000) in paragraph at lines 2871--2872
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2768--2769
+Underfull \hbox (badness 10000) in paragraph at lines 2872--2873
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2770--2771
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2771--2772
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2772--2773
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2773--2774
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2774--2775
-
- []
-
-[89]
-Underfull \hbox (badness 10000) in paragraph at lines 2775--2776
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2776--2777
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2777--2778
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2778--2779
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2780--2781
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2782--2783
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2783--2784
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2784--2785
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2785--2786
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2786--2787
-
- []
-
-[90]
-Underfull \hbox (badness 10000) in paragraph at lines 2799--2800
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2800--2801
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2802
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2802--2803
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2803--2804
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2804--2805
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2805--2806
-
- []
-
-[91]
-Underfull \hbox (badness 10000) in paragraph at lines 2825--2826
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2827--2828
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2828--2829
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2829--2830
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2830--2831
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2831--2832
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2832--2833
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2833--2834
-
- []
-
-[92]
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2847
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2848--2849
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2849--2850
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2850--2851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2851--2852
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2852--2853
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2853--2854
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2854--2855
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2856
-
- []
-
-[93]
-Underfull \hbox (badness 10000) in paragraph at lines 2856--2857
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2857--2858
-
- []
-
-[94]
-Underfull \hbox (badness 10000) in paragraph at lines 2876--2877
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2878--2879
+Underfull \hbox (badness 10000) in paragraph at lines 2873--2874
 
  []
 
@@ -1905,8 +1595,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 2883--2884
 
  []
 
-
+[89]
 Underfull \hbox (badness 10000) in paragraph at lines 2884--2885
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2885--2886
 
  []
 
@@ -1916,108 +1611,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 2886--2887
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 2887--2888
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2888--2889
 
  []
 
-[95]
-Underfull \hbox (badness 10000) in paragraph at lines 2895--2897
+
+Underfull \hbox (badness 10000) in paragraph at lines 2889--2890
 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 2897--2898
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2898--2899
+Underfull \hbox (badness 10000) in paragraph at lines 2907--2908
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2900--2902
+Underfull \hbox (badness 10000) in paragraph at lines 2908--2909
 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 2902--2903
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2903--2905
+Underfull \hbox (badness 10000) in paragraph at lines 2909--2910
 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 2905--2906
-[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 2910--2911
+
  []
 
-[96]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 2914--2915
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 2916--2917
-[][] 
- []
-
-
-Overfull \hbox (4.76137pt too wide) in paragraph at lines 2918--2919
-[]\TU/lmr/m/n/10 (001659) \TU/等线(0)/m/n/10 已 知 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it
-/10 ABC$ \TU/等线(0)/m/n/10 为 等 边 三 角 形\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 PA \OMS
-/cmsy/m/n/10 ?$ \TU/等线(0)/m/n/10 平 面 $\OML/cmm/m/it/10 ABC$\TU/lmr/m/n/10 , \TU
-/等线(0)/m/n/10 且 $\OML/cmm/m/it/10 PA \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 AC$\T
-U/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 二 面 角 $\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 ^^
-@ \OML/cmm/m/it/10 BC \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 A$ \TU/等线(0)/m/n/10
- 为$[]$\TU/lmr/m/n/10 . 
- []
-
-[97]
-Underfull \hbox (badness 10000) in paragraph at lines 2940--2946
+[90]
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2912
 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 2946--2947
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 2952--2953
-[][] 
- []
-
-[98]
-Underfull \hbox (badness 10000) in paragraph at lines 2962--2963
+Underfull \hbox (badness 10000) in paragraph at lines 2912--2913
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2964--2965
+Underfull \hbox (badness 10000) in paragraph at lines 2916--2917
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2965--2966
+Underfull \hbox (badness 10000) in paragraph at lines 2917--2918
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2966--2967
+Underfull \hbox (badness 10000) in paragraph at lines 2918--2919
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2967--2968
+Underfull \hbox (badness 10000) in paragraph at lines 2919--2920
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2968--2969
+Underfull \hbox (badness 10000) in paragraph at lines 2920--2921
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2921--2922
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2922--2923
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2923--2924
+
+ []
+
+[91]
+Underfull \hbox (badness 10000) in paragraph at lines 2955--2956
 
  []
 
@@ -2027,17 +1706,378 @@ Underfull \hbox (badness 10000) in paragraph at lines 2969--2970
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2970--2971
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2971--2972
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2972--2973
+
+ []
+
+[92]
+Underfull \hbox (badness 10000) in paragraph at lines 2973--2974
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2974--2975
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2975--2976
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2976--2977
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2977--2978
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2978--2979
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2979--2980
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2981--2982
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2983--2984
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2984--2985
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2985--2986
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2986--2987
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2987--2988
+
+ []
+
+[93]
+Underfull \hbox (badness 10000) in paragraph at lines 3000--3001
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3001--3002
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3002--3003
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3004
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3004--3005
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3005--3006
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3006--3007
+
+ []
+
+[94]
+Underfull \hbox (badness 10000) in paragraph at lines 3026--3027
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3028--3029
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3029--3030
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3030--3031
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3031--3032
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3032--3033
+
+ []
+
+[95]
+Underfull \hbox (badness 10000) in paragraph at lines 3033--3034
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3034--3035
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3047--3048
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3049--3050
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3050--3051
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3052
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3052--3053
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3053--3054
+
+ []
+
+[96]
+Underfull \hbox (badness 10000) in paragraph at lines 3054--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3055--3056
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3056--3057
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3057--3058
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3058--3059
+
+ []
+
+[97]
+Underfull \hbox (badness 10000) in paragraph at lines 3077--3078
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3079--3080
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3080--3081
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3081--3082
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3082--3083
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3083--3084
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3084--3085
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3085--3086
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3087--3088
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3089--3090
+
+ []
+
+[98]
+Underfull \hbox (badness 10000) in paragraph at lines 3096--3098
+
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 3098--3099
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3099--3100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3101--3103
+
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 3103--3104
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3104--3106
+
+ []
+
 [99]
-Overfull \hbox (19.07643pt too wide) in paragraph at lines 2985--2986
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 3106--3107
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 3115--3116
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 3117--3118
+[][] 
+ []
+
+
+Overfull \hbox (4.76137pt too wide) in paragraph at lines 3119--3120
+[]\TU/lmr/m/n/10 (001659) \TU/等线(0)/m/n/10 已 知 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it
+/10 ABC$ \TU/等线(0)/m/n/10 为 等 边 三 角 形\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 PA \OMS
+/cmsy/m/n/10 ?$ \TU/等线(0)/m/n/10 平 面 $\OML/cmm/m/it/10 ABC$\TU/lmr/m/n/10 , \TU
+/等线(0)/m/n/10 且 $\OML/cmm/m/it/10 PA \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 AC$\T
+U/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 二 面 角 $\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 ^^
+@ \OML/cmm/m/it/10 BC \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 A$ \TU/等线(0)/m/n/10
+ 为$[]$\TU/lmr/m/n/10 . 
+ []
+
+[100]
+Underfull \hbox (badness 10000) in paragraph at lines 3141--3147
+
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 3147--3148
+[][] 
+ []
+
+[101]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 3153--3154
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3163--3164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3165--3166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3166--3167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3167--3168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3168--3169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3169--3170
+
+ []
+
+[102]
+Underfull \hbox (badness 10000) in paragraph at lines 3170--3171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3171--3172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3172--3173
+
+ []
+
+
+Overfull \hbox (19.07643pt too wide) in paragraph at lines 3186--3187
 \TU/等线(0)/m/n/10 者 四 棱 柱\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 在 所 有 可 能 的 情 形 中\TU/
 lmr/m/n/10 , \TU/等线(0)/m/n/10 表 面 积 最 小 的 唯 一 一 个 棱 柱 是 四 棱 柱\TU/lmr/m/n/10 , \
 TU/等线(0)/m/n/10 则 实 数 $\OML/cmm/m/it/10 a$ \TU/等线(0)/m/n/10 的 取 值 范 围 为$[]$\TU/
@@ -2045,7 +2085,7 @@ lmr/m/n/10 .
  []
 
 
-Overfull \hbox (28.784pt too wide) in paragraph at lines 2987--2988
+Overfull \hbox (28.784pt too wide) in paragraph at lines 3188--3189
 []\TU/lmr/m/n/10 (001691) \TU/等线(0)/m/n/10 直 平 行 六 面 体 的 两 条 对 角 线 长 分 别 为 $\OT
 1/cmr/m/n/10 9$ \TU/等线(0)/m/n/10 和 $[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 高 为 $\
 OT1/cmr/m/n/10 4$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 底 面 周 长 为 $\OT1/cmr/m/n/10 1
@@ -2053,47 +2093,47 @@ OT1/cmr/m/n/10 4$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 底 面 周 长 为 $\OT1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2992--2993
+Underfull \hbox (badness 10000) in paragraph at lines 3193--3194
+
+ []
+
+[103]
+Underfull \hbox (badness 10000) in paragraph at lines 3195--3196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2994--2995
+Underfull \hbox (badness 10000) in paragraph at lines 3196--3197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2995--2996
+Underfull \hbox (badness 10000) in paragraph at lines 3197--3198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2996--2997
+Underfull \hbox (badness 10000) in paragraph at lines 3198--3199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2997--2998
-
- []
-
-[100]
-Underfull \hbox (badness 10000) in paragraph at lines 2998--2999
+Underfull \hbox (badness 10000) in paragraph at lines 3199--3200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2999--3000
+Underfull \hbox (badness 10000) in paragraph at lines 3200--3201
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3000--3001
+Underfull \hbox (badness 10000) in paragraph at lines 3201--3202
 
  []
 
-
-Overfull \hbox (4.43039pt too wide) in paragraph at lines 3014--3015
+[104]
+Overfull \hbox (4.43039pt too wide) in paragraph at lines 3215--3216
 []\TU/lmr/m/n/10 (001707) \TU/等线(0)/m/n/10 若 正 四 棱 锥 $\OML/cmm/m/it/10 S \OMS/c
 msy/m/n/10 ^^@ \OML/cmm/m/it/10 ABC$ \TU/等线(0)/m/n/10 的 底 面 边 长 为 $\OT1/cmr/m/n
 /10 2[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 体 积 为 $\OT1/cmr/m/n/10 4$\TU/lmr/m/n/
@@ -2102,297 +2142,101 @@ msy/m/n/10 ^^@ \OML/cmm/m/it/10 ABC$ \TU/等线(0)/m/n/10 的 底 面 边 长 �
 ]$\TU/lmr/m/n/10 ,
  []
 
-[101]
-Overfull \hbox (20.78857pt too wide) in paragraph at lines 3020--3021
+
+Overfull \hbox (20.78857pt too wide) in paragraph at lines 3221--3222
 []\TU/lmr/m/n/10 (001713) \TU/等线(0)/m/n/10 正 四 棱 台 的 下 底 是 一 个 边 长 为 $\OT1/cmr/
 m/n/10 2$ \TU/等线(0)/m/n/10 的 正 方 形\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 此 外 每 条 棱 的
  棱 长 均 为 $\OT1/cmr/m/n/10 1$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 那 么 它 的 体 积 为$[]$
 \TU/lmr/m/n/10 . 
  []
 
-[102]
-Underfull \hbox (badness 10000) in paragraph at lines 3049--3050
-
- []
-
-[103]
-Underfull \hbox (badness 10000) in paragraph at lines 3506--3507
-
- []
-
-[104]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 3748--3749
-[][] 
- []
-
 [105]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 3767--3768
-[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 3250--3251
+
  []
 
 [106]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 3785--3786
+Underfull \hbox (badness 10000) in paragraph at lines 3707--3708
+
+ []
+
+[107] [108]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 3949--3950
 [][] 
  []
 
-[107] [108] [109] [110] [111]
-Underfull \hbox (badness 10000) in paragraph at lines 3920--3921
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 3968--3969
+[][] 
+ []
+
+[109]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 3986--3987
+[][] 
+ []
+
+[110] [111] [112] [113] [114]
+Underfull \hbox (badness 10000) in paragraph at lines 4121--4122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3922--3923
+Underfull \hbox (badness 10000) in paragraph at lines 4123--4124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3923--3924
+Underfull \hbox (badness 10000) in paragraph at lines 4124--4125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3924--3925
+Underfull \hbox (badness 10000) in paragraph at lines 4125--4126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3925--3926
+Underfull \hbox (badness 10000) in paragraph at lines 4126--4127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3926--3927
+Underfull \hbox (badness 10000) in paragraph at lines 4127--4128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3927--3928
+Underfull \hbox (badness 10000) in paragraph at lines 4128--4129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3928--3929
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3929--3930
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3930--3931
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3931--3932
-
- []
-
-[112]
-Underfull \hbox (badness 10000) in paragraph at lines 3932--3933
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3940--3941
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3942--3943
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3943--3944
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3944--3945
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3945--3946
-
- []
-
-
-Overfull \hbox (0.94997pt too wide) in paragraph at lines 3952--3953
-[]\TU/lmr/m/n/10 (001842) \TU/等线(0)/m/n/10 若 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/1
-0 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 为 无 穷 等 比 数 列\TU/lmr/m/n/10 , $\OMS/c
-msy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 中 每 一 项 都 
-是 它 后 面 所 有 项 之 和 的 $\OT1/cmr/m/n/10 4$ \TU/等线(0)/m/n/10 倍\TU/lmr/m/n/10 , \TU/
-等线(0)/m/n/10 则 公 比 $\OML/cmm/m/it/10 q$ \TU/等线(0)/m/n/10 的 值 为$[]$\TU/lmr/m/n/1
-0 . 
- []
-
-[113]
-Underfull \hbox (badness 10000) in paragraph at lines 3969--3970
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3971--3972
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3972--3973
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3973--3974
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3974--3975
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3975--3976
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3976--3977
-
- []
-
-[114]
-Underfull \hbox (badness 10000) in paragraph at lines 3977--3978
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3978--3979
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3990--3991
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3992--3993
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3993--3994
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3994--3995
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3995--3996
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3996--3997
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3997--3998
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3998--3999
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3999--4000
+Underfull \hbox (badness 10000) in paragraph at lines 4129--4130
 
  []
 
 [115]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4002--4003
-[][] 
- []
-
-
-Overfull \hbox (18.14882pt too wide) in paragraph at lines 4018--4019
-[]\TU/lmr/m/n/10 (001871) \TU/等线(0)/m/n/10 已 知 $[]\OML/cmm/m/it/10 ; []$ \TU/等线
-(0)/m/n/10 不 平 行\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 设 $\OML/cmm/m/it/10 x$ \TU/等线
-(0)/m/n/10 是 一 个 实 数\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 若 向 量 $\OT1/cmr/m/n/10 (2
-[] \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 k \OT1/cmr/m/n/10 
-(\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 + 3[])$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 
-则 实 数 $\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 的 值 为$[]$\TU/lmr/m/n/10 . 
- []
-
-[116] [117]
-Overfull \hbox (22.89839pt too wide) in paragraph at lines 4059--4060
-[]\TU/lmr/m/n/10 (001892) \TU/等线(0)/m/n/10 已 知 $[] \OT1/cmr/m/n/10 = (2\OML/cmm
-/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 , $[] \OT1/cmr
-/m/n/10 = (\OML/cmm/m/it/10 m; m \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1)$\TU/lm
-r/m/n/10 , \TU/等线(0)/m/n/10 若 $[]$ 与 $[]$ 的 夹 角 是 锐 角\TU/lmr/m/n/10 , \TU/等线(0)
-/m/n/10 则 实 数 $\OML/cmm/m/it/10 m$ \TU/等线(0)/m/n/10 的 取 值 范 围 为$[]$\TU/lmr/m/n/
-10 . 
- []
-
-
-Overfull \hbox (5.4429pt too wide) in paragraph at lines 4062--4063
-[]\TU/lmr/m/n/10 (001895) \TU/等线(0)/m/n/10 已 知 $\OML/cmm/m/it/10 M\OT1/cmr/m/n/
-10 (3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4)$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 N
-\OT1/cmr/m/n/10 (12\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7)$\TU/lmr/m/n/10 , $\OML
-/cmm/m/it/10 Q$ \TU/等线(0)/m/n/10 在 直 线 $\OML/cmm/m/it/10 MN$ \TU/等线(0)/m/n/10 上
-\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 $\OML/cmm/m/it/10 QM \OT1/cmr/m/n/10 : \OML
-/cmm/m/it/10 MN \OT1/cmr/m/n/10 = 1 : 3$\TU/lmr/m/n/10 . \TU/等线(0)/m/n/10 则 点 $
-\OML/cmm/m/it/10 Q$ \TU/等线(0)/m/n/10 的 坐 标 为$[]$\TU/lmr/m/n/10 . 
- []
-
-[118]
-Overfull \hbox (1.31552pt too wide) in paragraph at lines 4086--4087
-[]\TU/lmr/m/n/10 (001911) \TU/等线(0)/m/n/10 已 知 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it
-/10 ABC$ \TU/等线(0)/m/n/10 的 三 个 顶 点 分 别 为 $\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 (2
-\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 , $\OM
-L/cmm/m/it/10 B\OT1/cmr/m/n/10 (3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2)$\TU/lmr/
-m/n/10 , $\OML/cmm/m/it/10 C\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/1
-0 3\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 . \
-TU/等线(0)/m/n/10 则 三 角 形 $\OML/cmm/m/it/10 ABC$ \TU/等线(0)/m/n/10 的 面 积 为$[]$\TU/
-lmr/m/n/10 . 
- []
-
-
-Overfull \hbox (26.86734pt too wide) in paragraph at lines 4089--4090
-[]\TU/lmr/m/n/10 (001914) \TU/等线(0)/m/n/10 已 知 圆 $\OML/cmm/m/it/10 O$ \TU/等线(0)
-/m/n/10 的 半 径 为 $\OT1/cmr/m/n/10 1$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 PA; PB$ \
-TU/等线(0)/m/n/10 为 该 圆 的 两 条 切 线\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 A; B$ \TU/等线(
-0)/m/n/10 为 两 切 点\TU/lmr/m/n/10 . $[] \OMS/cmsy/m/n/10 ^^A []$ \TU/等线(0)/m/n/10
- 的 最 小 值 为$[]$\TU/lmr/m/n/10 . 
- []
-
-[119]
-Overfull \hbox (10.14748pt too wide) in paragraph at lines 4114--4119
-\OML/cmm/m/it/10 D \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 D[]
- \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 D[] \OT1/cmr/m/n/10 =
-$$[]$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 D[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/1
-0 , \TU/等线(0)/m/n/10 解 为 $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; z\OT1/cmr/m/n
-/10 ) =$$[]$\TU/lmr/m/n/10 . 
- []
-
-[120] [121]
-Underfull \hbox (badness 10000) in paragraph at lines 4140--4141
+Underfull \hbox (badness 10000) in paragraph at lines 4130--4131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4142--4143
+Underfull \hbox (badness 10000) in paragraph at lines 4131--4132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4132--4133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4133--4134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4141--4142
 
  []
 
@@ -2416,20 +2260,216 @@ Underfull \hbox (badness 10000) in paragraph at lines 4146--4147
 
  []
 
+[116]
+Overfull \hbox (0.94997pt too wide) in paragraph at lines 4153--4154
+[]\TU/lmr/m/n/10 (001842) \TU/等线(0)/m/n/10 若 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/1
+0 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 为 无 穷 等 比 数 列\TU/lmr/m/n/10 , $\OMS/c
+msy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 中 每 一 项 都 
+是 它 后 面 所 有 项 之 和 的 $\OT1/cmr/m/n/10 4$ \TU/等线(0)/m/n/10 倍\TU/lmr/m/n/10 , \TU/
+等线(0)/m/n/10 则 公 比 $\OML/cmm/m/it/10 q$ \TU/等线(0)/m/n/10 的 值 为$[]$\TU/lmr/m/n/1
+0 . 
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 4147--4148
+
+Underfull \hbox (badness 10000) in paragraph at lines 4170--4171
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 4172--4173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4173--4174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4174--4175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4175--4176
+
+ []
+
+[117]
+Underfull \hbox (badness 10000) in paragraph at lines 4176--4177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4177--4178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4178--4179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4179--4180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4191--4192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4193--4194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4194--4195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4195--4196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4196--4197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4197--4198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4198--4199
+
+ []
+
+[118]
+Underfull \hbox (badness 10000) in paragraph at lines 4199--4200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4200--4201
+
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 4203--4204
+[][] 
+ []
+
+[119]
+Overfull \hbox (18.14882pt too wide) in paragraph at lines 4219--4220
+[]\TU/lmr/m/n/10 (001871) \TU/等线(0)/m/n/10 已 知 $[]\OML/cmm/m/it/10 ; []$ \TU/等线
+(0)/m/n/10 不 平 行\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 设 $\OML/cmm/m/it/10 x$ \TU/等线
+(0)/m/n/10 是 一 个 实 数\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 若 向 量 $\OT1/cmr/m/n/10 (2
+[] \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 k \OT1/cmr/m/n/10 
+(\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 + 3[])$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 
+则 实 数 $\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 的 值 为$[]$\TU/lmr/m/n/10 . 
+ []
+
+[120]
+Overfull \hbox (22.89839pt too wide) in paragraph at lines 4260--4261
+[]\TU/lmr/m/n/10 (001892) \TU/等线(0)/m/n/10 已 知 $[] \OT1/cmr/m/n/10 = (2\OML/cmm
+/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 , $[] \OT1/cmr
+/m/n/10 = (\OML/cmm/m/it/10 m; m \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1)$\TU/lm
+r/m/n/10 , \TU/等线(0)/m/n/10 若 $[]$ 与 $[]$ 的 夹 角 是 锐 角\TU/lmr/m/n/10 , \TU/等线(0)
+/m/n/10 则 实 数 $\OML/cmm/m/it/10 m$ \TU/等线(0)/m/n/10 的 取 值 范 围 为$[]$\TU/lmr/m/n/
+10 . 
+ []
+
+
+Overfull \hbox (5.4429pt too wide) in paragraph at lines 4263--4264
+[]\TU/lmr/m/n/10 (001895) \TU/等线(0)/m/n/10 已 知 $\OML/cmm/m/it/10 M\OT1/cmr/m/n/
+10 (3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4)$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 N
+\OT1/cmr/m/n/10 (12\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7)$\TU/lmr/m/n/10 , $\OML
+/cmm/m/it/10 Q$ \TU/等线(0)/m/n/10 在 直 线 $\OML/cmm/m/it/10 MN$ \TU/等线(0)/m/n/10 上
+\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 $\OML/cmm/m/it/10 QM \OT1/cmr/m/n/10 : \OML
+/cmm/m/it/10 MN \OT1/cmr/m/n/10 = 1 : 3$\TU/lmr/m/n/10 . \TU/等线(0)/m/n/10 则 点 $
+\OML/cmm/m/it/10 Q$ \TU/等线(0)/m/n/10 的 坐 标 为$[]$\TU/lmr/m/n/10 . 
+ []
+
+[121]
+Overfull \hbox (1.31552pt too wide) in paragraph at lines 4287--4288
+[]\TU/lmr/m/n/10 (001911) \TU/等线(0)/m/n/10 已 知 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it
+/10 ABC$ \TU/等线(0)/m/n/10 的 三 个 顶 点 分 别 为 $\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 (2
+\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 , $\OM
+L/cmm/m/it/10 B\OT1/cmr/m/n/10 (3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2)$\TU/lmr/
+m/n/10 , $\OML/cmm/m/it/10 C\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/1
+0 3\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 . \
+TU/等线(0)/m/n/10 则 三 角 形 $\OML/cmm/m/it/10 ABC$ \TU/等线(0)/m/n/10 的 面 积 为$[]$\TU/
+lmr/m/n/10 . 
+ []
+
+
+Overfull \hbox (26.86734pt too wide) in paragraph at lines 4290--4291
+[]\TU/lmr/m/n/10 (001914) \TU/等线(0)/m/n/10 已 知 圆 $\OML/cmm/m/it/10 O$ \TU/等线(0)
+/m/n/10 的 半 径 为 $\OT1/cmr/m/n/10 1$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 PA; PB$ \
+TU/等线(0)/m/n/10 为 该 圆 的 两 条 切 线\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 A; B$ \TU/等线(
+0)/m/n/10 为 两 切 点\TU/lmr/m/n/10 . $[] \OMS/cmsy/m/n/10 ^^A []$ \TU/等线(0)/m/n/10
+ 的 最 小 值 为$[]$\TU/lmr/m/n/10 . 
+ []
+
 [122]
-Overfull \hbox (46.94553pt too wide) in paragraph at lines 4162--4166
+Overfull \hbox (10.14748pt too wide) in paragraph at lines 4315--4320
+\OML/cmm/m/it/10 D \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 D[]
+ \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 D[] \OT1/cmr/m/n/10 =
+$$[]$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 D[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/1
+0 , \TU/等线(0)/m/n/10 解 为 $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; z\OT1/cmr/m/n
+/10 ) =$$[]$\TU/lmr/m/n/10 . 
+ []
+
+[123] [124]
+Underfull \hbox (badness 10000) in paragraph at lines 4341--4342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4343--4344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4344--4345
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4345--4346
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4346--4347
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4347--4348
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4348--4349
+
+ []
+
+[125]
+Overfull \hbox (46.94553pt too wide) in paragraph at lines 4363--4367
 []\TU/lmr/m/n/10 (001940)[\TU/等线(0)/m/n/10 代 入 消 元 法 的 等 价 性 的 实 例\TU/lmr/m/n/1
 0 ] \TU/等线(0)/m/n/10 已 知 关 于 $\OML/cmm/m/it/10 x; y$ \TU/等线(0)/m/n/10 的 方 程 组 $
 []$ 由 上 题 结 论\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 它 与 方 程 组 $[]$
  []
 
-[123] [124]
-Overfull \hbox (21.37204pt too wide) in paragraph at lines 4227--4230
+[126] [127]
+Overfull \hbox (21.37204pt too wide) in paragraph at lines 4428--4431
 \TU/等线(0)/m/n/10 如 果 三 角 形 $\OML/cmm/m/it/10 OAB$ \TU/等线(0)/m/n/10 的 顶 点 $\OML/
 cmm/m/it/10 A; B$ \TU/等线(0)/m/n/10 的 坐 标 分 别 为 $\OT1/cmr/m/n/10 (\OML/cmm/m/it/
 10 x[]; y[]; z[]\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 , $\OT1/cmr/m/n/10 (\OML/cmm/m
@@ -2437,8 +2477,8 @@ cmm/m/it/10 A; B$ \TU/等线(0)/m/n/10 的 坐 标 分 别 为 $\OT1/cmr/m/n/10 
  形 $\OML/cmm/m/it/10 OAB$ \TU/等线(0)/m/n/10 的 面 积 为 $[] []$
  []
 
-[125]
-Overfull \hbox (39.5469pt too wide) in paragraph at lines 4255--4256
+[128] [129]
+Overfull \hbox (39.5469pt too wide) in paragraph at lines 4456--4457
 []\TU/lmr/m/n/10 (001989) \TU/等线(0)/m/n/10 设 地 球 半 径 为 $\OT1/cmr/m/n/10 6400[]$
 \TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 地 球 上 的 两 点 $\OML/cmm/m/it/10 A\OT1/cmr/m/n/1
 0 (30[][]\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 60[][])$ \TU/等线(0)/m/n/10 与 $\OML/c
@@ -2446,18 +2486,18 @@ mm/m/it/10 B\OT1/cmr/m/n/10 (50[][]\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 110[][])$
  \TU/等线(0)/m/n/10 之 间 的 球 面 距 离 约 为$[]$\TU/lmr/m/n/10 .(\TU/等线(0)/m/n/10 精
  []
 
-[126]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4264--4265
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 4465--4466
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4266--4267
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 4467--4468
 [][] 
  []
 
-[127]
-Overfull \hbox (40.46622pt too wide) in paragraph at lines 4297--4298
+[130]
+Overfull \hbox (40.46622pt too wide) in paragraph at lines 4498--4499
 []\TU/lmr/m/n/10 (002010) \TU/等线(0)/m/n/10 已 知 平 行 四 边 形 的 三 个 顶 点 分 别 对 应 于 复 
 数 $\OT1/cmr/m/n/10 2[]$\TU/lmr/m/n/10 , $\OT1/cmr/m/n/10 4 \OMS/cmsy/m/n/10 ^^@
  \OT1/cmr/m/n/10 4[]$\TU/lmr/m/n/10 , $\OT1/cmr/m/n/10 2 + 6[]$\TU/lmr/m/n/10 ,
@@ -2465,37 +2505,37 @@ Overfull \hbox (40.46622pt too wide) in paragraph at lines 4297--4298
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4301--4302
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 4502--4503
+[][] 
+ []
+
+[131]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 4504--4505
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4303--4304
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 4506--4507
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4305--4306
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 4515--4516
 [][] 
  []
 
-[128]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4314--4315
+[132]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 4552--4553
 [][] 
  []
 
-[129]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4351--4352
+[133] [134]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 4587--4588
 [][] 
  []
 
-[130]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4386--4387
-[][] 
- []
-
-[131] [132] [133]
-Overfull \hbox (12.44649pt too wide) in paragraph at lines 4461--4462
+[135] [136]
+Overfull \hbox (12.44649pt too wide) in paragraph at lines 4662--4663
 []\TU/lmr/m/n/10 (002103) \TU/等线(0)/m/n/10 已 知 动 点 $\OML/cmm/m/it/10 P$ \TU/等线(
 0)/m/n/10 到 $\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 轴 的 距 离 与 到 原 点 的 距 离 的 比 是 $
 [] \OT1/cmr/m/n/10 : 2$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 点 $\OML/cmm/m/it/10 
@@ -2503,7 +2543,7 @@ P$ \TU/等线(0)/m/n/10 的 轨 迹 方 程 为$[]$\TU/lmr/m/n/10 .
  []
 
 
-Overfull \hbox (11.6086pt too wide) in paragraph at lines 4466--4467
+Overfull \hbox (11.6086pt too wide) in paragraph at lines 4667--4668
 []\TU/lmr/m/n/10 (002107) \TU/等线(0)/m/n/10 若 点 $\OML/cmm/m/it/10 M$ \TU/等线(0)/m
 /n/10 到 $\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 轴 的 距 离 和 它 到 直 线 $\OML/cmm/m/it/
 10 y \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 的 距 离 相 等\TU/lmr/
@@ -2511,8 +2551,8 @@ m/n/10 , \TU/等线(0)/m/n/10 则 点 $\OML/cmm/m/it/10 M$ \TU/等线(0)/m/n/10 
 $[]$\TU/lmr/m/n/10 . 
  []
 
-
-Overfull \hbox (45.6733pt too wide) in paragraph at lines 4469--4470
+[137]
+Overfull \hbox (45.6733pt too wide) in paragraph at lines 4670--4671
 []\TU/lmr/m/n/10 (002110) \TU/等线(0)/m/n/10 已 知 点 $\OML/cmm/m/it/10 A\OT1/cmr/m/
 n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0
 )$ \TU/等线(0)/m/n/10 与 点 $\OML/cmm/m/it/10 B\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ;
@@ -2524,7 +2564,7 @@ $ \TU/等线(0)/m/n/10 满 足 $\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 MA\OMS/cmsy/m
  []
 
 
-Overfull \hbox (2.39632pt too wide) in paragraph at lines 4470--4471
+Overfull \hbox (2.39632pt too wide) in paragraph at lines 4671--4672
 []\TU/lmr/m/n/10 (002111) \TU/等线(0)/m/n/10 平 面 上 到 点 $\OML/cmm/m/it/10 P\OT1/cm
 r/m/n/10 (2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)$ \TU/等线(0)/m/n/10 与 $\OML/cmm/
 m/it/10 Q\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2\OML/cmm/m/it/10
@@ -2533,8 +2573,8 @@ m/it/10 Q\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2\OML/cmm/m/it/10
 m/n/10 .(\TU/等线(0)/m/n/10 这
  []
 
-[134]
-Overfull \hbox (3.37286pt too wide) in paragraph at lines 4489--4490
+
+Overfull \hbox (3.37286pt too wide) in paragraph at lines 4690--4691
 []\TU/lmr/m/n/10 (002125) \TU/等线(0)/m/n/10 若 直 线 经 过 点 $\OT1/cmr/m/n/10 (2\OML/
 cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 3)$\TU/lmr/m/n/10 , \TU/等线(0)
 /m/n/10 且 平 行 于 向 量 $[] \OT1/cmr/m/n/10 = (3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 
@@ -2542,8 +2582,8 @@ cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 3)$\TU/lmr/m/n/10 , \TU/等线
 0 的 点 方 向 式 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
-[135] [136] [137]
-Overfull \hbox (8.57079pt too wide) in paragraph at lines 4568--4569
+[138] [139] [140]
+Overfull \hbox (8.57079pt too wide) in paragraph at lines 4769--4770
 []\TU/lmr/m/n/10 (002178) \TU/等线(0)/m/n/10 若 直 线 与 两 坐 标 轴 相 交\TU/lmr/m/n/10 , 
 \TU/等线(0)/m/n/10 且 被 两 轴 截 得 的 线 段 中 点 为 $\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; 
 \OT1/cmr/m/n/10 2)$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 此 直 线 的 方 程 为$[]$\TU/lmr
@@ -2551,7 +2591,7 @@ Overfull \hbox (8.57079pt too wide) in paragraph at lines 4568--4569
  []
 
 
-Overfull \hbox (8.18015pt too wide) in paragraph at lines 4571--4572
+Overfull \hbox (8.18015pt too wide) in paragraph at lines 4772--4773
 []\TU/lmr/m/n/10 (002180) \TU/等线(0)/m/n/10 直 线 $\OML/cmm/m/it/10 l$ \TU/等线(0)/m
 /n/10 与 直 线 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 ax \OT1/cmr/
 m/n/10 + \OML/cmm/m/it/10 b\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10
@@ -2560,8 +2600,8 @@ m/n/10 + \OML/cmm/m/it/10 b\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10
 OML/cmm/m/it/10 l$ \TU/等线(0)/m/n/10 的 方 程 是$[]$\TU/lmr/m/n/10 . 
  []
 
-[138] [139] [140]
-Overfull \hbox (2.0088pt too wide) in paragraph at lines 4634--4635
+[141] [142] [143]
+Overfull \hbox (2.0088pt too wide) in paragraph at lines 4835--4836
 []\TU/lmr/m/n/10 (002226) \TU/等线(0)/m/n/10 已 知 直 线 $\OML/cmm/m/it/10 l$ \TU/等线(
 0)/m/n/10 平 行 于 直 线 $\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y \O
 T1/cmr/m/n/10 + 2 = 0$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 这 两 条 直 线 之 间 的 距 离 为
@@ -2569,13 +2609,13 @@ T1/cmr/m/n/10 + 2 = 0$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 这 两 条 直 
  l$ \TU/等线(0)/m/n/10 的 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
-[141]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4668--4669
+[144] [145]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 4869--4870
 [][] 
  []
 
-[142]
-Overfull \hbox (31.98927pt too wide) in paragraph at lines 4685--4686
+
+Overfull \hbox (31.98927pt too wide) in paragraph at lines 4886--4887
 []\TU/lmr/m/n/10 (002264) \TU/等线(0)/m/n/10 圆 心 在 直 线 $\OT1/cmr/m/n/10 4\OML/cmm
 /m/it/10 x \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = 0$ \TU/等线(0)/
 m/n/10 上\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 与 直 线 $\OML/cmm/m/it/10 x \OT1/cmr/
@@ -2586,7 +2626,7 @@ n/10 .
  []
 
 
-Overfull \hbox (10.7918pt too wide) in paragraph at lines 4686--4687
+Overfull \hbox (10.7918pt too wide) in paragraph at lines 4887--4888
 []\TU/lmr/m/n/10 (002265) \TU/等线(0)/m/n/10 和 直 线 $\OML/cmm/m/it/10 x \OMS/cmsy/
 m/n/10 ^^@ \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 y \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/
 n/10 10 = 0$ \TU/等线(0)/m/n/10 相 切 于 点 $\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 (4\OML
@@ -2596,7 +2636,7 @@ mr/m/n/10 6)$ \TU/等线(0)/m/n/10 的 圆 的 一 般 方 程 为$[]$\TU/lmr/m/
  []
 
 
-Overfull \hbox (17.18224pt too wide) in paragraph at lines 4687--4688
+Overfull \hbox (17.18224pt too wide) in paragraph at lines 4888--4889
 []\TU/lmr/m/n/10 (002266) \TU/等线(0)/m/n/10 过 点 $\OT1/cmr/m/n/10 (2\OML/cmm/m/it
 /10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 
 圆 心 在 直 线 $\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + \OML/cmm/m/it/
@@ -2606,18 +2646,18 @@ n/10 ^^@ \OT1/cmr/m/n/10 1 = 0$ \TU/等线(0)/m/n/10 相 切 的 圆 的 方 程
 /10 . 
  []
 
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4691--4692
+[146]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 4892--4893
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4693--4694
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 4894--4895
 [][] 
  []
 
-[143]
-Overfull \hbox (25.52753pt too wide) in paragraph at lines 4706--4707
+
+Overfull \hbox (25.52753pt too wide) in paragraph at lines 4907--4908
 []\TU/lmr/m/n/10 (002280) \TU/等线(0)/m/n/10 两 圆 $\OML/cmm/m/it/10 x[] \OT1/cmr/m
 /n/10 + \OML/cmm/m/it/10 y[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 10\OML/cmm/m/
 it/10 x \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 10\OML/cmm/m/it/10 y \OT1/cmr/m/n/
@@ -2627,18 +2667,18 @@ t/10 y[] \OT1/cmr/m/n/10 + 6\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + 2\OML/cmm/m/it
  的 直 线 方 程 为$[]$\TU/lmr/m/n/10 ,
  []
 
-[144]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4724--4725
+[147]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 4925--4926
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4726--4727
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 4927--4928
 [][] 
  []
 
-[145] [146]
-Overfull \hbox (20.7261pt too wide) in paragraph at lines 4786--4788
+[148] [149]
+Overfull \hbox (20.7261pt too wide) in paragraph at lines 4987--4989
 []\TU/lmr/m/n/10 (002328) \TU/等线(0)/m/n/10 已 知 长 轴 长 与 短 轴 长 之 比 为 $\OT1/cmr/m/
 n/10 2 : 1$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 一 条 准 线 方 程 为 $\OML/cmm/m/it/10 x 
 \OT1/cmr/m/n/10 + 4 = 0$ \TU/等线(0)/m/n/10 的 椭 圆 的 标 准 方 程 为$[]$\TU/lmr/m/n/10 .
@@ -2646,15 +2686,15 @@ n/10 2 : 1$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 一 条 准 线 方 程 为 $\O
  []
 
 
-Overfull \hbox (68.21231pt too wide) in paragraph at lines 4788--4790
+Overfull \hbox (68.21231pt too wide) in paragraph at lines 4989--4991
 []\TU/lmr/m/n/10 (002329) \TU/等线(0)/m/n/10 以 直 线 $\OT1/cmr/m/n/10 3\OML/cmm/m/i
 t/10 x \OT1/cmr/m/n/10 + 4\OML/cmm/m/it/10 y \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/
 10 12 = 0$ \TU/等线(0)/m/n/10 和 两 轴 的 交 点 之 一 作 为 顶 点\TU/lmr/m/n/10 , \TU/等线(0)/m
 /n/10 另 一 交 点 作 为 焦 点 的 椭 圆 的 标 准 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
-[147] [148]
-Overfull \hbox (37.15343pt too wide) in paragraph at lines 4825--4826
+[150] [151]
+Overfull \hbox (37.15343pt too wide) in paragraph at lines 5026--5027
 []\TU/lmr/m/n/10 (002358) \TU/等线(0)/m/n/10 若 动 圆 过 定 点 $\OML/cmm/m/it/10 A\OT1/
 cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/
 n/10 0)$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 和 定 圆 $\OT1/cmr/m/n/10 (\OML/cmm/m/
@@ -2663,31 +2703,31 @@ mr/m/n/10 = 4$ \TU/等线(0)/m/n/10 外 切\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10
 $\OML/cmm/m/it/10 P$ \TU/等线(0)/m/n/10 的 轨 迹 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4843--4844
+[152]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 5044--5045
 [][] 
  []
 
-[149]
-Overfull \hbox (5.65648pt too wide) in paragraph at lines 4853--4854
+
+Overfull \hbox (5.65648pt too wide) in paragraph at lines 5054--5055
 []\TU/lmr/m/n/10 (002377) \TU/等线(0)/m/n/10 若 双 曲 线 的 虚 轴 长 为 $\OT1/cmr/m/n/10 6
 $\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 一 条 渐 近 线 的 方 程 为 $\OT1/cmr/m/n/10 3\OML/cmm
 /m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = 0$\TU/lmr/
 m/n/10 , \TU/等线(0)/m/n/10 则 此 双 曲 线 的 标 准 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
-[150]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4883--4884
+[153]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 5084--5085
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4885--4886
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 5086--5087
 [][] 
  []
 
-[151]
-Overfull \hbox (5.23521pt too wide) in paragraph at lines 4901--4902
+[154]
+Overfull \hbox (5.23521pt too wide) in paragraph at lines 5102--5103
 []\TU/lmr/m/n/10 (002407) \TU/等线(0)/m/n/10 抛 物 线 $\OML/cmm/m/it/10 y[] \OT1/cmr
 /m/n/10 = 16\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 上 的 一 点 $\OML/cmm/m/it/10 P$ \
 TU/等线(0)/m/n/10 到 $\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 轴 的 距 离 为 $\OT1/cmr/m/n
@@ -2697,7 +2737,7 @@ mm/m/it/10 PF\OMS/cmsy/m/n/10 j \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 .
  []
 
 
-Overfull \hbox (31.57059pt too wide) in paragraph at lines 4903--4904
+Overfull \hbox (31.57059pt too wide) in paragraph at lines 5104--5105
 []\TU/lmr/m/n/10 (002409) \TU/等线(0)/m/n/10 已 知 抛 物 线 的 顶 点 在 原 点\TU/lmr/m/n/10 
 , \TU/等线(0)/m/n/10 对 称 轴 与 坐 标 轴 重 合\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 过 点 $\O
 T1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr
@@ -2705,8 +2745,8 @@ T1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr
 /10 . 
  []
 
-[152]
-Overfull \hbox (29.87805pt too wide) in paragraph at lines 4919--4920
+[155]
+Overfull \hbox (29.87805pt too wide) in paragraph at lines 5120--5121
 []\TU/lmr/m/n/10 (002423) \TU/等线(0)/m/n/10 抛 物 线 $\OML/cmm/m/it/10 y[] \OT1/cmr
 /m/n/10 = 2\OML/cmm/m/it/10 px \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p > \OT1/cmr/m
 /n/10 0)$ \TU/等线(0)/m/n/10 的 弦 $\OML/cmm/m/it/10 PQ$ \TU/等线(0)/m/n/10 的 中 点 为 $
@@ -2715,23 +2755,23 @@ U/等线(0)/m/n/10 则 弦 $\OML/cmm/m/it/10 PQ$ \TU/等线(0)/m/n/10 所 在 �
 $[]$\TU/lmr/m/n/10 . 
  []
 
-[153] [154]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 4985--4986
+[156] [157]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 5186--5187
 [][] 
  []
 
-[155] [156]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 5031--5032
+[158] [159]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 5232--5233
+[][] 
+ []
+
+[160]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 5234--5235
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 5033--5034
-[][] 
- []
-
-
-Overfull \hbox (13.49991pt too wide) in paragraph at lines 5041--5042
+Overfull \hbox (13.49991pt too wide) in paragraph at lines 5242--5243
 []\TU/lmr/m/n/10 (002491) \TU/等线(0)/m/n/10 极 坐 标 系 下 方 程 为 $\OML/cmm/m/it/10 ^^
 Z[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ^^Z \OMS/cmsy/m/n/10
  ^^@ \OT1/cmr/m/n/10 6 = 0(\OML/cmm/m/it/10 ^^Z \OMS/cmsy/m/n/10 2 []\OT1/cmr/m
@@ -2739,8 +2779,8 @@ Z[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ^^Z \OMS/cmsy/m/n/10
 /等线(0)/m/n/10 要
  []
 
-[157]
-Overfull \hbox (13.49991pt too wide) in paragraph at lines 5052--5053
+
+Overfull \hbox (13.49991pt too wide) in paragraph at lines 5253--5254
 []\TU/lmr/m/n/10 (002501) \TU/等线(0)/m/n/10 极 坐 标 系 下 方 程 为 $\OML/cmm/m/it/10 ^^
 Z[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ^^Z \OMS/cmsy/m/n/10
  ^^@ \OT1/cmr/m/n/10 6 = 0(\OML/cmm/m/it/10 ^^Z \OMS/cmsy/m/n/10 2 []\OT1/cmr/m
@@ -2748,23 +2788,23 @@ Z[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ^^Z \OMS/cmsy/m/n/10
 /等线(0)/m/n/10 要
  []
 
-
-Overfull \hbox (15.93756pt too wide) in paragraph at lines 5057--5058
+[161]
+Overfull \hbox (15.93756pt too wide) in paragraph at lines 5258--5259
 []\TU/lmr/m/n/10 (002506) \TU/等线(0)/m/n/10 已 知 圆 锥 曲 线 的 极 坐 标 方 程 为 $\OML/cmm/
 m/it/10 ^^Z \OT1/cmr/m/n/10 = []$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 那 么 它 的 焦 点 
 到 与 之 不 对 应 的 准 线 的 距 离 为$[]$\TU/lmr/m/n/10 . 
  []
 
-[158]
-Overfull \hbox (53.88655pt too wide) in paragraph at lines 5075--5076
+[162]
+Overfull \hbox (53.88655pt too wide) in paragraph at lines 5276--5277
 []\TU/lmr/m/n/10 (002520) \TU/等线(0)/m/n/10 三 位 同 学 分 别 从 \TU/lmr/m/n/10 “\TU/等线
 (0)/m/n/10 物 理 拓 展\TU/lmr/m/n/10 ” \TU/等线(0)/m/n/10 和 \TU/lmr/m/n/10 “\TU/等线(0)
 /m/n/10 化 学 拓 展\TU/lmr/m/n/10 ” \TU/等线(0)/m/n/10 这 两 门 课 程 中 选 修 一 门 或 两 门 课 程\
 TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 不 同 的 选 法 有$[]$
  []
 
-[159]
-Overfull \hbox (22.7887pt too wide) in paragraph at lines 5093--5094
+
+Overfull \hbox (22.7887pt too wide) in paragraph at lines 5294--5295
 []\TU/lmr/m/n/10 (002538) \TU/等线(0)/m/n/10 在 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10
  ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1
 /cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/
@@ -2772,8 +2812,8 @@ n/10 5$ \TU/等线(0)/m/n/10 这 六 个 数 字 组 成 的 数 字 不 重 复
 U/等线(0)/m/n/10 个 位 数 字 小 于 十 位 数 字 的 有$[]$
  []
 
-
-Overfull \hbox (22.8926pt too wide) in paragraph at lines 5098--5099
+[163]
+Overfull \hbox (22.8926pt too wide) in paragraph at lines 5299--5300
 []\TU/lmr/m/n/10 (002543) \TU/等线(0)/m/n/10 将 $\OT1/cmr/m/n/10 9$ \TU/等线(0)/m/n/
 10 人 排 成 $\OT1/cmr/m/n/10 3$ \TU/等线(0)/m/n/10 排\TU/lmr/m/n/10 , \TU/等线(0)/m/n/1
 0 每 排 $\OT1/cmr/m/n/10 3$ \TU/等线(0)/m/n/10 人\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 要
@@ -2781,8 +2821,8 @@ Overfull \hbox (22.8926pt too wide) in paragraph at lines 5098--5099
 /等线(0)/m/n/10 则 所 有 的 不 同 排 法 数 为$[]$\TU/lmr/m/n/10 . 
  []
 
-[160]
-Overfull \hbox (19.55264pt too wide) in paragraph at lines 5108--5109
+
+Overfull \hbox (19.55264pt too wide) in paragraph at lines 5309--5310
 []\TU/lmr/m/n/10 (002553)$\OT1/cmr/m/n/10 10$ \TU/等线(0)/m/n/10 个 人 分 乘 $\OT1/cm
 r/m/n/10 3$ \TU/等线(0)/m/n/10 辆 汽 车\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 要 求 甲 车 坐 $
 \OT1/cmr/m/n/10 5$ \TU/等线(0)/m/n/10 人\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 乙 车 坐 $\
@@ -2792,23 +2832,23 @@ T1/cmr/m/n/10 2$ \TU/等线(0)/m/n/10 人\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 �
  []
 
 
-Overfull \hbox (45.45058pt too wide) in paragraph at lines 5110--5111
+Overfull \hbox (45.45058pt too wide) in paragraph at lines 5311--5312
 []\TU/lmr/m/n/10 (002555) \TU/等线(0)/m/n/10 高 三 年 级 共 有 $\OT1/cmr/m/n/10 8$ \TU/
 等线(0)/m/n/10 个 班\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 分 派 $\OT1/cmr/m/n/10 4$ \TU/等
 线(0)/m/n/10 个 数 学 教 师 任 教\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 每 个 教 师 都 教 两 个 班\TU
 /lmr/m/n/10 , \TU/等线(0)/m/n/10 则 不 同 的 分 派 方 式 共 有$[]$
  []
 
-
-Overfull \hbox (27.78658pt too wide) in paragraph at lines 5115--5116
+[164]
+Overfull \hbox (27.78658pt too wide) in paragraph at lines 5316--5317
 []\TU/lmr/m/n/10 (002560) \TU/等线(0)/m/n/10 一 组 $\OT1/cmr/m/n/10 6$ \TU/等线(0)/m/
 n/10 条 平 行 线 与 另 一 组 $\OT1/cmr/m/n/10 3$ \TU/等线(0)/m/n/10 条 平 行 线 互 相 垂 直\TU/lm
 r/m/n/10 , \TU/等线(0)/m/n/10 则 由 它 们 中 的 四 条 围 成 的 矩 形 的 个 数 为$[]$\TU/lmr/m/n/10
  . 
  []
 
-[161]
-Overfull \hbox (40.94214pt too wide) in paragraph at lines 5134--5135
+
+Overfull \hbox (40.94214pt too wide) in paragraph at lines 5335--5336
 []\TU/lmr/m/n/10 (002578) \TU/等线(0)/m/n/10 已 知 平 面 上 的 九 个 点 $\OMS/cmsy/m/n/10 
 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 jj\OML
 /cmm/m/it/10 x\OMS/cmsy/m/n/10 j ^^T \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OMS/c
@@ -2817,8 +2857,8 @@ m/it/10 ; x; y \OMS/cmsy/m/n/10 2 []g$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 以 
  中 的 三 个 作 为 顶 点\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 能 构 成$[]$
  []
 
-
-Overfull \hbox (35.22859pt too wide) in paragraph at lines 5135--5136
+[165]
+Overfull \hbox (35.22859pt too wide) in paragraph at lines 5336--5337
 []\TU/lmr/m/n/10 (002579) \TU/等线(0)/m/n/10 平 面 内 共 有 $\OT1/cmr/m/n/10 17$ \TU/等
 线(0)/m/n/10 个 点\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 其 中 有 且 仅 有 $\OT1/cmr/m/n/10 5
 $ \TU/等线(0)/m/n/10 个 点 共 线\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 以 这 些 点 中 的 三 个 点 为
@@ -2826,38 +2866,38 @@ $ \TU/等线(0)/m/n/10 个 点 共 线\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 以 
  []
 
 
-Overfull \hbox (3.34412pt too wide) in paragraph at lines 5143--5144
+Overfull \hbox (3.34412pt too wide) in paragraph at lines 5344--5345
 []\TU/lmr/m/n/10 (002587) \TU/等线(0)/m/n/10 在 由 $\OT1/cmr/m/n/10 1\OML/cmm/m/it/
 10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; []
   ; \OT1/cmr/m/n/10 9$ \TU/等线(0)/m/n/10 这 九 个 数 字 组 成 的 数 字 不 重 复 的 五 位 数 中\TU/
 lmr/m/n/10 , \TU/等线(0)/m/n/10 奇 数 位 上 一 定 是 奇 数 的 共 有$[]$
  []
 
-[162]
-Overfull \hbox (23.34412pt too wide) in paragraph at lines 5144--5145
+
+Overfull \hbox (23.34412pt too wide) in paragraph at lines 5345--5346
 []\TU/lmr/m/n/10 (002588) \TU/等线(0)/m/n/10 在 由 $\OT1/cmr/m/n/10 1\OML/cmm/m/it/
 10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; []
   ; \OT1/cmr/m/n/10 9$ \TU/等线(0)/m/n/10 这 九 个 数 字 组 成 的 数 字 不 重 复 的 五 位 数 中\TU/
 lmr/m/n/10 , \TU/等线(0)/m/n/10 奇 数 数 字 一 定 在 奇 数 位 上 的 共 有$[]$
  []
 
-
-Overfull \hbox (0.78856pt too wide) in paragraph at lines 5155--5156
+[166]
+Overfull \hbox (0.78856pt too wide) in paragraph at lines 5356--5357
 []\TU/lmr/m/n/10 (002599) \TU/等线(0)/m/n/10 将 $\OT1/cmr/m/n/10 6$ \TU/等线(0)/m/n/
 10 件 不 同 的 产 品 分 别 装 入 两 个 相 同 的 口 袋 里\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 要 求 每 袋
  至 少 有 一 件\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 不 同 的 装 法 共 有$[]$
  []
 
 
-Overfull \hbox (25.7886pt too wide) in paragraph at lines 5158--5159
+Overfull \hbox (25.7886pt too wide) in paragraph at lines 5359--5360
 []\TU/lmr/m/n/10 (002602)$\OT1/cmr/m/n/10 5$ \TU/等线(0)/m/n/10 名 运 动 员 参 加 $\OT1
 /cmr/m/n/10 100$ \TU/等线(0)/m/n/10 米 决 赛\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 满 足 每 
 个 人 所 花 时 间 都 不 相 同\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 甲 比 乙 先 到 终 点 的 最 终 排 名 
 共 有$[]$
  []
 
-[163]
-Overfull \hbox (3.34427pt too wide) in paragraph at lines 5160--5161
+
+Overfull \hbox (3.34427pt too wide) in paragraph at lines 5361--5362
 []\TU/lmr/m/n/10 (002604) \TU/等线(0)/m/n/10 取 $\OT1/cmr/m/n/10 1\OML/cmm/m/it/10
  ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1
 /cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 5$ \TU/等线(0)/m/n/10 这 五 个 数 字 中
@@ -2866,7 +2906,7 @@ Overfull \hbox (3.34427pt too wide) in paragraph at lines 5160--5161
  []
 
 
-Overfull \hbox (3.01332pt too wide) in paragraph at lines 5168--5169
+Overfull \hbox (3.01332pt too wide) in paragraph at lines 5369--5370
 []\TU/lmr/m/n/10 (002611)$\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 
 ^^@ \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )[]$ \TU/等线(0)/m/n/10 的 
 展 开 式 中\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 第 $\OT1/cmr/m/n/10 4$ \TU/等线(0)/m/n/10
@@ -2874,8 +2914,8 @@ Overfull \hbox (3.01332pt too wide) in paragraph at lines 5168--5169
 /等线(0)/m/n/10 项 的 系 数 为$[]$\TU/lmr/m/n/10 . 
  []
 
-[164] [165]
-Overfull \hbox (35.99706pt too wide) in paragraph at lines 5215--5216
+[167] [168]
+Overfull \hbox (35.99706pt too wide) in paragraph at lines 5416--5417
 []\TU/lmr/m/n/10 (002640) \TU/等线(0)/m/n/10 袋 中 有 $\OT1/cmr/m/n/10 10$ \TU/等线(0)
 /m/n/10 个 球\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 记 有 号 码 $\OT1/cmr/m/n/10 0\OML/cmm
 /m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/1
@@ -2887,7 +2927,7 @@ Overfull \hbox (35.99706pt too wide) in paragraph at lines 5215--5216
  []
 
 
-Overfull \hbox (6.55704pt too wide) in paragraph at lines 5216--5217
+Overfull \hbox (6.55704pt too wide) in paragraph at lines 5417--5418
 []\TU/lmr/m/n/10 (002641) \TU/等线(0)/m/n/10 袋 中 有 $\OT1/cmr/m/n/10 10$ \TU/等线(0)
 /m/n/10 个 球\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 记 有 号 码 $\OT1/cmr/m/n/10 0\OML/cmm
 /m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/1
@@ -2897,46 +2937,46 @@ Overfull \hbox (6.55704pt too wide) in paragraph at lines 5216--5217
 /10 3$ \TU/等线(0)/m/n/10 的 概 率 为$[]$\TU/lmr/m/n/10 . 
  []
 
-[166]
-Overfull \hbox (6.15779pt too wide) in paragraph at lines 5233--5234
+[169]
+Overfull \hbox (6.15779pt too wide) in paragraph at lines 5434--5435
 \TU/等线(0)/m/n/10 某 段 时 间 内 每 个 电 子 元 件 损 坏 的 概 率 都 是 $\OML/cmm/m/it/10 p$\TU/lm
 r/m/n/10 , \TU/等线(0)/m/n/10 则 在 这 段 时 间 内 这 个 仪 表 能 正 常 工 作 的 概 率 为$[]$\TU/lmr/
 m/n/10 . 
  []
 
 
-Overfull \hbox (19.35054pt too wide) in paragraph at lines 5237--5238
+Overfull \hbox (19.35054pt too wide) in paragraph at lines 5438--5439
 []\TU/lmr/m/n/10 (002662) \TU/等线(0)/m/n/10 四 名 学 生\TU/lmr/m/n/10 , \TU/等线(0)/m/
 n/10 每 人 写 一 张 贺 卡\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 集 中 后 每 人 抽 取 一 张\TU/lmr/m/
 n/10 , \TU/等线(0)/m/n/10 每 人 都 拿 到 别 人 写 的 贺 卡 的 概 率 是$[]$\TU/lmr/m/n/10 . 
  []
 
-[167]
-Overfull \hbox (9.77158pt too wide) in paragraph at lines 5270--5277
+[170] [171]
+Overfull \hbox (9.77158pt too wide) in paragraph at lines 5471--5478
  [] 
  []
 
-[168] [169] [170]
+[172] [173]
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 
-Overfull \hbox (14.4466pt too wide) in paragraph at lines 5353--5354
+Overfull \hbox (14.4466pt too wide) in paragraph at lines 5554--5555
 []\TU/lmr/m/n/10 (000351) \TU/等线(0)/m/n/10 甲、|  乙 两 人 从 $\OT1/cmr/m/n/10 5$ \TU
 /等线(0)/m/n/10 门 不 同 的 选 修 课 中 各 选 修 $\OT1/cmr/m/n/10 2$ \TU/等线(0)/m/n/10 门\TU/l
 mr/m/n/10 , \TU/等线(0)/m/n/10 则 甲、|  乙 所 选 的 课 程 中 恰 有 $\OT1/cmr/m/n/10 1$ \TU/等
 线(0)/m/n/10 门 相 同 的 选 法 有$[]$
  []
 
-[171] [172]
-Overfull \hbox (13.56854pt too wide) in paragraph at lines 5406--5407
+[174] [175] [176]
+Overfull \hbox (13.56854pt too wide) in paragraph at lines 5607--5608
 []\TU/lmr/m/n/10 (000383) \TU/等线(0)/m/n/10 已 知 一 个 底 面 置 于 水 平 面 上 的 圆 锥\TU/lmr
 /m/n/10 , \TU/等线(0)/m/n/10 其 左 视 图 是 边 长 为 \TU/lmr/m/n/10 6 \TU/等线(0)/m/n/10 的 
 正 三 角 形\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 该 圆 锥 的 侧 面 积 为$[]$\TU/lmr/m/n/10 . 
 
  []
 
-[173]
-Overfull \hbox (1.28766pt too wide) in paragraph at lines 5439--5440
+[177]
+Overfull \hbox (1.28766pt too wide) in paragraph at lines 5640--5641
 []\TU/lmr/m/n/10 (000404) \TU/等线(0)/m/n/10 将 边 长 为 $\OT1/cmr/m/n/10 10$ \TU/等线(
 0)/m/n/10 的 正 三 角 形 $\OML/cmm/m/it/10 ABC$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 按 \
 TU/lmr/m/n/10 “\TU/等线(0)/m/n/10 斜 二 测\TU/lmr/m/n/10 ” \TU/等线(0)/m/n/10 画 法 在 水 
@@ -2944,14 +2984,14 @@ TU/lmr/m/n/10 “\TU/等线(0)/m/n/10 斜 二 测\TU/lmr/m/n/10 ” \TU/等线(0
 0 , \TU/等线(0)/m/n/10 则 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 A[]B[]C[]$
  []
 
-[174] [175]
-Overfull \hbox (2.60689pt too wide) in paragraph at lines 5483--5484
+[178]
+Overfull \hbox (2.60689pt too wide) in paragraph at lines 5684--5685
 []\TU/lmr/m/n/10 (000429) \TU/等线(0)/m/n/10 已 知 二 元 一 次 方 程 $[]$ 的 增 广 矩 阵 是 $[]
 $\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 此 方 程 组 的 解 是$[]$\TU/lmr/m/n/10 . 
  []
 
-[176]
-Overfull \hbox (6.11581pt too wide) in paragraph at lines 5504--5505
+[179]
+Overfull \hbox (6.11581pt too wide) in paragraph at lines 5705--5706
 []\TU/lmr/m/n/10 (000450) \TU/等线(0)/m/n/10 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/
 10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = 2[] + \OML/cmm/m/it/10 m$ \TU/等线(0)/m
 /n/10 的 反 函 数 为 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 f[]\OT1/
@@ -2963,24 +3003,24 @@ TU/等线(0)/m/n/10 那 么 $\OML/cmm/m/it/10 m \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/
 
  []
 
-[177] [178]
-Overfull \hbox (27.58098pt too wide) in paragraph at lines 5554--5555
+[180] [181] [182]
+Overfull \hbox (27.58098pt too wide) in paragraph at lines 5755--5756
 []\TU/lmr/m/n/10 (000500) \TU/等线(0)/m/n/10 某 圆 锥 体 的 底 面 圆 的 半 径 长 为 $[]$\TU/lm
 r/m/n/10 , \TU/等线(0)/m/n/10 其 侧 面 展 开 图 是 圆 心 角 为 $[]\OML/cmm/m/it/10 ^^Y$ \TU/
 等线(0)/m/n/10 的 扇 形\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 该 圆 锥 体 的 体 积 是$[]$\TU/lm
 r/m/n/10 . 
  []
 
-[179] [180] [181] [182] [183] [184]
-Overfull \hbox (10.39607pt too wide) in paragraph at lines 5667--5668
+[183] [184] [185] [186] [187]
+Overfull \hbox (10.39607pt too wide) in paragraph at lines 5868--5869
 []\TU/lmr/m/n/10 (000593) \TU/等线(0)/m/n/10 若 $\OT1/cmr/m/n/10 (2\OML/cmm/m/it/1
 0 x \OT1/cmr/m/n/10 + [])[]$ \TU/等线(0)/m/n/10 的 二 项 展 开 式 中 的 所 有 二 项 式 系 数 之 和
  等 于 $\OT1/cmr/m/n/10 256$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 该 展 开 式 中 常 数 项 的
  值 为$[]$\TU/lmr/m/n/10 . 
  []
 
-[185]
-Overfull \hbox (21.3375pt too wide) in paragraph at lines 5685--5686
+[188]
+Overfull \hbox (21.3375pt too wide) in paragraph at lines 5886--5887
 []\TU/lmr/m/n/10 (000611) \TU/等线(0)/m/n/10 若 从 一 副 $\OT1/cmr/m/n/10 52$ \TU/等线(
 0)/m/n/10 张 的 扑 克 牌 中 随 机 抽 取 $\OT1/cmr/m/n/10 2$ \TU/等线(0)/m/n/10 张\TU/lmr/m/n
 /10 , \TU/等线(0)/m/n/10 则 在 放 回 抽 取 的 情 形 下\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 两 张
@@ -2988,16 +3028,16 @@ Overfull \hbox (21.3375pt too wide) in paragraph at lines 5685--5686
 /n/10 结
  []
 
-[186] [187] [188] [189]
-Overfull \hbox (8.05255pt too wide) in paragraph at lines 5806--5807
+[189] [190] [191] [192] [193]
+Overfull \hbox (8.05255pt too wide) in paragraph at lines 6007--6008
 []\TU/lmr/m/n/10 (000682) \TU/等线(0)/m/n/10 直 线 $[]$\TU/lmr/m/n/10 ($\OML/cmm/m/
 it/10 t$ \TU/等线(0)/m/n/10 为 参 数\TU/lmr/m/n/10 ) \TU/等线(0)/m/n/10 与 曲 线 $[]$\TU/
 lmr/m/n/10 ($\OML/cmm/m/it/10 ^^R$ \TU/等线(0)/m/n/10 为 参 数\TU/lmr/m/n/10 ) \TU/等
 线(0)/m/n/10 的 公 共 点 的 个 数 是$[]$\TU/lmr/m/n/10 . 
  []
 
-[190] [191] [192]
-Overfull \hbox (2.24854pt too wide) in paragraph at lines 5854--5855
+[194] [195]
+Overfull \hbox (2.24854pt too wide) in paragraph at lines 6055--6056
 []\TU/lmr/m/n/10 (000730) \TU/等线(0)/m/n/10 已 知 在 $\OMS/cmsy/m/n/10 4\OML/cmm/m/
 it/10 ABC$ \TU/等线(0)/m/n/10 中\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 a$\TU/lmr/m/n/1
 0 , $\OML/cmm/m/it/10 b$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 c$ \TU/等线(0)/m/n/10 
@@ -3009,8 +3049,8 @@ r/m/n/10 = []\OML/cmm/m/it/10 bc$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $\U/m
 n/10 \\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
-[193]
-Overfull \hbox (35.20175pt too wide) in paragraph at lines 5873--5874
+[196]
+Overfull \hbox (35.20175pt too wide) in paragraph at lines 6074--6075
 []\TU/lmr/m/n/10 (000749) \TU/等线(0)/m/n/10 长 方 体 的 对 角 线 与 过 同 一 个 顶 点 的 三 个 表 
 面 所 成 的 角 分 别 为 $\OML/cmm/m/it/10 ^^K$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 ^^L$\T
 U/lmr/m/n/10 , $\OML/cmm/m/it/10 ^^M$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $[][] 
@@ -3018,8 +3058,8 @@ U/lmr/m/n/10 , $\OML/cmm/m/it/10 ^^M$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $
 0 + [][] \OML/cmm/m/it/10 ^^M \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
-[194] [195]
-Overfull \hbox (23.60175pt too wide) in paragraph at lines 5911--5912
+[197] [198]
+Overfull \hbox (23.60175pt too wide) in paragraph at lines 6112--6113
 []\TU/lmr/m/n/10 (000776) \TU/等线(0)/m/n/10 已 知 集 合 $\OML/cmm/m/it/10 A \OT1/cmr
 /m/n/10 = \OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10
  3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7\OML/
@@ -3032,7 +3072,7 @@ mr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/
  []
 
 
-Overfull \hbox (5.98141pt too wide) in paragraph at lines 5926--5927
+Overfull \hbox (5.98141pt too wide) in paragraph at lines 6127--6128
 []\TU/lmr/m/n/10 (000779) \TU/等线(0)/m/n/10 在 从 $\OT1/cmr/m/n/10 4$ \TU/等线(0)/m/
 n/10 个 字 母 $\OML/cmm/m/it/10 a$\TU/等线(0)/m/n/10 、| $\OML/cmm/m/it/10 b$\TU/等线(0
 )/m/n/10 、| $\OML/cmm/m/it/10 c$\TU/等线(0)/m/n/10 、| $\OML/cmm/m/it/10 d$ \TU/等线
@@ -3041,8 +3081,8 @@ lmr/m/n/10 , \TU/等线(0)/m/n/10 其 中 含 有 字 母 $\OML/cmm/m/it/10 d$ \
  事 件 的 概 率 是$[]$\TU/lmr/m/n/10 . 
  []
 
-[196]
-Overfull \hbox (17.10661pt too wide) in paragraph at lines 5972--5973
+[199]
+Overfull \hbox (17.10661pt too wide) in paragraph at lines 6173--6174
 []\TU/lmr/m/n/10 (000791) \TU/等线(0)/m/n/10 已 知 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/
 m/it/10 a[]\OMS/cmsy/m/n/10 g$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 其 通 项 公 式 为 $\O
 ML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = 3\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 + 1$\T
@@ -3052,8 +3092,8 @@ OML/cmm/m/it/10 n$ \TU/等线(0)/m/n/10 项 和 为 $\OML/cmm/m/it/10 S[]$\TU/lm
 , \TU/等线(0)/m/n/10 则 $[] [] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
-[197] [198]
-Overfull \hbox (19.96483pt too wide) in paragraph at lines 5995--5996
+[200] [201]
+Overfull \hbox (19.96483pt too wide) in paragraph at lines 6196--6197
 []\TU/lmr/m/n/10 (000814) \TU/等线(0)/m/n/10 设 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/
 n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = [][] \OML/cmm/m/it/10 x$\TU/lmr/m/n
 /10 ($\OML/cmm/m/it/10 m > \OT1/cmr/m/n/10 0$ \TU/等线(0)/m/n/10 且 $\OML/cmm/m/it
@@ -3065,8 +3105,8 @@ n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = [][] \OML/cmm/m/it/10 x$\TU/lmr/m/n
 /cmr/m/n/10 ) =
  []
 
-[199] [200] [201]
-Overfull \hbox (4.45384pt too wide) in paragraph at lines 6125--6126
+[202] [203] [204]
+Overfull \hbox (4.45384pt too wide) in paragraph at lines 6326--6327
 []\TU/lmr/m/n/10 (000856) \TU/等线(0)/m/n/10 已 知 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/
 m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 的 通 项 公 式 为 $\OML/cmm/m/it/10 a
 [] \OT1/cmr/m/n/10 = [][] \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 n \OT1/cmr/m/n/
@@ -3076,22 +3116,22 @@ m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 的 通 项 公 式 为 $\OM
  []
 
 
-Overfull \hbox (34.57523pt too wide) in paragraph at lines 6134--6135
+Overfull \hbox (34.57523pt too wide) in paragraph at lines 6335--6336
 []\TU/lmr/m/n/10 (000865) \TU/等线(0)/m/n/10 曲 线 $[]$\TU/lmr/m/n/10 ($\OML/cmm/m/
 it/10 t$ \TU/等线(0)/m/n/10 为 参 数\TU/lmr/m/n/10 ) \TU/等线(0)/m/n/10 与 曲 线 $[]$\TU/
 lmr/m/n/10 ($\OML/cmm/m/it/10 ^^R$ \TU/等线(0)/m/n/10 为 参 数\TU/lmr/m/n/10 ) \TU/等
 线(0)/m/n/10 的 公 共 点 的 坐 标 为$[]$\TU/lmr/m/n/10 . 
  []
 
-
-Overfull \hbox (7.4716pt too wide) in paragraph at lines 6138--6139
+[205]
+Overfull \hbox (7.4716pt too wide) in paragraph at lines 6339--6340
 []\TU/lmr/m/n/10 (000869) \TU/等线(0)/m/n/10 已 知 线 性 方 程 组 的 增 广 矩 阵 为 $[]$\TU/lm
 r/m/n/10 , \TU/等线(0)/m/n/10 若 该 线 性 方 程 组 的 解 为 $[]$\TU/lmr/m/n/10 , \TU/等线(0)/
 m/n/10 则 实 数 $\OML/cmm/m/it/10 a \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
-[202]
-Overfull \hbox (3.49709pt too wide) in paragraph at lines 6144--6145
+
+Overfull \hbox (3.49709pt too wide) in paragraph at lines 6345--6346
 []\TU/lmr/m/n/10 (000875) \TU/等线(0)/m/n/10 已 知 等 比 数 列 $\OMS/cmsy/m/n/10 f\OML/
 cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 的 各 项 均 为 正 数\TU/lmr/m/n/10
  , \TU/等线(0)/m/n/10 且 满 足\TU/lmr/m/n/10 :$\OML/cmm/m/it/10 a[]a[] \OT1/cmr/m/n/
@@ -3100,25 +3140,25 @@ cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 的 各 项 均 为 正 
 (0)/m/n/10 项 之 和 为$[]$\TU/lmr/m/n/10 . 
  []
 
-[203]
-Overfull \hbox (14.38284pt too wide) in paragraph at lines 6175--6176
+[206] [207]
+Overfull \hbox (14.38284pt too wide) in paragraph at lines 6376--6377
 []\TU/lmr/m/n/10 (000905) \TU/等线(0)/m/n/10 若 行 列 式 $[]$ 中 的 元 素 $\OT1/cmr/m/n/1
 0 4$ \TU/等线(0)/m/n/10 的 代 数 余 子 式 的 值 等 于 $[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10
  则 实 数 $\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 的 取 值 集 合 为$[]$\TU/lmr/m/n/10 . 
  []
 
 
-Overfull \hbox (0.9494pt too wide) in paragraph at lines 6176--6177
+Overfull \hbox (0.9494pt too wide) in paragraph at lines 6377--6378
 []\TU/lmr/m/n/10 (000906) \TU/等线(0)/m/n/10 若 二 项 式 $\OT1/cmr/m/n/10 (2\OML/cmm/
 m/it/10 x \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 )[]$ \TU/等线(0)/m/n/10 展 开 式 中 
 的 第 $\OT1/cmr/m/n/10 5$ \TU/等线(0)/m/n/10 项 为 常 数 项\TU/lmr/m/n/10 , \TU/等线(0)/m/
 n/10 则 展 开 式 中 各 项 的 二 项 式 系 数 之 和 为$[]$\TU/lmr/m/n/10 . 
  []
 
-[204] [205] [206]
+[208] [209]
 Missing character: There is no ; ("3B) in font nullfont!
- [207]
-Overfull \hbox (16.43243pt too wide) in paragraph at lines 6272--6273
+ [210]
+Overfull \hbox (16.43243pt too wide) in paragraph at lines 6473--6474
 []\TU/lmr/m/n/10 (000961) \TU/等线(0)/m/n/10 已 知 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/
 m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = 2[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm
 /m/it/10 a \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 2[]$ \TU/等线(0)/m/n/10 的 反 函 数 是
@@ -3128,8 +3168,8 @@ lmr/m/n/10 , $\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m
 正 实 数 $\OML/cmm/m/it/10 a \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
-
-Overfull \hbox (5.34625pt too wide) in paragraph at lines 6287--6288
+[211]
+Overfull \hbox (5.34625pt too wide) in paragraph at lines 6488--6489
 []\TU/lmr/m/n/10 (000966) \TU/等线(0)/m/n/10 已 知 无 穷 等 比 数 列 $\OMS/cmsy/m/n/10 f\
 OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 的 首 项 $\OML/cmm/m/it/10
  a[] \OT1/cmr/m/n/10 = 18$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 公 比 $\OML/cmm/m/it/
@@ -3138,14 +3178,14 @@ OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 的 首 项 $\OML/cm
 线(0)/m/n/10 各 项 的 和 是$[]$\TU/lmr/m/n/10 . 
  []
 
-[208]) [209] (./to_compile.aux (./problems_file.aux)) ) 
+) [212] [213] (./to_compile.aux (./problems_file.aux)) ) 
 Here is how much of TeX's memory you used:
- 23208 strings out of 476919
- 518160 string characters out of 5825424
- 955675 words of memory out of 5000000
- 42785 multiletter control sequences out of 15000+600000
+ 23495 strings out of 476919
+ 523817 string characters out of 5825424
+ 933696 words of memory out of 5000000
+ 43072 multiletter control sequences out of 15000+600000
  406151 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,22n,104p,936b,906s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on to_compile.pdf (209 pages).
+Output written on to_compile.pdf (213 pages).
