@@ -24966,8 +24966,18 @@ $AB$和$CD$都垂直于平面$\alpha$, $B,D$分别是垂足, 若$AB=4$, $CD=8$, 
 <B题目>
 正方体$ABCD-A'B'C'D'$中, 求证:\\ 
 (1) $D'B\perp AC$;\\ 
-(2) $D'B\perp$平面$AB'C$.\\ 
-(图待重画){pngs/sem2-116.png}
+(2) $D'B\perp$平面$AB'C$. 
+\begin{center}
+\begin{tikzpicture}
+    \draw (0,0) node [below left] {$A$} coordinate (A) --++ (3,0) node [below right] {$B$} coordinate (B) --++ (45:{3/2}) node [right] {$C$} coordinate (C)
+    --++ (0,3) node [above right] {$C'$} coordinate (C1)
+    --++ (-3,0) node [above left] {$D'$} coordinate (D1) --++ (225:{3/2}) node [left] {$A'$} coordinate (A1) -- cycle;
+    \draw (A) ++ (3,3) node [right] {$B'$} coordinate (B1) -- (B) (B1) --++ (45:{3/2}) (B1) --++ (-3,0);
+    \draw [dashed] (A) --++ (45:{3/2}) node [left] {$D$} coordinate (D) --++ (3,0) (D) --++ (0,3);
+    \draw (A) -- (B1) -- (C);
+    \draw [dashed] (A) -- (C) (B) -- (D1);
+\end{tikzpicture}
+\end{center}
 <E题目>
 <B目标>
 
@@ -25280,8 +25290,13 @@ $\triangle ABC$中, $AB=6$, $AC=8$, $BC=10$, $P$为平面$ABC$外一点, 且$PA=
 <B题目>
 已知如图, 四面体$ABCD$中, $AB=AC=DB=DC=2$, $AD=BC=1$.\\ 
 (1) 求证: $AD\perp BC$;\\ 
-(2) 求点$A$到面$BCD$的距离.\\ 
-(图待重画){pngs/sem2-ex2107.png}
+(2) 求点$A$到面$BCD$的距离.
+\begin{center}
+\begin{tikzpicture}
+    \draw (0,0) node [left] {$B$} -- (1,-0.6) node [below] {$C$} -- (2.7,0.3) node [right] {$D$} -- (2,1.5) node [above] {$A$} -- cycle (1,-0.6) -- (2,1.5);
+    \draw [dashed] (0,0) -- (2.7,0.3);
+\end{tikzpicture}
+\end{center}
 <E题目>
 <B目标>
 
@@ -34555,7 +34570,11 @@ $100$以内能被$7$整除的所有正整数的和为\blank{50}.
 <B题目>
 如图, 在$2\times 4$的矩形中, 起点和终点都在小方格顶点且模与$|\overrightarrow{AB}|$相等的向量共有\blank{40}个(包括$\overrightarrow{AB}$本身).
 \begin{center}
-(图待重画){pngs/sem3-ex1.png}
+\begin{tikzpicture}[>=latex]
+    \foreach \i in {0,1,2,3,4} {\draw (\i,0) -- (\i,2);};
+    \foreach \i in {0,1,2} {\draw (0,\i) -- (4,\i);};
+    \draw [->] (0,0) node [below left] {$A$} -- (1,2) node [above] {$B$};
+\end{tikzpicture}
 \end{center}
 <E题目>
 <B目标>
@@ -44591,10 +44610,30 @@ $8$的立方根为\blank{100}, $1$的四次方根为\blank{50}.
 002119
 <EID>
 <B题目>
-在坐标系中分别画出下列曲线的大致图像. (1) $x=-\sqrt{y^2}$; (2) $x^2+2xy-3y^2=0$; (3) $x^2+|y|=4$.\\ 
-(图待重画){pngs/coordinates03.png}
-(图待重画){pngs/coordinates03.png}
-(图待重画){pngs/coordinates03.png}
+在坐标系中分别画出下列曲线的大致图像. (1) $x=-\sqrt{y^2}$; (2) $x^2+2xy-3y^2=0$; (3) $x^2+|y|=4$.
+\begin{center}
+\begin{tikzpicture}[>=latex]
+    \foreach \i in {-2,-1,...,2} {\draw [dashed, gray!90] (\i,-2) -- (\i,2) (-2,\i) -- (2,\i);};
+    \draw [->] (-2,0) -- (2,0) node [below] {$x$};
+    \draw [->] (0,-2) -- (0,2) node [left] {$y$};
+    \draw (1,0) node [below] {$2$} (0,1) node [left] {$2$};
+    \draw (0,0) node [below left] {$O$}; 
+\end{tikzpicture}
+\begin{tikzpicture}[>=latex]
+    \foreach \i in {-2,-1,...,2} {\draw [dashed, gray!90] (\i,-2) -- (\i,2) (-2,\i) -- (2,\i);};
+    \draw [->] (-2,0) -- (2,0) node [below] {$x$};
+    \draw [->] (0,-2) -- (0,2) node [left] {$y$};
+    \draw (0,0) node [below left] {$O$};
+    \draw (1,0) node [below] {$2$} (0,1) node [left] {$2$};
+\end{tikzpicture}
+\begin{tikzpicture}[>=latex]
+    \foreach \i in {-2,-1,...,2} {\draw [dashed, gray!90] (\i,-2) -- (\i,2) (-2,\i) -- (2,\i);};
+    \draw [->] (-2,0) -- (2,0) node [below] {$x$};
+    \draw [->] (0,-2) -- (0,2) node [left] {$y$};
+    \draw (0,0) node [below left] {$O$};
+    \draw (1,0) node [below] {$2$} (0,1) node [left] {$2$};
+\end{tikzpicture}
+\end{center}
 <E题目>
 <B目标>
 
@@ -58036,9 +58075,17 @@ $A,B$, 求直线$AB$的方程.
 <EID>
 <B题目>
 如图, $AB,CD$是椭圆$\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1(a>b>0)$的两条相交弦, 交点为$P$. 两弦与椭圆长轴的夹角均为$\alpha$. 求证: $A,B,C,D$四点共圆.
-\begin{flushright}
-(图待重画){pngs/sem4-001.png}
-\end{flushright}
+\begin{center}
+\begin{tikzpicture}[>=latex][scale = 1.5]
+    \draw [->] (-2.5,0) -- (2.5,0) node [below] {$x$};
+    \draw [->] (0,-1.5) -- (0,1.5) node [left] {$y$};
+    \draw (0,0) node [below left] {$O$};
+    \draw (0,0) ellipse (2 and 1);
+    \draw (-1.3271,0.7481) node [above left] {$D$} -- (1.9447,-0.2334) node [below right] {$B$};
+    \draw (-1.7575,-0.4773) node [below left] {$C$} -- (1.6693,0.5508) node [above right] {$A$};
+    \draw (0.5,0.2) node [above] {$P$};
+\end{tikzpicture}
+\end{center}
 <E题目>
 <B目标>
 
