@@ -1,12 +1,16 @@
-
- $(1,+\infty)$
- $(-2,3)$
- $2$
- $9$
- $3$
- $\sqrt{19}$   
- $1$
- $1$
- $4$    
- $\begin{cases} x=1+\cos \theta  \\ y=\sin \theta  \end{cases}$($0\le \theta <2\pi$)    
- $8$
+\item 已知$a,b\in {{\mathbf{R}}^+}$, 求证: $\dfrac a{\sqrt b}+\dfrac b{\sqrt a}\ge \sqrt a+\sqrt b$.
+\item 已知$x,y\in \mathbf{R}$, 求证: $x^2+y^2+1\ge x+y+xy$.
+\item 已知$a,b\in {{\mathbf{R}}^+}$且$a\ne b$, 求证:   $|{a^3}+{b^3}-2ab\sqrt{ab}|>|{a^2}b+a{b^2}-2ab\sqrt{ab}|$
+\item 已知$0<a<1,0<b<1,0<c<1$, 求证: $(1-a)b,(1-b)c,(1-c)a$中至少有一个小于等于$\dfrac 14$.
+ 【课后反馈】
+\item a、b、c是互不相等的正数, 则下列不等式中不正确的序号是\blank{50}.
+(1)$|a-b|\le |a-c|+|c-b|$\blank{50}(2)${a^2}+\dfrac 1{a^2}\ge a+\dfrac 1a$
+(3)$|a-b|+\dfrac 1{a-b}\ge 2$\blank{50}(4)$\sqrt{a+3}-\sqrt{a+1}\le \sqrt{a+2}-\sqrt a$
+\item 已知$a>b>c>0$, 试比较$\dfrac{a-c}b$与$\dfrac{b-c}a$的大小.
+\item 已知$a>0$, 试比较$a$与$\dfrac 1a$的大小.
+\item 若$x,y,m,n$均为正数, 求证: $\sqrt{(m+n)(x+y)}\ge \sqrt{mx}+\sqrt{ny}$.
+\item 已知$a,b,c\in {{\mathbf{R}}^+},$求证:  $a^2b^2+b^2c^2+c^2a^2\ge a^2bc+ab^2c+abc^2$.
+\item 设$f(x)=\sqrt{1+x}(x>0)$.若${x_1}\ne {x_2}$, 求证: $|f({x_1})-f({x_2})|<|{x_1}-{x_2}|$.
+*\item 若实数 、 、 满足 , 则称 比 远离 .
+(1)若 比1远离0, 求 的取值范围;
+(2)定义: ``''在$\mathbfR$上的函数$f(x)$等于$x^2$和$x+2$中远离0的那个值. 求证: $f(x)\ge 1$在$\mathbfR$上恒成立..

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  18 JUN 2022 12:57
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  26 JUN 2022 22:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -747,14 +747,44 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 160--161
 [][] 
  []
 
-[5] (./2022届第一轮讲义例题与习题.aux) ) 
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 173--174
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 179--180
+[][] 
+ []
+
+[5]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 188--189
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 190--191
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 192--193
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 204--205
+[][] 
+ []
+
+[6] [7] [8] [9] (./2022届第一轮讲义例题与习题.aux) ) 
 Here is how much of TeX's memory you used:
  20150 strings out of 476919
  459898 string characters out of 5825424
- 798868 words of memory out of 5000000
+ 799868 words of memory out of 5000000
  39749 multiletter control sequences out of 15000+600000
  406111 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,16n,104p,452b,750s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 2022届第一轮讲义例题与习题.pdf (5 pages).
+Output written on 2022届第一轮讲义例题与习题.pdf (9 pages).

@@ -28,6 +28,8 @@ def replace_i(matchobj):
         if string[i] == "i" and not "item" in string[i:]:
             string = string[:i] + "\\mathrm{i}" + string[i+1:]
     return string
+def refine_log(matchobj):
+    return r"\log_"+matchobj.group(1)
     
 try:
     os.chdir(r"D:\mathdept\mathdept\文本处理程序等")
@@ -182,6 +184,7 @@ for equation in raw_equations:
     equation1 = re.sub("\\\i(n[ ]*[R|Q|Z|N|C])",boldsymbols,equation1)
     equation1 = re.sub(r"\\mathbf([ZRNQC])",blackboardbold,equation1)
     equation1 = re.sub(r"\\text([ZRNQC])",blackboardbold,equation1)
+    equation1 = re.sub("operatorname","mathbf ",equation1)
     #equation1 = re.sub("\$([R|Q|Z|N|C])\$",singleboldsymbols,equation1)
     #有关数列极限
     equation1 = re.sub(r"\\underset{([\w]\\to \\infty) }{\\mathop\\lim }\\,",limit,equation1) 
@@ -195,7 +198,10 @@ for equation in raw_equations:
     equation1 = re.sub(r"&",r"",equation1)
     equation1 = re.sub(r"\\\{[\s]*\\begin",r"\\begin",equation1)
     equation1 = re.sub(r"\\\\\\end",r"\\end",equation1)
-
+    #分式变displaystyle
+    equation1 = re.sub(r"\\frac",r"\\dfrac",equation1)
+    #处理累赘的log周围的大括号
+    equation1 = re.sub(r"\{\{\\log[\s]*?\}_([\d\w])\}",refine_log,equation1)
 
     modified_equations.append(equation1)
 
