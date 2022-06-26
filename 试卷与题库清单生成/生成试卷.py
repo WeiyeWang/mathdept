@@ -6,7 +6,10 @@ def trim(string):
     while string[-1] in (" ","\t","\n"):
         string = string[:-1]
     return string
-
+def color_value(matchobj):
+    value = matchobj.group(1)
+    return "\t"+"\\textcolor{red!"+ "%.3f" %(100*float(value)) +"!green}{" + value +"}"
+    
 vault_files = [f for f in os.listdir("../题库0.2") if "题库" in f]
 problems = ""
 for filename in vault_files:
@@ -39,8 +42,17 @@ for id in ids:
             answer = trim(re.findall("<B答案>([\s\S]*?)<E答案>",problem_set)[0])
         except:
             answer = "暂无答案"
-        students_string = "\\item "+problem+"\n"
-        teachers_string = students_string+"\n\n答案: "+answer + "\n"
+        try:
+            usage = trim(re.findall("<B使用记录>([\s\S]*?)<E使用记录>",problem_set)[0]).replace("\n","\n\n")
+            usage = re.sub("\\t([\d]\.[\d]{0,10})",color_value,usage)
+        except:
+            usage = "暂无使用记录"
+        try:
+            origin = trim(re.findall("<B出处>([\s\S]*?)<E出处>",problem_set)[0])
+        except:
+            origin = "出处不详"
+        students_string = "\\item ("+id+")"+problem+"\n"
+        teachers_string = students_string+"\n\n答案: "+answer + "\n" + "\n\n使用记录:\n\n"+ usage + "\n" + "\n\n出处: "+origin + "\n"
         data_teachers += teachers_string
         data_students += students_string
 #生成学生的文件和教师的源文件
