@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  25 JUN 2022 15:45
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  26 JUN 2022 09:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -589,8 +589,7 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \c@coro=\count326
 \c@axiom=\count327
 \c@prop=\count328
-
-No file 秋考真题.aux.
+ (./秋考真题.aux)
 \openout1 = `秋考真题.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -609,7 +608,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
 LaTeX Font Info:    ... okay on input line 50.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
 LaTeX Font Info:    ... okay on input line 50.
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 50.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -839,9 +838,9 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 431--432
 
 [14] [15] (./秋考真题.aux) ) 
 Here is how much of TeX's memory you used:
- 21056 strings out of 476919
- 477627 string characters out of 5825424
- 866440 words of memory out of 5000000
+ 21058 strings out of 476919
+ 477645 string characters out of 5825424
+ 866433 words of memory out of 5000000
  40660 multiletter control sequences out of 15000+600000
  406127 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
