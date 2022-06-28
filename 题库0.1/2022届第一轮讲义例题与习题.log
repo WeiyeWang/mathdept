@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  27 JUN 2022 23:03
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  28 JUN 2022 22:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -212,14 +212,18 @@ Package fontspec Info: Could not resolve font "黑体/I" (it probably doesn't
 (fontspec)             exist).
 
 
-Package fontspec Info: Font family '等线(0)' created for font '等线' with options
-(fontspec)             [Script={CJK},BoldFont={黑体},ItalicFont={楷体}].
+Package fontspec Info: Could not resolve font "华文中宋/BI" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Font family '华文中宋(0)' created for font '华文中宋' with
+(fontspec)             options [Script={CJK},BoldFont={黑体},ItalicFont={楷体}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"等线/OT:script=hani;language=dflt;"
+(fontspec)             <->"华文中宋/OT:script=hani;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->"黑体/OT:script=hani;language=dflt;"
@@ -227,9 +231,6 @@ Package fontspec Info: Font family '等线(0)' created for font '等线' with op
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
 (fontspec)             <->"楷体/OT:script=hani;language=dflt;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"等线/BI/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -817,14 +818,34 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 422--423
 [][] 
  []
 
-[15] (./2022届第一轮讲义例题与习题.aux) ) 
-Here is how much of TeX's memory you used:
- 20916 strings out of 476919
- 476200 string characters out of 5825424
- 806595 words of memory out of 5000000
- 40513 multiletter control sequences out of 15000+600000
- 406127 words of font info for 64 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 101i,16n,104p,452b,807s stack positions out of 5000i,500n,10000p,200000b,80000s
+[15] [16]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 493--494
+[][] 
+ []
 
-Output written on 2022届第一轮讲义例题与习题.pdf (15 pages).
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 530--531
+[][] 
+ []
+
+[17]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 554--554
+[][] 
+ []
+
+[18]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 566--567
+[][] 
+ []
+
+[19] (./2022届第一轮讲义例题与习题.aux) ) 
+Here is how much of TeX's memory you used:
+ 22289 strings out of 476919
+ 504801 string characters out of 5825424
+ 876486 words of memory out of 5000000
+ 41888 multiletter control sequences out of 15000+600000
+ 406111 words of font info for 62 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 101i,16n,104p,452b,821s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 2022届第一轮讲义例题与习题.pdf (19 pages).

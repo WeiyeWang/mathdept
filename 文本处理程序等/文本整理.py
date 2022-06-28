@@ -88,6 +88,12 @@ data = re.sub("ｉ",r"\\mathrm{i}",data)
 data = re.sub("∈",r"\\in ",data)
 data = re.sub("⊥",r"\\perp ",data)
 data = re.sub("∥",r"\\parallel ",data)
+data = re.sub("①",r"\\textcircled{1} ",data)
+data = re.sub("②",r"\\textcircled{2} ",data)
+data = re.sub("③",r"\\textcircled{3} ",data)
+data = re.sub("④",r"\\textcircled{4} ",data)
+data = re.sub("⑤",r"\\textcircled{5} ",data)
+
 
 
 whole_numbers = "０１２３４５６７８９＋－＝狆狇狉犕犖＞＜犃犅犆犇狓犝［］｜犪狔犙犽犘犚犫犛犮犈犗犿犣狀犳犵犺狋犻犼狕犉犾′"
