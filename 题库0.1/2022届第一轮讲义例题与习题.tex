@@ -571,11 +571,52 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 \item 已知函数$f(x)=\dfrac{x^{\frac 13}-x^{-\frac 13}}5$, $g(x)=\dfrac{x^{\frac 13}+x^{-\frac 13}}5$.\\
 (1) 分别计算$f(4)-5f(2)g(2)$和$f(9)-5f(3)g(3)$的值;\\
 (2) 由(1)概括出涉及函数$y=f(x)$和$y=g(x)$的, 对所有不等于零的实数$x$都成立的一个等式, 并加以证明.
-\item *证明第8题中的对称中心是唯一的.
+\item *设常数$a,b$满足$a>b>0$. 已知函数$f(x)=\dfrac{x+a}{x+b}$. 证明: 该函数图像的对称中心是唯一的.
 
+% 第十二讲 9+2+9
 
-
- 
+\item 函数$y=\log_2 \dfrac 1{x-1}$的反函数是\blank{50}.
+\item 函数$y=x^2$($x\le 0$)的反函数是\blank{50}.
+\item 函数$y=\dfrac{2^x}{{2^x}-1}$($x>0$)的反函数是\blank{50}.
+\item 已知函数$y=f(x)$的反函数是$f^{-1}(x)=\dfrac{4x+3}{2x-1}$, 则$f(x)$=\blank{50}.
+\item 记$y=f^{-1}(x)$是$y=f(x)$的反函数. 若函数$f(x)=\log_3x$, 则$f^{-1}(-\log_9 2)$=\blank{50}.
+\item 若命题``函数$y=x+\dfrac ax$在区间$[1,2]$上存在反函数''为真命题, 则在下列值中, 能作为实数$a$的值的序号是\blank{50}.\\
+\textcircled{1} $a=-1$; \textcircled{2} $a=1$; \textcircled{3} $a=\sqrt 2$; \textcircled{4} $a=\sqrt 5$.
+\item 若函数$f(x)=1-\sqrt{1-x^2}\ (-1\le x\le 0)$,
+请画出函数$y={f^{-1}}(x)$的大致图像.
+\begin{center}
+    \begin{tikzpicture}[>=latex,scale =1.8]
+        \foreach \i in {-1,-0.5,0,0.5,1} {\draw [dashed, gray!90] (\i,-1) -- (\i,1) (-1,\i) -- (1,\i);};
+        \draw [->] (-1.5,0) -- (1.5,0) node [below] {$x$};
+        \draw [->] (0,-1.5) -- (0,1.5) node [left] {$y$};
+        \draw (0,0) node [below left] {$O$};
+        \draw (1,0) node [below] {$1$} (0,1) node [left] {$1$};
+    \end{tikzpicture}
+\end{center}
+\item 已知定义在$\mathbf{R}$上的函数$y=f(x)$是奇函数, 且有反函数$y=f^{-1}(x)$. 若$a,b$是两个实数, 则下列点中, 必在$y=f^{-1}(x)$的图像上的点的序号是\blank{50}.\\
+\textcircled{1} $(-f(a),a)$; \textcircled{2} $(-f(a),-a)$;\textcircled{3} $(-b,-f(b))$; \textcircled{4} $(b,-f^{-1}(-b))$.
+\item 已知定义在$\mathbf{R}$上的函数$y=f(x)$的反函数为$y=f^{-1}(x)$.若$y=f(x+1)$的图像过点$(-\dfrac 12,1)$, 则$y=f^{-1}(x+1)$的图像必过\bracket{20}.
+\fourch{$(1,-\dfrac 12)$}{$(1,\dfrac 12)$}{$(0,-\dfrac 12)$}{$(0,\dfrac 12)$}
+\item 设常数$a\ne 0$. 若函数$f(x)=\dfrac{1-ax}{1+ax}$的图像关于直线$y=x$对称, 求实数$a$的值以及$y=f(x)$的反函数$y=f^{-1}(x)$.
+\item 记$y=f^{-1}(x)$是$y=f(x)$的反函数.\\
+(1) 若函数$f(x+1)=\dfrac x{x+1}$, 求函数$y=f^{-1}(x+1)$的解析式;\\
+(2) 设函数$f(x)=\dfrac{1-2x}{1+x}$. 若$y=g(x)$的图像与$y=f^{-1}(x+1)$的图像关于直线$y=x$对称, 求$y=g(x)$的解析式.
+\item (1) 函数$y=x^2+2x-3\ (x\ge 0)$的反函数为\blank{50};\\
+(2) 函数$y=\dfrac{\mathrm{e}^x-1}{{\mathrm{e}}^x+1}$的反函数为\blank{50};\\
+(3) 函数$y=x|x|$的反函数为\blank{50}.
+\item 已知函数$y=f(x)$是奇函数, 且$y=g(x)$是$y=f(x)$的反函数. 若$x\ge 0$时, $f(x)=3^x-1$, 则$g(-8)$=\blank{50}.
+\item 设常数$a\in \mathbf{R}$. 若函数$y=x+\dfrac ax$在区间$[1,2]$上存在反函数, 求$a$的取值范围.
+\item 求函数$y=\begin{cases}x^2-2x+2, & x\le 1,\\(\dfrac 12)^x, & x>1  \end{cases}$的反函数.
+\item 设常数$a>0$且$a\ne 1$. 求函数$f(x)=\log_a(x+\sqrt{x^2-1})$的反函数.
+\item 已知函数$y=f(x)$的图像经过点$(0,-1)$. 若函数$y=f(x+4)$存在反函数$y=g(x)$, 则$y=g(x)$的图像总经过的定点的坐标为\blank{50}.
+\item 设$y=f^{-1}(x)$, $y=g^{-1}(x)$分别是定义在$\mathbf{R}$上的函数$y=f(x)$, $y=g(x)$的反函数. 若函数$y=f(x-1)$和$y=g^{-1}(x-3)$的图像关于直线$y=x$对称, 且$g(5)=2018$, 则 $f(4)$的值为\blank{50}.
+\item 设$a>0$, 函数$f(x)=\dfrac 1{1+a\cdot 2^x}$.\\
+(1) 若$a=1$, 求$f(x)$的反函数$f^{-1}(x)$;\\
+(2) 求函数$y=f(x)\cdot f(-x)$的最大值(用$a$表示);\\
+(3) *设$g(x)=f(x)-f(x-1)$. 若对任意$x\in (-\infty ,0]$, $g(x)\ge g(0)$恒成立, 求$a$的取值范围.
+\item 已知函数$y=f^{-1}(x)$是$y=f(x)$的反函数. 定义: 若对给定的实数$a(a\ne 0)$, 函数$y=f(x+a)$与$y=f^{-1}(x+a)$互为反函数, 则称$y=f(x)$满足``$a$和性质''.\\
+(1) 判断函数$g(x)=x^2+1(x>0)$是否满足``$1$和性质'', 并说明理由;\\
+(2) *求所有满足``$2$和性质''的一次函数. 
 
 
 \end{enumerate}

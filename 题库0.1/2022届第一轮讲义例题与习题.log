@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  28 JUN 2022 22:22
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  29 JUN 2022 07:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -833,14 +833,21 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 554--555
 [][] 
  []
 
-[18] [19] (./2022届第一轮讲义例题与习题.aux) ) 
+[18]
+Missing character: There is no ; ("3B) in font nullfont!
+ [19]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 599--600
+[][] 
+ []
+
+[20] [21] (./2022届第一轮讲义例题与习题.aux) ) 
 Here is how much of TeX's memory you used:
- 22289 strings out of 476919
- 504801 string characters out of 5825424
- 876486 words of memory out of 5000000
- 41888 multiletter control sequences out of 15000+600000
+ 22291 strings out of 476919
+ 504828 string characters out of 5825424
+ 876485 words of memory out of 5000000
+ 41890 multiletter control sequences out of 15000+600000
  406111 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,16n,104p,452b,821s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,16n,104p,452b,827s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 2022届第一轮讲义例题与习题.pdf (19 pages).
+Output written on 2022届第一轮讲义例题与习题.pdf (21 pages).
