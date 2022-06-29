@@ -208,7 +208,8 @@ for equation in raw_equations:
     equation1 = re.sub(r"\\frac",r"\\dfrac",equation1)
     #处理累赘的log周围的大括号
     equation1 = re.sub(r"\{\{\\log[\s]*?\}_([\d\w])\}",refine_log,equation1)
-
+    #处理多余的斜杠空格
+    equation1 = re.sub(r"\\[\s]*?,[\s]*?\\",",",equation1)
     modified_equations.append(equation1)
 
 #整合修改过的文本和公式    
