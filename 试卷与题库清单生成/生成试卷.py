@@ -45,6 +45,7 @@ for id in ids:
         try:
             usage = trim(re.findall("<B使用记录>([\s\S]*?)<E使用记录>",problem_set)[0]).replace("\n","\n\n")
             usage = re.sub("\\t([\d]\.[\d]{0,10})",color_value,usage)
+            usage = re.sub("[\\t ]([\d]\.[\d]{0,10})",color_value,usage)
         except:
             usage = "暂无使用记录"
         try:
