@@ -1,31 +1,30 @@
-1.(1)设常数$a\in \mathbf{R}$. 已知函数$f(x)=ax$.若对于任意$x\in [-3, -1]$, 不等式$f(x)\ge 5$恒成立, 则$a$的取值范围为\blank{50}.
- (2)设常数$a\in \mathbf{R}$. 已知函数$f(x)=ax$, 若存在${x_0}\in [-3, 1]$, 使得不等式$f(x)+5<0$成立, 则$a$的取值范围为\blank{50}.
- (3)设常数$a\in \mathbf{R}$. 已知函数$f(x)=ax$.若对于任意$x\in (-3, 1)$, 不等式$f(x)+5\ge 0$恒成立, 则$a$的取值范围为\blank{50}.
-2.设常数$a\in \mathbf{R}$.已知函数$f(x)=x+a$. 若存在${x_0}\in (-1, 2)$, 使得$f({x_0})>1$成立, 则$a$的取值范围为\blank{50}.
-3.设常数$a\in \mathbf{R}$.已知函数$f(x)=x^2-x-a$. 若不等式$f(x)>0$恒成立, 则$a$的取值范围为\blank{50}.
-4.设常数$a\in \mathbf{R}$.已知函数$f(x)=x^2-x-a$, $-2<x<-1$. 若不等式$f(x)>0$恒成立, 则$a$的取值范围___.
-5.已知函数$f(x)=x^2$. 若常数$a$满足: 存在$x\in (-2, a)$, 使得$f(x)>5$, 则$a$的取值范围为\blank{50}.
-6.设常数$a\in \mathbf{R}$.已知函数$f(x)=(a-1)x^2+(a-1)x-1$. 若关于$x$的不等式$f(x)\ge 0$解集为$\varnothing$, 则$a$的取值范围为\blank{50}.
-7.设常数$a\in \mathbf{R}$. 若关于$x$的不等式$a|x|\ >x+2$有实数解, 则$a$的取值范围为\blank{50}.
-8.已知实数$ab$满足等式${{(\dfrac 12)}^a}={{(\dfrac 13)}^b},$下列五个关系式: \textcircled{1} $0<b<a$; \textcircled{2} $a<b<0$; \textcircled{3} $0<a<b$;
-\textcircled{4} $b<a<0$; \textcircled{5} $a=b=0$ , 其中不可能成立的关系式的序号为\blank{50}.
+\item 求值: $\arcsin\dfrac 12=$\blank{50}. $\arccos(-\dfrac{\sqrt 2}2)=$\blank{50}. $\arctan(-\sqrt 3)=$\blank{50}.
+\item 用含反三角函数的表达式表示下列各式中的角$x$:
+(1) $\sin x=-\dfrac 13, \ x\in [-\dfrac{\pi}2,\dfrac{\pi}2]$, $x=$\blank{50}. (2) $\sin x=\dfrac 14, \ x\in [0,\pi]$, $x=$\blank{50}.
+(3) $\cos x=-\dfrac 14, \ x\in [0,\pi]$, $x=$\blank{50}.  (4) $\cos x=\dfrac 15, \ x\in [-\pi,0]$, $x=$\blank{50}.
+(5) 三角形$ABC$中, $\sin A=\dfrac 14$, $\tan B=-2$, 则$A=$\blank{50}, $B=$\blank{50}.
+\item 设$|a|\le 1$, 则$\arccos a+\arccos(-a)=$\blank{50}.
+\item 化简下列各式: $\sin(\arcsin\dfrac 1{a^2+1})=$\blank{50}. $\cos(\arcsin(-\sqrt{1-a^4}))=$\blank{50}. $\cot(\arctan\dfrac 1a)=$\blank{50}.
+\item 函数$y=\sin x, \ x\in [-\dfrac{\pi}2,\dfrac{\pi}4]$的反函数是\blank{50}.
+\item 满足不等式$\arccos(1-x)\ge \arccos x$的$x$的取值范围是\blank{50}.
+\item 函数$y=(\arctan x)^2+\arctan x-1$的最小值是\blank{50}.
+\item 方程$2\sin x=1, \ x\in [-2\pi,2\pi]$的解集是\blank{50}.
 【典型例题】
-\item 设常数$k\in \mathbf{R}$. 已知函数$f(x)=kx^2+kx+k+1$.
- (1)对于任意的$x\in [-1, 1]$, 不等式$f(x)\ge 0$恒成立, 求$k$的取值范围;
- (2)存在${x_0}\in [-1, 1]$, 使得不等式$f({x_0})<0$成立, 求$k$的取值范围.
-\item 设常数$k\in \mathbf{R}$. 已知关于x的不等式$k\cdot 4^x-{2^{x+1}}+6k<0$.
-(1)若不等式的解集为开区间$(1, lo{g_2}3)$, 求$k$ 的取值范围;
-(2)若不等式对一切$x\in (1, lo{g_2}3)$都成立, 求$k$的取值范围;
-*(3)若不等式的解集为开区间$(1, lo{g_2}3)$的子集, 求$k$的取值范围;
-*(4)若不等式在开区间$(1, lo{g_2}3)$内存在解, 求$k$的取值范围.
+\item 研究函数$y=\arccos(x-x^2)$的定义域, 值域, 单调性, 并给出单调性的严格证明.
+\item 解下列三角方程:
+(1) $\sin 2x=\sin 5x$.						    (2) $\sin 2x-\sqrt 3\cos 2x=1, \ x\in [-\pi,\pi]$.
+(3) $\dfrac{\sin 2x}{\cos x+\sin x}=4$.					\blank{50}	(4) $\tan 2x=\tan 6x$.
+(5) $\sin^2 x-4\sin x\cos x+2\cos^2 x=-\dfrac 12$.
 【课后反馈】
-\item 设常数$a\in \mathbf{R}$. 已知不等式$2a-1>(a^2-1)x$对于满足$-1\le x\le 1$的任意$x$恒成立, 则$a$的取值范围为\blank{50}.
-\item 设常数$a\in \mathbf{R}$.已知函数$f(x)=ax^2-ax+1$. 若不等式$f(x)>0$恒成立, 则$a$的取值范围为\blank{50}.
-\item 设常数$a\in \mathbf{R}$. 已知不等式$x^2-mx+3\ge 0$对于满足$1\le x\le 2$的任意$x$恒成立, 则$a$的取值范围为\blank{50}.
-\item 设常数$a\in \mathbf{R}$. 已知函数$f(x)=|x-a|$, $0\le x\le 1$. 若$f(x)\le 2$恒成立, 则$a$的取值范围为\blank{50}.
-\item 设常数$a\in \mathbf{R}$.已知函数$f(x)=|x-a|$. 若存在${x_0}\in (0,1)$, 使得$f({x_0})>2$成立, 则$a$的取值范围为\blank{50}.
-\item 设常数$a\in \mathbf{R}$. 关于$x$的不等式$a|x|\ >x^2-2$的解集为$E$.若区间$(1, 2)\subseteq E$, 则$a$的取值范围为\blank{50}.
-\item 设常数$m\in \mathbf{R}$, $m\le -2$, 函数$f(x)=x^2+mx+4$. 问: 是否存在这样的$m$, 使对于任意$x\in [-1, 1]$, 使得$f(x)+m\ge 0$都成立? 若存在, 求出所有这样的$m$; 若不存在, 说明理由.
-\item 设常数$a\in \mathbf{R}$.若对于任意实数$x\in [-2, 2]$, 不等式$x^2+ax+3\ge a$恒成立, 求$a$的取值范围.
-\item 设常数$a\in \mathbf{R}$.若对于任意实数$x\in (-\infty , -1]$, 不等式$1+2^x+(a-a^2)\cdot 4^x>0$恒成立, 求$a$的取值范围.
-\item 已知常数$m, n\in \mathbf{R}$, $m<-2$, 函数$f(x)=x^2+mx+n$. 问: 是否存在${x_0}\in [-11]$, 使得$| f({x_0}) |\ge | m |$成立?
+\item 下列等式成立的是\blank{50}(填序号).
+\textcircled{1}  $\arccos 0=1$		\textcircled{2}  $\cos(\arccos \dfrac{\pi}2)=\dfrac{\pi}2$	\textcircled{3}  $\sin(\arcsin\dfrac{\pi}4)=\dfrac{\pi}4$	
+\textcircled{4}  $\arctan\dfrac{\pi}3=\sqrt 3$	\textcircled{5}  $\tan(\arctan\dfrac{\pi}2)=\dfrac{\pi}2$
+\item 若$\cos\alpha=-\dfrac 34$, $\alpha\in (\pi,\dfrac{3\pi}2)$, 则$\alpha=$\blank{50}.
+\item 设$x=\sin\alpha$, $\alpha\in (-\dfrac{\pi}6,\dfrac{5\pi}6]$, 则$\arccos x$的取值范围为\blank{50}.
+\item 方程$2\sin^2 x+5\sin x+2=0$在$(-2\pi,0)$上的解集为\blank{50}.
+\item 方程$2\sin^2 x-3\sin x\cos x-2\cos^2 x=0$的解集为\blank{50}.
+\item 若$\tan x=a, \ x\in (\dfrac{\pi}2,\pi)$, 则$x=$\blank{50}.
+\item 若$-\pi<x<-\dfrac{\pi}2$, 则$\arcsin(\sin x)=$\blank{50}.
+\item 设常数$m\in \mathbf{R}$, 关于$x$的方程$2-\sin 2x=m(2+\sin 2x), \ x\in [0,\pi)$的解集为$A$.
+(1) 若$A\ne \varnothing$, 求$m$的取值范围;
+(2) 若$A\subseteq (0,\pi)$, 且$A$中至少有两个元素, 求$m$的取值范围.

@@ -1,4 +1,13 @@
-
+\documentclass[10pt,a4paper]{article}
+\usepackage[UTF8,fontset = windows]{ctex}
+\setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{华文中宋}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
+\usepackage{ifthen,indentfirst,enumerate,color,titletoc}
+\usepackage{tikz}
+\usetikzlibrary{arrows,calc,intersections,patterns}
+\usepackage[bf,small,indentafter,pagestyles]{titlesec}
+\usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
+\begin{document}
 \begin{center}
 \begin{tikzpicture}[>=latex]
     \draw [->] (-1,0) -- (4,0) node [below] {$x$};
@@ -553,3 +562,4 @@
 
 \end{tikzpicture}
 \end{center}
+\end{document}

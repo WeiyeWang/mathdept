@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  29 JUN 2022 16:43
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  29 JUN 2022 16:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**2022届第一轮讲义例题与习题
-(./2022届第一轮讲义例题与习题.tex
+**tikzfors3
+(./tikzfors3.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -585,91 +585,83 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen305
 \Gm@dimlist=\toks42
 )
-\c@defi=\count321
-\c@eg=\count322
-\c@ex=\count323
-\c@rem=\count324
-\c@thm=\count325
-\c@coro=\count326
-\c@axiom=\count327
-\c@prop=\count328
- (./2022届第一轮讲义例题与习题.aux)
-\openout1 = `2022届第一轮讲义例题与习题.aux'.
+No file tikzfors3.aux.
+\openout1 = `tikzfors3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
- ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 10.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 41.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 41.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 41.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 41.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 41.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 41.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 41.
-LaTeX Font Info:    Redeclaring math accent \check on input line 41.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 41.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 41.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 41.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 41.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 41.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 41.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 41.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 41.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 41.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 41.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 41.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 41.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 41.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 41.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 41.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 41.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 10.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 10.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 10.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 10.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 10.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 10.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 10.
+LaTeX Font Info:    Redeclaring math accent \check on input line 10.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 10.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 10.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 10.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 10.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 41.
+(Font)              `operators' in the math version `normal' on input line 10.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 41.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 10.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 41.
+(Font)              `operators' in the math version `bold' on input line 10.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 41.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 10.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 41.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 41.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 41.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 41.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 41.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 10.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 41.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 41.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 41.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 41.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 10.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -705,219 +697,27 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 44.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 13.
  (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
-]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 76--77
-[][] 
- []
-
-[2]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 108--109
-[][] 
- []
-
-[3]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 137--138
-[][] 
- []
-
-LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 158.
-(c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 158.
- (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 158.
- [4]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 160--161
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 173--174
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 179--180
-[][] 
- []
-
-[5]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 188--189
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 190--191
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 192--193
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 204--205
-[][] 
- []
-
-[6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
-
- []
-
-[9] [10]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 320--321
-[][] 
- []
-
-[11] [12]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 386--387
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 388--389
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 390--391
-[][] 
- []
-
-[13]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 408--409
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 410--411
-[][] 
- []
-
-[14]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 422--423
-[][] 
- []
-
-[15] [16]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 493--494
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 530--531
-[][] 
- []
-
-[17]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 554--555
-[][] 
- []
-
-[18]
-Missing character: There is no ; ("3B) in font nullfont!
- [19]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 599--600
-[][] 
- []
-
-[20] [21]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 646--648
-[][]
- []
-
-[22]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 684--685
-[][] 
- []
-
-[23] [24]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 745--746
-[][] 
- []
-
-[25] [26] [27]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 800--801
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 820--821
-[][] 
- []
-
-[28]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 843--844
-[][] 
- []
-
-[29] [30]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 879--880
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 881--882
-[][] 
- []
-
-[31] [32]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 944--945
-[][] 
- []
-
-[33]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 977--978
-[][] 
- []
-
-[34]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1029--1030
-[][] 
- []
-
-[35]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1055--1056
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1057--1058
-[][] 
- []
-
-[36]
-Overfull \hbox (25.46594pt too wide) in paragraph at lines 1072--1073
-[]\TU/华文中宋(0)/m/n/10 化 简 下 列 各 式\TU/lmr/m/n/10 : $[]\OT1/cmr/m/n/10 ([] []) =$$[]$\TU/lmr/m/n/10 ; $[]\OT1/cmr/m/n/10 ([](\OMS/cmsy/m/n/10 ^^@[]\OT1/cmr/m/n/10 )) =$$[]$\TU/lmr/m/n/10 ; $[]\OT1/cmr/m/n/10 ([] []) =$$[]$\TU/lmr/m/n/10 . 
- []
-
-[37] [38] (./2022届第一轮讲义例题与习题.aux) ) 
+] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] (./tikzfors3.aux) ) 
 Here is how much of TeX's memory you used:
- 24689 strings out of 476919
- 554480 string characters out of 5825424
- 906023 words of memory out of 5000000
- 44288 multiletter control sequences out of 15000+600000
- 406111 words of font info for 62 fonts, out of 8000000 for 9000
+ 31032 strings out of 476919
+ 684135 string characters out of 5825424
+ 942715 words of memory out of 5000000
+ 50644 multiletter control sequences out of 15000+600000
+ 405784 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,16n,104p,452b,827s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,8n,104p,446b,683s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 2022届第一轮讲义例题与习题.pdf (38 pages).
+Output written on tikzfors3.pdf (12 pages).
