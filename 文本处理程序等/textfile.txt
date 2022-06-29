@@ -1,37 +1,36 @@
-1. 求值: $\arcsin\dfrac{1}{2}=$_____. $\arccos\left(-\dfrac{\sqrt{2}}{2}\right)=$_____. $\arctan(-\sqrt{3})=$_____.
-2. 用含反三角函数的表达式表示下列各式中的角$x$:
-(1) $\sin x=-\dfrac{1}{3}, \ x\in \left[-\dfrac{\pi}{2},\dfrac{\pi}{2}\right]$, $x=$_______________. (2) $\sin x=\dfrac{1}{4}, \ x\in [0,\pi]$, $x=$_______________.
-(3) $\cos x=-\dfrac{1}{4}, \ x\in [0,\pi]$, $x=$_______________.  (4) $\cos x=\dfrac{1}{5}, \ x\in [-\pi,0]$, $x=$_______________.
-(5) 三角形$ABC{}$中, $\sin A=\dfrac{1}{4}$, $\tan B=-2$, 则$A=$__________, $B=$__________.
+1. 若矩阵$\left( \begin{matrix}
+   a & b  \\
+   c & d  \\
+\end{matrix} \right)$为$n$阶单位阵, 则$a-b-c+d+n=$_________. 
 
-3. 设$|a|\le 1$, 则$\arccos a+\arccos(-a)=$__________.
+2. 方程组\[\left\{ \begin{align}
+  & 2x+y=7 \\ 
+ & x-y=2 \\ 
+\end{align} \right.\]的系数行列式的值为______ , 系数矩阵的行向量为_______________．
 
-4. 化简下列各式: $\sin\left(\arcsin\dfrac{1}{a^2+1}\right)=$__________. $\cos\left(\arcsin\left(-\sqrt{1-a^4}\right)\right)=$__________. $\cot\left(\arctan\dfrac{1}{a}\right)=$__________.
+3. 行列式\[\left| \begin{matrix}
+   1 & 2 & 0  \\
+   1 & 5 & 1  \\
+   1 & 8 & 0  \\
+\end{matrix} \right|=\]___________. 
 
-5. 函数$y=\sin x, \ x\in \left[-\dfrac{\pi}{2},\dfrac{\pi}{4}\right]$的反函数是__________.
+4. 在三阶行列式$\left| \begin{matrix}
+   1 & 2 & 3  \\
+   4 & 5 & 6  \\
+   7 & 8 & -9  \\
+\end{matrix} \right|$中，元素6的余子式为___________，元素$8$的代数余子式的值为_____．
 
-6. 满足不等式$\arccos(1-x)\ge \arccos x$的$x$的取值范围是_______________.
-
-7. 函数$y=(\arctan x)^2+\arctan x-1$的最小值是_______________.
-
-8. 方程$2\sin x=1, \ x\in [-2\pi,2\pi]$的解集是_______________.
+5. 关于x、y的方程组$\left\{ \begin{align}
+  & mx+2y=m+4 \\ 
+ & 2x+my=m \\ 
+\end{align} \right.$无解，则实数m = _______________________．
 
 
 【典型例题】
-1. 研究函数$y=\arccos(x-x^2)$的定义域, 值域, 单调性, 并给出单调性的严格证明.
-
-
-
-
-
-2. 解下列三角方程:
-(1) $\sin 2x=\sin 5x$.						    (2) $\sin 2x-\sqrt{3}\cos 2x=1, \ x\in [-\pi,\pi]$.
-
-
-
-
-
-(3) $\dfrac{\sin 2x}{\cos x+\sin x}=4$.					        	(4) $\tan 2x=\tan 6x$.
+例1．设$m$是实数, 解关于$x,y$的方程组\[\left\{ \begin{align}
+  & mx+2y=m, \\ 
+ & x+(m-1)y=-m. \\ 
+\end{align} \right.\]
 
 
 
@@ -40,7 +39,6 @@
 
 
 
-(5) $\sin^2 x-4\sin x\cos x+2\cos^2 x=-\dfrac{1}{2}$.
 
 
 
@@ -48,37 +46,118 @@
 
 
 
-
-【课后反馈】
-1. 下列等式成立的是____________________(填序号).
-① $\arccos 0=1$		② $\cos\left(\arccos \dfrac{\pi}{2}\right)=\dfrac{\pi}{2}$	③ $\sin\left(\arcsin\dfrac{\pi}{4}\right)=\dfrac{\pi}{4}$	
-④ $\arctan\dfrac{\pi}{3}=\sqrt{3}$	⑤ $\tan\left(\arctan\dfrac{\pi}{2}\right)=\dfrac{\pi}{2}$
-2. 若$\cos\alpha=-\dfrac{3}{4}$, $\alpha\in \left(\pi,\dfrac{3\pi}{2}\right)$, 则$\alpha=$_____________________.
-
-
-3. 设$x=\sin\alpha$, $\alpha\in \left(-\dfrac{\pi}{6},\dfrac{5\pi}{6}\right]$, 则$\arccos x$的取值范围为_________________________.
-
-
-4. 方程$2\sin^2 x+5\sin x+2=0$在$(-2\pi,0)$上的解集为______________________________.
-
-
+         
  
-5. 方程$2\sin^2 x-3\sin x\cos x-2\cos^2 x=0$的解集为______________________________.
+例2．已知关于$x,y,z$的方程组$\left\{ \begin{align}
+  & x+y+z=1, \\ 
+ & x+y+az=1, \\ 
+ & x+ay+{{a}^{2}}z=2, \\ 
+\end{align} \right.$其中$a\in \mathbf{R}$.
+（1）若关于x、y的方程组$\left\{ \begin{align}
+  & {{a}_{1}}x+{{b}_{1}}y={{c}_{1}} \\ 
+ & {{a}_{2}}x+{{b}_{2}}y={{c}_{2}} \\ 
+\end{align} \right.$可以用矩阵记号$\left( \begin{matrix}
+   {{a}_{1}} & {{b}_{1}}  \\
+   {{a}_{2}} & {{b}_{2}}  \\
+\end{matrix} \right)\left( \begin{matrix}
+   x  \\
+   y  \\
+\end{matrix} \right)=\left( \begin{matrix}
+   {{c}_{1}}  \\
+   {{c}_{2}}  \\
+\end{matrix} \right)$来表示，请试给出上述三元一次方程组的矩阵表示；
+（2）用行列式的方法解此方程组．
 
 
 
-6. 若$\tan x=a, \ x\in \left(\dfrac{\pi}{2},\pi\right)$, 则$x=$__________.
-
-
-
-
-7. 若$-\pi<x<-\dfrac{\pi}{2}$, 则$\arcsin(\sin x)=$_______________.
 
 
 
 
 
-8. 设常数$m\in \mathbf{R}$, 关于$x$的方程$2-\sin 2x=m(2+\sin 2x), \ x\in [0,\pi)$的解集为$A$.
-(1) 若$A\ne \varnothing$, 求$m$的取值范围;
-(2) 若$A\subseteq (0,\pi)$, 且$A$中至少有两个元素, 求$m$的取值范围.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+例3．已知平面直角坐标系内点\[A\left( 0,3 \right)\], 点$B(2,0)$, 点$C(5,\lambda )$. 
+（1）	若三角形$ABC$面积为$10$, 求$\lambda $的值；
+（2）	若$A,B,C$三点共线, 求$\lambda $的值. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+【课后作业】
+1. 行列式\[\left| \begin{matrix}
+   1 & 3 & 0  \\
+   4 & 5 & 1  \\
+   7 & 8 & 2  \\
+\end{matrix} \right|\]中，元素$4$的余子式的值为_____．元素$3$的代数余子式的值为_____．
+2. 将 $a\left| \begin{matrix}
+   1 & 2  \\
+   0 & 4  \\
+\end{matrix} \right|+b\left| \begin{matrix}
+   -1 & 3  \\
+   0 & 4  \\
+\end{matrix} \right|+c\left| \begin{matrix}
+   -1 & 3  \\
+   1 & 2  \\
+\end{matrix} \right|$化为一个三阶行列式: \[\left| \begin{matrix}
+   a & -1 & 3  \\
+   \_ & \_ & \_  \\
+   \_ & \_ & \_  \\
+\end{matrix} \right|\]．
+
+3. 若关于x、y的方程组$\left\{ \begin{align}
+  & mx+y=-1 \\ 
+ & x+my=1 \\ 
+\end{align} \right.$有解，则实数$m$的取值范围为_____________________．
+
+4. 关于$x,y,z$的方程组$\left\{ \begin{align}
+  & x+y+az=1, \\ 
+ & x+ay+z=a, \\ 
+ & x-y+z=3 \\ 
+\end{align} \right.$的增广矩阵是_________________；若此方程组有唯一解，则实数a的取值范围为_________________．
+
+
+5. 设$m$是实数, 用行列式的方法解关于x、y的方程组\[\left\{ \begin{align}
+  & (m+1)x-(2m-1)y=3m, \\ 
+ & (3m+1)x-(4m-1)y=5m+4. \\ 
+\end{align} \right.\] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
