@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  29 JUN 2022 16:43
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  30 JUN 2022 14:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -910,7 +910,22 @@ Overfull \hbox (25.46594pt too wide) in paragraph at lines 1072--1073
 []\TU/华文中宋(0)/m/n/10 化 简 下 列 各 式\TU/lmr/m/n/10 : $[]\OT1/cmr/m/n/10 ([] []) =$$[]$\TU/lmr/m/n/10 ; $[]\OT1/cmr/m/n/10 ([](\OMS/cmsy/m/n/10 ^^@[]\OT1/cmr/m/n/10 )) =$$[]$\TU/lmr/m/n/10 ; $[]\OT1/cmr/m/n/10 ([] []) =$$[]$\TU/lmr/m/n/10 . 
  []
 
-[37] [38] (./2022届第一轮讲义例题与习题.aux) ) 
+[37] [38]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1129--1130
+[][] 
+ []
+
+[39]
+Overfull \hbox (36.35901pt too wide) in paragraph at lines 1162--1163
+\TU/华文中宋(0)/m/n/10 获 取 软 件 激 活 码\TU/lmr/m/n/10 ” \TU/华文中宋(0)/m/n/10 的 活 动\TU/lmr/m/n/10 . \TU/华文中宋(0)/m/n/10 这 款 软 件 的 激 活 码 为 下 面 数 学 问 题 的 答 案\TU/lmr/m/n/10 : \TU/华文中宋(0)/m/n/10 已 知 数 列 $\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 16\OML/cmm/m/it/10 ; [] $\TU/lmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1163--1164
+[][] 
+ []
+
+[40] [41] [42] [43] (./2022届第一轮讲义例题与习题.aux) ) 
 Here is how much of TeX's memory you used:
  24689 strings out of 476919
  554480 string characters out of 5825424
@@ -920,4 +935,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  101i,16n,104p,452b,827s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 2022届第一轮讲义例题与习题.pdf (38 pages).
+Output written on 2022届第一轮讲义例题与习题.pdf (43 pages).
