@@ -21,11 +21,11 @@ data = re.sub(r"\\item",r"\\enditem\\item",data)
 data = re.sub(r"\\end\{enumerate\}",r"\\enditem",data)
 problems = [trim(p) for p in re.findall(r"\\item([\s\S]*?)\\enditem",data)]
 #以上已经生成了题目列表，以下出处、使用记录、修订历史等须设定
-origin = "2022届高三高考前冲刺题精选"
+origin = "2016年双基百分百"
 usage = ""
 editor = "20220701\t王伟叶"
 # 重要！！！初始ID
-starting_ID = 3694
+starting_ID = 3707
 
 head_str = crop_text(template,"[B题目]","<BID>\n")
 body_str_1 = crop_text(template,"\n<EID>","<B题目>\n")
