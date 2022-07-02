@@ -18,7 +18,7 @@ for pair in pairs:
             file1_data = f1.read()
         problems = re.findall("(\[B题目\][\s\S]*?\[E题目\])",file1_data)
         for p in problems:
-            if pair[2] in p:
+            if pair[2]+"\n<EID>" in p:
                 problem_to_mark = p
                 #print(problem_to_mark)
         same_record = re.findall("<B相同题目>[\s\S]*?<E相同题目>",problem_to_mark)[0]
@@ -36,7 +36,7 @@ for pair in pairs:
             file2_data = f2.read()
         problems = re.findall("(\[B题目\][\s\S]*?\[E题目\])",file2_data)
         for p in problems:
-            if pair[3] in p:
+            if pair[3]+"\n<EID>" in p:
                 problem_to_mark = p
                 #print(problem_to_mark)
         same_record = re.findall("<B相同题目>[\s\S]*?<E相同题目>",problem_to_mark)[0]
@@ -59,7 +59,7 @@ for pair in pairs:
             file1_data = f1.read()
         problems = re.findall("(\[B题目\][\s\S]*?\[E题目\])",file1_data)
         for p in problems:
-            if pair[2] in p:
+            if pair[2]+"\n<EID>" in p:
                 problem_to_mark = p
                 #print(problem_to_mark)
         same_record = re.findall("<B关联题目>[\s\S]*?<E关联题目>",problem_to_mark)[0]
@@ -77,7 +77,7 @@ for pair in pairs:
             file2_data = f2.read()
         problems = re.findall("(\[B题目\][\s\S]*?\[E题目\])",file2_data)
         for p in problems:
-            if pair[3] in p:
+            if pair[3]+"\n<EID>" in p:
                 problem_to_mark = p
                 #print(problem_to_mark)
         same_record = re.findall("<B关联题目>[\s\S]*?<E关联题目>",problem_to_mark)[0]
