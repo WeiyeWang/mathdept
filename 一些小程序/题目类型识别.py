@@ -17,7 +17,7 @@ def crop_text(string,substr1,substr2):
     end_pos = string.index(substr2)+len(substr2)
     return string[start_pos:end_pos]
 os.chdir(r"..\题库0.2")
-vaults = [f for f in os.listdir() if "题库" in f]
+vaults = [f for f in os.listdir() if "题库" in f or "vault" in f]
 for i in range(len(vaults)):
     file = vaults[i]
     with open(r"../题库0.2/"+file,"r",encoding="utf8") as vault:
@@ -33,7 +33,7 @@ for i in range(len(vaults)):
         if len(c)>0:
             catagoried_count += 1
     print(i,":",file,". ",catagoried_count,"/",problem_count,"题已分类.")
-choice = input("选择需要赋予类型的文件(0-"+str(len(vaults)-1)+":")
+choice = input("选择需要赋予类型的文件(0-"+str(len(vaults)-1)+"):")
 file = vaults[int(choice)]
 with open(r"../题库0.2/"+file,"r",encoding="utf8") as vault:
     data = vault.read()
