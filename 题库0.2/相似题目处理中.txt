@@ -72,19 +72,19 @@
 003258	已知数列$\{a_n\}$的通项$a_n=1+2+2^2+\cdots+2^n$, 则其前$n$项和$S_n=$\blank{50}.
 001796	已知数列$\{a_n\}$的通项$a_n=1+2+\cdots+n$, 则其前$n$项$S_n=$\blank{50}.
 
-0.9293
+0.9293 关联
 003258	已知数列$\{a_n\}$的通项$a_n=1+2+2^2+\cdots+2^n$, 则其前$n$项和$S_n=$\blank{50}.
 001797	已知数列$\{a_n\}$的通项$a_n=1+2+4+\cdots+2^{n-1}$, 则其前$n$项$S_n=$\blank{50}.
 
-0.9293
+0.9293 无关
 003258	已知数列$\{a_n\}$的通项$a_n=1+2+2^2+\cdots+2^n$, 则其前$n$项和$S_n=$\blank{50}.
 001798	已知数列$\{a_n\}$的通项$a_n=1+2+3+\cdots+2^{n-1}$, 则其前$n$项$S_n=$\blank{50}.
 
-0.9854
+0.9854 关联
 003292	设等比数列$\{a_n\}$的通项公式为$a_n={q^{n+1}}$($n\in \mathbf{N}^*$), 前$n$项和为$S_n$.若$\displaystyle\lim_{n\to \infty}\dfrac {S_n}{a_{n+1}}=\dfrac 12$, 则$q$=\blank{50}
 003661	设等比数列$\{a_n\}$的通项公式为$a_n=q^{n-1} \ (n\in \mathbf{N}^*)$, 前$n$项和为$S_n$. 若$\displaystyle\lim_{n\to \infty}\dfrac{S_n}{a_{n+1}}=\dfrac{1}{2}$, 则$q=$\blank{50}.
 
-0.9773
+0.9773 相同
 003317	数列$\{a_n\}$满足$a_1=\dfrac 35$, $a_n=2-\dfrac 1{a_{n-1}}$, 数列$\{b_n\}$满足$b_n=\dfrac 1{a_n-1}$.\\
 (1) 求证: 数列$\{b_n\}$是等差数列;\\
 (2) 求数列$\{a_n\}$的通项.
@@ -92,17 +92,17 @@
 (1) 求证: 数列$\{b_n\}$是等差数列;\\ 
 (2) 求数列$\{a_n\}$的通项.
 
-0.9767
+0.9767 相同
 003379	已知实数$x_1,x_2,y_1,y_2$满足: $x_1^2+y_1^2=1$, $x_2^2+y_2^2=1$, $x_1x_2+y_1y_2=\dfrac 12$, 则$\dfrac{|x_1+y_1-1|}{\sqrt 2}+\dfrac{|x_2+y_2-1|}{\sqrt 2}$的最大值为\blank{50}.
 003663	已知实数$x_1$、$x_2$、$y_1$、$y_2$满足: $x_1^2+y_1^2=1$, $x_2^2+y_2^2=1$, $x_1x_2+y_1y_2=\dfrac{1}{2}$, 则$\dfrac{|x_1+y_1-1|}{\sqrt{2}}+\dfrac{|x_2+y_2-1|}{\sqrt{2}}$的最大值为\blank{50}.
 
-0.9688
+0.9688 相同
 003380	如图, 用$35$个单位正方形拼成一个矩形, 点$P_1$、$P_2$、$P_3$、$P_4$以及四个标记为``''的点在正方形的顶点处, 设集合$\Omega =\{P_1,P_2,P_3,P_4\}$, 点$P\in \Omega$, 过$P$作直线$l_P$, 使得不在$l_P$上的``''的点分布在$l_P$的两侧. 用$D_1(l_P)$和$D_2(l_P)$分别表示$l_P$一侧和另一侧的``''的点到$l_P$的距离之和. 若过$P$的直线$l_P$中有且只有一条满足$D_1(l_P)=D_2(l_P)$, 则$\Omega$中所有这样的$P$为\blank{50}.
 
 003684	如图, 用$35$个单位正方形拼成一个矩形, 点$P_1,P_2,P_3,P_4$以及四个标记为``''的点在正方形的顶点处, 设集合$\Omega=\{P_1,P_2,P_3,P_4\}$, 点$P\in \Omega$. 过$P$作直线$l_P$, 使得不在$l_P$上的``''的点分布在$l_P$的两侧. 用$D_1(l_P)$和$D_2(l_P)$分别表示$l_P$一侧和另一侧的``''的点到$l_P$的距离之和. 若过$P$的直线$l_P$中有且只有一条满足$D_1(l_P)=D_2(l_P)$, 则$\Omega$中所有这样的$P$为\blank{50}.
 
 
-0.9517
+0.9517 相同
 003417	*在平面直角坐标系$xOy$中, 已知椭圆$\Gamma:\dfrac{x^2}4+{y^2}=1$, $A$为$\Gamma$的上顶点, $P$为$\Gamma$上异于上、下顶点的动点, $M$为正半轴上的动点.\\
 (1) 若$P$在第一象限, 且$|OP|=\sqrt 2$, 求$P$的坐标;\\
 (2) 设$P(\dfrac 85,\dfrac 35)$, 若以$A$、$P$、$M$为顶点的三角形是直角三角形, 求$M$的横坐标$m$;\\
@@ -112,36 +112,36 @@
 (2) 设$P\left(\dfrac{8}{5},\dfrac{3}{5}\right)$. 若以$A,P,M$为顶点的三角形是直角三角形, 求$M$的横坐标;\\
 (3) 若$|MA|=|MP|$, 直线$AQ$与$\Gamma$交于另一点$C$, 且$\overrightarrow{AQ}=2\overrightarrow{AC}$, $\overrightarrow{PQ}=4\overrightarrow{PM}$, 求直线$AQ$的方程.
 
-0.9565
+0.9565 关联
 003448	抛物线$y=-4x^2$的焦点坐标是\blank{50}.
 000728	抛物线$y=x^2$的焦点坐标是\blank{50}.
 
-0.9402
+0.9402 相同
 003477	过半径为$2$的球$O$表面上一点$A$作球$O$的截面, 若$OA$与该截面所成的角的大小为$60^\circ$, 则该截面的面积是\blank{50}.
 000331	若半径为2的球$O$表面上一点$A$作球$O$的截面, 若$OA$与该截面所成的角是$60^\circ$, 则该
 截面的面积是\blank{50}.
 
-0.9541
+0.9541 相同
 003483	若圆锥的侧面积为$20\pi$, 且母线与底面所成的角的大小为$\arccos\dfrac 45$, 则该圆锥的体积为\blank{50}.
 000402	若圆锥侧面积为$20\pi$, 且母线与底面所成角为$\arccos \dfrac45$, 则该圆锥的体积为\blank{50}.
 
-1.0000
+1.0000 相同
 003698	设$\alpha_1,\alpha_2\in \mathbf{R}$, 且$\dfrac1{2+\sin\alpha_1}+\dfrac1{2+\sin(2\alpha_2)}=2$, 则$|10 \pi-\alpha_1-\alpha_2|$的最小值等于\blank{50}.
 003683	设$\alpha_1,\alpha_2\in \mathbf{R}$, 且$\dfrac{1}{2+\sin\alpha_1}+\dfrac{1}{2+\sin(2\alpha_2)}=2$, 则$|10\pi-\alpha_1-\alpha_2|$的最小值等于\blank{50}.
 
-0.9538
+0.9538 相同
 000007	已知集合$A=\{x|x^2+px+q=0\}$, $B=\{x|x^2-x+r=0\}$, 且$A\cap B=\{-1\}$, $A\cup B=\{-1, 2\}$. 求实数$p$、$q$、$r$的值.
 001015	已知集合$A=\{x|\ x^2+px+q=0\}$, $B=\{x|\ x^2-x+r=0\}$, 且$A\cap B=\{-1\}$, $A\cup B=\{-1,2\}$, 求实数$p,q,r$的值.
 
-0.9641
+0.9641 相同
 000154	已知等边三角形$ABC$的边长为$1$, $\overrightarrow{BC}=\overrightarrow a$, $\overrightarrow{CA}=\overrightarrow b$, $\overrightarrow{AB}=\overrightarrow c$. 求$\overrightarrow a\cdot \overrightarrow b+\overrightarrow b\cdot \overrightarrow c+\overrightarrow c\cdot \overrightarrow a$.
 001879	已知等边三角形$ABC$中, $\overrightarrow{BC}=\overrightarrow{a}$, $\overrightarrow{CA}=\overrightarrow{b}$, $\overrightarrow{AB}=\overrightarrow{c}$. 则$\overrightarrow{a}\cdot\overrightarrow{b}+\overrightarrow{b}\cdot\overrightarrow{c}+\overrightarrow{c}\cdot\overrightarrow{a}=$\blank{50}.
 
-0.9706
+0.9706 相同
 000282	已知直线$y=ax-1$与曲线$y^2=2x$只有一个公共点, 求实数$a$的值.
 002121	已知曲线$y=ax-1$与曲线$y^2=2x$只有一个公共点, 求实数$a$的值.
 
-0.9366
+0.9366 相同
 000322	用数学归纳法证明: $1-\dfrac12+\dfrac 13-\dfrac 14+\cdots +\dfrac{1}{2n-1}-\dfrac{1}{2n}=\dfrac{1}{n+1}+\dfrac{1}{n+2}+\cdots+\dfrac{1}{2n}$($n$为正整数).
 001020	用数学归纳法证明: 对一切正整数$n$, $1-\dfrac{1}{2}+\dfrac{1}{3}-\dfrac{1}{4}+\cdots+\dfrac{1}{2n-1}-\dfrac{1}{2n}=\dfrac{1}{n+1}+\dfrac{1}{n+2}+\cdots+\dfrac{1}{2n}$.
 
