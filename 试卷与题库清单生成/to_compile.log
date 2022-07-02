@@ -1,12 +1,12 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  1 JUL 2022 21:45
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  2 JUL 2022 23:45
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**to_compile.tex
+**to_compile
 (./to_compile.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18>
-(c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
+L3 programming layer <2021-02-18> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
 (c:/texlive/2021/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
@@ -22,15 +22,11 @@ File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-)
-(c:/texlive/2021/texmf-dist/tex/latex/ctex/ctex.sty
-(c:/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/ctex/ctex.sty (c:/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2021-02-18 L3 programming layer (loader) 
-
-(c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+ (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2021-03-18 L3 backend support: XeTeX
-
-(|extractbb --version)
+ (|extractbb --version)
 \c__kernel_sys_dvipdfmx_version_int=\count183
 \l__color_backend_stack_int=\count184
 \g__color_backend_stack_int=\count185
@@ -41,46 +37,32 @@ File: l3backend-xetex.def 2021-03-18 L3 backend support: XeTeX
 \g__pdf_backend_link_int=\count189
 ))
 Package: ctex 2021/03/14 v2.5.6 Chinese adapter in LaTeX (CTEX)
-
-(c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
-(c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
-(c:/texlive/2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty (c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))) (c:/texlive/2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
-)
-(c:/texlive/2021/texmf-dist/tex/latex/ctex/ctexhook.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/ctex/ctexhook.sty
 Package: ctexhook 2021/03/14 v2.5.6 Document and package hooks (CTEX)
-)
-(c:/texlive/2021/texmf-dist/tex/latex/ctex/ctexpatch.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/ctex/ctexpatch.sty
 Package: ctexpatch 2021/03/14 v2.5.6 Patching commands (CTEX)
-)
-(c:/texlive/2021/texmf-dist/tex/latex/base/fix-cm.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
-
-(c:/texlive/2021/texmf-dist/tex/latex/base/ts1enc.def
+ (c:/texlive/2021/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
-))
-(c:/texlive/2021/texmf-dist/tex/latex/everysel/everysel.sty
+)) (c:/texlive/2021/texmf-dist/tex/latex/everysel/everysel.sty
 Package: everysel 2021/01/20 v2.1 EverySelectfont Package (MS)
-
-(c:/texlive/2021/texmf-dist/tex/latex/everysel/everysel-2011-10-28.sty))
+ (c:/texlive/2021/texmf-dist/tex/latex/everysel/everysel-2011-10-28.sty))
 \l__ctex_tmp_int=\count190
 \l__ctex_tmp_box=\box48
 \l__ctex_tmp_dim=\dimen139
 \g__ctex_section_depth_int=\count191
 \g__ctex_font_size_int=\count192
-
-(c:/texlive/2021/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+ (c:/texlive/2021/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2021/03/14 v2.5.6 Option configuration file (CTEX)
-)
-(c:/texlive/2021/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+) (c:/texlive/2021/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
 File: ctex-engine-xetex.def 2021/03/14 v2.5.6 XeLaTeX adapter (CTEX)
-
-(c:/texlive/2021/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+ (c:/texlive/2021/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
 Package: xeCJK 2020/10/19 v3.8.6 Typesetting CJK scripts with XeLaTeX
-
-(c:/texlive/2021/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
 Package: xtemplate 2021-03-12 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen140
 \l__xtemplate_tmp_int=\count193
@@ -145,13 +127,10 @@ Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
 \g__xeCJK_fam_allocation_int=\count269
 \l__xeCJK_verb_case_int=\count270
 \l__xeCJK_verb_exspace_skip=\skip55
-
-(c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
-
-(c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
-X
+ (c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_script_int=\count271
 \l__fontspec_language_int=\count272
 \l__fontspec_strnum_int=\count273
@@ -166,39 +145,28 @@ X
 \l__fontspec_tmpa_dim=\dimen169
 \l__fontspec_tmpb_dim=\dimen170
 \l__fontspec_tmpc_dim=\dimen171
-
-(c:/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-)
-(c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-(c:/texlive/2021/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+) (c:/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (c:/texlive/2021/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
 File: xeCJK.cfg 2020/10/19 v3.8.6 Configuration file for xeCJK package
 ))
 \ccwd=\dimen172
 \l__ctex_ccglue_skip=\skip56
 )
 \l__ctex_ziju_dim=\dimen173
-
-(c:/texlive/2021/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/zhnumber/zhnumber.sty
 Package: zhnumber 2020/05/01 v2.8 Typesetting numbers with Chinese glyphs
 \l__zhnum_scale_int=\count282
-
-(c:/texlive/2021/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+ (c:/texlive/2021/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2020/05/01 v2.8 Chinese numerals with UTF8 encoding
-))
-(c:/texlive/2021/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.def
-File: ctex-scheme-chinese.def 2021/03/14 v2.5.6 Chinese scheme for generic (CTE
-X)
-
-(c:/texlive/2021/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+)) (c:/texlive/2021/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.def
+File: ctex-scheme-chinese.def 2021/03/14 v2.5.6 Chinese scheme for generic (CTEX)
+ (c:/texlive/2021/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
 File: ctex-name-utf8.cfg 2021/03/14 v2.5.6 Caption with encoding UTF-8 (CTEX)
-))
-(c:/texlive/2021/texmf-dist/tex/latex/tools/indentfirst.sty
+)) (c:/texlive/2021/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-)
-(c:/texlive/2021/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
-File: ctex-fontset-windows.def 2021/03/14 v2.5.6 Windows fonts definition (CTEX
-)
+) (c:/texlive/2021/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+File: ctex-fontset-windows.def 2021/03/14 v2.5.6 Windows fonts definition (CTEX)
 
 Package fontspec Info: Could not resolve font "KaiTi/B" (it probably doesn't
 (fontspec)             exist).
@@ -229,8 +197,7 @@ Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
 (fontspec)             <->"KaiTi/OT:script=hani;language=dflt;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 
-))
-(c:/texlive/2021/texmf-dist/tex/latex/ctex/config/ctex.cfg
+)) (c:/texlive/2021/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2021/03/14 v2.5.6 Configuration file (CTEX)
 )
 
@@ -266,8 +233,7 @@ Package fontspec Info: Font family '等线(0)' created for font '等线' with op
 
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup4
@@ -275,25 +241,21 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+)) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip57
 
 For additional information on amsmath, use the `?' option.
 (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
-(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen174
-))
-(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen175
-)
-(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count283
@@ -333,8 +295,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-)
-(c:/texlive/2021/texmf-dist/tex/latex/amscls/amsthm.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks21
 \thm@bodyfont=\toks22
@@ -345,85 +306,59 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip61
 \thm@headsep=\skip62
 \dth@everypar=\toks26
-)
-(c:/texlive/2021/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
-)
-(c:/texlive/2021/texmf-dist/tex/latex/doublestroke/dsfont.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/doublestroke/dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
-)
-(c:/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
-
-(c:/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks27
-)
-(c:/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
-
-(c:/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 105.
-
-(c:/texlive/2021/texmf-dist/tex/latex/graphics-def/xetex.def
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen183
 \Gin@req@width=\dimen184
-)
-(c:/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(c:/texlive/2021/texmf-dist/tex/latex/tools/enumerate.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks28
-)
-(c:/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
-
-(c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: xetex.def on input line 147.
-)
-(c:/texlive/2021/texmf-dist/tex/latex/titlesec/titletoc.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2019/10/16 v2.13 TOC entries
 \ttl@leftsep=\dimen185
-)
-(c:/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(c:/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+) (c:/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks29
 \pgfutil@tempdima=\dimen186
 \pgfutil@tempdimb=\dimen187
-
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
-) (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box52
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
 ))
 Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
-
-(c:/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(c:/texlive/2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+ (c:/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
-
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks30
 \pgfkeys@temptoks=\toks31
-
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks32
 ))
 \pgf@x=\dimen188
@@ -450,29 +385,23 @@ Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
 )
 Driver file for pgf: pgfsys-xetex.def
-
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
 File: pgfsys-xetex.def 2020/12/27 v3.1.8b (3.1.8b)
-
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
 File: pgfsys-dvipdfmx.def 2020/12/27 v3.1.8b (3.1.8b)
-
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 )
 \pgfsys@objnum=\count300
-)))
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+))) (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfsyssoftpath@smallbuffer@items=\count301
 \pgfsyssoftpath@bigbuffer@items=\count302
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )) (c:/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 225.
@@ -485,43 +414,18 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
-
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen198
 \pgfmath@count=\count303
 \pgfmath@box=\box53
 \pgfmath@toks=\toks36
 \pgfmath@stack@operand=\toks37
 \pgfmath@stack@operation=\toks38
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
-x)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
-.code.tex)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
-ex)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
-de.tex)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
-x)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
-etics.code.tex)))
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count304
-))
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@picminx=\dimen199
 \pgf@picmaxx=\dimen256
@@ -537,112 +441,76 @@ File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@yy=\dimen266
 \pgf@zx=\dimen267
 \pgf@zy=\dimen268
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
-e.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@path@lastx=\dimen269
 \pgf@path@lasty=\dimen270
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
-x
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@shorten@end@additional=\dimen271
 \pgf@shorten@start@additional=\dimen272
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfpic=\box54
 \pgf@hbox=\box55
 \pgf@layerbox@main=\box56
 \pgf@picture@serial@count=\count305
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
-.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgflinewidth=\dimen273
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
-ode.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@pt@x=\dimen274
 \pgf@pt@y=\dimen275
 \pgf@pt@temp=\dimen276
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
-de.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfarrowsep=\dimen277
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@max=\dimen278
 \pgf@sys@shading@range@num=\count306
 \pgf@shadingcount=\count307
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfexternal@startupbox=\box57
-))
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
-.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))) (c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
-x
+))) (c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfnodeparttextbox=\box58
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-)
-(c:/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
-y
+) (c:/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@nodesepstart=\dimen279
 \pgf@nodesepend=\dimen280
-)
-(c:/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
-y
+) (c:/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
-)) (c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(c:/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
-
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen281
 \pgffor@skip=\dimen282
 \pgffor@stack=\toks39
 \pgffor@toks=\toks40
-))
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
-
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
-de.tex
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@plot@mark@count=\count308
 \pgfplotmarksize=\dimen283
@@ -663,20 +531,16 @@ File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \tikznumberofchildren=\count310
 \tikznumberofcurrentchild=\count311
 \tikz@fig@count=\count312
-
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfmatrixcurrentrow=\count313
 \pgfmatrixcurrentcolumn=\count314
 \pgf@matrix@numberofcolumns=\count315
 )
 \tikz@expandcount=\count316
-
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarytopaths.code.tex
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-)))
-(c:/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
+))) (c:/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \c@tracingmulticols=\count317
 \mult@box=\box63
@@ -745,11 +609,9 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \mult@nat@firstbox=\box107
 \colbreak@box=\box108
 \mc@col@check@num=\count326
-)
-(c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
+) (c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-
-(c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \col@sep=\dimen301
 \ar@mcellbox=\box109
@@ -762,154 +624,152 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \rotheadsize=\dimen303
 \c@nlinenum=\count327
 \TeXr@lab=\toks42
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-braryarrows.code.tex
+) (c:/texlive/2021/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip67
+\LTright=\skip68
+\LTpre=\skip69
+\LTpost=\skip70
+\LTchunksize=\count328
+\LTcapwidth=\dimen304
+\LT@head=\box111
+\LT@firsthead=\box112
+\LT@foot=\box113
+\LT@lastfoot=\box114
+\LT@cols=\count329
+\LT@rows=\count330
+\c@LT@tables=\count331
+\c@LT@chunks=\count332
+\LT@p@ftn=\toks43
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\arrowsize=\dimen304
-))
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarycalc.code.tex
+\arrowsize=\dimen305
+)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-braryintersections.code.tex
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.c
-ode.tex
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
-\pgf@intersect@solutions=\count328
-))
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarypatterns.code.tex
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+\pgf@intersect@solutions=\count333
+)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
 File: tikzlibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-
-(c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.t
-ex
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
 File: pgflibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )) (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box111
-\beforetitleunit=\skip67
-\aftertitleunit=\skip68
-\ttl@plus=\dimen305
-\ttl@minus=\dimen306
-\ttl@toksa=\toks43
-\titlewidth=\dimen307
-\titlewidthlast=\dimen308
-\titlewidthfirst=\dimen309
-
-(c:/texlive/2021/texmf-dist/tex/latex/titlesec/titleps.sty))
-(c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+\ttl@box=\box115
+\beforetitleunit=\skip71
+\aftertitleunit=\skip72
+\ttl@plus=\dimen306
+\ttl@minus=\dimen307
+\ttl@toksa=\toks44
+\titlewidth=\dimen308
+\titlewidthlast=\dimen309
+\titlewidthfirst=\dimen310
+ (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titleps.sty)) (c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+ (c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count329
-\Gm@cntv=\count330
-\c@Gm@tempcnt=\count331
-\Gm@bindingoffset=\dimen310
-\Gm@wd@mp=\dimen311
-\Gm@odd@mp=\dimen312
-\Gm@even@mp=\dimen313
-\Gm@layoutwidth=\dimen314
-\Gm@layoutheight=\dimen315
-\Gm@layouthoffset=\dimen316
-\Gm@layoutvoffset=\dimen317
-\Gm@dimlist=\toks44
+\Gm@cnth=\count334
+\Gm@cntv=\count335
+\c@Gm@tempcnt=\count336
+\Gm@bindingoffset=\dimen311
+\Gm@wd@mp=\dimen312
+\Gm@odd@mp=\dimen313
+\Gm@even@mp=\dimen314
+\Gm@layoutwidth=\dimen315
+\Gm@layoutheight=\dimen316
+\Gm@layouthoffset=\dimen317
+\Gm@layoutvoffset=\dimen318
+\Gm@dimlist=\toks45
 )
-\c@defi=\count332
-\c@eg=\count333
-\c@ex=\count334
-\c@rem=\count335
-\c@thm=\count336
-\c@coro=\count337
-\c@axiom=\count338
-\c@prop=\count339
- (./to_compile.aux
-(./problems_file.aux))
+\c@defi=\count337
+\c@eg=\count338
+\c@ex=\count339
+\c@rem=\count340
+\c@thm=\count341
+\c@coro=\count342
+\c@axiom=\count343
+\c@prop=\count344
+ (./to_compile.aux (./problems_file.aux))
 \openout1 = `to_compile.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 43.
+LaTeX Info: Redefining \selectfont on input line 44.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 43.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 43.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 43.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 43.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 43.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 43.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 43.
-LaTeX Font Info:    Redeclaring math accent \check on input line 43.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 43.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 43.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 43.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 43.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 44.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 44.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 44.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 44.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 44.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 44.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 44.
+LaTeX Font Info:    Redeclaring math accent \check on input line 44.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 44.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 44.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 44.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 44.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 43.
+(Font)              `operators' in the math version `normal' on input line 44.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 43.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 44.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 43.
+(Font)              `operators' in the math version `bold' on input line 44.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 43.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 44.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 43.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 43.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 43.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 43.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 43.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 44.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 43.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 43.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 43.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 43.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 44.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -953,14 +813,11 @@ LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
-
-(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 1.
-
-
-(c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
+ (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 Overfull \hbox (22.22168pt too wide) in paragraph at lines 12--13
@@ -990,15 +847,12 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 47--48
 [][] 
  []
 
-LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 5
-4.
+LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 54.
 (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-54.
-
-(c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 54.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
@@ -1020,13 +874,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 75--76
 
 [4]
 Overfull \hbox (59.12622pt too wide) in paragraph at lines 100--101
-[]\TU/lmr/m/n/10 (003767) \TU/等线(0)/m/n/10 某 学 校 组 织 学 生 参 加 英 语 测 试\TU/lmr/m/n
-/10 , \TU/等线(0)/m/n/10 成 绩 的 频 率 分 布 直 方 图 如 图\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10
- 数 据 的 分 组 依 次 为 $\OT1/cmr/m/n/10 [20\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 40)\OML
-/cmm/m/it/10 ; \OT1/cmr/m/n/10 [40\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 60)\OML/cm
-m/m/it/10 ; \OT1/cmr/m/n/10 [60\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 80)\OML/cmm/m
-/it/10 ; \OT1/cmr/m/n/10 [80\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 100)$\TU/lmr/m/n
-/10 .
+[]\TU/lmr/m/n/10 (003767) \TU/等线(0)/m/n/10 某 学 校 组 织 学 生 参 加 英 语 测 试\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 成 绩 的 频 率 分 布 直 方 图 如 图\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 数 据 的 分 组 依 次 为 $\OT1/cmr/m/n/10 [20\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 40)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 [40\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 60)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 [60\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 80)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 [80\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 100)$\TU/lmr/m/n/10 .
  []
 
 
@@ -1076,11 +924,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 292--293
 
 
 Overfull \hbox (26.01057pt too wide) in paragraph at lines 304--306
-\TU/lmr/m/n/10 (\TU/等线(0)/m/n/10 文 科\TU/lmr/m/n/10 ) \TU/等线(0)/m/n/10 袋 子 中 有 大
- 小 形 状 相 同 的 $\OT1/cmr/m/n/10 4$ \TU/等线(0)/m/n/10 个 红 球\TU/lmr/m/n/10 , $\OT1/c
-mr/m/n/10 3$ \TU/等线(0)/m/n/10 个 白 球\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 某 人 随 机 抽 
-出 两 个 球\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 恰 好 是 一 红 一 白 的 概 率 是$[]$\TU/lmr/m/n
-/10 . 
+\TU/lmr/m/n/10 (\TU/等线(0)/m/n/10 文 科\TU/lmr/m/n/10 ) \TU/等线(0)/m/n/10 袋 子 中 有 大 小 形 状 相 同 的 $\OT1/cmr/m/n/10 4$ \TU/等线(0)/m/n/10 个 红 球\TU/lmr/m/n/10 , $\OT1/cmr/m/n/10 3$ \TU/等线(0)/m/n/10 个 白 球\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 某 人 随 机 抽 出 两 个 球\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 恰 好 是 一 红 一 白 的 概 率 是$[]$\TU/lmr/m/n/10 . 
  []
 
 [10]
@@ -1130,14 +974,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 491--492
 
 [15]
 Overfull \hbox (33.34203pt too wide) in paragraph at lines 530--531
-[]\TU/lmr/m/n/10 (003887) \TU/等线(0)/m/n/10 从 集 合 $\OMS/cmsy/m/n/10 f\OT1/cmr/m/
-n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\
-OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 5\OML/cmm
-/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7\OML/cmm/m/it/1
-0 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 9\OMS/cmsy/m/n/10 g$ \T
-U/等线(0)/m/n/10 中 任 取 两 个 不 同 的 数\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 其 中 一 个 数 恰
- 是 另 一 个 数 的 $\OT1/cmr/m/n/10 3$ \TU/等线(0)/m/n/10 倍 的 概 率 为$[]$\TU/lmr/m/n/10 .
- 
+[]\TU/lmr/m/n/10 (003887) \TU/等线(0)/m/n/10 从 集 合 $\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 9\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 中 任 取 两 个 不 同 的 数\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 其 中 一 个 数 恰 是 另 一 个 数 的 $\OT1/cmr/m/n/10 3$ \TU/等线(0)/m/n/10 倍 的 概 率 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [16]
@@ -1152,13 +989,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 538--539
 
 
 Overfull \hbox (9.76146pt too wide) in paragraph at lines 539--542
-[]\TU/lmr/m/n/10 (003892) \TU/等线(0)/m/n/10 已 知 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/
-m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 是 定 义 在 $\OT1/cmr
-/m/n/10 (\OMS/cmsy/m/n/10 ^^@1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0) \OMS/cmsy/m
-/n/10 [ \OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 +\OMS/cmsy/m/n/10 
-1\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 上 的 偶 函 数\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10
- 当 $\OML/cmm/m/it/10 x > \OT1/cmr/m/n/10 0$ \TU/等线(0)/m/n/10 时\TU/lmr/m/n/10 , 
-$\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = []$
+[]\TU/lmr/m/n/10 (003892) \TU/等线(0)/m/n/10 已 知 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 是 定 义 在 $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0) \OMS/cmsy/m/n/10 [ \OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 +\OMS/cmsy/m/n/10 1\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 上 的 偶 函 数\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 当 $\OML/cmm/m/it/10 x > \OT1/cmr/m/n/10 0$ \TU/等线(0)/m/n/10 时\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = []$
  []
 
 
@@ -1168,12 +999,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 542--543
 
 [17]
 Overfull \hbox (3.285pt too wide) in paragraph at lines 558--561
-\TU/等线(0)/m/n/10 是 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/c
-mr/m/n/10 )$ \TU/等线(0)/m/n/10 的 单 调 区 间\TU/lmr/m/n/10 ; [] \TU/等线(0)/m/n/10 存 在
- 经 过 点 $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a; b\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/
-10 的 直 线 与 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m
-/n/10 )$ \TU/等线(0)/m/n/10 的 图 像 不 相 交\TU/lmr/m/n/10 . \TU/等线(0)/m/n/10 以 上 结 论 
-正 确 的 是$[]$\TU/lmr/m/n/10 (\TU/等线(0)/m/n/10 写
+\TU/等线(0)/m/n/10 是 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 的 单 调 区 间\TU/lmr/m/n/10 ; [] \TU/等线(0)/m/n/10 存 在 经 过 点 $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a; b\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 的 直 线 与 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 的 图 像 不 相 交\TU/lmr/m/n/10 . \TU/等线(0)/m/n/10 以 上 结 论 正 确 的 是$[]$\TU/lmr/m/n/10 (\TU/等线(0)/m/n/10 写
  []
 
 
@@ -1193,10 +1019,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 566--567
 
 [18] [19]
 Overfull \hbox (1.62221pt too wide) in paragraph at lines 629--630
-[]\TU/lmr/m/n/10 (003922) \TU/等线(0)/m/n/10 给 出 下 列 类 比 推 理 命 题 \TU/lmr/m/n/10 (
-$[]$ \TU/等线(0)/m/n/10 为 实 数 集\TU/lmr/m/n/10 , $[]$ \TU/等线(0)/m/n/10 为 复 数 集\TU/
-lmr/m/n/10 , $\OML/cmm/m/it/10 M$ \TU/等线(0)/m/n/10 为 平 面 向 量 集\TU/lmr/m/n/10 ),
- \TU/等线(0)/m/n/10 其 中 类 比 结 论 正 确 的 是$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (003922) \TU/等线(0)/m/n/10 给 出 下 列 类 比 推 理 命 题 \TU/lmr/m/n/10 ($[]$ \TU/等线(0)/m/n/10 为 实 数 集\TU/lmr/m/n/10 , $[]$ \TU/等线(0)/m/n/10 为 复 数 集\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 M$ \TU/等线(0)/m/n/10 为 平 面 向 量 集\TU/lmr/m/n/10 ), \TU/等线(0)/m/n/10 其 中 类 比 结 论 正 确 的 是$[]$\TU/lmr/m/n/10 . 
  []
 
 [20]
@@ -1281,12 +1104,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 866--867
 
 [26]
 Overfull \hbox (1.88963pt too wide) in paragraph at lines 886--887
-[]\TU/lmr/m/n/10 (003989) \TU/等线(0)/m/n/10 正 三 棱 锥 $\OML/cmm/m/it/10 P \OMS/cms
-y/m/n/10 ^^@ \OML/cmm/m/it/10 ABC$ \TU/等线(0)/m/n/10 的 高 为 $\OT1/cmr/m/n/10 2$\T
-U/lmr/m/n/10 , \TU/等线(0)/m/n/10 侧 棱 与 底 面 $\OML/cmm/m/it/10 ABC$ \TU/等线(0)/m/n/
-10 成 $\OT1/cmr/m/n/10 45[]$ \TU/等线(0)/m/n/10 角\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10
- 则 点 $\OML/cmm/m/it/10 A$ \TU/等线(0)/m/n/10 到 侧 面 $\OML/cmm/m/it/10 PBC$ \TU/等线(
-0)/m/n/10 的 距 离 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (003989) \TU/等线(0)/m/n/10 正 三 棱 锥 $\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ABC$ \TU/等线(0)/m/n/10 的 高 为 $\OT1/cmr/m/n/10 2$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 侧 棱 与 底 面 $\OML/cmm/m/it/10 ABC$ \TU/等线(0)/m/n/10 成 $\OT1/cmr/m/n/10 45[]$ \TU/等线(0)/m/n/10 角\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 点 $\OML/cmm/m/it/10 A$ \TU/等线(0)/m/n/10 到 侧 面 $\OML/cmm/m/it/10 PBC$ \TU/等线(0)/m/n/10 的 距 离 为$[]$\TU/lmr/m/n/10 . 
  []
 
 
@@ -1311,11 +1129,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 983--984
 
 
 Overfull \hbox (9.89064pt too wide) in paragraph at lines 985--986
-[]\TU/lmr/m/n/10 (002726) \TU/等线(0)/m/n/10 调 查 某 班 $\OT1/cmr/m/n/10 50$ \TU/等线(
-0)/m/n/10 名 学 生\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 音 乐 爱 好 者 有 $\OT1/cmr/m/n/10 4
-0$ \TU/等线(0)/m/n/10 人\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 体 育 爱 好 者 有 $\OT1/cmr/m/
-n/10 24$ \TU/等线(0)/m/n/10 人\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 两 方 面 都 爱 好 的 人 
-数 最 少$[]$
+[]\TU/lmr/m/n/10 (002726) \TU/等线(0)/m/n/10 调 查 某 班 $\OT1/cmr/m/n/10 50$ \TU/等线(0)/m/n/10 名 学 生\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 音 乐 爱 好 者 有 $\OT1/cmr/m/n/10 40$ \TU/等线(0)/m/n/10 人\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 体 育 爱 好 者 有 $\OT1/cmr/m/n/10 24$ \TU/等线(0)/m/n/10 人\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 两 方 面 都 爱 好 的 人 数 最 少$[]$
  []
 
 [30]
@@ -1385,15 +1199,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 1249--1250
 
 
 Overfull \hbox (3.76929pt too wide) in paragraph at lines 1251--1252
-[]\TU/lmr/m/n/10 (002867) \TU/等线(0)/m/n/10 已 知 函 数 $\OML/cmm/m/it/10 y \OT1/cmr
-/m/n/10 = \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 
-)$ \TU/等线(0)/m/n/10 满 足\TU/lmr/m/n/10 : \TU/等线(0)/m/n/10 对 于 任 意 $\OML/cmm/m/it
-/10 x \OMS/cmsy/m/n/10 2 []$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 都 有 $\OML/cmm/m/i
-t/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + 1) = \OMS/cmsy/m/n/
-10 ^^@\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$\T
-U/lmr/m/n/10 . \TU/等线(0)/m/n/10 若 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (1) = 1$\T
-U/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (4) =$$[]$
-\TU/lmr/m/n/10 ;
+[]\TU/lmr/m/n/10 (002867) \TU/等线(0)/m/n/10 已 知 函 数 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 满 足\TU/lmr/m/n/10 : \TU/等线(0)/m/n/10 对 于 任 意 $\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 2 []$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 都 有 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + 1) = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 . \TU/等线(0)/m/n/10 若 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (1) = 1$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (4) =$$[]$\TU/lmr/m/n/10 ;
  []
 
 [41]
@@ -1439,13 +1245,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 1495--1497
 
 [50]
 Overfull \hbox (3.41711pt too wide) in paragraph at lines 1514--1515
-[]\TU/lmr/m/n/10 (002977) \TU/等线(0)/m/n/10 若 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/
-n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 x \OT1/cmr/m/n/10 
-+ []$\TU/lmr/m/n/10 ($\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 x
- \OMS/cmsy/m/n/10 ^^T \OT1/cmr/m/n/10 5$\TU/lmr/m/n/10 ), \TU/等线(0)/m/n/10 则 函 
-数 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML
-/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 的 递 减 区 间 是$[]$\TU/lmr/m/n/10
- , \TU/等线(0)/m/n/10 递 增 区 间 是$[]$\TU/lmr/m/n/10 ,
+[]\TU/lmr/m/n/10 (002977) \TU/等线(0)/m/n/10 若 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + []$\TU/lmr/m/n/10 ($\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^T \OT1/cmr/m/n/10 5$\TU/lmr/m/n/10 ), \TU/等线(0)/m/n/10 则 函 数 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 的 递 减 区 间 是$[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 递 增 区 间 是$[]$\TU/lmr/m/n/10 ,
  []
 
 
@@ -1475,13 +1275,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 1678--1679
 
 [57] [58]
 Overfull \hbox (14.45934pt too wide) in paragraph at lines 1704--1705
-[]\TU/lmr/m/n/10 (003106) \TU/等线(0)/m/n/10 若 定 义 在 $[]$ 上 的 函 数 $\OML/cmm/m/it/
-10 y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT
-1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 满 足 对 任 意 给 定 的 $\OML/cmm/m/it/10 ^^K \OMS/cms
-y/m/n/10 2 []$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 都 有 $\OML/cmm/m/it/10 f\OT1/cmr
-/m/n/10 ([] \OML/cmm/m/it/10 ^^K\OT1/cmr/m/n/10 ) = [] 2\OML/cmm/m/it/10 ^^K$\T
-U/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ([])[]$$[]
-$\TU/lmr/m/n/10 ,
+[]\TU/lmr/m/n/10 (003106) \TU/等线(0)/m/n/10 若 定 义 在 $[]$ 上 的 函 数 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 满 足 对 任 意 给 定 的 $\OML/cmm/m/it/10 ^^K \OMS/cmsy/m/n/10 2 []$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 都 有 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ([] \OML/cmm/m/it/10 ^^K\OT1/cmr/m/n/10 ) = [] 2\OML/cmm/m/it/10 ^^K$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ([])[]$$[]$\TU/lmr/m/n/10 ,
  []
 
 
@@ -1521,29 +1315,17 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 1879--1880
 
 [64]
 Overfull \hbox (65.46594pt too wide) in paragraph at lines 1892--1893
-[]\TU/lmr/m/n/10 (003187) \TU/等线(0)/m/n/10 化 简 下 列 各 式\TU/lmr/m/n/10 : $[]\OT1/
-cmr/m/n/10 ([] []) =$$[]$\TU/lmr/m/n/10 ; $[]\OT1/cmr/m/n/10 ([](\OMS/cmsy/m/n/
-10 ^^@[]\OT1/cmr/m/n/10 )) =$$[]$\TU/lmr/m/n/10 ; $[]\OT1/cmr/m/n/10 ([] []) =$
-$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (003187) \TU/等线(0)/m/n/10 化 简 下 列 各 式\TU/lmr/m/n/10 : $[]\OT1/cmr/m/n/10 ([] []) =$$[]$\TU/lmr/m/n/10 ; $[]\OT1/cmr/m/n/10 ([](\OMS/cmsy/m/n/10 ^^@[]\OT1/cmr/m/n/10 )) =$$[]$\TU/lmr/m/n/10 ; $[]\OT1/cmr/m/n/10 ([] []) =$$[]$\TU/lmr/m/n/10 . 
  []
 
 [65] [66]
 Overfull \hbox (3.42754pt too wide) in paragraph at lines 1933--1934
-[]\TU/lmr/m/n/10 (003215) \TU/等线(0)/m/n/10 已 知 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/
-m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 满 足\TU/lmr/m/n/10 : $\OML/cmm/m
-/it/10 a[] \OT1/cmr/m/n/10 = []$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 此 数 列 中 最 大
- 项 的 值 为$[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 最 小 项 的 值 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (003215) \TU/等线(0)/m/n/10 已 知 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 满 足\TU/lmr/m/n/10 : $\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = []$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 此 数 列 中 最 大 项 的 值 为$[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 最 小 项 的 值 为$[]$\TU/lmr/m/n/10 . 
  []
 
 
 Overfull \hbox (17.31004pt too wide) in paragraph at lines 1934--1935
-[]\TU/lmr/m/n/10 (003216) \TU/等线(0)/m/n/10 已 知 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/
-m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 满 足\TU/lmr/m/n/10 : $\OML/cmm/m
-/it/10 a[] \OT1/cmr/m/n/10 = 2[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 删 去 数 列 中 第 
-$\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; []  ; 
-\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 2\OML/
-cmm/m/it/10 ; [] $ \TU/等线(0)/m/n/10 项\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 得 到 新 数 
-列 的 通 项 $\OML/cmm/m/it/10 b[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (003216) \TU/等线(0)/m/n/10 已 知 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 满 足\TU/lmr/m/n/10 : $\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = 2[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 删 去 数 列 中 第 $\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; []  ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; [] $ \TU/等线(0)/m/n/10 项\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 得 到 新 数 列 的 通 项 $\OML/cmm/m/it/10 b[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
 
@@ -1553,16 +1335,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 1945--1946
 
 [67]
 Overfull \hbox (81.07901pt too wide) in paragraph at lines 1977--1978
-\TU/lmr/m/n/10 “\TU/等线(0)/m/n/10 解 数 学 题 获 取 软 件 激 活 码\TU/lmr/m/n/10 ” \TU/等线(0
-)/m/n/10 的 活 动\TU/lmr/m/n/10 . \TU/等线(0)/m/n/10 这 款 软 件 的 激 活 码 为 下 面 数 学 问 题 的
- 答 案\TU/lmr/m/n/10 : \TU/等线(0)/m/n/10 已 知 数 列 $\OT1/cmr/m/n/10 1\OML/cmm/m/it/1
-0 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT
-1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m
-/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2
-\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8\OML/cm
-m/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/
-10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \O
-T1/cmr/m/n/10 16\OML/cmm/m/it/10 ; [] $\TU/lmr/m/n/10 ,
+\TU/lmr/m/n/10 “\TU/等线(0)/m/n/10 解 数 学 题 获 取 软 件 激 活 码\TU/lmr/m/n/10 ” \TU/等线(0)/m/n/10 的 活 动\TU/lmr/m/n/10 . \TU/等线(0)/m/n/10 这 款 软 件 的 激 活 码 为 下 面 数 学 问 题 的 答 案\TU/lmr/m/n/10 : \TU/等线(0)/m/n/10 已 知 数 列 $\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 16\OML/cmm/m/it/10 ; [] $\TU/lmr/m/n/10 ,
  []
 
 
@@ -1592,10 +1365,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 2264--2265
 
 [80] [81] [82] [83] [84] [85] [86]
 Overfull \hbox (11.66655pt too wide) in paragraph at lines 2455--2456
-[]\TU/lmr/m/n/10 (003463) \TU/等线(0)/m/n/10 空 间 中 有 四 个 点\TU/lmr/m/n/10 , “\TU/等
-线(0)/m/n/10 这 四 个 点 中 恰 好 有 三 点 在 同 一 直 线 上\TU/lmr/m/n/10 ” \TU/等线(0)/m/n/10 是 
-\TU/lmr/m/n/10 “\TU/等线(0)/m/n/10 这 四 个 点 在 同 一 个 平 面 上\TU/lmr/m/n/10 ” \TU/等线(0
-)/m/n/10 的$[]$
+[]\TU/lmr/m/n/10 (003463) \TU/等线(0)/m/n/10 空 间 中 有 四 个 点\TU/lmr/m/n/10 , “\TU/等线(0)/m/n/10 这 四 个 点 中 恰 好 有 三 点 在 同 一 直 线 上\TU/lmr/m/n/10 ” \TU/等线(0)/m/n/10 是 \TU/lmr/m/n/10 “\TU/等线(0)/m/n/10 这 四 个 点 在 同 一 个 平 面 上\TU/lmr/m/n/10 ” \TU/等线(0)/m/n/10 的$[]$
  []
 
 [87] [88] [89] [90] [91] [92]
@@ -1625,23 +1395,12 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 2711--2712
 
 [95]
 Overfull \hbox (6.89313pt too wide) in paragraph at lines 2749--2750
-[]\TU/lmr/m/n/10 (003557) \TU/等线(0)/m/n/10 在 三 阶 行 列 式 $[]$ 中\TU/lmr/m/n/10 , \
-TU/等线(0)/m/n/10 元 素 $\OT1/cmr/m/n/10 6$ \TU/等线(0)/m/n/10 的 余 子 式 为$[]$\TU/lmr/m
-/n/10 , \TU/等线(0)/m/n/10 元 素 $\OT1/cmr/m/n/10 8$ \TU/等线(0)/m/n/10 的 代 数 余 子 式 的
- 值 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (003557) \TU/等线(0)/m/n/10 在 三 阶 行 列 式 $[]$ 中\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 元 素 $\OT1/cmr/m/n/10 6$ \TU/等线(0)/m/n/10 的 余 子 式 为$[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 元 素 $\OT1/cmr/m/n/10 8$ \TU/等线(0)/m/n/10 的 代 数 余 子 式 的 值 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [96] [97] [98]
 Overfull \hbox (4.38583pt too wide) in paragraph at lines 2807--2808
-[]\TU/lmr/m/n/10 (003585) \TU/等线(0)/m/n/10 已 知 $\OML/cmm/m/it/10 a; b \OMS/cmsy
-/m/n/10 2 f^^@\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/
-m/n/10 2\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/cmm/m/it/1
-0 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT
-1/cmr/m/n/10 3\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 且 $\OML/cmm/m/it/10 a \OMS/c
-msy/m/n/10 6\OT1/cmr/m/n/10 = \OML/cmm/m/it/10 b$\TU/lmr/m/n/10 , \TU/等线(0)/m/n
-/10 则 复 数 $\OML/cmm/m/it/10 z \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 a \OT1/cmr/m/n
-/10 + \OML/cmm/m/it/10 b[]$ \TU/等线(0)/m/n/10 对 应 点 在 第 二 象 限 的 概 率 为$[]$\TU/lmr
-/m/n/10 (\TU/等线(0)/m/n/10 用
+[]\TU/lmr/m/n/10 (003585) \TU/等线(0)/m/n/10 已 知 $\OML/cmm/m/it/10 a; b \OMS/cmsy/m/n/10 2 f^^@\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 且 $\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 = \OML/cmm/m/it/10 b$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 复 数 $\OML/cmm/m/it/10 z \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 a \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 b[]$ \TU/等线(0)/m/n/10 对 应 点 在 第 二 象 限 的 概 率 为$[]$\TU/lmr/m/n/10 (\TU/等线(0)/m/n/10 用
  []
 
 
@@ -1656,13 +1415,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 2875--2876
 
 [100]
 Overfull \hbox (15.01563pt too wide) in paragraph at lines 2887--2888
-\TU/等线(0)/m/n/10 图 像 上 \TU/lmr/m/n/10 (\TU/等线(0)/m/n/10 其 中 点 $\OML/cmm/m/it/10
- B[]$ \TU/等线(0)/m/n/10 的 坐 标 为 $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n; \OT1/cmr/m
-/n/10 0) (\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^U \OT1/cmr/m/n/10 2\OML/cmm/m/i
-t/10 ;  n \OMS/cmsy/m/n/10 2 [][]\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 ), \TU/等线(0)/
-m/n/10 矩 形 $\OML/cmm/m/it/10 A[]B[]P[]Q[]$ \TU/等线(0)/m/n/10 的 面 积 记 为 $\OML/cmm
-/m/it/10 S[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $[] [] \OT1/cmr/m/n/10 =$$[]$\
-TU/lmr/m/n/10 . 
+\TU/等线(0)/m/n/10 图 像 上 \TU/lmr/m/n/10 (\TU/等线(0)/m/n/10 其 中 点 $\OML/cmm/m/it/10 B[]$ \TU/等线(0)/m/n/10 的 坐 标 为 $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n; \OT1/cmr/m/n/10 0) (\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^U \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ;  n \OMS/cmsy/m/n/10 2 [][]\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 ), \TU/等线(0)/m/n/10 矩 形 $\OML/cmm/m/it/10 A[]B[]P[]Q[]$ \TU/等线(0)/m/n/10 的 面 积 记 为 $\OML/cmm/m/it/10 S[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $[] [] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
 [101]
@@ -1902,8 +1655,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 4651--4652
 [][] 
  []
 
-[151] [152] [153] [154] [155] [156] [157] [158] [159] [160] [161] [162]
-[163]
+[151] [152] [153] [154] [155] [156] [157] [158] [159] [160] [161] [162] [163]
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
@@ -1942,19 +1694,12 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 5256--5257
 
 [169] [170] [171]
 Overfull \hbox (5.30197pt too wide) in paragraph at lines 5340--5344
-[]\TU/lmr/m/n/10 (001226)(1) \TU/等线(0)/m/n/10 函 数 $\OML/cmm/m/it/10 y \OT1/cmr/
-m/n/10 = 1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 x[];  x \OMS/cmsy/m/n/10 2 \OT
-1/cmr/m/n/10 [\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/
-m/n/10 1]$ \TU/等线(0)/m/n/10 的 最 大 值 为$[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 最 小 
-值 为$[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 最 大 值 点 为$[]$\TU/lmr/m/n/10 ,
+[]\TU/lmr/m/n/10 (001226)(1) \TU/等线(0)/m/n/10 函 数 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = 1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 x[];  x \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 [\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1]$ \TU/等线(0)/m/n/10 的 最 大 值 为$[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 最 小 值 为$[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 最 大 值 点 为$[]$\TU/lmr/m/n/10 ,
  []
 
 [172] [173] [174]
 Overfull \hbox (8.8285pt too wide) in paragraph at lines 5419--5420
-[]\TU/lmr/m/n/10 (001274) \TU/等线(0)/m/n/10 已 知 $\OML/cmm/m/it/10 k$ \TU/等线(0)/m
-/n/10 是 实 数\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 函 数 $\OML/cmm/m/it/10 y \OT1/cmr/m
-/n/10 = []$ \TU/等线(0)/m/n/10 的 定 义 域 为 $[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 
-$\OML/cmm/m/it/10 k$ \TU/等线(0)/m/n/10 的 取 值 范 围 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (001274) \TU/等线(0)/m/n/10 已 知 $\OML/cmm/m/it/10 k$ \TU/等线(0)/m/n/10 是 实 数\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 函 数 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = []$ \TU/等线(0)/m/n/10 的 定 义 域 为 $[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $\OML/cmm/m/it/10 k$ \TU/等线(0)/m/n/10 的 取 值 范 围 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [175]
@@ -1980,8 +1725,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5481--5483
 
 Overfull \vbox (10.72444pt too high) has occurred while \output is active []
 
-
-[177]
+ [177]
 Underfull \hbox (badness 10000) in paragraph at lines 5485--5487
 
  []
@@ -2038,11 +1782,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5595--5596
 
 [181]
 Overfull \hbox (20.08441pt too wide) in paragraph at lines 5620--5622
-[]\TU/lmr/m/n/10 (001381)(1) \TU/等线(0)/m/n/10 如 果 在 三 角 形 $\OML/cmm/m/it/10 ABC
-$ \TU/等线(0)/m/n/10 中\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 a \OT1/cmr/m/n/10 : \OML
-/cmm/m/it/10 b \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 A \OT1/cmr/m/n/10 : [] \OM
-L/cmm/m/it/10 B$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 那 么 三 角 形 $\OML/cmm/m/it/10 A
-BC$ \TU/等线(0)/m/n/10 为$[]$\TU/lmr/m/n/10 ; 
+[]\TU/lmr/m/n/10 (001381)(1) \TU/等线(0)/m/n/10 如 果 在 三 角 形 $\OML/cmm/m/it/10 ABC$ \TU/等线(0)/m/n/10 中\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 a \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 b \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 A \OT1/cmr/m/n/10 : [] \OML/cmm/m/it/10 B$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 那 么 三 角 形 $\OML/cmm/m/it/10 ABC$ \TU/等线(0)/m/n/10 为$[]$\TU/lmr/m/n/10 ; 
  []
 
 [182]
@@ -2127,8 +1867,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5694--5695
 
 
 Overfull \hbox (22.63264pt too wide) in paragraph at lines 5697--5698
-[]\TU/等线(0)/m/n/10 终 边 和 $[]$ 的 终 边 重 合 的 角 的 集 合 为$[]$\TU/lmr/m/n/10 ; \TU/等线(
-0)/m/n/10 终 边 和 $[]$ 的 终 边 垂 直 的 角 的 集 合 为$[]$\TU/lmr/m/n/10 ; 
+[]\TU/等线(0)/m/n/10 终 边 和 $[]$ 的 终 边 重 合 的 角 的 集 合 为$[]$\TU/lmr/m/n/10 ; \TU/等线(0)/m/n/10 终 边 和 $[]$ 的 终 边 垂 直 的 角 的 集 合 为$[]$\TU/lmr/m/n/10 ; 
  []
 
 
@@ -2158,11 +1897,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5701--5702
 
 
 Overfull \hbox (1.56049pt too wide) in paragraph at lines 5702--5703
-[]\TU/等线(0)/m/n/10 终 边 和 $[]$ 的 终 边 关 于 直 线 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10
- = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 对 称 的 角 的 集 合 为$[]$
-\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 其 中 在 $\OT1/cmr/m/n/10 [\OMS/cmsy/m/n/10 ^^@\
-OML/cmm/m/it/10 ^^Y; ^^Y\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 内 的 角 有$[]$\TU/lmr/
-m/n/10 ; 
+[]\TU/等线(0)/m/n/10 终 边 和 $[]$ 的 终 边 关 于 直 线 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 对 称 的 角 的 集 合 为$[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 其 中 在 $\OT1/cmr/m/n/10 [\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 ^^Y; ^^Y\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 内 的 角 有$[]$\TU/lmr/m/n/10 ; 
  []
 
 
@@ -2182,30 +1917,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 5704--5705
 
 [185]
 Overfull \hbox (7.65115pt too wide) in paragraph at lines 5739--5741
-[]\TU/lmr/m/n/10 (001403)(1) \TU/等线(0)/m/n/10 若 $[] \OML/cmm/m/it/10 ^^K \OT1/c
-mr/m/n/10 = \OMS/cmsy/m/n/10 ^^@[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 $\OML/cm
-m/m/it/10 ^^Y < ^^K < []$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 那 么 $[] \OML/cmm/m/i
-t/10 ^^K \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 , $[] \OML/cmm/m/it/10 ^^K \OT1/c
-mr/m/n/10 =$$[]$\TU/lmr/m/n/10 , $[] \OML/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 =$$[]
-$\TU/lmr/m/n/10 ,
+[]\TU/lmr/m/n/10 (001403)(1) \TU/等线(0)/m/n/10 若 $[] \OML/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 $\OML/cmm/m/it/10 ^^Y < ^^K < []$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 那 么 $[] \OML/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 , $[] \OML/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 , $[] \OML/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 ,
  []
 
 [186] [187]
 Overfull \hbox (3.49286pt too wide) in paragraph at lines 5798--5799
-[]\TU/lmr/m/n/10 (001427) \TU/等线(0)/m/n/10 已 知 $[] [] [] [] \OT1/cmr/m/n/10 + [
-] [] [] [] = \OMS/cmsy/m/n/10 ^^@[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 $[] \OM
-L/cmm/m/it/10 < ^^K < \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ^^Y$\TU/lmr/m/n/10 , \T
-U/等线(0)/m/n/10 则 $[] [] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (001427) \TU/等线(0)/m/n/10 已 知 $[] [] [] [] \OT1/cmr/m/n/10 + [] [] [] [] = \OMS/cmsy/m/n/10 ^^@[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 $[] \OML/cmm/m/it/10 < ^^K < \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ^^Y$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $[] [] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
 [188] [189] [190]
 Overfull \hbox (2.1752pt too wide) in paragraph at lines 5876--5877
-[]\TU/lmr/m/n/10 (001458) \TU/等线(0)/m/n/10 已 知 $[] \OML/cmm/m/it/10 ^^K \OT1/cm
-r/m/n/10 = \OMS/cmsy/m/n/10 ^^@[]$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 ^^K \OMS/c
-msy/m/n/10 2 []$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $[] \OT1/cmr/m/n/10 2\OML/c
-mm/m/it/10 ^^K \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 ; $[] \OT1/cmr/m/n/10 2\OML
-/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 = []$\TU/lmr/m/n/10 ; $[] \OT1/cmr/m/n/10 2\OM
-L/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 = []$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (001458) \TU/等线(0)/m/n/10 已 知 $[] \OML/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@[]$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 ^^K \OMS/cmsy/m/n/10 2 []$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $[] \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 ; $[] \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 = []$\TU/lmr/m/n/10 ; $[] \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 = []$\TU/lmr/m/n/10 . 
  []
 
 [191] [192]
@@ -2795,13 +2517,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 6397--6398
 
 
 Overfull \hbox (4.76137pt too wide) in paragraph at lines 6399--6400
-[]\TU/lmr/m/n/10 (001659) \TU/等线(0)/m/n/10 已 知 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it
-/10 ABC$ \TU/等线(0)/m/n/10 为 等 边 三 角 形\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 PA \OMS
-/cmsy/m/n/10 ?$ \TU/等线(0)/m/n/10 平 面 $\OML/cmm/m/it/10 ABC$\TU/lmr/m/n/10 , \TU
-/等线(0)/m/n/10 且 $\OML/cmm/m/it/10 PA \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 AC$\T
-U/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 二 面 角 $\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 ^^
-@ \OML/cmm/m/it/10 BC \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 A$ \TU/等线(0)/m/n/10
- 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (001659) \TU/等线(0)/m/n/10 已 知 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 ABC$ \TU/等线(0)/m/n/10 为 等 边 三 角 形\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 PA \OMS/cmsy/m/n/10 ?$ \TU/等线(0)/m/n/10 平 面 $\OML/cmm/m/it/10 ABC$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 $\OML/cmm/m/it/10 PA \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 AC$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 二 面 角 $\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 BC \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 A$ \TU/等线(0)/m/n/10 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [212]
@@ -2866,18 +2582,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 6452--6453
 
 
 Overfull \hbox (19.07643pt too wide) in paragraph at lines 6466--6467
-\TU/等线(0)/m/n/10 者 四 棱 柱\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 在 所 有 可 能 的 情 形 中\TU/
-lmr/m/n/10 , \TU/等线(0)/m/n/10 表 面 积 最 小 的 唯 一 一 个 棱 柱 是 四 棱 柱\TU/lmr/m/n/10 , \
-TU/等线(0)/m/n/10 则 实 数 $\OML/cmm/m/it/10 a$ \TU/等线(0)/m/n/10 的 取 值 范 围 为$[]$\TU/
-lmr/m/n/10 . 
+\TU/等线(0)/m/n/10 者 四 棱 柱\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 在 所 有 可 能 的 情 形 中\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 表 面 积 最 小 的 唯 一 一 个 棱 柱 是 四 棱 柱\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 实 数 $\OML/cmm/m/it/10 a$ \TU/等线(0)/m/n/10 的 取 值 范 围 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [215]
 Overfull \hbox (28.784pt too wide) in paragraph at lines 6468--6469
-[]\TU/lmr/m/n/10 (001691) \TU/等线(0)/m/n/10 直 平 行 六 面 体 的 两 条 对 角 线 长 分 别 为 $\OT
-1/cmr/m/n/10 9$ \TU/等线(0)/m/n/10 和 $[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 高 为 $\
-OT1/cmr/m/n/10 4$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 底 面 周 长 为 $\OT1/cmr/m/n/10 1
-8$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 它 的 全 面 积 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (001691) \TU/等线(0)/m/n/10 直 平 行 六 面 体 的 两 条 对 角 线 长 分 别 为 $\OT1/cmr/m/n/10 9$ \TU/等线(0)/m/n/10 和 $[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 高 为 $\OT1/cmr/m/n/10 4$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 底 面 周 长 为 $\OT1/cmr/m/n/10 18$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 它 的 全 面 积 为$[]$\TU/lmr/m/n/10 . 
  []
 
 
@@ -2922,20 +2632,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 6481--6482
 
 [216]
 Overfull \hbox (4.43039pt too wide) in paragraph at lines 6495--6496
-[]\TU/lmr/m/n/10 (001707) \TU/等线(0)/m/n/10 若 正 四 棱 锥 $\OML/cmm/m/it/10 S \OMS/c
-msy/m/n/10 ^^@ \OML/cmm/m/it/10 ABC$ \TU/等线(0)/m/n/10 的 底 面 边 长 为 $\OT1/cmr/m/n
-/10 2[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 体 积 为 $\OT1/cmr/m/n/10 4$\TU/lmr/m/n/
-10 , \TU/等线(0)/m/n/10 则 二 面 角 $\OML/cmm/m/it/10 S \OMS/cmsy/m/n/10 ^^@ \OML/cmm
-/m/it/10 AB \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 C$ \TU/等线(0)/m/n/10 的 大 小 是$[
-]$\TU/lmr/m/n/10 ,
+[]\TU/lmr/m/n/10 (001707) \TU/等线(0)/m/n/10 若 正 四 棱 锥 $\OML/cmm/m/it/10 S \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ABC$ \TU/等线(0)/m/n/10 的 底 面 边 长 为 $\OT1/cmr/m/n/10 2[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 体 积 为 $\OT1/cmr/m/n/10 4$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 二 面 角 $\OML/cmm/m/it/10 S \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 AB \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 C$ \TU/等线(0)/m/n/10 的 大 小 是$[]$\TU/lmr/m/n/10 ,
  []
 
 
 Overfull \hbox (20.78857pt too wide) in paragraph at lines 6501--6502
-[]\TU/lmr/m/n/10 (001713) \TU/等线(0)/m/n/10 正 四 棱 台 的 下 底 是 一 个 边 长 为 $\OT1/cmr/
-m/n/10 2$ \TU/等线(0)/m/n/10 的 正 方 形\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 此 外 每 条 棱 的
- 棱 长 均 为 $\OT1/cmr/m/n/10 1$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 那 么 它 的 体 积 为$[]$
-\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (001713) \TU/等线(0)/m/n/10 正 四 棱 台 的 下 底 是 一 个 边 长 为 $\OT1/cmr/m/n/10 2$ \TU/等线(0)/m/n/10 的 正 方 形\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 此 外 每 条 棱 的 棱 长 均 为 $\OT1/cmr/m/n/10 1$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 那 么 它 的 体 积 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [217] [218]
@@ -3050,12 +2752,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7426--7427
 
 
 Overfull \hbox (0.94997pt too wide) in paragraph at lines 7433--7434
-[]\TU/lmr/m/n/10 (001842) \TU/等线(0)/m/n/10 若 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/1
-0 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 为 无 穷 等 比 数 列\TU/lmr/m/n/10 , $\OMS/c
-msy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 中 每 一 项 都 
-是 它 后 面 所 有 项 之 和 的 $\OT1/cmr/m/n/10 4$ \TU/等线(0)/m/n/10 倍\TU/lmr/m/n/10 , \TU/
-等线(0)/m/n/10 则 公 比 $\OML/cmm/m/it/10 q$ \TU/等线(0)/m/n/10 的 值 为$[]$\TU/lmr/m/n/1
-0 . 
+[]\TU/lmr/m/n/10 (001842) \TU/等线(0)/m/n/10 若 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 为 无 穷 等 比 数 列\TU/lmr/m/n/10 , $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 中 每 一 项 都 是 它 后 面 所 有 项 之 和 的 $\OT1/cmr/m/n/10 4$ \TU/等线(0)/m/n/10 倍\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 公 比 $\OML/cmm/m/it/10 q$ \TU/等线(0)/m/n/10 的 值 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [229]
@@ -3157,63 +2854,32 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 7487--7488
 
 
 Overfull \hbox (18.14882pt too wide) in paragraph at lines 7503--7504
-[]\TU/lmr/m/n/10 (001871) \TU/等线(0)/m/n/10 已 知 $[]\OML/cmm/m/it/10 ; []$ \TU/等线
-(0)/m/n/10 不 平 行\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 设 $\OML/cmm/m/it/10 x$ \TU/等线
-(0)/m/n/10 是 一 个 实 数\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 若 向 量 $\OT1/cmr/m/n/10 (2
-[] \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 k \OT1/cmr/m/n/10 
-(\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 + 3[])$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 
-则 实 数 $\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 的 值 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (001871) \TU/等线(0)/m/n/10 已 知 $[]\OML/cmm/m/it/10 ; []$ \TU/等线(0)/m/n/10 不 平 行\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 设 $\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 是 一 个 实 数\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 若 向 量 $\OT1/cmr/m/n/10 (2[] \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 k \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 + 3[])$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 实 数 $\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 的 值 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [232] [233]
 Overfull \hbox (22.89839pt too wide) in paragraph at lines 7544--7545
-[]\TU/lmr/m/n/10 (001892) \TU/等线(0)/m/n/10 已 知 $[] \OT1/cmr/m/n/10 = (2\OML/cmm
-/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 , $[] \OT1/cmr
-/m/n/10 = (\OML/cmm/m/it/10 m; m \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1)$\TU/lm
-r/m/n/10 , \TU/等线(0)/m/n/10 若 $[]$ 与 $[]$ 的 夹 角 是 锐 角\TU/lmr/m/n/10 , \TU/等线(0)
-/m/n/10 则 实 数 $\OML/cmm/m/it/10 m$ \TU/等线(0)/m/n/10 的 取 值 范 围 为$[]$\TU/lmr/m/n/
-10 . 
+[]\TU/lmr/m/n/10 (001892) \TU/等线(0)/m/n/10 已 知 $[] \OT1/cmr/m/n/10 = (2\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 , $[] \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 m; m \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 若 $[]$ 与 $[]$ 的 夹 角 是 锐 角\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 实 数 $\OML/cmm/m/it/10 m$ \TU/等线(0)/m/n/10 的 取 值 范 围 为$[]$\TU/lmr/m/n/10 . 
  []
 
 
 Overfull \hbox (5.4429pt too wide) in paragraph at lines 7547--7548
-[]\TU/lmr/m/n/10 (001895) \TU/等线(0)/m/n/10 已 知 $\OML/cmm/m/it/10 M\OT1/cmr/m/n/
-10 (3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4)$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 N
-\OT1/cmr/m/n/10 (12\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7)$\TU/lmr/m/n/10 , $\OML
-/cmm/m/it/10 Q$ \TU/等线(0)/m/n/10 在 直 线 $\OML/cmm/m/it/10 MN$ \TU/等线(0)/m/n/10 上
-\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 $\OML/cmm/m/it/10 QM \OT1/cmr/m/n/10 : \OML
-/cmm/m/it/10 MN \OT1/cmr/m/n/10 = 1 : 3$\TU/lmr/m/n/10 . \TU/等线(0)/m/n/10 则 点 $
-\OML/cmm/m/it/10 Q$ \TU/等线(0)/m/n/10 的 坐 标 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (001895) \TU/等线(0)/m/n/10 已 知 $\OML/cmm/m/it/10 M\OT1/cmr/m/n/10 (3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4)$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 N\OT1/cmr/m/n/10 (12\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7)$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 Q$ \TU/等线(0)/m/n/10 在 直 线 $\OML/cmm/m/it/10 MN$ \TU/等线(0)/m/n/10 上\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 $\OML/cmm/m/it/10 QM \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 MN \OT1/cmr/m/n/10 = 1 : 3$\TU/lmr/m/n/10 . \TU/等线(0)/m/n/10 则 点 $\OML/cmm/m/it/10 Q$ \TU/等线(0)/m/n/10 的 坐 标 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [234]
 Overfull \hbox (1.31552pt too wide) in paragraph at lines 7571--7572
-[]\TU/lmr/m/n/10 (001911) \TU/等线(0)/m/n/10 已 知 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it
-/10 ABC$ \TU/等线(0)/m/n/10 的 三 个 顶 点 分 别 为 $\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 (2
-\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 , $\OM
-L/cmm/m/it/10 B\OT1/cmr/m/n/10 (3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2)$\TU/lmr/
-m/n/10 , $\OML/cmm/m/it/10 C\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/1
-0 3\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 . \
-TU/等线(0)/m/n/10 则 三 角 形 $\OML/cmm/m/it/10 ABC$ \TU/等线(0)/m/n/10 的 面 积 为$[]$\TU/
-lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (001911) \TU/等线(0)/m/n/10 已 知 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 ABC$ \TU/等线(0)/m/n/10 的 三 个 顶 点 分 别 为 $\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 B\OT1/cmr/m/n/10 (3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2)$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 C\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 . \TU/等线(0)/m/n/10 则 三 角 形 $\OML/cmm/m/it/10 ABC$ \TU/等线(0)/m/n/10 的 面 积 为$[]$\TU/lmr/m/n/10 . 
  []
 
 
 Overfull \hbox (26.86734pt too wide) in paragraph at lines 7574--7575
-[]\TU/lmr/m/n/10 (001914) \TU/等线(0)/m/n/10 已 知 圆 $\OML/cmm/m/it/10 O$ \TU/等线(0)
-/m/n/10 的 半 径 为 $\OT1/cmr/m/n/10 1$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 PA; PB$ \
-TU/等线(0)/m/n/10 为 该 圆 的 两 条 切 线\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 A; B$ \TU/等线(
-0)/m/n/10 为 两 切 点\TU/lmr/m/n/10 . $[] \OMS/cmsy/m/n/10 ^^A []$ \TU/等线(0)/m/n/10
- 的 最 小 值 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (001914) \TU/等线(0)/m/n/10 已 知 圆 $\OML/cmm/m/it/10 O$ \TU/等线(0)/m/n/10 的 半 径 为 $\OT1/cmr/m/n/10 1$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 PA; PB$ \TU/等线(0)/m/n/10 为 该 圆 的 两 条 切 线\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 A; B$ \TU/等线(0)/m/n/10 为 两 切 点\TU/lmr/m/n/10 . $[] \OMS/cmsy/m/n/10 ^^A []$ \TU/等线(0)/m/n/10 的 最 小 值 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [235]
 Overfull \hbox (10.14748pt too wide) in paragraph at lines 7599--7604
-\OML/cmm/m/it/10 D \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 D[]
- \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 D[] \OT1/cmr/m/n/10 =
-$$[]$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 D[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/1
-0 , \TU/等线(0)/m/n/10 解 为 $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; z\OT1/cmr/m/n
-/10 ) =$$[]$\TU/lmr/m/n/10 . 
+\OML/cmm/m/it/10 D \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 D[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 D[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 D[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 解 为 $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; z\OT1/cmr/m/n/10 ) =$$[]$\TU/lmr/m/n/10 . 
  []
 
 [236] [237]
@@ -3253,27 +2919,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 7632--7633
 
 [238]
 Overfull \hbox (46.94553pt too wide) in paragraph at lines 7647--7651
-[]\TU/lmr/m/n/10 (001940)[\TU/等线(0)/m/n/10 代 入 消 元 法 的 等 价 性 的 实 例\TU/lmr/m/n/1
-0 ] \TU/等线(0)/m/n/10 已 知 关 于 $\OML/cmm/m/it/10 x; y$ \TU/等线(0)/m/n/10 的 方 程 组 $
-[]$ 由 上 题 结 论\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 它 与 方 程 组 $[]$
+[]\TU/lmr/m/n/10 (001940)[\TU/等线(0)/m/n/10 代 入 消 元 法 的 等 价 性 的 实 例\TU/lmr/m/n/10 ] \TU/等线(0)/m/n/10 已 知 关 于 $\OML/cmm/m/it/10 x; y$ \TU/等线(0)/m/n/10 的 方 程 组 $[]$ 由 上 题 结 论\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 它 与 方 程 组 $[]$
  []
 
 [239] [240]
 Overfull \hbox (21.37204pt too wide) in paragraph at lines 7712--7715
-\TU/等线(0)/m/n/10 如 果 三 角 形 $\OML/cmm/m/it/10 OAB$ \TU/等线(0)/m/n/10 的 顶 点 $\OML/
-cmm/m/it/10 A; B$ \TU/等线(0)/m/n/10 的 坐 标 分 别 为 $\OT1/cmr/m/n/10 (\OML/cmm/m/it/
-10 x[]; y[]; z[]\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 , $\OT1/cmr/m/n/10 (\OML/cmm/m
-/it/10 x[]; y[]; z[]\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 那 么 三 角
- 形 $\OML/cmm/m/it/10 OAB$ \TU/等线(0)/m/n/10 的 面 积 为 $[] []$
+\TU/等线(0)/m/n/10 如 果 三 角 形 $\OML/cmm/m/it/10 OAB$ \TU/等线(0)/m/n/10 的 顶 点 $\OML/cmm/m/it/10 A; B$ \TU/等线(0)/m/n/10 的 坐 标 分 别 为 $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]; y[]; z[]\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 , $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]; y[]; z[]\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 那 么 三 角 形 $\OML/cmm/m/it/10 OAB$ \TU/等线(0)/m/n/10 的 面 积 为 $[] []$
  []
 
 [241] [242]
 Overfull \hbox (39.5469pt too wide) in paragraph at lines 7740--7741
-[]\TU/lmr/m/n/10 (001989) \TU/等线(0)/m/n/10 设 地 球 半 径 为 $\OT1/cmr/m/n/10 6400[]$
-\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 地 球 上 的 两 点 $\OML/cmm/m/it/10 A\OT1/cmr/m/n/1
-0 (30[][]\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 60[][])$ \TU/等线(0)/m/n/10 与 $\OML/c
-mm/m/it/10 B\OT1/cmr/m/n/10 (50[][]\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 110[][])$
- \TU/等线(0)/m/n/10 之 间 的 球 面 距 离 约 为$[]$\TU/lmr/m/n/10 .(\TU/等线(0)/m/n/10 精
+[]\TU/lmr/m/n/10 (001989) \TU/等线(0)/m/n/10 设 地 球 半 径 为 $\OT1/cmr/m/n/10 6400[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 地 球 上 的 两 点 $\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 (30[][]\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 60[][])$ \TU/等线(0)/m/n/10 与 $\OML/cmm/m/it/10 B\OT1/cmr/m/n/10 (50[][]\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 110[][])$ \TU/等线(0)/m/n/10 之 间 的 球 面 距 离 约 为$[]$\TU/lmr/m/n/10 .(\TU/等线(0)/m/n/10 精
  []
 
 
@@ -3288,10 +2944,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 7751--7752
 
 [243]
 Overfull \hbox (40.46622pt too wide) in paragraph at lines 7782--7783
-[]\TU/lmr/m/n/10 (002010) \TU/等线(0)/m/n/10 已 知 平 行 四 边 形 的 三 个 顶 点 分 别 对 应 于 复 
-数 $\OT1/cmr/m/n/10 2[]$\TU/lmr/m/n/10 , $\OT1/cmr/m/n/10 4 \OMS/cmsy/m/n/10 ^^@
- \OT1/cmr/m/n/10 4[]$\TU/lmr/m/n/10 , $\OT1/cmr/m/n/10 2 + 6[]$\TU/lmr/m/n/10 ,
- \TU/等线(0)/m/n/10 则 第 四 个 顶 点 所 对 应 的 复 数 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002010) \TU/等线(0)/m/n/10 已 知 平 行 四 边 形 的 三 个 顶 点 分 别 对 应 于 复 数 $\OT1/cmr/m/n/10 2[]$\TU/lmr/m/n/10 , $\OT1/cmr/m/n/10 4 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 4[]$\TU/lmr/m/n/10 , $\OT1/cmr/m/n/10 2 + 6[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 第 四 个 顶 点 所 对 应 的 复 数 为$[]$\TU/lmr/m/n/10 . 
  []
 
 
@@ -3326,41 +2979,22 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 7871--7872
 
 [248] [249]
 Overfull \hbox (12.44649pt too wide) in paragraph at lines 7946--7947
-[]\TU/lmr/m/n/10 (002103) \TU/等线(0)/m/n/10 已 知 动 点 $\OML/cmm/m/it/10 P$ \TU/等线(
-0)/m/n/10 到 $\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 轴 的 距 离 与 到 原 点 的 距 离 的 比 是 $
-[] \OT1/cmr/m/n/10 : 2$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 点 $\OML/cmm/m/it/10 
-P$ \TU/等线(0)/m/n/10 的 轨 迹 方 程 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002103) \TU/等线(0)/m/n/10 已 知 动 点 $\OML/cmm/m/it/10 P$ \TU/等线(0)/m/n/10 到 $\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 轴 的 距 离 与 到 原 点 的 距 离 的 比 是 $[] \OT1/cmr/m/n/10 : 2$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 点 $\OML/cmm/m/it/10 P$ \TU/等线(0)/m/n/10 的 轨 迹 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
 
 Overfull \hbox (11.6086pt too wide) in paragraph at lines 7951--7952
-[]\TU/lmr/m/n/10 (002107) \TU/等线(0)/m/n/10 若 点 $\OML/cmm/m/it/10 M$ \TU/等线(0)/m
-/n/10 到 $\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 轴 的 距 离 和 它 到 直 线 $\OML/cmm/m/it/
-10 y \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 的 距 离 相 等\TU/lmr/
-m/n/10 , \TU/等线(0)/m/n/10 则 点 $\OML/cmm/m/it/10 M$ \TU/等线(0)/m/n/10 的 轨 迹 方 程 为
-$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002107) \TU/等线(0)/m/n/10 若 点 $\OML/cmm/m/it/10 M$ \TU/等线(0)/m/n/10 到 $\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 轴 的 距 离 和 它 到 直 线 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 的 距 离 相 等\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 点 $\OML/cmm/m/it/10 M$ \TU/等线(0)/m/n/10 的 轨 迹 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [250]
 Overfull \hbox (45.6733pt too wide) in paragraph at lines 7954--7955
-[]\TU/lmr/m/n/10 (002110) \TU/等线(0)/m/n/10 已 知 点 $\OML/cmm/m/it/10 A\OT1/cmr/m/
-n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0
-)$ \TU/等线(0)/m/n/10 与 点 $\OML/cmm/m/it/10 B\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ;
- \OT1/cmr/m/n/10 0)$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 若 动 点 $\OML/cmm/m/it/10 M
-$ \TU/等线(0)/m/n/10 满 足 $\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 MA\OMS/cmsy/m/n/10 j
- ^^@ j\OML/cmm/m/it/10 MB\OMS/cmsy/m/n/10 j \OT1/cmr/m/n/10 = 2$\TU/lmr/m/n/10 
-, \TU/等线(0)/m/n/10 则 点 $\OML/cmm/m/it/10 M$ \TU/等线(0)/m/n/10 的 轨 迹 方 程 是$[]$\TU
-/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002110) \TU/等线(0)/m/n/10 已 知 点 $\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)$ \TU/等线(0)/m/n/10 与 点 $\OML/cmm/m/it/10 B\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 若 动 点 $\OML/cmm/m/it/10 M$ \TU/等线(0)/m/n/10 满 足 $\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 MA\OMS/cmsy/m/n/10 j ^^@ j\OML/cmm/m/it/10 MB\OMS/cmsy/m/n/10 j \OT1/cmr/m/n/10 = 2$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 点 $\OML/cmm/m/it/10 M$ \TU/等线(0)/m/n/10 的 轨 迹 方 程 是$[]$\TU/lmr/m/n/10 . 
  []
 
 
 Overfull \hbox (2.39632pt too wide) in paragraph at lines 7955--7956
-[]\TU/lmr/m/n/10 (002111) \TU/等线(0)/m/n/10 平 面 上 到 点 $\OML/cmm/m/it/10 P\OT1/cm
-r/m/n/10 (2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)$ \TU/等线(0)/m/n/10 与 $\OML/cmm/
-m/it/10 Q\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2\OML/cmm/m/it/10
- ; \OT1/cmr/m/n/10 0)$ \TU/等线(0)/m/n/10 的 距 离 之 比 为 $\OT1/cmr/m/n/10 3 : 1$ \TU
-/等线(0)/m/n/10 的 点 $\OML/cmm/m/it/10 M$ \TU/等线(0)/m/n/10 的 轨 迹 方 程 是$[]$\TU/lmr/
-m/n/10 .(\TU/等线(0)/m/n/10 这
+[]\TU/lmr/m/n/10 (002111) \TU/等线(0)/m/n/10 平 面 上 到 点 $\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)$ \TU/等线(0)/m/n/10 与 $\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)$ \TU/等线(0)/m/n/10 的 距 离 之 比 为 $\OT1/cmr/m/n/10 3 : 1$ \TU/等线(0)/m/n/10 的 点 $\OML/cmm/m/it/10 M$ \TU/等线(0)/m/n/10 的 轨 迹 方 程 是$[]$\TU/lmr/m/n/10 .(\TU/等线(0)/m/n/10 这
  []
 
 Missing character: There is no ; ("3B) in font nullfont!
@@ -3368,38 +3002,22 @@ Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 
 Overfull \hbox (3.37286pt too wide) in paragraph at lines 7994--7995
-[]\TU/lmr/m/n/10 (002125) \TU/等线(0)/m/n/10 若 直 线 经 过 点 $\OT1/cmr/m/n/10 (2\OML/
-cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 3)$\TU/lmr/m/n/10 , \TU/等线(0)
-/m/n/10 且 平 行 于 向 量 $[] \OT1/cmr/m/n/10 = (3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 
-4)$\TU/lmr/m/n/10 . \TU/等线(0)/m/n/10 则 直 线 $\OML/cmm/m/it/10 l$ \TU/等线(0)/m/n/1
-0 的 点 方 向 式 方 程 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002125) \TU/等线(0)/m/n/10 若 直 线 经 过 点 $\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 3)$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 平 行 于 向 量 $[] \OT1/cmr/m/n/10 = (3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4)$\TU/lmr/m/n/10 . \TU/等线(0)/m/n/10 则 直 线 $\OML/cmm/m/it/10 l$ \TU/等线(0)/m/n/10 的 点 方 向 式 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [251] [252] [253]
 Overfull \hbox (8.57079pt too wide) in paragraph at lines 8073--8074
-[]\TU/lmr/m/n/10 (002178) \TU/等线(0)/m/n/10 若 直 线 与 两 坐 标 轴 相 交\TU/lmr/m/n/10 , 
-\TU/等线(0)/m/n/10 且 被 两 轴 截 得 的 线 段 中 点 为 $\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; 
-\OT1/cmr/m/n/10 2)$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 此 直 线 的 方 程 为$[]$\TU/lmr
-/m/n/10 . 
+[]\TU/lmr/m/n/10 (002178) \TU/等线(0)/m/n/10 若 直 线 与 两 坐 标 轴 相 交\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 被 两 轴 截 得 的 线 段 中 点 为 $\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2)$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 此 直 线 的 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
 
 Overfull \hbox (8.18015pt too wide) in paragraph at lines 8076--8077
-[]\TU/lmr/m/n/10 (002180) \TU/等线(0)/m/n/10 直 线 $\OML/cmm/m/it/10 l$ \TU/等线(0)/m
-/n/10 与 直 线 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 ax \OT1/cmr/
-m/n/10 + \OML/cmm/m/it/10 b\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10
- 6\OT1/cmr/m/n/10 = 0)$ \TU/等线(0)/m/n/10 夹 角 的 平 分 线 是 直 线 $\OML/cmm/m/it/10 y 
-\OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 直 线 $\
-OML/cmm/m/it/10 l$ \TU/等线(0)/m/n/10 的 方 程 是$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002180) \TU/等线(0)/m/n/10 直 线 $\OML/cmm/m/it/10 l$ \TU/等线(0)/m/n/10 与 直 线 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 ax \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 b\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 = 0)$ \TU/等线(0)/m/n/10 夹 角 的 平 分 线 是 直 线 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 直 线 $\OML/cmm/m/it/10 l$ \TU/等线(0)/m/n/10 的 方 程 是$[]$\TU/lmr/m/n/10 . 
  []
 
 [254] [255] [256]
 Overfull \hbox (2.0088pt too wide) in paragraph at lines 8139--8140
-[]\TU/lmr/m/n/10 (002226) \TU/等线(0)/m/n/10 已 知 直 线 $\OML/cmm/m/it/10 l$ \TU/等线(
-0)/m/n/10 平 行 于 直 线 $\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y \O
-T1/cmr/m/n/10 + 2 = 0$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 这 两 条 直 线 之 间 的 距 离 为
- $\OT1/cmr/m/n/10 3[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 直 线 $\OML/cmm/m/it/10
- l$ \TU/等线(0)/m/n/10 的 方 程 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002226) \TU/等线(0)/m/n/10 已 知 直 线 $\OML/cmm/m/it/10 l$ \TU/等线(0)/m/n/10 平 行 于 直 线 $\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y \OT1/cmr/m/n/10 + 2 = 0$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 这 两 条 直 线 之 间 的 距 离 为 $\OT1/cmr/m/n/10 3[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 直 线 $\OML/cmm/m/it/10 l$ \TU/等线(0)/m/n/10 的 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [257] [258]
@@ -3409,34 +3027,17 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 8173--8174
 
 
 Overfull \hbox (31.98927pt too wide) in paragraph at lines 8190--8191
-[]\TU/lmr/m/n/10 (002264) \TU/等线(0)/m/n/10 圆 心 在 直 线 $\OT1/cmr/m/n/10 4\OML/cmm
-/m/it/10 x \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = 0$ \TU/等线(0)/
-m/n/10 上\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 与 直 线 $\OML/cmm/m/it/10 x \OT1/cmr/
-m/n/10 + \OML/cmm/m/it/10 y \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1 = 0$ \TU/等线(
-0)/m/n/10 切 于 点 $\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (3\OML/cmm/m/it/10 ; \OMS/cm
-sy/m/n/10 ^^@\OT1/cmr/m/n/10 2)$ \TU/等线(0)/m/n/10 的 圆 的 一 般 方 程 为$[]$\TU/lmr/m/
-n/10 . 
+[]\TU/lmr/m/n/10 (002264) \TU/等线(0)/m/n/10 圆 心 在 直 线 $\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = 0$ \TU/等线(0)/m/n/10 上\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 与 直 线 $\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1 = 0$ \TU/等线(0)/m/n/10 切 于 点 $\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (3\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2)$ \TU/等线(0)/m/n/10 的 圆 的 一 般 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
 
 Overfull \hbox (10.7918pt too wide) in paragraph at lines 8191--8192
-[]\TU/lmr/m/n/10 (002265) \TU/等线(0)/m/n/10 和 直 线 $\OML/cmm/m/it/10 x \OMS/cmsy/
-m/n/10 ^^@ \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 y \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/
-n/10 10 = 0$ \TU/等线(0)/m/n/10 相 切 于 点 $\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 (4\OML
-/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 , \TU/等线(0
-)/m/n/10 且 经 过 点 $\OML/cmm/m/it/10 M\OT1/cmr/m/n/10 (9\OML/cmm/m/it/10 ; \OT1/c
-mr/m/n/10 6)$ \TU/等线(0)/m/n/10 的 圆 的 一 般 方 程 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002265) \TU/等线(0)/m/n/10 和 直 线 $\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 y \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 10 = 0$ \TU/等线(0)/m/n/10 相 切 于 点 $\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 (4\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 经 过 点 $\OML/cmm/m/it/10 M\OT1/cmr/m/n/10 (9\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6)$ \TU/等线(0)/m/n/10 的 圆 的 一 般 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [259]
 Overfull \hbox (17.18224pt too wide) in paragraph at lines 8192--8193
-[]\TU/lmr/m/n/10 (002266) \TU/等线(0)/m/n/10 过 点 $\OT1/cmr/m/n/10 (2\OML/cmm/m/it
-/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 
-圆 心 在 直 线 $\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + \OML/cmm/m/it/
-10 y \OT1/cmr/m/n/10 = 0$ \TU/等线(0)/m/n/10 上\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且
- 与 直 线 $\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 y \OMS/cmsy/m/
-n/10 ^^@ \OT1/cmr/m/n/10 1 = 0$ \TU/等线(0)/m/n/10 相 切 的 圆 的 方 程 为$[]$\TU/lmr/m/n
-/10 . 
+[]\TU/lmr/m/n/10 (002266) \TU/等线(0)/m/n/10 过 点 $\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 圆 心 在 直 线 $\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = 0$ \TU/等线(0)/m/n/10 上\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 与 直 线 $\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 y \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1 = 0$ \TU/等线(0)/m/n/10 相 切 的 圆 的 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
 
@@ -3451,13 +3052,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 8198--8199
 
 
 Overfull \hbox (25.52753pt too wide) in paragraph at lines 8211--8212
-[]\TU/lmr/m/n/10 (002280) \TU/等线(0)/m/n/10 两 圆 $\OML/cmm/m/it/10 x[] \OT1/cmr/m
-/n/10 + \OML/cmm/m/it/10 y[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 10\OML/cmm/m/
-it/10 x \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 10\OML/cmm/m/it/10 y \OT1/cmr/m/n/
-10 = 0$ \TU/等线(0)/m/n/10 与 $\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 + \OML/cmm/m/i
-t/10 y[] \OT1/cmr/m/n/10 + 6\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + 2\OML/cmm/m/it
-/10 y \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 40 = 0$ \TU/等线(0)/m/n/10 的 公 共 弦 所 在
- 的 直 线 方 程 为$[]$\TU/lmr/m/n/10 ,
+[]\TU/lmr/m/n/10 (002280) \TU/等线(0)/m/n/10 两 圆 $\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 10\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 10\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = 0$ \TU/等线(0)/m/n/10 与 $\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 + 6\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + 2\OML/cmm/m/it/10 y \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 40 = 0$ \TU/等线(0)/m/n/10 的 公 共 弦 所 在 的 直 线 方 程 为$[]$\TU/lmr/m/n/10 ,
  []
 
 [260]
@@ -3472,28 +3067,17 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 8231--8232
 
 [261] [262]
 Overfull \hbox (20.7261pt too wide) in paragraph at lines 8291--8293
-[]\TU/lmr/m/n/10 (002328) \TU/等线(0)/m/n/10 已 知 长 轴 长 与 短 轴 长 之 比 为 $\OT1/cmr/m/
-n/10 2 : 1$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 一 条 准 线 方 程 为 $\OML/cmm/m/it/10 x 
-\OT1/cmr/m/n/10 + 4 = 0$ \TU/等线(0)/m/n/10 的 椭 圆 的 标 准 方 程 为$[]$\TU/lmr/m/n/10 .
- 
+[]\TU/lmr/m/n/10 (002328) \TU/等线(0)/m/n/10 已 知 长 轴 长 与 短 轴 长 之 比 为 $\OT1/cmr/m/n/10 2 : 1$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 一 条 准 线 方 程 为 $\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + 4 = 0$ \TU/等线(0)/m/n/10 的 椭 圆 的 标 准 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
 
 Overfull \hbox (68.21231pt too wide) in paragraph at lines 8293--8295
-[]\TU/lmr/m/n/10 (002329) \TU/等线(0)/m/n/10 以 直 线 $\OT1/cmr/m/n/10 3\OML/cmm/m/i
-t/10 x \OT1/cmr/m/n/10 + 4\OML/cmm/m/it/10 y \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/
-10 12 = 0$ \TU/等线(0)/m/n/10 和 两 轴 的 交 点 之 一 作 为 顶 点\TU/lmr/m/n/10 , \TU/等线(0)/m
-/n/10 另 一 交 点 作 为 焦 点 的 椭 圆 的 标 准 方 程 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002329) \TU/等线(0)/m/n/10 以 直 线 $\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + 4\OML/cmm/m/it/10 y \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 12 = 0$ \TU/等线(0)/m/n/10 和 两 轴 的 交 点 之 一 作 为 顶 点\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 另 一 交 点 作 为 焦 点 的 椭 圆 的 标 准 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [263] [264]
 Overfull \hbox (37.15343pt too wide) in paragraph at lines 8330--8331
-[]\TU/lmr/m/n/10 (002358) \TU/等线(0)/m/n/10 若 动 圆 过 定 点 $\OML/cmm/m/it/10 A\OT1/
-cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/
-n/10 0)$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 和 定 圆 $\OT1/cmr/m/n/10 (\OML/cmm/m/
-it/10 x \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 3)[] + \OML/cmm/m/it/10 y[] \OT1/c
-mr/m/n/10 = 4$ \TU/等线(0)/m/n/10 外 切\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 动 圆 圆 心 
-$\OML/cmm/m/it/10 P$ \TU/等线(0)/m/n/10 的 轨 迹 方 程 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002358) \TU/等线(0)/m/n/10 若 动 圆 过 定 点 $\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 和 定 圆 $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 3)[] + \OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 = 4$ \TU/等线(0)/m/n/10 外 切\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 动 圆 圆 心 $\OML/cmm/m/it/10 P$ \TU/等线(0)/m/n/10 的 轨 迹 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [265]
@@ -3503,10 +3087,7 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 8348--8349
 
 
 Overfull \hbox (5.65648pt too wide) in paragraph at lines 8358--8359
-[]\TU/lmr/m/n/10 (002377) \TU/等线(0)/m/n/10 若 双 曲 线 的 虚 轴 长 为 $\OT1/cmr/m/n/10 6
-$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 一 条 渐 近 线 的 方 程 为 $\OT1/cmr/m/n/10 3\OML/cmm
-/m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = 0$\TU/lmr/
-m/n/10 , \TU/等线(0)/m/n/10 则 此 双 曲 线 的 标 准 方 程 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002377) \TU/等线(0)/m/n/10 若 双 曲 线 的 虚 轴 长 为 $\OT1/cmr/m/n/10 6$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 一 条 渐 近 线 的 方 程 为 $\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = 0$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 此 双 曲 线 的 标 准 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [266] [267]
@@ -3521,31 +3102,17 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 8390--8391
 
 
 Overfull \hbox (5.23521pt too wide) in paragraph at lines 8406--8407
-[]\TU/lmr/m/n/10 (002407) \TU/等线(0)/m/n/10 抛 物 线 $\OML/cmm/m/it/10 y[] \OT1/cmr
-/m/n/10 = 16\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 上 的 一 点 $\OML/cmm/m/it/10 P$ \
-TU/等线(0)/m/n/10 到 $\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 轴 的 距 离 为 $\OT1/cmr/m/n
-/10 12$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $\OML/cmm/m/it/10 P$ \TU/等线(0)/m/n/1
-0 与 焦 点 $\OML/cmm/m/it/10 F$ \TU/等线(0)/m/n/10 间 的 距 离 $\OMS/cmsy/m/n/10 j\OML/c
-mm/m/it/10 PF\OMS/cmsy/m/n/10 j \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002407) \TU/等线(0)/m/n/10 抛 物 线 $\OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 = 16\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 上 的 一 点 $\OML/cmm/m/it/10 P$ \TU/等线(0)/m/n/10 到 $\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 轴 的 距 离 为 $\OT1/cmr/m/n/10 12$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $\OML/cmm/m/it/10 P$ \TU/等线(0)/m/n/10 与 焦 点 $\OML/cmm/m/it/10 F$ \TU/等线(0)/m/n/10 间 的 距 离 $\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 PF\OMS/cmsy/m/n/10 j \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
 
 Overfull \hbox (31.57059pt too wide) in paragraph at lines 8408--8409
-[]\TU/lmr/m/n/10 (002409) \TU/等线(0)/m/n/10 已 知 抛 物 线 的 顶 点 在 原 点\TU/lmr/m/n/10 
-, \TU/等线(0)/m/n/10 对 称 轴 与 坐 标 轴 重 合\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 过 点 $\O
-T1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr
-/m/n/10 3)$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 抛 物 线 的 标 准 方 程 为$[]$\TU/lmr/m/n
-/10 . 
+[]\TU/lmr/m/n/10 (002409) \TU/等线(0)/m/n/10 已 知 抛 物 线 的 顶 点 在 原 点\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 对 称 轴 与 坐 标 轴 重 合\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 过 点 $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3)$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 抛 物 线 的 标 准 方 程 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [268]
 Overfull \hbox (29.87805pt too wide) in paragraph at lines 8424--8425
-[]\TU/lmr/m/n/10 (002423) \TU/等线(0)/m/n/10 抛 物 线 $\OML/cmm/m/it/10 y[] \OT1/cmr
-/m/n/10 = 2\OML/cmm/m/it/10 px \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p > \OT1/cmr/m
-/n/10 0)$ \TU/等线(0)/m/n/10 的 弦 $\OML/cmm/m/it/10 PQ$ \TU/等线(0)/m/n/10 的 中 点 为 $
-\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]; y[]\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 , \T
-U/等线(0)/m/n/10 则 弦 $\OML/cmm/m/it/10 PQ$ \TU/等线(0)/m/n/10 所 在 直 线 的 一 个 法 向 量 为
-$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002423) \TU/等线(0)/m/n/10 抛 物 线 $\OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 = 2\OML/cmm/m/it/10 px \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p > \OT1/cmr/m/n/10 0)$ \TU/等线(0)/m/n/10 的 弦 $\OML/cmm/m/it/10 PQ$ \TU/等线(0)/m/n/10 的 中 点 为 $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]; y[]\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 弦 $\OML/cmm/m/it/10 PQ$ \TU/等线(0)/m/n/10 所 在 直 线 的 一 个 法 向 量 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [269] [270]
@@ -3577,183 +3144,107 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 8546--8547
 
 
 Overfull \hbox (13.49991pt too wide) in paragraph at lines 8554--8555
-[]\TU/lmr/m/n/10 (002491) \TU/等线(0)/m/n/10 极 坐 标 系 下 方 程 为 $\OML/cmm/m/it/10 ^^
-Z[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ^^Z \OMS/cmsy/m/n/10
- ^^@ \OT1/cmr/m/n/10 6 = 0(\OML/cmm/m/it/10 ^^Z \OMS/cmsy/m/n/10 2 []\OT1/cmr/m
-/n/10 )$ \TU/等线(0)/m/n/10 的 曲 线 的 另 一 个 极 坐 标 方 程 可 以 为$[]$\TU/lmr/m/n/10 .(\TU
-/等线(0)/m/n/10 要
+[]\TU/lmr/m/n/10 (002491) \TU/等线(0)/m/n/10 极 坐 标 系 下 方 程 为 $\OML/cmm/m/it/10 ^^Z[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ^^Z \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 6 = 0(\OML/cmm/m/it/10 ^^Z \OMS/cmsy/m/n/10 2 []\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 的 曲 线 的 另 一 个 极 坐 标 方 程 可 以 为$[]$\TU/lmr/m/n/10 .(\TU/等线(0)/m/n/10 要
  []
 
 [274]
 Overfull \hbox (13.49991pt too wide) in paragraph at lines 8565--8566
-[]\TU/lmr/m/n/10 (002501) \TU/等线(0)/m/n/10 极 坐 标 系 下 方 程 为 $\OML/cmm/m/it/10 ^^
-Z[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ^^Z \OMS/cmsy/m/n/10
- ^^@ \OT1/cmr/m/n/10 6 = 0(\OML/cmm/m/it/10 ^^Z \OMS/cmsy/m/n/10 2 []\OT1/cmr/m
-/n/10 )$ \TU/等线(0)/m/n/10 的 曲 线 的 另 一 个 极 坐 标 方 程 可 以 为$[]$\TU/lmr/m/n/10 .(\TU
-/等线(0)/m/n/10 要
+[]\TU/lmr/m/n/10 (002501) \TU/等线(0)/m/n/10 极 坐 标 系 下 方 程 为 $\OML/cmm/m/it/10 ^^Z[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ^^Z \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 6 = 0(\OML/cmm/m/it/10 ^^Z \OMS/cmsy/m/n/10 2 []\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 的 曲 线 的 另 一 个 极 坐 标 方 程 可 以 为$[]$\TU/lmr/m/n/10 .(\TU/等线(0)/m/n/10 要
  []
 
 
 Overfull \hbox (15.93756pt too wide) in paragraph at lines 8570--8571
-[]\TU/lmr/m/n/10 (002506) \TU/等线(0)/m/n/10 已 知 圆 锥 曲 线 的 极 坐 标 方 程 为 $\OML/cmm/
-m/it/10 ^^Z \OT1/cmr/m/n/10 = []$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 那 么 它 的 焦 点 
-到 与 之 不 对 应 的 准 线 的 距 离 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002506) \TU/等线(0)/m/n/10 已 知 圆 锥 曲 线 的 极 坐 标 方 程 为 $\OML/cmm/m/it/10 ^^Z \OT1/cmr/m/n/10 = []$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 那 么 它 的 焦 点 到 与 之 不 对 应 的 准 线 的 距 离 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [275]
 Overfull \hbox (53.88655pt too wide) in paragraph at lines 8588--8589
-[]\TU/lmr/m/n/10 (002520) \TU/等线(0)/m/n/10 三 位 同 学 分 别 从 \TU/lmr/m/n/10 “\TU/等线
-(0)/m/n/10 物 理 拓 展\TU/lmr/m/n/10 ” \TU/等线(0)/m/n/10 和 \TU/lmr/m/n/10 “\TU/等线(0)
-/m/n/10 化 学 拓 展\TU/lmr/m/n/10 ” \TU/等线(0)/m/n/10 这 两 门 课 程 中 选 修 一 门 或 两 门 课 程\
-TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 不 同 的 选 法 有$[]$
+[]\TU/lmr/m/n/10 (002520) \TU/等线(0)/m/n/10 三 位 同 学 分 别 从 \TU/lmr/m/n/10 “\TU/等线(0)/m/n/10 物 理 拓 展\TU/lmr/m/n/10 ” \TU/等线(0)/m/n/10 和 \TU/lmr/m/n/10 “\TU/等线(0)/m/n/10 化 学 拓 展\TU/lmr/m/n/10 ” \TU/等线(0)/m/n/10 这 两 门 课 程 中 选 修 一 门 或 两 门 课 程\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 不 同 的 选 法 有$[]$
  []
 
 [276]
 Overfull \hbox (22.7887pt too wide) in paragraph at lines 8606--8607
-[]\TU/lmr/m/n/10 (002538) \TU/等线(0)/m/n/10 在 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10
- ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1
-/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/
-n/10 5$ \TU/等线(0)/m/n/10 这 六 个 数 字 组 成 的 数 字 不 重 复 的 六 位 数 中\TU/lmr/m/n/10 , \T
-U/等线(0)/m/n/10 个 位 数 字 小 于 十 位 数 字 的 有$[]$
+[]\TU/lmr/m/n/10 (002538) \TU/等线(0)/m/n/10 在 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 5$ \TU/等线(0)/m/n/10 这 六 个 数 字 组 成 的 数 字 不 重 复 的 六 位 数 中\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 个 位 数 字 小 于 十 位 数 字 的 有$[]$
  []
 
 
 Overfull \hbox (22.8926pt too wide) in paragraph at lines 8611--8612
-[]\TU/lmr/m/n/10 (002543) \TU/等线(0)/m/n/10 将 $\OT1/cmr/m/n/10 9$ \TU/等线(0)/m/n/
-10 人 排 成 $\OT1/cmr/m/n/10 3$ \TU/等线(0)/m/n/10 排\TU/lmr/m/n/10 , \TU/等线(0)/m/n/1
-0 每 排 $\OT1/cmr/m/n/10 3$ \TU/等线(0)/m/n/10 人\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 要
- 求 甲 在 第 二 排\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 乙 与 丙 在 第 三 排\TU/lmr/m/n/10 , \TU
-/等线(0)/m/n/10 则 所 有 的 不 同 排 法 数 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002543) \TU/等线(0)/m/n/10 将 $\OT1/cmr/m/n/10 9$ \TU/等线(0)/m/n/10 人 排 成 $\OT1/cmr/m/n/10 3$ \TU/等线(0)/m/n/10 排\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 每 排 $\OT1/cmr/m/n/10 3$ \TU/等线(0)/m/n/10 人\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 要 求 甲 在 第 二 排\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 乙 与 丙 在 第 三 排\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 所 有 的 不 同 排 法 数 为$[]$\TU/lmr/m/n/10 . 
  []
 
 
 Overfull \hbox (19.55264pt too wide) in paragraph at lines 8621--8622
-[]\TU/lmr/m/n/10 (002553)$\OT1/cmr/m/n/10 10$ \TU/等线(0)/m/n/10 个 人 分 乘 $\OT1/cm
-r/m/n/10 3$ \TU/等线(0)/m/n/10 辆 汽 车\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 要 求 甲 车 坐 $
-\OT1/cmr/m/n/10 5$ \TU/等线(0)/m/n/10 人\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 乙 车 坐 $\
-OT1/cmr/m/n/10 3$ \TU/等线(0)/m/n/10 人\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 丙 车 坐 $\O
-T1/cmr/m/n/10 2$ \TU/等线(0)/m/n/10 人\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 不 同 的 乘 车 
-方 法 共 有$[]$
+[]\TU/lmr/m/n/10 (002553)$\OT1/cmr/m/n/10 10$ \TU/等线(0)/m/n/10 个 人 分 乘 $\OT1/cmr/m/n/10 3$ \TU/等线(0)/m/n/10 辆 汽 车\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 要 求 甲 车 坐 $\OT1/cmr/m/n/10 5$ \TU/等线(0)/m/n/10 人\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 乙 车 坐 $\OT1/cmr/m/n/10 3$ \TU/等线(0)/m/n/10 人\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 丙 车 坐 $\OT1/cmr/m/n/10 2$ \TU/等线(0)/m/n/10 人\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 不 同 的 乘 车 方 法 共 有$[]$
  []
 
 [277]
 Overfull \hbox (45.45058pt too wide) in paragraph at lines 8623--8624
-[]\TU/lmr/m/n/10 (002555) \TU/等线(0)/m/n/10 高 三 年 级 共 有 $\OT1/cmr/m/n/10 8$ \TU/
-等线(0)/m/n/10 个 班\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 分 派 $\OT1/cmr/m/n/10 4$ \TU/等
-线(0)/m/n/10 个 数 学 教 师 任 教\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 每 个 教 师 都 教 两 个 班\TU
-/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 不 同 的 分 派 方 式 共 有$[]$
+[]\TU/lmr/m/n/10 (002555) \TU/等线(0)/m/n/10 高 三 年 级 共 有 $\OT1/cmr/m/n/10 8$ \TU/等线(0)/m/n/10 个 班\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 分 派 $\OT1/cmr/m/n/10 4$ \TU/等线(0)/m/n/10 个 数 学 教 师 任 教\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 每 个 教 师 都 教 两 个 班\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 不 同 的 分 派 方 式 共 有$[]$
  []
 
 
 Overfull \hbox (27.78658pt too wide) in paragraph at lines 8628--8629
-[]\TU/lmr/m/n/10 (002560) \TU/等线(0)/m/n/10 一 组 $\OT1/cmr/m/n/10 6$ \TU/等线(0)/m/
-n/10 条 平 行 线 与 另 一 组 $\OT1/cmr/m/n/10 3$ \TU/等线(0)/m/n/10 条 平 行 线 互 相 垂 直\TU/lm
-r/m/n/10 , \TU/等线(0)/m/n/10 则 由 它 们 中 的 四 条 围 成 的 矩 形 的 个 数 为$[]$\TU/lmr/m/n/10
- . 
+[]\TU/lmr/m/n/10 (002560) \TU/等线(0)/m/n/10 一 组 $\OT1/cmr/m/n/10 6$ \TU/等线(0)/m/n/10 条 平 行 线 与 另 一 组 $\OT1/cmr/m/n/10 3$ \TU/等线(0)/m/n/10 条 平 行 线 互 相 垂 直\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 由 它 们 中 的 四 条 围 成 的 矩 形 的 个 数 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [278]
 Overfull \hbox (40.94214pt too wide) in paragraph at lines 8647--8648
-[]\TU/lmr/m/n/10 (002578) \TU/等线(0)/m/n/10 已 知 平 面 上 的 九 个 点 $\OMS/cmsy/m/n/10 
-f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 jj\OML
-/cmm/m/it/10 x\OMS/cmsy/m/n/10 j ^^T \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OMS/c
-msy/m/n/10 j\OML/cmm/m/it/10 y\OMS/cmsy/m/n/10 j ^^T \OT1/cmr/m/n/10 1\OML/cmm/
-m/it/10 ; x; y \OMS/cmsy/m/n/10 2 []g$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 以 这 些 点
- 中 的 三 个 作 为 顶 点\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 能 构 成$[]$
+[]\TU/lmr/m/n/10 (002578) \TU/等线(0)/m/n/10 已 知 平 面 上 的 九 个 点 $\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 jj\OML/cmm/m/it/10 x\OMS/cmsy/m/n/10 j ^^T \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 y\OMS/cmsy/m/n/10 j ^^T \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; x; y \OMS/cmsy/m/n/10 2 []g$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 以 这 些 点 中 的 三 个 作 为 顶 点\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 能 构 成$[]$
  []
 
 
 Overfull \hbox (35.22859pt too wide) in paragraph at lines 8648--8649
-[]\TU/lmr/m/n/10 (002579) \TU/等线(0)/m/n/10 平 面 内 共 有 $\OT1/cmr/m/n/10 17$ \TU/等
-线(0)/m/n/10 个 点\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 其 中 有 且 仅 有 $\OT1/cmr/m/n/10 5
-$ \TU/等线(0)/m/n/10 个 点 共 线\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 以 这 些 点 中 的 三 个 点 为
- 顶 点 的 三 角 形 共 有$[]$
+[]\TU/lmr/m/n/10 (002579) \TU/等线(0)/m/n/10 平 面 内 共 有 $\OT1/cmr/m/n/10 17$ \TU/等线(0)/m/n/10 个 点\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 其 中 有 且 仅 有 $\OT1/cmr/m/n/10 5$ \TU/等线(0)/m/n/10 个 点 共 线\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 以 这 些 点 中 的 三 个 点 为 顶 点 的 三 角 形 共 有$[]$
  []
 
 
 Overfull \hbox (3.34412pt too wide) in paragraph at lines 8656--8657
-[]\TU/lmr/m/n/10 (002587) \TU/等线(0)/m/n/10 在 由 $\OT1/cmr/m/n/10 1\OML/cmm/m/it/
-10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; []
-  ; \OT1/cmr/m/n/10 9$ \TU/等线(0)/m/n/10 这 九 个 数 字 组 成 的 数 字 不 重 复 的 五 位 数 中\TU/
-lmr/m/n/10 , \TU/等线(0)/m/n/10 奇 数 位 上 一 定 是 奇 数 的 共 有$[]$
+[]\TU/lmr/m/n/10 (002587) \TU/等线(0)/m/n/10 在 由 $\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; []  ; \OT1/cmr/m/n/10 9$ \TU/等线(0)/m/n/10 这 九 个 数 字 组 成 的 数 字 不 重 复 的 五 位 数 中\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 奇 数 位 上 一 定 是 奇 数 的 共 有$[]$
  []
 
 
 Overfull \hbox (23.34412pt too wide) in paragraph at lines 8657--8658
-[]\TU/lmr/m/n/10 (002588) \TU/等线(0)/m/n/10 在 由 $\OT1/cmr/m/n/10 1\OML/cmm/m/it/
-10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; []
-  ; \OT1/cmr/m/n/10 9$ \TU/等线(0)/m/n/10 这 九 个 数 字 组 成 的 数 字 不 重 复 的 五 位 数 中\TU/
-lmr/m/n/10 , \TU/等线(0)/m/n/10 奇 数 数 字 一 定 在 奇 数 位 上 的 共 有$[]$
+[]\TU/lmr/m/n/10 (002588) \TU/等线(0)/m/n/10 在 由 $\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; []  ; \OT1/cmr/m/n/10 9$ \TU/等线(0)/m/n/10 这 九 个 数 字 组 成 的 数 字 不 重 复 的 五 位 数 中\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 奇 数 数 字 一 定 在 奇 数 位 上 的 共 有$[]$
  []
 
 [279]
 Overfull \hbox (0.78856pt too wide) in paragraph at lines 8668--8669
-[]\TU/lmr/m/n/10 (002599) \TU/等线(0)/m/n/10 将 $\OT1/cmr/m/n/10 6$ \TU/等线(0)/m/n/
-10 件 不 同 的 产 品 分 别 装 入 两 个 相 同 的 口 袋 里\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 要 求 每 袋
- 至 少 有 一 件\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 不 同 的 装 法 共 有$[]$
+[]\TU/lmr/m/n/10 (002599) \TU/等线(0)/m/n/10 将 $\OT1/cmr/m/n/10 6$ \TU/等线(0)/m/n/10 件 不 同 的 产 品 分 别 装 入 两 个 相 同 的 口 袋 里\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 要 求 每 袋 至 少 有 一 件\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 不 同 的 装 法 共 有$[]$
  []
 
 
 Overfull \hbox (25.7886pt too wide) in paragraph at lines 8671--8672
-[]\TU/lmr/m/n/10 (002602)$\OT1/cmr/m/n/10 5$ \TU/等线(0)/m/n/10 名 运 动 员 参 加 $\OT1
-/cmr/m/n/10 100$ \TU/等线(0)/m/n/10 米 决 赛\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 满 足 每 
-个 人 所 花 时 间 都 不 相 同\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 甲 比 乙 先 到 终 点 的 最 终 排 名 
-共 有$[]$
+[]\TU/lmr/m/n/10 (002602)$\OT1/cmr/m/n/10 5$ \TU/等线(0)/m/n/10 名 运 动 员 参 加 $\OT1/cmr/m/n/10 100$ \TU/等线(0)/m/n/10 米 决 赛\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 满 足 每 个 人 所 花 时 间 都 不 相 同\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 甲 比 乙 先 到 终 点 的 最 终 排 名 共 有$[]$
  []
 
 
 Overfull \hbox (3.34427pt too wide) in paragraph at lines 8673--8674
-[]\TU/lmr/m/n/10 (002604) \TU/等线(0)/m/n/10 取 $\OT1/cmr/m/n/10 1\OML/cmm/m/it/10
- ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1
-/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 5$ \TU/等线(0)/m/n/10 这 五 个 数 字 中
- 的 两 个 分 别 作 为 一 个 对 数 的 底 数 和 真 数\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 所 得 的 不 同
- 值 共 有$[]$
+[]\TU/lmr/m/n/10 (002604) \TU/等线(0)/m/n/10 取 $\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 5$ \TU/等线(0)/m/n/10 这 五 个 数 字 中 的 两 个 分 别 作 为 一 个 对 数 的 底 数 和 真 数\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 所 得 的 不 同 值 共 有$[]$
  []
 
 [280]
 Overfull \hbox (3.01332pt too wide) in paragraph at lines 8681--8682
-[]\TU/lmr/m/n/10 (002611)$\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 
-^^@ \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )[]$ \TU/等线(0)/m/n/10 的 
-展 开 式 中\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 第 $\OT1/cmr/m/n/10 4$ \TU/等线(0)/m/n/10
- 项 的 二 项 式 系 数 为$[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 第 $\OT1/cmr/m/n/10 4$ \TU
-/等线(0)/m/n/10 项 的 系 数 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002611)$\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )[]$ \TU/等线(0)/m/n/10 的 展 开 式 中\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 第 $\OT1/cmr/m/n/10 4$ \TU/等线(0)/m/n/10 项 的 二 项 式 系 数 为$[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 第 $\OT1/cmr/m/n/10 4$ \TU/等线(0)/m/n/10 项 的 系 数 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [281]
 Overfull \hbox (35.99706pt too wide) in paragraph at lines 8728--8729
-[]\TU/lmr/m/n/10 (002640) \TU/等线(0)/m/n/10 袋 中 有 $\OT1/cmr/m/n/10 10$ \TU/等线(0)
-/m/n/10 个 球\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 记 有 号 码 $\OT1/cmr/m/n/10 0\OML/cmm
-/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/1
-0 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; [] 
- ; \OT1/cmr/m/n/10 9$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 任 意 取 出 $\OT1/cmr/m/n/10
- 2$ \TU/等线(0)/m/n/10 个 球\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 号 码 正 好 为 $\OT1/cmr/m
-/n/10 1$ \TU/等线(0)/m/n/10 和 $\OT1/cmr/m/n/10 2$ \TU/等线(0)/m/n/10 的 概 率 为$[]$\TU
-/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002640) \TU/等线(0)/m/n/10 袋 中 有 $\OT1/cmr/m/n/10 10$ \TU/等线(0)/m/n/10 个 球\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 记 有 号 码 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; []  ; \OT1/cmr/m/n/10 9$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 任 意 取 出 $\OT1/cmr/m/n/10 2$ \TU/等线(0)/m/n/10 个 球\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 号 码 正 好 为 $\OT1/cmr/m/n/10 1$ \TU/等线(0)/m/n/10 和 $\OT1/cmr/m/n/10 2$ \TU/等线(0)/m/n/10 的 概 率 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [282]
 Overfull \hbox (6.55704pt too wide) in paragraph at lines 8729--8730
-[]\TU/lmr/m/n/10 (002641) \TU/等线(0)/m/n/10 袋 中 有 $\OT1/cmr/m/n/10 10$ \TU/等线(0)
-/m/n/10 个 球\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 记 有 号 码 $\OT1/cmr/m/n/10 0\OML/cmm
-/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/1
-0 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; [] 
- ; \OT1/cmr/m/n/10 9$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 任 意 取 出 $\OT1/cmr/m/n/10
- 3$ \TU/等线(0)/m/n/10 个 球\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 没 有 号 码 $\OT1/cmr/m/n
-/10 3$ \TU/等线(0)/m/n/10 的 概 率 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002641) \TU/等线(0)/m/n/10 袋 中 有 $\OT1/cmr/m/n/10 10$ \TU/等线(0)/m/n/10 个 球\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 记 有 号 码 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; []  ; \OT1/cmr/m/n/10 9$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 任 意 取 出 $\OT1/cmr/m/n/10 3$ \TU/等线(0)/m/n/10 个 球\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 没 有 号 码 $\OT1/cmr/m/n/10 3$ \TU/等线(0)/m/n/10 的 概 率 为$[]$\TU/lmr/m/n/10 . 
  []
 
 
 Overfull \hbox (6.15779pt too wide) in paragraph at lines 8746--8747
-\TU/等线(0)/m/n/10 某 段 时 间 内 每 个 电 子 元 件 损 坏 的 概 率 都 是 $\OML/cmm/m/it/10 p$\TU/lm
-r/m/n/10 , \TU/等线(0)/m/n/10 则 在 这 段 时 间 内 这 个 仪 表 能 正 常 工 作 的 概 率 为$[]$\TU/lmr/
-m/n/10 . 
+\TU/等线(0)/m/n/10 某 段 时 间 内 每 个 电 子 元 件 损 坏 的 概 率 都 是 $\OML/cmm/m/it/10 p$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 在 这 段 时 间 内 这 个 仪 表 能 正 常 工 作 的 概 率 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [283]
 Overfull \hbox (19.35054pt too wide) in paragraph at lines 8750--8751
-[]\TU/lmr/m/n/10 (002662) \TU/等线(0)/m/n/10 四 名 学 生\TU/lmr/m/n/10 , \TU/等线(0)/m/
-n/10 每 人 写 一 张 贺 卡\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 集 中 后 每 人 抽 取 一 张\TU/lmr/m/
-n/10 , \TU/等线(0)/m/n/10 每 人 都 拿 到 别 人 写 的 贺 卡 的 概 率 是$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (002662) \TU/等线(0)/m/n/10 四 名 学 生\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 每 人 写 一 张 贺 卡\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 集 中 后 每 人 抽 取 一 张\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 每 人 都 拿 到 别 人 写 的 贺 卡 的 概 率 是$[]$\TU/lmr/m/n/10 . 
  []
 
 [284]
@@ -3766,231 +3257,129 @@ Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
  [287]
 Overfull \hbox (14.4466pt too wide) in paragraph at lines 8866--8867
-[]\TU/lmr/m/n/10 (000351) \TU/等线(0)/m/n/10 甲、|  乙 两 人 从 $\OT1/cmr/m/n/10 5$ \TU
-/等线(0)/m/n/10 门 不 同 的 选 修 课 中 各 选 修 $\OT1/cmr/m/n/10 2$ \TU/等线(0)/m/n/10 门\TU/l
-mr/m/n/10 , \TU/等线(0)/m/n/10 则 甲、|  乙 所 选 的 课 程 中 恰 有 $\OT1/cmr/m/n/10 1$ \TU/等
-线(0)/m/n/10 门 相 同 的 选 法 有$[]$
+[]\TU/lmr/m/n/10 (000351) \TU/等线(0)/m/n/10 甲、|  乙 两 人 从 $\OT1/cmr/m/n/10 5$ \TU/等线(0)/m/n/10 门 不 同 的 选 修 课 中 各 选 修 $\OT1/cmr/m/n/10 2$ \TU/等线(0)/m/n/10 门\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 甲、|  乙 所 选 的 课 程 中 恰 有 $\OT1/cmr/m/n/10 1$ \TU/等线(0)/m/n/10 门 相 同 的 选 法 有$[]$
  []
 
 [288] [289]
 Overfull \hbox (13.56854pt too wide) in paragraph at lines 8919--8920
-[]\TU/lmr/m/n/10 (000383) \TU/等线(0)/m/n/10 已 知 一 个 底 面 置 于 水 平 面 上 的 圆 锥\TU/lmr
-/m/n/10 , \TU/等线(0)/m/n/10 其 左 视 图 是 边 长 为 \TU/lmr/m/n/10 6 \TU/等线(0)/m/n/10 的 
-正 三 角 形\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 该 圆 锥 的 侧 面 积 为$[]$\TU/lmr/m/n/10 . 
-
+[]\TU/lmr/m/n/10 (000383) \TU/等线(0)/m/n/10 已 知 一 个 底 面 置 于 水 平 面 上 的 圆 锥\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 其 左 视 图 是 边 长 为 \TU/lmr/m/n/10 6 \TU/等线(0)/m/n/10 的 正 三 角 形\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 该 圆 锥 的 侧 面 积 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [290]
 Overfull \hbox (1.28766pt too wide) in paragraph at lines 8952--8953
-[]\TU/lmr/m/n/10 (000404) \TU/等线(0)/m/n/10 将 边 长 为 $\OT1/cmr/m/n/10 10$ \TU/等线(
-0)/m/n/10 的 正 三 角 形 $\OML/cmm/m/it/10 ABC$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 按 \
-TU/lmr/m/n/10 “\TU/等线(0)/m/n/10 斜 二 测\TU/lmr/m/n/10 ” \TU/等线(0)/m/n/10 画 法 在 水 
-平 放 置 的 平 面 上 画 出 为 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 A[]B[]C[]$\TU/lmr/m/n/1
-0 , \TU/等线(0)/m/n/10 则 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 A[]B[]C[]$
+[]\TU/lmr/m/n/10 (000404) \TU/等线(0)/m/n/10 将 边 长 为 $\OT1/cmr/m/n/10 10$ \TU/等线(0)/m/n/10 的 正 三 角 形 $\OML/cmm/m/it/10 ABC$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 按 \TU/lmr/m/n/10 “\TU/等线(0)/m/n/10 斜 二 测\TU/lmr/m/n/10 ” \TU/等线(0)/m/n/10 画 法 在 水 平 放 置 的 平 面 上 画 出 为 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 A[]B[]C[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 A[]B[]C[]$
  []
 
 [291] [292]
 Overfull \hbox (2.60689pt too wide) in paragraph at lines 8996--8997
-[]\TU/lmr/m/n/10 (000429) \TU/等线(0)/m/n/10 已 知 二 元 一 次 方 程 $[]$ 的 增 广 矩 阵 是 $[]
-$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 此 方 程 组 的 解 是$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (000429) \TU/等线(0)/m/n/10 已 知 二 元 一 次 方 程 $[]$ 的 增 广 矩 阵 是 $[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 此 方 程 组 的 解 是$[]$\TU/lmr/m/n/10 . 
  []
 
 [293]
 Overfull \hbox (6.11581pt too wide) in paragraph at lines 9017--9018
-[]\TU/lmr/m/n/10 (000450) \TU/等线(0)/m/n/10 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/
-10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = 2[] + \OML/cmm/m/it/10 m$ \TU/等线(0)/m
-/n/10 的 反 函 数 为 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 f[]\OT1/
-cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/
-10 且 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 
-(\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 的 图 像 过 点 $\OML/cmm/m/it
-/10 Q\OT1/cmr/m/n/10 (5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2)$\TU/lmr/m/n/10 , \
-TU/等线(0)/m/n/10 那 么 $\OML/cmm/m/it/10 m \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
-
+[]\TU/lmr/m/n/10 (000450) \TU/等线(0)/m/n/10 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = 2[] + \OML/cmm/m/it/10 m$ \TU/等线(0)/m/n/10 的 反 函 数 为 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 的 图 像 过 点 $\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 (5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2)$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 那 么 $\OML/cmm/m/it/10 m \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
 [294] [295]
 Overfull \hbox (27.58098pt too wide) in paragraph at lines 9067--9068
-[]\TU/lmr/m/n/10 (000500) \TU/等线(0)/m/n/10 某 圆 锥 体 的 底 面 圆 的 半 径 长 为 $[]$\TU/lm
-r/m/n/10 , \TU/等线(0)/m/n/10 其 侧 面 展 开 图 是 圆 心 角 为 $[]\OML/cmm/m/it/10 ^^Y$ \TU/
-等线(0)/m/n/10 的 扇 形\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 该 圆 锥 体 的 体 积 是$[]$\TU/lm
-r/m/n/10 . 
+[]\TU/lmr/m/n/10 (000500) \TU/等线(0)/m/n/10 某 圆 锥 体 的 底 面 圆 的 半 径 长 为 $[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 其 侧 面 展 开 图 是 圆 心 角 为 $[]\OML/cmm/m/it/10 ^^Y$ \TU/等线(0)/m/n/10 的 扇 形\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 该 圆 锥 体 的 体 积 是$[]$\TU/lmr/m/n/10 . 
  []
 
 [296] [297] [298] [299] [300]
 Overfull \hbox (10.39607pt too wide) in paragraph at lines 9180--9181
-[]\TU/lmr/m/n/10 (000593) \TU/等线(0)/m/n/10 若 $\OT1/cmr/m/n/10 (2\OML/cmm/m/it/1
-0 x \OT1/cmr/m/n/10 + [])[]$ \TU/等线(0)/m/n/10 的 二 项 展 开 式 中 的 所 有 二 项 式 系 数 之 和
- 等 于 $\OT1/cmr/m/n/10 256$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 该 展 开 式 中 常 数 项 的
- 值 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (000593) \TU/等线(0)/m/n/10 若 $\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + [])[]$ \TU/等线(0)/m/n/10 的 二 项 展 开 式 中 的 所 有 二 项 式 系 数 之 和 等 于 $\OT1/cmr/m/n/10 256$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 该 展 开 式 中 常 数 项 的 值 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [301] [302]
 Overfull \hbox (21.3375pt too wide) in paragraph at lines 9198--9199
-[]\TU/lmr/m/n/10 (000611) \TU/等线(0)/m/n/10 若 从 一 副 $\OT1/cmr/m/n/10 52$ \TU/等线(
-0)/m/n/10 张 的 扑 克 牌 中 随 机 抽 取 $\OT1/cmr/m/n/10 2$ \TU/等线(0)/m/n/10 张\TU/lmr/m/n
-/10 , \TU/等线(0)/m/n/10 则 在 放 回 抽 取 的 情 形 下\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 两 张
- 牌 都 是 \TU/lmr/m/n/10 K \TU/等线(0)/m/n/10 的 概 率 为$[]$\TU/lmr/m/n/10 (\TU/等线(0)/m
-/n/10 结
+[]\TU/lmr/m/n/10 (000611) \TU/等线(0)/m/n/10 若 从 一 副 $\OT1/cmr/m/n/10 52$ \TU/等线(0)/m/n/10 张 的 扑 克 牌 中 随 机 抽 取 $\OT1/cmr/m/n/10 2$ \TU/等线(0)/m/n/10 张\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 在 放 回 抽 取 的 情 形 下\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 两 张 牌 都 是 \TU/lmr/m/n/10 K \TU/等线(0)/m/n/10 的 概 率 为$[]$\TU/lmr/m/n/10 (\TU/等线(0)/m/n/10 结
  []
 
 [303] [304] [305] [306]
 Overfull \hbox (8.05255pt too wide) in paragraph at lines 9319--9320
-[]\TU/lmr/m/n/10 (000682) \TU/等线(0)/m/n/10 直 线 $[]$\TU/lmr/m/n/10 ($\OML/cmm/m/
-it/10 t$ \TU/等线(0)/m/n/10 为 参 数\TU/lmr/m/n/10 ) \TU/等线(0)/m/n/10 与 曲 线 $[]$\TU/
-lmr/m/n/10 ($\OML/cmm/m/it/10 ^^R$ \TU/等线(0)/m/n/10 为 参 数\TU/lmr/m/n/10 ) \TU/等
-线(0)/m/n/10 的 公 共 点 的 个 数 是$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (000682) \TU/等线(0)/m/n/10 直 线 $[]$\TU/lmr/m/n/10 ($\OML/cmm/m/it/10 t$ \TU/等线(0)/m/n/10 为 参 数\TU/lmr/m/n/10 ) \TU/等线(0)/m/n/10 与 曲 线 $[]$\TU/lmr/m/n/10 ($\OML/cmm/m/it/10 ^^R$ \TU/等线(0)/m/n/10 为 参 数\TU/lmr/m/n/10 ) \TU/等线(0)/m/n/10 的 公 共 点 的 个 数 是$[]$\TU/lmr/m/n/10 . 
  []
 
 [307] [308] [309]
 Overfull \hbox (2.24854pt too wide) in paragraph at lines 9367--9368
-[]\TU/lmr/m/n/10 (000730) \TU/等线(0)/m/n/10 已 知 在 $\OMS/cmsy/m/n/10 4\OML/cmm/m/
-it/10 ABC$ \TU/等线(0)/m/n/10 中\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 a$\TU/lmr/m/n/1
-0 , $\OML/cmm/m/it/10 b$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 c$ \TU/等线(0)/m/n/10 
-分 别 为 $\U/msa/m/n/10 \\OML/cmm/m/it/10 A$\TU/lmr/m/n/10 , $\U/msa/m/n/10 \\OML/
-cmm/m/it/10 B$\TU/lmr/m/n/10 , $\U/msa/m/n/10 \\OML/cmm/m/it/10 C$ \TU/等线(0)/m/
-n/10 所 对 的 边\TU/lmr/m/n/10 . \TU/等线(0)/m/n/10 若 $\OML/cmm/m/it/10 b[] \OT1/cmr/
-m/n/10 + \OML/cmm/m/it/10 c[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 a[] \OT1/cm
-r/m/n/10 = []\OML/cmm/m/it/10 bc$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $\U/msa/m/
-n/10 \\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (000730) \TU/等线(0)/m/n/10 已 知 在 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/10 ABC$ \TU/等线(0)/m/n/10 中\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 a$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 b$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 c$ \TU/等线(0)/m/n/10 分 别 为 $\U/msa/m/n/10 \\OML/cmm/m/it/10 A$\TU/lmr/m/n/10 , $\U/msa/m/n/10 \\OML/cmm/m/it/10 B$\TU/lmr/m/n/10 , $\U/msa/m/n/10 \\OML/cmm/m/it/10 C$ \TU/等线(0)/m/n/10 所 对 的 边\TU/lmr/m/n/10 . \TU/等线(0)/m/n/10 若 $\OML/cmm/m/it/10 b[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 c[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 bc$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $\U/msa/m/n/10 \\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
 [310]
 Overfull \hbox (35.20175pt too wide) in paragraph at lines 9386--9387
-[]\TU/lmr/m/n/10 (000749) \TU/等线(0)/m/n/10 长 方 体 的 对 角 线 与 过 同 一 个 顶 点 的 三 个 表 
-面 所 成 的 角 分 别 为 $\OML/cmm/m/it/10 ^^K$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 ^^L$\T
-U/lmr/m/n/10 , $\OML/cmm/m/it/10 ^^M$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $[][] 
-\OML/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 + [][] \OML/cmm/m/it/10 ^^L \OT1/cmr/m/n/1
-0 + [][] \OML/cmm/m/it/10 ^^M \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (000749) \TU/等线(0)/m/n/10 长 方 体 的 对 角 线 与 过 同 一 个 顶 点 的 三 个 表 面 所 成 的 角 分 别 为 $\OML/cmm/m/it/10 ^^K$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 ^^L$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 ^^M$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $[][] \OML/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 + [][] \OML/cmm/m/it/10 ^^L \OT1/cmr/m/n/10 + [][] \OML/cmm/m/it/10 ^^M \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
 [311]
 Overfull \hbox (23.60175pt too wide) in paragraph at lines 9424--9425
-[]\TU/lmr/m/n/10 (000776) \TU/等线(0)/m/n/10 已 知 集 合 $\OML/cmm/m/it/10 A \OT1/cmr
-/m/n/10 = \OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10
- 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7\OML/
-cmm/m/it/10 ; \OT1/cmr/m/n/10 9\OMS/cmsy/m/n/10 g$\TU/lmr/m/n/10 , $\OML/cmm/m/
-it/10 B \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ;
- \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/c
-mr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/
-10 5\OMS/cmsy/m/n/10 g$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 图 中 阴 影 部 分 集 合 用 列 
-举 法 表 示 的 结 果 是$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (000776) \TU/等线(0)/m/n/10 已 知 集 合 $\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 9\OMS/cmsy/m/n/10 g$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 B \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 5\OMS/cmsy/m/n/10 g$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 图 中 阴 影 部 分 集 合 用 列 举 法 表 示 的 结 果 是$[]$\TU/lmr/m/n/10 . 
  []
 
 [312]
 Overfull \hbox (5.98141pt too wide) in paragraph at lines 9439--9440
-[]\TU/lmr/m/n/10 (000779) \TU/等线(0)/m/n/10 在 从 $\OT1/cmr/m/n/10 4$ \TU/等线(0)/m/
-n/10 个 字 母 $\OML/cmm/m/it/10 a$\TU/等线(0)/m/n/10 、| $\OML/cmm/m/it/10 b$\TU/等线(0
-)/m/n/10 、| $\OML/cmm/m/it/10 c$\TU/等线(0)/m/n/10 、| $\OML/cmm/m/it/10 d$ \TU/等线
-(0)/m/n/10 中 任 意 选 出 $\OT1/cmr/m/n/10 2$ \TU/等线(0)/m/n/10 个 不 同 字 母 的 试 验 中\TU/
-lmr/m/n/10 , \TU/等线(0)/m/n/10 其 中 含 有 字 母 $\OML/cmm/m/it/10 d$ \TU/等线(0)/m/n/10
- 事 件 的 概 率 是$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (000779) \TU/等线(0)/m/n/10 在 从 $\OT1/cmr/m/n/10 4$ \TU/等线(0)/m/n/10 个 字 母 $\OML/cmm/m/it/10 a$\TU/等线(0)/m/n/10 、| $\OML/cmm/m/it/10 b$\TU/等线(0)/m/n/10 、| $\OML/cmm/m/it/10 c$\TU/等线(0)/m/n/10 、| $\OML/cmm/m/it/10 d$ \TU/等线(0)/m/n/10 中 任 意 选 出 $\OT1/cmr/m/n/10 2$ \TU/等线(0)/m/n/10 个 不 同 字 母 的 试 验 中\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 其 中 含 有 字 母 $\OML/cmm/m/it/10 d$ \TU/等线(0)/m/n/10 事 件 的 概 率 是$[]$\TU/lmr/m/n/10 . 
  []
 
 [313]
 Overfull \hbox (17.10661pt too wide) in paragraph at lines 9485--9486
-[]\TU/lmr/m/n/10 (000791) \TU/等线(0)/m/n/10 已 知 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/
-m/it/10 a[]\OMS/cmsy/m/n/10 g$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 其 通 项 公 式 为 $\O
-ML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = 3\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 + 1$\T
-U/lmr/m/n/10 , $\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 2 [][]$\TU/lmr/m/n/10 , $\O
-MS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 的 前 $\
-OML/cmm/m/it/10 n$ \TU/等线(0)/m/n/10 项 和 为 $\OML/cmm/m/it/10 S[]$\TU/lmr/m/n/10 
-, \TU/等线(0)/m/n/10 则 $[] [] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (000791) \TU/等线(0)/m/n/10 已 知 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 其 通 项 公 式 为 $\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = 3\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 + 1$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 2 [][]$\TU/lmr/m/n/10 , $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 的 前 $\OML/cmm/m/it/10 n$ \TU/等线(0)/m/n/10 项 和 为 $\OML/cmm/m/it/10 S[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $[] [] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
 [314]
 Overfull \hbox (19.96483pt too wide) in paragraph at lines 9508--9509
-[]\TU/lmr/m/n/10 (000814) \TU/等线(0)/m/n/10 设 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/
-n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = [][] \OML/cmm/m/it/10 x$\TU/lmr/m/n
-/10 ($\OML/cmm/m/it/10 m > \OT1/cmr/m/n/10 0$ \TU/等线(0)/m/n/10 且 $\OML/cmm/m/it
-/10 m \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 = 1$\TU/lmr/m/n/10 ), \TU/等线(0)/m/n/10 
-若 $\OML/cmm/m/it/10 m$ \TU/等线(0)/m/n/10 是 等 比 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m
-/it/10 a[]\OMS/cmsy/m/n/10 g$\TU/lmr/m/n/10 ($\OML/cmm/m/it/10 n \OMS/cmsy/m/n/
-10 2 [][]$\TU/lmr/m/n/10 ) \TU/等线(0)/m/n/10 的 公 比\TU/lmr/m/n/10 , \TU/等线(0)/m/n
-/10 且 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a[]a[]a[] [] a[]\OT1
-/cmr/m/n/10 ) =
+[]\TU/lmr/m/n/10 (000814) \TU/等线(0)/m/n/10 设 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = [][] \OML/cmm/m/it/10 x$\TU/lmr/m/n/10 ($\OML/cmm/m/it/10 m > \OT1/cmr/m/n/10 0$ \TU/等线(0)/m/n/10 且 $\OML/cmm/m/it/10 m \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 = 1$\TU/lmr/m/n/10 ), \TU/等线(0)/m/n/10 若 $\OML/cmm/m/it/10 m$ \TU/等线(0)/m/n/10 是 等 比 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$\TU/lmr/m/n/10 ($\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 2 [][]$\TU/lmr/m/n/10 ) \TU/等线(0)/m/n/10 的 公 比\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a[]a[]a[] [] a[]\OT1/cmr/m/n/10 ) =
  []
 
 [315] [316] [317]
 Overfull \hbox (4.45384pt too wide) in paragraph at lines 9638--9639
-[]\TU/lmr/m/n/10 (000856) \TU/等线(0)/m/n/10 已 知 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/
-m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 的 通 项 公 式 为 $\OML/cmm/m/it/10 a
-[] \OT1/cmr/m/n/10 = [][] \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 n \OT1/cmr/m/n/
-10 + 2[]\OML/cmm/m/it/10 ;  n \OMS/cmsy/m/n/10 2 [][]$\TU/lmr/m/n/10 , \TU/等线(0
-)/m/n/10 则 这 个 数 列 的 前 $\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 n$ \TU/等线(0)/m/n/10 项
- 和 $\OML/cmm/m/it/10 S[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (000856) \TU/等线(0)/m/n/10 已 知 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 的 通 项 公 式 为 $\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = [][] \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 n \OT1/cmr/m/n/10 + 2[]\OML/cmm/m/it/10 ;  n \OMS/cmsy/m/n/10 2 [][]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 这 个 数 列 的 前 $\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 n$ \TU/等线(0)/m/n/10 项 和 $\OML/cmm/m/it/10 S[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
 [318]
 Overfull \hbox (34.57523pt too wide) in paragraph at lines 9647--9648
-[]\TU/lmr/m/n/10 (000865) \TU/等线(0)/m/n/10 曲 线 $[]$\TU/lmr/m/n/10 ($\OML/cmm/m/
-it/10 t$ \TU/等线(0)/m/n/10 为 参 数\TU/lmr/m/n/10 ) \TU/等线(0)/m/n/10 与 曲 线 $[]$\TU/
-lmr/m/n/10 ($\OML/cmm/m/it/10 ^^R$ \TU/等线(0)/m/n/10 为 参 数\TU/lmr/m/n/10 ) \TU/等
-线(0)/m/n/10 的 公 共 点 的 坐 标 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (000865) \TU/等线(0)/m/n/10 曲 线 $[]$\TU/lmr/m/n/10 ($\OML/cmm/m/it/10 t$ \TU/等线(0)/m/n/10 为 参 数\TU/lmr/m/n/10 ) \TU/等线(0)/m/n/10 与 曲 线 $[]$\TU/lmr/m/n/10 ($\OML/cmm/m/it/10 ^^R$ \TU/等线(0)/m/n/10 为 参 数\TU/lmr/m/n/10 ) \TU/等线(0)/m/n/10 的 公 共 点 的 坐 标 为$[]$\TU/lmr/m/n/10 . 
  []
 
 
 Overfull \hbox (7.4716pt too wide) in paragraph at lines 9651--9652
-[]\TU/lmr/m/n/10 (000869) \TU/等线(0)/m/n/10 已 知 线 性 方 程 组 的 增 广 矩 阵 为 $[]$\TU/lm
-r/m/n/10 , \TU/等线(0)/m/n/10 若 该 线 性 方 程 组 的 解 为 $[]$\TU/lmr/m/n/10 , \TU/等线(0)/
-m/n/10 则 实 数 $\OML/cmm/m/it/10 a \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (000869) \TU/等线(0)/m/n/10 已 知 线 性 方 程 组 的 增 广 矩 阵 为 $[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 若 该 线 性 方 程 组 的 解 为 $[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 实 数 $\OML/cmm/m/it/10 a \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
 
 Overfull \hbox (3.49709pt too wide) in paragraph at lines 9657--9658
-[]\TU/lmr/m/n/10 (000875) \TU/等线(0)/m/n/10 已 知 等 比 数 列 $\OMS/cmsy/m/n/10 f\OML/
-cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 的 各 项 均 为 正 数\TU/lmr/m/n/10
- , \TU/等线(0)/m/n/10 且 满 足\TU/lmr/m/n/10 :$\OML/cmm/m/it/10 a[]a[] \OT1/cmr/m/n/
-10 = 4$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 数 列 $\OMS/cmsy/m/n/10 f[][] \OML/cmm
-/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 的 前 $\OT1/cmr/m/n/10 7$ \TU/等线
-(0)/m/n/10 项 之 和 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (000875) \TU/等线(0)/m/n/10 已 知 等 比 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 的 各 项 均 为 正 数\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 且 满 足\TU/lmr/m/n/10 :$\OML/cmm/m/it/10 a[]a[] \OT1/cmr/m/n/10 = 4$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 数 列 $\OMS/cmsy/m/n/10 f[][] \OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 的 前 $\OT1/cmr/m/n/10 7$ \TU/等线(0)/m/n/10 项 之 和 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [319] [320]
 Overfull \hbox (14.38284pt too wide) in paragraph at lines 9688--9689
-[]\TU/lmr/m/n/10 (000905) \TU/等线(0)/m/n/10 若 行 列 式 $[]$ 中 的 元 素 $\OT1/cmr/m/n/1
-0 4$ \TU/等线(0)/m/n/10 的 代 数 余 子 式 的 值 等 于 $[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10
- 则 实 数 $\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 的 取 值 集 合 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (000905) \TU/等线(0)/m/n/10 若 行 列 式 $[]$ 中 的 元 素 $\OT1/cmr/m/n/10 4$ \TU/等线(0)/m/n/10 的 代 数 余 子 式 的 值 等 于 $[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 实 数 $\OML/cmm/m/it/10 x$ \TU/等线(0)/m/n/10 的 取 值 集 合 为$[]$\TU/lmr/m/n/10 . 
  []
 
 
 Overfull \hbox (0.9494pt too wide) in paragraph at lines 9689--9690
-[]\TU/lmr/m/n/10 (000906) \TU/等线(0)/m/n/10 若 二 项 式 $\OT1/cmr/m/n/10 (2\OML/cmm/
-m/it/10 x \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 )[]$ \TU/等线(0)/m/n/10 展 开 式 中 
-的 第 $\OT1/cmr/m/n/10 5$ \TU/等线(0)/m/n/10 项 为 常 数 项\TU/lmr/m/n/10 , \TU/等线(0)/m/
-n/10 则 展 开 式 中 各 项 的 二 项 式 系 数 之 和 为$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (000906) \TU/等线(0)/m/n/10 若 二 项 式 $\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 )[]$ \TU/等线(0)/m/n/10 展 开 式 中 的 第 $\OT1/cmr/m/n/10 5$ \TU/等线(0)/m/n/10 项 为 常 数 项\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 展 开 式 中 各 项 的 二 项 式 系 数 之 和 为$[]$\TU/lmr/m/n/10 . 
  []
 
 [321] [322] [323]
 Missing character: There is no ; ("3B) in font nullfont!
 
 Overfull \hbox (16.43243pt too wide) in paragraph at lines 9785--9786
-[]\TU/lmr/m/n/10 (000961) \TU/等线(0)/m/n/10 已 知 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/
-m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = 2[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm
-/m/it/10 a \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 2[]$ \TU/等线(0)/m/n/10 的 反 函 数 是
- $\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$\TU/
-lmr/m/n/10 , $\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m
-/n/10 )$ \TU/等线(0)/m/n/10 在 定 义 域 上 是 奇 函 数\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 
-正 实 数 $\OML/cmm/m/it/10 a \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (000961) \TU/等线(0)/m/n/10 已 知 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = 2[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 2[]$ \TU/等线(0)/m/n/10 的 反 函 数 是 $\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ \TU/等线(0)/m/n/10 在 定 义 域 上 是 奇 函 数\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 正 实 数 $\OML/cmm/m/it/10 a \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
  []
 
 [324]
 Overfull \hbox (5.34625pt too wide) in paragraph at lines 9800--9801
-[]\TU/lmr/m/n/10 (000966) \TU/等线(0)/m/n/10 已 知 无 穷 等 比 数 列 $\OMS/cmsy/m/n/10 f\
-OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 的 首 项 $\OML/cmm/m/it/10
- a[] \OT1/cmr/m/n/10 = 18$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 公 比 $\OML/cmm/m/it/
-10 q \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10
- 则 无 穷 等 比 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等
-线(0)/m/n/10 各 项 的 和 是$[]$\TU/lmr/m/n/10 . 
+[]\TU/lmr/m/n/10 (000966) \TU/等线(0)/m/n/10 已 知 无 穷 等 比 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 的 首 项 $\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = 18$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 公 比 $\OML/cmm/m/it/10 q \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 无 穷 等 比 数 列 $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 g$ \TU/等线(0)/m/n/10 各 项 的 和 是$[]$\TU/lmr/m/n/10 . 
  []
 
 [325]) [326] (./to_compile.aux (./problems_file.aux)) ) 
 Here is how much of TeX's memory you used:
- 35945 strings out of 476919
- 783585 string characters out of 5825424
- 977088 words of memory out of 5000000
- 55520 multiletter control sequences out of 15000+600000
+ 36031 strings out of 476919
+ 784596 string characters out of 5825424
+ 978769 words of memory out of 5000000
+ 55603 multiletter control sequences out of 15000+600000
  406159 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,22n,104p,936b,904s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,22n,104p,932b,904s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on to_compile.pdf (326 pages).
