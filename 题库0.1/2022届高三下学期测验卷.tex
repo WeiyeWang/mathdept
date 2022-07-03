@@ -1,0 +1,310 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[UTF8,fontset = windows]{ctex}
+\setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{华文中宋}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
+\usepackage{ifthen,indentfirst,enumerate,color,titletoc}
+\usepackage{tikz}
+\usepackage{makecell}
+\usepackage{longtable}
+\usetikzlibrary{arrows,calc,intersections,patterns}
+\usepackage[bf,small,indentafter,pagestyles]{titlesec}
+\usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
+\renewcommand{\baselinestretch}{1.65}
+\newtheorem{defi}{定义~}
+\newtheorem{eg}{例~}
+\newtheorem{ex}{~}
+\newtheorem{rem}{注~}
+\newtheorem{thm}{定理~}
+\newtheorem{coro}{推论~}
+\newtheorem{axiom}{公理~}
+\newtheorem{prop}{性质~}
+\newcommand{\blank}[1]{\underline{\hbox to #1pt{}}}
+\newcommand{\bracket}[1]{(\hbox to #1pt{})}
+\newcommand{\onech}[4]{\par\begin{tabular}{p{.9\textwidth}}
+A.~#1\\
+B.~#2\\
+C.~#3\\
+D.~#4
+\end{tabular}}
+\newcommand{\twoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+A.~#1& B.~#2\\
+C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\vartwoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+(1)~#1& (2)~#2\\
+(3)~#3& (4)~#4
+\end{tabular}}
+\newcommand{\fourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+A.~#1 &B.~#2& C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\varfourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+(1)~#1 &(2)~#2& (3)~#3& (4)~#4
+\end{tabular}}
+\begin{document}
+\begin{enumerate}[1.]
+
+% 高三下测验14
+
+\item 函数$y=\log_2(x-2)$的定义域为\blank{50}.
+\item 设圆锥的底面半径为$1$, 体积为$\dfrac{2\sqrt 2}3\pi$, 则该圆锥的侧面积为\blank{50}.
+\item 等差数列$\{a_n\}$中, $a_3+a_{10}=25$, 则其前$12$项之和$S_{12}$的值为\blank{50}.
+\item 幂函数$y=x^k$的图像经过点$(4,\dfrac 12)$, 则它的单调减区间为\blank{50}.
+\item 三角形$ABC$中, $A=45^\circ$, $B=75^\circ$, $AB$边的长为$2\sqrt 6$, 则$BC$边的长为\blank{50}.
+\item 已知$a$是实数, 方程$x^2+2x+a=0$的两根在复平面上对应的点分别为$P$和$Q$. 若三角形$POQ$是等腰直角三角形, 则$a=$\blank{50}.
+\item 设实数$x,y$满足$|x|+|y|\le 1$, 则$2x+y$的最大值为\blank{50}.
+\item 已知偶函数$y=f(x)$的定义域为$\mathbf{R}$, 且当$x\ge 0$时, $f(x)=x-4$, 则不等式$xf(x)\le 5$的解为\blank{50}.
+\item 等比数列$\{a_n\}$的首项为$1$, 公比为$3$, 则极限$\lim_{n\to \infty}\dfrac{a_1a_2+a_2a_3+\cdots+a_na_{n+1}}{a_1+a_2+\cdots+a_{2n-1}}$的值为\blank{50}.
+\item 甲乙两人分别投掷两颗骰子与一颗骰子, 设甲的两颗骰子的点数分别为$a$与$b$, 乙的骰子的点数为$c$. 则掷出的点数满足$|a-b|=c$的概率为\blank{50}(用最简分数表示).
+\item 已知$a$是实数, 在$(1+ax)^8$的二项展开式中, 第$k+1$项的系数为$c_{k+1}=\mathrm{C}_8^k\cdot a^k \ (k=0,1,2,3,\cdots,8)$. 若$c_1<c_2<c_3<\cdots<c_9$, 则$a$的取值范围为\blank{50}.
+\item 设$P_1P_2P_3\cdots P_8$是平面直角坐标系中的一个正八边形, 点$P_i$的坐标为$(x_i,y_i) \ (i=1,2,\cdots,8)$. 集合$A=\{y|\text{存在} i\in \{1,2,\cdots,8\},\text{ 使得 }y=y_i\}$, 则集合$A$的元素个数可能为\blank{50}(写出所有可能的值).
+\item 方程$2\sin (2x+\dfrac{\pi}3)-1=0$在区间$[0,4\pi)$上的解的个数为\bracket{20}.
+\fourch{$2$}{$4$}{$6$}{$8$}
+\item 已知直线$l$平行于平面$\alpha$, 平面$\beta$垂直于平面$\alpha$. 则以下关于直线$l$与平面$\beta$的位置关系的表述, 正确的是\bracket{20}.
+\twoch{$l$与$\beta$不平行}{$l$与$\beta$不相交
+}{$l$不在平面$\beta$上}{$l$在$\beta$上, 与$\beta$平行, 与$\beta$相交都有可能}
+\item 设三角形$ABC$是位于平面直角坐标系$xOy$的第一象限中的一个不等边三角形. 该平面上的动点$P$满足: $|PA|^2+|PB|^2+|PC|^2=|OA|^2+|OB|^2+|OC|^2$. 已知动点$P$的轨迹是一个圆, 则该圆的圆心位于三角形$ABC$的\bracket{20}.
+\fourch{内心}{外心}{重心}{垂心}
+\item 已知$y=f(x)$与$y=g(x)$皆是定义域、值域均为$\mathbf{R}$的函数. 若对任意$x\in \mathbf{R}$, $f(x)>g(x)$恒成立, 且$y=f(x)$与$y=g(x)$的反函数$y=f^{-1}(x)$、$y=g^{-1}(x)$均存在. 命题$P$: ``对任意$x\in \mathbf{R}$, $f^{-1}(x)<g^{-1}(x)$恒成立''; 命题$Q$: ``函数$y=f(x)+g(x)$的反函数一定存在''. 以下关于这两个命题的真假判断, 正确的是\bracket{20}.
+\twoch{命题$P$真, 命题$Q$真}{命题$P$真, 命题$Q$假
+}{命题$P$假, 命题$Q$真}{命题$P$假, 命题$Q$假}
+\item 如图, 空间几何体由两部分构成, 上部是一个底面半径为$1$, 高为$2$的圆锥, 下部是一个底面半径为$1$, 高为$2$的圆柱. 圆锥和圆柱的轴在同一直线上, 圆锥的下底面与圆柱的上底面重合. 点$P$是圆锥的顶点, $AB$是圆柱下底面的一条直径, $AA_1$、$BB_1$是圆柱的两条母线. $C$是弧$AB$的中点.
+\begin{center}
+    \begin{tikzpicture}
+        \draw (0,0) node [left] {$A$} arc (180:360:1 and 0.3) node [right] {$B$} (0,0) -- (0,2) node [left] {$A_1$} (2,0) -- (2,2) node [right] {$B_1$} (0,2) -- (1,4) node [above] {$P$} -- (2,2) arc (360:180:1 and 0.3);
+        \draw [dashed] (0,0) arc (180:0:1 and 0.3) (0,2) arc (180:0:1 and 0.3);
+        \draw [dashed] (1,0) node [above right] {$O$} -- (1,4) (2,0) -- (0,0) -- (1,4);
+        \draw ({1+cos(-120)},{0.3*sin(-120)}) coordinate (C) node [below] {$C$};
+        \draw [dashed] (0,0) -- (C) -- (2,0) (1,0) -- (C) -- (1,4); 
+    \end{tikzpicture}
+\end{center}
+(1) 求异面直线$PA_1$与$BC$所成的角的大小;\\
+(2) 求点$B_1$到平面$PAC$的距离.
+\item 已知$\alpha,\lambda$是实常数, $f(x)=\begin{vmatrix}
+    \lambda \cos x  \sin (x-\alpha)  \\\sin (x+\alpha)  \cos x  \end{vmatrix}$.\\
+(1) 当$\lambda=1$, $\alpha=\dfrac{\pi}3$时, 求函数$y=f(x)$的最小正周期、单调增区间与最大值;\\
+(2) 是否存在$\lambda$, 使得$f(x)$是与$\alpha$有关的常数函数(即$f(x)$的值与$x$的取值无关)? 若存在, 求出所有满足条件的$\lambda$; 若不存在, 说明理由.
+\item 已知$a$是实常数, $a>0$, $f(x)=ax-1+\dfrac 1{x^2}$.\\
+(1) 当$a=2$时, 判断函数$y=f(x)$在区间$[1,+\infty)$上的单调性, 并说明理由;\\
+(2) 写出一个$a$的值, 使得$f(x)=0$在区间$(0,+\infty)$上有至少两个不同的解, 并严格证明你的结论.
+\item 设抛物线$\Gamma$的方程为$y^2=2px$, 其中常数$p>0$. $F$是抛物线$\Gamma$的焦点.\\
+(1) 若直线$x=3$被抛物线$\Gamma$所截得的弦长为$6$, 求$p$的值;\\
+(2) 设$A$是点$F$关于顶点$O$的对称点. $P$是抛物线$\Gamma$上的动点, 求$\dfrac{|PA|}{|PF|}$的最大值;\\
+(3) 设$p=2$, $l_1,l_2$是两条互相垂直, 且均经过点$F$的直线. $l_1$与抛物线$\Gamma$交于点$A$、$B$, $l_2$与抛物线交于点$C$、$D$. 若点$G$满足$4\overrightarrow{FG}=\overrightarrow{FA}+\overrightarrow{FB}+\overrightarrow{FC}+\overrightarrow{FD}$, 求点$G$的轨迹方程.
+\item 设各项均为整数的无穷数列$\{a_n\}$满足: $a_1=1$, 且对所有$n\in \mathbf{N}^*$, 均成立$|a_{n+1}-a_n|=n$.\\
+(1) 写出$a_4$的所有可能值(不需要写计算过程);\\
+(2) 若$\{a_{2n-1}\}$是公差为$1$的等差数列, 求$\{{a_n}\}$的通项公式;\\
+(3) 证明: 存在满足条件的数列$\{a_n\}$, 使得在该数列中, 有无穷多项为$2019$.
+
+% 测验13
+
+\item 设$m\in \mathbf{R}$. 已知集合$A=\{2,3\}$, $B=\{1,m\}$. 若$4-m\in A$, 则$m=$\blank{50}.
+\item 不等式$|1-x|>1$的解集是\blank{50}.
+\item 设$a\in \mathbf{R}$. 若$a$使得函数$f(x)=\sqrt{8-ax-2x^2}$是偶函数, 则函数$y=f(x)$的定义域是\blank{50}.
+\item 已知$\triangle ABC$的三内角$A,B,C$所对的边长分别为$a,b,c$, 若$a^2=b^2+c^2+2bc\sin A$, 则内角$A$的大小是\blank{50}.
+\item 已知向量$\overrightarrow a$在向量$\overrightarrow b$方向上的投影为$-2$, 且$|\overrightarrow b|=3$, 则$\overrightarrow a\cdot \overrightarrow b$=\blank{50}(结果用数值表示).
+\item 方程$\log_3\dfrac 1{2^x+4}+\log_3(4^x-2)=0$的解$x=$\blank{50}.
+\item 已知函数$f(x)=\begin{vmatrix} \sin x  \cos x  \\ \cos x  \cos x  \end{vmatrix}$, 则函数$y=f(x)$的最小正周期是\blank{50}.
+\item 已知某市$A$社区$35$岁至$45$岁的居民有$450$人, $46$岁至$55$岁的居民有$750$人, $56$岁至$65$岁的居民有$900$人. 为了解该社区$35$岁至$65$岁居民的身体健康状况, 社区负责人采用分层抽样技术抽取若干人进行体检调查, 若从$46$岁至$55$岁的居民中随机抽取了$50$人, 试问这次抽样调查抽取的人数是\blank{50}人.
+\item 已知$\alpha$是实系数一元二次方程$x^2-(2m-1)x+m^2+1=0$的一个虚数根, 且$|\alpha|\le 2$, 则实数$m$的取值范围是\blank{50}.
+\item 设$a\in \mathbf{R}$. 若函数$y=f(x)$是奇函数, 且$x>0$时, $f(x)=a(x-1)+1$. 若$y=f(x)$是单调增函数, 则$a$取值范围为\blank{50}.
+\item 已知数列$\{a_n\}$是共有$k$个项的有限数列, 且满足$a_{n+1}=a_{n-1}-\dfrac n{a_n}\ (n=2,\cdots,k-1)$, 若$a_1=24$, $a_2=51$, $a_k=0$, 则$k=$\blank{50}.
+\item 设$\varphi \in (0,\pi)$. 若存在实数$a,b$使得关于$x$的方程$a\sin (2x+\varphi)+b=0$在$[0,2\pi]$时恰有$5$个解, 且解的和为$\dfrac{63}{11}\pi$, 则$\varphi =$\blank{50}.
+\item 设$x\in \mathbf{R}$, $y\in \mathbf{R}$.那么``$x>0$''是``$xy>0$''的\bracket{20}.
+\twoch{充分非必要条件}{必要非充分条件}{充要条件}{既非充分又非必要条件}\item 在某段时间内, 甲地不下雨的概率为$P_1$($0<P_1<1$), 乙地不下雨的概率为$P_2$($0<P_2<1$). 若在这段时间内两地下雨相互独立, 则这段时间内两地都下雨的概率为\bracket{20}.
+\fourch{$P_1P_2$}{$1-P_1P_2$}{$P_1(1-P_2)$}{$(1-P_1)(1-P_2)$}
+\item 已知梯形$ABCD$, $AB\parallel CD$, 设$\overrightarrow{AB}=\overrightarrow{e_1}$, 向量$\overrightarrow{e_2}$的起点和终点分别是$A$, $B$, $C$, $D$中的两个点, 若对平面中任意的非零向量$\overrightarrow a$, 都可以唯一表示为$\overrightarrow{e_1}$、$\overrightarrow{e_2}$的线性组合, 那么$\overrightarrow{e_2}$的个数为\bracket{20}.
+\fourch{$6$}{$8$}{$10$}{$12$}
+\item 在$\triangle ABC$中, $BC=a$, $CA=b$, $AB=c$, 对于下面两个说法:
+\textcircled{1} 对于任意$\triangle ABC$, 以$\sqrt a,\sqrt b,\sqrt c$为三边的三角形存在, 且总是一个锐角三角形;
+\textcircled{2} 存在一个$\triangle ABC$, 以$\dfrac 1a,\dfrac 1b,\dfrac 1c$为三边的三角形是一个钝角三角形.
+下面判断正确的是\bracket{20}.
+\twoch{\textcircled{1}正确, \textcircled{2}错误}{\textcircled{1}错误, \textcircled{2}正确}{\textcircled{1}正确, \textcircled{2}正确}{\textcircled{1}错误, \textcircled{2}错误}
+\item  如图, 在棱长为$2$的正方体$ABCD-A'B'C'D'$中, $E$为$AB$的中点.
+\begin{center}
+    \begin{tikzpicture}
+        \draw (0,0) node [below left] {$A$} coordinate (A) --++ (2,0) node [below right] {$B$} coordinate (B) --++ (45:{2/2}) node [right] {$C$} coordinate (C)
+        --++ (0,2) node [above right] {$C'$} coordinate (C1)
+        --++ (-2,0) node [above left] {$D'$} coordinate (D1) --++ (225:{2/2}) node [left] {$A'$} coordinate (A1) -- cycle;
+        \draw (A) ++ (2,2) node [right] {$B'$} coordinate (B1) -- (B) (B1) --++ (45:{2/2}) (B1) --++ (-2,0);
+        \draw [dashed] (A) --++ (45:{2/2}) node [left] {$D$} coordinate (D) --++ (2,0) (D) --++ (0,2);
+        \draw (A) -- (B1) -- (C);
+        \draw (A) -- ($(A1)!0.5!(B1)$) coordinate (E) node [above] {$E$};
+        \draw [dashed] (E) -- (C) -- (A);
+    \end{tikzpicture}
+\end{center}
+(1) 求证: 直线$A'E$平行于平面$CC'D'D$;\\
+(2) 求点$E$到平面$AB'C$的距离.
+\item 经济订货批量模型, 是目前大多数工厂、企业等最常采用的订货方式, 即某种物资在单位时间的需求量为某常数, 经过某段时间后, 存储量消耗下降到零, 此时开始订货并随即到货, 然后开始下一个存储周期. 该模型适用于整批间隔进货、不允许缺货的存储问题. 具体如下:\\
+年存储成本费$T$(元)关于每次订货$x$(单位: 吨)的函数关系为$T(x)=\dfrac{Bx}2+\dfrac{AC}x$, 其中$A$为年需求量, $B$为每单位物资的年存储费, $C$为每次订货费.\\
+某化工厂需用甲醇作为原料, 年需求量为$6000$吨, 每吨存储费为$120$元/年, 每次订货费为$2500$元.
+(1) 若该化工厂每次订购$300$吨甲醇, 求年存储成本费;\\
+(2) 每次需订购多少吨甲醇, 可使该化工厂年存储成本费最少? 最少费用为多少?
+\item 已知函数$f(x)=\sin x$.\\
+(1) 设$a\in \mathbf{R}$, 判断函数$g(x)=a\cdot f(x)+f(x+\dfrac{\pi}2)$的奇偶性, 并说明理由;\\
+(2) 设函数$F(x)=2f(x)-\sqrt 3$. 对任意$b\in \mathbf{R}$, 求$y=F(x)$在区间$[b,b+100\pi]$上零点个数的所有可能值.
+\item 双曲线$\Gamma$: $x^2-\dfrac{y^2}{b^2}=1$($b>0$).\\
+(1) 若$\Gamma$的一条渐近线方程为$y=2x$, 求$\Gamma$的方程;\\
+(2) 设$F_1$、$F_2$是$\Gamma$的两个焦点, $P$为$\Gamma$上一点, 且$PF_1\perp PF_2$, $\triangle PF_1F_2$的面积为$9$, 求$b$的值;\\
+(3) 已知斜率为$2$的直线与$\Gamma$交于$A$、$B$两点, 点$M$是线段$AB$的中点, 设点$M$的横坐标的集合为$\Omega$. 若$\{x|x=2n,\ n\in \mathbf{N}^* \}\subseteq \Omega$, 求正数$b$的取值范围.
+\item 已知以$a_1$为首项的数列$\{a_n\}$满足: $|a_{n+1}|=|a_n+1|$($n\in \mathbf{N}^*$).\\
+(1) 当$a_1=-\dfrac 13$时, 且$-1<a_n<0$, 写出$a_2$, $a_3$;\\
+(2) 若数列$\{|a_n|\}$($1\le n\le 10$, $n\in \mathbf{N}^*$)是公差为$-1$的等差数列, 求$a_1$的取值范围;\\
+(3) 设$a_1=0$. 记$S_n$为$\{a_n\}$的前$n$项和, 给定正整数$m\ge 4$, 求$S_{m-1}$的最小值, 并证明取到最小值的数列$\{a_n\}$不唯一.
+
+%测验12
+
+\item 函数$y=3\sin(2x+\dfrac{\pi}3)$的最小正周期$T=$\blank{50}.
+\item 函数$y=\lg x$的反函数是\blank{50}.
+\item 已知集合$P=\{x|(x+1)(x–3)<0\}$, $Q=\{x||x|>2\}$, 则$P\cap Q=$\blank{50}.
+\item 函数$y=x+\dfrac 9x$, $x\in (0,+\infty)$的最小值是\blank{50}.
+\item 计算: $\displaystyle\lim_{n\to \infty}[\dfrac 12+\dfrac 14+\dfrac 18+\ldots +(\dfrac 12)^n]$=\blank{50}.
+\item 记球$O_1$和$O_2$的半径、体积分别为$r_1$、$V_1$和$r_2$、$V_2$, 若$\dfrac{V_1}{V_2}=\dfrac 8{27}$, 则$\dfrac{r_1}{r_2}=$\blank{50}.
+\item 若某线性方程组对应的增广矩阵是$\begin{pmatrix}   m & 4 & 2  \\1 & m & m  \end{pmatrix}$, 且此方程组有唯一的一组解, 则实数m的取值范围是\blank{50}.
+\item 若一个布袋中有大小、质地相同的三个黑球和两个白球, 从中任取两个球, 则取出的两球中恰是一个白球和一个黑球的概率是\blank{50}.
+\item $(1+2x)^n$的二项展开式中, 含$x^3$项的系数等于含$x$项的系数的$8$倍, 则正整数$n=$\blank{50}.
+\item 平面上三条直线$x-2y+1=0$, $x-1=0$, $x+ky=0$, 如果这三条直线将平面划分为六个部分, 则实数$k$的取值组成的集合$A=$\blank{50}.
+\item 已知双曲线$C: \dfrac{x^2}9-\dfrac{y^2}8=1$, 左、右焦点分别为$F_1$、$F_2$, 过点$F_2$作一直线与双曲线$C$的右支交于$P$、$Q$两点, 使得$\angle F_1PQ=90^\circ$, 则$\triangle F_1PQ$的内切圆的半径$r=$\blank{50}.
+\item 已知点$B(4,0)$, $C(2,2)$, 平面直角坐标系上的动点$P$满足$\overrightarrow{OP}=\lambda \cdot \overrightarrow{OB}+\mu \cdot \overrightarrow{OC}$(其中$O$是坐标原点, 且$1<\lambda \le a$, $1<\mu \le b$), 若动点$P$组成的区域的面积为$8$, 则$a+b$的最小值是\blank{50}.
+\item 若向量$\overrightarrow a=(2,0)$, $\overrightarrow b=(1,1)$, 则下列结论中正确的是\bracket{20}.
+\fourch{$\overrightarrow a\cdot \overrightarrow b=1$}{$|\overrightarrow a|=|\overrightarrow b|$}{($\overrightarrow a-\overrightarrow b)\perp \overrightarrow b$}{$\overrightarrow a\parallel \overrightarrow b$}
+\item 椭圆的参数方程为$\begin{cases} x=5\cos \theta,  \\ y=3\sin \theta  \end{cases}$($\theta$ 为参数), 则它的两个焦点坐标是\bracket{20}.
+\fourch{$(\pm 4,0)$}{$(0,\pm 4)$}{$(\pm 5,0)$}{$(0,\pm 3)$}
+\item 如图几何体是由五个相同正方体叠成的, 其三视图中的左视图序号是\bracket{20}.
+\begin{center}
+    \begin{tikzpicture}
+        \filldraw [gray!50] (2,0) --++ (45:0.5) coordinate (T) --++ (0,1) --++ (225:0.5) -- cycle;
+        \filldraw [gray!50] (T) --++ (45:0.5) --++ (0,1) --++ (225:0.5) -- cycle;
+        \draw (1,0) ++ (0,1) ++ (45:0.5) coordinate (S);
+        \filldraw [gray!50] (S) --++ (45:0.5) --++ (0,1) --++ (225:0.5) -- cycle;
+        \draw (T) --++ (45:0.5) --++ (0,1) --++ (225:0.5) -- cycle;
+        \draw (T) --++ (225:0.5) --++ (0,1) --++ (45:0.5);
+        \draw (S) --++ (45:0.5) --++ (0,1) --++ (225:0.5) -- cycle;
+        \draw (0,0) -- (2,0) (0,0) -- (0,1) (1,0) -- (1,1) (0,1) -- (2,1) (1,1) --++ (45:0.5) (0,1) --++ (45:0.5) coordinate (P) --++ (2,0);
+        \draw (P) --++ (0,1) --++ (1,0) (P) ++ (0,1) --++ (45:0.5) --++ (1,0) (S) ++ (45:0.5) --++ (1,0);
+    \end{tikzpicture}
+\end{center}
+\fourch{\begin{tikzpicture}
+    \draw (0,0) rectangle (2,1) (1,0) -- (1,2) -- (0,2) -- (0,1);
+\end{tikzpicture}}{\begin{tikzpicture}
+    \draw (0,0) rectangle (2,1) (1,0) -- (1,2) -- (2,2) -- (2,1);
+\end{tikzpicture}}{\begin{tikzpicture}
+    \draw (0,0) rectangle (1,2) (0,1) -- (2,1) -- (2,0) -- (1,0);
+\end{tikzpicture}}{\begin{tikzpicture}
+    \draw (0,0) rectangle (2,2) (1,0) -- (1,2) (0,1) -- (2,1);
+\end{tikzpicture}}
+\item 定义$F(a,b)=\begin{cases} a, & a \le b, \\ b, & a>b,\end{cases}$, 已知函数$f(x)$、$g(x)$定义域都是$\mathbf{R}$, 给出下列命题:\\
+(1) 若$f(x)$、$g(x)$都是奇函数, 则函数$F(f(x),g(x))$为奇函数;\\
+(2) 若$f(x)$、$g(x)$都是减函数, 则函数$F(f(x),g(x))$为减函数;\\
+(3) 若$f_{\min}(x)=m$, $g_{\min}(x)=n$, 则$F_{\min}(f(x),g(x))=F(m,n)$;\\
+(4) 若$f(x)$、$g(x)$都是周期函数, 则函数$F(f(x),g(x))$是周期函数.\\
+其中正确命题的个数为\bracket{20}.
+\fourch{$1$个}{$2$个}{$3$个}{$4$个}
+\item 在四棱锥$P-ABCD$中, 底面$ABCD$是边长为$6$的正方形, $PD\perp \text{平面}ABCD$, $PD=8$.\\
+\begin{center}
+    \begin{tikzpicture}[scale = 0.6]
+        \draw (0,0) node [below left] {$A$} coordinate (A)-- (3,0) node [below right] {$B$} coordinate (B) --++ (45:1.5) node [above right] {$C$} coordinate (C);
+        \draw [dashed] (A) --++ (45:1.5) node [left] {$D$} coordinate (D) -- (C) (D) --++ (0,4) node [above] {$P$} coordinate (P);
+        \draw (P) -- (A) (P) -- (B) (P) -- (C); 
+    \end{tikzpicture}
+\end{center}
+(1) 求$PB$与平面$ABCD$所成角的大小;\\
+(2) 求异面直线$PB$与$DC$所成角的大小.
+\item 复数$z=(\dfrac 12-\dfrac{\sqrt 3}2\mathrm{i})^2$是一元二次方程$mx^2+nx+1=0$($m,n\in \mathbf{R}$)的一个根.\\
+(1) 求$m$和$n$的值;\\
+(2) 若$(m+n\mathrm{i})\overline u+u=z$($u\in\mathbf{C}$), 求$u$.
+\item 如图, 经过村庄$A$有两条夹角为$60^\circ$的公路$AB$、$AC$, 根据规划拟在两条公路之间的区域内建一工厂$P$, 分别在两条公路边上建两个仓库$M$、$N$(异于村庄$A$), 要求$PM=PN=MN=2$(单位: 千米). 记$\angle MN=\theta$.
+\begin{center}
+    \begin{tikzpicture}
+        \draw (0,0) node [below left] {$A$} -- (3,0) node [below] {$M$} coordinate (M) -- (5,0) node [below] {$B$};
+        \path [name path = lineMN] (M) --++ (135:3);
+        \path [name path = lineAN] (0,0) --++ (60:3);
+        \path [name intersections = {of = lineMN and lineAN, by= N}];
+        \draw (A) -- (N) node [above left] {$N$} --++ (60:2) node [above] {$C$};
+        \draw [dashed] (M) --++ (75:{3/sin(75)*sin(60)}) node [right] {$P$} coordinate (P) -- (N) -- (M) (P) -- (0,0);
+        \draw (2.6,0) arc (180:135:0.4);
+        \path (2.6,0) arc (180:150:0.4) node [left] {$\theta$};
+    \end{tikzpicture}
+\end{center}
+(1) 将$AN$、$AM$用含$\theta$的关系式表示出来;\\
+(2) 如何设计(即$AN$、$AM$为多长时), 使得工厂产生的噪声对居民的影响最小(即工厂与村庄的距离$AP$最大)?
+\item 已知椭圆$C:\dfrac{x^2}2+y^2=1$的左、右焦点分别为$F_1$、$F_2$.\\
+(1) 点$P$在椭圆$C$上运动(点$P$不在$x$轴上), 设$F_2$关于$\angle F_1PF_2$的外角平分线所在直线的对称点为$Q$, 求$Q$的轨迹方程;\\
+(2) 设$M$、$N$分别是曲线$C$上的两个不同点, 且点$M$在第一象限, 点$N$在第三象限, 若$\overrightarrow{OM}+2\overrightarrow{ON}=2\overrightarrow{OF_1}$, $O$为坐标原点, 求直线$MN$的斜率;\\
+(3) 过点$S(0,-\dfrac 13)$的动直线$l$交曲线$C$于$A$、$B$两点, 在$y$轴上是否存在定点$T$, 使以$AB$为直径的圆恒过这个点? 若存在, 求出点$T$的坐标; 若不存在, 请说明理由.
+\item 已知无穷数列$\{a_n\}$($a_n\in \mathbf{Z}$)的前$n$项和为$S_n$, 记$S_1$、$S_2$、$\cdots$、$S_n$中奇数的个数为$b_n$.\\
+(1) 若$a_n=n$, 请写出数列$\{b_n\}$的前$5$项;\\
+(2) 求证: ``$a_1$为奇数, $a_i(i=2,3,4,\cdots)$为偶数''是``数列$\{b_n\}$是单调递增数列''的充分不必要条件;\\
+(3) 若$a_i=b_i$, $i=1,2,3,\cdots$, 求数列$\{a_n\}$的通项公式.
+
+%测验11
+\item 函数$f(x)=3\cos 2x+1$的最小值为\blank{50}.
+\item 函数$f(x)=\sqrt{\dfrac{1-x}{3+x}}$的定义域为\blank{50}.
+\item 若集合$A=\{2,4,6,8\}$, $B=\{x|x^2-4x\le 0\}$, 则$A\cap B=$\blank{50}.
+\item 已知函数$g(x)$的图像与函数$f(x)=\log_2(3^x-1)$的图像关于直线$y=x$对称，则$g(3)=$\blank{50}.
+\item 设复数$z=\begin{vmatrix}   \cos \alpha  & \mathrm{i}  \\
+\sin \alpha  & \sqrt{2}+\mathrm{i}\end{vmatrix}$($\mathrm{i}$为虚数单位)，若$|z|=\sqrt{2}$，则$\tan 2\alpha=$\blank{50}.
+\item 设$\triangle ABC$的内角$A,B,C$的对边分别为$a,b,c$，若$b=2\sqrt{3}$, $c=8$, $A=30^\circ$，则$\sin C=$\blank{50}.
+\item 已知点$A(3,-2)$，点$P$满足线性约束条件$\begin{cases}  x+2\ge 0,  \\   y-1\le 0,  \\   x-2y\le 4,  \\ \end{cases}$ 设$O$为坐标原点，则$\overrightarrow{OA}\cdot \overrightarrow{OP}$的最大值为\blank{50}.
+\item 若函数$f(x)=\log_2(2^x+1)+kx$是偶函数, 则$k=$\blank{50}.
+\item 已知等边$\triangle ABC$的边长为$2\sqrt{3}$, 点$P$是其外接圆上的一个动点, 则$\overrightarrow{PA}\cdot \overrightarrow{PB}$的取值范围是\blank{50}.
+\item 已知函数$f(x)=\cos (2x-\dfrac \pi 6)$, 若对于任意的$x_1\in [-\dfrac \pi 4,\dfrac\pi 4]$, 总存在$x_2\in [m,n]$, 使得$f(x_1)+f(x_2)=0$, 则$|m-n|$的最小值为\blank{50}.
+\item 已知$AB$为单位圆$O$的一条弦, $P$为单位圆$O$上的点, 若$f(\lambda)=|\overrightarrow{AP}-\lambda\overrightarrow{AB}|$($\lambda\in \mathbf{R}$)的最小值为$m$, 当点$P$在单位圆上运动时, $m$的最大值为$\dfrac 43$, 则线段$AB$长度为\blank{50}.
+\item 在数列$\{a_n\}$中, $a_1=3$, $a_{n+1}=1+a_1\cdot a_2\cdot a_3\cdots a_n$, 记$T_n$为数列$\{\dfrac1 {a_n}\}$的前$n$项和, 则$\displaystyle\lim_{n\to\infty}T_n=$\blank{50}.
+\item 若$O$为坐标原点, $P$是直线$x-y+2=0$上的动点, 则$|OP|$的最小值为\bracket{20}.
+\fourch{$\dfrac{\sqrt{2}}2$}{$\sqrt{2}$}{$\sqrt{3}$}{$2$}
+\item 若$|x-a|\le 1$成立的一个充分不必要条件是$1\le x\le 2$, 则实数$a$的取值范围是\bracket{20}.
+\fourch{$1\le a\le 2$}{$a\ge 1$}{$a\le 2$}{$a\ge 1$或$a\le 2$}
+\item 在正方体$ABCD-A_1B_1C_1D_1$中, $P$、$Q$两点分别从点$B$和点$A_1$出发, 以相同的速度在棱$BA$和$A_1D_1$上运动至点$A$和点$D_1$, 在运动过程中, 直线$PQ$与平面$ABCD$所成角$\theta$的变化范围为\bracket{20}.
+\begin{center}
+    \begin{tikzpicture}
+        \draw (0,0) node [below left] {$A$} coordinate (A) --++ (2,0) node [below right] {$B$} coordinate (B) --++ (45:{2/2}) node [right] {$C$} coordinate (C)
+        --++ (0,2) node [above right] {$C_1$} coordinate (C1)
+        --++ (-2,0) node [above left] {$D_1$} coordinate (D1) --++ (225:{2/2}) node [left] {$A_1$} coordinate (A1) -- cycle;
+        \draw (A) ++ (2,2) node [right] {$B_1$} coordinate (B1) -- (B) (B1) --++ (45:{2/2}) (B1) --++ (-2,0);
+        \draw [dashed] (A) --++ (45:{2/2}) node [left] {$D$} coordinate (D) --++ (2,0) (D) --++ (0,2);
+        \draw [dashed] ($(A1)!0.3!(D1)$) node [above left] {$Q$} -- ($(B)!0.3!(A)$) node [below] {$P$};
+    \end{tikzpicture}
+\end{center}
+\twoch{$[\dfrac\pi4,\dfrac\pi3]$}{$[\arctan\dfrac{\sqrt{2}}2,\arctan\sqrt 2]$}{$[\dfrac\pi4,\arctan\sqrt 2]$}{$[\arctan\dfrac{\sqrt{2}}2,\dfrac\pi2]$}
+\item 已知函数$f(x)=m\cdot 2^x+x^2+nx$, 记集合$A=\{x|f(x)=0, \ x\in \mathbf{R}\}$, 集合$B=\{x|f(f(x))=0, \ x\in \mathbf{R}\}$.
+若$A=B$, 且$A$、$B$都不是空集, 则$m+n$的取值范围是\bracket{20}.
+\fourch{$[0,4)$}{$[-1,4)$}{$[-3,5]$}{$[0,7)$}
+\item 已知函数$f(x)=2\cos^2 x+2\sqrt{3}\sin x\cos x$.\\
+(1) 求$f(x)$的最大值和最小正周期$T$;\\
+(2) 在$\triangle ABC$中, 内角$A$、$B$、$C$所对的边分别为$a$、$B$、$C$, 已知$f(\dfrac A2)=3$, 且$a=1$, 求$\triangle ABC$面积的最大值.
+\item 已知函数$f(x)=a-\dfrac 4{3^x+1}$($a$为实常数).\\
+(1) 讨论函数$f(x)$的奇偶性, 并说明理由;\\ 
+(2) 当$f(x)$为奇函数时, 对任意的$x\in [1,5]$, 不等式$f(x)\ge \dfrac u{3^x}$恒成立, 求实数$u$的最大值.
+\item 如图, 某公园有三条观光大道$AB$、$BC$、$CA$围成直角三角形, 其中直角边$BC=200\text{m}$, 斜边$AB=400\text{m}$, 现有甲、乙、丙三位小朋友分别在$AB$、$BC$、$AC$大道上嬉戏, 所在位置分别记为点$D$、$E$、$F$.\\
+\begin{center}
+    \begin{tikzpicture}
+        \draw (0,0) node [left] {$C$} -- (2,0) node [right] {$B$} -- (0,{2*sqrt(3)}) node [left] {$A$} -- cycle;
+        \filldraw (0.5,0) circle (0.03) node [below] {$E$} (2,0) ++ (120:1) node [right] {$D$} circle (0.03) (0,2) circle (0.03) node [left] {$F$};
+    \end{tikzpicture}
+\end{center}
+(1) 若甲乙都以每分钟$100\text{m}$的速度从点$B$出发在各自的大道上奔走, 到大道的另一端时即停, 乙比甲迟$2$分钟出发, 当乙出发$1$分钟后, 求此时甲乙两人之间的距离;\\
+(2) 设$\angle CEF=\theta$, 乙丙之间的距离是甲乙之间距离的$2$倍, 且$\angle DEF=\dfrac\pi3$, 请将甲乙之间的距离$y$表示为$\theta$的函数, 并求甲乙之间的最小距离.
+\item 如图, 已知椭圆$M:\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$($a>b>0$)经过圆$N:x^2+(y+1)^2=4$与$x$轴的两个交点和与$y$轴正半轴的交点.\\
+\begin{center}
+    \begin{tikzpicture}[>=latex]
+        \draw [->] (-2,0) -- (2,0) node [below] {$x$};
+        \draw [->] (0,-3) -- (0,2) node [left] {$y$};
+        \draw (0,0) node [below left] {$O$};
+        \draw (0,-1) node [below left] {$N$} circle (2) (0,0) ellipse ({sqrt(3)} and 1);
+        \draw ({sqrt(3)*cos(60)},{sin(60)}) node [above] {$P$} -- ({2*cos(-100)},{-1+2*sin(-100)}) node [below] {$Q$};
+        \filldraw (0.25,0.5) circle (0.03) node [below] {$E$};
+        \draw (-1.171,0.7368) node [left] {$A$} -- (-1.0314,0.7136) node [below] {$C$} -- (1.5314,0.2864) node [below] {$D$} -- (1.671,0.2632) node [right] {$B$};
+    \end{tikzpicture}
+\end{center}
+(1) 求椭圆$M$的方程;\\
+(2) 若点$P$为椭圆$M$上的动点, 点$Q$为圆$N$上的动点, 求线段$PQ$长的最大值;\\
+(3) 若不平行于坐标轴的直线$L$交椭圆$M$于$A$、$B$两点, 交圆$N$于$C$、$D$两点, 且满足$\overrightarrow{AC}=\overrightarrow{DB}$, 求证: 线段$AB$的中点$E$在定直线上.
+\item 已知函数$f(x)$的定义域为$D$, 若存在实常数$\lambda$及$a$($a\ne 0$), 对任意$x\in D$, 当$x+a\in D$且$x-a\in D$时, 都有$f(x+a)+f(x-a)=\lambda f(x)$成立, 则称函数$f(x)$具有性质$M(\lambda,a)$.\\
+(1) 判断函数$f(x)=x^2$是否具有性质$M(\lambda,a)$, 并说明理由;\\
+(2) 若函数$g(x)=\sin 2x+\sin x$具有性质$M(\lambda,a)$, 求$\lambda$及$a$应满足的条件;\\
+(3) 已知函数$y=h(x)$不存在零点, 当$x\in \mathbf{R}$时具有性质$M(t+\dfrac{1}{t},t)$(其中$t>0$, $t\ne 1$), 记$a_n=h(n)$($n\in \mathbf{N}^*$), 求证: 数列$\{a_n\}$为等比数列的充要条件是$\dfrac{a_2}{a_1}=t$或$\dfrac{a_2}{a_1}=\dfrac{1}{t}$.
+
+
+
+\end{enumerate}
+\end{document}

@@ -109,7 +109,7 @@ data = re.sub("B1",r"B_1",data)
 data = re.sub("C1",r"C_1",data)
 data = re.sub("D1",r"D_1",data)
 #替换题号
-data = re.sub("([例]*[0-9]+\.[\s]+)","\\\\item ",data)
+data = re.sub("(\\n[例]*[0-9]+\.[\s]+)","\\n\\\\item ",data)
 
 #公式标志换成$符号
 data = re.sub("\\\\\[",r"$",data)
@@ -157,7 +157,7 @@ modified_equations = []
 
 for text in raw_texts:
     #填空题的处理
-    text1 = re.sub("[ __]{5,}",r"\\blank{50}",text)
+    text1 = re.sub("[ _]{5,}",r"\\blank{50}",text)
     #选择题的处理
     text1 = re.sub(r"\(\\blank\{50\}\)","\\\\bracket{20}",text1)
     #逗号后面加空格
