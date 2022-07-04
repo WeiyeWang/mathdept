@@ -243,8 +243,14 @@ for equation in raw_equations:
     equation1 = re.sub(r"\\cdot[\s]*?\\cdot[\s]*?\\cdot",r"\\cdots",equation1)
     #\bot改为\perp
     equation1 = re.sub(r"\\bot",r"\\perp",equation1)
-    #\texti改为\mathrm{i}
+    #\texti等改为\mathrm{i}
     equation1 = re.sub(r"\\texti",r"\\mathrm{i}",equation1)
+    equation1 = re.sub(r"\\mathrmi",r"\\mathrm{i}",equation1)
+    #处理矩阵与行列式
+    equation1 = re.sub(r"\([\s]*?\\begin\{matrix\}",r"\\begin{pmatrix}",equation1)
+    equation1 = re.sub(r"\\end\{matrix\}[\s]*?\)",r"\\end{pmatrix}",equation1)
+    equation1 = re.sub(r"\|[\s]*?\\begin\{matrix\}",r"\\begin{vmatrix}",equation1)
+    equation1 = re.sub(r"\\end\{matrix\}[\s]*?\|",r"\\end{vmatrix}",equation1)
     modified_equations.append(equation1)
 
 
