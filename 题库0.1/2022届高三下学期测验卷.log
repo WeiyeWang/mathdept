@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  4 JUL 2022 14:54
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  4 JUL 2022 16:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -890,14 +890,37 @@ Overfull \hbox (54.90521pt too wide) in paragraph at lines 505--509
 \TU/lmr/m/n/10 (3) \TU/华文中宋(0)/m/n/10 若 直 线 $\OML/cmm/m/it/10 l$ \TU/华文中宋(0)/m/n/10 的 斜 率 依 次 取 $\OML/cmm/m/it/10 p; p[]; p[]; []  ; p[]; [] $ \TU/华文中宋(0)/m/n/10 时\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 线 段 $\OML/cmm/m/it/10 AB$ \TU/华文中宋(0)/m/n/10 的 垂 直 平 分 线 与 对 称 轴 的 交 点 依 次 为 $\OML/cmm/m/it/10 N[]; N[]; N[]; []  ; N[]; [] $\TU/lmr/m/n/10 ,
  []
 
-[16] (./2022届高三下学期测验卷.aux) ) 
+[16]
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 552--552
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 553--553
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 555--556
+[][] 
+ []
+
+[17] [18] (./2022届高三下学期测验卷.aux) ) 
 Here is how much of TeX's memory you used:
- 22292 strings out of 476919
- 502320 string characters out of 5825424
+ 22310 strings out of 476919
+ 502629 string characters out of 5825424
  945354 words of memory out of 5000000
- 41879 multiletter control sequences out of 15000+600000
+ 41897 multiletter control sequences out of 15000+600000
  406127 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,22n,104p,420b,799s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 2022届高三下学期测验卷.pdf (16 pages).
+Output written on 2022届高三下学期测验卷.pdf (18 pages).
