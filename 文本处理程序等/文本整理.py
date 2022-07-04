@@ -241,7 +241,13 @@ for equation in raw_equations:
     equation1 = re.sub("\{([\{\{\w]*?_[\{\w\}]*?)\}([\+\-\,\|])[\s]*?",refine_right_operating_brackets,equation1)
     #处理三个点的写法
     equation1 = re.sub(r"\\cdot[\s]*?\\cdot[\s]*?\\cdot",r"\\cdots",equation1)
+    #\bot改为\perp
+    equation1 = re.sub(r"\\bot",r"\\perp",equation1)
+    #\texti改为\mathrm{i}
+    equation1 = re.sub(r"\\texti",r"\\mathrm{i}",equation1)
     modified_equations.append(equation1)
+
+
 #整合修改过的文本和公式    
 modified_data = ""
 for i in range(len(modified_texts)):

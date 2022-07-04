@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  3 JUL 2022 21:54
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  4 JUL 2022 14:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -840,14 +840,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 287--288
 
  []
 
-[9] (./2022届高三下学期测验卷.aux) ) 
-Here is how much of TeX's memory you used:
- 20876 strings out of 476919
- 471368 string characters out of 5825424
- 812217 words of memory out of 5000000
- 40466 multiletter control sequences out of 15000+600000
- 406111 words of font info for 62 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 101i,22n,104p,420b,798s stack positions out of 5000i,500n,10000p,200000b,80000s
+[9]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 322--323
+[][] 
+ []
 
-Output written on 2022届高三下学期测验卷.pdf (9 pages).
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 324--325
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 326--327
+[][] 
+ []
+
+[10] [11] [12]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 387--388
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 391--392
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 393--394
+[][] 
+ []
+
+[13] [14]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 451--452
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 453--454
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 490--491
+[][] 
+ []
+
+[15]
+Overfull \hbox (54.90521pt too wide) in paragraph at lines 505--509
+\TU/lmr/m/n/10 (3) \TU/华文中宋(0)/m/n/10 若 直 线 $\OML/cmm/m/it/10 l$ \TU/华文中宋(0)/m/n/10 的 斜 率 依 次 取 $\OML/cmm/m/it/10 p; p[]; p[]; []  ; p[]; [] $ \TU/华文中宋(0)/m/n/10 时\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 线 段 $\OML/cmm/m/it/10 AB$ \TU/华文中宋(0)/m/n/10 的 垂 直 平 分 线 与 对 称 轴 的 交 点 依 次 为 $\OML/cmm/m/it/10 N[]; N[]; N[]; []  ; N[]; [] $\TU/lmr/m/n/10 ,
+ []
+
+[16] (./2022届高三下学期测验卷.aux) ) 
+Here is how much of TeX's memory you used:
+ 22292 strings out of 476919
+ 502320 string characters out of 5825424
+ 945354 words of memory out of 5000000
+ 41879 multiletter control sequences out of 15000+600000
+ 406127 words of font info for 64 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 101i,22n,104p,420b,799s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 2022届高三下学期测验卷.pdf (16 pages).

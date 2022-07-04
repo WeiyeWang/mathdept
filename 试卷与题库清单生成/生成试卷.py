@@ -33,7 +33,7 @@ data_teachers = ""
 data_students = ""    
 
 for id in ids:
-    regular_expression = str(id).zfill(6)+"[\s\S]*?\[E题目\]"
+    regular_expression = "<BID>\n"+str(id).zfill(6)+"[\s\S]*?\[E题目\]"
     problem_pos = re.search(regular_expression,problems)
     if not problem_pos == None:
         problem_set = problems[problem_pos.start():problem_pos.end()]
