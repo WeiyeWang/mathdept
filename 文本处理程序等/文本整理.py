@@ -30,6 +30,20 @@ def replace_i(matchobj):
     return string
 def refine_log(matchobj):
     return r"\log_"+matchobj.group(1)
+def refine_powers(matchobj):
+    base = matchobj.group(1)
+    power = matchobj.group(2)
+    return base + "^" + power
+def refine_sequences(matchobj):
+    return "\{" + matchobj.group(1) + "\}"
+def refine_starting_brackets(matchobj):
+    return "$" + matchobj.group(1)
+def refine_left_operating_brackets(matchobj):
+    obj = matchobj.group(2)
+    return matchobj.group(1)+obj
+def refine_right_operating_brackets(matchobj):
+    obj = matchobj.group(1)
+    return obj + matchobj.group(2)
     
 try:
     os.chdir(r"D:\mathdept\mathdept\文本处理程序等")
@@ -156,12 +170,18 @@ modified_texts = []
 modified_equations = []
 
 for text in raw_texts:
+    text1 = text
+    #删除选项中无用的空格
+    text1 = re.sub("\{[\s]+?","{",text1)
+    text1 = re.sub("[\s]+?\}","}",text1)
     #填空题的处理
-    text1 = re.sub("[ _]{5,}",r"\\blank{50}",text)
+    text1 = re.sub("[ _]{5,}",r"\\blank{50}",text1)
     #选择题的处理
     text1 = re.sub(r"\(\\blank\{50\}\)","\\\\bracket{20}",text1)
+    text1 = re.sub(r"\([\s]{3,10}\)","\\\\bracket{20}",text1)
     #逗号后面加空格
     text1 = re.sub(",[ ]*",", ",text1)
+
     modified_texts.append(text1)
 
 for equation in raw_equations:
@@ -210,8 +230,18 @@ for equation in raw_equations:
     equation1 = re.sub(r"\{\{\\log[\s]*?\}_([\d\w])\}",refine_log,equation1)
     #处理多余的斜杠空格
     equation1 = re.sub(r"\\[\s]*?,[\s]*?\\",",",equation1)
+    #处理幂的多余大括号
+    equation1 = re.sub("\{\{(\([\s\S]*?\))\}\^([\{\}\w\+]*?)\}",refine_powers,equation1)
+    equation1 = re.sub(r"\{\{([\\mathbfrm\{\}NRCQZ]*?)\}\^([\+\*]*?)\}",refine_powers,equation1)
+    #处理数列多余的大括号
+    equation1 = re.sub(r"\\\{\{([\w]*?_[\w]*?)\}\\\}",refine_sequences,equation1)
+    #进一步处理多余的大括号
+    equation1 = re.sub("\$\{([\w]*?_[\w]*?)\}",refine_starting_brackets,equation1)
+    equation1 = re.sub("([\+\-\,\|\^])[\s]*?\{([\{\}\w]*?_[\w\}\{]*?)\}",refine_left_operating_brackets,equation1)
+    equation1 = re.sub("\{([\{\{\w]*?_[\{\w\}]*?)\}([\+\-\,\|])[\s]*?",refine_right_operating_brackets,equation1)
+    #处理三个点的写法
+    equation1 = re.sub(r"\\cdot[\s]*?\\cdot[\s]*?\\cdot",r"\\cdots",equation1)
     modified_equations.append(equation1)
-
 #整合修改过的文本和公式    
 modified_data = ""
 for i in range(len(modified_texts)):
