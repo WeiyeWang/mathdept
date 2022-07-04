@@ -557,13 +557,20 @@ $|\overrightarrow c|$的最大值是\bracket{20}.
 根据上述命题, 若$a,b$为异面直线, 且它们之间的距离为$d$, 则空间中与$a,b$均异面
 且距离也均为$d$的直线$c$的条数为\bracket{20}.
 \twoch{$0$条}{$1$条}{多于$1$条, 但为有限条}{无数多条}
-\item 如图, 在直三棱柱$ABC-A_1B_1C_1$中, $\angle ACB={{90}^0}$,
+\item 如图, 在直三棱柱$ABC-A_1B_1C_1$中, $\angle ACB=90^\circ$,
 $AB=2AC=2$, $D$是$AB$的中点.
+\begin{center}
+    \begin{tikzpicture}[scale = 2]
+        \draw [dashed] (0,0) node [left] {$C$} coordinate (C) -- ({sqrt(3)},0) node [right] {$B$} coordinate (B) (C) -- (0,1.5) node [above] {$C_1$} coordinate (C1) (C) -- (225:0.5) node [left] {$A$} coordinate (A);
+        \draw  (A) --++ (0,1.5) node [left] {$A_1$} coordinate (A1) -- (C1) --++ ({sqrt(3)},0) node [right] {$B_1$} coordinate (B1) (B1) -- (A1) (B1) -- (B) -- (A);
+        \draw [dashed] (C1) -- ($(A)!0.5!(B)$) node [below] {$D$};
+    \end{tikzpicture}
+\end{center}
 (1) 若三棱柱$ABC-A_1B_1C_1$的体积为$3\sqrt 3$, 求三棱柱$ABC-A_1B_1C_1$的高;\\
 (2) 若$C_1C=2$, 求二面角$D-B_1C_1-A_1$的大小.
-\item 已知函数$f(x)=\sqrt 2\sin (\omega x\text+\varphi)$, $g(x)=\sqrt 2\cos \omega x$, $\omega >0$, $\varphi \in [ 0,\pi)$, 它们的最小正周期为$\pi$.\\
-(1) 若$y=f(x)$是奇函数, 求$f(x)$和$g(x)$在$[0,\pi ]$上的公共递减区间$D$;\\
-(2) 若$h(x)=f(x)+g(x)$的一个零点为$x=-\dfrac{\pi }6$, 求$h(x)$的最大值.
+\item 已知函数$f(x)=\sqrt 2\sin (\omega x+\varphi)$, $g(x)=\sqrt 2\cos \omega x$, $\omega >0$, $\varphi \in [0,\pi)$, 它们的最小正周期为$\pi$.\\
+(1) 若$y=f(x)$是奇函数, 求$f(x)$和$g(x)$在$[0,\pi]$上的公共递减区间$D$;\\
+(2) 若$h(x)=f(x)+g(x)$的一个零点为$x=-\dfrac{\pi}6$, 求$h(x)$的最大值.
 \item 已知函数$f(x)=ax+\log_2(2^x+1)$, 其中$a\in \mathbf{R}$.\\
 (1) 根据$a$的不同取值, 讨论$f(x)$的奇偶性, 并说明理由;\\
 (2) 已知$a>0$, 函数$f(x)$的反函数为${f^{-1}}(x)$, 若函数$y=f(x)+{f^{-1}}(x)$在区间$[1,\ 2]$上的最小值为$1+\log_23$, 求函数$f(x)$在区间$[1,2]$上的最大值.
