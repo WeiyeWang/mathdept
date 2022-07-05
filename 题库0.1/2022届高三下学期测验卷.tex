@@ -764,8 +764,29 @@ $AB=2AC=2$, $D$是$AB$的中点.
 \end{center}
 (1) 求三棱锥$D-A_1B_1M$与长方体$ABCD-A_1B_1C_1D_1$的体积比;\\
 (2) 若$M$为棱$C_1D_1$的中点, 求直线$DB_1$与平面$DA_1M$所成角的大小.
+\item 已知常数$a\in \mathbf{R}^+$, 函数$f(x)=3^x+a^2\cdot 3^{-x}$.\\
+(1) 若$a=\sqrt{3}$, 解关于$x$的不等式$f(x)<4$;\\
+(2) 若$f(x)$在$[3,+\infty)$上为增函数, 求$a$的取值范围.
+\item 某居民小区为缓解业主停车难的问题, 拟对小区内一块扇形空地$AOB$进行改建. 如图所示, 平行四边形$OMPN$区域为停车场, 其余部分建成绿地, 点$P$在围墙$\overset\frown{AB}$上, 点$M$和$N$分别在道路$OA$和道路$OB$上, 且$OA=60\text{m}$, $\angle AOB=\dfrac\pi 3$. 设$\angle POB=\theta$.
+\begin{center}
+    \begin{tikzpicture}
+        \draw (0,0) node [left] {$B$} arc (180:140:3) node [left] {$P$} coordinate (P) arc (140:120:3) node [above] {$A$} -- (3,0) node [right] {$O$}-- cycle;
+        \draw [dashed] (3,0) -- (P);
+        \draw (P) --++ ({3/sin(60)*sin(20)},0) node [right] {$M$};
+        \draw (P) --++ (-60:{3/sin(60)*sin(40)}) node [below] {$N$};
+    \end{tikzpicture}
+\end{center}
+(1) 求停车场面积$S$(单位: $\text{m}^2$)关于$\theta$的函数关系式, 并写出$\theta$的取值范围;\\
+(2) 求停车场面积$S$的最大值以及相应$\theta$的值.
+\item 已知常数$p>0$, 抛物线$\Gamma:y^2=2px$的焦点为$F$.\\
+(1) 若直线$x=2$被$\Gamma$截得的弦长为$4$, 求$p$的值;\\
+(2) 设$E$为点$F$关于原点$O$的对称点, $P$为$\Gamma$上的动点, 求$\dfrac{|PE|}{|PF|}$的取值范围;\\
+(3) 设$p=2$. 两条互相垂直的直线$l_1,l_2$均过点$F$, $l_1$与$\Gamma$相交于$A,B$两点, $l_2$与$\Gamma$相交于$C,D$两点. 若$AC\perp BC$, 求四边形$ACBD$的面积.
+\item 记无穷数列$\{a_n\}$的前$n$项和为$S_n$, 集合$M=\{x|x=a_n, \ n\in \mathbf{N}^*\}$. 若对任意$n\in \mathbf{N}^*$, 恒有$S_n\in M$, 则称$\{a_n\}$具有性质$\mathbf{P}$.\\
+(1) 若无穷数列$\{a_n\}$的前$n$项和为$S_n=n^2+n+2$, 判断$\{a_n\}$是否具有性质$\mathbf{P}$, 并说明理由;\\
+(2) 若无穷数列$\{a_n\}$为等差数列, 首项$a_1=-1$, 公差$d>0$, 且$\{a_n\}$具有性质$\mathbf{P}$, 求$d$的值;\\
+(3) 若无穷数列$\{a_n\}$为等比数列, 首项$a_1=1$, 公比$q>0$, 问: 是否存在$q$, 使得$\{a_n\}$具有性质$\mathbf{P}$? 若存在, 求出所有$q$的值; 若不存在, 说明理由.
 
 
-%$d=|x_1-x_2|=\sqrt{|x_1-x_2|^2}=\sqrt{|(x_1-x_2)^2|}=\sqrt{|(x_1+x_2)^2-4x_1x_2|}=\sqrt{|(-\dfrac{b}{a})^2-4\dfrac{c}{a}|}$
 \end{enumerate}
 \end{document}
