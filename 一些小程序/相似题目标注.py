@@ -5,7 +5,7 @@ def find_file(id,files):
             break
     return f
 
-with open("../题库0.2/相似题目处理中.txt","r",encoding = "utf8") as f:
+with open("../题库0.2/相似题目.txt","r",encoding = "utf8") as f:
     similar_text = "\n"+f.read()
 pairs = re.findall("\\n(\d\.\d\d\d\d) (\w\w)[\s\S]*?\\n(\d{6})[\s\S]*?\\n(\d{6})",similar_text)
 files = [f for f in os.listdir("../题库0.2") if f[0]=="("]
