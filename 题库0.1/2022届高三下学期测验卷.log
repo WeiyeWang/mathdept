@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  5 JUL 2022 16:00
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  5 JUL 2022 17:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -749,148 +749,99 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 48.
  (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 61--62
-[][] 
- []
+LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 56.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 56.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 56.
 
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 66--67
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 69--70
 [][] 
  []
 
 [1
 
-] [2]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 114--115
+]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 71--72
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 116--117
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 73--74
 [][] 
  []
 
-LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 118.
-(c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 118.
- (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 118.
- [3] [4]
-Overfull \hbox (32.95903pt too wide) in paragraph at lines 162--163
-[]\TU/华文中宋(0)/m/n/10 若 某 线 性 方 程 组 对 应 的 增 广 矩 阵 是 $[]$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 且 此 方 程 组 有 唯 一 的 一 组 解\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 实 数 \TU/lmr/m/n/10 m \TU/华文中宋(0)/m/n/10 的 取 值 范 围 是$[]$\TU/lmr/m/n/10 . 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 169--170
+[2] [3] [4]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 203--204
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
+[5] [6]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 273--273
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 194--195
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 276--277
 [][] 
  []
 
-[5]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 201--202
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
-
- []
-
-[6]
-Overfull \hbox (9.9961pt too wide) in paragraph at lines 247--248
-[]\TU/华文中宋(0)/m/n/10 已 知 点 $\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 (3\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2)$\TU/华文中宋(0)/m/n/10 ，|  点 $\OML/cmm/m/it/10 P$ \TU/华文中宋(0)/m/n/10 满 足 线 性 约 束 条 件 $[]$ 设 $\OML/cmm/m/it/10 O$ \TU/华文中宋(0)/m/n/10 为 坐 标 原 点，|  则 $[] \OMS/cmsy/m/n/10 ^^A []$ \TU/华文中宋(0)/m/n/10 的 最 大 值 为$[]$\TU/lmr/m/n/10 . 
- []
-
-[7]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 254--255
+[7] [8]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 327--328
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 256--257
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 329--330
+[][] 
+ []
+
+[9] [10] [11]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 386--387
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 271--272
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 396--396
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
-
- []
-
-[9]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 322--323
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 398--399
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 324--325
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 400--401
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 326--327
-[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 415--416
+
  []
 
-[10] [11] [12]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 387--388
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 391--392
+[12] [13]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 482--482
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 393--394
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 483--484
 [][] 
  []
 
-[13] [14]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 451--452
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 453--454
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 490--491
-[][] 
- []
-
-[15]
-Overfull \hbox (54.90521pt too wide) in paragraph at lines 505--509
-\TU/lmr/m/n/10 (3) \TU/华文中宋(0)/m/n/10 若 直 线 $\OML/cmm/m/it/10 l$ \TU/华文中宋(0)/m/n/10 的 斜 率 依 次 取 $\OML/cmm/m/it/10 p; p[]; p[]; []  ; p[]; [] $ \TU/华文中宋(0)/m/n/10 时\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 线 段 $\OML/cmm/m/it/10 AB$ \TU/华文中宋(0)/m/n/10 的 垂 直 平 分 线 与 对 称 轴 的 交 点 依 次 为 $\OML/cmm/m/it/10 N[]; N[]; N[]; []  ; N[]; [] $\TU/lmr/m/n/10 ,
- []
-
-[16]
+[14] [15]
 Missing character: There is no > ("3E) in font nullfont!
 Missing character: There is no = ("3D) in font nullfont!
 Missing character: There is no l ("6C) in font nullfont!
@@ -898,87 +849,132 @@ Missing character: There is no a ("61) in font nullfont!
 Missing character: There is no t ("74) in font nullfont!
 Missing character: There is no e ("65) in font nullfont!
 Missing character: There is no x ("78) in font nullfont!
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 552--552
+ [16]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 559--559
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 553--553
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 560--560
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 555--556
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 562--563
 [][] 
  []
 
-[17] [18] [19]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 615--615
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 616--617
-[][] 
- []
-
-[20] [21]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 665--666
+[17] [18]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 618--619
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 675--675
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 620--621
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 677--678
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 657--658
+[][] 
+ []
+
+[19]
+Overfull \hbox (54.90521pt too wide) in paragraph at lines 672--676
+\TU/lmr/m/n/10 (3) \TU/华文中宋(0)/m/n/10 若 直 线 $\OML/cmm/m/it/10 l$ \TU/华文中宋(0)/m/n/10 的 斜 率 依 次 取 $\OML/cmm/m/it/10 p; p[]; p[]; []  ; p[]; [] $ \TU/华文中宋(0)/m/n/10 时\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 线 段 $\OML/cmm/m/it/10 AB$ \TU/华文中宋(0)/m/n/10 的 垂 直 平 分 线 与 对 称 轴 的 交 点 依 次 为 $\OML/cmm/m/it/10 N[]; N[]; N[]; []  ; N[]; [] $\TU/lmr/m/n/10 ,
+ []
+
+[20]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 696--697
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 679--680
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 700--701
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 694--695
-
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 702--703
+[][] 
  []
 
-[22] [23]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 746--747
+[21] [22]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 753--754
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 748--749
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 755--756
 [][] 
  []
 
-[24] [25] [26]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 820--820
+[23]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 757--758
+[][] 
+ []
+
+[24]
+Overfull \hbox (9.9961pt too wide) in paragraph at lines 812--813
+[]\TU/华文中宋(0)/m/n/10 已 知 点 $\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 (3\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2)$\TU/华文中宋(0)/m/n/10 ，|  点 $\OML/cmm/m/it/10 P$ \TU/华文中宋(0)/m/n/10 满 足 线 性 约 束 条 件 $[]$ 设 $\OML/cmm/m/it/10 O$ \TU/华文中宋(0)/m/n/10 为 坐 标 原 点，|  则 $[] \OMS/cmsy/m/n/10 ^^A []$ \TU/华文中宋(0)/m/n/10 的 最 大 值 为$[]$\TU/lmr/m/n/10 . 
+ []
+
+[25]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 819--820
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 823--824
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 821--822
 [][] 
  []
 
-[27] [28]
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 836--837
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 843--844
+
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 852--853
+
+ []
+
+[27]
+Overfull \hbox (32.95903pt too wide) in paragraph at lines 880--881
+[]\TU/华文中宋(0)/m/n/10 若 某 线 性 方 程 组 对 应 的 增 广 矩 阵 是 $[]$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 且 此 方 程 组 有 唯 一 的 一 组 解\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 实 数 \TU/lmr/m/n/10 m \TU/华文中宋(0)/m/n/10 的 取 值 范 围 是$[]$\TU/lmr/m/n/10 . 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 887--888
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 889--890
+[][] 
+ []
+
+
 Overfull \hbox (22.22168pt too wide) in paragraph at lines 912--913
 [][] 
  []
 
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 930--931
+[28]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 919--920
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 920--921
 
  []
 
-[30] [31]
+[29] [30]
 Overfull \hbox (22.22168pt too wide) in paragraph at lines 974--975
 [][] 
  []
@@ -988,19 +984,24 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 976--977
 [][] 
  []
 
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 978--979
+[31]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1029--1030
 [][] 
  []
 
-[32] [33] [34] (./2022届高三下学期测验卷.aux) ) 
+[32]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1034--1035
+[][] 
+ []
+
+[33] [34] (./2022届高三下学期测验卷.aux) ) 
 Here is how much of TeX's memory you used:
  23575 strings out of 476919
- 528174 string characters out of 5825424
- 945354 words of memory out of 5000000
+ 528176 string characters out of 5825424
+ 951758 words of memory out of 5000000
  43162 multiletter control sequences out of 15000+600000
  406127 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,22n,357p,431b,1097s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,22n,357p,440b,1168s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on 2022届高三下学期测验卷.pdf (34 pages).

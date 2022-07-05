@@ -21,9 +21,9 @@ data = re.sub(r"\\item",r"\\enditem\\item",data)
 data = re.sub(r"\\end\{enumerate\}",r"\\enditem",data)
 problems = [trim(p) for p in re.findall(r"\\item([\s\S]*?)\\enditem",data)]
 #以上已经生成了题目列表，以下出处、使用记录、修订历史等须设定
-origin = "教材复习题"
+origin = "2022届高三下学期测验卷"
 usage = ""
-editor = "20220703\t王伟叶"
+editor = "20220705\t王伟叶"
 # 重要！！！初始ID
 starting_ID = 4000
 
