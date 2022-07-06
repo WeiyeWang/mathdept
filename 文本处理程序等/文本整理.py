@@ -236,6 +236,7 @@ for equation in raw_equations:
     #处理数列多余的大括号
     equation1 = re.sub(r"\\\{\{([\w]*?_[\w]*?)\}\\\}",refine_sequences,equation1)
     #进一步处理多余的大括号
+    equation1 = re.sub(r"(\{[ABCDMNPQR]_[\d]\})",refine_brackets,equation1)
     equation1 = re.sub("\$\{([\w]*?_[\w]*?)\}",refine_starting_brackets,equation1)
     equation1 = re.sub("([\+\-\,\|\^])[\s]*?\{([\{\}\w]*?_[\w\}\{]*?)\}",refine_left_operating_brackets,equation1)
     equation1 = re.sub("\{([\{\{\w]*?_[\{\w\}]*?)\}([\+\-\,\|])[\s]*?",refine_right_operating_brackets,equation1)
