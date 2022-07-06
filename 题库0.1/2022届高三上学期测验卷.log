@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  6 JUL 2022 22:19
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  7 JUL 2022 06:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -771,14 +771,29 @@ File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 120.
- [3] [4] [5] (./2022届高三上学期测验卷.aux) ) 
+ [3] [4]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 154--155
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 156--157
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 158--159
+[][] 
+ []
+
+[5] [6] (./2022届高三上学期测验卷.aux) ) 
 Here is how much of TeX's memory you used:
- 20708 strings out of 476919
- 468566 string characters out of 5825424
- 802837 words of memory out of 5000000
- 40300 multiletter control sequences out of 15000+600000
+ 20795 strings out of 476919
+ 470696 string characters out of 5825424
+ 805850 words of memory out of 5000000
+ 40387 multiletter control sequences out of 15000+600000
  406095 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,14n,104p,420b,693s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,14n,104p,420b,816s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 2022届高三上学期测验卷.pdf (5 pages).
+Output written on 2022届高三上学期测验卷.pdf (6 pages).

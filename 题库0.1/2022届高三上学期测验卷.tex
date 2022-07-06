@@ -150,6 +150,42 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 \textcircled{1} 若$A\subseteq B$, 则$f_A(x)\le f_B(x)$; \textcircled{2} $f_{\complement_{\mathbf{R}}A}(x)=1-f_A(x)$;\\
 \textcircled{3} ${f_{A\cap B}}(x)=f_A(x)\cdot f_B(x)$; \textcircled{4} $f_{A\cup B}(x)=f_A(x)+f_B(x)$;\\ \textcircled{5} $f_{A\cap \complement_\mathbf{R}B}(x)=f_A(x)-f_B(x)$; \textcircled{6} 对于任意$x\in \mathbf{R}$, 若$f_A(x)\cdot f_B(x)=0$恒成立, 则$A\cap B=\varnothing$.\\
 其中正确的命题为\blank{50}(填所有正确命题的序号).
+\item 已知实数$a,b$满足$a>b$, 则下列不等式中恒成立的是\bracket{20}。
+\fourch{$a^2>b^2$}{$\dfrac 1a<\dfrac 1b$}{$|a|>|b|$}{$2^a>2^b$}
+\item 下列函数中, 值域为$(0,+\infty)$的是\bracket{20}.
+\fourch{$y=x^2$}{$y=\dfrac 2x$}{$y=2^x$}{$y=|\log_2x|$}
+\item 从正方体的$8$个顶点中选取$4$个作为顶点, 可得到四面体的个数为\bracket{20}.
+\fourch{$\mathrm{C}_8^4-12$}{$\mathrm{C}_8^4-8$}{$\mathrm{C}_8^4-6$}{$\mathrm{C}_8^4-4$}
+\item 设集合$A=\{y|y=a^x,\ x>0\}$(其中常数$a>0,  \ a\ne 1$), $B=\{y|y=x^k,\ x\in A\}$(其中常数$k\in \mathbf{Q}$), 则``$k<0$''是``$A\cap B=\varnothing$''的\bracket{20}.
+\twoch{充分非必要条件}{必要非充分条件}{充分必要条件}{既非充分又非必要条件}
+\item 如图所示, 在直三棱柱$ABC-A_1B_1C_1$中, 底面是等腰直角三角形, $\angle ACB=90^\circ$, $CA=CB=CC_1=2$. 点$D,D_1$分别是棱$AC,A_1C_1$的中点.
+\begin{center}
+    \begin{tikzpicture}[scale = 1.2]
+        \draw [dashed] (0,0) node [left] {$C$} coordinate (C) -- (2,0) node [right] {$B$} coordinate (B) (C) -- (0,2) node [above] {$C_1$} coordinate (C1) (C) -- (225:1) node [left] {$A$} coordinate (A);
+        \draw (A) --++ (0,2) node [left] {$A_1$} coordinate (A1) (B) --++ (0,2) node [right] {$B_1$} coordinate (B1);
+        \draw (A) -- (B) (A1) -- (B1) -- (C1) -- cycle;
+        \draw ($(A)!0.5!(C)$) node [left] {$D$} coordinate (D) ++ (0,2) node [left] {$D_1$} coordinate (D1);
+        \draw (B1) -- (D1);
+        \draw [dashed] (B) -- (D) -- (D1) (C1) -- (B);
+    \end{tikzpicture}
+\end{center}
+(1)	求四棱锥$C-AA_1B_1B$的体积;\\
+(2)	求直线$BC_1$与平面$DBB_1D_1$所成角的大小.
+\item 设常数$k\in \mathbf{R}$, $f(x)=k\cos^2x+\sqrt 3\sin x\cos x$, $x\in \mathbf{R}$.\\
+(1) 若$\tan \alpha =2$且$f(\alpha)=\sqrt 3$, 求实数$k$的值;\\
+(2) 设$k=1$, $\triangle ABC$中, 内角$A,B,C$的对边分别为$a,b,c$. 若$f(A)=1$, $a=\sqrt 7$, $b=3$, 求$\triangle ABC$的面积$S$.
+\item 东西向的铁路上有两个道口$AB$, 铁路两侧的公路分布如图, $C$位于$A$的南偏西$15^\circ$, 且位于$B$的南偏东$15^\circ$方向, $D$位于$A$的正北方向, $AC=AD=2km$, $C$处一辆救护车欲通过道口前往$D$处的医院送病人, 发现北偏东$45^\circ$方向的$E$处(火车头位置)有一列火车自东向西驶来, 若火车通过每个道口都需要$1$分钟, 救护车和火车的速度均为$60\text{km/h}$.
+\begin{center}
+    \begin{tikzpicture}[>=latex]
+        \draw (-2,0) -- (2,0) (0,0) node [above right] {$A$} -- (0,2) node [right] {$D$};
+        \draw (0,0) --++ (-105:2) node [below] {$C$} coordinate (C) --++ (105:2) node [above left] {$B$} -- (0,2); 
+        \draw ({sqrt(2)},0) node [above] {$E$} -- (C);
+        \draw [->] (-2,1) --++ (0.5,0) node [right] {东};
+        \draw [->] (-2,1) --++ (0,0.5) node [above] {北};
+    \end{tikzpicture}
+\end{center}
+(1) 判断救护车通过道口$A$是否会受火车影响, 并说明理由;\\
+(2) 为了尽快将病人送到医院, 救护车应选择$AB$中的哪个道口? 通过计算说明.
 
 \end{enumerate}
 \end{document}
