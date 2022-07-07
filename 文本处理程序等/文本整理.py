@@ -14,6 +14,8 @@ def multiple_choice(matchobj):
     return string
 def boldsymbols(matchobj):
     return "\\i"+matchobj.group(1)[:-1]+"\\mathbf{"+matchobj.group(1)[-1]+"}"
+def boldsymbols_star(matchobj):
+    return "\\in \\mathbf{"+matchobj.group(1)+"}^*"
 def singleboldsymbols(matchobj):
     return "$\\mathbf{" + matchobj.group(1) + "}$"
 def blackboardbold(matchobj):
@@ -44,6 +46,8 @@ def refine_left_operating_brackets(matchobj):
 def refine_right_operating_brackets(matchobj):
     obj = matchobj.group(1)
     return obj + matchobj.group(2)
+def refine_brackets_in_brackets(matchobj):
+    return matchobj.group(1) + matchobj.group(2) + matchobj.group(3)
     
 try:
     os.chdir(r"D:\mathdept\mathdept\文本处理程序等")
@@ -208,6 +212,7 @@ for equation in raw_equations:
     equation1 = equation1.replace("\\bigc","\\c")
     #在数集中的数集改为粗黑体
     equation1 = re.sub("\\\i(n[ ]*[R|Q|Z|N|C])",boldsymbols,equation1)
+    equation1 = re.sub(r"\\in[\s]*?\{([NZQRC])\^\*\}",boldsymbols_star,equation1)
     equation1 = re.sub(r"\\mathbf([ZRNQC])",blackboardbold,equation1)
     equation1 = re.sub(r"\\text([ZRNQC])",blackboardbold,equation1)
     equation1 = re.sub("operatorname","mathbf ",equation1)
@@ -240,6 +245,7 @@ for equation in raw_equations:
     equation1 = re.sub("\$\{([\w]*?_[\w]*?)\}",refine_starting_brackets,equation1)
     equation1 = re.sub("([\+\-\,\|\^])[\s]*?\{([\{\}\w]*?_[\w\}\{]*?)\}",refine_left_operating_brackets,equation1)
     equation1 = re.sub("\{([\{\{\w]*?_[\{\w\}]*?)\}([\+\-\,\|])[\s]*?",refine_right_operating_brackets,equation1)
+    equation1 = re.sub(r"([\(\[\{])\{([^\{\}]*?)\}([\)\]\}])",refine_brackets_in_brackets,equation1)
     #处理三个点的写法
     equation1 = re.sub(r"\\cdot[\s]*?\\cdot[\s]*?\\cdot",r"\\cdots",equation1)
     #\bot改为\perp
