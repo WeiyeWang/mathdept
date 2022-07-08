@@ -258,6 +258,8 @@ for equation in raw_equations:
     equation1 = re.sub(r"\\end\{matrix\}[\s]*?\)",r"\\end{pmatrix}",equation1)
     equation1 = re.sub(r"\|[\s]*?\\begin\{matrix\}",r"\\begin{vmatrix}",equation1)
     equation1 = re.sub(r"\\end\{matrix\}[\s]*?\|",r"\\end{vmatrix}",equation1)
+    equation1 = re.sub(r"\\Delta",r"\\triangle",equation1)
+    equation1 = re.sub(r"\\vartriangle",r"\\triangle",equation1)
     modified_equations.append(equation1)
 
 
@@ -273,5 +275,6 @@ for i in range(len(modified_texts)):
     except:
         a = 1
 modified_data = re.sub(r"[ ]+\n","\n",modified_data)
+modified_data = re.sub(r"\$[\s]*?\\parallel[\s]*?\$",r"\\parallel",modified_data)
 with open("outputfile.txt","w",encoding = "utf8") as f:
     f.write(modified_data)

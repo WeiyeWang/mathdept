@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  8 JUL 2022 17:58
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  8 JUL 2022 22:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -817,43 +817,92 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 262--263
  []
 
 [9] [10]
-Overfull \hbox (21.78662pt too wide) in paragraph at lines 364--365
-[]\TU/华文中宋(0)/m/n/10 某 班 级 要 从 $\OT1/cmr/m/n/10 5$ \TU/华文中宋(0)/m/n/10 名 男 生 和 $\OT1/cmr/m/n/10 3$ \TU/华文中宋(0)/m/n/10 名 女 生 中 选 出 $\OT1/cmr/m/n/10 3$ \TU/华文中宋(0)/m/n/10 人 参 加 公 益 活 动\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 在 选 出 的 $\OT1/cmr/m/n/10 3$ \TU/华文中宋(0)/m/n/10 人 中 男、|  女 生 均 有 的 概 率 为$[]$\TU/lmr/m/n/10 (\TU/华文中宋(0)/m/n/10 结
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 332--333
+[][] 
  []
 
 [11]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 385--386
+Overfull \hbox (21.78662pt too wide) in paragraph at lines 387--388
+[]\TU/华文中宋(0)/m/n/10 某 班 级 要 从 $\OT1/cmr/m/n/10 5$ \TU/华文中宋(0)/m/n/10 名 男 生 和 $\OT1/cmr/m/n/10 3$ \TU/华文中宋(0)/m/n/10 名 女 生 中 选 出 $\OT1/cmr/m/n/10 3$ \TU/华文中宋(0)/m/n/10 人 参 加 公 益 活 动\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 在 选 出 的 $\OT1/cmr/m/n/10 3$ \TU/华文中宋(0)/m/n/10 人 中 男、|  女 生 均 有 的 概 率 为$[]$\TU/lmr/m/n/10 (\TU/华文中宋(0)/m/n/10 结
+ []
+
+[12]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 408--409
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 387--388
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 410--411
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 389--390
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 412--413
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 419--420
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 442--443
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--421
+Underfull \hbox (badness 10000) in paragraph at lines 443--444
 
  []
 
-[12] [13] [14] (./2022届高三上学期测验卷.aux) ) 
+[13] [14]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 499--500
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 501--501
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 502--503
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 504--505
+[][] 
+ []
+
+[15]
+
+LaTeX Warning: Command \= invalid in math mode on input line 551.
+
+[16]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 565--565
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 566--567
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 568--569
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 572--573
+[][] 
+ []
+
+[17] [18] (./2022届高三上学期测验卷.aux) ) 
 Here is how much of TeX's memory you used:
- 21818 strings out of 476919
- 491336 string characters out of 5825424
- 832171 words of memory out of 5000000
- 41410 multiletter control sequences out of 15000+600000
- 406095 words of font info for 60 fonts, out of 8000000 for 9000
+ 22040 strings out of 476919
+ 495605 string characters out of 5825424
+ 834485 words of memory out of 5000000
+ 41630 multiletter control sequences out of 15000+600000
+ 406111 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,14n,357p,420b,1169s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,15n,357p,420b,1178s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 2022届高三上学期测验卷.pdf (14 pages).
+Output written on 2022届高三上学期测验卷.pdf (18 pages).

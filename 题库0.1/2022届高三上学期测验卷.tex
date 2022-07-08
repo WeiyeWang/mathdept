@@ -328,6 +328,9 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 \twoch{$\mathrm{C}_{20}^2\cdot \mathrm{C}_{19}^2\cdot \mathrm{C}_{35}^1$}{$\mathrm{C}_{39}^5-\mathrm{C}_{20}^5-\mathrm{C}_{19}^5$}{$\mathrm{C}_{39}^5-\mathrm{C}_{20}^1\mathrm{C}_{19}^4-\mathrm{C}_{20}^4\mathrm{C}_{19}^{1}$}{$\mathrm{C}_{20}^2\mathrm{C}_{19}^3+\mathrm{C}_{20}^3\mathrm{C}_{19}^2$}
 \item 已知二面角$\alpha-l-\beta$是直二面角, $m$为直线, $\gamma$为平面, 则下列命题中真命题为\bracket{20}.
 \twoch{若$m\subsetneqq \alpha$, 则$m\perp \beta$}{若$m\perp \alpha$, 则$m\parallel \beta$}{若$m\parallel \alpha$, 则$m\perp \beta$}{若$\gamma\parallel \alpha$, 则$\gamma\perp \beta$}
+\item 记有限集$M$中元素的个数为$|M|$, 且$|\varnothing|=0$, 对于非空有限集$A,B$, 下列结论: \textcircled{1} 若$|A|\le |B|$, 则$A\subseteq B$; \textcircled{2} 若$|A\cup B|=|A\cap B|$, 则$A=B$; \textcircled{3} 若$|A\cap B|=0$, 则$A,B$中至少有一个是空集; \textcircled{4} 若$A\cap B=\varnothing$, 则$|A\cup B|=|A|+|B|$. 其中正确结论的个数为\bracket{20}.
+\fourch{$1$}{$2$}{$3$}{$4$}
+\item 在正三棱柱$ABC-A_1B_1C_1$中, $E,F$分别为棱$A_1B_1,A_1C_1$的中点, 去掉三棱锥$A_1-AEF$得到一个多面体$ABC-B_1C_1FE$. 已知$AB=6$, $BB_1=4$.
 \begin{center}
     \begin{tikzpicture}
         \draw (0,0) node [left] {$A$} coordinate (A) -- (3,0) node [right] {$B$} coordinate (B) (A) ++ (1.5,0) ++ (45:{sqrt(3)*3/4}) node [above right] {$C$} coordinate (C);
@@ -341,7 +344,16 @@ A.~#1 &B.~#2& C.~#3& D.~#4
         \draw (A) -- (E) -- (B1) (E) -- (F) (A) -- (F) -- (C1);
     \end{tikzpicture}
 \end{center}
-
+(1) 求多面体$ABC-EFC_1B_1$的体积;\\
+(2) 求意面直线$AE$与$BC$所成角的大小.
+\item 《上海市生活垃圾管理条例》于$2019$年$7$月$1$日正式实施. 某小区全面实施垃圾分类处理. 已知该小区每月垃圾分类处理量不超过$300$吨, 每月垃圾分类处理成本$y$(元)与每月分类处理量$x$(吨)之间的函数关系式可近似表示为
+$y=x^2-200x+40000$，而分类处理一吨垃圾小区也可以获得$300$元的收益.\\
+(1) 该小区每月分类处理多少吨垃圾, 才能使得每吨垃圾分类处理的平均成本最低?\\
+(2) 要保证该小区每月的垃圾分类处理不亏损, 每月的垃圾分类处理量应控制在什么范围?
+\item 已知$a$是实常数, 函数$f(x)=a\lg(1-x)-\lg (1+x)$.\\
+(1) 若$a=1$, 求证: 函数$y=f(x)$是减函数;\\
+(2) 讨论函数$f(x)$的奇偶性, 并说明理由.
+\item 如图是函数$f(x)=A\sin (\omega x+\varphi)$($A>0$, $\omega>0$, $0\le \varphi\le \pi$)一个周期内的图像. 将$f(x)$图像上所有点的很顾总表伸长为原来的$2$倍, 纵坐标不变, 再把所得图像向右平移$\dfrac\pi 2$个单位长度, 得到函数$g(x)$的图像.
 \begin{center}
     \begin{tikzpicture}[>=latex]
         \draw [->] (-1,0) -- (3,0) node [below] {$x$};
@@ -353,9 +365,20 @@ A.~#1 &B.~#2& C.~#3& D.~#4
         \draw [dashed] (0,-2) node [left] {$-2$} -- ({pi/2},-2) -- ({pi/2},0);
     \end{tikzpicture}
 \end{center}
+(1) 求函数$f(x)$和$g(x)$的解析式;\\
+(2) 若$f(x_0)=g(x_0)$, 求$\sin (x_0\dfrac\pi 3)$的所有可能的值;\\
+(3) 求函数$F(x)=f(x)+ag(x)$($a$为正常数)在区间$(0,19\pi)$内的所有零点之和.
+\item 对于定义在$D$上的函数$y=f(x)$, 如果存在两条平行直线$l_1:y=kx+b_1$于$l_2:y=kx+b_2$($b_1\ne b_2$), 使得对于任意$x\in D$, 都有$kx+b_1\le f(x)\le kx+b_2$恒成立, 那么称函数$y=f(x)$是带状函数, 若$l_1,l_2$之间的最小距离$d$存在, 则称$d$为带宽.\\
+(1) 判断函数$f(x)=\sin x+\cos x$是不是带状函数? 如果是, 指出带宽(不用证明); 如果不是, 说明理由;\\
+(2) 求证: 函数$g(x)=\sqrt{x^2-1}$($x\ge 1$)是带状函数;\\
+(3) 求证: 函数$h(x)=a|x-x_1|+b|x-x_2|$($x_1<x_2$)为带状函数的充要条件是$a+b=0$.
+
+
+
+
 %7_21
 
-\item 计算$\displaystyle \lim_{n\to\infty}\dfrac{4n+4}{5n+1}=$.
+\item 计算$\displaystyle \lim_{n\to\infty}\dfrac{4n+4}{5n+1}=$\blank{50}.
 \item 设全集$U=\mathbf{R}$集合$A=\{-2,-1,0,1,2\}$, $B=\{x|x\ge 0\}$, 则$A\cap \complement_UB=$\blank{50}.
 \item 不等式$\dfrac 1{x-1}\ >1$的解集为\blank{50}.
 \item 若一个球的体积为$36\pi$, 则它的表面积为\blank{50}.
@@ -456,7 +479,124 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 (1) 如果$a_2=2$, 且对于一切正整数$n$, 均有$a_n\cdot a_{n+2}=a_{n+1}^2$, 求$S_n$;\\
 (2) 如果对于一切正整数$n$, 均有$a_n\cdot a_{n+1}=S_n$, 求$S_n$;\\
 (3) 如果对于一切正整数$n$, 均有$a_n+a_{n+1}=3S_n$, 证明: $a_{3n-1}$能被$8$整除.
-'[]
+
+%8_21
+
+\item 设$z=\dfrac{1-\mathrm{i}}{1+\mathrm{i}}$, 则$|z|=$\blank{50}.
+\item 已知向量$\overrightarrow a=(1,2)$, $\overrightarrow b=(m,-1)$, 若向量$\overrightarrow a\parallel \overrightarrow b$, 则实数$m=$\blank{50}.
+\item $\displaystyle\lim_{n\to \infty}\dfrac{3^{n+1}+1}{2\cdot 3^n+2^n}=$\blank{50}.
+\item 角$\theta$的终边经过点$P(-4,y)$, 且$\sin\theta =\dfrac 35$, 则$\tan\theta=$\blank{50}.
+\item 设一个圆锥的侧面展开图是半径为$1$的半圆, 则此圆锥的体积等于\blank{50}.
+\item 从包含学生甲的$1200$名学生中随机抽取一个容量为$60$的样本, 则学生甲被抽到的概率为\blank{50}.
+\item 在平面直角坐标系$xOy$中, 已知抛物线$y^2=4x$上一点$P$到焦点的距离为$3$, 则点$P$的横坐标是\blank{50}.
+\item 已知函数$y=f(x)$存在反函数$y=f^{-1}(x)$, 若函数$y=f(x)+2^x$的图像经过点$(1,4)$, 则函数$y=f^{-1}(x)+\log_2x$的图像必过点\blank{50}.
+\item 在无穷等比数列$\{a_n\}$中, 若$\displaystyle\lim_{n\to \infty}(a_1+a_2+\cdots +a_n)=\dfrac 12$, 则$a_1$的取值范围是\blank{50}.
+\item 已知向量$|\overrightarrow a|=|\overrightarrow b|=|\overrightarrow c|=1$, 若$\overrightarrow a\cdot \overrightarrow b=\dfrac 12$, 且$\overrightarrow c=x\overrightarrow a+y\overrightarrow b$, 则$x\cdot y$的最大值为\blank{50}.
+\item 已知集合$M=\{1,2,3,\cdots,10\}$, 集合$A\subseteq M$, 定义$M(A)$为$A$中元素的最大值, 当$A$取遍$M$的所有非空子集时, 对应的$M(A)$的和记为$S_{10}$, 则$S_{10}=$\blank{50}.
+\item 对于定义域为$D$的函数$f(x)$, 若存在$x_1,x_2\in D$且$x_1\ne x_2$, 使得$f(x_1^2)=f(x_2^2)=2f(x_1+x_2)$, 则称函数$f(x)$具有性质$M$. 若函数$g(x)=|\log_2x-1|$, $x\in (0,a]$具有性质$M$, 则实数$a$的最小值为\blank{50}.
+\item 展开式为$ad-bc$的行列式是\bracket{20}.
+\fourch{$\begin{vmatrix}a & b  \\ d & c  \end{vmatrix}$}{$\begin{vmatrix} a & c  \\ b & d  \end{vmatrix}$}{$\begin{vmatrix}
+  a & d  \\ b & c  \end{vmatrix}$}{$\begin{vmatrix}   b & a  \\ d & c  \end{vmatrix}$}
+\item 已知两条直线$l_1$、$l_2$的方程分别为$l_1:ax+y-1=0$和$l_2:x-y+1=0$, 则``$a=1$''是``直线$l_1\perp l_2$''的\bracket{20}.
+\fourch{充分不必要条件}{必要不充分条件}{充要条件}{既不充分也不必要条件}\item 若$1+\mathrm{i}$是关于$x$的方程$x^2+px+q=0$的一个根(其中$\mathrm{i}$为虚数单位, $p,q\in \mathbf{R}$), 则$p+q$的值为\bracket{20}.
+\fourch{$-1$}{$0$}{$1$}{$2$}
+\item 已知曲线$C_1:|y|-x=2$与曲线$C_2:\lambda x^2+y^2=4$恰好有两个不同的公共点, 则实数$\lambda$的取值范围是\bracket{20}.
+\fourch{$(-\infty ,-1]\cup [0,1)$}{$(-1,1]$}{$[-1,1)$}{$[-1,0]\cup (1,+\infty)$}
+\item 如图, 在三棱柱$ABC-A_1B_1C_1$中, 已知$AB\perp AC$, $AB=AC=1$, $AA_1=2$, 且$AA_1\perp$平面$ABC$. 过$A_1$、$C_1$、$B$三点作平面截此三棱柱, 截得一个三棱锥和一个四棱锥.
+\begin{center}
+    \begin{tikzpicture}[scale = 1.5]
+        \draw (0,0) node [left] {$A$} coordinate (A);
+        \draw (1,0) node [right] {$B$} coordinate (B);
+        \draw (225:0.5) node [left] {$C$} coordinate (C);
+        \draw (A) ++ (0,2)  node [above] {$A_1$} coordinate (A1);
+        \draw (B) ++ (0,2)  node [right] {$B_1$} coordinate (B1);
+        \draw (C) ++ (0,2)  node [left] {$C_1$} coordinate (C1);
+        \draw (B) -- (C) -- (C1) -- (B1) -- (B) (C1) -- (A1) -- (B1) (B) -- (C1);
+        \draw [dashed] (B) -- (A) -- (C) (A) -- (A1) -- (B);
+        \draw (3,0) node [left] {$A$} coordinate (A2);
+        \draw (4,0) node [right] {$B$} coordinate (B2);
+        \draw (3,0) ++ (225:0.5) node [left] {$C$} coordinate (C2);
+        \draw (A2) ++ (0,2)  node [above] {$A_1$} coordinate (A3);
+        \draw (B2) ++ (0,2)  coordinate (B3);
+        \draw (C2) ++ (0,2)  node [left] {$C_1$} coordinate (C3);
+        \draw (B2) -- (C2) -- (C3) -- (A3) -- (B2) -- (C3);
+        \draw [dashed] (C2) -- (A2) -- (A3) (A2) -- (B2);
+        \draw (C3) ++ (1,0) node [left] {$C_1$} coordinate (C5);
+        \draw (A3) ++ (1,0) node [left] {$A_1$} coordinate (A5);
+        \draw (B3) ++ (1,0) node [right] {$B_1$} coordinate (B5);
+        \draw (B2) ++ (1,0) node [right] {$B$} coordinate (B4);
+        \draw (A5) -- (B5) (B5) -- (C5) -- (B4) -- (B5) (A5) -- (C5);
+        \draw [dashed] (A5) -- (B4); 
+    \end{tikzpicture}
+\end{center}
+(1) 求异面直线$BC_1$与$AA_1$所成角的大小(结果用反三角函数表示);\\
+(2) 求四棱锥$B-ACC_1A_1$的体积和表面积.
+\item 已知函数$f(x)=2\sqrt 3\sin x\cos x-2\sin^2x$.\\
+(1) 求$f(x)$的最大值;\\
+(2) 在$\triangle ABC$中, 内角$A$、$B$、$C$所对的边分别为$a$、$b$、$c$, 若$f(A)=0$, $b$、$a$、$c$成等差数列, 且$\overrightarrow{AB}\cdot \overrightarrow{AC}=2$, 求边$a$的长.
+\item 某科技创新公司投资$400$万元研发了一款网络产品, 产品上线第$1$个月的收入为$40$万元, 预计在今后若干个月内, 该产品每月的收入平均比上一月增长$50\%$. 同时, 该产品第$1$个月的维护费支出为$100$万元, 以后每月的维护费支出平均比上一个月增加$50$万元.\\
+(1)	分别求出第$6$个月该产品的收入和维护费支出, 并判断第$6$个月该产品的收入是否足够支付第$6$个月的维护费支出?\\
+(2)	从第几个月起, 该产品的总收入首次超过总支出(总支出包括维护费支出和研发投资支出)?
+\item 已知曲线$\Gamma$上的任意一点到两定点$F_1(-1,0)$、$F_2(1,0)$的距离之和为$2\sqrt 2$, 直线$l$交曲线$\Gamma$于$A$、$B$两点, $O$为坐标原点.\\
+(1) 求曲线$\Gamma$的方程;\\
+(2) 若$l$不过$O$点且不平行于坐标轴, 记线段$AB$的中点为$M$. 求证: 直线$OM$的斜率与$l$的斜率的乘积为定值;\\
+(3) 若$OA\perp OB$, 求$\triangle AOB$面积的取值范围.
+\item 若存在常数$k$($k>0$), 使得对定义域$D$内的任意$x_1$、$x_2$($x_1\ne x_2$), 都有$|f(x_1)-f(x_2)|\le k|x_1-x_2|$成立, 则称函数$f(x)$在其定义域$D$是``$k-$利普希兹条件函数''.\\
+(1) 若函数$f(x)=\sqrt x$($1\le x\le 4$)是``$k-$利普希兹条件函数'', 求常数$k$的取值范围;\\
+(2) 判断函数$f(x)=\log_2x$是否是``$2-$利普希兹条件函数'', 若是, 请证明, 若不是, 请说明理由;\\
+(3) 若$y=f(x)$($x\in \mathbf{R}$)是周期为2的``$1-$利普希兹条件函数'', 证明: 对任意的实数$x_1$、$x_2$, 都有$|f(x_1)-f(x_2)|\le 1$.
+
+%9_21
+
+\item 已知集合$A=\{x|x>0\}$, $B=\{x|x^2\le 1\}$, 则$A\cap B\=$\blank{50}.
+\item 若关于$x,y$的方程组为$\begin{cases} x+y=1,  \\ x-y=2,  \end{cases}$ 则该方程组的增广矩阵为\blank{50}.
+\item 复数$z$满足$z\cdot \mathrm{i}=1+\mathrm{i}$($\mathrm{i}$为虚数单位), 则$|z|=$\blank{50}.
+\item $\displaystyle\lim_{n\to \infty}\dfrac{2n}{3{n^2}+1}=$\blank{50}.
+\item 抛物线$x^2=-4y$的准线方程为\blank{50}.
+\item 在$\triangle ABC$中, 若$AB=2$, $\angle B=\dfrac{5\pi}{12}$, $\angle C=\dfrac{\pi}4$, 则$BC=$\blank{50}.
+\item 函数$f(x)=1+\log_2x$($x\ge 4$)的反函数的定义域为\blank{50}.
+\item 在$(x+\sqrt 2)^7$的二项展开式中任取一项, 则该项系数为有理数的概率为\blank{50}(用数字作答).
+\item 正方形$ABCD$的边长为$2$, 点$E$和$F$分别是边$BC$和$AD$上的动点, 且$CE=AF$, 则$\overrightarrow{AE}\cdot \overrightarrow{AF}$的取值范围为\blank{50}.
+\item 若等比数列$\{a_n\}$的前$n$项和为$S_n$, 且满足$\begin{vmatrix}
+a_{n+1} &  S_n  \\ 1 & 1  \end{vmatrix}=2$, 则数列$\{a_n\}$的前$n$项和$S_n$为\blank{50}.
+\item 设函数$f(x)=|x-a|-\dfrac 2x+a$, 若关于$x$的方程$f(x)=1$有且仅有两个不同的实数根, 则实数$a$的取值构成的集合为\blank{50}.
+\item 已知数列$\{a_n\}$中, $a_1=1$, $na_{n+1}=(n+1)a_n+1$, 若对于任意的$a\in [-2,2]$、$n\in \mathbf{N}^*$, 不等式$\dfrac{a_{n+1}}{n+1}<3-a\cdot {2^t}$恒成立, 则实数$t$的取值范围为\blank{50}.
+\item 若$a$、$b$是实数, 则$a>b$是$2^a>2^b$的\bracket{20}.
+\fourch{充分非必要条件}{必要非充分条件}{充要条件}{既非充分又非必要条件}\item 已知函数$f^{-1}(x)$为函数$f(x)$的反函数, 且函数$f(x-1)$的图像经过点$(1,1)$, 则函数$f^{-1}(x)$的图像一定经过点\bracket{20}
+\fourch{$(0,1)$}{$(1,0)$}{$(1,2)$}{$(2,1)$}
+\item 以抛物线$y^2=4x$的焦点为右焦点, 且长轴为$4$的椭圆的标准方程为\bracket{20}.
+\fourch{$\dfrac{x^2}{16}+\dfrac{y^2}{15}=1$}{$\dfrac{x^2}{16}+\dfrac{y^2}4=1$}{$\dfrac{x^2}4+\dfrac{y^2}3=1$}{$\dfrac{x^2}4+{y^2}=1$}
+\item 已知函数$f(x)=\begin{cases} x^2, & x\text{为无理数}, \\ x, &x\text{为有理数},   \end{cases}$ 则以下$4$个命题:
+\textcircled{1} $f(x)$是偶函数; \textcircled{2} $f(x)$在$[0,+\infty)$上是增函数; \textcircled{3} $f(x)$的值域为$\mathbf{R}$; \textcircled{4} 对于任意的正有理数$a$, $g(x)=f(x)-a$存在奇数个零点.
+其中正确命题的个数为\bracket{20}.
+\fourch{$0$}{$1$}{$2$}{$3$}
+\item 如图, 直三棱柱$A_1B_1C_1-ABC$中, $AB=AC=1$, $\angle BAC=\dfrac{\pi}2$, $A_1A=4$, 点$M$为线段$A_1A$的中点.
+\begin{center}
+    \begin{tikzpicture}[scale = 3]
+        \draw (0,0) node [left] {$A$} coordinate (A) (-45:0.5) node [below] {$B$} coordinate (B) (1,0) node [right] {$C$} coordinate (C);
+        \draw (A) ++ (0,1.1) node [left] {$A_1$} coordinate (A1) (B) ++ (0,1.1) node [below right] {$B_1$} coordinate (B1) (C) ++ (0,1.1) node [right] {$C_1$} coordinate (C1);
+        \draw (A) ++ (0,1.1/2) node [left] {$M$} coordinate (M);
+        \draw (A) -- (B) -- (C) -- (C1) -- (A1) -- cycle (A1) -- (B1) -- (C1) (B1) -- (B) (M) -- (B);
+        \draw [dashed] (A) -- (C);
+    \end{tikzpicture}
+\end{center}
+(1)求直三棱柱$A_1B_1C_1-ABC$的体积;
+(2)求异面直线$BM$与$B_1C_1$所成的角的大小. (结果用反三角表示)
+\item 已知函数$f(x)=2\cos^2x+\sqrt 3\sin 2x$.\\
+(1) 求函数$f(x)$的最小正周期及单调递增区间;\\
+(2) 在$\triangle ABC$中, $\overrightarrow{BC}\cdot \overrightarrow{BA}=6$, 若函数$f(x)$的图像经过点$(B,2)$, 求$\triangle ABC$的面积.
+\item 勤俭节约是中华民族的传统美德. 为避免舌尖上的浪费, 各地各部门采取了精准供应的措施.某学校食堂经调查分析预测, 从年初开始的前$n(n=1,2,3,\cdots ,12)$个月对某种食材的需求总量$S_n$(公斤)近似地满足$S_n=\begin{cases} 635n, & 1\le n\le 6,  \\ -6n^2+774n-618, & 7\le n\le 12 . \end{cases}$ 为保证全年每一个月该食材都够用, 食堂前$n$个月的进货总量须不低于前$n$个月的需求总量.\\
+(1) 如果每月初进货$646$公斤, 那么前$7$个月每月该食材是否都够用?\\
+(2) 若每月初等量进货$p$(公斤), 为保证全年每一个月该食材都够用, 求$p$的最小值.
+\item 已知椭圆$C_1:\dfrac{x^2}4+{y^2}=1$, $F_1$、$F_2$为$C_1$的左、右焦点.\\
+(1) 求椭圆$C_1$的焦距;\\
+(2) 点$Q(\sqrt 2, \dfrac{\sqrt 2}2)$为椭圆$C_1$的一点, 与$OQ$平行的直线$l$与椭圆$C_1$交于两点$AB$, 若$\triangle QAB$面积为$1$, 求直线$l$的方程;\\
+(3) 已知椭圆$C_1$与双曲线$C_2:x^2-y^2=1$在第一象限的交点为$M(x_M,y_M)$, 椭圆 $C_1$和双曲线$C_2$上满足$|x|\ge |x_M|$的所有点$(x,y)$组成曲线$C$. 若点$N$是曲线$C$上一动点, 求$\overrightarrow{NF_1}\cdot \overrightarrow{NF_2}$的取值范围.
+\item 已知函数$f(x)$的定义域是$D$, 若对于任意的$x_1,x_2\in D$, 当$x_1<x_2$时, 都有$f(x_1)\le f(x_2)$, 则称函数$f(x)$在$D$上为``非减函数''.\\
+(1) 判断$f_1(x)=x^2-4x, \ x\in [1,4]$与$f_2(x)=|x-1|+|x-2|, \ x\in [1,4]$是否是``非减函数''?\\
+(2) 已知函数$g(x)=2^x+\dfrac a{2^{x-1}}$在$[2,4]$上为``非减函数'', 求实数$a$的取值范围;\\
+(3) 已知函数$h(x)$在$[0,1]$上为``非减函数'', 且满足条件:
+\textcircled{1}  $h(0)=0$; \textcircled{2}  $h(\dfrac x3)=\dfrac 12h(x)$; \textcircled{3}  $h(1-x)=1-h(x)$, 求 $h(\dfrac 1{2020})$的值.
 
 
 
