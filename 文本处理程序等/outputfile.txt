@@ -1,54 +1,8 @@
 一、填空题(本大题满分54分)本大题共12题, 第1-6题, 每空填对得4分;第7-12题, 每空填对得5分. 请直接将结果填写在答题纸相应题号的空格内.
-\item 计算$\underset{n\to +\infty }{\mathop{\lim }}\dfrac{4n+4}{5n+1}=\_\_\_\_\_\_\_\_.$
-\item 设全集$U=\mathbf{R}$集合$A=\{ -2,-1,\ 0,\ 1,\ 2 \}B=\{ x| x\ge 0  \},$ 则$A\cap ({\complement }_{\ U}B)=$\blank{50}.
-\item 不等式$\dfrac 1{x-1}\ >1$的解集为\blank{50}.
-\item 若一个球的体积为$36\pi ,$ 则它的表面积为\blank{50}.
-\item 设复数$z$满足$z+2\overl\mathrm{i}nez=3-\mathrm{i}$($\mathrm{i}$为虚数单位), 则$z=$\blank{50}.
-\item 数列$\{a_n\}$的通项公式是$a_n=(\dfrac 23)^n,n\in \mathbf{N}^*$, 则数列$\{a_n\}$所有项的和为\blank{50}.
-\item 某班级要从5名男生和3名女生中选出3人参加公益活动, 则在选出的3人中男、女生均有的概率为\blank{50}(结果用最简分数表示).
-\item 已知$\omega ,t>0,$函数$f(x)=\begin{vmatrix}
-   \sqrt 3  \sin \omega x  \\1  \cos \omega x  \end{vmatrix}$的最小正周期为$2\pi$, 将$f(x)$的图像向左平移$t$个单位, 所得图像对应的函数为偶函数, 则$t$的最小值为\blank{50}.
-\item 设函数$f(x)=\begin{matrix}
-   x^6  x\ge 1  \\-2x-1  x\le -1  \end{matrix}$, 则当$x\le -1$时, 则$f[f(x)]$表达式的展开式中含$x^2$项的系数是\blank{50}.
-\item 已知数列$\{ {a_n} \}$满足$S_n=\dfrac 32a_n+n$(其中$S_n^$为数列$\{ {a_n} \}$前$n$项和), 则数列$\{ {a_n} \}$的通项公式是\blank{50}.
-11.如图, 已知半圆$O$的直径$AB=4,$ $\Delta OAC$是
-等边三角形, 若点$P$是边$AC$(包含端点$A,C$)上的
-动点, 点$Q$在弧$\overset\frown{BC}$上, 且满足$OQ\perp OP,$ 则$\overrightarrow{OP}\cdot \overrightarrow{BQ}$
-的最小值为\blank{50}.
-\item 如果一个数列由有限个连续的正整数组成(数列的项数大于2), 且所有项之和为$N$, 那么称该数列为$N$型标准数列, 例如, 数列2, 3, 4, 5, 6为20型标准数列, 则2668型标准数列的个数为\blank{50}.
 二、选择题(本大题共4题, 满分20分)每题有且只有一个正确答案, 考生应在答题纸的相应题号上, 将所选答案的代号涂黑, 选对得 5分, 否则一律零分.
-\item 设$\alpha \beta$为两个不同平面, 已知直线$l\ \ \alpha \$则$\alpha \perp \beta l\perp \beta \$
-\bracket{20}.\blank{50}
-\fourch{充分不必要条件}{必要不充分条件}{充要条件}{既不充分也不必要条件}\item 某中学的高一、高二、高三共有学生1350人, 其中高一500人, 高三比高二少50人, 为了解该校学生健康状况, 现采用分层抽样方法进行调查, 在抽取的样本中有高一学生120人, 则该样本中的高二学生人数为\bracket{20}.
-   \fourch{80}{96}{108}{110}\item 已知$\overrightarrow{a}\ \ \overrightarrow b$均为单位向量, 且$\overrightarrow a\cdot \ \overrightarrow b=0.$若$| \overrightarrow c-4\overrightarrow a |+| \overrightarrow c-3\overrightarrow b |=5,$则$| \overrightarrow c+\overrightarrow a |$的取值范围是\bracket{20}.
-\fourch{$[ 3,\ \ \sqrt{10} ]$}{$[ 3,\ \ 5 ]$}{$[ 3,\ \ 4 ]$}{$[ \sqrt{10},\ \ 5 ]$}\item 正四面体ABCD的体积为1, O为其中心,
-正四面体EFGH与正四面体ABCD关于点O对称,
-则这两个正四面体的公共部分的体积为  \bracket{20}
-\fourch{$\dfrac{\text1}{\text3}$}{$\dfrac{\text1}{\text2}$}{$\dfrac{\text2}{\text3}$}{$\dfrac{\text3}{\text4}$}
 三、解答题(本大题共5题, 满分76分)解答下列各题必须在答题纸的规定区域内写出必要的步骤.
-\item (本题满分14分) 本题共2小题, 第1小题6分, 第2小题8分.
-如图, 已知正三棱柱$ABC-A_1B_1C_1$的底面积为$\dfrac{9\sqrt 3}4$, 侧面积为36;
-(1)求正三棱柱$ABC-A_1B_1C_1$的体积;
-(2)求异面直线$A_1C$与$AB$所成的角的大小;\blank{50}
+\blank{50}
 (第17题图)
-\item (本题满分14分)本题共2小题, 第1小题7分, 第2小题7分.
-已知$\Delta ABC$的面积为S, 且$\overrightarrow{AB}\cdot \overrightarrow{AC}=S\ .$
-(1)	求$\sin A,\cos A,\tan 2A$的值;
-(2)	若$B=\dfrac{\pi }4,\ \ | \overrightarrow{CA}-\overrightarrow{CB} |=6,$求$\Delta ABC$的面积S .
-\item (本题满分14分) 本题共2小题, 第1小题6分, 第2小题8分.
-某温室大棚规定: 一天中, 从中午12点到第二天上午8点为保温时段, 其余4小时为工人作业时段. 从中午12点连续测量20小时, 得出此温室大棚的温度$y$(单位: 度)与时间$t$(单位: 小时, $t\in [ 0,20 ]$)近似地满足函数$y=| t-13 |+\dfrac b{t+2}$关系, 其中, $b$为大棚内一天中保温时段的通风量.
-(1)若一天中保温时段的通风量保持100个单位不变, 求大棚一天中保温时段的最低温度(精确到0.1℃);
-(2)若要保持大棚一天中保温时段的最低温度不小于17℃, 求大棚一天中保温时段通风量的最小值.
-   20. (本题满分16分, 第1小题满分4分, 第2小题满分6分, 第3小题满分6分)
-已知直线$l:x=t(0<t<2)$与椭圆$\Gamma \dfrac{x^2}4+\dfrac{y^2}2=1$相交于A, B两点, 其中A在第一象限, M是椭圆上一点.
-(1)记$F_1,F_2$是椭圆$\Gamma$的左右焦点, 若直线$AB$过$F_2$, 当$M$到$F_1$的
-距离与到直线$AB$的距离相等时, 求点$M$的横坐标;
-(2)若点$M,A$关于$y$轴对称, 当$\Delta MAB$的面
-积最大时, 求直线$MB$的方程;
-(3)设直线$MA$和$MB$与$x$轴分别交
-于$PQ$, 证明: $|OP|\cdot |OQ|$为定值.
+   
 21.(本题满分18分) 本题共3小题, 第1小题4分, 第2小题7分, 第3小题7分.
-    已知无穷数列$\{a_n\}$的各项均为正数, 其前$n$项和为$S_n$, $a_1=4$.
-(1)如果$a_2=2$, 且对于一切正整数$n$, 均有$a_n\cdot {a_{n+2}}=a_{n+1}^2$, 求$S_n$;
-(2)如果对于一切正整数$n$, 均有$a_n\cdot {a_{n+1}}={S_n}$, 求$S_n$;
-(3)如果对于一切正整数$n$, 均有$a_n+{a_{n+1}}=3{S_n}$, 证明: ${a_{3n-1}}$能被8整除.
+    
