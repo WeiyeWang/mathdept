@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  5 JUL 2022 21:29
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  9 JUL 2022 10:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4273,14 +4273,209 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 11113--11114
 [][] 
  []
 
-[368]) [369] (./to_compile.aux (./problems_file.aux)) ) 
+[368] [369]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11157--11158
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11163--11164
+[][] 
+ []
+
+[370] [371] [372] [373]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11244--11245
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11246--11247
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11248--11249
+[][] 
+ []
+
+[374] [375]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11298--11299
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11300--11301
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11302--11303
+[][] 
+ []
+
+[376]
+Overfull \hbox (1.22809pt too wide) in paragraph at lines 11327--11328
+[]\TU/lmr/m/n/10 (004433) \TU/等线(0)/m/n/10 在 $\OMS/cmsy/m/n/10 4\OML/cmm/m/it/1
+0 ABC$ \TU/等线(0)/m/n/10 中\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 角 $\OML/cmm/m/it/10 
+A; B; C$ \TU/等线(0)/m/n/10 的 对 边 分 别 为 $\OML/cmm/m/it/10 a; b; c$\TU/lmr/m/n/10 
+, \TU/等线(0)/m/n/10 面 积 为 $\OML/cmm/m/it/10 S$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 
+且 $\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 S \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 a \O
+T1/cmr/m/n/10 + \OML/cmm/m/it/10 b\OT1/cmr/m/n/10 )[] \OMS/cmsy/m/n/10 ^^@ \OML
+/cmm/m/it/10 c[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 $[] \OML/cmm/m/it/10 C \OT
+1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11342--11343
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11344--11345
+[][] 
+ []
+
+[377]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11348--11349
+[][] 
+ []
+
+[378]
+Overfull \hbox (23.30869pt too wide) in paragraph at lines 11404--11405
+[]\TU/lmr/m/n/10 (004454) \TU/等线(0)/m/n/10 已 知 圆 锥 的 侧 面 展 开 图 是 一 个 扇 形\TU/lmr
+/m/n/10 , \TU/等线(0)/m/n/10 若 此 扇 形 的 圆 心 角 为 $[]$\TU/lmr/m/n/10 , \TU/等线(0)/m/n
+/10 面 积 为 $\OT1/cmr/m/n/10 15\OML/cmm/m/it/10 ^^Y$\TU/lmr/m/n/10 , \TU/等线(0)/m/
+n/10 则 该 圆 锥 的 体 积 为$[]$\TU/lmr/m/n/10 . 
+ []
+
+[379]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11415--11416
+[][] 
+ []
+
+[380] [381]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11485--11486
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11487--11488
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11489--11490
+[][] 
+ []
+
+[382]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11519--11520
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11520--11521
+
+ []
+
+[383]
+Overfull \hbox (7.78664pt too wide) in paragraph at lines 11564--11565
+[]\TU/lmr/m/n/10 (004494) \TU/等线(0)/m/n/10 从 包 含 学 生 甲 的 $\OT1/cmr/m/n/10 1200$
+ \TU/等线(0)/m/n/10 名 学 生 中 随 机 抽 取 一 个 容 量 为 $\OT1/cmr/m/n/10 60$ \TU/等线(0)/m/n/
+10 的 样 本\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 学 生 甲 被 抽 到 的 概 率 为$[]$\TU/lmr/m/n/
+10 . 
+ []
+
+[384]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11573--11574
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11575--11576
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11577--11578
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11579--11580
+[][] 
+ []
+
+[385]
+
+LaTeX Warning: Command \= invalid in math mode on input line 11623.
+
+[386]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11637--11638
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11639--11640
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11641--11642
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11645--11646
+[][] 
+ []
+
+[387]
+Overfull \hbox (26.67984pt too wide) in paragraph at lines 11677--11678
+[]\TU/lmr/m/n/10 (004535) \TU/等线(0)/m/n/10 从 长 度 分 别 为 $\OT1/cmr/m/n/10 1\OML/c
+mm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it
+/10 ; \OT1/cmr/m/n/10 4$ \TU/等线(0)/m/n/10 的 四 条 线 段 中 任 意 取 三 条\TU/lmr/m/n/10 ,
+ \TU/等线(0)/m/n/10 以 这 三 条 线 段 为 边 可 以 构 成 三 角 形 的 概 率 是$[]$\TU/lmr/m/n/10 . 
+ []
+
+[388]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11701--11702
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11705--11706
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11707--11708
+[][] 
+ []
+
+[389] [390]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11754--11755
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11758--11759
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 11760--11761
+[][] 
+ []
+
+[391]) [392] (./to_compile.aux (./problems_file.aux)) ) 
 Here is how much of TeX's memory you used:
- 38521 strings out of 476919
- 837371 string characters out of 5825424
+ 39732 strings out of 476919
+ 862532 string characters out of 5825424
  1027506 words of memory out of 5000000
- 58090 multiletter control sequences out of 15000+600000
+ 59301 multiletter control sequences out of 15000+600000
  406175 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,22n,362p,958b,1201s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on to_compile.pdf (369 pages).
+Output written on to_compile.pdf (392 pages).
