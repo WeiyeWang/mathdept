@@ -6,6 +6,7 @@
 \usepackage{tikz}
 \usepackage{makecell}
 \usepackage{longtable}
+
 \usetikzlibrary{arrows,calc,intersections,patterns}
 \usepackage[bf,small,indentafter,pagestyles]{titlesec}
 \usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
@@ -598,11 +599,138 @@ a_{n+1} &  S_n  \\ 1 & 1  \end{vmatrix}=2$, 则数列$\{a_n\}$的前$n$项和$S_
 (3) 已知函数$h(x)$在$[0,1]$上为``非减函数'', 且满足条件:
 \textcircled{1}  $h(0)=0$; \textcircled{2}  $h(\dfrac x3)=\dfrac 12h(x)$; \textcircled{3}  $h(1-x)=1-h(x)$, 求 $h(\dfrac 1{2020})$的值.
 
+%10_21
 
+\item 已知全集$U=\{0,1,2\}$, $A=\{x|x-m=0\}$. 如果$\complement_U A=\{0,1\}$, 则$m=$\blank{50}.
+\item 如果$\lambda>\sin x+\cos x$对一切$x\in\mathbf{R}$都成立, 则实数$\lambda$的取值范围是\blank{50}.
+\item 不等式$|2x-1|-|x-2|<0$的解是\blank{50}.
+\item 双曲线$\dfrac{x^2}4-\dfrac{y^2}9=1$的两渐近线的夹角的大小为\blank{50}.
+\item 从长度分别为$1,2,3,4$的四条线段中任意取三条, 以这三条线段为边可以构成三角形的概率是\blank{50}.
+\item 已知$(1+ax)^6$的展开式中, 含有$x^3$项的系数为$160$, 则实数$a=$\blank{50}.
+\item 设等比数列$\{a_n\}$的公比为$q$. 若对任意正整数$n$, $S_{n+1},S_n,S_{n+2}$成等差数列, 则$q=$\blank{50}.
+\item 已知$l_1,l_2$是分别经过点$A(2,1)$和$B(0,2)$两点的两条平行直线, 当$l_1,l_2$之间的距离最大时, 直线$l_1$的方程是\blank{50}.
+\item 如图是正四面体的平面展开图, $M,N,G$分别为$DE,BE,FE$的中点, 则在这个四面体中, 异面直线$MN$与$CG$所成的角的大小为\blank{50}.
+\begin{center}
+    \begin{tikzpicture}[scale = 1.5]
+        \draw (0,0) node [below] {$E$} coordinate (E);
+        \draw (1,0) node [below right] {$C$} coordinate (C);
+        \draw (-1,0) node [below left] {$B$} coordinate (B);
+        \draw (0,{sqrt(3)}) node [above] {$A$} coordinate (A);
+        \draw ($(A)!0.5!(B)$) node [left] {$D$} coordinate (D);
+        \draw ($(A)!0.5!(C)$) node [right] {$F$} coordinate (F);
+        \draw ($(E)!0.5!(F)$) node [above] {$G$} coordinate (G);
+        \draw ($(D)!0.5!(E)$) node [above] {$M$} coordinate (M);
+        \draw ($(B)!0.5!(E)$) node [below] {$N$} coordinate (N);
+        \draw (A) -- (B) -- (C) -- cycle (D) -- (E) -- (F) -- cycle;
+        \draw (M) -- (N) (C) -- (G);
+    \end{tikzpicture}
+\end{center}
+\item 已知$y=f(x)$是定义在$\mathbf{R}$上的奇函数, 且当$x\ge 0$时, $f(x)=-\dfrac 1{4^x}+\dfrac 1{2^x}$, 则此函数的值域为\blank{50}.
+\item 函数$f(x)=2\sin \pi x$与函数$g(x)=\sqrt[3]{x-1}$的图像的所有交点的横坐标之和为\blank{50}.
+\item 已知$p$是实数, 函数$f(x)=10^x$. 若存在实数$m,n$, 使得$f(m+n)=f(m)+f(n)$与$f(m+n+p)=f(m)+f(n)+f(p)$均成立, 则$p$的最大值等于\blank{50}.
+\item 已知$\overrightarrow a=(0,2)$, $\overrightarrow b=(1,1)$, 则下列结论中正确的是\bracket{20}.
+\fourch{$(\overrightarrow a-\overrightarrow b)\perp \overrightarrow b$}{$(\overrightarrow a-\overrightarrow b)\perp (\overrightarrow a+\overrightarrow b)$}{$\overrightarrow a//\overrightarrow b$}{$|\overrightarrow a|=|\overrightarrow b|$}\item 设函数$f(x)=\begin{cases}1, & x\in \mathbf{Q}, \\ \pi, &x\not\in \mathbf{Q}.\end{cases}$ 下列结论不正确的是\bracket{20}.
+\twoch{$f(x)$是偶函数}{$f(x)$是周期函数}{该函数有最大值也有最小值}{方程$f(f(x))=1$的解集为$\{1\}$}
+\item 在三角形$A_nB_nC_n$中, 记角$A_n,B_n,C_n$所对的边分别为$a_n,b_n,c_n$, 且这三角形的三边长是公差为$1$的等差数列, 若最小边$a_n=n+1$, 则$\displaystyle\lim_{n\to \infty} C_n=$\bracket{20}.
+\fourch{$\dfrac \pi 2$}{$\dfrac \pi 3$}{$\dfrac \pi 4$}{$\dfrac \pi 6$}
+\item 若直线$y=kx+1$与曲线$y=|x+\dfrac 1x|-|x-\dfrac 1x|$有且仅有四个不同的交点, 则实数$k$的取值范围为\bracket{20}.
+\fourch{$\{-\dfrac 18,0,\dfrac 18\}$}{$\{-\dfrac 18,\dfrac 18\}$}{$[-\dfrac 18,\dfrac 18]$}{$(-\dfrac 18,\dfrac 18)$}
+\item 一个透明的球形装饰品内放置了两个有公共底面的圆锥, 且这两个圆锥的顶点和底面圆周都在球面上, 如图. 已知圆锥底面面积是这个球面面积的$\dfrac 3{16}$, 设球的半径为$R$, 圆锥底面半径为$r$.
+\begin{center}
+    \begin{tikzpicture}
+        \draw (0,0) circle (2) node [left] {$O$} coordinate (O);
+        \draw ({-sqrt(3)},-1) coordinate (S);
+        \draw ({sqrt(3)},-1) coordinate (T);
+        \draw (0,-2) node [below] {$A$} coordinate (A);
+        \draw (0,2) node [above] {$B$} coordinate (B);
+        \draw ($(A)!0.5!(O)$) node [left] {$A_1$} coordinate (A1);
+        \draw [dashed] (A) -- (B) (S) -- (B) -- (T) -- (A) -- (S) (A1) -- (T) (O) -- (T);
+        \draw ($(A1)!0.5!(T)$) node [above] {$r$};
+        \draw ($(O)!0.5!(T)$) node [above] {$R$};
+        \draw (T) arc (0:-180:{sqrt(3)} and {sqrt(3)/4});
+        \draw [dashed] (T) arc (0:180:{sqrt(3)} and {sqrt(3)/4});
+    \end{tikzpicture}
+\end{center}
+(1) 分别求两圆锥的母线所在直线与轴所在直线的夹角的大小;\\
+(2) 设两个圆锥的体积之和为$V_1$, 球的体积为$V_2$, 求$\dfrac{V_1}{V_2}$.
+\item 已知$A(\cos \alpha,\sin\alpha)$, $B(\cos\beta,\sin\beta)$, 其中$\alpha,\beta$为锐角, 且$|AB|=\dfrac{\sqrt{10}}5$.\\
+(1) 求$\cos(\alpha-\beta)$的值;\\
+(2) 若$\tan\dfrac\alpha 2=\dfrac 12$, 求$\cos\alpha$及$\cos\beta$的值.
+\item 某省4A级风景区内居住着一个少数民族村, 该村投资了$800$万元修复和加强民俗文化基础设施. 据调查, 修复好村民俗文化基础设施后, 任何一个月内(每月按$30$天计)每天的旅游人数$f(x)$与第$x$天近似地满足$f(x)=8+\dfrac 9x$(千人), 且参观民俗文化村的游客人均消费$g(x)$近似地满足$g(x)=143-|x-22|$(元).\\
+(1) 求该村第$x$天的旅游收入$p(x)$(单位千元, $1\le x\le 30,x\in \mathbf{N}^*$)的函数关系;\\
+(2) 若以最低日收入的$20\%$作为每一天的纯收入的计量依据, 并以纯收入的$5\%$的比例收回投资成本, 试问该村在两年内能否收回全部投资成本?
+\item 已知圆$C$过定点$A(0,1)$, 圆心$C$在抛物线$x^2=2y$上, $M,N$为圆$C$与$x$轴的交点.\\
+(1) 当圆心$C$是抛物线的顶点时, 求抛物线的准线被该圆截得的弦长;\\
+(2) 当圆心$C$在抛物线上运动时, $|MN|$是否为一定值? 证明你的结论;\\
+(3) 当圆心$C$在抛物线上运动时, 记$|AM|=m$, $|AN|=n$, 求$\dfrac mn+\dfrac nm$的最大值, 并求出此时圆$C$的方程.
+\item 已知各项均不为零的数列$\{a_n\}$的前$n$项和为$S_n$, 且$4S_n=a_na_{n+1}+1, \ n\in \mathbf{N}^*$, 其中$a_1=1$.\\
+(1) 求$a_2,a_4,a_6$;\\
+(2) 求证: 数列$\{a_n\}$是等差数列;\\
+(3) 设数列$\{b_n\}$满足$2^b_n=1+\dfrac 1a_n$, $n\in \mathbf{N}^*$, 且$T_n$为$\{b_n\}$的前$n$项和, 求证: 对任意正整数$n$, 不等式$2T_n>\log_2 a_{n+1}$恒成立.
 
+%11_21
 
-
-
+\item 已知集合$A=\{1,2,3,4,5\}$, $B=\{3,5,6\}$, 则$A\cap B=$\blank{50}.
+\item 计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n^2-3n+1}{n^2-4n+1}=$\blank{50}.
+\item 不等式$|x+1|<5$的解集为\blank{50}.
+\item 函数$f(x)=x^2$($x<0$)的反函数为\blank{50}.
+\item 设$\mathrm{i}$为虚数单位, $3\overline{z}-\mathrm{i}=6+5\mathrm{i}$, 则$|z|$的值为\blank{50}
+\item 已知二元线性方程组$\begin{cases}
+    2x+2y=-1, \\ 4x+a^2y=a
+\end{cases}$有无穷多解, 则实数$a=$\blank{50}.
+\item 在$(x+\dfrac{1}{\sqrt{x}})^6$的二项展开式中, 常数项的值为\blank{50}.
+\item 在$\triangle ABC$中, $AC=3$, $3\sin A=2\sin B$, 且$\cos C=\dfrac 14$, 则$AB=$\blank{50}.
+\item 首届中国国际进出口博览会在上海举行, 某高校拟派$4$人参加连续$5$天的志愿者活动, 其中甲连续参加$2$天, 其余每人各参加$1$天. 共有\blank{50}种不同的安排方法(结果用数值表示).
+\item 已知$P$为椭圆$\dfrac{x^2}{4}+\dfrac{y^2}2=1$上任意一点, $Q$与$P$关于$x$轴对称, $F_1$, $F_2$为椭圆的左、右焦点, 若有$\overrightarrow{F_1P}\cdot \overrightarrow{F_2P}\le 1$, 则向量$\overrightarrow{F_1P}$与$\overrightarrow{F_2Q}$的夹角的取值范围为\blank{50}.
+\item 已知$t\in \mathbf{R}$, 集合$A=[t,t+1]\cup [t+4,t+9]$, 且$0\not\in A$. 若存在正数$\lambda$, 对任意$a\in A$, 都有$\dfrac{\lambda}a\in A$, 则$t$的值为\blank{50}.
+\item 下列函数中, 值域为$[0,+\infty)$的是\bracket{20}.
+\fourch{$y=2^x$}{$y=x^\frac 12$}{$y=\tan x$}{$y=\cos x$}
+\item 已知$a,b\in\mathbf{R}$, 则``$a^2>b^2$''是``$|a|>|b|$''的\bracket{20}.
+\twoch{充分非必要条件}{必要非充分条件}{充要条件}{既非充分又非必要条件}
+\item 已知平面$\alpha,\beta,\gamma$两两垂直, 直线$a,b,c$满足: $a\subseteq \alpha$, $b\subseteq \beta$, $c\subseteq \gamma$, 则直线$a,b,c$不可能是\bracket{20}.
+\fourch{两两垂直}{两两平行}{两两相交}{两两异面}
+\item 平面直角坐标系中, 两动圆$O_1$, $O_2$的圆心分别为$(a_1,0)$, $(a_2,0)$, 且两圆均过定点$(1,0)$, 两圆与$y$轴正半轴分别交于点$(0,y_1)$, $(0,y_2)$. 若$\ln y_1+\ln y_2=0$, 点$(\dfrac{1}{a_1},\dfrac{1}{a_2})$的轨迹为$\Gamma$, 则$\Gamma$所在的曲线可能是\bracket{20}.
+\fourch{直线}{圆}{椭圆}{双曲线}
+\item 如图, 正三棱锥$P-ABC$中, 侧棱长为$2$, 底面边长为$\sqrt{3}$, $M,N$分别是$PB$和$BC$的中点.
+\begin{center}
+    \begin{tikzpicture}[scale = 1.5]
+        \draw (225:0.5) node [below] {$B$} coordinate (B);
+        \draw (45:0.25) ++ ({sqrt(3)/2},0) node [right] {$C$} coordinate (C);
+        \draw (45:0.25) ++ ({-sqrt(3)/2},0) node [left] {$A$} coordinate (A);
+        \draw (0,{sqrt(3)}) node [above] {$P$} coordinate (P);
+        \draw (A) -- (B) -- (C) -- (P) -- (A) (B) -- (P);
+        \draw [dashed] (A) -- (C);
+        \draw ($(P)!0.5!(B)$) node [right] {$M$} -- ($(B)!0.5!(C)$) node [below] {$N$};
+    \end{tikzpicture}
+\end{center}
+(1) 求异面直线$MN$与$AC$所成角的大小;\\
+(2) 求三棱锥$P-ABC$的体积.
+\item 已知数列$\{a_n\}$中, $a_1=3$, 前$n$项和为$S_n$.\\
+(1) 若$\{a_n\}$为等差数列, 且$a_4=15$, 求$S_n$;\\
+(2) 若$\{a_n\}$为等比数列, 且$\displaystyle\lim_{n\to \infty}S_n<12$, 求公比$q$的取值范围.
+\item 改革开放$40$年, 我国卫生事业取得巨大成就, 卫生总费用增长了数十倍. 卫生总费用包括个人现在支出、社会支出、政府支出, 如表为$2012$年至$2015$年我国卫生费用中个人现金支出、社会支出和政府支出的费用(单位：亿元)和在卫生总费用中的占比. 
+\begin{center}
+    \begin{tabular}{|p{.05\textwidth}<\centering|p{.1\textwidth}<\centering|p{.1\textwidth}<\centering|p{.1\textwidth}<\centering|p{.1\textwidth}<\centering|p{.1\textwidth}<\centering|p{.1\textwidth}<\centering|p{.1\textwidth}<\centering|}
+        \hline
+         & & \multicolumn{2}{c|}{个人现金卫生支出} & \multicolumn{2}{c|}{社会卫生支出} & \multicolumn{2}{c|}{政府卫生支出} \\ \hline
+         年份& 卫生总费用(亿元)& 绝对数(亿元) & 占卫生总费用比重($\%$) & 绝对数(亿元) & 占卫生总费用比重($\%$)& 绝对数(亿元) & 占卫生总费用比重($\%$)\\ \hline
+        $2012$ & $28119.00$ & $9656.32$ & $34.34$ & $10030.70$ & $35.67$ & $8431.98$ & $29.99$ \\ \hline
+        $2013$ & $31668.95$ & $10729.34$ & $33.88$ & $11393.79$ & $35.98$ & $9545.81$ & $30.14$ \\ \hline
+        $2014$ & $35312.40$ & $11295.41$ & $31.99$ & $13437.75$ & $38.05$ & $10579.23$ & $29.96$ \\ \hline
+        $2015$ & $40974.64$ & $11992.65$ & $29.27$ & $16506.71$ & $40.29$ & $12475.28$ & $30.45$ \\ \hline
+    \end{tabular}
+\end{center}
+(数据来源于国家统计年鉴)\\
+(1) 指出$2012$年到$2015$年之间我国卫生总费用中个人现金支出占比和社会支出占比的变化趋势;\\
+(2) 设$t=1$表示$1978$年, 第$t$年卫生总费用与年份$t$之间拟合函数$f(t)=\dfrac{357876.6053}{1+\mathrm{e}^{6.4420-0.1136t}}$, 研究函数$f(t)$的单调性, 并预测我国卫生总费用首次超过$12$万亿的年份.
+\item 已知抛物线$y^2=4x$, $F$为焦点, $P$为准线$l$上一动点, 线段$PF$与抛物线交于点$Q$, 定义$d(P)=\dfrac{|FP|}{|FQ|}$.\\
+(1) 若点$P$坐标为$(-1,-\dfrac 83)$, 求$d(P)$;\\
+(2) 求证: 存在常数$a$, 使得$2d(P)=|FP|+a$恒成立;\\
+(3) 设$P_1,P_2,P_3$为准线$l$上的三点, 且$|P_1P_2|=|P_2P_3|$, 试比较$d(P_1)+d(P_3)$与$2d(P_2)$的大小.
+\item 若$\{a_n\}$是等差数列, 公差$d\in (0,\pi]$, 数列$\{b_n\}$满足: $b_n=\sin (a_n)$, $n \in \mathbf{N}^*$, 记$S=\{x|x=b_n, \ n\in \mathbf{N}^*\}$.\\
+(1) 设$a_1=0$, $d=\dfrac 23 \pi$, 求集合$S$;\\
+(2) 设$a_1=\dfrac\pi 2$, 试求$d$的值, 使得集合$S$恰有两个元素;\\
+(3) 若集合$S$恰有三个元素, 且$b_{n+T}=b_n$, 其中$T$为不超过$7$的正整数, 求$T$的所有可能值.
 
 
 \end{enumerate}
