@@ -10,9 +10,9 @@ def crop_text(string,substr1,substr2):
     end_pos = string.index(substr2)+len(substr2)
     return string[start_pos:end_pos]
 #文件名须修改
-with open(r"..\题库0.1\上海2020教材选择性必修二复习题.tex","r",encoding = "utf8") as f:
+with open(r"题库0.1\2022届高三暑假概率校本作业.tex","r",encoding = "utf8") as f:
     data = f.read()
-with open(r"..\题库0.2\模板.txt","r",encoding = "utf8") as f1:
+with open(r"题库0.2\模板.txt","r",encoding = "utf8") as f1:
     template = f1.read()
 data = re.findall(r"\\begin\{document\}([\s\S]*?)\\end\{document\}",data)[0]
 data = re.sub(r"\n[\s]*?\%[\s\S]*?\n","\n",data)
@@ -21,11 +21,11 @@ data = re.sub(r"\\item",r"\\enditem\\item",data)
 data = re.sub(r"\\end\{enumerate\}",r"\\enditem",data)
 problems = [trim(p) for p in re.findall(r"\\item([\s\S]*?)\\enditem",data)]
 #以上已经生成了题目列表，以下出处、使用记录、修订历史等须设定
-origin = "2022届高三下学期测验卷"
+origin = "2023届高三暑假作业概率初步续"
 usage = ""
-editor = "20220705\t王伟叶"
+editor = "20220709\t朱敏慧\t王伟叶"
 # 重要！！！初始ID
-starting_ID = 4000
+starting_ID = 4572
 
 head_str = crop_text(template,"[B题目]","<BID>\n")
 body_str_1 = crop_text(template,"\n<EID>","<B题目>\n")
@@ -39,5 +39,5 @@ id = starting_ID
 for p in problems:
     problems_str += (head_str + str(id).zfill(6) + body_str_1 + p + body_str_2 + usage + body_str_3 + origin + body_str_4 + editor + body_str_5)
     id += 1
-with open(r"..\题库0.2\vault_output.txt","w",encoding = "utf8") as f2:
+with open(r"题库0.2\vault_output.txt","w",encoding = "utf8") as f2:
     f2.write(problems_str)
