@@ -9940,7 +9940,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 000209
 <EID>
 <B题目>
-将若干毫升水倒入底面半径为$2\text{cm}$的圆柱形器皿中, 量得水面高度为$6\text{cm}$. 若将这些水倒入底面半径等于母线的倒圆锥形器皿中, 且恰好装满, 求圆锥形器皿的高.
+将若干毫升水倒入底面半径为$2\text{cm}$的圆柱形器皿中, 量得水面高度为$6\text{cm}$. 若将这些水倒入底面直径等于母线的倒圆锥形器皿中, 且恰好装满, 求圆锥形器皿的高.
 <E题目>
 <B目标>
 
@@ -9976,7 +9976,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 
 <E关联题目>
 <B备注>
-
+20220710, 23届高三葛翼飞告知教材有误, 底面半径应为底面直径, 已改
 <E备注>
 [E题目]
 

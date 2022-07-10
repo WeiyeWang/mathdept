@@ -1,8 +1,10 @@
-0.9592 关联
-004596	已知$X$的分布列为
+0.9750 关联
+004641	设$z=\dfrac{2-\mathrm{i}}{1+\mathrm{i}}$, 则$|z|=$\blank{50}.
+004489	设$z=\dfrac{1-\mathrm{i}}{1+\mathrm{i}}$, 则$|z|=$\blank{50}.
 
-两个随机变量$X$, $Y$满足$X+2Y=4$, 则$E[X]=$\blank{50}, $E[Y]=$\blank{50}.
-004600	已知$X$的分布列为
-
-两个随机变量$X$, $Y$满足$X+2Y=4$, 则$D[X]=$\blank{50}, $D[Y]=$\blank{50}.
+0.9316 相同
+004652	设$\alpha,\beta$是两个不同的平面, 直线$m$在平面$\alpha$, 则``$m\parallel\beta$''是``$\alpha\parallel\beta$''的\bracket{20}.
+\twoch{充分不必要条件}{必要不充分条件}{充要条件}{既不充分也不必要条件}
+004092	已知$\alpha,\beta$是两个不同平面, $m$为$\alpha$内的一条直线, 则``$m\parallel\beta$''是``$\alpha\parallel\beta$''的\bracket{20}.
+\twoch{充分不必要条件}{必要不充分条件}{充要条件}{既不充分也不必要条件}
 
