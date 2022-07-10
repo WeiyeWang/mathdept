@@ -550,7 +550,7 @@
 000013
 <EID>
 <B题目>
-已知全集$U=\{x|x\text{为不大于}20\text{的素数}\}$. 若$A\cap \overline{B}=\{3, 5\}$, $\overline{A}\cap B=\{7, 19\}$, $\overline{A\cup B}=\{2, 17\}$, 则A=\blank{50} , B=\blank{50}.
+已知全集$U=\{x|x\text{为不大于}20\text{的素数}\}$. 若$A\cap \overline{B}=\{3, 5\}$, $\overline{A}\cap B=\{7, 19\}$, $\overline{A\cup B}=\{2, 17\}$, 则$A=$\blank{50}, $B=$\blank{50}.
 <E题目>
 <B目标>
 
