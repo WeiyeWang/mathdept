@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  10 JUL 2022 16:03
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  11 JUL 2022 19:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -851,8 +851,7 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \c@coro=\count342
 \c@axiom=\count343
 \c@prop=\count344
- (./to_compile.aux
-(./problems_file.aux))
+ (./to_compile.aux)
 \openout1 = `to_compile.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
@@ -871,7 +870,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
- ABD: EverySelectfont initializing macros
+
+ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 44.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -968,8 +968,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 LaTeX Warning: The counter will not be printed.
              The label is:  on input line 45.
 
-\openout2 = `problems_file.aux'.
-
 (./problems_file.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -996,7 +994,6 @@ Overfull \hbox (14.44168pt too wide) in paragraph at lines 18--19
  []
 
 [1
-
 
 ] [2] [3]
 Overfull \hbox (14.44168pt too wide) in paragraph at lines 113--115
@@ -4384,15 +4381,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 11845--11846
 
  []
 
-[392] [393] [394] [395] [396] [397]) [398] (./to_compile.aux
-(./problems_file.aux)) ) 
+[392] [393] [394] [395] [396] [397]
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12027--12028
+[][] 
+ []
+
+[398]
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12029--12030
+[][] 
+ []
+
+
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12031--12032
+[][] 
+ []
+
+
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12033--12034
+[][] 
+ []
+
+[399]
+Overfull \hbox (5.80472pt too wide) in paragraph at lines 12070--12071
+[]\TU/lmr/m/n/10 (004645) \TU/华文中宋(0)/m/n/10 一 平 面 截 一 球 得 到 直 径 是 $\OT1/cmr/m/
+n/10 6[]$ \TU/华文中宋(0)/m/n/10 的 圆 面\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 球 心 到 这 个
+ 平 面 的 距 离 是 $\OT1/cmr/m/n/10 4[]$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 该 球 的 体
+ 积 是$[]$$[][]$\TU/lmr/m/n/10 . 
+ []
+
+
+Overfull \hbox (7.77025pt too wide) in paragraph at lines 12071--12073
+[]\TU/lmr/m/n/10 (004646) \TU/华文中宋(0)/m/n/10 已 知 $\OML/cmm/m/it/10 x; y$ \TU/华文
+中宋(0)/m/n/10 为 实 数\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 行 列 式 $[]$ 中 元 素 $\OML/cm
+m/m/it/10 y$ \TU/华文中宋(0)/m/n/10 的 代 数 余 子 式 的 值 大 于 $\OT1/cmr/m/n/10 0$\TU/lmr/
+m/n/10 , \TU/华文中宋(0)/m/n/10 则 $\OML/cmm/m/it/10 x$ \TU/华文中宋(0)/m/n/10 的 范 围 是$[
+]$\TU/lmr/m/n/10 . 
+ []
+
+
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12081--12082
+[][] 
+ []
+
+[400]
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12083--12084
+[][] 
+ []
+
+[401]) [402] (./to_compile.aux) ) 
 Here is how much of TeX's memory you used:
- 39733 strings out of 476919
- 863039 string characters out of 5825424
- 1026559 words of memory out of 5000000
- 59304 multiletter control sequences out of 15000+600000
+ 39878 strings out of 476919
+ 865955 string characters out of 5825424
+ 1027084 words of memory out of 5000000
+ 59453 multiletter control sequences out of 15000+600000
  406159 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,22n,362p,958b,1200s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,22n,360p,956b,1190s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on to_compile.pdf (398 pages).
+Output written on to_compile.pdf (402 pages).
