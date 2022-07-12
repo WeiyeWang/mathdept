@@ -23,7 +23,7 @@ for filename in vault_files:
 #读入全部题库数据
 
 # 重要!!!最初的新题的id
-starting_ID = 4619
+starting_ID = 4661
 
 problem_list = [[x[0],trimpic(trim(x[1]))] for x in re.findall("<BID>\\n([\s\S]*?)\\n<EID>[\s\S]*?<B题目>([\s\S]*?)<E题目>",problems)]
 #生成题号列表

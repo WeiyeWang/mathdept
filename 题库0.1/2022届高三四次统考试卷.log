@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  11 JUL 2022 21:17
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  12 JUL 2022 15:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**2022届高三上统考试卷
-(./2022届高三上统考试卷.tex
+**2022届高三四次统考试卷
+(./2022届高三四次统考试卷.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -625,8 +625,8 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \c@coro=\count332
 \c@axiom=\count333
 \c@prop=\count334
- (./2022届高三上统考试卷.aux)
-\openout1 = `2022届高三上统考试卷.aux'.
+ (./2022届高三四次统考试卷.aux)
+\openout1 = `2022届高三四次统考试卷.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
@@ -780,14 +780,59 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 83--84
 [][] 
  []
 
-[2] (./2022届高三上统考试卷.aux) ) 
-Here is how much of TeX's memory you used:
- 20622 strings out of 476919
- 465828 string characters out of 5825424
- 799834 words of memory out of 5000000
- 40214 multiletter control sequences out of 15000+600000
- 406095 words of font info for 60 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 101i,11n,104p,419b,674s stack positions out of 5000i,500n,10000p,200000b,80000s
+[2]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 131--132
+[][] 
+ []
 
-Output written on 2022届高三上统考试卷.pdf (2 pages).
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 135--136
+[][] 
+ []
+
+[3]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 152--153
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+[4] [5]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 215--216
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 217--218
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 219--220
+[][] 
+ []
+
+[6] [7] [8]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 300--301
+[][] 
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 332--334
+
+ []
+
+[10] (./2022届高三四次统考试卷.aux) ) 
+Here is how much of TeX's memory you used:
+ 21170 strings out of 476919
+ 476245 string characters out of 5825424
+ 827790 words of memory out of 5000000
+ 40760 multiletter control sequences out of 15000+600000
+ 406111 words of font info for 62 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 101i,15n,373p,420b,1126s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 2022届高三四次统考试卷.pdf (10 pages).
