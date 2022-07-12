@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  11 JUL 2022 19:48
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  12 JUL 2022 10:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4377,32 +4377,32 @@ Overfull \hbox (14.44168pt too wide) in paragraph at lines 11760--11761
  []
 
 [389] [390] [391]
-Underfull \hbox (badness 10000) in paragraph at lines 11845--11846
+Underfull \hbox (badness 10000) in paragraph at lines 11842--11843
 
  []
 
 [392] [393] [394] [395] [396] [397]
-Overfull \hbox (14.44168pt too wide) in paragraph at lines 12027--12028
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12022--12023
+[][] 
+ []
+
+
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12024--12025
 [][] 
  []
 
 [398]
-Overfull \hbox (14.44168pt too wide) in paragraph at lines 12029--12030
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12026--12027
 [][] 
  []
 
 
-Overfull \hbox (14.44168pt too wide) in paragraph at lines 12031--12032
-[][] 
- []
-
-
-Overfull \hbox (14.44168pt too wide) in paragraph at lines 12033--12034
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12028--12029
 [][] 
  []
 
 [399]
-Overfull \hbox (5.80472pt too wide) in paragraph at lines 12070--12071
+Overfull \hbox (5.80472pt too wide) in paragraph at lines 12065--12066
 []\TU/lmr/m/n/10 (004645) \TU/华文中宋(0)/m/n/10 一 平 面 截 一 球 得 到 直 径 是 $\OT1/cmr/m/
 n/10 6[]$ \TU/华文中宋(0)/m/n/10 的 圆 面\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 球 心 到 这 个
  平 面 的 距 离 是 $\OT1/cmr/m/n/10 4[]$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 该 球 的 体
@@ -4410,7 +4410,7 @@ n/10 6[]$ \TU/华文中宋(0)/m/n/10 的 圆 面\TU/lmr/m/n/10 , \TU/华文中�
  []
 
 
-Overfull \hbox (7.77025pt too wide) in paragraph at lines 12071--12073
+Overfull \hbox (7.77025pt too wide) in paragraph at lines 12066--12068
 []\TU/lmr/m/n/10 (004646) \TU/华文中宋(0)/m/n/10 已 知 $\OML/cmm/m/it/10 x; y$ \TU/华文
 中宋(0)/m/n/10 为 实 数\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 行 列 式 $[]$ 中 元 素 $\OML/cm
 m/m/it/10 y$ \TU/华文中宋(0)/m/n/10 的 代 数 余 子 式 的 值 大 于 $\OT1/cmr/m/n/10 0$\TU/lmr/
@@ -4419,16 +4419,16 @@ m/n/10 , \TU/华文中宋(0)/m/n/10 则 $\OML/cmm/m/it/10 x$ \TU/华文中宋(0)
  []
 
 
-Overfull \hbox (14.44168pt too wide) in paragraph at lines 12081--12082
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12076--12077
 [][] 
  []
 
-[400]
-Overfull \hbox (14.44168pt too wide) in paragraph at lines 12083--12084
+
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12078--12079
 [][] 
  []
 
-[401]) [402] (./to_compile.aux) ) 
+[400] [401]) [402] (./to_compile.aux) ) 
 Here is how much of TeX's memory you used:
  39878 strings out of 476919
  865955 string characters out of 5825424
