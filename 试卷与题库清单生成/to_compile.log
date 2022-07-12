@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  12 JUL 2022 10:59
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  12 JUL 2022 19:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4428,14 +4428,79 @@ Overfull \hbox (14.44168pt too wide) in paragraph at lines 12078--12079
 [][] 
  []
 
-[400] [401]) [402] (./to_compile.aux) ) 
+[400] [401]
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12148--12149
+[][] 
+ []
+
+[402]
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12150--12151
+[][] 
+ []
+
+
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12152--12153
+[][] 
+ []
+
+
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12161--12162
+[][] 
+ []
+
+[403]
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12207--12208
+[][] 
+ []
+
+[404]
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12211--12212
+[][] 
+ []
+
+
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12229--12230
+[][] 
+ []
+
+[405]
+Underfull \hbox (badness 10000) in paragraph at lines 12254--12255
+
+ []
+
+[406]
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12290--12291
+[][] 
+ []
+
+
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12292--12293
+[][] 
+ []
+
+
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12294--12295
+[][] 
+ []
+
+[407] [408] [409]
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 12375--12376
+[][] 
+ []
+
+[410]
+Underfull \hbox (badness 10000) in paragraph at lines 12407--12409
+
+ []
+
+) [411] (./to_compile.aux) ) 
 Here is how much of TeX's memory you used:
- 39878 strings out of 476919
- 865955 string characters out of 5825424
+ 40269 strings out of 476919
+ 873791 string characters out of 5825424
  1027084 words of memory out of 5000000
- 59453 multiletter control sequences out of 15000+600000
+ 59844 multiletter control sequences out of 15000+600000
  406159 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,22n,360p,956b,1190s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,22n,376p,956b,1219s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on to_compile.pdf (402 pages).
+Output written on to_compile.pdf (411 pages).

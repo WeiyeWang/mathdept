@@ -12,7 +12,7 @@ def crop_text(string,substr1,substr2):
     end_pos = string.index(substr2)+len(substr2)
     return string[start_pos:end_pos]
 #文件名须修改
-with open(r"题库0.1\2022届月考试卷.tex","r",encoding = "utf8") as f:
+with open(r"题库0.1\2022届高三下学期月考试卷.tex","r",encoding = "utf8") as f:
     data = f.read()
 with open(r"题库0.2\模板.txt","r",encoding = "utf8") as f1:
     template = f1.read()
@@ -23,11 +23,11 @@ data = re.sub(r"\\item",r"\\enditem\\item",data)
 data = re.sub(r"\\end\{enumerate\}",r"\\enditem",data)
 problems = [trim(p) for p in re.findall(r"\\item([\s\S]*?)\\enditem",data)]
 #以上已经生成了题目列表，以下出处、使用记录、修订历史等须设定
-origin_raw = "2022届高三上月考卷"
+origin_raw = "2022届高三下月考卷"
 usage = ""
-editor = "20220710\t王伟叶"
+editor = "20220712\t王伟叶"
 # 重要！！！初始ID
-starting_ID = 4619
+starting_ID = 4745
 
 head_str = crop_text(template,"[B题目]","<BID>\n")
 body_str_1 = crop_text(template,"\n<EID>","<B题目>\n")
@@ -41,7 +41,7 @@ id = starting_ID
 
 stats_directory = r"C:\Users\weiye\Documents\wwy sync\22届\高三数学教学\考试测验练习相关\统计数据"
 results_raw = ""
-statsfile = [f for f in os.listdir(stats_directory) if "monthly" in f and "20210901" < f[:8] < "20220201" and "xlsx" in f]
+statsfile = [f for f in os.listdir(stats_directory) if "monthly" in f and "20220101" < f[:8] < "20220701" and "xlsx" in f]
 for f in statsfile:
     df=pd.read_excel(stats_directory+"\\"+f)
     for col in df.columns[3:]:
@@ -61,7 +61,7 @@ for r in results_raw_list:
         results_list[-1] += "\t"+record[2]
 records = [r.split(",") for r in results_list if len(r)>0]
 
-for i in range(2):
+for i in range(1):
     for j in range(21):
         p = problems[i*21+j]
         origin = origin_raw + str(i+1).zfill(2) + "第" + str(j+1) + "题"

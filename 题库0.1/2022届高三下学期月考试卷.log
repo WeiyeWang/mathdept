@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  12 JUL 2022 15:21
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  12 JUL 2022 21:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**2022届高三四次统考试卷
-(./2022届高三四次统考试卷.tex
+**2022届高三下学期月考试卷
+(./2022届高三下学期月考试卷.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -625,8 +625,8 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \c@coro=\count332
 \c@axiom=\count333
 \c@prop=\count334
- (./2022届高三四次统考试卷.aux)
-\openout1 = `2022届高三四次统考试卷.aux'.
+ (./2022届高三下学期月考试卷.aux)
+\openout1 = `2022届高三下学期月考试卷.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
@@ -749,90 +749,27 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 47.
  (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 70--71
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 72--73
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 74--75
-[][] 
- []
-
-LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 78.
-(c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 78.
- (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 78.
+Missing character: There is no ; ("3B) in font nullfont!
  [1
 
 ]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 83--84
-[][] 
- []
-
-[2]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 131--132
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 101--102
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 135--136
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 103--104
 [][] 
  []
 
-[3]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 152--153
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
-
- []
-
-[4] [5]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 215--216
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 217--218
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 219--220
-[][] 
- []
-
-[6] [7] [8]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 300--301
-[][] 
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 332--334
-
- []
-
-[10] (./2022届高三四次统考试卷.aux) ) 
+[2] [3] (./2022届高三下学期月考试卷.aux) ) 
 Here is how much of TeX's memory you used:
- 21170 strings out of 476919
- 476245 string characters out of 5825424
- 827790 words of memory out of 5000000
- 40760 multiletter control sequences out of 15000+600000
- 406111 words of font info for 62 fonts, out of 8000000 for 9000
+ 20687 strings out of 476919
+ 467510 string characters out of 5825424
+ 807231 words of memory out of 5000000
+ 40286 multiletter control sequences out of 15000+600000
+ 405792 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,15n,373p,420b,1126s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,14n,104p,421b,860s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 2022届高三四次统考试卷.pdf (10 pages).
+Output written on 2022届高三下学期月考试卷.pdf (3 pages).

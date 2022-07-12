@@ -4362,6 +4362,7 @@ $P$是平面$ACC_1A_1$上一动点, 且满足$\overrightarrow{DP}\cdot \overrigh
 <E修订历史>
 <B相同题目>
 000624
+004750
 <E相同题目>
 <B关联题目>
 
