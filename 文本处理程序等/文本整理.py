@@ -48,7 +48,8 @@ def refine_right_operating_brackets(matchobj):
     return obj + matchobj.group(2)
 def refine_brackets_in_brackets(matchobj):
     return matchobj.group(1) + matchobj.group(2) + matchobj.group(3)
-    
+def mathbf(matchobj):
+    return "\\mathbf{" + matchobj.group(1) + "}^" + matchobj.group(2)
 try:
     os.chdir(r"D:\mathdept\mathdept\文本处理程序等")
 except:
@@ -268,6 +269,8 @@ for equation in raw_equations:
     equation1 = re.sub(r"\s*\|\s*","|",equation1)
     equation1 = re.sub(r"\s*\\\}",r"\\}",equation1)
     equation1 = re.sub(r"\\\{\s*",r"\\{",equation1)
+    equation1 = re.sub(r"\{ *([ZRNQC])\^([\+\-*]) *\}",mathbf,equation1)
+    equation1 = re.sub(r"\{\\log *\}_",r"\\log_",equation1)
     modified_equations.append(equation1)
 
 

@@ -1,7 +1,166 @@
-
-
-
-
+第二章  不等式
+一、不等式的性质
+\item 当$a>b>0$时, 比较$\dfrac{2a+b}{a+2b}$和$\dfrac ab$的大小.
+\item 已知$a>0,a\ne 1,m>n>0$, 比较$A={a^m}+\dfrac 1{a^m}$和$B={a^n}+\dfrac 1{a^n}$的大小.
+\item 若$a>b$, 则下列各式中正确的是  \bracket{20}
+\fourch{$a\lg x>b\lg x$ $(x>0)$}{$ax^2>bx^2$}{$a^2>b^2$}{$2^x\cdot a>2^x\cdot b$}
+【训练题】
+\item 设$ab>0$, 且$\dfrac ca>\dfrac db$, 则下列各式中, 恒成立的是\bracket{20}.
+\fourch{$bc<ad$}{$bc>ad$}{$\dfrac ac>\dfrac bd$}{$\dfrac ac<\dfrac bd$}
+\item 下列命题中, 不正确的一个是\bracket{20}.
+\fourch{若$\sqrt[3]a>\sqrt[3]b$, 则$a>b$}{若$a>b,c>d$, 则$a-d>b-c$}{若$a>b>0,c>d>0$, 则$\dfrac ad>\dfrac bc$}{若$a>b>0,ac>bd$则$c>d$}
+\item 若$x<y<0$, 则有\bracket{20}.
+\fourch{$0<x^2<xy$}{$y^2<xy<x^2$}{$xy<y^2<x^2$}{$y^2>x^2>0$}
+\item 若$a=\log_{0.2}0.3$, $b=\log_{0.3}0.2$, $c=1$, 则$a,b,c$的大小关系是\bracket{20}.
+\fourch{$a>b>c$}{$b>a>c$}{$b>c>a$}{$c>b>a$}
+\item 用不等号(``>''或``<'')填空:
+(1)若$a\ne b$, 则$a^2+3b^2$\blank{50}$2b(a+b)$
+(2)若$c>1$, 则$\sqrt{c+1}-\sqrt c$\blank{50}$\sqrt c-\sqrt{c-1}$.
+(3)若$a>b,c>d$, 且a与d都是负数, 则$ac$\blank{50}$bd$.
+\item 若``$a>b,a-\dfrac 1a>b-\dfrac 1b$''同时成立, 则$ab$应满足的条件是\blank{50}.
+\item (1)已知$a>0,b>0$, 且$a\ne b$, 比较$\dfrac{a^2}b+\dfrac{b^2}a$与$a+b$的大小.
+(2)已知$0<\dfrac ab<\dfrac cd$, 比较$\dfrac b{a+b}$与$\dfrac d{c+d}$的大小.
+\item 若$x>y>1$, $0<a<1$, 则下列各式中正确的一个是\bracket{20}.
+\fourch{${x^{-a}}>{y^{-a}}$}{$(\sin a)^x>(\sin a)^y$}{$\log_{\dfrac 1a}x<\log_{\dfrac 1a}y$}{$1+{a^{x+y}}>a^x+a^y$}
+\item (1)已知$a\in \mathbf{R}$, 比较$\dfrac 1{1+a}$与$1-a$的大小.
+(2)设$a>0$, $a\ne 1$, $t>0$, 比较$\dfrac 12\log_at$和$\log_a\dfrac{t+1}2$的大小.
+\item (1)已知$x>y>0$, 比较$\sqrt{\dfrac{y^2}+1}{{x^2}+1}$与$\dfrac yx$的大小.
+(2)已知$a$, $b$, $m$, $n$都是正实数, 且$m+n=1$, 比较$\sqrt{ma+nb}$和$m\sqrt a+n\sqrt b$的大小.
+二、一元二次不等式
+\item 解下列不等式:
+(1)$6x^2-5x-1>0$.						(2)$6x^2-5x-1>0$.
+(3)$5x^2-2x+3>0$.					(4)$9x^2+6x+1>0$.
+(5)$3x^2-4x+5<0$.
+\item 已知关于$x$的不等式$ax^2+bx+c<0$的解集是$\{x|x<-2x<-\dfrac 12\}$, 求$ax^2-bx+c>0$的解集.
+\item 已知集合$A=\{x|x^2+(a-1)x-a>0\}$, $B=\{x|(x+a)(x+b)>0\}$, $a\ne b$, $M=\{x|x^2-2x-3\le 0\}.$
+(1)若${{\complement }_U}B=M$, 求$a$, $b$的值.
+(2)若$-1<b<a<1$, 求$A\cap B$.
+(3)若$-3<a<-1$, 且$a^2-1\in \complement uA$, 求实数$a$的取值范围.
+\item 已知函数$y=(k^2+4k-5)x^2+4(1-k)x+3$的图象都在$x$轴的上方, 求实数$k$的取值范围.
+【训练题】
+\item 已知$a<b$, 则下列各式中恒成立的是\bracket{20}.
+\fourch{$a^2<b^2$}{$c-a>c-b$}{$|a|<|b|$}{$a-1>b-2$}
+\item 若$|x|>2$, 则\bracket{20}.
+\fourch{$x>2$}{$x>\pm 2$}{$-2<x<2$}{$x>2$或$x<-2$}
+\item 不等式$|x|-3<0$的解集是\bracket{20}.
+\fourch{$\{x|x<\pm 3\}$}{$\{x|-3<x<3\}$}{$\{x|x>3\}$}{$\{x|x<-3\}$}
+\item 已知集合$M=\{x||x|>2\},N=\{x|x<3\}$, 则下列结论正确的是\bracket{20}.
+\fourch{$M\cup N=M$}{$M\cap N=\{x|2<x<3\}$}{$M\cup N=R$}{$M\cap N=\{x|x<-2\}$}
+\item 已知集合$M=\{x||x+1|\le 2\},P=\{x|x\le 2$或$. x\ge 3\}$, 则$M$, $P$之间的关系是\bracket{20}.
+\fourch{$M\supseteq P$}{$M\supset P$}{$M\subseteq P$}{$M\subset P$}
+\item 已知$|1-x|+\sqrt{{x^2}-4x+4}=1$, 则$x$的取值范围是\bracket{20}.
+\fourch{$1\le x\le 2$}{$x\le 1$}{$x<1$或$x>2$}{$x\ge 2$}
+\item 不等式$2x+3-x^2>0$的解集是\bracket{20}.
+\fourch{$\{x|-\dfrac 32\le x<1\}$}{$\{x|-1<x<3\}$}{$\{x|1\le x<3\}$}{$\{x|-\dfrac 32\le x<3\}$}
+\item 不等式$6x^2+5x<4$的解集是\bracket{20}.
+\fourch{$\{x|x<-\dfrac 43x>\dfrac 12\}$}{$\{x|-\dfrac 43<x<\dfrac 12\}.$}{$\{x|-\dfrac 12<x<\dfrac 43\}.$}{$\{x|x<-\dfrac 12x>\dfrac 43\}$}
+\item 当$a<0$时, 关于$x$的不等式$x^2-4ax-5a^2>0$的解集是\bracket{20}.
+\fourch{$\{x|x>5ax<-a\}$}{$\{x|x<5ax>-a\}$}{$\{x|-a<x<5a\}.$}{$\{x|5a<x<-a\}.$}
+\item 若$x$为实数, 则下列命题正确的是\bracket{20}.
+\fourch{$x^2\ge 2$的解集是$\{x|x\ge \pm \sqrt 2\}.$}{$(x-1)^2<2$的解集是$\{x|1-\sqrt 2<x<1+\sqrt 2\}.$}{$x^2-9<0$的解集是$\{x|x<3\}.$}{设$x_1,x_2$为$ax^2+bx+c=0$的两个实根, 且$x_1>{x_2}$, 则$ax^2+bx+c>0$的解集是$\{x|x_2<x<{x_1}\}.$}
+\item 在``\textcircled{1} $x^2-2x-3<0$与$\dfrac{{x^2}-2x}{x-1}<\dfrac 3{x-1}$, \textcircled{2} $x^2+3x-4>0$与${x^2}+3x+\sqrt x>4+\sqrt x$, \textcircled{3} $\dfrac{(x+2)({x^2}-1)}{x+2}>0$与$x^2-1>0$''三组不等式中, 解集相同的组数是\bracket{20}.
+\fourch{0}{1}{2}{3}
+\item 若$x^2+x<0$, 则$x^2,x,-x^2,-x$的大小关系是\bracket{20}.
+\fourch{$x^2>x>-x^2>-x.$}{$-x>x^2>-x^2>x.$}{$-x>x^2>x>-x^2$}{$x^2>-x>x>-x^2$}
+\item 直接写出下列不等式的解集:
+(1)$(x-1)^2>0$:\blank{50}.		(2)$(2-x)(3x+1)>0$:\blank{50}.
+(3)$1-3x^2>2x$:\blank{50}.		(4)$1-2x-x^2\ge 0$:\blank{50}.
+(5)$x+\sqrt x-6<0$:\blank{50}.	(6)$\dfrac{3x+4}{x-2}\ge 0$:\blank{50}.
+(7)$\dfrac{4-2x}{1+3x}>0$:\blank{50}.		(8)$\dfrac 1x>x$:\blank{50}.	
+(9)$x^2-2|x|-3>0$:\blank{50}.	(10)$x^2-x-5>|2x-1|$:\blank{50}.
+\item (1)若$\sqrt{{x^2}-x-6}\in \mathbf{R}$, 则$x\in$\blank{50}.	
+(2)要使代数式$\dfrac{\sqrt{x-3}}{\sqrt{x^2}-3x+2}$有意义, 实数$x$的取值范围是\blank{50}.
+(3)若代数式$6x^2+x-2$的值恒取非负实数, 则实数$x$的取值范围是\blank{50}.
+\item (1)不等式$4\le x^2-3x<18$的整数解集是\blank{50}.
+(2)已知实数$x$满足$4x^2-4x-15\le 0$, 化简$\sqrt{{x^2}-8x+16}-|x-3|$.
+\item 已知$a>b$, 直接写出下列不等式的解集.
+(1)$\dfrac{x-a}{x-b}\ge 0$:\blank{50}.
+(2)$\dfrac{x-a}{x-b}<0$:\blank{50}.
+(3)$x^2-(a-b)x+ab>0$:\blank{50}.	
+(4)$x^2-(a-b)x+ab<0$:\blank{50}.	
+\item (1)若关于$x$的方程$2kx^2+(8k+1)x+8k=0$有两个不等实根, 则实数$k$的取值范围是\blank{50}.	
+(2)若关于$x$的不等式$ax^2-2ax+2a+3>0$无实数解, 则$a$的取值范围是\blank{50}.($a\ne 0$).
+\item 不等式$\dfrac{x-1}{2x}\le 1$的解集是\bracket{20}.
+\fourch{$\{x|x\ge -1\}$	}{$\{x|x\le -1\}$}{$\{x|-1\le x<0\}$}{$\{x|x\le -1x>0\}$}
+\item 若关于$x$的二次不等式$mx^2+8mx+21<0$的解集是$\{x|-1<x<-1\}$, 则实数$m$的值等于\bracket{20}.
+\fourch{1}{2}{3}{4}
+\item 若关于$x$的不等式$(a^2-3)x^2+5x-2>0$的解集是$\{x|\dfrac 12<x<2\}$, 则实数$a$的值等于\bracket{20}.
+\fourch{1}{-1}{$\pm 1$}{0}
+\item 若关于$x$的不等式$ax^2+bx+c<0(a\ne 0)$的解集是空集, 则\bracket{20}.
+\fourch{$a<0$且$b^2-4ac>0$}{$a<0$且$b^2-4ac\le 0$}{$a>0$且$b^2-4ac\le 0$}{$a>0$且$b^2-4ac>0$}
+\item 若对任何实数$x$, 二次函数$y=ax^2-x+c$的值恒为负, 则$a,c$应满足\bracket{20}
+\fourch{$\begin{matrix}
+   a>0,  \\ac\le \dfrac 14.  \end{matrix}$}{$\begin{matrix}
+   a<0,  \\ac<\dfrac 14.  \end{matrix}$}{$\begin{matrix}
+   a<0,  \\ac>\dfrac 14.  \end{matrix}$}{$\begin{matrix}}
+   a<0,  \\ac<0.  \end{matrix}$
+\item 若对任意实数$x$, 不等式$x^2+2(1+k)x+3+k>0$恒成立, 则$k$的取值范围是\bracket{20}.
+\fourch{$-1<k<2$}{$-1\le k\le 2$}{$-2<k<1$}{$-2\le k\le 1$}
+\item 若关于$x$的二次方程$2(k+1)x^2+4kx+3k-2=0$的两根同号, 则$k$的取值范围是\bracket{20}.
+\fourch{$-2<k<1$}{$-2\le k<-1$或$\dfrac 23<k\le 1$}{$k<-1$或$k>\dfrac 23$}{$-2<k<1$或$\dfrac 23<k<1$}
+\item 已知关于$x$的方程$(m+3)x^2-4mx+2m-1=0$的两根异号, 且负根的绝对值比根大, 那么实数$m$的取值范围是\bracket{20}.
+\fourch{$-3<m<0$}{$0<m<3$}{$m<-3$或$m>0$}{$m<0$或$m>3$}
+\item 若$\alpha ,\beta$芦是关于$x$的方程$x^2-(k-2)x+k^2+3k+5=0$($k$为实数)的两个实根, 则${{\alpha }^2}+{{\beta }^2}$的最大值等于\bracket{20}.
+\fourch{19}{18}{$\dfrac{50}9$}{-6}
+\item 不等式$(x-1)(x-2)(x-3)(x-4)>120$的解为\bracket{20}.
+\fourch{$x>6$}{$x<-1$或$x>6$}{$x<-1$}{$-1<x<6$}
+\item 在三个关于$x$的方程$x^2-ax+4=0$, $x^2+(a-1)x+16=0$和$x^2+2ax+3a+10=0$中, 已知至少有一个方程有实根, 则实数$a$的取值范围是\bracket{20}.
+\fourch{$-4\le a\le 4$}{$-2<a<4$}{$a\le -2$或$a\ge 4$}{$a<0$}
+\item (1)若关于$x$的二次方程$x^2-2mx+4x+2m^2-4m-2=0$有实根, 则其两根之积的最大值等于\blank{50}.
+(2)使关于$x$的方程$x^2-kx+2k-3=0$的两实根的平方和取最小值, 实数$k$的值等于\blank{50}.
+\item (1)若关于$x$的不等式$x^2-mx+n\le 0$的解集是$\{x|-5\le x\le 1\}$, 则实数$m=$\blank{50}, $n=$\blank{50}.
+ (2)若关于$x$的不等式$ax^2+bx+1\ge 0$的解集是$\{x|-5\le x\le 1\}$, 则实数$a=$\blank{50},
+$b=$\blank{50}.
+(3)若关于$x$的不等式$ax^2+bx+2>0$的解集是$\{x|-\dfrac 12<x<\dfrac 13\}$, 则实数$a=$\blank{50}, $b=$\blank{50}.
+(4)若关于$x$的不等式$ax^2+bx-6>0$的解集是$\{x|2<x<3\}$, 则实数$a=$\blank{50}, $b=$\blank{50}.
+\item (1)若关于$x$的不等式$(a+b)x+(2a-3b)<0$的解集是$\{x|x>3\}$, 则不等式$(a-3b)x+b-2a>0$的解集是\blank{50}.
+(2)若关于$x$的不等式$ax^2+bx+c<0$的解集是$\{x|x<-2x>-\dfrac 12\}$, 则关于$x$的不等式$ax^2-bx+c>0$的解集是\blank{50}.
+\item (1)解不等式$x^1-2x^2+1>x^2-1$.
+ (2)已知关于$x$的不等式$kx^2-2x+6k<0(k\ne 0)$.
+\textcircled{1} 若不等式的解集是$\{x|x<-3x>-2\}$, 求实数$k$的值;
+\textcircled{2} 若不等式的解集是$\{x|x\ne \dfrac 1k\}$, 求实数$k$的值;
+\textcircled{3} 若不等式的解集是实数集, 求实数$k$的值.
+\item (1)已知关于$x$的方程$m(x-1)=3(x+2)$的解是正实数, 求实数$m$的取值范围.
+(2)已知关于$x$的方程$\dfrac 14{x^2}-kx+5k-6=0$无实数解, 求实数$k$的取值范围.
+(3)已知关于$x$的方程$kx^2-(3k-1)x+k=0$有两个正实数根, 求实数$k$的取值范围.
+\item (1)已知集合$M=\{x|x^2-7x+10\le 0\}$, $N=\{x|x^2-(2-m)x+5-m\le 0\}$, 且$N\subseteq M$, 求实数$m$的取值范围.
+(2)已知集合$A=\{x|x^2+4x+p<0\}$, $B=\{x|x^2-x-2>0\}$, 且$A\subseteq B$求实数$p$的取值范围.
+(3)已知集合$A=\{x|x^2+ax+1\le 0\}$, $B=\{x|x^2-3x+2\le 0\}$, 且$A\subseteq B$, 求实数$a$的取值范围.
+\item (1)已知集合$A=\{x|x^2-2x-3\le 0\}$, $B=\{x|x^2+px+q<0\}$, 且$A\cap B=\{x|-1\le x<2\}$, 求实数$p,q$的关系式及其取值范围.
+(2)已知集合$A=\{x|-2<x<-1x>\dfrac 12\}$, $B=\{x|x^2+ax+b\le 0\}$, 且$A\cup B=\{x|x+2>0\}$, $A\cap B=\{x|\dfrac 12<x\le 3\}$, 求$a,b$的值.
+\item (1)要使代数式$mx^2+(m-1)x+(m-1)$的值恒为负值, 求实数$m$的取值范围.
+(2)已知关于$x$的不等式$(a^2-4)x^2+(a+2)x-1\ge 0$的解集是空集, 求实数$a$的取值范围.
+(3)若关于$x$的不等式$\dfrac{{x^2}-8x+20}{m{x^2}+2(m+1)x+9m+4}<0$的解集为$R$, 求实数$m$的取值范围.
+(4)当$0^\circ <\varphi <90^\circ$时, 要使$\dfrac{{x^2}-6x+8}{{x^2}+2}=\sin \varphi$成立, 求实数$x$的取值范围.
+(5)既要使关于$x$的不等式${x^2}+(m-\dfrac 12)x-\dfrac 7{16}\le 0$有实数解, 又要使关于$x$的方程$(2m+3){x^2}+mx+\dfrac{m-2}4=0$有实数解, 求实数$m$的取值范围.
+\item 为长$80cm$、宽$60cm$的工作台做一块台布, 使台布的面积是台面面积的两倍以上, 并使台子四边垂下的长度相等, 问: 乖下的长度至少是多少(精确到$0.1cm$)?
+\item 已知非零实数$x,y,z$, 满足$x+y+z=xyz$, $x^2=yz$, 求证: $x^2\ge 3$.
+\item 已知$a+b\ge 0$, 求证: $a^3+b^3\ge a^2b+ab^2$.
+\item 设$a,b\in \mathbf{R}^+$, 且$a\ne b$, 求证: $a^ab^b>a^bb^a$.
+\item (1)已知$a,b,c\in \mathbf{R}$, 求证: $a^2+b^2+c^2\ge ab+bc+ca$.
+(2)已知$a,b,c>0$, 求证:
+\textcircled{1} $(a+b)(\dfrac 1a+\dfrac 1b)\ge 4$; \textcircled{2} $(a+b+c)(\dfrac 1a+\dfrac 1b+\dfrac 1c)\ge 9$.
+\item 已知正数$a,b$满足$a+b=1$, 求证: $\sqrt{2a+1}+\sqrt{2b+1}\le 2\sqrt 2$.
+\item 已知$\alpha ,\beta \in (0,\dfrac{\pi }2)$, 且$\alpha \ne \beta$, 求证: $\tan \alpha +\tan \beta >2\tan \dfrac{\alpha +\beta }2$.
+\item 记$f(x)=x^2+ax+b$, 求证: $|f(1)|,|f(2)|,|f(3)|$中至少有一个不小于$\dfrac 12$.
+\item 已知$-1\le x\le 1$, $n\ge 2$, $n\in \mathbf{N}$, 求证: $(1-x)^n+(1+x)^n\le 2^n$.
+\item 已知$x+2y+3z=12$, 求证: $x^2+2y^2+3z^2\ge 24$.
+\item 已知$a,b,c\in \mathbf{R}^+$, 求证: $a^3+b^3+c^3\ge 3abc$(当且仅当$a=b=c$时取等号).
+\item 已知$a>0$, 求证: $x+\dfrac 1x+\dfrac 1{x+\dfrac 1x}\ge \dfrac 52$.
+\item 已知实数$a,b,c$满足$a+b+c=0$和$abc=2$, 求证: $a,b,c$中至少有一个不小于2.
+\item 已知$0<a<1$, $0<b<1$, 求证: $\sqrt{a^2}+{b^2}+\sqrt(a-1)^2+{b^2}+\sqrt{a^2}+(b-1)^2+\sqrt(a+1)^2+(b-1)^2\ge 2\sqrt 2$.
+\item 已知实数$x,y,z$不全为零, 求证: $\sqrt{x^2}+xy+{y^2}+\sqrt{x^2}+yz+{z^2}+\sqrt{z^2}+zx+{x^2}>\dfrac 32(x+y+z)$.
+\item 已知$x\ge 0$, $y\ge 0$, 求证: $\dfrac 12(x+y)^2+\dfrac 14(x+y)\ge x\sqrt y+y\sqrt x$.
+\item 求证: $1+\dfrac 14+\dfrac 19+\dfrac 1{16}+\cdots +\dfrac 1{n^2}<\dfrac 74(n\in \mathbf{N})$.
+\item 已知$x>0,y>0,a,b$是正常数, 且满足$\dfrac ax+\dfrac by=1$, 求证: $x+y\ge (\sqrt a+\sqrt b)^2$.
+\item (1)已知正数$a,b$满足$a^2b=1$, 求$a+b$的最小值.
+(2)求${{\sin }^2}\alpha {{\cos }^2}\alpha +\dfrac 1{{{\sin }^2}\alpha {{\cos }^2}\alpha }$的最小值.
+\item 已知直角三角形的周长为定值$l$, 求它面积的最大值.
+\item 已知圆柱的体积为定值$V$, 求圆柱全面积的最小值.
+\item 从半径为$R$的圆形铁片里剪去一个扇形, 然后把剩下部分卷成一个圆锥形漏斗, 要使漏斗有最大容量, 剪去扇形的圆心角$\theta$应是多少弧度?
+\item 在$Rt\triangle ABC$, 已知$\angle C=90^\circ$, $\angle A,\angle B,\angle C$的对边$a,b,c$满足$a+b=cx$.设$\triangle ABC$绕直线$AB$旋转一周所得的旋转体的侧面积为$S_1$, $\triangle ABC$的内切圆面积为$S_2$.求:
+(1)函数$f(x)=\dfrac{S_1}{S_2}$的解析式和定义域.
+(2)函数$f(x)$的最小值.
 【训练题】
 (一)比较法
 \item 用比较法证明以下各题:
@@ -10,7 +169,7 @@
 (3)已知$a>0$, $b>0$, 求证: ${a^2}+{b^2}\ge (a+b)\sqrt{ab}$.
 (4)已知$0<x<1$, 求证: $\dfrac{a^2}x+\dfrac{b^2}{1-x}\ge (a+b)^2$.
 \item (1)已知$a\ge 0$, $b\ge 0$, 求证: $a^3+b^3\ge a^2b+b^2a$.
-   (2)已知$x\in {R^+}$, $y\in {R^+}$, $n\in \mathbf{N}$, 求证: ${x^{n+1}}+{y^{n+1}}\ge x^ny+xy^n$.
+   (2)已知$x\in \mathbf{R}^+$, $y\in \mathbf{R}^+$, $n\in \mathbf{N}$, 求证: ${x^{n+1}}+{y^{n+1}}\ge x^ny+xy^n$.
 \item (1)已知$a>0$, $b>0$, $c>0$, 求证: $a(b^2+c^2)+b(c^2+a^2)+c(a^2+b^2)\ge 6abc$.
    (2)求证: ${a^5}+{b^5}\ge \dfrac 12({a^3}+{b^3})({a^2}+{b^2})(a>0,b>0)$.
 \item (1)求证: $a^2+b^2+c^2\ge ab+bc+ca$($a,b,c$是实数).
@@ -43,7 +202,7 @@
 (3)若$a>0$, $b>0$, 则$a+b+\dfrac 1{\sqrt{ab}}\ge 2\sqrt 2$.
 (4)若$m=x{{\cos }^2}\theta +y{{\sin }^2}\theta$, $n=x{{\sin }^2}\theta +y{{\cos }^2}\theta$, 则$mn\ge xy$.
 (5)若$x+3y-1=0$, 则${2^x}+{8^y}\ge 2\sqrt 2$.
-(6)${\log }_{0.5}(\dfrac 1{4^a}+\dfrac 1{4^b})\le a+b-1$.
+(6)$\log_{0.5}(\dfrac 1{4^a}+\dfrac 1{4^b})\le a+b-1$.
 \item 已知$x>0$, $y>0$, $x+y=1$, 求证:
 (1)$(1+\dfrac 1x)(1+\dfrac 1y)\ge 9$.		(2)$(\dfrac 1{x^2}-1)(\dfrac 1{y^2}-1)\ge 9$.
 \item 已知$a>0$, $b>0$, $c>0$, $a+b+c=1$, 求证:
@@ -150,7 +309,7 @@
 (四)函数的最大值和最小值
 \item 下列函数中, 最小值为2的是\bracket{20}.
 \fourch{$x+\dfrac 1x$}{$\dfrac{x^2}+2}{\sqrt{{x^2}+1}$}{$\log_ax+\log_xa(a>0,x>0a\ne 1,x\ne 1)$}{$3^x+{3^{-x}}(x>0)$}
-\item 若${\log }_{\sqrt 2}x+{\log }_{\sqrt 2}y=4$, 则$x+y$的最小值是\bracket{20}.
+\item 若$\log_{\sqrt 2}x+\log_{\sqrt 2}y=4$, 则$x+y$的最小值是\bracket{20}.
 \fourch{8}{$4\sqrt 2$}{4}{2}
 \item 若$a,b$均为大于1的正数, 且$ab=100$, 则$\lg a\cdot \lg b$的最大值是\bracket{20}.
 \fourch{0}{1}{2}{$\dfrac 52$}
@@ -160,7 +319,7 @@
 \fourch{$\sqrt{10}$}{$2\sqrt 5$}{5}{10}
 \item 若$x>1$, 则$\dfrac{{x^2}-2x+2}{2x-2}$有\bracket{20}.
 \fourch{最小值1}{最大值1}{最小值-1}{最大值-1}
-\item (1)若$x,y\in {R^+}$, 且$x^2+y^2=1$, 则$x+y$的最大值是\blank{50}.
+\item (1)若$x,y\in \mathbf{R}^+$, 且$x^2+y^2=1$, 则$x+y$的最大值是\blank{50}.
 (2)若$x+2y=2\sqrt 2a(x>0,y>0,a>1)$, 则$\log_ax+\log_ay$的最大值是\blank{50}.
 (3)若$x>1$, 则$2+3x+\dfrac 4{x-1}$的最小值\blank{50}, 此时$x=$\blank{50}.
 (4)若$x>0$, 则$x+\dfrac 1x+\dfrac{16x}{{x^2}+1}$的最小值是\blank{50}, 此时$x=$\blank{50}.
@@ -244,7 +403,7 @@
 \item (1)已知集合$A=\{x|\dfrac{2x-1}{{x^2}+3x+2}>0\}$, $B=\{x|x^2+ax+b\le 0\}$, 且$A\cap B=\{x|\dfrac 12<x\le 3\}$, 求实数$a,b$的取值范围.
 (2)已知集合$A=\{x|(x+2)(x+1)(2x-1)>0\}$, $B=\{x|x^2+ax+b\le 0\}$, 且$A\cup B=\{x|x+2 >0\}$, $A\cap B=\{x|\dfrac 12<x\le 3\}$, 求实数$a,b$的值.
 \item (1)已知关于$x$的不等式$x^2-ax-6a\le 0$有解, 且对于任意的解$x_1,x_2$恒有$|x_1-x_2|\le 5$, 求实数$a$的取值范围.
-(2)已知关于$x$的方程$3{x^2}+x\log _{\dfrac 12}^2a+2{\log }_{\dfrac 12}a=0$的两根$x_1,x_2$满足条件$-1<{x_1}<0<{x_2}<1$, 求实数$a$的取值范围.
+(2)已知关于$x$的方程$3{x^2}+x\log _{\dfrac 12}^2a+2\log_{\dfrac 12}a=0$的两根$x_1,x_2$满足条件$-1<{x_1}<0<{x_2}<1$, 求实数$a$的取值范围.
 (3)已知关于$x$的方程$x^2+(m^2-1)x+m-2=0$的一个根比-1小, 另一个根比1大, 求参数$m$的取值范围.
 \item 已知集合$A=\{x|x-a >0\}$, $B=\{x|x^2-2ax-3a^2<0\}$, 求$A\cap B$与$A\cup B$.
 (二)无理不等式
@@ -283,27 +442,27 @@
 \fourch{$x>5$}{$x<6$}{$5<x<6$}{$x<5$或$x>6$}
 \item 不等式$\log_x\dfrac 45<1$的解集是\bracket{20}.
 \fourch{$\{x|0<x<\dfrac 45\}$}{$\{x|x>\dfrac 45\}$}{$\{x|\dfrac 45<x<1\}$}{$\{x|0<x<\dfrac 45\}\cup \{x|x>1\}$}
-\item 若函数$f(x)={\log }_{a^2-1}(2x+1)$在区间$(-\dfrac 12,0)$内恒有$f(x)>0$, 则实数$a$的取值范围是\bracket{20}.
+\item 若函数$f(x)=\log_{a^2-1}(2x+1)$在区间$(-\dfrac 12,0)$内恒有$f(x)>0$, 则实数$a$的取值范围是\bracket{20}.
 \fourch{$0<a<1$}{$a>1$}{$-\sqrt 2<a<-1$或$1<a<\sqrt 2$}{$a<-\sqrt 2$或$a>\sqrt 2$}
 \item 若不等式$\log_a(x^2-2x+3)\le -1$对一切实数都成立, 则$a$的取值范围是\bracket{20}.
 \fourch{$a\ge 2$}{$1<a\le 2$}{$\dfrac 12\le a<1$}{$0<a\le \dfrac 12$}
 \item 解下列关于$x$的不等式:
-(1)${\log }_{\dfrac 12}(3x-2)>{\log }_{\dfrac 12}(x+1)$:\blank{50}.
-(2)${\log }_{\dfrac 13}({x^2}-x-2)>{\log }_{\dfrac 13}(2{x^2}-7x+3)$:\blank{50}.
+(1)$\log_{\dfrac 12}(3x-2)>\log_{\dfrac 12}(x+1)$:\blank{50}.
+(2)$\log_{\dfrac 13}({x^2}-x-2)>\log_{\dfrac 13}(2{x^2}-7x+3)$:\blank{50}.
 (3)$\log_x\dfrac 12<1$:\blank{50}.
 (4)$\lg (x-\dfrac 1x)<0$:\blank{50}.
 (5)$\log_2|x-\dfrac 12|<-1$:\blank{50}.
 \item 已知集合$M=\{x|\log_3(x-m)>1\}$与$P=\{x|{3^{5-3x}} \ge \dfrac 13\}$满足$M\cap P\ne \varnothing$, 求实数$m$的取值范围.
 \item 解下列不等式:
-(1)${\log }_8}(2-x)+{{\log }_{61}(x+1)\ge \log_4x$.	(2)${\log }_{0.5}(x+13)<{\log }_{0.5}(x^2-2x-15)$.
-(3)$\log_x(3\sqrt{x-1}-1)>1$.				(4)${\log }_{x-1}(6-x-x^2)>2$.
+(1)$\log_8}(2-x)+{\log_{61}(x+1)\ge \log_4x$.	(2)$\log_{0.5}(x+13)<\log_{0.5}(x^2-2x-15)$.
+(3)$\log_x(3\sqrt{x-1}-1)>1$.				(4)$\log_{x-1}(6-x-x^2)>2$.
 (5)$\dfrac 1\log_2(x-1)}<\dfrac 1{\log_2\sqrt{x+1}$.			(6)$\dfrac{\log_3(1-\dfrac{3x}2)}{\log_9(2x)}\ge 1$.
-(7)${\log }_{0.5}({2^x}-1)\cdot {\log }_{0.5}({2^{x-1}}-\dfrac 12)\le 2$.
+(7)$\log_{0.5}({2^x}-1)\cdot \log_{0.5}({2^{x-1}}-\dfrac 12)\le 2$.
 \item 解关于$x$的不等式, 其中$a>0$, $a\ne 1$:
 (1)$\log_a(x+1-a)>1$.    (2)$\log_a(1-\dfrac 1x)>1$.
-(3) $\log_a(2x-1)>\log_a(x-1)$.    (4)${\log }_a^2x<{\log }_x^2a$.
+(3) $\log_a(2x-1)>\log_a(x-1)$.    (4)$\log_a^2x<\log_x^2a$.
 (5)${x^\log_ax}>\dfrac{x^4}\cdot \sqrt x}{{a^2}$.\blank{50}(6)$\sqrt{\log_ax-1}>3-\log_ax$.
-\item 已知$x$满足不等式${(\dfrac 12)}^{2x-4}-{(\dfrac 12)}^x}-{{(\dfrac 12)}^{x-2}+\dfrac 14\le 0$, 且$y={\log }_{\dfrac 1a}({a^2}x)\cdot {\log }_{\dfrac 1{a^2}}(ax)$的最大值是0, 最小值是$-\dfrac 18$, 求实数$a$的值.
+\item 已知$x$满足不等式${(\dfrac 12)}^{2x-4}-{(\dfrac 12)}^x}-{{(\dfrac 12)}^{x-2}+\dfrac 14\le 0$, 且$y=\log_{\dfrac 1a}({a^2}x)\cdot \log_{\dfrac 1{a^2}}(ax)$的最大值是0, 最小值是$-\dfrac 18$, 求实数$a$的值.
 \item 已知关于$x$的方程$x^2-5x\log_ak+6\log _a^2k=0$的两根中$(k>1)$, 仅较小的根在区间$(1,2)$内, 试用$a$表示$k$的取值范围($a>0$且$a\ne 1$).
 (四)绝对值不等式
 \item 设$x\in \mathbf{R}$, 则$(1-|x|)(1+x)>0$成立的充要条件是\bracket{20}.
@@ -334,12 +493,12 @@
 \item (1)已知当$|x-2|<a$成立时, $|x^2-4|<1$也成立, 求正数$a$的取值范围.
     (2)已知关于$x$的不等式$|x-4|+|x-3|<a$在实数集$R$上的解集不是空集, 求正数$a$的取值范围.
 \item 解下列不等式:
-(1)${\log }_{\dfrac 14}|x|<{\log }_{\dfrac 12}|x+1|$ .		(2)$|\lg (1-x)|>|\lg (1+x)|$.
-(3)$|{\log }_{\dfrac 13}x|+|{\log }_{\dfrac 13}\dfrac 1{3-x}|\ge 1$.
+(1)$\log_{\dfrac 14}|x|<\log_{\dfrac 12}|x+1|$ .		(2)$|\lg (1-x)|>|\lg (1+x)|$.
+(3)$|\log_{\dfrac 13}x|+|\log_{\dfrac 13}\dfrac 1{3-x}|\ge 1$.
 \item (1)求函数$f(x)=|x-\dfrac 12|-|x+\dfrac 12|$的最大值.
    (2)已知$|\lg x-\lg y|\le 1$, 则$\dfrac xy+\dfrac yx$的取值范围是\blank{50}.
 \item 解下列关于$x$的不等式:
-(1)$|{\log }_{\sqrt a}x-2|-|\log_ax-2|<2$.		(2)$|\log_ax|<|\log_a(ax^2)|-2$.
+(1)$|\log_{\sqrt a}x-2|-|\log_ax-2|<2$.		(2)$|\log_ax|<|\log_a(ax^2)|-2$.
 \item 解下列关于z的不等式:
 (1) $|3^x-3|+9^x-3>0$.			(2)$|a^x-1|+|{a^{2x}}-3|>2(a>0)$.
 \item $\triangle ABC$三内角$A,B,C$对边长分别为$a,b,c$, 外接圆半径记作$R$. 求证:

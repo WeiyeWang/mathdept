@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  14 JUL 2022 16:44
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  14 JUL 2022 21:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -886,14 +886,184 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 157--158
 [][] 
  []
 
-[5] [6] [7] (./精编第二章不等式.aux) ) 
+[5] [6] [7]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 230--231
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 232--233
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 239--240
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 241--242
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 243--244
+[][] 
+ []
+
+[8] [9] [10] [11]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 338--339
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 340--341
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 342--343
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 344--345
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 346--347
+[][] 
+ []
+
+[12]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 358--359
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 360--361
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 362--363
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 364--365
+[][] 
+ []
+
+[13] [14]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 400--401
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 402--403
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 404--405
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 415--416
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 417--418
+[][] 
+ []
+
+[15]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 430--431
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 432--433
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 434--435
+[][] 
+ []
+
+[16]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 446--447
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 448--449
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 459--460
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 461--462
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 467--468
+[][] 
+ []
+
+[17]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 490--491
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 492--493
+[][] 
+ []
+
+[18]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 494--495
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 496--497
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 498--499
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 500--501
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 502--503
+[][] 
+ []
+
+[19] [20] [21] (./精编第二章不等式.aux) ) 
 Here is how much of TeX's memory you used:
  20386 strings out of 476919
  461388 string characters out of 5825424
- 803822 words of memory out of 5000000
+ 812824 words of memory out of 5000000
  39976 multiletter control sequences out of 15000+600000
  406111 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,17n,104p,415b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,17n,104p,415b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 精编第二章不等式.pdf (7 pages).
+Output written on 精编第二章不等式.pdf (21 pages).
