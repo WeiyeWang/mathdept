@@ -199,7 +199,7 @@ for equation in raw_equations:
     for i in range(20):
         equation1 = re.sub("(\{[\w\+\-*]?\})",refine_brackets,equation1)
     for i in range(20):
-        equation1 = re.sub("(\{\{.*?\}\})",refine_brackets,equation1)
+        equation1 = re.sub("(\{\{[^\{\}]*?\}\})",refine_brackets,equation1)
     #有分数或根号的判定之后去除无意义的大括号
     sqrt_or_frac = False
     if not "sqrt" in equation1 and not "frac" in equation1:
@@ -241,7 +241,7 @@ for equation in raw_equations:
     #处理多余的斜杠空格
     equation1 = re.sub(r"\\[\s]*?,[\s]*?\\",",",equation1)
     #处理幂的多余大括号
-    equation1 = re.sub("\{\{(\([\s\S]*?\))\}\^([\{\}\w\+]*?)\}",refine_powers,equation1)
+    equation1 = re.sub("\{\{(\([\s\S]*?\))\}\^([\{\}\w\+\-\*]*?)\}",refine_powers,equation1)
     equation1 = re.sub(r"\{\{([\\mathbfrm\{\}NRCQZ]*?)\}\^([\+\*]*?)\}",refine_powers,equation1)
     #处理数列多余的大括号
     equation1 = re.sub(r"\\\{\{([\w]*?_[\w]*?)\}\\\}",refine_sequences,equation1)
@@ -249,7 +249,7 @@ for equation in raw_equations:
     equation1 = re.sub(r"(\{[ABCDMNPQR]_[\d]\})",refine_brackets,equation1)
     equation1 = re.sub("\$\{([\w]*?_[\w]*?)\}",refine_starting_brackets,equation1)
     equation1 = re.sub("([\+\-\,\|\^])[\s]*?\{([\{\}\w]*?_[\w\}\{]*?)\}",refine_left_operating_brackets,equation1)
-    equation1 = re.sub("\{([\{\{\w]*?_[\{\w\}]*?)\}([\+\-\,\|])[\s]*?",refine_right_operating_brackets,equation1)
+    #有问题equation1 = re.sub("\{([\{\{\w]*?_[\{\w\}]*?)\}([\+\-\,\|])[\s]*?",refine_right_operating_brackets,equation1)
     equation1 = re.sub(r"([\(\[\{])\{([^\{\}]*?)\}([\)\]\}])",refine_brackets_in_brackets,equation1)
     #处理三个点的写法
     equation1 = re.sub(r"\\cdot[\s]*?\\cdot[\s]*?\\cdot",r"\\cdots",equation1)
