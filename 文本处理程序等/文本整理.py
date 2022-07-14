@@ -10,7 +10,7 @@ def refine_brackets(matchobj):
 def insert_a_blank(matchobj):
     return matchobj.group(1)[:-1]+" "+matchobj.group(1)[-1]
 def multiple_choice(matchobj):
-    string = "\\fourch" + "{" + matchobj.group(1) + "}{" + matchobj.group(2) + "}{" + matchobj.group(3) + "}{" + matchobj.group(4) + "}"
+    string = "\\fourch" + "{" + matchobj.group(1) + "}{" + matchobj.group(2) + "}{" + matchobj.group(3) + "}{" + matchobj.group(4) + "}\n"
     return string
 def boldsymbols(matchobj):
     return "\\i"+matchobj.group(1)[:-1]+"\\mathbf{"+matchobj.group(1)[-1]+"}"
@@ -182,10 +182,14 @@ for text in raw_texts:
     text1 = re.sub("[ _]{5,}",r"\\blank{50}",text1)
     #选择题的处理
     text1 = re.sub(r"\(\\blank\{50\}\)","\\\\bracket{20}",text1)
-    text1 = re.sub(r"\([\s]{3,10}\)","\\\\bracket{20}",text1)
+    text1 = re.sub(r"\([\s]{1,10}\)","\\\\bracket{20}",text1)
     #逗号后面加空格
     text1 = re.sub(",[ ]*",", ",text1)
-
+    text1 = re.sub(r"\.\}","}",text1)
+    text1 = re.sub(r"\n\d{1,3}\.",r"\n\\item ",text1)
+    text1 = re.sub(r"\s{3,}\.",r"\\blank{50}.",text1)
+    text1 = re.sub(r"\s{3,}\,",r"\\blank{50},",text1)
+    text1 = re.sub(r"\\bracket\{20\}\n",r"\\bracket{20}.\n",text1)
     modified_texts.append(text1)
 
 for equation in raw_equations:
@@ -260,6 +264,10 @@ for equation in raw_equations:
     equation1 = re.sub(r"\\end\{matrix\}[\s]*?\|",r"\\end{vmatrix}",equation1)
     equation1 = re.sub(r"\\Delta",r"\\triangle",equation1)
     equation1 = re.sub(r"\\vartriangle",r"\\triangle",equation1)
+    equation1 = re.sub(r"\\\{\s*\.\s*",r"\\{",equation1)
+    equation1 = re.sub(r"\s*\|\s*","|",equation1)
+    equation1 = re.sub(r"\s*\\\}",r"\\}",equation1)
+    equation1 = re.sub(r"\\\{\s*",r"\\{",equation1)
     modified_equations.append(equation1)
 
 
@@ -276,5 +284,8 @@ for i in range(len(modified_texts)):
         a = 1
 modified_data = re.sub(r"[ ]+\n","\n",modified_data)
 modified_data = re.sub(r"\$[\s]*?\\parallel[\s]*?\$",r"\\parallel",modified_data)
+modified_data = re.sub(r"\n例\s*?\d{1,3}\s*",r"\n\\item ",modified_data)
+
+
 with open("outputfile.txt","w",encoding = "utf8") as f:
     f.write(modified_data)
