@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  13 JUL 2022 17:19
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  14 JUL 2022 12:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**精编第一章集合与不等式
-(./精编第一章集合与不等式.tex
+**精编第二章不等式
+(./精编第二章不等式.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -625,8 +625,9 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \c@coro=\count332
 \c@axiom=\count333
 \c@prop=\count334
- (./精编第一章集合与不等式.aux)
-\openout1 = `精编第一章集合与不等式.aux'.
+
+No file 精编第二章不等式.aux.
+\openout1 = `精编第二章不等式.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
@@ -644,7 +645,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
- ABD: EverySelectfont initializing macros
+ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 44.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -776,14 +777,174 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 60--61
 
 [1
 
-] (./精编第一章集合与不等式.aux) ) 
+]
+Overfull \hbox (35.00168pt too wide) in paragraph at lines 80--81
+[][]\TU/lmr/m/n/10 14.
+ []
+
+
+Overfull \hbox (35.00168pt too wide) in paragraph at lines 81--82
+[][]\TU/lmr/m/n/10 15.
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 82--83
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 84--85
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 93--94
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 95--96
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 97--98
+[][] 
+ []
+
+[2]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 99--100
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 105--106
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 107--108
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 109--110
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 111--112
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 113--114
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 120--121
+[][] 
+ []
+
+[3]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 131--132
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 136--137
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 138--139
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 140--141
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 144--145
+[][] 
+ []
+
+[4]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 154--155
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 156--157
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 161--162
+[][] 
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 179--185
+
+ []
+
+[6]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 208--209
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 212--213
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 214--215
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 216--217
+[][] 
+ []
+
+[7] [8]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 257--258
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 259--260
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 261--262
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 264--265
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 268--269
+[][] 
+ []
+
+[9] [10] (./精编第二章不等式.aux) ) 
 Here is how much of TeX's memory you used:
- 20386 strings out of 476919
- 461418 string characters out of 5825424
- 795831 words of memory out of 5000000
- 39976 multiletter control sequences out of 15000+600000
+ 20430 strings out of 476919
+ 462461 string characters out of 5825424
+ 805831 words of memory out of 5000000
+ 40022 multiletter control sequences out of 15000+600000
  406111 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,16n,104p,418b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,16n,104p,415b,669s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 精编第一章集合与不等式.pdf (1 page).
+Output written on 精编第二章不等式.pdf (10 pages).

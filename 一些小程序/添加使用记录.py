@@ -48,15 +48,19 @@ for r in records:
                 vault_data = vault.read()
             problem_raw = re.findall("(\[B题目\]\s*?<BID>\s*?"+id+"[\s\S]*?E题目\])",vault_data)[0]
             usage_raw = re.findall("<B使用记录>([\s\S]*?)<E使用记录>",problem_raw)[0]
-            old_usages = trim(usage_raw).split("\n")
+            old_usages = usage_raw.split("\n")
             record_in_vault = False
             for u in old_usages:
                 if date in u and current_class in u:
                     record_in_vault = True
             if not record_in_vault:
                 usage_new = usage_raw + content + "\n"
-                print(usage_new)
-                problem_new = problem_raw.replace(usage_raw,usage_new)
+                #print(usage_new)
+                if not usage_raw == "\n\n":
+                    problem_new = problem_raw.replace("<B使用记录>"+usage_raw+"<E使用记录>","<B使用记录>"+usage_new+"<E使用记录>")
+                else:
+                    problem_new = problem_raw.replace("<B使用记录>"+usage_raw+"<E使用记录>","<B使用记录>"+usage_new[1:]+"<E使用记录>")
+                #print(vault_data.index(problem_raw),problem_raw == problem_new)
                 vault_data = vault_data.replace(problem_raw,problem_new)
             with open("题库0.2/"+v,"w",encoding = "utf8") as vault:
                 vault.write(vault_data)
