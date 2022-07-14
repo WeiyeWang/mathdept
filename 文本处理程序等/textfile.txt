@@ -1,601 +1,355 @@
-第二章  不等式
-一、不等式的性质
-例 1  当\[a>b>0\]时，比较\[\frac{2a+b}{a+2b}\]和\[\frac{a}{b}\]的大小.
-例 2  已知\[a>0,a\ne 1,m>n>0\]，比较\[A={{a}^{m}}+\frac{1}{{{a}^{m}}}\]和\[B={{a}^{n}}+\frac{1}{{{a}^{n}}}\]的大小.
-例 3  若\[a>b\]，则下列各式中正确的是  （      ） 
-（A）\[a\lg x>b\lg x\] \[\left( x>0 \right)\]              （B）\[a{{x}^{2}}>b{{x}^{2}}\]
-（C）\[{{a}^{2}}>{{b}^{2}}\]                            （D）\[{{2}^{x}}\cdot a>{{2}^{x}}\cdot b\]
+例1求函数\[y=\frac{3x-1}{x+1}\]的值域.
+例2求函数\[y=\frac{4x+3}{2x-1}\]的值域.
+例3求函数\[y=\frac{{{x}^{2}}-1}{{{x}^{2}}+2}\]的值域.
+例4求函数\[y=\frac{{{x}^{2}}-x+1}{2{{x}^{2}}-2x+3}\]的值域.
+例5求函数\[y=\frac{{{x}^{2}}+4x+3}{{{x}^{2}}+x-6}\]的值域.
+例6若实数\[x,y\]满足\[{{x}^{2}}+4{{y}^{2}}=4x\]，求\[S={{x}^{2}}+{{y}^{2}}\]的值域.
+例7已知函数\[y=f\left( x \right)={{x}^{2}}+ax+3\]在区间\[x\in \left[ -1,1 \right]\]上的最小值为-3，求实数\[a\]的值.
+例8求函数\[y=3{{x}^{2}}-12x+18\sqrt{4x-{{x}^{2}}}-23\]的值域.
+例9求函数\[y=\left| x-2 \right|-\left| x+1 \right|\]的值域.
+例10若\[f\left( x-1 \right)=2{{x}^{2}}+1\]，求\[f\left( x \right)\].
+例11已知定义域为\[R\]的函数\[f\left( x \right)\]满足：
+①\[f\left( x+y \right)=f\left( x \right)\cdot f\left( y \right)\]对任何实数\[x,y\]都成立；
+②存在实数\[{{x}_{1}},{{x}_{2}}\]，使\[f\left( {{x}_{1}} \right)\ne f\left( {{x}_{2}} \right)\].
+求证：（1）\[f\left( 0 \right)=1\].
+（2）\[f\left( x \right)>0\].
 【训练题】
+（一）映  射
 
-1.设\[ab>0\]，且\[\frac{c}{a}>\frac{d}{b}\]，则下列各式中，恒成立的是（    ）
-（A）\[bc<ad\]        （B）\[bc>ad\]        （C）\[\frac{a}{c}>\frac{b}{d}\]         （D）\[\frac{a}{c}<\frac{b}{d}\]
-2.下列命题中，不正确的一个是（    ）
-（A）若\[\sqrt[3]{a}>\sqrt[3]{b}\]，则\[a>b\]
-（B）若\[a>b,c>d\]，则\[a-d>b-c\]
-（C）若\[a>b>0,c>d>0\]，则\[\frac{a}{d}>\frac{b}{c}\] 
-（D）若\[a>b>0,ac>bd\]则\[c>d\]
-3.若\[x<y<0\]，则有（    ）
-（A）\[0<{{x}^{2}}<xy\]    （B）\[{{y}^{2}}<xy<{{x}^{2}}\]    （C）\[xy<{{y}^{2}}<{{x}^{2}}\]   （D）\[{{y}^{2}}>{{x}^{2}}>0\]
-4.若\[a={{\log }_{0.2}}0.3\]，\[b={{\log }_{0.3}}0.2\]，\[c=1\]，则\[a,b,c\]的大小关系是（    ）
-（A）\[a>b>c\]    （B）\[b>a>c\]     （C）\[b>c>a\]      （D）\[c>b>a\]
-5.用不等号（“>”或“<”）填空：
-（1）若\[a\ne b\]，则\[{{a}^{2}}+3{{b}^{2}}\]__________\[2b\left( a+b \right)\]
-（2）若\[c>1\]，则\[\sqrt{c+1}-\sqrt{c}\]_________\[\sqrt{c}-\sqrt{c-1}\].
-（3）若\[a>b,c>d\]，且a与d都是负数，则\[ac\]_____\[bd\].
-6.若“\[a>b,a-\frac{1}{a}>b-\frac{1}{b}\]”同时成立，则\[ab\]应满足的条件是                      .
-7.（1）已知\[a>0,b>0\]，且\[a\ne b\]，比较\[\frac{{{a}^{2}}}{b}+\frac{{{b}^{2}}}{a}\]与\[a+b\]的大小.
-（2）已知\[0<\frac{a}{b}<\frac{c}{d}\]，比较\[\frac{b}{a+b}\]与\[\frac{d}{c+d}\]的大小.
+1.设映射\[f:X\to Y\]，其中\[X,Y\]是非空集合，则下列语句中正确的是（    ）
+（A）\[Y\]中每一个元素必有原像．			（B）\[Y\]中的各元素只能有一个原像.
+（C）\[X\]中的不向元素在\[Y\]中的像也不同．	（D）\[Y\]中至少存在一个元素，它有原像．
+2．集合\[M=\left\{ a,b,c \right\}\]与\[P=\left\{ x,y,z \right\}\]之间建立起四种对应关系（如图），则下列结论中正确的是（    ）
+（A）只有\[{{f}_{2}},{{f}_{3}}\]是从\[M\]到\[P\]的映射．    （B）只有\[{{f}_{2}},{{f}_{4}}\]是从\[M\]到\[P\]的映射.
+（C）只有\[{{f}_{3}},{{f}_{4}}\]是从\[M\]到\[P\]的映射．		（D）\[{{f}_{1}},{{f}_{2}},{{f}_{3}},{{f}_{4}}\]都是从\[M\]到\[P\]的映射.
+ 
+3.设\[\left( x,y \right)\]在映射\[f\]下的像是\[\left( \frac{x+y}{2},\frac{x-y}{2} \right)\]，则在\[f\]下\[\left( -5,2 \right)\]的原像是（    ）
+（A）\[\left( -10,4 \right)\]		（B）\[\left( -3,-7 \right)\]		（C）\[\left( -6,-4 \right)\]		（D）\[\left( -\frac{3}{2},-\frac{7}{2} \right)\]
+4.在给定的映射\[f:\left( x,y \right)\to \left( 2x+y,xy \right)\left( x,y\in R \right)\]下，点\[\left( \frac{1}{6},-\frac{1}{6} \right)\]的原像是（    ）
+（A）\[\left( \frac{1}{6},-\frac{1}{36} \right)\].							（B）\[\left( \frac{1}{3},-\frac{1}{2} \right)\]或\[\left( -\frac{1}{4},\frac{2}{3} \right)\].
+（C）\[\left( \frac{1}{36},-\frac{1}{6} \right)\].							（D）\[\left( \frac{1}{2},-\frac{1}{3} \right)\]或\[\left( -\frac{2}{3},\frac{1}{4} \right)\].
+5．已知集合\[M=\left\{ x\left| 0\le x\le 6 \right. \right\}\]，\[P=\left\{ 0\le y\le 3 \right\}\]，则下列对应关系中，不能行作从\[M\]到\[P\]的映射的是（    ）
+（A）\[f:x\to y=\frac{1}{2}x\].					（B）\[f:x\to y=\frac{1}{3}x\].	
+（C）\[f:x\to y=x\].						（D）\[f:x\to y=\frac{1}{6}x\].
+6．设\[M=R\]，从\[M\]到\[P\]的映射\[f:x\to y=\frac{1}{{{x}^{2}}+1}\]，则像集\[P\]为（    ）
+（A）\[\left\{ y\left| y\in R \right. \right\}\]．    （B）\[\left\{ y\left| y\in R \right. \right\}\]．	（C）\[\left\{ y\left| 0\le y\le 2 \right. \right\}\]．	（D）\[\left\{ y\left| 0<y\le 1 \right. \right\}\].
+7．若映射\[f:A\to B\]的像集是\[Y\]，原像的集合是\[X\]，则\[X\]与\[A\]的关系是    ，\[Y\]和\[B\]的关系是    .
+8．（1）若\[\left( x,y \right)\]在映射\[f\]下的像是\[\left( 2x-y,x+2y \right)\]，则\[\left( -1,2 \right)\]在\[f\]下的原像是    .
+  （2）已知\[\left( a,b \right)\]在映射\[f\]的像是\[\left( a-b,ab \right)\]，则\[\left( 2,3 \right)\]的原像是    .
+  （3）已知\[f:x\to y={{x}^{2}}\]是从集合\[R\]到集合\[M=\left\{ x\left| x\ge 0 \right. \right\}\]的一个映射，则\[M\]重的元素1在\[R\]中的原像是    ，\[M\]中的元素\[t\left( t>0 \right)\]在\[R\]中的原像是    .
+9．（1）从集合\[\left\{ a \right\}\]到\[\left\{ b,c \right\}\]的不同映射有    个．
+  （2）从集合\[\left\{ 1,2 \right\}\]到\[\left\{ 5,6 \right\}\]的不同映射有    个．
+10．已知集合\[A=Z\]，\[B=\left\{ x\left| x=2n+1,n\in Z \right. \right\}\]，\[C=R\]，且从\[A\]到\[B\]的映射是\[x\to 2x-1\]，从\[B\]到\[C\]的映射是\[x\to \frac{1}{3x+1}\]，则从\[A\]到\[C\]的映射是    .
 
-8.若\[x>y>1\]，\[0<a<1\]，则下列各式中正确的一个是（    ）
-（A）\[{{x}^{-a}}>{{y}^{-a}}\]							（B）\[{{\left( \sin a \right)}^{x}}>{{\left( \sin a \right)}^{y}}\]
-（C）\[{{\log }_{\frac{1}{a}}}x<{{\log }_{\frac{1}{a}}}y\]						（D）\[1+{{a}^{x+y}}>{{a}^{x}}+{{a}^{y}}\]
-9.（1）已知\[a\in R\]，比较\[\frac{1}{1+a}\]与\[1-a\]的大小.
-（2）设\[a>0\]，\[a\ne 1\]，\[t>0\]，比较\[\frac{1}{2}{{\log }_{a}}t\]和\[{{\log }_{a}}\frac{t+1}{2}\]的大小.
-10.（1）已知\[x>y>0\]，比较\[\sqrt{\frac{{{y}^{2}}+1}{{{x}^{2}}+1}}\]与\[\frac{y}{x}\]的大小.
-（2）已知\[a\]，\[b\]，\[m\]，\[n\]都是正实数，且\[m+n=1\]，比较\[\sqrt{ma+nb}\]和\[m\sqrt{a}+n\sqrt{b}\]的大小.
-二、一元二次不等式
-例1  解下列不等式：
-（1）\[6{{x}^{2}}-5x-1>0\].						（2）\[6{{x}^{2}}-5x-1>0\].
-（3）\[5{{x}^{2}}-2x+3>0\].					（4）\[9{{x}^{2}}+6x+1>0\].
-（5）\[3{{x}^{2}}-4x+5<0\].
-例2  已知关于\[x\]的不等式\[a{{x}^{2}}+bx+c<0\]的解集是\[\left\{ x\left| x<-2x<-\frac{1}{2} \right. \right\}\]，求\[a{{x}^{2}}-bx+c>0\]的解集.
-例3  已知集合\[A=\left\{ \left. x \right|{{x}^{2}}+\left( a-1 \right)x-a>0 \right\}\]，\[B=\left\{ \left. x \right|\left( x+a \right)\left( x+b \right)>0 \right\}\]，\[a\ne b\]，\[M=\left\{ \left. x \right|{{x}^{2}}-2x-3\le 0 \right\}.\]
-（1）若\[{{\complement }_{U}}B=M\]，求\[a\]，\[b\]的值.
-（2）若\[-1<b<a<1\]，求\[A\bigcap B\].
-（3）若\[-3<a<-1\]，且\[{{a}^{2}}-1\in \complement uA\]，求实数\[a\]的取值范围。
-例4  已知函数\[y=\left( {{k}^{2}}+4k-5 \right){{x}^{2}}+4\left( 1-k \right)x+3\]的图象都在\[x\]轴的上方，求实数\[k\]的取值范围.
+11.\[f\]是集合\[X=\left\{ a,b,c \right\}\]到集合\[Y=\left\{ d,e \right\}\]的一个映射，则满足映射条件的“\[f\]”共有（    ）
+（A）5个.		（B）6个.		（C）7个.		（D）8个.
+12.若\[f:y=3x+1\]是从集合\[A=\left\{ 1,2,3,k \right\}\]到集合\[B=\left\{ 4,7,{{a}^{4}},{{a}^{2}}+3a \right\}\]的一个映射，求自然数\[a,k\]的值及集合\[A,B\].
+（二）函数
+
+13．函数\[f\left( x \right)=\frac{\sqrt{{{x}^{2}}-5x+6}}{x-2}\]的定义域是（    ）
+（A）\[\left\{ x\left| 2<x<3 \right. \right\}\].   					 （B）\[\left\{ x\left| x<2x>3 \right. \right\}\].
+（C）\[\left\{ x\left| x\le 2x\ge 3 \right. \right\}\].    				（D）\[\left\{ x\left| x<2x\ge 3 \right. \right\}\].
+14．若函数\[f\left( x \right)\]的定义域是\[\left[ -1,1 \right]\]，则函数\[f\left( x+1 \right)\]的定义域是（    ）
+（A）\[\left[ -1,1 \right]\].    （B）\[\left[ 0,2 \right]\]．    （C）\[\left[ -2,0 \right]\].    （D）\[\left[ 0,1 \right]\].
+15.在“①\[y=x\]与\[y=\sqrt{{{x}^{2}}}\]，②\[y=\sqrt{{{x}^{2}}}\]与\[y={{\left( \sqrt{x} \right)}^{2}}\]，③\[y=\left| x \right|\]与\[y=\frac{{{x}^{2}}}{x}\]，④\[y=\left| x \right|\]与\[y=\sqrt{{{x}^{2}}}\]，⑤\[y={{x}^{0}}\]与\[y=1\]”这五组函数中，表示同一函数的组数是（    ）
+（A）0．    （B）1．    （C）2．    （D）3．
+16．函数\[y=-{{x}^{2}}-2x+3\left( -5\le x\le 0 \right)\]的值域是（    ）
+（A）\[\left( -\infty ,4 \right]\].    （B）\[\left[ 3,12 \right]\].    （C）\[\left[ -12,4 \right]\].    （D）\[\left[ 4,12 \right]\].
+17．已知镭经过100年后剩下原来质量的95. 76%，若质量为l克的镭经过\[x\]年后的剩余质量为\[y\]克，则\[y\]与\[x\]之间的解析式是（    ）
+（A）\[y={{\left( \frac{0.9576}{100} \right)}^{x}}\].					（B）\[y={{\left( 0.9576 \right)}^{100x}}\].
+（C）\[y={{\left( 0.9576 \right)}^{\frac{x}{100}}}\].					（D）\[y=1-{{\left( 1-0.9576 \right)}^{\frac{x}{100}}}\].
+18．函数\[y=x+\frac{\left| x \right|}{x}\]的图象是（   ）
+ 
+19.求下列函数的定义域：
+（1）\[y=\sqrt{1-{{x}^{2}}}+\sqrt{x+1}\]：    .
+（2）\[y=\frac{1}{\sqrt{2{{x}^{2}}+3}}\]：    .
+（3）\[y=\frac{x+5}{3{{x}^{2}}-2x-1}\]：    .
+（4）\[y=\sqrt{6x-{{x}^{2}}-9}\]：    .
+（5）\[y=\sqrt{4-{{x}^{2}}}+\frac{1}{\left| x \right|-1}\]：    .
+（6）\[y=\frac{{{x}^{3}}-1}{x+\left| x \right|}\]：    .
+（7）\[y=\frac{1}{\left| x \right|-{{x}^{2}}}\]：    .
+（8）\[y=\sqrt{1-{{\left( \frac{x-1}{x+1} \right)}^{2}}}\]：    .
+（9）\[y=\frac{\sqrt{{{x}^{2}}-2x-15}}{\left| x+3 \right|-8}\]：    .
+20.求下列函数的值域：
+（1）\[y=1-\frac{1}{x+2}\]：    .				（2）\[y=\frac{3}{2x}\]：    .
+（3）\[y=\frac{x+3}{x-3}\]：    .					（4）\[y=\frac{5x+3}{x-3}\]：    .
+（5）\[y=4+\sqrt{2x+1}\]：    .				（6）\[y=\sqrt{x-\frac{1}{2}{{x}^{2}}}\]：    .
+（7）\[y=\sqrt{-{{x}^{2}}+x+2}\]：    .			（8）\[y=\frac{2{{x}^{2}}+2x+3}{{{x}^{2}}+x+1}\]：    .
+2l.（1）若函数\[f\left( x \right)\]满足\[f\left( 2x \right)=\left( 1-\sqrt{2}x \right)\left( 1+\sqrt{2}x \right)\]，则\[f\left( x \right)=\]    .
+（2）若函数\[f\left( x \right)\]满足\[f\left( \sqrt{x}+1 \right)=x+2\sqrt{x}\]，则\[f\left( x \right)=\]    .
+（3）若函数\[f\left( x \right)\]满足\[f\left( \frac{1}{x} \right)=\frac{x}{1-{{x}^{2}}}\]，则\[f\left( x \right)=\]    .
+（4）若函数\[f\left( x \right)=2x+1\]，\[g\left( x \right)={{x}^{2}}+2\]，满足\[f\left( g\left( x \right) \right)=g\left( f\left( x \right) \right)\]，则\[x=\]    .
+（5）若函数\[f\left( x \right)\]满足\[f\left( x+1 \right)=2{{x}^{2}}+1\]，则\[f\left( x-1 \right)=\]    .
+（6）若一次函数\[f\left( x \right)\]满足\[f\left( f\left( x \right) \right)=1+2x\]，则\[f\left( x \right)=\]    .
+（7）若\[f\left( {{x}^{2}}-x \right)={{x}^{4}}-2{{x}^{3}}+{{x}^{2}}+1\]，则\[f\left( f\left( x \right) \right)=\]    .
+（8）若函数\[f\left( x \right)=\frac{x}{\sqrt{1+{{x}^{2}}}}\]，则\[f\left( f\left( x \right) \right)=\]      ，\[f\left( f\left( f\left( x \right) \right) \right)=\]    .
+
+22．若\[-b<a<0\]，且函数\[d\left( x \right)\]的定义域是\[\left[ a,b \right]\]，则函数\[F\left( x \right)=f\left( x \right)+f\left( -x \right)\]的定义域是（    ）
+（A）\[\left[ a,b \right]\]．    （B）\[\left[ -b,-a \right]\].		（C）\[\left[ -b,b \right]\].		（D）\[\left[ a,-a \right]\].
+23.若\[f\left( x \right)\]的定义域是\[\left[ 0,1 \right]\]，且\[f\left( x+m \right)+f\left( x-m \right)\]的定义域是\[\varnothing \]，则正数\[m\]的取值范围是（    ）
+（A）\[0<m<1\]．    （B）\[0<m\le \frac{1}{2}\].		（C）\[0<m<\frac{1}{2}\].		（D）\[m>\frac{1}{2}\].
+24．函数\[y=\frac{{{x}^{2}}-1}{{{x}^{2}}+1}\]的值域是（    ）
+（A）\[\left( -1,1 \right)\]．    （B）\[\left[ -1,1 \right]\].		（C）\[\left[ -1,1 \right)\].		（D）\[\left( -1,1 \right]\].
+25．若\[2{{x}^{2}}-3x\le 0\]，则函数\[f\left( x \right)={{x}^{2}}+x+1\]（    ）
+（A）有最小值\[\frac{3}{4}\]，但无最大值．				（B）有最小值\[\frac{3}{4}\]，有最大值1．
+（C）有最小值1有最大值\[\frac{19}{4}\].				（D）既无最小值，也无最大值.
+26．函数\[f\left( x \right)=\left| 1-x \right|-\left| x-3 \right|\left( x\in R \right)\]的值域是（    ）
+（A）\[\left[ -2,2 \right]\].		（B）\[\left[ -1,3 \right]\].		（C）\[\left[ -3,1 \right]\].		（D）\[\left[ 0,4 \right]\].
+27．（1）若函数\[f\left( x \right)\]的定义域是\[\left[ 0,1 \right]\]，分别求函数\[f\left( 1-2x \right)\]和\[f\left( x+a \right)\left( a>0 \right)\]的定义域.
+   （2）若函数\[f\left( x+1 \right)\]的定义域是\[\left[ -2,3 \right)\]，求函数\[f\left( \frac{1}{x}+2 \right)\]的定义域．
+28．求下列函数的值域：
+（1）\[y=\frac{2x}{{{x}^{2}}+x+1}\].			（2）\[y=\frac{{{x}^{2}}+x-1}{{{x}^{2}}+x+1}\].		（3）\[y=\frac{{{x}^{2}}-1}{{{x}^{2}}-5x+4}\].
+29．（1）若实数\[x,y\]满足\[3{{x}^{2}}+2{{y}^{2}}=6x\]，分别求\[x\]与\[{{x}^{2}}+{{y}^{2}}\]的取值范围．
+    （2）若实数\[x,y\]满足\[{{x}^{2}}+{{y}^{2}}=2x\]，求\[{{x}^{2}}-{{y}^{2}}\]的取值范围．
+30．求下列函数的值域：
+（1）\[y=3x-2+\sqrt{3-2x}\].
+（2）\[y=2x+\sqrt{2x-1}\].
+（3）\[y=\left( x-1 \right)\left( x-2 \right)\left( x-3 \right)\left( x-4 \right)+15\].
+31．（1）已知函数\[f\left( x \right)={{x}^{2}}-2x+3\]在\[\left[ 0,m \right]\]上有最大值3，最小值2，求正数\[m\]的取值范围．
+    （2）已知函数\[y={{x}^{2}}+mx-1\]在区间\[\left[ 0,3 \right]\]上有最小值-2，求实数\[m\]的值．
+    （3）当\[x\ge 0\]时，求函数\[f\left( x \right)={{x}^{2}}+2ax\]的最小值．
+32．  已知函数\[f\left( x \right)=\frac{ax}{2x+3}\left( x\ne -\frac{3}{2} \right)\]满足\[f\left( f\left( x \right) \right)=x\]，求实数\[a\]的值．
+33．  （1）已知\[f\left( x \right)\]是二次函数，且满足\[f\left( 2x \right)+f\left( 3x+1 \right)=13{{x}^{2}}+6x-1\]，求\[f\left( x \right)\]的表达式.
+    （2）已知函数\[f\left( x \right)\]的定义域是一切非零实数，且满足\[3f\left( x \right)+2f\left( \frac{1}{x} \right)=4x\]，求，\[f\left( x \right)\]的表达式．
+34．（l）作（画）出下列函数的图象：
+①\[y=1+\frac{\left| x \right|}{x}\]；②\[y=x-\left| 1-x \right|\]；③\[y=\left| {{x}^{2}}-4x+3 \right|\]；④\[y=\frac{{{x}^{3}}+x}{\left| x \right|}\]；⑤\[y={{\frac{\left( x+\frac{1}{2} \right)}{\left| x \right|-x}}^{0}}\].
+（2）已知\[f\left( x \right)=-{{x}^{2}}+2x+3\]，画出函数\[y=\frac{1}{2}\left[ f\left( x \right)+\left| f\left( x \right) \right| \right]\]的图象．
+（3）已知\[f\left( x \right)=\left| x \right|\]，\[x\in \left[ -1,1 \right]\]，作出函数\[y=f\left( x+1 \right)+1\]的图象．
+35.（1）将进货单价为40元的商品按每件50元出售时，每月能卖出500个，已知这批商品在销售单价的基础上每涨价1元，其月销售数就减少10个，为了每月赚取最大利润，销
+售单价应定为多少？
+（2）飞机飞行1时的耗费由两部分组成：固定部分4900元，变动部分\[P\]与飞机飞行速度\[v\]（千米/时）的函数关系是\[P=0.01{{v}^{2}}\]．已知甲、乙两地相距为一常数\[a\]（千米），试写出飞机从甲地飞到乙地的总耗费\[y\]与飞机速度\[v\]的函数关系式，并写出耗费最小时飞机的飞行速度．
+二、幂函数
+例1求证：函数\[f\left( x \right)={{x}^{3}}\]在\[x\in R\]上是增函数.
+例2已知奇函数\[y=f\left( x \right)\]在\[x<0\]时是减函数，求证：\[y=f\left( x \right)\]在\[x>0\]时也是减函数.
+例3已知\[f\left( x \right)\]是奇函数，且当\[x>0\]时\[f\left( x \right)=x\left( 1-x \right)\]，求\[f\left( x \right)\]在\[x<0\]时的表达式.
+例4已知函数\[y=f\left( x \right)\]满足\[f\left( x \right)=f\left( 4-x \right)\left( x\in R \right)\]，且\[f\left( x \right)\]在\[x>2\]时为增函数，记\[a=f\left( \frac{3}{5} \right)\]，\[b=f\left( \frac{6}{5} \right)\]，\[c=f\left( 4 \right)\]，则\[a,b,c\]之间的大小关系是（    ）
+（A）\[c>a>b\].		（B）\[c>b>a\].		（C）\[b>a>c\].		（D）\[a>c>d\].
+例5画出函数\[y={{x}^{2}}-2\left| x \right|-1\]的图象.
+例6求函数\[y=\frac{x-2}{2x+1}\]的值域.
+例7已知函数\[f\left( x \right)={{\left( x-1 \right)}^{2}}\left( x\le 1 \right)\]，又\[f\left( x \right)\]和\[\varphi \left( x \right)\]的图象关于直线\[y=x\]对称，求\[\varphi \left( x \right)\]的表达式.
+例8求实数\[m\]的范围，使关于\[x\]的方程\[{{x}^{2}}+2\left( m-1 \right)x+2m+6=0\]：
+（1）有两个实数根，且一个比2大，另一个比2小.
+（2）有两个实数根，且都比1大.
+（3）有两个实数根\[\alpha ,\beta \]，且满足\[0<\alpha <1<\beta <4\].
+（4）至少有一个正根.
+例9就参数\[m\]讨论方程\[{{x}^{2}}-2\left| x \right|-m=0\]的解的情况.
 【训练题】
+（一）分数指数幂与根式
 
-11.已知\[a<b\]，则下列各式中恒成立的是（    ）
-（A）\[{{a}^{2}}<{{b}^{2}}\]。	（B）\[c-a>c-b\]。	（C）\[\left| a \right|<\left| b \right|\]。	（D）\[a-1>b-2\]。
-12.若\[\left| x \right|>2\]，则（    ）
-（A）\[x>2\].							（B）\[x>\pm 2\].
-（C）\[-2<x<2\].						（D）\[x>2\]或\[x<-2\].
-13.不等式\[\left| x \right|-3<0\]的解集是（    ）
-（A）\[\left\{ \left. x \right|x<\pm 3 \right\}\].	（B）\[\left\{ \left. x \right|-3<x<3 \right\}\].	（C）\[\left\{ \left. x \right|x>3 \right\}\].	（D）\[\left\{ \left. x \right|x<-3 \right\}\].
-14.已知集合\[M=\left\{ \left. x \right|\left| x \right|>2 \right\},N=\left\{ \left. x \right|x<3 \right\}\]，则下列结论正确的是（    ）
-（A）\[M\bigcup N=M\].						（B）\[M\bigcap N=\left\{ \left. x \right|2<x<3 \right\}\].
-（C）\[M\bigcup N=R\].						（D）\[M\bigcap N=\left\{ \left. x \right|x<-2 \right\}\].
-15.已知集合\[M=\left\{ \left. x \right|\left| x+1 \right|\le 2 \right\},P=\left\{ \left. x \right| \right.x\le 2\]或\[\left. x\ge 3 \right\}\]，则\[M\]，\[P\]之间的关系是（    ）
-（A）\[M\supseteq P\].		（B）\[M\supset P\].		（C）\[M\subseteq P\].		（D）\[M\subset P\].
-16.已知\[\left| 1-x \right|+\sqrt{{{x}^{2}}-4x+4}=1\]，则\[x\]的取值范围是（    ）
-（A）\[1\le x\le 2\].		（B）\[x\le 1\].			（C）\[x<1\]或\[x>2\].	（D）\[x\ge 2\].
-17.不等式\[2x+3-{{x}^{2}}>0\]的解集是（    ）
-（A）\[\left\{ \left. x \right|-\frac{3}{2}\le x<1 \right\}\].					（B）\[\left\{ \left. x \right|-1<x<3 \right\}\].
-（C）\[\left\{ \left. x \right|1\le x<3 \right\}\].						（D）\[\left\{ \left. x \right|-\frac{3}{2}\le x<3 \right\}\].
-18.不等式\[6{{x}^{2}}+5x<4\]的解集是（    ）
-（A）\[\left\{ x\left| x<-\frac{4}{3}x>\frac{1}{2} \right. \right\}\].				 （B）\[\left\{ \left. x \right|-\frac{4}{3}<x<\frac{1}{2} \right\}.\].
-（C）\[\left\{ \left. x \right|-\frac{1}{2}<x<\frac{4}{3} \right\}.\].					 （D）\[\left\{ x\left| x<-\frac{1}{2}x>\frac{4}{3} \right. \right\}\].
-19.当\[a<0\]时，关于\[x\]的不等式\[{{x}^{2}}-4ax-5{{a}^{2}}>0\]的解集是（    ）
-（A）\[\left\{ x\left| x>5ax<-a \right. \right\}\].				  （B）\[\left\{ x\left| x<5ax>-a \right. \right\}\].
-（C）\[\left\{ \left. x \right|-a<x<5a \right\}.\]					  （D）\[\left\{ \left. x \right|5a<x<-a \right\}.\]
-20.若\[x\]为实数，则下列命题正确的是（    ）
-（A）\[{{x}^{2}}\ge 2\]的解集是\[\left\{ \left. x \right|x\ge \pm \sqrt{2} \right\}.\]
-（B）\[{{\left( x-1 \right)}^{2}}<2\]的解集是\[\left\{ \left. x \right|1-\sqrt{2}<x<1+\sqrt{2} \right\}.\]
-（C）\[{{x}^{2}}-9<0\]的解集是\[\left\{ \left. x \right|x<3 \right\}.\]
-（D）设\[{{x}_{1}},{{x}_{2}}\]为\[a{{x}^{2}}+bx+c=0\]的两个实根，且\[{{x}_{1}}>{{x}_{2}}\]，则\[a{{x}^{2}}+bx+c>0\]的解集是\[\left\{ \left. x \right|{{x}_{2}}<x<{{x}_{1}} \right\}.\]
-21.在“①\[{{x}^{2}}-2x-3<0\]与\[\frac{{{x}^{2}}-2x}{x-1}<\frac{3}{x-1}\]，②\[{{x}^{2}}+3x-4>0\]与\[{{x}^{2}}+3x+\sqrt{x}>4+\sqrt{x}\]，③\[\frac{\left( x+2 \right)\left( {{x}^{2}}-1 \right)}{x+2}>0\]与\[{{x}^{2}}-1>0\]”三组不等式中，解集相同的组数是（    ）
-（A）0.			（B）1.			（C）2.			（D）3.
-22.若\[{{x}^{2}}+x<0\]，则\[{{x}^{2}},x,-{{x}^{2}},-x\]的大小关系是（    ）
-（A）\[{{x}^{2}}>x>-{{x}^{2}}>-x.\]				（B）\[-x>{{x}^{2}}>-{{x}^{2}}>x.\]
-（C）\[-x>{{x}^{2}}>x>-{{x}^{2}}\]				（D）\[{{x}^{2}}>-x>x>-{{x}^{2}}\]
-23.直接写出下列不等式的解集：
-（1）\[{{\left( x-1 \right)}^{2}}>0\]：    .		（2）\[\left( 2-x \right)\left( 3x+1 \right)>0\]：____.
-（3）\[1-3{{x}^{2}}>2x\]：    .		（4）\[1-2x-{{x}^{2}}\ge 0\]：    .
-（5）\[x+\sqrt{x}-6<0\]：    .	（6）\[\frac{3x+4}{x-2}\ge 0\]：    .
-（7）\[\frac{4-2x}{1+3x}>0\]：    .		（8）\[\frac{1}{x}>x\]：    .	
-（9）\[{{x}^{2}}-2\left| x \right|-3>0\]：    .	（10）\[{{x}^{2}}-x-5>\left| 2x-1 \right|\]：    .
-24.（1）若\[\sqrt{{{x}^{2}}-x-6}\in R\]，则\[x\in \]    .	
-（2）要使代数式\[\frac{\sqrt{x-3}}{\sqrt{{{x}^{2}}-3x+2}}\]有意义，实数\[x\]的取值范围是    .
-（3）若代数式\[6{{x}^{2}}+x-2\]的值恒取非负实数，则实数\[x\]的取值范围是    .
-25.（1）不等式\[4\le {{x}^{2}}-3x<18\]的整数解集是    .
-（2）已知实数\[x\]满足\[4{{x}^{2}}-4x-15\le 0\]，化简\[\sqrt{{{x}^{2}}-8x+16}-\left| x-3 \right|\].
-26.已知\[a>b\]，直接写出下列不等式的解集．
-（1）\[\frac{x-a}{x-b}\ge 0\]：    .
-（2）\[\frac{x-a}{x-b}<0\]：    .
-（3）\[{{x}^{2}}-\left( a-b \right)x+ab>0\]：    .	
-（4）\[{{x}^{2}}-\left( a-b \right)x+ab<0\]：    .	
-27．（1）若关于\[x\]的方程\[2k{{x}^{2}}+\left( 8k+1 \right)x+8k=0\]有两个不等实根，则实数\[k\]的取值范围是    .	
-（2）若关于\[x\]的不等式\[a{{x}^{2}}-2ax+2a+3>0\]无实数解，则\[a\]的取值范围是    .（\[a\ne 0\]）．
+36.下列记数中，符合科学记数法的是（    ）
+（A）\[35.6\times {{10}^{-25}}\].		（B）\[0.356\times {{10}^{-23}}\].		（C）\[3.56\times {{10}^{-24}}\].		（D）\[356\times {{10}^{-26}}\].
+37.计算\[{{3}^{-1}}\times {{2}^{-2}}\div {{4}^{-2}}\]的结果是（    ）
+（A）\[\frac{1}{192}\].		（B）\[\frac{4}{3}\].		（C）\[\frac{1}{12}\].		（D）\[-\frac{4}{3}\].
+38.下列各式中，正确的是（  ）
+（A）\[{{\left( -1 \right)}^{0}}=-1\].					（B）\[{{\left( -1 \right)}^{-1}}=1\].
+（C）\[3{{a}^{-2}}=\frac{1}{3{{a}^{2}}}\].					（D）\[{{\left( -x \right)}^{5}}\div {{\left( -x \right)}^{3}}={{x}^{2}}\].
+39.下列各式中，计算正确的是（    ）
+（A）\[\left( -0.125 \right)\div {{\left( -0.5 \right)}^{-3}}=1\].
+（B）\[{{10}^{-4}}{{\left( \sqrt{5} \right)}^{0}}=-10000\].
+（C）\[{{\left( \frac{1}{3} \right)}^{0}}\div {{3}^{-1}}=3\].
+（D）\[{{\left( \sqrt{3}-\sqrt{2} \right)}^{0}}-{{\left( \sqrt{3} \right)}^{2}}-{{\left( -\sqrt{2} \right)}^{2}}=1-3+2=0\].
+40.化简\[\frac{1}{3}x\sqrt{9x}-{{x}^{2}}\sqrt{\frac{1}{x}}\]的结果是（   ）
+（A）\[\sqrt{x}\].		（B）\[x\left( 1-{{x}^{2}} \right)\sqrt{x}\].		（C）\[{{x}^{2}}\left( 1-x\sqrt{x} \right)\].		（D）0.
+41.化简\[\frac{{{a}^{-2}}-{{b}^{-2}}}{{{a}^{2}}-{{b}^{2}}}\]的结果是（   ）
+（A）-1.		（B）\[-\frac{1}{{{a}^{2}}{{b}^{2}}}\].		（C）\[{{a}^{-1}}+{{b}^{-1}}\].		（D）\[\frac{1}{{{a}^{2}}{{b}^{2}}}\].
+42.已知\[x=1-{{2}^{s}}\]，\[y=1-{{2}^{-s}}\]，则\[y\]等于（   ）
+（A）\[\frac{x-1}{x}\].		（B）\[\frac{2-x}{1-x}\].		（C）\[\frac{x}{x-1}\].		（D）\[\frac{x-2}{x-1}\].
+43.计算\[\sqrt{{{\left( 3-\pi  \right)}^{2}}}\]的结果是（    ）
+（A）\[3-\pi \].		（B）\[\pi -3\].		（C）\[\pi +3\].		（D）\[-\pi -3\].
+44.若\[{{\left( \sqrt[n]{-3} \right)}^{n}}\]有意义，则\[n\]一定是（    ）
+（A）正偶数.		（B）自然数.		（C）正奇数.		（D）整数.
+45.在“①\[\sqrt[4]{{{\left( -4 \right)}^{2n}}}\]，②\[\sqrt[4]{{{\left( -4 \right)}^{2n+1}}}\]，③\[\sqrt[5]{-{{x}^{2}}}\]，④\[\sqrt[5]{-{{x}^{2}}}\left( n\in N \right)\]”这四个式子中，有意义的（    ）
+（A）是①②③④.		（B）只有③④.		（C）只有①③④.		（D）只有④.
+46.若\[\sqrt[4]{4{{a}^{2}}-4a+1}=\sqrt[3]{1-2a}\]，则实数\[a\]的取值范围是（    ）
+（A）\[a<2\].		（B）\[a=\frac{1}{2}\]或0.		（C）\[a>\frac{1}{2}\].		（D）\[R\].
+47.在“①\[{{0}^{-1}}\]，②\[{{0}^{-\frac{1}{2}}}\]，③\[{{0}^{0}}\]，④\[{{0}^{0.2}}\]”这四个式子中，有意义的个数是（   ）
+（A）0.		（B）1.		（C）2.		（D）3.
+48.下列各式中正确的是（    ）
+（A）\[-{{4}^{0}}=1\].		（B）\[{{\left( {{5}^{-\frac{1}{2}}} \right)}^{2}}=5\].		（C）\[{{\left( -{{3}^{m-n}} \right)}^{2}}={{9}^{m-n}}\].		（D）\[{{\left( -2 \right)}^{-1}}=\frac{1}{2}\].
+49.计算\[{{\left[ {{\left( -3 \right)}^{2}} \right]}^{\frac{1}{2}}}-{{\left( -10 \right)}^{0}}\]的值等于（    ）
+（A）-2.		（B）2.		（C）-4.		（D）4.
+50.下列计算中正确的是（    ）
+（A）\[{{a}^{\frac{8}{3}}}\cdot {{a}^{\frac{3}{8}}}=a\].		（B）\[{{a}^{\frac{8}{3}}}\cdot {{a}^{-\frac{8}{3}}}=0\].		（C）\[{{a}^{\frac{8}{3}}}\div {{a}^{\frac{1}{3}}}={{a}^{8}}\].		（D）\[{{a}^{\frac{1}{2}}}\div {{a}^{\frac{1}{3}}}={{a}^{\frac{1}{6}}}\].
+51.下列计算中正确的是（   ）
+（A）\[{{a}^{\frac{3}{4}}}\cdot {{a}^{\frac{4}{3}}}=a\].		（B）\[{{a}^{\frac{3}{4}}}\div {{a}^{\frac{3}{4}}}=a\].		（C）\[{{a}^{-4}}\div {{a}^{4}}=0\].		（D）\[{{\left( {{a}^{\frac{3}{4}}} \right)}^{\frac{4}{3}}}=a\].
+52.化简\[\left( {{a}^{\frac{2}{3}}}{{b}^{\frac{1}{2}}} \right)\left( -3{{a}^{\frac{1}{2}}}{{b}^{\frac{1}{3}}} \right)\div \left( \frac{1}{3}{{a}^{\frac{1}{6}}}{{b}^{\frac{5}{6}}} \right)\]的结果是（   ）
+（A）\[6a\].		（B）\[-a\].		（C）\[-9a\].		（D）\[9a\].
+53.将\[\sqrt[3]{-2\sqrt{2}}\]化成不含根号的式子是（   ）
+（A）\[-{{2}^{\frac{1}{2}}}\].		（B）\[-{{2}^{-\frac{1}{2}}}\].		（C）\[-{{2}^{\frac{1}{3}}}\].		（D）\[-{{2}^{\frac{2}{3}}}\].
+54.将\[{{\left( {{a}^{\frac{1}{n}}}+{{b}^{\frac{1}{n}}} \right)}^{\frac{1}{3}}}\]表示成根式的形式是（   ）
+（A）\[\sqrt[3]{{{a}^{\frac{1}{n}}}+{{b}^{\frac{1}{n}}}}\].		（B）\[{{\left( \sqrt[n]{a}+\sqrt[n]{b} \right)}^{\frac{1}{3}}}\].		（C）\[\sqrt[3]{\sqrt[n]{a}+\sqrt[n]{b}}\].		（D）\[{{\left( \sqrt[n]{a}+\sqrt[n]{b} \right)}^{3}}\].
+55.计算下列各式：
+（1）\[\sqrt{12}-\sqrt{3}\div \left( 2+\sqrt{3} \right)=\]    .
+（2）\[\left( \sqrt{12}-\sqrt{\frac{1}{2}}-2\sqrt{\frac{1}{3}} \right)-\left( \sqrt{\frac{1}{8}}-\sqrt{18} \right)=\]    .
+（3）\[{{\left( \sqrt{3}+2 \right)}^{1997}}\times {{\left( \sqrt{3}-2 \right)}^{1988}}=\]    .
+（4）\[\frac{2\sqrt{10}-5}{4-\sqrt{1}0}=\]    .
+（5）\[4\sqrt{\frac{2}{5}}-\sqrt{1000}+2\sqrt{10}=\]    .
+（6）\[\frac{1}{{{\left( 2+\sqrt{3} \right)}^{2}}}+\frac{1}{{{\left( 2-\sqrt{3} \right)}^{2}}}=\]    .
+（7）\[\frac{1}{1+\sqrt{2}+\sqrt{3}}+\frac{1}{1-\sqrt{2}+\sqrt{3}}=\]    .
+56.将下列各式改写成不含分数指数幂的根式形式（要求分母不含有根式形式）：
+（1）\[3{{x}^{-\frac{3}{2}}}=\]    .				（2）\[{{a}^{\frac{1}{2}}}\cdot {{b}^{-\frac{1}{2}}}=\]    .
+（3）\[{{\left( a+b \right)}^{\frac{1}{2}}}\cdot {{\left( a-b \right)}^{-\frac{4}{3}}}=\]    .
+57.将下列根式改写成分数指数幂的形式：
+（1）\[\sqrt[4]{{{a}^{3}}}=\]    .			（2）\[\sqrt[5]{{{b}^{8}}}=\]    .
+（3）\[\sqrt[4]{{{x}^{2}}+{{y}^{2}}}=\]    .		（4）\[\frac{\sqrt{x}}{\sqrt[3]{{{y}^{4}}}}=\]    .
+（5）\[\sqrt{2\sqrt{2}}=\]    .			（6）\[-\frac{1}{\sqrt{27x}}=\]    .
+（7）\[\sqrt{\frac{4}{3a{{b}^{3}}}}=\]    .			（8）\[2\sqrt[6]{{{\left( m-n \right)}^{-2}}}=\]    \[\left( m<n \right)\].
+58.判断下列命题是否正确：
+（1）\[{{2}^{\frac{3}{2}}}\cdot {{2}^{\frac{2}{3}}}=2\]：    .
+（2）\[{{\left( \frac{1}{8} \right)}^{-\frac{1}{2}}}=-2\sqrt{2}\]：    .
+（3）若\[a\in R\]，则\[{{\left( a-1 \right)}^{0}}=1\]：    .
+（4）\[{{a}^{x}}+{{a}^{y}}={{a}^{x+y}}\]：    .
+（5）\[\sqrt[3]{-5}=\sqrt[6]{{{\left( -5 \right)}^{2}}}=\sqrt[6]{25}\]：    .
+59.计算下列各式：
+（1）\[{{\left( \frac{81}{625} \right)}^{-\frac{3}{4}}}=\]    .
+（2）\[{{\left( 0.064 \right)}^{-\frac{1}{3}}}=\]    .
+（3）\[{{\left( 2\sqrt{2} \right)}^{-\frac{1}{3}}}=\]    .
+（4）\[{{\left[ {{\left( -3 \right)}^{2}} \right]}^{\frac{3}{2}}}=\]    .
+（5）\[{{\left( -0.027 \right)}^{-\frac{2}{3}}}=\]    .
+（6）\[{{\left( -0.001 \right)}^{-\frac{4}{3}}}=\]    .
+（7）\[{{5}^{\frac{4}{5}}}\times 125\times {{25}^{-0.4}}=\]    .
+（8）\[{{\left( 8+2\times {{15}^{\frac{1}{2}}} \right)}^{\frac{1}{2}}}=\]    .
+（9）\[{{\left( 4-{{12}^{\frac{1}{2}}} \right)}^{\frac{1}{2}}}=\]    .
+（10）\[{{\left( 0.25 \right)}^{-0.5}}+{{\left( \frac{1}{27} \right)}^{-\frac{1}{3}}}-{{625}^{0.25}}=\]    .
+60.化简下列各式：
+（1）\[2{{x}^{-\frac{1}{3}}}\left( \frac{1}{2}{{x}^{\frac{1}{3}}}-2{{x}^{-\frac{2}{3}}} \right)-{{\left( -3.5 \right)}^{0}}=\]    .
+（2）\[\left( {{x}^{\frac{1}{3}}}+{{y}^{\frac{1}{3}}} \right)\left( {{x}^{\frac{2}{3}}}-{{x}^{\frac{1}{3}}}{{y}^{\frac{1}{3}}}+{{y}^{\frac{2}{3}}} \right)=\]    .
+（3）\[\left( \frac{{{b}^{3}}}{2{{a}^{2}}} \right)\div \left( -\frac{4{{b}^{3}}}{{{a}^{-7}}} \right)\times {{\left( -\frac{{{b}^{2}}}{a} \right)}^{3}}=\]    .
+（4）\[\left( 2{{a}^{\frac{1}{4}}}{{b}^{-\frac{1}{3}}} \right)\left( -3{{a}^{-\frac{1}{2}}}{{b}^{\frac{2}{3}}} \right)\div \left( -\frac{1}{4}{{a}^{-\frac{1}{4}}}{{b}^{-\frac{2}{3}}} \right)=\]    .
 
-28．不等式\[\frac{x-1}{2x}\le 1\]的解集是（  ）
-（A）\[\left\{ x\left| x\ge -1 \right. \right\}\]	.							（B）\[\left\{ x\left| x\le -1 \right. \right\}\].
-（C）\[\left\{ x\left| -1\le x<0 \right. \right\}\].							（D）\[\left\{ x\left| x\le -1x>0 \right. \right\}\].
-29．若关于\[x\]的二次不等式\[m{{x}^{2}}+8mx+21<0\]的解集是\[\left\{ x\left| -1<x<-1 \right. \right\}\]，则实数\[m\]的值等于（  ）
-（A）1.				（B）2.				（C）3.				（D）4.
-30．若关于\[x\]的不等式\[\left( {{a}^{2}}-3 \right){{x}^{2}}+5x-2>0\]的解集是\[\left\{ x\left| \frac{1}{2}<x<2 \right. \right\}\]，则实数\[a\]的值等于（  ）
-（A）1.				（B）-1.				（C）\[\pm 1\].				（D）0
-31．若关于\[x\]的不等式\[a{{x}^{2}}+bx+c<0\left( a\ne 0 \right)\]的解集是空集，则（  ）
-（A）\[a<0\]且\[{{b}^{2}}-4ac>0\]．				（B）\[a<0\]且\[{{b}^{2}}-4ac\le 0\]．
-（C）\[a>0\]且\[{{b}^{2}}-4ac\le 0\]．				（D）\[a>0\]且\[{{b}^{2}}-4ac>0\]．
-32．若对任何实数\[x\]，二次函数\[y=a{{x}^{2}}-x+c\]的值恒为负，则\[a,c\]应满足（  ） 
-（A）\[\left\{ \begin{matrix}
-   a>0,  \\
-   ac\le \frac{1}{4}.  \\
-\end{matrix} \right.\]		（B）\[\left\{ \begin{matrix}
-   a<0,  \\
-   ac<\frac{1}{4}.  \\
-\end{matrix} \right.\]	（C）\[\left\{ \begin{matrix}
-   a<0,  \\
-   ac>\frac{1}{4}.  \\
-\end{matrix} \right.\]		（D）\[\left\{ \begin{matrix}
-   a<0,  \\
-   ac<0.  \\
-\end{matrix} \right.\]
-33．若对任意实数\[x\]，不等式\[{{x}^{2}}+2\left( 1+k \right)x+3+k>0\]恒成立，则\[k\]的取值范围是（    ）
-（A）\[-1<k<2\].		（B）\[-1\le k\le 2\].	（C）\[-2<k<1\].		（D）\[-2\le k\le 1\].
-34．若关于\[x\]的二次方程\[2\left( k+1 \right){{x}^{2}}+4kx+3k-2=0\]的两根同号，则\[k\]的取值范围是（    ）
-（A）\[-2<k<1\].							（B）\[-2\le k<-1\]或\[\frac{2}{3}<k\le 1\].
-（C）\[k<-1\]或\[k>\frac{2}{3}\]						（D）\[-2<k<1\]或\[\frac{2}{3}<k<1\]
-35．已知关于\[x\]的方程\[\left( m+3 \right){{x}^{2}}-4mx+2m-1=0\]的两根异号，且负根的绝对值比根大，那么实数\[m\]的取值范围是（    ）
-（A）\[-3<m<0\].						（B）\[0<m<3\].
-（C）\[m<-3\]或\[m>0\].					（D）\[m<0\]或\[m>3\].
-36．若\[\alpha ,\beta \]芦是关于\[x\]的方程\[{{x}^{2}}-\left( k-2 \right)x+{{k}^{2}}+3k+5=0\]（\[k\]为实数）的两个实根，则\[{{\alpha }^{2}}+{{\beta }^{2}}\]的最大值等于（    ）
-（A）19.			（B）18.		（C）\[\frac{50}{9}\].		（D）-6
-37．不等式\[\left( x-1 \right)\left( x-2 \right)\left( x-3 \right)\left( x-4 \right)>120\]的解为（    ）
-（A）\[x>6\].    （B）\[x<-1\]或\[x>6\].  （C）\[x<-1\].    （D）\[-1<x<6\].
-38．在三个关于\[x\]的方程\[{{x}^{2}}-ax+4=0\]，\[{{x}^{2}}+\left( a-1 \right)x+16=0\]和\[{{x}^{2}}+2ax+3a+10=0\]中，已知至少有一个方程有实根，则实数\[a\]的取值范围是（    ）
-（A）\[-4\le a\le 4\].    （B）\[-2<a<4\].    （C）\[a\le -2\]或\[a\ge 4\].  （D）\[a<0\].
-39．（1）若关于\[x\]的二次方程\[{{x}^{2}}-2mx+4x+2{{m}^{2}}-4m-2=0\]有实根，则其两根之积的最大值等于    .
-（2）使关于\[x\]的方程\[{{x}^{2}}-kx+2k-3=0\]的两实根的平方和取最小值，实数\[k\]的值等于    .
-40．（1）若关于\[x\]的不等式\[{{x}^{2}}-mx+n\le 0\]的解集是\[\left\{ x\left| -5\le x\le 1 \right. \right\}\]，则实数\[m=\]    ，\[n=\]    ．
- （2）若关于\[x\]的不等式\[a{{x}^{2}}+bx+1\ge 0\]的解集是\[\left\{ x\left| -5\le x\le 1 \right. \right\}\]，则实数\[a=\]    ，
-\[b=\]    ．
-（3）若关于\[x\]的不等式\[a{{x}^{2}}+bx+2>0\]的解集是\[\left\{ x\left| -\frac{1}{2}<x<\frac{1}{3} \right. \right\}\]，则实数\[a=\]    ，\[b=\]    ．
-（4）若关于\[x\]的不等式\[a{{x}^{2}}+bx-6>0\]的解集是\[\left\{ x\left| 2<x<3 \right. \right\}\]，则实数\[a=\]    ，\[b=\]    ．
-41．（1）若关于\[x\]的不等式\[\left( a+b \right)x+\left( 2a-3b \right)<0\]的解集是\[\left\{ x\left| x>3 \right. \right\}\]，则不等式\[\left( a-3b \right)x+b-2a>0\]的解集是    ．
-（2）若关于\[x\]的不等式\[a{{x}^{2}}+bx+c<0\]的解集是\[\left\{ x\left| x<-2x>-\frac{1}{2} \right. \right\}\]，则关于\[x\]的不等式\[a{{x}^{2}}-bx+c>0\]的解集是    ．
-42．（1）解不等式\[{{x}^{1}}-2{{x}^{2}}+1>{{x}^{2}}-1\]．
- （2）已知关于\[x\]的不等式\[k{{x}^{2}}-2x+6k<0\left( k\ne 0 \right)\]．
-①若不等式的解集是\[\left\{ x\left| x<-3x>-2 \right. \right\}\],求实数\[k\]的值；
-②若不等式的解集是\[\left\{ x\left| x\ne \frac{1}{k} \right. \right\}\]，求实数\[k\]的值；
-③若不等式的解集是实数集，求实数\[k\]的值．
-43．（1）已知关于\[x\]的方程\[m\left( x-1 \right)=3\left( x+2 \right)\]的解是正实数，求实数\[m\]的取值范围．
-（2）已知关于\[x\]的方程\[\frac{1}{4}{{x}^{2}}-kx+5k-6=0\]无实数解，求实数\[k\]的取值范围．
-（3）已知关于\[x\]的方程\[k{{x}^{2}}-\left( 3k-1 \right)x+k=0\]有两个正实数根，求实数\[k\]的取值范围．
-44．（1）已知集合\[M=\left\{ x\left| {{x}^{2}}-7x+10\le 0 \right. \right\}\]，\[N=\left\{ x\left| {{x}^{2}}-\left( 2-m \right)x+5-m\le 0 \right. \right\}\]，且\[N\subseteq M\]，求实数\[m\]的取值范围．
-（2）已知集合\[A=\left\{ x\left| {{x}^{2}}+4x+p<0 \right. \right\}\]，\[B=\left\{ x\left| {{x}^{2}}-x-2>0 \right. \right\}\]，且\[A\subseteq B\]求实数\[p\]的取值范围．
-（3）已知集合\[A=\left\{ x\left| {{x}^{2}}+ax+1\le 0 \right. \right\}\]，\[B=\left\{ x\left| {{x}^{2}}-3x+2\le 0 \right. \right\}\]，且\[A\subseteq B\]，求实数\[a\]的取值范围.
-45.（1）已知集合\[A=\left\{ x\left| {{x}^{2}}-2x-3\le 0 \right. \right\}\]，\[B=\left\{ x\left| {{x}^{2}}+px+q<0 \right. \right\}\]，且\[A\cap B=\left\{ x\left| -1\le x<2 \right. \right\}\]，求实数\[p,q\]的关系式及其取值范围．
-（2）已知集合\[A=\left\{ x\left| -2<x<-1x>\frac{1}{2} \right. \right\}\]，\[B=\left\{ x\left| {{x}^{2}}+ax+b\le 0 \right. \right\}\]，且\[A\cup B=\left\{ x\left| x+2>0 \right. \right\}\]，\[A\cap B=\left\{ x\left| \frac{1}{2}<x\le 3 \right. \right\}\]，求\[a,b\]的值．
-46．（1）要使代数式\[m{{x}^{2}}+\left( m-1 \right)x+\left( m-1 \right)\]的值恒为负值，求实数\[m\]的取值范围．
-（2）已知关于\[x\]的不等式\[\left( {{a}^{2}}-4 \right){{x}^{2}}+\left( a+2 \right)x-1\ge 0\]的解集是空集，求实数\[a\]的取值范围．
-（3）若关于\[x\]的不等式\[\frac{{{x}^{2}}-8x+20}{m{{x}^{2}}+2\left( m+1 \right)x+9m+4}<0\]的解集为\[R\]，求实数\[m\]的取值范围．
-（4）当\[0{}^\circ <\varphi <90{}^\circ \]时，要使\[\frac{{{x}^{2}}-6x+8}{{{x}^{2}}+2}=\sin \varphi \]成立，求实数\[x\]的取值范围.
-（5）既要使关于\[x\]的不等式\[{{x}^{2}}+\left( m-\frac{1}{2} \right)x-\frac{7}{16}\le 0\]有实数解，又要使关于\[x\]的方程\[\left( 2m+3 \right){{x}^{2}}+mx+\frac{m-2}{4}=0\]有实数解，求实数\[m\]的取值范围.
-47．为长\[80cm\]、宽\[60cm\]的工作台做一块台布，使台布的面积是台面面积的两倍以上，并使台子四边垂下的长度相等，问：乖下的长度至少是多少（精确到\[0.1cm\]）?
-48．已知非零实数\[x,y,z\]，满足\[x+y+z=xyz\]，\[{{x}^{2}}=yz\]，求证：\[{{x}^{2}}\ge 3\]．
-例1已知\[a+b\ge 0\]，求证：\[{{a}^{3}}+{{b}^{3}}\ge {{a}^{2}}b+a{{b}^{2}}\].
-例2设\[a,b\in {{R}^{+}}\]，且\[a\ne b\]，求证：\[{{a}^{a}}{{b}^{b}}>{{a}^{b}}{{b}^{a}}\].
-例3（1）已知\[a,b,c\in R\]，求证：\[{{a}^{2}}+{{b}^{2}}+{{c}^{2}}\ge ab+bc+ca\].
-（2）已知\[a,b,c>0\]，求证：
-①\[\left( a+b \right)\left( \frac{1}{a}+\frac{1}{b} \right)\ge 4\]；②\[\left( a+b+c \right)\left( \frac{1}{a}+\frac{1}{b}+\frac{1}{c} \right)\ge 9\].
-例4已知正数\[a,b\]满足\[a+b=1\]，求证：\[\sqrt{2a+1}+\sqrt{2b+1}\le 2\sqrt{2}\].
-例5已知\[\alpha ,\beta \in \left( 0,\frac{\pi }{2} \right)\]，且\[\alpha \ne \beta \]，求证：\[\tan \alpha +\tan \beta >2\tan \frac{\alpha +\beta }{2}\].
-例6记\[f\left( x \right)={{x}^{2}}+ax+b\]，求证：\[\left| f\left( 1 \right) \right|,\left| f\left( 2 \right) \right|,\left| f\left( 3 \right) \right|\]中至少有一个不小于\[\frac{1}{2}\].
-例7已知\[-1\le x\le 1\]，\[n\ge 2\]，\[n\in N\]，求证：\[{{\left( 1-x \right)}^{n}}+{{\left( 1+x \right)}^{n}}\le {{2}^{n}}\].
-例8已知\[x+2y+3z=12\]，求证：\[{{x}^{2}}+2{{y}^{2}}+3{{z}^{2}}\ge 24\].
-例9已知\[a,b,c\in {{R}^{+}}\]，求证：\[{{a}^{3}}+{{b}^{3}}+{{c}^{3}}\ge 3abc\]（当且仅当\[a=b=c\]时取等号）.
-例10已知\[a>0\]，求证：\[x+\frac{1}{x}+\frac{1}{x+\frac{1}{x}}\ge \frac{5}{2}\].
-例11已知实数\[a,b,c\]满足\[a+b+c=0\]和\[abc=2\]，求证：\[a,b,c\]中至少有一个不小于2.
-例12已知\[0<a<1\]，\[0<b<1\]，求证：\[\sqrt{{{a}^{2}}+{{b}^{2}}}+\sqrt{{{\left( a-1 \right)}^{2}}+{{b}^{2}}}+\sqrt{{{a}^{2}}+{{\left( b-1 \right)}^{2}}}+\sqrt{{{\left( a+1 \right)}^{2}}+{{\left( b-1 \right)}^{2}}}\ge 2\sqrt{2}\].
-例13已知实数\[x,y,z\]不全为零，求证：\[\sqrt{{{x}^{2}}+xy+{{y}^{2}}}+\sqrt{{{x}^{2}}+yz+{{z}^{2}}}+\sqrt{{{z}^{2}}+zx+{{x}^{2}}}>\frac{3}{2}\left( x+y+z \right)\].
-例14已知\[x\ge 0\]，\[y\ge 0\]，求证：\[\frac{1}{2}{{\left( x+y \right)}^{2}}+\frac{1}{4}\left( x+y \right)\ge x\sqrt{y}+y\sqrt{x}\].
-例15求证：\[1+\frac{1}{4}+\frac{1}{9}+\frac{1}{16}+\cdot \cdot \cdot +\frac{1}{{{n}^{2}}}<\frac{7}{4}\left( n\in N \right)\].
-例16已知\[x>0,y>0,a,b\]是正常数，且满足\[\frac{a}{x}+\frac{b}{y}=1\]，求证：\[x+y\ge {{\left( \sqrt{a}+\sqrt{b} \right)}^{2}}\].
-例17（1）已知正数\[a,b\]满足\[{{a}^{2}}b=1\]，求\[a+b\]的最小值.
-（2）求\[{{\sin }^{2}}\alpha {{\cos }^{2}}\alpha +\frac{1}{{{\sin }^{2}}\alpha {{\cos }^{2}}\alpha }\]的最小值.
-例18已知直角三角形的周长为定值\[l\]，求它面积的最大值.
-例19已知圆柱的体积为定值\[V\]，求圆柱全面积的最小值.
-例20从半径为\[R\]的圆形铁片里剪去一个扇形，然后把剩下部分卷成一个圆锥形漏斗，要使漏斗有最大容量，剪去扇形的圆心角\[\theta \]应是多少弧度？
-例21在\[Rt\Delta ABC\]，已知\[\angle C=90{}^\circ \]，\[\angle A,\angle B,\angle C\]的对边\[a,b,c\]满足\[a+b=cx\].设\[\Delta ABC\]绕直线\[AB\]旋转一周所得的旋转体的侧面积为\[{{S}_{1}}\]，\[\Delta ABC\]的内切圆面积为\[{{S}_{2}}\].求：
-（1）函数\[f\left( x \right)=\frac{{{S}_{1}}}{{{S}_{2}}}\]的解析式和定义域.
-（2）函数\[f\left( x \right)\]的最小值.
-【训练题】
-（一）比较法
+61.若\[a={{1.5}^{-\frac{1}{2}}}\]，\[b={{0.5}^{-\frac{1}{2}}}\]，\[c=1\]，则它们的大小顺序是（    ）
+（A）\[a<c<b\].		（B）\[a<b<c\].		（C）\[c<b<a\].		（D）\[b<c<a\].
+62.（1）若\[a=\frac{1}{\sqrt{2}}\]，\[b=\frac{1}{\sqrt[3]{2}}\]，则\[{{\left[ {{a}^{-\frac{3}{2}}}b{{\left( a{{b}^{-2}} \right)}^{-\frac{1}{2}}}{{\left( {{a}^{-1}} \right)}^{-\frac{2}{3}}} \right]}^{3}}=\]    .
+（2）若\[{{a}^{\frac{1}{2}}}+{{a}^{-\frac{1}{2}}}=2\]，则：①\[a+{{a}^{-1}}=\]    ；②\[{{a}^{2}}+{{a}^{-2}}=\]    ；③\[{{a}^{4}}+{{a}^{-4}}=\]    .
+（3）若\[{{10}^{\alpha }}={{2}^{-\frac{1}{2}}}\]，\[{{10}^{\beta }}=\sqrt[3]{32}\]，则\[{{10}^{2\alpha -\frac{3}{4}\beta }}=\]    .
+63.计算下列各式：
+（1）\[{{\left( \frac{1}{125} \right)}^{-\frac{1}{3}}}+{{\left( -2 \right)}^{-2}}+{{\left( -2 \right)}^{0}}\].
+（2）\[{{\left( 2\frac{7}{9} \right)}^{\frac{1}{2}}}-{{\left( -0.027 \right)}^{-\frac{1}{3}}}-{{\left( -\sqrt{3} \right)}^{-2}}+{{\pi }^{0}}\].
+（3）\[5-3\times \left[ {{\left( -3\frac{3}{8} \right)}^{-\frac{1}{3}}}+1031\times \left( 0.25-{{2}^{-2}} \right) \right]\div {{9}^{0}}\].
+（4）\[{{\left( 0.027 \right)}^{\frac{1}{3}}}-{{\left( -\frac{1}{6} \right)}^{-2}}+{{256}^{0.75}}-\left| -{{3}^{-1}} \right|+{{\left( -5.555 \right)}^{0}}\].
+（5）\[{{\left( 2.25 \right)}^{0.5}}+{{\left( -4.3 \right)}^{0}}-{{\left( 3\frac{3}{8} \right)}^{-\frac{2}{3}}}+\frac{{{3}^{-2}}-{{2}^{-2}}}{{{3}^{-1}}-{{2}^{-1}}}\].
+（6）\[{{\left( 0.25 \right)}^{-2}}+{{\left( \frac{8}{27} \right)}^{\frac{1}{3}}}+{{\left( \frac{1}{8} \right)}^{-\frac{2}{3}}}-{{\left( \frac{1}{16} \right)}^{-0.75}}\].
+64.计算或化简下列各式：
+（1）\[\sqrt[3]{{{m}^{\frac{9}{2}}}\cdot \sqrt{{{m}^{-3}}}}\div \sqrt{\sqrt[3]{{{m}^{-7}}}}\cdot \sqrt[3]{{{m}^{13}}}\left( m>0 \right)\].
+（2）\[\left( x-y \right)\div \left( {{x}^{\frac{1}{2}}}+{{y}^{\frac{1}{2}}} \right)-\left( x+y-2{{x}^{\frac{1}{2}}}{{y}^{\frac{1}{2}}} \right)\div \left( {{x}^{\frac{1}{2}}}-{{y}^{\frac{1}{2}}} \right)\left( x>y>0 \right)\].
+（3）\[{{\left( 8{{y}^{-\frac{1}{3}}}\sqrt{{{x}^{-\frac{1}{3}}}y\sqrt{{{x}^{\frac{4}{3}}}}} \right)}^{\frac{1}{3}}}\].
+（4）\[\frac{x+y}{\sqrt{x}+\sqrt{y}}+\frac{2xy}{x\sqrt{y}+y\sqrt{x}}\].
+（5）\[\left( 5+\sqrt{6}+\sqrt{10}+\sqrt{15} \right)\div \left( \sqrt{2}+\sqrt{3}+\sqrt{5} \right)\].
+（6）\[{{\left( 2+{{3}^{\frac{1}{2}}} \right)}^{\frac{1}{2}}}\times {{\left[ 2+{{\left( 2+{{3}^{\frac{1}{2}}} \right)}^{\frac{1}{2}}} \right]}^{\frac{1}{2}}}\]\[\times {{\left\{ 2+{{\left[ 2+{{\left( 2+{{3}^{\frac{1}{2}}} \right)}^{\frac{1}{2}}} \right]}^{\frac{1}{2}}} \right\}}^{{}}}^{\frac{1}{2}}\]
 
 
-49．用比较法证明以下各题：
-（1）已知\[a>0\]，\[b>0\]，求证：\[\frac{1}{a}+\frac{1}{b}\ge \frac{2}{\sqrt{ab}}\]．
-（2）已知\[a>0\]，\[b>0\]，求证：\[\frac{b}{\sqrt{a}}+\frac{a}{\sqrt{b}}\ge \sqrt{a}+\sqrt{b}\].
-（3）已知\[a>0\]，\[b>0\]，求证：\[{{a}^{2}}+{{b}^{2}}\ge \left( a+b \right)\sqrt{ab}\].
-（4）已知\[0<x<1\]，求证：\[\frac{{{a}^{2}}}{x}+\frac{{{b}^{2}}}{1-x}\ge {{\left( a+b \right)}^{2}}\]．
-50．（1）已知\[a\ge 0\]，\[b\ge 0\]，求证：\[{{a}^{3}}+{{b}^{3}}\ge {{a}^{2}}b+{{b}^{2}}a\].
-   （2）已知\[x\in {{R}^{+}}\]，\[y\in {{R}^{+}}\]，\[n\in N\]，求证：\[{{x}^{n+1}}+{{y}^{n+1}}\ge {{x}^{n}}y+x{{y}^{n}}\]．
-51．（1）已知\[a>0\]，\[b>0\]，\[c>0\]，求证：\[a\left( {{b}^{2}}+{{c}^{2}} \right)+b\left( {{c}^{2}}+{{a}^{2}} \right)+c\left( {{a}^{2}}+{{b}^{2}} \right)\ge 6abc\].
-   （2）求证：\[{{a}^{5}}+{{b}^{5}}\ge \frac{1}{2}\left( {{a}^{3}}+{{b}^{3}} \right)\left( {{a}^{2}}+{{b}^{2}} \right)\left( a>0,b>0 \right)\]．
+\[\times {{\left\{ 2-{{\left[ 2+{{\left( 2+{{3}^{\frac{1}{2}}} \right)}^{\frac{1}{2}}} \right]}^{\frac{1}{2}}} \right\}}^{\frac{1}{2}}}\].
 
-52．（1）求证：\[{{a}^{2}}+{{b}^{2}}+{{c}^{2}}\ge ab+bc+ca\]（\[a,b,c\]是实数）．
-   （2）已知\[a>b>c\]，求证：\[{{a}^{2}}b+{{b}^{2}}c+{{c}^{2}}a>a{{b}^{2}}+b{{c}^{2}}+c{{a}^{2}}\].
-53. 在\[\Delta ABC\]中，记\[a,b,c\]分别是角\[A,B,C\]的对边，\[S\]是\[\Delta ABC\]的面积，求证：\[{{c}^{2}}-{{a}^{2}}-{{b}^{2}}+4ab\ge 4\sqrt{3}S\]．
-54．设\[a,b\in N\]，则\[\sqrt{2}\]在\[\frac{b}{a}\]与\[\frac{2a+b}{a+b}\]之间．
-55. 已知\[a,b,c\]都是正数，求证：\[{{a}^{2a}}{{b}^{2b}}\ge {{a}^{b+c}}{{b}^{c+a}}{{c}^{a+b}}\]．
-（二）综合法
+65.化简下列各式：
+（1）\[\sqrt{x+2\sqrt{x-1}}+\sqrt{x-2\sqrt{x-1}}\].
+（2）\[{{\left( {{x}^{\frac{a+b}{c-a}}} \right)}^{\frac{1}{b-c}}}\cdot {{\left( {{x}^{\frac{x+a}{b-c}}} \right)}^{\frac{1}{a-b}}}\cdot {{\left( {{x}^{\frac{b+c}{a-b}}} \right)}^{\frac{1}{c-a}}}\].
+（3）\[\frac{{{a}^{2}}-{{b}^{2}}}{{{a}^{2}}+{{b}^{2}}}{{\left( \frac{a-b}{a+b} \right)}^{\frac{p+q}{p-q}}}\cdot \left[ {{\left( \frac{a+b}{a-b} \right)}^{\frac{2p}{p-q}}}+{{\left( \frac{a+b}{a-b} \right)}^{\frac{2q}{p-q}}} \right]\].
+66.当\[a=0.001\]时，求\[\frac{{{a}^{\frac{4}{3}}}-8{{a}^{\frac{1}{3}}}b}{{{a}^{\frac{2}{3}}}+2\sqrt[3]{ab}+4{{b}^{\frac{2}{3}}}}\div \left( 1-2\sqrt[3]{\frac{b}{a}} \right)\]的值.
+67.求证：\[\frac{1}{1+{{x}^{a-b}}+{{x}^{a-c}}}+\frac{1}{1+{{x}^{b-c}}+{{x}^{b-a}}}+\frac{1}{1+{{x}^{c-a}}+{{x}^{c-b}}}=1\].
+（二）幂函数
 
-56.下列命题中，正确的一个是（    ）
-（A）若\[a,b,c\in R\]，且\[a>b\]，则\[a{{c}^{2}}>b{{c}^{2}}\]．
-（B）若\[a,b\in R\]，且\[a\cdot b\ne 0\]，则\[\frac{a}{b}+\frac{b}{a}\ge 2\]．
-（C）若\[a,b\in R\]，且\[a>\left| b \right|\]，则\[{{a}^{n}}>{{b}^{n}}\left( n\in N \right)\].
-（D）若\[a>b\]，\[c<d\]，则\[\frac{a}{c}>\frac{b}{d}\]．
-57.下列各式中，对任何实数\[x\]都成立的一个是（    ）
-（A） \[\lg \left( {{x}^{2}}+1 \right)\ge \lg 2x\]．		（B）\[{{x}^{2}}+1>2x\].
-（C）\[\frac{1}{{{x}^{2}}+1}\le 1\]．				（D）．\[x+\frac{1}{x}\ge 2\]
-58．已知，\[a,b\in R\]，	且\[a,b\ne 0\]，则在“①\[\frac{{{a}^{2}}+{{b}^{2}}}{2}\ge ab\]，②\[\frac{b}{a}+\frac{a}{b}\ge 2\]，③\[ab\le {{\left( \frac{a+b}{2} \right)}^{2}}\]，④\[{{\left( \frac{a+b}{2} \right)}^{2}}\le \frac{{{a}^{2}}+{{b}^{2}}}{2}\]”这四个式子中，恒成立的个数是（  ）
-（A）1.    （B）2.    （C）3.    （D）4.
-59.（1）若\[a>0\]，\[b>0\]，\[c>0\]，\[d>0\]，则\[\frac{b}{a}+\frac{a}{b}\ge \]    ，\[\frac{b}{a}+\frac{c}{b}+\frac{a}{c}\ge \]    ，\[\frac{b+c}{a}+\frac{c+a}{b}+\frac{a+b}{c}\ge \]    ，\[\left( a+b \right)\left( \frac{1}{a}+\frac{1}{b} \right)\ge \]    ，\[\left( \frac{b}{a}+\frac{d}{c} \right)\left( \frac{c}{b}+\frac{a}{d} \right)\ge \]    .
-（2）若\[x>0\]，则\[x+\frac{1}{x}\ge \]    ；
-若\[x<0\]，则\[\left( -x \right)+\frac{1}{-x}\ge \]    ，\[x+\frac{1}{x}\le \]    .
-（3）若\[a>1\]，\[b>1\]，\[c>1\]，则\[{{\log }_{a}}b+{{\log }_{b}}a\ge \]    ，\[{{\log }_{a}}b+{{\log }_{b}}c+{{\log }_{c}}a\ge \]    .
-（4）若\[0<a<1\]，\[0<b<1\]，则\[{{\log }_{a}}b+{{\log }_{b}}a\ge \]    .
-（5）若\[a>1\]，\[0<b<1\]，则\[{{\log }_{a}}b+{{\log }_{b}}a\le \]    .
+68.已知幂函数\[f\left( x \right)\]的图象经过点\[\left( 2,\frac{\sqrt{2}}{2} \right)\]，则\[f\left( 4 \right)\]的值等于（    ）
+（A）16.		（B）\[\frac{1}{16}\].		（C）\[\frac{1}{2}\].		（D）2.
+69.下列幂函数中，定义域为\[\left\{ x\left| x>0 \right. \right\}\]的是（    ）
+（A）\[y={{x}^{\frac{2}{3}}}\].		（B）\[y={{x}^{\frac{3}{2}}}\].		（C）\[y={{x}^{-\frac{2}{3}}}\].		（D）\[y={{x}^{-\frac{3}{2}}}\].
+70.幂函数\[y={{x}^{n}}\left( n\in Z \right)\]的图象一定不经过（    ）
+（A）第一象限.		（B）第二象限.		（C）第三象限.		（D）第四象限.
+*71.函数\[f\left( x \right)={{x}^{\frac{2}{3}}}\]的图象是（   ）
+ 
+72.幂函数\[y={{x}^{m}}\]和\[y={{x}^{n}}\]在第一象限内的图象\[{{C}_{1}}\]和\[{{C}_{2}}\]图象所示，则\[m,n\]之间的关系是（   ）
+（A）\[n<m<0\].		（B）\[m<n<0\].		（C）\[n>m>0\].		（D）\[m>n>0\].
+ 
+*73.图中，\[{{C}_{1}},{{C}_{2}},{{C}_{3}}\]为幂函数\[y={{x}^{a}}\]在第一象限的图象，则解析式中的指数\[\alpha \]依次可以取（    ）
+（A）\[\frac{4}{3},-2,\frac{3}{4}\].		（B）\[-2,\frac{3}{4},\frac{4}{3}\].		（C）\[-2,\frac{4}{3},\frac{3}{4}\].		（D）\[\frac{3}{4},\frac{4}{3},-2\].
 
-60.设\[a,b\]为正数，且\[a+b\le 4\]，则下列各式中，一定正确的是（    ）
-（A）\[\frac{1}{a}+\frac{1}{b}\le \frac{1}{4}\].							（B）\[\frac{1}{4}\le \frac{1}{a}+\frac{1}{b}\le \frac{1}{2}\].
-（C）\[\frac{1}{2}\le \frac{1}{a}+\frac{1}{b}\le 1\].							（D）\[\frac{1}{a}+\frac{1}{b}\ge 1\].
-61．若\[a,b,c\]均大于1,且\[{{\log }_{a}}c\cdot {{\log }_{b}}c=4\]，则下列各式中，一定正确的是（    ）
-（A）\[ac\ge b\]．    		（B）\[ab\ge c\]．    		（C）\[bc\ge a\]．   		 （D）\[ab\le c\].
-62．若\[a>0\]，\[b>0\]，且\[a\ne b\]，则下列各式恒成立的是（    ）
-（A）\[\frac{2ab}{a+b}<\frac{a+b}{2}<\sqrt{ab}\].			（B）\[\sqrt{ab}<\frac{2ab}{a+b}<\frac{a+b}{2}\].
-（C）\[\frac{2ab}{a+b}<\sqrt{ab}<\frac{a+b}{2}\].			（D）\[\sqrt{ab}<\frac{a+b}{2}<\frac{2ab}{a+b}\].
-63.利用公式\[{{a}^{2}}+{{b}^{2}}\ge 2ab\]或\[a+b\ge 2\sqrt{ab}\left( a,b\ge 0 \right)\]，求证：
-（1）若\[x>0\]，\[y>0\]，则\[\sqrt{\left( 1+x \right)\left( 1+y \right)}\ge 1+\sqrt{xy}\]．
-（2）若\[a>0\]，\[b>0\]，\[c>0\]，则\[ab\left( a+b \right)+bc\left( b+c \right)+ca\left( c+a \right)\ge 6abc\].
-（3）若\[a>0\]，\[b>0\]，则\[a+b+\frac{1}{\sqrt{ab}}\ge 2\sqrt{2}\].
-（4）若\[m=x{{\cos }^{2}}\theta +y{{\sin }^{2}}\theta \]，\[n=x{{\sin }^{2}}\theta +y{{\cos }^{2}}\theta \]，则\[mn\ge xy\]．
-（5）若\[x+3y-1=0\]，则\[{{2}^{x}}+{{8}^{y}}\ge 2\sqrt{2}\].
-（6）\[{{\log }_{0.5}}\left( \frac{1}{{{4}^{a}}}+\frac{1}{{{4}^{b}}} \right)\le a+b-1\]．
-64．已知\[x>0\]，\[y>0\]，\[x+y=1\]，求证：
-（1）\[\left( 1+\frac{1}{x} \right)\left( 1+\frac{1}{y} \right)\ge 9\].		（2）\[\left( \frac{1}{{{x}^{2}}}-1 \right)\left( \frac{1}{{{y}^{2}}}-1 \right)\ge 9\].
-65．已知\[a>0\]，\[b>0\]，\[c>0\]，\[a+b+c=1\]，求证：
-（1）\[\left( 1-a \right)\left( 1-b \right)\left( 1-c \right)\ge 8abc\].			（2）\[\left( \frac{1}{a}-1 \right)\left( \frac{1}{b}-1 \right)\left( \frac{1}{c}-1 \right)\ge 8\].
-（3）\[\frac{1}{a}+\frac{1}{b}+\frac{1}{c}\ge 9\].						（4）\[\frac{1}{abc}\ge 27\].
-（5）\[\left( 1+\frac{1}{a} \right)\left( 1+\frac{1}{b} \right)\left( 1+\frac{1}{c} \right)\ge 64\].
-66.利用公式\[\frac{a+b}{2}\le \sqrt{\frac{{{a}^{2}}+{{b}^{2}}}{2}}\]或\[\frac{a+b+c}{3}\le \sqrt{\frac{{{a}^{2}}+{{b}^{2}}+{{c}^{2}}}{3}}\]，求证：
-（1）\[\sqrt{{{a}^{2}}+{{b}^{2}}}+\sqrt{{{b}^{2}}+{{c}^{2}}}+\sqrt{{{c}^{2}}+{{a}^{2}}}\ge \sqrt{2}\left( a+b+c \right)\].
-（2）若\[a+b=1\left( a,b\ge 0 \right)\]，则\[\sqrt{2a+1}+\sqrt{2b+1}\le 2\sqrt{2}\].
-（3）若\[a+b+c=1\left( a,b,c\ge 0 \right)\]，则\[\sqrt{13a+1}+\sqrt{13b+1}+\sqrt{13c+1}\le 4\sqrt{3}\].
-（4）\[a\cos \varphi +b\sin \varphi +c\le \sqrt{2\left( {{a}^{2}}+{{b}^{2}}+{{c}^{2}} \right)}\]．
-67．先证明\[{{a}^{2}}+{{b}^{2}}+{{c}^{2}}\ge ab+bc+ca\left( a,b,c\in R \right)\]，再利用此结论证明下列各题：
-（1）若\[a>0\]，\[b>0\]，\[c>0\]，则\[\frac{{{a}^{2}}{{b}^{2}}+{{b}^{2}}{{c}^{2}}+{{c}^{2}}{{a}^{2}}}{a+b+c}\ge abc\]．
-（2）若半径为1的圆内接\[\Delta ABC\]的而积为\[\frac{1}{4}\]，二边长分别为\[a,b,c\]，则①\[abc=1\]，②\[\sqrt{b}+\sqrt{c}<\frac{1}{a}+\frac{1}{b}+\frac{1}{c}\]．
-（3）若\[a,b,c>0\]，\[n\in N\]，\[f\left( n \right)=\lg \frac{{{a}^{n}}+{{b}^{n}}+{{c}^{n}}}{3}\]，则\[2f\left( n \right)\le f\left( 2n \right)\]．
-68．利用放缩法并结合公式\[ab\le \left( \frac{a+b}{2} \right)\]证明下列各题：
-（1）\[\lg 9\cdot \lg 11<1\].
-（2）\[{{\log }_{a}}\left( a-1 \right)\cdot {{\log }_{a}}\left( a+1 \right)<1\] \[\left( a>1 \right)\].
-（3）若\[a>b>c\]，则\[\frac{1}{a-b}+\frac{1}{b-c}+\frac{4}{c-a}\ge 0\]．
-69.利用放缩法证明下列各题：
-（1）\[\frac{1}{n}+\frac{1}{n+1}+\frac{1}{n+2}+\frac{1}{n+3}+\frac{1}{n+4}+\cdot \cdot \cdot +\frac{1}{{{n}^{2}}}>1\left( n\in N,n\ge 2 \right)\].
-（2）\[\frac{1}{2}\le \frac{1}{n+1}+\frac{1}{n+2}+\cdot \cdot \cdot +\frac{1}{2n}<1\left( n\in N \right)\].
-（3）已知\[a>0\]，\[b>0\]，\[c>0\]，且\[{{a}^{2}}+{{b}^{2}}={{c}^{2}}\]，求证：\[{{a}^{n}}+{{b}^{n}}<{{c}^{n}}\left( n\ge 3,n\in N \right)\].
-70.利用拆项法证明下列各题：
-（1）若\[x>y\]，\[xy=1\]，则\[\frac{{{x}^{2}}+{{y}^{2}}}{x-y}\ge 2\sqrt{2}\]．
-（2）\[\frac{1}{2}\left( {{a}^{2}}+{{b}^{2}} \right)+1\ge \sqrt{{{a}^{2}}+1}\cdot \sqrt{{{b}^{2}}+1}\].
-（3）若\[a>0\]，\[b>0\]，\[c>0\]，则\[2\left( \frac{a+b}{2}-\sqrt{ab} \right)\le 3\left( \frac{a+b+c}{3}-\sqrt[3]{abc} \right)\].
-（4）\[2\left( \sqrt{n+1}-1 \right)<1+\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{3}}+\cdot \cdot \cdot +\frac{1}{\sqrt{n}}<2\sqrt{n}\left( n\in N \right)\].
-71.利用逆代法证明下列各题：
-（1）若正数\[x,y\]满足\[x+2y=1\]，则\[\frac{1}{x}+\frac{1}{y}\ge 3+2\sqrt{2}\]．
-（2）\[\frac{1}{{{\sin }^{2}}\alpha }+\frac{3}{{{\cos }^{2}}\alpha }\ge 4+2\sqrt{3}\].
-（3）若\[x,y>0,a,b\]为正常数，且\[\frac{a}{x}+\frac{a}{y}=1\]，则\[x+y\ge {{\left( \sqrt{a}+\sqrt{b} \right)}^{2}}\].
-72.利用判别式法证明下列各题：
-（1）\[\frac{1}{3}\le \frac{{{x}^{2}}-x+1}{{{x}^{2}}+x+1}\le 3\]．
-（2）已知关于\[x\]的不等式\[\left( {{a}^{2}}-1 \right){{x}^{2}}-\left( a-1 \right)x-1<0\left( a\in R \right)\]对仟意实数\[x\]恒成立，求    证：\[-\frac{3}{5}<a\le 1\]．
-73.利用荫数的单词性证明下列各题：
-（1）若\[x>0\]，\[y>0\]，\[x+y=1\]，则\[\left( x+\frac{1}{x} \right)\left( y+\frac{1}{y} \right)\ge \frac{25}{4}\].
-（2）若\[0<a<\frac{1}{k}\left( k\ge 2,k\in N \right)\]，且\[{{a}^{2}}<a-b\]，则\[b<\frac{1}{k+1}\].
-74．利用三角换元法证明下列符题：
-（1）若\[{{a}^{2}}+{{b}^{2}}=1\]，则\[a\sin x+b\cos x\le 1\].
-（2）若\[\left| a \right|<1\]，\[\left| b \right|<1\]，则\[\left| ab\pm \sqrt{\left( 1-{{a}^{2}} \right)\left( 1-{{b}^{2}} \right)} \right|\le 1\].
-（3）若\[{{x}^{2}}+{{y}^{2}}\le 1\]，则\[-\sqrt{2}\le {{x}^{2}}+2xy-{{y}^{2}}\le \sqrt{2}\]．
-（4）若\[\left| x \right|\le 1\]，则\[{{\left( 1+x \right)}^{n}}+{{\left( 1-x \right)}^{n}}\le {{2}^{n}}\]．
-（5）若\[a>0\]，\[b>0\]，且\[a-b=1\]，则\[0<\frac{1}{a}\left( \sqrt{a}-\frac{1}{\sqrt{a}} \right)\left( \sqrt{b}+\frac{1}{\sqrt{b}} \right)<1\].
-（6）\[0<\sqrt{1+x}-\sqrt{x}\le 1\]．
-75.试构造几何图形证明：
-（1）若\[f\left( x \right)=\sqrt{1+{{x}^{2}}}\]，\[x>b>0\]，则\[\left| f\left( a \right)-f\left( b \right) \right|<\left| a-b \right|\]．
-（2）若\[x,y,z>0\]，则\[\sqrt{{{x}^{2}}+{{y}^{2}}+xy}+\sqrt{{{y}^{2}}+{{z}^{2}}+yz}>\sqrt{{{z}^{2}}+{{x}^{2}}+zx}\].
-76．利用均值换元或设差换元证明下列各题：
-（1）若\[a>0\]，\[b>0\]，且\[a+b=1\]，则\[\frac{4}{3}\le \frac{1}{a+1}+\frac{1}{b+1}<\frac{3}{2}\]．
-（2）若\[a+b+c=1\]，则\[{{a}^{2}}+{{b}^{2}}+{{c}^{2}}\ge \frac{1}{3}\]．
-（3）若\[x\ge y\ge 0\]，则\[\sqrt{2xy-{{y}^{2}}}+\sqrt{{{x}^{2}}-{{y}^{2}}}\ge x\].
-试选用适当的方法证明下列备题：
-77．已知\[a,b,c\]都是正数，求证：\[{{a}^{a}}{{b}^{b}}{{c}^{c}}\ge {{\left( abc \right)}^{\frac{a+b+c}{3}}}\].
-78．已知正数\[a,b\]满足\[a+b=1\]，求证：
-（1）\[\left( ax+by \right)\left( ay+bx \right)\ge xy\]．
-（2）\[{{\left( a+\frac{1}{a} \right)}^{2}}+{{\left( b+\frac{1}{b} \right)}^{2}}\ge \frac{25}{2}\]．
-（3）\[\left( a+\frac{1}{a} \right)\left( b+\frac{1}{b} \right)\ge \frac{25}{4}\]．
-79．已知正数\[a,b,c\]满足\[a+b+c=1\]，求证：
-（1）\[\left( a+\frac{1}{a} \right)+\left( b+\frac{1}{b} \right)+\left( c+\frac{1}{c} \right)\ge 10\].
-（2）\[{{\left( a+\frac{1}{a} \right)}^{2}}+{{\left( b+\frac{1}{b} \right)}^{2}}+{{\left( c+\frac{1}{c} \right)}^{2}}\ge \frac{100}{3}\]
-（3）\[\frac{1}{\sqrt{a}}+\frac{1}{\sqrt{b}}+\frac{1}{\sqrt{c}}\ge 3\sqrt{3}\].
-80．已知\[{{a}^{2}}+{{b}^{2}}+{{c}^{2}}=1\]，求证：
-（1）\[-\frac{1}{2}\le ab+bc+ca\le 1\].					（2）\[\left| abc \right|\le \frac{\sqrt{3}}{9}\].
-81．已知\[x>1\]，求证：\[\sqrt{x}-\sqrt{x-1}>\sqrt{x+1}-\sqrt{x}\].
-82．已知\[a>0\]，\[b>0\]，\[c>0\]，求证：\[\frac{1}{a}+\frac{1}{b}+\frac{1}{c}\ge 2\left( \frac{1}{a+b}+\frac{1}{b+c}+\frac{1}{c+a} \right)\]．
-83．（1）已知\[a>0\]，\[b>0\]，\[c>0\]，求证：\[\frac{c}{a+b}+\frac{a}{b+c}+\frac{b}{c+a}\ge \frac{3}{2}\]．
-  （2）已知\[\alpha ,\beta \in \left( 0,\frac{\pi }{2} \right)\]，求证：\[\frac{1}{{{\cos }^{2}}\alpha }+\frac{1}{{{\sin }^{2}}\alpha \sin \beta {{\cos }^{2}}\beta }\ge 9\]．
-  （3）已知\[a>0\]，\[b>0\]，\[c>0\]，求证：\[\frac{1}{a+b}+\frac{1}{b+c}+\frac{1}{c+a}\ge \frac{9}{2\left( a+b+c \right)}\].
-84．（1）己知\[\tan \alpha ,\tan \beta \]是关于\[x\]的方程\[m{{x}^{2}}+\left( 2m-3 \right)x+\left( m-2 \right)=0\left( m\ne 0 \right)\]的两根，求证：\[\tan \left( \alpha +\beta  \right)\ge -\frac{3}{4}\].
-    （2）已知长方体的对角线长为定长\[l\]，求证：它的体积\[V\le \frac{\sqrt{3}{{l}^{3}}}{9}\].
-85．在\[\Delta ABC\]中，求证：
-    （1） \[\cos A+\cos B+\cos C\le \frac{3}{2}\].
-    （2）\[\sin \frac{A}{2}\sin \frac{B}{2}\sin \frac{C}{2}\le \frac{1}{8}\].
-    （3）\[\tan A\tan B\tan C\ge 3\sqrt{3}\]，其中三内角\[A,B,C\]都是锐角.
-    （4）\[{{a}^{2}}+{{b}^{2}}+{{c}^{2}}\ge 4\sqrt{3}S\]，其中三内角\[A,B,C\]的对边分别为\[a,b,c\]三角形的面积为\[S\].
-86．已知\[f\left( x \right)=\lg \frac{1+{{2}^{x}}+a\cdot {{4}^{x}}}{3}\left( a\in R \right)\].
-（1）如果\[x\le 1\]时\[f\left( x \right)\]有意义，求\[a\]的取值范围.
-（2）如果\[0<a\le 1\]，求证：\[x\ne 0\]时，\[2f\left( x \right)<f\left( 2x \right)\].
-（三）分析法和反证法
+ 
+*74.求下列函数的定义域与值域：
+（1）\[y={{x}^{\frac{5}{6}}}x\in \]    ,\[u\in \]    .
+（2）\[y={{x}^{\frac{3}{5}}}x\in \]    ,\[u\in \]    .
+（3）\[y={{x}^{\frac{8}{5}}}x\in \]    ,\[u\in \]    .
+（4）\[y={{x}^{-\frac{5}{4}}}x\in \]    ,\[u\in \]    .
+（5）\[y={{x}^{-\frac{5}{3}}}x\in \]    ,\[u\in \]    .
+（6）\[y={{x}^{-\frac{2}{3}}}x\in \]    ,\[u\in \]    .
+（7）\[y=-2{{\left( x+5 \right)}^{-\frac{1}{4}}}x\in \]    ,\[u\in \]    .
+（8）\[y=5{{\left( 2x-1 \right)}^{\frac{3}{4}}}x\in \]    ,\[u\in \]    .
+75.将下列函数图象的标号，填在相应函数后面的横线上：
+*（1）\[y={{x}^{\frac{2}{3}}}\]：    .	（2）\[y={{x}^{-2}}\]：    .
+（3）\[y={{x}^{\frac{1}{2}}}\]：          .				（4）\[y={{x}^{-1}}\]：          .
+（5）\[y={{x}^{\frac{1}{3}}}\]：          .				*（6）\[y={{x}^{\frac{3}{2}}}\]：          .
+*（7）\[y={{x}^{\frac{4}{3}}}\]：          .			（8）\[y={{x}^{-\frac{1}{2}}}\]：          .
+*（9）\[y={{x}^{\frac{5}{3}}}\]：          .
+（A） （B） （C） 
+（D） （E） （F） 
+（G） （H） （I） 
+（第75题）
+76.（1）若幂函数\[y={{x}^{n}}\]的图象在\[0<x<1\]时位于直线\[y=x\]的下方，则\[n\]的取值范围是          .
+（2）若幂函数\[y={{x}^{n}}\]的图象在\[0<x<1\]时位于直线\[y=x\]的上方，则\[n\]的取值范围是          .
+*（3）函数\[f\left( x \right)={{x}^{{{k}^{2}}-2k-3}}\]（\[k\in Z\]）的图象如图所示，则\[k=\]          .
+ 
+（第76（3）题）
+77.幂函数\[y={{x}^{p}}\]与\[y={{x}^{q}}\]的图象都通过定点          ，它们在第一象限部分关于直线\[y=x\]对称，则\[p,q\]应满足的条件是          .
+78.确定实数\[a\]的取值范围：
+（1）\[{{2.4}^{a}}>{{2.5}^{a}}.\]				（2）\[{{\left( \frac{3}{4} \right)}^{-a}}>{{\left( \frac{4}{3} \right)}^{-a}}.\]
+（3）\[{{a}^{-2}}>{{3}^{-2}}.\]				（4）\[{{0.01}^{-3}}>{{a}^{-3}}.\]
+79.将下列各组数从小到大排列：
+（1）\[{{2.5}^{\frac{2}{3}}}\]，\[{{\left( -1.4 \right)}^{\frac{2}{3}}}\]，\[{{\left( -3 \right)}^{\frac{1}{3}}}\]：                   .
+（2）\[{{4.1}^{\frac{2}{5}}}\]，\[{{3.8}^{-\frac{2}{3}}}\]，\[{{\left( -1.9 \right)}^{\frac{3}{5}}}\]：                   .
+（3）\[{{0.16}^{-\frac{3}{4}}}\]，\[{{0.5}^{-\frac{3}{2}}}\]，\[{{6.25}^{\frac{3}{8}}}\]：                   .
 
-利用分析法证明下列各题：（87～89）
-87．求证：
-（1）\[2+\sin \theta +\cos \theta \ge \frac{2}{2-\sin \theta -\cos \theta }\]．
-（2）\[-1<\frac{4\sin \theta +3}{{{\sin }^{2}}+1}\le 4\]．
-（3）\[\frac{x+b+c+abc}{1+ab+bc+ca}\le 1\]，其中\[0\le a\le 1\],\[0\le b\le 1\],\[0\le c\le 1\].
-（4）\[2\sin 2\alpha \le c\cot \frac{\alpha }{2}\]，其中\[0<\alpha <\pi \]．
-88．求证下列各题：
-（1）若\[x>-1\]，则\[{{\left( \frac{1}{3} \right)}^{x+\frac{3}{2}}}<{{\left( \frac{1}{3} \right)}^{\sqrt{\left( x+1 \right)\left( x+2 \right)}}}\].
-（2）若\[a>b>0\]，\[c>d>0\]，则\[\sqrt{ac}-\sqrt{bd}>\sqrt{\left( a-b \right)\left( c-d \right)}\].
-（3）\[ac+bd\le \sqrt{{{a}^{2}}+{{b}^{2}}}\cdot \sqrt{{{c}^{2}}+{{d}^{2}}}\].
-（4）若\[x>y>0\]，\[\theta \in \left( 0,\frac{\pi }{2} \right)\]，则\[x\sec \theta -y\tan \theta \ge \sqrt{{{x}^{2}}-{{y}^{2}}}\].
-（5）若\[-1<x<1\]，\[-1<y<1\]，则\[\left| \frac{x+y}{1+xy} \right|<1\].
-89．求证F列各题：
-（1） \[{{16}^{18}}>{{18}^{16}}\].
-（2）\[{{\left( \sqrt{2} \right)}^{\sqrt{3}}}<{{\left( \sqrt{3} \right)}^{\sqrt{2}}}\].
-（3）若\[a>0\]，\[b>0\]，\[a+b=1\]，则\[{{3}^{a}}+{{3}^{b}}<4\].
-注意  分析法常在去分母或两边平方时采用  需要注意的是：若去分母，则必须先说明分母的符号；若两边平方，则必须先说明两边都为非负数．
-90．利用反证法证明下列各题：
-（1）若\[0<a<1\]，\[0<b<1\]，\[0<c<1\]，则\[\left( 1-a \right)b\]，\[\left( 1-b \right)c\]，\[\left( 1-c \right)a\]不能都大于\[\frac{1}{4}\]．
-（2）若\[0<a<2\]，\[0<b<2\]，\[0<c<2\]，则\[a\left( 2-b \right)\]，\[b\left( 2-c \right)\]，\[c\left( 2-a \right)\]不可能都大于1.
-（3）若\[x,y>0\]，且\[x+y>2\]，则\[\frac{1+y}{x}\]和\[\frac{1+x}{y}\]中至少有一个小于2.
-（4）若\[0<a<1\]，\[b>0\]，且\[{{a}^{b}}={{b}^{a}}\]，则\[a=b\].
-91.若\[a>0\]，\[b>0\]，且\[{{a}^{3}}+{{b}^{3}}=2\]，试分别利用\[{{x}^{3}}+{{y}^{3}}+{{z}^{3}}\ge 3xyz\left( x,y,z\ge 0 \right)\]构造方程。并利用\[\Delta \ge 0\]以及反证法证明：\[a+b\le 2\].
-（四）函数的最大值和最小值
+80.已知函数\[y={{x}^{{{n}^{2}}-2n-3}}\]（\[n\in Z\]）的图象与两坐标轴都无公共点，且其图象关于\[y\]轴对称，求\[n\]的值，并画出相应的函数图象.
+（三）函数的单调性
 
-92.下列函数中，最小值为2的是（    ）
-（A）\[x+\frac{1}{x}\].
-（B）\[\frac{{{x}^{2}}+2}{\sqrt{{{x}^{2}}+1}}\].
-（C）\[{{\log }_{a}}x+{{\log }_{x}}a\left( a>0,x>0a\ne 1,x\ne 1 \right)\].
-（D）\[{{3}^{x}}+{{3}^{-x}}\left( x>0 \right)\].
-93．若\[{{\log }_{\sqrt{2}}}x+{{\log }_{\sqrt{2}}}y=4\]，则\[x+y\]的最小值是（    ）
-（A）8．    （B） \[4\sqrt{2}\].    （C）4.		（D）2.
-94．若\[a,b\]均为大于1的正数，且\[ab=100\]，则\[\lg a\cdot \lg b\]的最大值是（    ）
-（A）0.			（B）1.			（C）2.			（D）\[\frac{5}{2}\].
-95．若实数\[x\]与\[y\]满足\[x+y-4=0\]，则\[{{x}^{2}}+{{y}^{2}}\]的最小值是（    ）
-（A）4．		（B）6．		（C）8．		（D）10.
-96．若非负实数\[a,b\]满足\[2a+3b=10\]，则\[\sqrt{3b}+\sqrt{2a}\]的最大值是（    ）
-（A）\[\sqrt{10}\]．		（B）\[2\sqrt{5}\]．		（C）5．		（D）10.
-97.若\[x>1\]，则\[\frac{{{x}^{2}}-2x+2}{2x-2}\]有（    ）
-（A）最小值1.		（B）最大值1.		（C）最小值-1.    （D）最大值-1.
-98. （1）若\[x,y\in {{R}^{+}}\]，且\[{{x}^{2}}+{{y}^{2}}=1\]，则\[x+y\]的最大值是    .
-（2）若\[x+2y=2\sqrt{2}a\left( x>0,y>0,a>1 \right)\]，则\[{{\log }_{a}}x+{{\log }_{a}}y\]的最大值是    .
-（3）若\[x>1\]，则\[2+3x+\frac{4}{x-1}\]的最小值    ，此时\[x=\]    .
-（4）若\[x>0\]，则\[x+\frac{1}{x}+\frac{16x}{{{x}^{2}}+1}\]的最小值是    ，此时\[x=\]    .
-（5）若正数\[a,b\]满足\[{{a}^{2}}+\frac{{{b}^{2}}}{2}=1\]，则\[a\sqrt{1+{{b}^{2}}}\]的最大值为    ，此时\[a=\]    ，\[b=\]    .
-99.（1）若\[x>0\]，则\[3x+\frac{12}{{{x}^{2}}}\]的最小值是    ，此时\[x=\]    .
-（2）若\[0<x<\frac{1}{3}\]，则\[{{x}^{2}}\left( 1-3x \right)\]的最大值是    ，此时\[x=\]    .
-（3）若\[xy>0\]，且\[{{x}^{2}}y=2\]，则\[xy+{{x}^{2}}\]的最小值是    .
-（4）\[{{\sin }^{4}}\alpha {{\cos }^{2}}\alpha \]的最大值是    ，此时\[\sin \alpha =\]    ，\[\cos \alpha =\]    .
-（5）若正数\[x,y,z\]满足\[5x+2y+z=100\]，则\[\lg x+\lg y+\lg z\]的最大值是    .
+81.函数\[y=\sqrt{{{x}^{2}}+2x-3}\]为减函数的区间是（）
+（A）\[\left( -\infty ,-3 \right].\]		（B）\[\left[ -1,+\infty  \right).\]		（C）\[\left( -\infty ,-1 \right].\]		（D）\[\left[ 1,+\infty  \right).\]
+82.若函数\[y=\left( 2k+1 \right)x+b\]在\[\left( -\infty ,+\infty  \right)\]上是减函数，则（）
+（A）\[k>\frac{1}{2}.\]			（B）\[k<\frac{1}{2}.\]			（C）\[k>-\frac{1}{2}.\]		（D）\[k<-\frac{1}{2}.\]
+83.若函数\[f\left( x \right)=4{{x}^{2}}-mx+5\]在区间\[\left[ -2,+\infty  \right)\]上是增函数，在区间\[\left( -\infty ,-2 \right]\]上是减函数，则\[f\left( 1 \right)\]等于（）
+（A）\[-7.\]			（B）1.				（C）17.				（D）25.
+84.若函数\[y={{x}^{2}}+2\left( a-2 \right)x+5\]在区间\[\left( 4,+\infty  \right)\]上是增函数，则实数\[a\]的取值范围是（）
+（A）\[a\le -2.\]		（B）\[a\ge -2.\]		（C）\[a\le -6.\]		（D）\[a\ge -6.\]
+85.下列函数中，在区间\[\left( 0,2 \right)\]上为增函数的是（）
+（A）\[y=-3x+1.\]	（B）\[y=\sqrt[3]{x}.\]		（C）\[y={{x}^{2}}-4x+3.\]	（D）\[y=\frac{4}{x}.\]
+86.若函数\[f\left( x \right)\]在定义域\[R\]上为增函数，且\[f\left( x \right)<0\]，则下列函数在\[R\]上为增函数的是（）
+（A）\[y=\left| f\left( x \right) \right|.\]		（B）\[y=\frac{1}{f\left( x \right)}\]		（C）\[y={{\left[ f\left( x \right) \right]}^{2}}.\]	（D）\[y={{\left[ f\left( x \right) \right]}^{3}}.\]
+87.（1）函数\[y=\frac{1}{\sqrt{{{x}^{2}}-4x+5}}\]为增函数的区间是        ，为减函数的区间是        .
+（2）函数\[y=\frac{1}{\sqrt{3+2x-{{x}^{2}}}}\]为增函数的区间是        .
+（3）函数\[y=\left| 3x-5 \right|\]为减函数的区间是        .
+（4）函数\[y=\left| {{x}^{2}}-2x-3 \right|\]为增函数的区间是        .
+（5）函数\[y=\frac{1-x}{1+x}\]为减函数的区间是        .
 
-100．若\[\frac{{{x}^{2}}}{4}+{{y}^{2}}=x\]，则\[{{x}^{2}}+{{y}^{2}}\]有（    ）
-（A）最小值0，最大值16.			（B）最小值\[-\frac{1}{3}\]，最大值0.
-（C）最小值0，最大值1.			（D）最小值1，最大值2.
-101.\[\left| \sin x \right|+\left| \cos x \right|\]的最大值是（  ）.
-（A）2.		（B）\[\sqrt{2}\].		（C）\[\frac{\sqrt{2}}{2}\].		（D）\[\frac{1}{2}\].
-102.若\[x>0\]，则\[\frac{x}{{{x}^{3}}+2}\]的最大值是（    ）
-（A）5.		（B）3.		（C）1.		（D）\[\frac{1}{3}\].
-103．若正数\[a,b\]满足\[ab-\left( a+b \right)=1\]，则\[a+b\]的最小值是（    ）
-（A）\[2+2\sqrt{2}\].		（B）\[2\sqrt{2}-2\].		（C）\[\sqrt{5}+2\].		（D）\[\sqrt{5}-2\].
-104.（1）已知\[a>1\]且\[{{a}^{\lg b}}=\sqrt[4]{2}\]，求\[{{\log }_{2}}\left( ab \right)\]的最小值．
-（2）求函数\[y=\frac{{{x}^{4}}+3{{x}^{2}}+3}{{{x}^{2}}+1}\]的最小值.
-（3）求\[f\left( x \right)=4{{x}^{2}}+\frac{16}{{{\left( {{x}^{2}}+1 \right)}^{2}}}\]的最小值.
-（4）求\[f\left( x \right)={{x}^{2}}-3x-2-\frac{3}{x}+\frac{1}{{{x}^{2}}}\left( x>0 \right)\]的最小值.
-（5）若\[x,y>0\]，求\[\frac{\sqrt{x}+\sqrt{y}}{\sqrt{x+y}}\]的最大值.
-105．已知正常数\[a,b\]和正变数\[x,y\]满足\[a+b=10\]，\[\frac{a}{x}+\frac{b}{y}=1\]，\[x+y\]的最小值为18，求\[a,b\]的值．
-106．（1）已知\[{{x}^{2}}+{{y}^{2}}=1\]，求\[\left( 1+xy \right)\left( 1-xy \right)\]的最大值和最小值．
-     （2）已知\[{{x}^{2}}+{{y}^{2}}=3\]，\[{{a}^{2}}+{{b}^{2}}=4\]，求\[ax+by\]的最大值和最小值.
-     （3）已知\[\sqrt{1-{{y}^{2}}}+y\sqrt{1-{{x}^{2}}}=1\]，求\[x+y\]的最大值和最小值.
-107．已知函数\[f\left( x \right)=\frac{{{2}^{x+3}}}{{{4}^{x}}+8}\]．
-    （1）求\[f\left( x \right)\]的最大值．
-（2）对于任意实数\[a,b\]，求证：\[f\left( a \right)<{{b}^{2}}-4b+\frac{11}{2}\].
-108．（1）若直角三角形的周长为1，求它的面积的最大值．
-	（2）若直角三角形的内切半径为1，求它的面积的最小值．
-109．若球半径为\[R\]，试求它的内接圆柱的最大体积，请指出下向解法的错误，并给出正确的解答．
-解：设圆柱底面半径为\[r\]，则\[4{{r}^{2}}=4{{R}^{2}}-{{h}^{2}}\]，而\[{{V}_{}}=\pi {{r}^{2}}h=\frac{\pi }{4}\left( 4{{R}^{2}}-{{h}^{2}} \right)h=\frac{\pi }{4}\left( 2R+h \right)\left( 2R-h \right)\]\[=\frac{\pi }{8}\left( 2R+h \right)\left( 4R-2h \right)h\]\[\le \frac{\pi }{8}{{\left( \frac{2R+h+4R-2h+h}{3} \right)}^{3}}=\frac{\pi }{8}{{\left( 2R \right)}^{3}}=\pi {{R}^{3}}\]．
-110．在\[\Delta ABC\]中，已知\[BC=a\]，\[CA=b\]，\[AB=c\]，\[\angle ACB=\theta \]．现将\[\Delta ABC\]分别以\[BC,CA,AB\]所在直线为轴旋转一周，设所得三个旋转体的体积依次为\[{{V}_{1}},{{V}_{2}},{{V}_{3}}\]．
-（1）设\[T=\frac{{{V}_{3}}}{{{V}_{1}}+{{V}_{2}}}\]，试用\[a,b,c\]表示\[T\]．
-（2）若\[\theta \]为定值，并令\[\frac{a+b}{c}=x\]，将\[T\]表示为\[x\]的函数，写出这个函数的定义域，并求这个函数的最大值\[u\]．
-（3）若\[\theta \in \left[ \frac{\pi }{3},\pi  \right)\]，求\[u\]的最大值.
-111.已知\[A\left( 0,\sqrt{3}a \right)\]，\[B\left( -a,0 \right)\]，\[C\left( a,0 \right)\]是等边\[\Delta ABC\]的顶点，点\[M,N\]分别在边\[AB,BC\]上，且将\[\Delta ABC\]的面积两等分，记\[N\]的横坐标为\[x\]，\[\left| MN \right|=y\]．
-（1）写出\[y=f\left( x \right)\]的表达式．
-（2）求\[y=f\left( x \right)\]的最小值.
-112.已知\[\Delta ABC\]内接于单位圆，且\[\left( 1+\tan A \right)\left( 1+\tan B \right)=2\]．
-（1）求证：内角\[C\]为定值.
-（2）求\[\Delta ABC\]面积的最大值.
-四、不等式的解法
-例1已知关于\[x\]的不等式\[a{{x}^{2}}+bx+c>0\]的解集是\[\left\{ x\left| \alpha <x<\beta  \right. \right\}\]，其中\[0<\alpha <\beta \]，求\[c{{x}^{2}}+bx+a<0\]的解集.
-例2解不等式\[{{\left( x+1 \right)}^{2}}\left( x-1 \right){{\left( x-4 \right)}^{3}}>0\].
-例3解不等式\[\frac{3{{x}^{2}}-14x+14}{{{x}^{2}}-6x+8}\ge 1\].
-例4解不等式\[\sqrt{{{x}^{2}}-3x+2}>x-3\].
-例5解不等式\[\sqrt{2x-1}<x-2\].
-例6解不等式：
-（1）\[\left| {{x}^{2}}-4 \right|\le x+2\].			（2）\[\left| {{x}^{2}}-\frac{1}{2} \right|>2x\].
-例7解关于\[x\]的不等式\[\left| {{\log }_{a}}x \right|<\left| {{\log }_{a}}\left( a{{x}^{2}} \right) \right|-2\left( 0<a<1 \right)\].
-【训练题】
-（一）一次、二次、高次不等式
+88.定义在[1，3]上的函数\[f\left( x \right)\]为减函数，求满足不等式\[f\left( 1-a \right)-f\left( 3-{{a}^{2}} \right)>0\]的解集.
+89.（1）已知\[f\left( x \right)=-{{x}^{3}}-x+1\]（\[x\in R\]），求证\[y=f\left( x \right)\]在定义域上为减函数.
+（2）求证：函数\[f\left( x \right)=x+\frac{1}{x}\]在（0，1）上是减函数，在\[\left( 1,+\infty  \right)\]上是增函数.
+（3）求证：\[f\left( x \right)=\sqrt{x}-\frac{1}{x}\]在定义域上是增函数.
+（4）已知常数\[m,n\]满足\[mn<2\]，求证：函数\[f\left( x \right)=\frac{mx+1}{2x+n}\]在\[\left( -\frac{n}{2},+\infty  \right)\]上为减函数.
+90.已知\[f\left( x \right)={{x}^{2}}+1\]，\[g\left( x \right)={{x}^{4}}+2{{x}^{2}}+2\]，是否存在实数\[\lambda \]，使得\[F\left( x \right)=g\left( x \right)-\lambda f\left( x \right)\]在\[\left( -\infty ,-1 \right)\]上是减函数，在（－1，0）上是增函数？
+91.已知函数\[f\left( x \right)\]在区间\[\left( -\infty ,+\infty  \right)\]上是增函数，又实数\[a,b\]满足\[a+b\ge 0\]，求证：\[f\left( a \right)+f\left( b \right)\ge f\left( -a \right)+f\left( -b \right)\].
+92.\[f\left( x \right)\]是定义在\[{{R}^{+}}\]的增函数，且\[f\left( \frac{x}{y} \right)=f\left( x \right)-f\left( y \right)\].
+（1）求\[f\left( 1 \right)\]的值.
+（2）若\[f\left( 6 \right)=1\]，解不等式\[f\left( x+3 \right)-f\left( \frac{1}{x} \right)<2\].
+（四）函数的奇偶性
 
-113．若关于\[x\]的不等式\[2x-1>a\left( x-2 \right)\]的解集是\[R\]，则实数\[a\]的取值范围是（    ）
-（A）\[a>2\]．    （ B）\[a=2\]．    （C）\[a<2\]．    （D）\[a\]不存在．
-114．若关于\[x\]的不等式\[a{{x}^{2}}+bx-2>0\]的解集是\[\left( -\infty ,-\frac{1}{2} \right)\cup \left( \frac{1}{3},+\infty  \right)\]，则\[ab\]等于
-（    ）
-（A）-24.   		（B）24.   		 （C）14.			（D）-14.
-115．若关于\[x\]的不等式\[\left( a-2 \right){{x}^{2}}+2\left( a-2 \right)x-4<0\]对一切实数\[x\]恒成立，则实数\[a\]的取值范围是（    ）
-（A）\[\left( -\infty ,2 \right]\]		（B）\[\left( \infty ,-2 \right)\]		（C）\[\left( -2,2 \right]\]		（D）\[\left( -2,2 \right)\]
-116．若\[q<0<p\]，则不等式\[q<\frac{1}{x}<p\]的解集为（    ）
-（A）\[\left\{ x\left| \frac{1}{q}<x<\frac{1}{p}x\ne 0 \right. \right\}\].				（B）\[\left\{ x\left| x<\frac{1}{q}x>\frac{1}{p} \right. \right\}\].
-（C）\[\left\{ x\left| -\frac{1}{p}<x<-\frac{1}{q}x\ne 0 \right. \right\}\].				（D）\[\left\{ x\left| \frac{1}{p}<x<-\frac{1}{q} \right. \right\}\].
-117．（1）若关于\[x\]的不等式\[\left( a+b \right)x+2a-3b<0\]的解集是\[\left\{ x\left| x<-\frac{1}{3} \right. \right\}\]，则\[\left( a-3b \right)x+b-2a>0\]的解集是    .
-（2）若不等式\[\frac{2{{x}^{2}}+2kx+k}{4{{x}^{2}}+6x+3}<1\]对一切，\[x\in R\]恒成立，则实数\[k\]的取值范围是    ．
-（3）若关于\[x\]的不等式\[a{{x}^{2}}+bx+c>0\]的解集是\[\left\{ x\left| 3<x<5 \right. \right\}\]，则不等式\[c{{x}^{2}}+bx+a<0\]的解集是    ．
-（4）若关于\[x\]的不等式\[\frac{x-a}{{{x}^{2}}-3x+2}\ge 0\]的解集是\[\left\{ x\left| 1<x\le ax>2 \right. \right\}\]，则实数\[a\]的取值范围是    ．
-118．写出下列不等式的解集：
-（1）\[\left( x+2 \right){{\left( x+1 \right)}^{2}}{{\left( x-1 \right)}^{3}}\left( x-3 \right)>0\]：    ．
-（2）\[\frac{{{\left( x-1 \right)}^{2}}\left( x+2 \right)}{\left( x-3 \right)\left( x-4 \right)}\le 0\]：    ．
-（3）\[x+1\le \frac{4}{x+1}\]：    ．
-
-119．若不等式\[f\left( x \right)\ge 0\]的解集为\[\left[ 1,2 \right]\]，不等式\[g\left( x \right)\ge 0\]的解集为\[\varnothing \]，则不等式\[\frac{f\left( x \right)}{g\left( x \right)}\]的解集是（    ）
-（A）\[\varnothing \].								（B）\[\left( -\infty ,1 \right)\cup \left( 2,+\infty  \right)\].
-（C）\[\left[ 1,2 \right)\].							（D）\[R\].
-120.若关于\[x\]的不等式\[a{{x}^{2}}-bx+c<0\]的解集为\[\left( -\infty ,\alpha  \right)\cup \left( \beta ,+\infty  \right)\]，其中\[\alpha <\beta <0\]，则不等式\[c{{x}^{2}}+bx+a>0\]的解集为（    ）
-（A）\[\left( \frac{1}{\beta },\frac{1}{\alpha } \right)\].		（B）\[\left( \frac{1}{\alpha },\frac{1}{\beta } \right)\].		（C）\[\left( -\frac{1}{\beta },-\frac{1}{\alpha } \right)\].		（D）\[\left( -\frac{1}{\alpha },-\frac{1}{\beta } \right)\].
-121．解下列关于\[x\]的不等式：
-（1）\[{{m}^{2}}x-1<x+m\].				（2）\[{{x}^{2}}-ax-2{{a}^{2}}<0\].
-122.（1）已知关于x的不等式\[\sqrt{x}>ax+\frac{3}{2}\]的解集是\[\left\{ x\left| 4<x<b \right. \right\}\]，求\[a,b\]的值.
-（2）已知\[x=3\]是不等式\[ax>b\]解集中的元素，求实数\[a,b\]应满足的条件.
-（3）已知集合\[\left\{ x\left| x<-2x>3 \right. \right\}\]是集合\[\left\{ x\left| 2a{{x}^{2}}+\left( 2-ab \right)x-b>0 \right. \right\}\]的子集，求实数\[a,b\]的取值范围.
-123．（1）已知集合\[A=\left\{ x\left| \frac{2x-1}{{{x}^{2}}+3x+2}>0 \right. \right\}\]，\[B=\left\{ x\left| {{x}^{2}}+ax+b\le 0 \right. \right\}\]，且\[A\cap B=\left\{ x\left| \frac{1}{2}<x\le 3 \right. \right\}\]，求实数\[a,b\]的取值范围.
-（2）已知集合\[A=\left\{ x\left| \left( x+2 \right)\left( x+1 \right)\left( 2x-1 \right)>0 \right. \right\}\]，\[B=\left\{ x\left| {{x}^{2}}+ax+b\le 0 \right. \right\}\]，且\[A\cup B=\left\{ x\left| x+2 \right.>0 \right\}\]，\[A\cap B=\left\{ x\left| \frac{1}{2}<x\le 3 \right. \right\}\]，求实数\[a,b\]的值.
-124.（1）已知关于\[x\]的不等式\[{{x}^{2}}-ax-6a\le 0\]有解，且对于任意的解\[{{x}_{1}},{{x}_{2}}\]恒有\[\left| {{x}_{1}}-{{x}_{2}} \right|\le 5\]，求实数\[a\]的取值范围.
-（2）已知关于\[x\]的方程\[3{{x}^{2}}+x\log _{\frac{1}{2}}^{2}a+2{{\log }_{\frac{1}{2}}}a=0\]的两根\[{{x}_{1}},{{x}_{2}}\]满足条件\[-1<{{x}_{1}}<0<{{x}_{2}}<1\]，求实数\[a\]的取值范围.
-（3）已知关于\[x\]的方程\[{{x}^{2}}+\left( {{m}^{2}}-1 \right)x+m-2=0\]的一个根比-1小，另一个根比1大，求参数\[m\]的取值范围.
-125．已知集合\[A=\left\{ x\left| x-a \right.>0 \right\}\]，\[B=\left\{ x\left| {{x}^{2}}-2ax-3{{a}^{2}}<0 \right. \right\}\]，求\[A\cap B\]与\[A\cup B\].
-（二）无理不等式
-
-126．不等式\[\sqrt{x+3}>-1\]的解集是（    ）
-（A）\[\left\{ x\left| x>-2 \right. \right\}\].		（B）\[\left\{ x\left| x\ge -3 \right. \right\}\].		（C）\[\varnothing \].		（D）\[R\].
-127．不等式\[\left( x-1 \right)\sqrt{x+2}\ge 0\]的解集是（   ）
-（A）\[\left\{ x\left| x>1 \right. \right\}\].							（B）\[\left\{ x\left| x\ge 1 \right. \right\}\].
-（C）\[\left\{ x\left| x\ge 1x=-2 \right. \right\}\].					（D）\[\left\{ x\left| x>1x=-2 \right. \right\}\].
-128．与不等式\[\sqrt{\left( x-4 \right)\left( x+3 \right)}\le 1\]的解完全相同的不等式是（    ）
-（A）\[\left| \left( x-4 \right)\left( x+3 \right) \right|\le 1\].					（B）\[\left( x-4 \right)\left( x+3 \right)\le 1\].
-（C）\[\lg \left[ \left( x-4 \right)\left( x+3 \right) \right]\le 0\].					（D）\[0\le \left( x-4 \right)\left( x+3 \right)\le 1\].
-129．解下列不等式：
-（1）\[\sqrt{x-5}+4x-3>3x+1+\sqrt{x-5}\]：    .
-（2）\[\sqrt{{{x}^{2}}+1}>\sqrt{{{x}^{2}}-x+3}\]：    .
-（3）\[\left( x-4 \right)\sqrt{{{x}^{2}}-3x-4}\ge 0\]：    .
-（4）\[\frac{x+1}{x+4}\sqrt{\frac{x+3}{1-x}}<0\]：    .
-（5）\[\sqrt{x+2}+\sqrt{x-5}\ge \sqrt{5-x}\]：    .
-（6）\[\sqrt{x-6}+\sqrt{x-3}\ge \sqrt{3-x}\]：    .
-130.解下列不等式：
-（1）\[\sqrt{2-x}<x\].					（2）\[\sqrt{4-{{x}^{2}}}<x+1\].
-（3）\[\sqrt{3-2x}>x\].				（4）\[\sqrt{\left( x-1 \right)\left( 2-x \right)}>4-3x\].
-
-131．不等式\[\sqrt{4-{{x}^{2}}}+\frac{\left| x \right|}{x}\ge 0\]的解集是（    ）
-（A）\[\left[ -2,2 \right]\].					（B）\[\left[ -\sqrt{3},0 \right)\cup \left( 0,2 \right]\].
-（C）\[\left[ -2,0 \right]\cup \left( 0,2 \right]\].			（D）\[\left[ -\sqrt{3},0 \right)\cup \left( 0,\sqrt{3} \right]\].
-132.已知关于\[x\]的不等式\[\sqrt{2x-{{x}^{2}}}>kx\]的解集是\[\left\{ x\left| 0<x\le 2 \right. \right\}\]，则实数\[k\]的取值范围是（    ）.
-（A）\[k<0\].		（B）\[k\ge 0\].		（C）\[0<k<2\].		（D）\[-\frac{1}{2}<k<0\].
-133.解下列不等式：
-（1）\[\sqrt{2x-4}-\sqrt{x+5}<1\].				（2）\[\sqrt{{{x}^{2}}-5x-6}<\left| x-3 \right|\].
-（3）\[\left| 2\sqrt{x+3}-x+1 \right|<1\].
-134.解下列关于\[x\]的不等式：
-（1）\[\sqrt{a\left( a-x \right)}>a-2x\left( a>0 \right)\].				（2）\[\sqrt{4x-{{x}^{2}}}>ax\left( a<0 \right)\].
-（3）\[\sqrt{1-ax}<x-1\left( a>0 \right)\].					（4）\[\sqrt{{{a}^{2}}-{{x}^{2}}}>2x-a\].
-（三）指数不等式，对数不等式
-
-135.\[\lg {{x}^{2}}<2\]的解集是（    ）
-（A）\[\left\{ x\left| -10<x<00<x<10 \right. \right\}\].			（B）\[\left\{ x\left| x<10 \right. \right\}\].
-（C）\[\left\{ x\left| 0<x<10 \right. \right\}\].						（D）\[\left\{ x\left| -10<x<10 \right. \right\}\].
-136.若\[f\left( x \right)={{\log }_{2}}x\]，则不等式\[{{\left[ f\left( x \right) \right]}^{2}}>f\left( {{x}^{2}} \right)\]的解集是（    ）
-（A）\[\left\{ x\left| 0<x<\frac{1}{4} \right. \right\}\].			（B）\[\left\{ x\left| \frac{1}{4}<x<1 \right. \right\}\].
-（C）\[\left\{ x\left| 0<x<1x>4 \right. \right\}\].		（D）\[\left\{ x\left| \frac{1}{4}<x<4 \right. \right\}\].
-137.若\[a,b\]都是小于1的正数，且\[{{a}^{{{\log }_{b}}\left( x-5 \right)}}<1\]，则\[x\]的取值范围是（   ）
-（A）\[x>5\].	（B）\[x<6\].	（C）\[5<x<6\].		（D）\[x<5\]或\[x>6\].
-138.不等式\[{{\log }_{x}}\frac{4}{5}<1\]的解集是（    ）
-（A）\[\left\{ x\left| 0<x<\frac{4}{5} \right. \right\}\].				（B）\[\left\{ x\left| x>\frac{4}{5} \right. \right\}\].
-（C）\[\left\{ x\left| \frac{4}{5}<x<1 \right. \right\}\].					（D）\[\left\{ x\left| 0<x<\frac{4}{5} \right. \right\}\cup \left\{ x\left| x>1 \right. \right\}\].
-139.若函数\[f\left( x \right)={{\log }_{{{a}^{2}}-1}}\left( 2x+1 \right)\]在区间\[\left( -\frac{1}{2},0 \right)\]内恒有\[f\left( x \right)>0\]，则实数\[a\]的取值范围是（    ）
-（A）\[0<a<1\].							（B）\[a>1\].
-（C）\[-\sqrt{2}<a<-1\]或\[1<a<\sqrt{2}\].		（D）\[a<-\sqrt{2}\]或\[a>\sqrt{2}\].
-140.若不等式\[{{\log }_{a}}\left( {{x}^{2}}-2x+3 \right)\le -1\]对一切实数都成立，则\[a\]的取值范围是（    ）
-（A）\[a\ge 2\].		（B）\[1<a\le 2\].		（C）\[\frac{1}{2}\le a<1\].		（D）\[0<a\le \frac{1}{2}\].
-141.解下列关于\[x\]的不等式：
-（1）\[{{\log }_{\frac{1}{2}}}\left( 3x-2 \right)>{{\log }_{\frac{1}{2}}}\left( x+1 \right)\]：    .
-（2）\[{{\log }_{\frac{1}{3}}}\left( {{x}^{2}}-x-2 \right)>{{\log }_{\frac{1}{3}}}\left( 2{{x}^{2}}-7x+3 \right)\]：    .
-（3）\[{{\log }_{x}}\frac{1}{2}<1\]：    .
-（4）\[\lg \left( x-\frac{1}{x} \right)<0\]：    .
-（5）\[{{\log }_{2}}\left| x-\frac{1}{2} \right|<-1\]：    .
-142.已知集合\[M=\left\{ x\left| {{\log }_{3}}\left( x-m \right)>1 \right. \right\}\]与\[P=\left\{ x\left| {{3}^{5-3x}} \right.\ge \frac{1}{3} \right\}\]满足\[M\cap P\ne \varnothing \]，求实数\[m\]的取值范围.
-
-143.解下列不等式：
-（1）\[{{\log }_{8}}\left( 2-x \right)+{{\log }_{61}}\left( x+1 \right)\ge {{\log }_{4}}x\].	（2）\[{{\log }_{0.5}}\left( x+13 \right)<{{\log }_{0.5}}\left( {{x}^{2}}-2x-15 \right)\].
-（3）\[{{\log }_{x}}\left( 3\sqrt{x-1}-1 \right)>1\].				（4）\[{{\log }_{x-1}}\left( 6-x-{{x}^{2}} \right)>2\].
-（5）\[\frac{1}{{{\log }_{2}}\left( x-1 \right)}<\frac{1}{{{\log }_{2}}\sqrt{x+1}}\].			（6）\[\frac{{{\log }_{3}}\left( 1-\frac{3x}{2} \right)}{{{\log }_{9}}\left( 2x \right)}\ge 1\].
-（7）\[{{\log }_{0.5}}\left( {{2}^{x}}-1 \right)\cdot {{\log }_{0.5}}\left( {{2}^{x-1}}-\frac{1}{2} \right)\le 2\].
-144.解关于\[x\]的不等式，其中\[a>0\]，\[a\ne 1\]：
-（1）\[{{\log }_{a}}\left( x+1-a \right)>1\].    （2）\[{{\log }_{a}}\left( 1-\frac{1}{x} \right)>1\].
-（3） \[{{\log }_{a}}\left( 2x-1 \right)>{{\log }_{a}}\left( x-1 \right)\].    （4）\[{{\log }_{{{a}^{2}}}}x<{{\log }_{{{x}^{2}}}}a\]．
-（5）\[{{x}^{{{\log }_{a}}x}}>\frac{{{x}^{4}}\cdot \sqrt{x}}{{{a}^{2}}}\]．    （6）\[\sqrt{{{\log }_{a}}x-1}>3-{{\log }_{a}}x\]．
-145.已知\[x\]满足不等式\[{{\left( \frac{1}{2} \right)}^{2x-4}}-{{\left( \frac{1}{2} \right)}^{x}}-{{\left( \frac{1}{2} \right)}^{x-2}}+\frac{1}{4}\le 0\]，且\[y={{\log }_{\frac{1}{a}}}\left( {{a}^{2}}x \right)\cdot {{\log }_{\frac{1}{{{a}^{2}}}}}\left( ax \right)\]的最大值是0，最小值是\[-\frac{1}{8}\]，求实数\[a\]的值．
-146．已知关于\[x\]的方程\[{{x}^{2}}-5x{{\log }_{a}}k+6\log _{a}^{2}k=0\]的两根中\[\left( k>1 \right)\]，仅较小的根在区间\[\left( 1,2 \right)\]内，试用\[a\]表示\[k\]的取值范围（\[a>0\]且\[a\ne 1\]）．
-（四）绝对值不等式
-
-147.设\[x\in R\]，则\[\left( 1-\left| x \right| \right)\left( 1+x \right)>0\]成立的充要条件是（    ）
-（A）\[\left| x \right|<1\].				（B）\[x<1\].
-（C）\[\left| x \right|>1\].				（D）\[x<1\]且\[x\ne 1\].
-148．若函数\[f\left( x \right)=\sqrt{{{x}^{2}}-2x-8}\]的定义域为\[M\]，\[g\left( x \right)=\frac{1}{\sqrt{1-\left| x-a \right|}}\]的定义域为\[N\],则使\[M\cap N=\varnothing \]的实数\[a\]的取值范围为（  ）
-（A）\[-1<a<3\].    （B）\[-1\le a\le 3\].    （C）\[-2<a<4\].    （D） \[-2\le a\le 4\].
-149．设\[a,b\]是满足\[ab<0\]的实数，则下列不等式中正确的一个是（    ）
-（A）\[\left| a+b \right|>\left| a-b \right|\].					（B） \[\left| a+b \right|<\left| a-b \right|\].
-（C） \[\left| a-b \right|<\left| \left| a \right|-\left| b \right| \right|\]. 					（D）\[\left| a-b \right|<\left| \left| a \right|+\left| b \right| \right|\].
-150．不等式\[\left| x \right|<\frac{1}{x}\]的解集为（    ）
-（A）\[\varnothing \]．								（B） \[\left\{ x\left| x<0 \right. \right\}\].
-（C）\[\left\{ x\left| 0<x<1 \right. \right\}\]．					（D）\[\left\{ x\left| x<0x\ge 1 \right. \right\}\].
-151.若\[\left| a+b \right|<-c\]，则在“①\[a<-b-c\]，②\[a+b>c\]，③\[a+c<b\]，④\[\left| a \right|+c<\left| b \right|\]，⑤\[\left| a \right|+\left| b \right|<-c\]”这五个式子中一定成立的个数是（    ）
-（A）1．    （B）2．    （C）3．    （D）4．
-152．若实数\[a,b\]满足\[ab>0\]，则在“①\[\left| a+b \right|>\left| a \right|\]，②\[\left| a+b \right|<\left| b \right|\]，③\[\left| a+b \right|<\left| a-b \right|\]，④\[\left| a+b \right|>\left| a-b \right|\]”这四个式子中，正确的是（  ）
-（A）①②.    （B）①③.		（C）①④.    （D）②④．
-153．不等式\[\left| \frac{x}{1+x} \right|>\frac{x}{1+x}\]的解集是（  ）
-（A）\[\left\{ x\left| x\ne -1 \right. \right\}\].    			（B）\[\left\{ x\left| x>-1 \right. \right\}\].
-（C）\[\left\{ x\left| x<0x\ne -1 \right. \right\}\]．		（D）\[\left\{ x\left| -1<x<0 \right. \right\}\].
-154．解下列不等式．
-（1）\[{{x}^{2}}+\left| x \right|-6<0\]：    .
-（2）\[{{x}^{2}}-2\left| x \right|-15>0\]：    .
-（3） \[4<\left| 1-3x \right|\le 7\]：    .
-（4）\[\left| x-3 \right|<x-1\]：    .
-（5）\[{{\log }_{2}}\left| x-\frac{1}{2} \right|<-1\]：    .
-155．若函数\[y={{\log }_{a}}x\]在\[x\in \left[ 2,+\infty  \right]\]上恒有\[\left| y \right|>1\]，则实数\[a\]的取值范围是    .
-156解下列不等式：
-（1）\[\left| {{x}^{2}}-5x+10 \right|>{{x}^{2}}-8\].		（2）\[\left| {{x}^{2}}-4 \right|\le x+2\].
-（3） \[\left| x+1 \right|<\frac{1}{x-1}\]．			（4）\[\left| x+2 \right|-\left| x-3 \right|<4\].
-（5） \[\left| x+3 \right|-\left| 2x-1 \right|<\frac{x}{2}+1\].
-
-157．（1）已知当\[\left| x-2 \right|<a\]成立时，\[\left| {{x}^{2}}-4 \right|<1\]也成立，求正数\[a\]的取值范围．
-    （2）已知关于\[x\]的不等式\[\left| x-4 \right|+\left| x-3 \right|<a\]在实数集\[R\]上的解集不是空集，求正数\[a\]的取值范围．
-158．解下列不等式：
-（1）\[{{\log }_{\frac{1}{4}}}\left| x \right|<{{\log }_{\frac{1}{2}}}\left| x+1 \right|\] .		（2）\[\left| \lg \left( 1-x \right) \right|>\left| \lg \left( 1+x \right) \right|\].
-（3）\[\left| {{\log }_{\frac{1}{3}}}x \right|+\left| {{\log }_{\frac{1}{3}}}\frac{1}{3-x} \right|\ge 1\].
-159.（1）求函数\[f\left( x \right)=\left| x-\frac{1}{2} \right|-\left| x+\frac{1}{2} \right|\]的最大值.
-   （2）已知\[\left| \lg x-\lg y \right|\le 1\]，则\[\frac{x}{y}+\frac{y}{x}\]的取值范围是    .
-160．解下列关于\[x\]的不等式：
-（1）\[\left| {{\log }_{\sqrt{a}}}x-2 \right|-\left| {{\log }_{a}}x-2 \right|<2\].		（2）\[\left| {{\log }_{a}}x \right|<\left| {{\log }_{a}}\left( a{{x}^{2}} \right) \right|-2\].
-161.解下列关于z的不等式：
-（1） \[\left| {{3}^{x}}-3 \right|+{{9}^{x}}-3>0\].			（2）\[\left| {{a}^{x}}-1 \right|+\left| {{a}^{2x}}-3 \right|>2\left( a>0 \right)\].
-
-162．\[\Delta ABC\]三内角\[A,B,C\]对边长分别为\[a,b,c\]，外接圆半径记作\[R\]．求证：
-（1）\[{{a}^{2}}+{{b}^{2}}+{{c}^{2}}\ge 2ab\cos C+2b\cos A+2ca\cos B\]．
-（2）\[\left( a+b-c \right)\left( b+c-a \right)\left( c+a-b \right)\le abc\]．
-（3）\[\frac{1}{2}\left( \frac{1}{a}+\frac{1}{b}+\frac{1}{c} \right)\le \frac{\cos A}{a}+\frac{\cos B}{b}+\frac{\cos C}{c}<\frac{1}{a}+\frac{1}{b}+\frac{1}{c}\]．
-（4）\[\frac{1}{ab}+\frac{1}{bc}+\frac{1}{ca}\ge \frac{1}{{{R}^{2}}}\]．
-163.已知\[f\left( {{\log }_{a}}x \right)=\frac{a\left( {{x}^{2}}-1 \right)}{x\left( {{a}^{2}}-1 \right)}\left( 0<a<1,x>0 \right)\]．
-（l）求\[f\left( x \right)\left( x\in R \right)\]的表达式，并判断它的单凋性．
-（2）若\[n\ge 2,n\in N\]，求证：\[f\left( n \right)>n\].
-164.若正数\[a,b,c\]满足\[a+b>c\]，求证：\[\frac{a}{1+a}+\frac{b}{1+b}>\frac{c}{1+c}\].
-165.求证：
-（1）\[\frac{1}{2}\cdot \frac{3}{4}\cdot \frac{5}{6}\cdot \frac{7}{8}\cdot \cdot \cdot \cdot \cdot \frac{99}{100}<\frac{1}{10}\].
-（2）\[\left( 1+\frac{1}{3} \right)\left( 1+\frac{1}{5} \right)\cdot \cdot \cdot \left( 1+\frac{1}{2n-1} \right)>\frac{1}{\sqrt{3}}\sqrt{2n+1}\left( n\in N,n>1 \right)\].
-（3）\[\frac{x_{1}^{2}}{{{x}_{2}}-1}+\frac{x_{2}^{2}}{{{x}_{3}}-1}+\cdot \cdot \cdot +\frac{x_{n-1}^{2}}{{{x}_{n}}-1}+\frac{x_{n}^{2}}{{{x}_{1}}-1}\ge n+{{x}_{1}}+{{x}_{2}}+\cdot \cdot \cdot +{{x}_{a}}\]（\[{{x}_{1}},{{x}_{2}},\cdot \cdot \cdot ,{{x}_{n}}\]都是大于1的实数）.
-166．（1）若正数\[a,b,c\]满足\[a+b+c\]，求证：\[\left( 1+a \right)\left( 1+b \right)\left( 1+c \right)\ge 8\left( 1-a \right)\left( 1-b \right)\left( 1-c \right)\]．
-（2）若\[0\le a\le 1\]，\[0\le b\le 1\]，\[0\le c\le 1\]，
-求证：\[\frac{a}{1+b+c}+\frac{b}{1+c+a}+\frac{c}{1+a+b}+\left( 1-a \right)\left( 1-b \right)\left( 1-c \right)\le 1\].
-167．已知三棱锥的三条侧棱两两互相垂直，且六条棱之和为定值\[m\]，求证：它的体积\[V\le \frac{5\sqrt{2}-7}{162}{{m}^{3}}\].
-168．已知\[a+b+c>0\]，\[ab+bc+ca>0\]，\[abc>0\]求证：\[a>0,b>0,c>0\]．
-169．求证：任何面积等于1的凸四边形的周长及两条对角线的长度之和不小于\[4+\sqrt{8}\].
-170．解下列关于\[x\]的不等式：
-（1）\[{{2}^{x+1}}+x>0\].			（2）\[\frac{a\left( x-1 \right)}{x-2}>1\].
-（3）\[{{x}^{2}}+\left( a-4 \right)x+4-2a>0\]，其中\[-1\le a\le 1\].
-（4）\[\frac{x}{\sqrt{1+{{x}^{2}}}}+\frac{1-{{x}^{2}}}{1+{{x}^{2}}}>0\].
-（5）\[\frac{cx}{a{{c}^{2}}+b}-\frac{x}{2\sqrt{ab}}>{{x}^{2}}\]，其中\[a,b,c\in R\]，且\[a>0\]，\[b>0\].
-171．已知函数\[f\left( x \right)=a{{x}^{2}}-c\]满足\[-4\le f\left( 1 \right)\le -1\]，\[-1\le f\left( 2 \right)\le 5\]，求证：\[-1\le f\left( 3 \right)\le 20\].
-172．已知关于\[x\]的方程\[a{{\sin }^{2}}x+\frac{1}{2}\cos x+\frac{1}{2}-a=0\]在\[0\le x<2\pi \]内有两个相异的实根，求实数\[a\]的取值范围.
-173．已知\[\left| a \right|<1\]，\[\left| b \right|<1\]，\[\left| c \right|<1\]，求证：
-（l）\[\left| 1-abc \right|>\left| ab-c \right|\]．    （2）\[a+b+c<abc+2\].
+93.若\[f\left( x \right)=\left( m-1 \right){{x}^{2}}+3mx+3\]为偶函数，则\[f\left( x \right)\]在区间（－4，2）上（）
+（A）是增函数.							（B）是减函数.
+（C）先是增函数后是减函数.				（D）先是减函数后是增函数.
+94.函数\[f\left( x \right)=\left\{ \begin{array}{*{35}{l}}
+   1-x & \left( x>0 \right),  \\
+   0 & \left( x=0 \right),  \\
+   1+x & \left( x<0 \right),  \\
+\end{array} \right.\]则该函数（）
+（A）是奇函数，但不是偶函数.				（B）是偶函数，但不是奇函数.
+（C）既是奇函数，也是偶函数.				（D）既不是奇函数，也不是偶函数.
+95.下列函数中既是奇函数，又在定义域上为增函数的是（）
+（A）\[f\left( x \right)=3x+1.\]	（B）\[f\left( x \right)=\frac{1}{x}.\]		（C）\[f\left( x \right)=1-\frac{1}{x}.\]	（D）\[f\left( x \right)={{x}^{3}}.\]
+96.若\[f\left( x \right)\]为定义在区间[－6，6]上的偶函数，且满足\[f\left( 3 \right)>f\left( 1 \right)\]，则恒成立的是（）
+（A）\[f\left( -1 \right)<f\left( 3 \right).\]	（B）\[f\left( 0 \right)<f\left( 6 \right).\]	（C）\[f\left( 3 \right)>f\left( 2 \right).\]	（D）\[f\left( 2 \right)>f\left( 0 \right).\]
+97.函数\[f\left( x \right)=\frac{\sqrt{1-{{x}^{2}}}}{2-\left| x+2 \right|}\]（）
+（A）是奇函数，但不是偶函数.				（B）是偶函数，但不是奇函数.
+（C）既是奇函数，又是偶函数.				（D）既不是奇函数，也不是偶函数.
+98.已知\[f\left( x \right)\]是奇函数，则下列各点中在函数\[y=f\left( x \right)\]的图象上的点的是（）
+（A）\[\left( a,f\left( -a \right) \right).\]					（B）\[\left( -a,-f\left( a \right) \right).\]
+（C）\[\left( \frac{1}{a},-f\left( \frac{1}{a} \right) \right).\]					（D）\[\left( -\sin a,-f\left( -\sin a \right) \right).\]
+99.（1）若\[f\left( x \right)\]是定义在\[R\]上的偶函数，且当\[x<0\]时，\[f\left( x \right)=2x-3\]，则当\[x>0\]时，\[f\left( x \right)=\]          .
+（2）若奇函数\[f\left( x \right)\]的定义域是\[R\]，则\[f\left( 0 \right)=\]          .
+100.（1）若奇函数\[f\left( x \right)\]在区间[－3，－1]上是增函数，且有最大值－2，则\[f\left( x \right)\]在[1，3]上是          函数（填“增”或“减”），且最小值等于          .
+（2）设\[f\left( x \right)\]为定义在\[R\]上的偶函数，且\[f\left( x \right)\]在\[\left[ 0,+\infty  \right)\]上是增函数，则\[f\left( -4 \right)\]，\[f\left( -2 \right)\]，\[f\left( 3 \right)\]由小到大的排列顺序为          .
