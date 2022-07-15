@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  14 JUL 2022 21:32
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  15 JUL 2022 12:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**精编第二章不等式
-(./精编第二章不等式.tex
+**精编第三章函数
+(./精编第三章函数.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -625,8 +625,8 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \c@coro=\count332
 \c@axiom=\count333
 \c@prop=\count334
- (./精编第二章不等式.aux)
-\openout1 = `精编第二章不等式.aux'.
+ (./精编第三章函数.aux)
+\openout1 = `精编第三章函数.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
@@ -749,144 +749,129 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 47.
  (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 50--52
-[][]
- []
+LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 58.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 58.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 58.
 
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 52--53
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 117--118
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 56--57
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 58--59
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 67--68
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 119--120
 [][] 
  []
 
 [1
 
 ]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 85--86
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 121--122
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 87--88
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 123--124
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 89--90
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 132--133
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 93--94
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 136--137
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 95--96
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 138--139
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 97--98
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 140--141
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 99--100
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 142--143
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 101--102
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 144--145
 [][] 
  []
 
 [2]
-LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 104.
- (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 104.
- (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 104.
+Overfull \hbox (58.09949pt too wide) in paragraph at lines 146--156
+[]$\TU/lmr/m/n/10 :$[]$. (7)$\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = []$\TU/lmr/m/n/10 :$[]$. (8)$\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = []$\TU/lmr/m/n/10 :$[]$. (9)$\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = []$\TU/lmr/m/n/10 :$[]$. 
+ []
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 105--106
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 170--171
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 107--108
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 172--173
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 174--175
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 176--177
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 178--179
 [][] 
  []
 
 [3]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 133--134
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 207--208
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 135--136
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 220--221
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 137--138
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 139--140
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 145--146
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 147--148
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 151--152
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 153--154
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 155--156
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 222--223
 [][] 
  []
 
 [4]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 157--158
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 224--225
 [][] 
  []
 
-[5] [6] [7]
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 226--227
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 228--229
+[][] 
+ []
+
+
 Overfull \hbox (22.22168pt too wide) in paragraph at lines 230--231
 [][] 
  []
@@ -897,71 +882,176 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 232--233
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 239--240
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 234--235
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 241--242
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 236--237
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 243--244
-[][] 
- []
-
-[8] [9] [10] [11]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 338--339
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 238--239
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 340--341
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 240--241
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 342--343
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 242--243
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 344--345
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 244--245
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 346--347
-[][] 
- []
-
-[12]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 358--359
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 246--247
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 360--361
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 248--249
+[][] 
+ []
+
+[5]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 250--251
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 362--363
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 252--253
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 364--365
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 254--255
 [][] 
  []
 
-[13] [14]
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 256--257
+[][] 
+ []
+
+
+Overfull \hbox (8.41371pt too wide) in paragraph at lines 257--265
+\TU/lmr/m/n/10 (3)$\OT1/cmr/m/n/10 ([] + 2)[] \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 ([] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 2)[] =$$[]$\TU/lmr/m/n/10 . (4)$[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . (5)$\OT1/cmr/m/n/10 4[] \OMS/cmsy/m/n/10 ^^@ [] \OT1/cmr/m/n/10 + 2[] =$$[]$\TU/lmr/m/n/10 .
+ []
+
+
+Overfull \hbox (13.31905pt too wide) in paragraph at lines 268--273
+[]\TU/华文中宋(0)/m/n/10 将 下 列 根 式 改 写 成 分 数 指 数 幂 的 形 式\TU/lmr/m/n/10 : (1)$[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . (2)$[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . (3)$[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 .
+ []
+
+
+Overfull \hbox (52.92226pt too wide) in paragraph at lines 268--273
+\TU/lmr/m/n/10 (4)$[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . (5)$[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . (6)$\OMS/cmsy/m/n/10 ^^@[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . (7)$[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . (8)$\OT1/cmr/m/n/10 2[] =$
+ []
+
+
+Overfull \hbox (77.03348pt too wide) in paragraph at lines 279--290
+[]\TU/华文中宋(0)/m/n/10 计 算 下 列 各 式\TU/lmr/m/n/10 : (1)$\OT1/cmr/m/n/10 ([])[] =$$[]$\TU/lmr/m/n/10 . (2)$\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 064)[] =$$[]$\TU/lmr/m/n/10 . (3)$\OT1/cmr/m/n/10 (2[])[] =$$[]$\TU/lmr/m/n/10 . (4)$\OT1/cmr/m/n/10 [(\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 3)[]][] =$$[]$\TU/lmr/m/n/10 .
+ []
+
+[6]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 296--297
+[][] 
+ []
+
+
+Overfull \hbox (73.47723pt too wide) in paragraph at lines 315--319
+[]\TU/华文中宋(0)/m/n/10 化 简 下 列 各 式\TU/lmr/m/n/10 : (1)$[] \OT1/cmr/m/n/10 + []$\TU/lmr/m/n/10 . (2)$\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )[] \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )[] \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )[]$\TU/lmr/m/n/10 . (3)$[]\OT1/cmr/m/n/10 ([])[] \OMS/cmsy/m/n/10 ^^A
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 323--324
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 325--326
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 327--329
+[][]
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 330--332
+[][]
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 332--342
+[][]
+ []
+
+[7]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 348--351
+[][]
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 366--367
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 368--369
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 370--371
+[][] 
+ []
+
+[8]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 372--373
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 374--375
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 376--377
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 394--395
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 396--397
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 398--399
+[][] 
+ []
+
+
 Overfull \hbox (22.22168pt too wide) in paragraph at lines 400--401
 [][] 
  []
 
-
+[9]
 Overfull \hbox (22.22168pt too wide) in paragraph at lines 402--403
 [][] 
  []
@@ -971,99 +1061,14 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 404--405
 [][] 
  []
 
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 415--416
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 417--418
-[][] 
- []
-
-[15]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 430--431
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 432--433
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 434--435
-[][] 
- []
-
-[16]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 446--447
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 448--449
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 459--460
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 461--462
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 467--468
-[][] 
- []
-
-[17]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 490--491
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 492--493
-[][] 
- []
-
-[18]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 494--495
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 496--497
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 498--499
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 500--501
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 502--503
-[][] 
- []
-
-[19] [20] [21] (./精编第二章不等式.aux) ) 
+[10] (./精编第三章函数.aux) ) 
 Here is how much of TeX's memory you used:
- 20386 strings out of 476919
- 461388 string characters out of 5825424
- 812824 words of memory out of 5000000
- 39976 multiletter control sequences out of 15000+600000
- 406111 words of font info for 62 fonts, out of 8000000 for 9000
+ 20460 strings out of 476919
+ 463895 string characters out of 5825424
+ 828199 words of memory out of 5000000
+ 40052 multiletter control sequences out of 15000+600000
+ 406095 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,17n,104p,415b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,19n,104p,414b,735s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 精编第二章不等式.pdf (21 pages).
+Output written on 精编第三章函数.pdf (10 pages).
