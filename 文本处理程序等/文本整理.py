@@ -27,7 +27,7 @@ def replace_i(matchobj):
     string = matchobj.group(1)
     length = len(string)
     for i in range(length-1,-1,-1):
-        if string[i] == "i" and not "item" in string[i:]:
+        if string[i] == "i" and not "item" in string[i:] and not "overline" in string[i:]:
             string = string[:i] + "\\mathrm{i}" + string[i+1:]
     return string
 def refine_log(matchobj):
@@ -50,6 +50,58 @@ def refine_brackets_in_brackets(matchobj):
     return matchobj.group(1) + matchobj.group(2) + matchobj.group(3)
 def mathbf(matchobj):
     return "\\mathbf{" + matchobj.group(1) + "}^" + matchobj.group(2)
+#以上是202207之前的文本处理机制
+global layer
+def rename_bracket(matchobj):
+    return "leftbracket" + str(layer) + matchobj.group(1) + "rightbracket" + str(layer)
+def frac_brackets(matchobj):
+    return "frac{"+matchobj.group(1)+"}{"+matchobj.group(2)+"}"
+def frac_single_second_bracket(matchobj):
+    return "frac "+matchobj.group(1)+"{"+matchobj.group(2)+"}"
+def recall_vital_bracket(matchobj):
+    return matchobj.group(1) + "{" + matchobj.group(2) + "}"
+def sqrt_brackets(matchobj):
+    if matchobj.group(1) == None:
+        first_group = ""
+    else:
+        first_group = matchobj.group(1)
+    return "sqrt "+ first_group +"{" + matchobj.group(2) + "}"
+def refine_frac(string):
+    for s in range(7):
+        for t in range(7):
+            string = re.sub(r"frac[\s]*leftbracket"+str(s)+"(.*?)"+r"rightbracket"+str(s)+"[\s]*"+r"leftbracket"+str(t)+"(.*?)"+r"rightbracket"+str(t),frac_brackets,string)
+    return string
+def refine_single_second_frac(string):
+    for s in range(7):
+        string = re.sub(r"frac[\s]*(\w)[\s]*leftbracket"+str(s)+"(.*?)"+r"rightbracket"+str(s),frac_single_second_bracket,string)
+    return string
+def refine_vital_bracket(string):
+    for s in range(7):
+        string = re.sub(r"(frac)[\s]*leftbracket"+str(s)+"(.*?)rightbracket"+str(s),recall_vital_bracket,string)
+        string = re.sub(r"(line)[\s]*leftbracket"+str(s)+"(.*?)rightbracket"+str(s),recall_vital_bracket,string)
+        string = re.sub(r"(arrow)[\s]*leftbracket"+str(s)+"(.*?)rightbracket"+str(s),recall_vital_bracket,string)
+        string = re.sub(r"(_)[\s]*leftbracket"+str(s)+"(.*?)rightbracket"+str(s),recall_vital_bracket,string)
+        string = re.sub(r"(\^)[\s]*leftbracket"+str(s)+"(.*?)rightbracket"+str(s),recall_vital_bracket,string)
+        string = re.sub(r"(mathrm)[\s]*leftbracket"+str(s)+"(.*?)rightbracket"+str(s),recall_vital_bracket,string)
+        string = re.sub(r"(mathbf)[\s]*leftbracket"+str(s)+"(.*?)rightbracket"+str(s),recall_vital_bracket,string)
+        string = re.sub(r"(begin)[\s]*leftbracket"+str(s)+"(.*?)rightbracket"+str(s),recall_vital_bracket,string)
+        string = re.sub(r"(end)[\s]*leftbracket"+str(s)+"(.*?)rightbracket"+str(s),recall_vital_bracket,string)
+    return string
+def refine_sqrt(string):
+    for s in range(7):
+        string = re.sub(r"sqrt[\s]*(\[\w*\])*[\s]*leftbracket"+str(s)+"(.*?)rightbracket"+str(s),sqrt_brackets,string)
+    return string
+def give_blanks(string):
+    string = re.sub(r"(sqrt[\w])",insert_a_blank,string)
+    string = re.sub(r"(frac[\w])",insert_a_blank,string)
+    return string
+def give_brackets(string):
+    string = re.sub(r"leftbracket\d","",string)
+    string = re.sub(r"rightbracket\d","",string)
+    string = re.sub(r"leftset",r"\{",string)
+    string = re.sub(r"rightset",r"\}",string)
+    return string
+#以上是20220715新加的文本处理机制
 try:
     os.chdir(r"D:\mathdept\mathdept\文本处理程序等")
 except:
@@ -60,7 +112,7 @@ with open("textfile.txt", "r", encoding = "utf8") as textfile:
 
 
 #去除左右括号的前缀
-data = data.replace(r"\left","").replace(r"\right.","").replace(r"\right","")
+data = data.replace(r"\left.","").replace(r"\left","").replace(r"\right.","").replace(r"\right","")
 
 #全角半角符号替换
 data = re.sub("　","  ",data)
@@ -197,13 +249,9 @@ for equation in raw_equations:
     equation1 = equation
     # 去除单个字周围的大括号和去除双重无意义的大括号
     for i in range(20):
-        equation1 = re.sub("(\{[\w\+\-*]?\})",refine_brackets,equation1)
+        equation1 = re.sub("(\{[\w\+\-\*]?\})",refine_brackets,equation1)
     for i in range(20):
         equation1 = re.sub("(\{\{[^\{\}]*?\}\})",refine_brackets,equation1)
-    #有分数或根号的判定之后去除无意义的大括号
-    sqrt_or_frac = False
-    if not "sqrt" in equation1 and not "frac" in equation1:
-        equation1 = re.sub("(\{[\d\w]+?\^[\d\w]+?\})",refine_brackets,equation1)
     #去除公式中的无意义的空格
     equation1 = re.sub("\\\\[!,]|\\\\quad|\\\\qquad","",equation1)
     equation1 = re.sub("\{ *\}","",equation1)
@@ -211,8 +259,16 @@ for equation in raw_equations:
     equation1 = re.sub(" *\)",")",equation1)
     equation1 = re.sub("\$ *","$",equation1)
     equation1 = re.sub(" *\$","$",equation1)
-    #固定公式和字母之间加空格
-    equation1 = re.sub("(arrow[\w]|frac[\w\d]|sqrt[\w\d]|overline[\w\d])",insert_a_blank,equation1)
+    #改善大括号20220715
+    layer = 0
+    equation1 = re.sub(r"\\\{","leftset",equation1)
+    equation1 = re.sub(r"\\\}","rightset",equation1)
+    for layer in range(7):
+        equation1 = re.sub(r"\{([^\{\}]*)\}",rename_bracket,equation1)
+    equation1 = refine_sqrt(equation1)
+    equation1 = refine_vital_bracket(refine_single_second_frac(refine_frac(equation1)))
+    equation1 = give_blanks(equation1)
+    equation1 = give_brackets(equation1)
     #改善交集和并集
     equation1 = equation1.replace("\\bigc","\\c")
     #在数集中的数集改为粗黑体
@@ -236,21 +292,8 @@ for equation in raw_equations:
     equation1 = re.sub(r"\\\\\\end",r"\\end",equation1)
     #分式变displaystyle
     equation1 = re.sub(r"\\frac",r"\\dfrac",equation1)
-    #处理累赘的log周围的大括号
-    equation1 = re.sub(r"\{\{\\log[\s]*?\}_([\d\w])\}",refine_log,equation1)
     #处理多余的斜杠空格
     equation1 = re.sub(r"\\[\s]*?,[\s]*?\\",",",equation1)
-    #处理幂的多余大括号
-    equation1 = re.sub("\{\{(\([\s\S]*?\))\}\^([\{\}\w\+\-\*]*?)\}",refine_powers,equation1)
-    equation1 = re.sub(r"\{\{([\\mathbfrm\{\}NRCQZ]*?)\}\^([\+\*]*?)\}",refine_powers,equation1)
-    #处理数列多余的大括号
-    equation1 = re.sub(r"\\\{\{([\w]*?_[\w]*?)\}\\\}",refine_sequences,equation1)
-    #进一步处理多余的大括号
-    equation1 = re.sub(r"(\{[ABCDMNPQR]_[\d]\})",refine_brackets,equation1)
-    equation1 = re.sub("\$\{([\w]*?_[\w]*?)\}",refine_starting_brackets,equation1)
-    equation1 = re.sub("([\+\-\,\|\^])[\s]*?\{([\{\}\w]*?_[\w\}\{]*?)\}",refine_left_operating_brackets,equation1)
-    #有问题equation1 = re.sub("\{([\{\{\w]*?_[\{\w\}]*?)\}([\+\-\,\|])[\s]*?",refine_right_operating_brackets,equation1)
-    equation1 = re.sub(r"([\(\[\{])\{([^\{\}]*?)\}([\)\]\}])",refine_brackets_in_brackets,equation1)
     #处理三个点的写法
     equation1 = re.sub(r"\\cdot[\s]*?\\cdot[\s]*?\\cdot",r"\\cdots",equation1)
     #\bot改为\perp
@@ -271,6 +314,7 @@ for equation in raw_equations:
     equation1 = re.sub(r"\\\{\s*",r"\\{",equation1)
     equation1 = re.sub(r"\{ *([ZRNQC])\^([\+\-*]) *\}",mathbf,equation1)
     equation1 = re.sub(r"\{\\log *\}_",r"\\log_",equation1)
+    
     modified_equations.append(equation1)
 
 
