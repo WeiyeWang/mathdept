@@ -4,7 +4,7 @@
 \item 求函数$y=\dfrac{x^2-x+1}{2x^2-2x+3}$的值域.
 \item 求函数$y=\dfrac{x^2+4x+3}{x^2+x-6}$的值域.
 \item 若实数$x,y$满足$x^2+4y^2=4x$, 求$S=x^2+y^2$的值域.
-\item 已知函数$y=f(x)=x^2+ax+3$在区间$x\in [ -1,1 ]$上的最小值为-3, 求实数$a$的值.
+\item 已知函数$y=f(x)=x^2+ax+3$在区间$x\in [-1,1]$上的最小值为-3, 求实数$a$的值.
 \item 求函数$y=3x^2-12x+18\sqrt {4x-x^2}-23$的值域.
 \item 求函数$y=|x-2|-|x+1|$的值域.
 \item 若$f(x-1)=2x^2+1$, 求$f(x)$.
@@ -40,12 +40,12 @@
 (二)函数
 \item 函数$f(x)=\dfrac{\sqrt {x^2-5x+6}}{x-2}$的定义域是\bracket{20}.
 \fourch{$\{x|2<x<3\}$}{$\{x|x<2x>3\}$}{$\{x|x\le 2x\ge 3\}$}{$\{x|x<2x\ge 3\}$}
-\item 若函数$f(x)$的定义域是$[ -1,1 ]$, 则函数$f(x+1)$的定义域是\bracket{20}.
-\fourch{$[ -1,1 ]$}{$[ 0,2 ]$}{$[ -2,0 ]$}{$[ 0,1 ]$}
+\item 若函数$f(x)$的定义域是$[-1,1]$, 则函数$f(x+1)$的定义域是\bracket{20}.
+\fourch{$[-1,1]$}{$[0,2]$}{$[-2,0]$}{$[0,1]$}
 \item 在``\textcircled{1} $y=x$与$y=\sqrt {x^2}$, \textcircled{2} $y=\sqrt {x^2}$与$y=(\sqrt x)^2$, \textcircled{3} $y=|x|$与$y=\dfrac{x^2}x$, \textcircled{4} $y=|x|$与$y=\sqrt {x^2}$, \textcircled{5} $y=x^0$与$y=1$''这五组函数中, 表示同一函数的组数是\bracket{20}.
 \fourch{0}{1}{2}{3}
 \item 函数$y=-x^2-2x+3(-5\le x\le 0)$的值域是\bracket{20}.
-\fourch{$(-\infty ,4 ]$}{$[ 3,12 ]$}{$[ -12,4 ]$}{$[ 4,12 ]$}
+\fourch{$(-\infty ,4]$}{$[3,12]$}{$[-12,4]$}{$[4,12]$}
 \item 已知镭经过100年后剩下原来质量的95. 76%, 若质量为l克的镭经过$x$年后的剩余质量为$y$克, 则$y$与$x$之间的解析式是\bracket{20}.
 \fourch{$y=(\dfrac{0.9576}{100})^x$}{$y=(0.9576)^{100x}$}{$y=(0.9576)^{\dfrac x{100}}$}{$y=1-(1-0.9576)^{\dfrac x{100}}$}
 \item 函数$y=x+\dfrac{|x|}x$的图象是\bracket{20}.
@@ -72,18 +72,18 @@
 (6)若一次函数$f(x)$满足$f(f(x))=1+2x$, 则$f(x)=$\blank{50}.
 (7)若$f(x^2-x)=x^4-2x^3+x^2+1$, 则$f(f(x))=$\blank{50}.
 (8)若函数$f(x)=\dfrac x{\sqrt {1+x^2}}$, 则$f(f(x))=$\blank{50}, $f(f(f(x)))=$\blank{50}.
-\item 若$-b<a<0$, 且函数$d(x)$的定义域是$[ a,b ]$, 则函数$F(x)=f(x)+f(-x)$的定义域是\bracket{20}.
-\fourch{$[ a,b ]$}{$[ -b,-a ]$}{$[ -b,b ]$}{$[ a,-a ]$}
-\item 若$f(x)$的定义域是$[ 0,1 ]$, 且$f(x+m)+f(x-m)$的定义域是$\varnothing$, 则正数$m$的取值范围是\bracket{20}.
+\item 若$-b<a<0$, 且函数$d(x)$的定义域是$[a,b]$, 则函数$F(x)=f(x)+f(-x)$的定义域是\bracket{20}.
+\fourch{$[a,b]$}{$[-b,-a]$}{$[-b,b]$}{$[a,-a]$}
+\item 若$f(x)$的定义域是$[0,1]$, 且$f(x+m)+f(x-m)$的定义域是$\varnothing$, 则正数$m$的取值范围是\bracket{20}.
 \fourch{$0<m<1$}{$0<m\le \dfrac 12$}{$0<m<\dfrac 12$}{$m>\dfrac 12$}
 \item 函数$y=\dfrac{x^2-1}{x^2+1}$的值域是\bracket{20}.
-\fourch{$(-1,1)$}{$[ -1,1 ]$}{$[ -1,1)$}{$(-1,1 ]$}
+\fourch{$(-1,1)$}{$[-1,1]$}{$[-1,1)$}{$(-1,1]$}
 \item 若$2x^2-3x\le 0$, 则函数$f(x)=x^2+x+1$\bracket{20}.
 \fourch{有最小值$\dfrac 34$, 但无最大值}{有最小值$\dfrac 34$, 有最大值1}{有最小值1有最大值$\dfrac{19}4$}{既无最小值, 也无最大值}
 \item 函数$f(x)=|1-x|-|x-3|(x\in \mathbf{R})$的值域是\bracket{20}.
-\fourch{$[ -2,2 ]$}{$[ -1,3 ]$}{$[ -3,1 ]$}{$[ 0,4 ]$}
-\item (1)若函数$f(x)$的定义域是$[ 0,1 ]$, 分别求函数$f(1-2x)$和$f(x+a)(a>0)$的定义域.
-   (2)若函数$f(x+1)$的定义域是$[ -2,3)$, 求函数$f(\dfrac 1x+2)$的定义域.
+\fourch{$[-2,2]$}{$[-1,3]$}{$[-3,1]$}{$[0,4]$}
+\item (1)若函数$f(x)$的定义域是$[0,1]$, 分别求函数$f(1-2x)$和$f(x+a)(a>0)$的定义域.
+   (2)若函数$f(x+1)$的定义域是$[-2,3)$, 求函数$f(\dfrac 1x+2)$的定义域.
 \item 求下列函数的值域:
 (1)$y=\dfrac{2x}{x^2+x+1}$.			(2)$y=\dfrac{x^2+x-1}{x^2+x+1}$.		(3)$y=\dfrac{x^2-1}{x^2-5x+4}$.
 \item (1)若实数$x,y$满足$3x^2+2y^2=6x$, 分别求$x$与$x^2+y^2$的取值范围.
@@ -92,16 +92,16 @@
 (1)$y=3x-2+\sqrt {3-2x}$.
 (2)$y=2x+\sqrt {2x-1}$.
 (3)$y=(x-1)(x-2)(x-3)(x-4)+15$.
-\item (1)已知函数$f(x)=x^2-2x+3$在$[ 0,m ]$上有最大值3, 最小值2, 求正数$m$的取值范围.
-    (2)已知函数$y=x^2+mx-1$在区间$[ 0,3 ]$上有最小值-2, 求实数$m$的值.
+\item (1)已知函数$f(x)=x^2-2x+3$在$[0,m]$上有最大值3, 最小值2, 求正数$m$的取值范围.
+    (2)已知函数$y=x^2+mx-1$在区间$[0,3]$上有最小值-2, 求实数$m$的值.
     (3)当$x\ge 0$时, 求函数$f(x)=x^2+2ax$的最小值.
 \item 已知函数$f(x)=\dfrac{ax}{2x+3}(x\ne -\dfrac 32)$满足$f(f(x))=x$, 求实数$a$的值.
 \item (1)已知$f(x)$是二次函数, 且满足$f(2x)+f(3x+1)=13x^2+6x-1$, 求$f(x)$的表达式.
     (2)已知函数$f(x)$的定义域是一切非零实数, 且满足$3f(x)+2f(\dfrac 1x)=4x$, 求, $f(x)$的表达式.
 \item (l)作(画)出下列函数的图象:
 \textcircled{1} $y=1+\dfrac{|x|}x$; \textcircled{2} $y=x-|1-x|$; \textcircled{3} $y=|x^2-4x+3|$; \textcircled{4} $y=\dfrac{x^3+x}{|x|}$; \textcircled{5} $y=\dfrac{(x+\dfrac 12)}{|x|-x}^0$.
-(2)已知$f(x)=-x^2+2x+3$, 画出函数$y=\dfrac 12[ f(x)+|f(x)|]$的图象.
-(3)已知$f(x)=|x|$, $x\in [ -1,1 ]$, 作出函数$y=f(x+1)+1$的图象.
+(2)已知$f(x)=-x^2+2x+3$, 画出函数$y=\dfrac 12[f(x)+|f(x)|]$的图象.
+(3)已知$f(x)=|x|$, $x\in [-1,1]$, 作出函数$y=f(x+1)+1$的图象.
 \item (1)将进货单价为40元的商品按每件50元出售时, 每月能卖出500个, 已知这批商品在销售单价的基础上每涨价1元, 其月销售数就减少10个, 为了每月赚取最大利润, 销
 售单价应定为多少?
 (2)飞机飞行1时的耗费由两部分组成: 固定部分4900元, 变动部分$P$与飞机飞行速度$v$(千米/时)的函数关系是$P=0.01v^2$. 已知甲、乙两地相距为一常数$a$(千米), 试写出飞机从甲地飞到乙地的总耗费$y$与飞机速度$v$的函数关系式, 并写出耗费最小时飞机的飞行速度.
@@ -148,7 +148,7 @@
 \fourch{0}{1}{2}{3}
 \item 下列各式中正确的是\bracket{20}.
 \fourch{$-4^0=1$}{$(5^{-\dfrac 12})^2=5$}{$(-3^{m-n})^2=9^{m-n}$}{$(-2)^{-1}=\dfrac 12$}
-\item 计算$[ (-3)^2 ]^{\dfrac 12}-(-10)^0$的值等于\bracket{20}.
+\item 计算$[(-3)^2]^{\dfrac 12}-(-10)^0$的值等于\bracket{20}.
 \fourch{-2}{2}{-4}{4}
 \item 下列计算中正确的是\bracket{20}.
 \fourch{$a^{\dfrac 83}\cdot a^{\dfrac 38}=a$}{$a^{\dfrac 83}\cdot a^{-\dfrac 83}=0$}{$a^{\dfrac 83}\div a^{\dfrac 13}=a^8$}{$a^{\dfrac 12}\div a^{\dfrac 13}=a^{\dfrac 16}$}
@@ -186,7 +186,7 @@
 (1)$(\dfrac{81}{625})^{-\dfrac 34}=$\blank{50}.
 (2)$(0.064)^{-\dfrac 13}=$\blank{50}.
 (3)$(2\sqrt 2)^{-\dfrac 13}=$\blank{50}.
-(4)$[ (-3)^2 ]^{\dfrac 32}=$\blank{50}.
+(4)$[(-3)^2]^{\dfrac 32}=$\blank{50}.
 (5)$(-0.027)^{-\dfrac 23}=$\blank{50}.
 (6)$(-0.001)^{-\dfrac 43}=$\blank{50}.
 (7)$5^{\dfrac 45}\times 125\times 25^{-0.4}=$\blank{50}.
@@ -200,13 +200,13 @@
 (4)$(2a^{\dfrac 14}b^{-\dfrac 13})(-3a^{-\dfrac 12}b^{\dfrac 23})\div (-\dfrac 14a^{-\dfrac 14}b^{-\dfrac 23})=$\blank{50}.
 \item 若$a=1.5^{-\dfrac 12}$, $b=0.5^{-\dfrac 12}$, $c=1$, 则它们的大小顺序是\bracket{20}.
 \fourch{$a<c<b$}{$a<b<c$}{$c<b<a$}{$b<c<a$}
-\item (1)若$a=\dfrac 1{\sqrt 2}$, $b=\dfrac 1{\sqrt[3]2}$, 则$[ a^{-\dfrac 32}b(ab^{-2})^{-\dfrac 12}(a^{-1})^{-\dfrac 23} ]^3=$\blank{50}.
+\item (1)若$a=\dfrac 1{\sqrt 2}$, $b=\dfrac 1{\sqrt[3]2}$, 则$[a^{-\dfrac 32}b(ab^{-2})^{-\dfrac 12}(a^{-1})^{-\dfrac 23}]^3=$\blank{50}.
 (2)若$a^{\dfrac 12}+a^{-\dfrac 12}=2$, 则: \textcircled{1} $a+a^{-1}=$    ; \textcircled{2} $a^2+a^{-2}=$    ; \textcircled{3} $a^4+a^{-4}=$\blank{50}.
 (3)若$10^{\alpha }=2^{-\dfrac 12}$, $10^{\beta }=\sqrt [3]{32}$, 则$10^{2\alpha -\dfrac 34\beta }=$\blank{50}.
 \item 计算下列各式:
 (1)$(\dfrac 1{125})^{-\dfrac 13}+(-2)^{-2}+(-2)^0$.
 (2)$(2\dfrac 79)^{\dfrac 12}-(-0.027)^{-\dfrac 13}-(-\sqrt 3)^{-2}+\pi ^0$.
-(3)$5-3\times [ (-3\dfrac 38)^{-\dfrac 13}+1031\times (0.25-2^{-2}) ]\div 9^0$.
+(3)$5-3\times [(-3\dfrac 38)^{-\dfrac 13}+1031\times (0.25-2^{-2})]\div 9^0$.
 (4)$(0.027)^{\dfrac 13}-(-\dfrac 16)^{-2}+256^{0.75}-|-3^{-1}|+(-5.555)^0$.
 (5)$(2.25)^{0.5}+(-4.3)^0-(3\dfrac 38)^{-\dfrac 23}+\dfrac{3^{-2}-2^{-2}}{3^{-1}-2^{-1}}$.
 (6)$(0.25)^{-2}+(\dfrac 8{27})^{\dfrac 13}+(\dfrac 18)^{-\dfrac 23}-(\dfrac 1{16})^{-0.75}$.
@@ -216,12 +216,12 @@
 (3)$(8y^{-\dfrac 13}\sqrt {x^{-\dfrac 13}y\sqrt {x^{\dfrac 43}}})^{\dfrac 13}$.
 (4)$\dfrac{x+y}{\sqrt x+\sqrt y}+\dfrac{2xy}{x\sqrt y+y\sqrt x}$.
 (5)$(5+\sqrt 6+\sqrt {10}+\sqrt {15})\div (\sqrt 2+\sqrt 3+\sqrt 5)$.
-(6)$(2+3^{\dfrac 12})^{\dfrac 12}\times [ 2+(2+3^{\dfrac 12})^{\dfrac 12} ]^{\dfrac 12}\times {\{2+[ 2+(2+3^{\dfrac 12})^{\dfrac 12} ]^{\dfrac 12}\}^}^{\dfrac 12}$
-$\times {\{2-[ 2+(2+3^{\dfrac 12})^{\dfrac 12} ]^{\dfrac 12}\}^{\dfrac 12}}$.
+(6)$(2+3^{\dfrac 12})^{\dfrac 12}\times [2+(2+3^{\dfrac 12})^{\dfrac 12}]^{\dfrac 12}\times {\{2+[2+(2+3^{\dfrac 12})^{\dfrac 12}]^{\dfrac 12}\}^}^{\dfrac 12}$
+$\times {\{2-[2+(2+3^{\dfrac 12})^{\dfrac 12}]^{\dfrac 12}\}^{\dfrac 12}}$.
 \item 化简下列各式:
 (1)$\sqrt {x+2\sqrt {x-1}}+\sqrt {x-2\sqrt {x-1}}$.
 (2)$(x^{\dfrac{a+b}{c-a}})^{\dfrac 1{b-c}}\cdot (x^{\dfrac{x+a}{b-c}})^{\dfrac 1{a-b}}\cdot (x^{\dfrac{b+c}{a-b}})^{\dfrac 1{c-a}}$.
-(3)$\dfrac{a^2-b^2}{a^2+b^2}(\dfrac{a-b}{a+b})^{\dfrac{p+q}{p-q}}\cdot [ (\dfrac{a+b}{a-b})^{\dfrac{2p}{p-q}}+(\dfrac{a+b}{a-b})^{\dfrac{2q}{p-q}} ]$.
+(3)$\dfrac{a^2-b^2}{a^2+b^2}(\dfrac{a-b}{a+b})^{\dfrac{p+q}{p-q}}\cdot [(\dfrac{a+b}{a-b})^{\dfrac{2p}{p-q}}+(\dfrac{a+b}{a-b})^{\dfrac{2q}{p-q}}]$.
 \item 当$a=0.001$时, 求$\dfrac{a^{\dfrac 43}-8a^{\dfrac 13}b}{a^{\dfrac 23}+2\sqrt [3]{ab}+4b^{\dfrac 23}}\div (1-2\sqrt [3]{\dfrac ba})$的值.
 \item 求证: $\dfrac 1{1+x^{a-b}+x^{a-c}}+\dfrac 1{1+x^{b-c}+x^{b-a}}+\dfrac 1{1+x^{c-a}+x^{c-b}}=1$.
 (二)幂函数
@@ -269,17 +269,17 @@ $\times {\{2-[ 2+(2+3^{\dfrac 12})^{\dfrac 12} ]^{\dfrac 12}\}^{\dfrac 12}}$.
 \item 已知函数$y=x^{n^2-2n-3}$($n\in \mathbf{Z}$)的图象与两坐标轴都无公共点, 且其图象关于$y$轴对称, 求$n$的值, 并画出相应的函数图象.
 (三)函数的单调性
 \item 函数$y=\sqrt {x^2+2x-3}$为减函数的区间是()
-\fourch{$(-\infty ,-3 ].$}{$[ -1,+\infty).$}{$(-\infty ,-1 ].$}{$[ 1,+\infty).$}
+\fourch{$(-\infty ,-3].$}{$[-1,+\infty).$}{$(-\infty ,-1].$}{$[1,+\infty).$}
 \item 若函数$y=(2k+1)x+b$在$(-\infty ,+\infty)$上是减函数, 则()
 \fourch{$k>\dfrac 12.$}{$k<\dfrac 12.$}{$k>-\dfrac 12.$}{$k<-\dfrac 12.$}
-\item 若函数$f(x)=4x^2-mx+5$在区间$[ -2,+\infty)$上是增函数, 在区间$(-\infty ,-2 ]$上是减函数, 则$f(1)$等于()
+\item 若函数$f(x)=4x^2-mx+5$在区间$[-2,+\infty)$上是增函数, 在区间$(-\infty ,-2]$上是减函数, 则$f(1)$等于()
 \fourch{$-7.$}{1}{17}{25}
 \item 若函数$y=x^2+2(a-2)x+5$在区间$(4,+\infty)$上是增函数, 则实数$a$的取值范围是()
 \fourch{$a\le -2.$}{$a\ge -2.$}{$a\le -6.$}{$a\ge -6.$}
 \item 下列函数中, 在区间$(0,2)$上为增函数的是()
 \fourch{$y=-3x+1.$}{$y=\sqrt[3]x.$}{$y=x^2-4x+3.$}{$y=\dfrac 4x.$}
 \item 若函数$f(x)$在定义域$R$上为增函数, 且$f(x)<0$, 则下列函数在$R$上为增函数的是()
-\fourch{$y=|f(x)|.$}{$y=\dfrac 1{f(x)}$}{$y=[ f(x) ]^2.$}{$y=[ f(x) ]^3.$}
+\fourch{$y=|f(x)|.$}{$y=\dfrac 1{f(x)}$}{$y=[f(x)]^2.$}{$y=[f(x)]^3.$}
 \item (1)函数$y=\dfrac 1{\sqrt {x^2-4x+5}}$为增函数的区间是\blank{50}, 为减函数的区间是\blank{50}.
 (2)函数$y=\dfrac 1{\sqrt {3+2x-x^2}}$为增函数的区间是\blank{50}.
 (3)函数$y=|3x-5|$为减函数的区间是\blank{50}.
@@ -312,4 +312,4 @@ $\times {\{2-[ 2+(2+3^{\dfrac 12})^{\dfrac 12} ]^{\dfrac 12}\}^{\dfrac 12}}$.
 \item (1)若$f(x)$是定义在$R$上的偶函数, 且当$x<0$时, $f(x)=2x-3$, 则当$x>0$时, $f(x)=$\blank{50}.
 (2)若奇函数$f(x)$的定义域是$R$, 则$f(0)=$\blank{50}.
 \item (1)若奇函数$f(x)$在区间[-3, -1]上是增函数, 且有最大值-2, 则$f(x)$在[1, 3]上是\blank{50}函数(填``增''或``减''), 且最小值等于\blank{50}.
-(2)设$f(x)$为定义在$R$上的偶函数, 且$f(x)$在$[ 0,+\infty)$上是增函数, 则$f(-4)$, $f(-2)$, $f(3)$由小到大的排列顺序为\blank{50}.
+(2)设$f(x)$为定义在$R$上的偶函数, 且$f(x)$在$[0,+\infty)$上是增函数, 则$f(-4)$, $f(-2)$, $f(3)$由小到大的排列顺序为\blank{50}.

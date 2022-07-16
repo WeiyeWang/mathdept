@@ -6,6 +6,7 @@
 \usepackage{tikz}
 \usepackage{makecell}
 \usepackage{longtable}
+%\usepackage{mathptmx}
 
 \usetikzlibrary{arrows,calc,intersections,patterns}
 \usepackage[bf,small,indentafter,pagestyles]{titlesec}
@@ -132,89 +133,127 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 \fourch{$5$个}{$6$个}{$7$个}{$8$个}
 \item 若$f:y=3x+1$是从集合$A=\{1,2,3,k\}$到集合$B=\{4,7,a^4,a^2+3a\}$的一个映射, 求自然数$a,k$的值及集合$A,B$.
 \item 函数$f(x)=\dfrac{\sqrt{x^2-5x+6}}{x-2}$的定义域是\bracket{20}.
-\fourch{$\{x|2<x<3\}$}{$\{x|x<2x>3\}$}{$\{x|x\le 2x\ge 3\}$}{$\{x|x<2x\ge 3\}$}
+\fourch{$\{x|2<x<3\}$}{$\{x|x<2x>3\}$}{$\{x|x\le 2x\ge 3\}$}{$\{x|x<2\text{或}x\ge 3\}$}
 \item 若函数$f(x)$的定义域是$[-1,1]$, 则函数$f(x+1)$的定义域是\bracket{20}.
 \fourch{$[-1,1]$}{$[0,2]$}{$[-2,0]$}{$[0,1]$}
 \item 在\textcircled{1} $y=x$与$y=\sqrt {x^2}$; \textcircled{2} $y=\sqrt {x^2}$与$y=(\sqrt x)^2$; \textcircled{3} $y=|x|$与$y=\dfrac{x^2}x$; \textcircled{4} $y=|x|$与$y=\sqrt {x^2}$; \textcircled{5} $y=x^0$与$y=1$这五组函数中, 表示同一函数的组数是\bracket{20}.
-\fourch{$0$}{$1$}{$2$}{$3$}*****
+\fourch{$0$}{$1$}{$2$}{$3$}
 \item 函数$y=-x^2-2x+3(-5\le x\le 0)$的值域是\bracket{20}.
-\fourch{$(-\infty ,4 ]$}{$[ 3,12 ]$}{$[ -12,4 ]$}{$[ 4,12 ]$}
-\item 已知镭经过100年后剩下原来质量的95. 76%, 若质量为l克的镭经过$x$年后的剩余质量为$y$克, 则$y$与$x$之间的解析式是\bracket{20}.
-\fourch{$y=(\dfrac{0.9576}{100})^x$}{$y=(0.9576)^{100x}$}{$y=(0.9576)^{\dfrac x{100}}$}{$y=1-(1-0.9576)^{\dfrac x{100}}$}
-\item 函数$y=x+\dfrac{|x|}x$的图象是\bracket{20}.
-\item 求下列函数的定义域:
-(1)$y=\sqrt {1-x^2}+\sqrt {x+1}$:\blank{50}.
-(2)$y=\dfrac 1{\sqrt {2x^2+3}}$:\blank{50}.
-(3)$y=\dfrac{x+5}{3x^2-2x-1}$:\blank{50}.
-(4)$y=\sqrt {6x-x^2-9}$:\blank{50}.
-(5)$y=\sqrt {4-x^2}+\dfrac 1{|x|-1}$:\blank{50}.
-(6)$y=\dfrac{x^3-1}{x+|x|}$:\blank{50}.
-(7)$y=\dfrac 1{|x|-x^2}$:\blank{50}.
-(8)$y=\sqrt {1-(\dfrac{x-1}{x+1})^2}$:\blank{50}.
-(9)$y=\dfrac{\sqrt {x^2-2x-15}}{|x+3|-8}$:\blank{50}.
-\item 求下列函数的值域:
-(1)$y=1-\dfrac 1{x+2}$:\blank{50}.				(2)$y=\dfrac 3{2x}$:\blank{50}.
-(3)$y=\dfrac{x+3}{x-3}$:\blank{50}.					(4)$y=\dfrac{5x+3}{x-3}$:\blank{50}.
-(5)$y=4+\sqrt {2x+1}$:\blank{50}.				(6)$y=\sqrt {x-\dfrac 12x^2}$:\blank{50}.
-(7)$y=\sqrt {-x^2+x+2}$:\blank{50}.			(8)$y=\dfrac{2x^2+2x+3}{x^2+x+1}$:\blank{50}.
-2l.(1)若函数$f(x)$满足$f(2x)=(1-\sqrt 2x)(1+\sqrt 2x)$, 则$f(x)=$\blank{50}.
-(2)若函数$f(x)$满足$f(\sqrt x+1)=x+2\sqrt x$, 则$f(x)=$\blank{50}.
-(3)若函数$f(x)$满足$f(\dfrac 1x)=\dfrac x{1-x^2}$, 则$f(x)=$\blank{50}.
-(4)若函数$f(x)=2x+1$, $g(x)=x^2+2$, 满足$f(g(x))=g(f(x))$, 则$x=$\blank{50}.
-(5)若函数$f(x)$满足$f(x+1)=2x^2+1$, 则$f(x-1)=$\blank{50}.
-(6)若一次函数$f(x)$满足$f(f(x))=1+2x$, 则$f(x)=$\blank{50}.
-(7)若$f(x^2-x)=x^4-2x^3+x^2+1$, 则$f(f(x))=$\blank{50}.
-(8)若函数$f(x)=\dfrac x{\sqrt {1+x^2}}$, 则$f(f(x))=$\blank{50}, $f(f(f(x)))=$\blank{50}.
-\item 若$-b<a<0$, 且函数$d(x)$的定义域是$[ a,b ]$, 则函数$F(x)=f(x)+f(-x)$的定义域是\bracket{20}.
-\fourch{$[ a,b ]$}{$[ -b,-a ]$}{$[ -b,b ]$}{$[ a,-a ]$}
+\fourch{$(-\infty ,4]$}{$[3,12]$}{$[-12,4]$}{$[4,12]$}
+\item 已知镭经过$100$年后剩下原来质量的$95.76\%$, 若质量为$l$克的镭经过$x$年后的剩余质量为$y$克, 则$y$与$x$之间的解析式是\bracket{20}.
+\fourch{$y=(\dfrac{0.9576}{100})^x$}{$y=(0.9576)^{100x}$}{$y=(0.9576)^{\frac x{100}}$}{$y=1-(1-0.9576)^{\frac x{100}}$}
+\item 函数$y=x+\dfrac{|x|}x$的图像是\bracket{20}.
+\fourch{\begin{tikzpicture}[scale = 0.7,>=latex]
+\draw [->] (-2,0) -- (2,0) node [below] {$x$};
+\draw [->] (0,-2) -- (0,2) node [left] {$y$};
+\draw (0,0) node [below right] {$O$};
+\draw (-1,0) node [below] {$-1$} (0,1) node [right] {$1$};
+\draw (-2,-1) -- (1,2);
+\filldraw [white] (0,1) circle (0.05);
+\draw (0,1) circle (0.05);
+\end{tikzpicture}}{\begin{tikzpicture}[scale = 0.7,>=latex]
+\draw [->] (-2,0) -- (2,0) node [below] {$x$};
+\draw [->] (0,-2) -- (0,2) node [left] {$y$};
+\draw (0,0) node [above left] {$O$};
+\draw (1,0) node [below] {$1$} (0,-1) node [right] {$-1$};
+\draw (-1,-2) -- (2,1);
+\filldraw [white] (0,-1) circle (0.05);
+\draw (0,-1) circle (0.05);
+\end{tikzpicture}}{\begin{tikzpicture}[scale = 0.7,>=latex]
+\draw [->] (-2,0) -- (2,0) node [below] {$x$};
+\draw [->] (0,-2) -- (0,2) node [left] {$y$};
+\draw (0,0) node [below right] {$O$};
+\draw (1,0.1) -- (1,0) node [below] {$1$} (0,-1) node [right] {$-1$} (0,1) node [right] {$1$} (-1,0.1) -- (-1,0) node [below] {$-1$};
+\draw (-1,-2) -- (0,-1) (0,1) -- (1,2);
+\filldraw [white] (0,-1) circle (0.05);
+\draw (0,-1) circle (0.05);
+\filldraw [white] (0,1) circle (0.05);
+\draw (0,1) circle (0.05);
+\end{tikzpicture}}{\begin{tikzpicture}[scale = 0.7,>=latex]
+\draw [->] (-2,0) -- (2,0) node [below] {$x$};
+\draw [->] (0,-2) -- (0,2) node [left] {$y$};
+\draw (0,0) node [below right] {$O$};
+\draw (0,-1) node [right] {$-1$} (0,1) node [right] {$1$} (-1,0.1) -- (-1,0) node [below] {$-1$};
+\draw (-2,1) -- (0,-1) (0,1) -- (1,2);
+\filldraw [white] (0,-1) circle (0.05);
+\draw (0,-1) circle (0.05);
+\filldraw [white] (0,1) circle (0.05);
+\draw (0,1) circle (0.05);
+\end{tikzpicture}}
+\item 函数$y=\sqrt {1-x^2}+\sqrt {x+1}$的定义域为\blank{50}.
+\item 函数$y=\dfrac 1{\sqrt {2x^2+3}}$的定义域为\blank{50}.
+\item 函数$y=\dfrac{x+5}{3x^2-2x-1}$的定义域为\blank{50}.
+\item 函数$y=\sqrt {6x-x^2-9}$的定义域为\blank{50}.
+\item 函数$y=\sqrt {4-x^2}+\dfrac 1{|x|-1}$的定义域为\blank{50}.
+\item 函数$y=\dfrac{x^3-1}{x+|x|}$的定义域为\blank{50}.
+\item 函数$y=\dfrac 1{|x|-x^2}$的定义域为\blank{50}.
+\item 函数$y=\sqrt {1-(\dfrac{x-1}{x+1})^2}$的定义域为\blank{50}.
+\item 函数$y=\dfrac{\sqrt {x^2-2x-15}}{|x+3|-8}$的定义域为\blank{50}.
+\item 函数$y=1-\dfrac 1{x+2}$的值域为\blank{50}.
+\item 函数$y=\dfrac 3{2x}$的值域为\blank{50}.
+\item 函数$y=\dfrac{x+3}{x-3}$的值域为\blank{50}.
+\item 函数$y=\dfrac{5x+3}{x-3}$的值域为\blank{50}.
+\item 函数$y=4+\sqrt {2x+1}$的值域为\blank{50}.
+\item 函数$y=\sqrt {x-\dfrac 12x^2}$的值域为\blank{50}.
+\item 函数$y=\sqrt {-x^2+x+2}$的值域为\blank{50}.
+\item 函数$y=\dfrac{2x^2+2x+3}{x^2+x+1}$的值域为\blank{50}.
+\item 若函数$f(x)$满足$f(2x)=(1-\sqrt 2x)(1+\sqrt 2x)$, 则$f(x)=$\blank{50}.
+\item 若函数$f(x)$满足$f(\sqrt x+1)=x+2\sqrt x$, 则当$x\ge 1$时, $f(x)=$\blank{50}.
+\item 若函数$f(x)$满足$f(\dfrac 1x)=\dfrac x{1-x^2}$, 则当$x\ne 0$时, $f(x)=$\blank{50}.
+\item 若函数$f(x)=2x+1$, $g(x)=x^2+2$, 满足$f(g(x))=g(f(x))$, 则$x=$\blank{50}.
+\item 若函数$f(x)$满足$f(x+1)=2x^2+1$, 则$f(x-1)=$\blank{50}.
+\item 若一次函数$f(x)$满足$f(f(x))=1+2x$, 则$f(x)=$\blank{50}.
+\item 若$f(x^2-x)=x^4-2x^3+x^2+1$, 则当$x\ge -\dfrac 14$时, $f(f(x))=$\blank{50}.
+\item 函数$f(x)=\dfrac x{\sqrt {1+x^2}}$, 则$f(f(x))=$\blank{50}, $f(f(f(x)))=$\blank{50}.
+\item 若$-b<a<0$, 且函数$d(x)$的定义域是$[a,b]$, 则函数$F(x)=f(x)+f(-x)$的定义域是\bracket{20}.
+\fourch{$[a,b]$}{$[-b,-a]$}{$[-b,b]$}{$[a,-a]$}
 \item 若$f(x)$的定义域是$[ 0,1 ]$, 且$f(x+m)+f(x-m)$的定义域是$\varnothing$, 则正数$m$的取值范围是\bracket{20}.
 \fourch{$0<m<1$}{$0<m\le \dfrac 12$}{$0<m<\dfrac 12$}{$m>\dfrac 12$}
 \item 函数$y=\dfrac{x^2-1}{x^2+1}$的值域是\bracket{20}.
-\fourch{$(-1,1)$}{$[ -1,1 ]$}{$[ -1,1)$}{$(-1,1 ]$}
+\fourch{$(-1,1)$}{$[-1,1]$}{$[-1,1)$}{$(-1,1]$}
 \item 若$2x^2-3x\le 0$, 则函数$f(x)=x^2+x+1$\bracket{20}.
-\fourch{有最小值$\dfrac 34$, 但无最大值}{有最小值$\dfrac 34$, 有最大值1}{有最小值1有最大值$\dfrac{19}4$}{既无最小值, 也无最大值}
+\twoch{有最小值$\dfrac 34$, 但无最大值}{有最小值$\dfrac 34$, 有最大值1}{有最小值1有最大值$\dfrac{19}4$}{既无最小值, 也无最大值}
 \item 函数$f(x)=|1-x|-|x-3|(x\in \mathbf{R})$的值域是\bracket{20}.
-\fourch{$[ -2,2 ]$}{$[ -1,3 ]$}{$[ -3,1 ]$}{$[ 0,4 ]$}
-\item (1)若函数$f(x)$的定义域是$[ 0,1 ]$, 分别求函数$f(1-2x)$和$f(x+a)(a>0)$的定义域.
-   (2)若函数$f(x+1)$的定义域是$[ -2,3)$, 求函数$f(\dfrac 1x+2)$的定义域.
-\item 求下列函数的值域:
-(1)$y=\dfrac{2x}{x^2+x+1}$.			(2)$y=\dfrac{x^2+x-1}{x^2+x+1}$.		(3)$y=\dfrac{x^2-1}{x^2-5x+4}$.
-\item (1)若实数$x,y$满足$3x^2+2y^2=6x$, 分别求$x$与$x^2+y^2$的取值范围.
-    (2)若实数$x,y$满足$x^2+y^2=2x$, 求$x^2-y^2$的取值范围.
-\item 求下列函数的值域:
-(1)$y=3x-2+\sqrt {3-2x}$.
-(2)$y=2x+\sqrt {2x-1}$.
-(3)$y=(x-1)(x-2)(x-3)(x-4)+15$.
-\item (1)已知函数$f(x)=x^2-2x+3$在$[ 0,m ]$上有最大值3, 最小值2, 求正数$m$的取值范围.
-    (2)已知函数$y=x^2+mx-1$在区间$[ 0,3 ]$上有最小值-2, 求实数$m$的值.
-    (3)当$x\ge 0$时, 求函数$f(x)=x^2+2ax$的最小值.
-\item 已知函数$f(x)=\dfrac{ax}{2x+3}(x\ne -\dfrac 32)$满足$f(f(x))=x$, 求实数$a$的值.
-\item (1)已知$f(x)$是二次函数, 且满足$f(2x)+f(3x+1)=13x^2+6x-1$, 求$f(x)$的表达式.
-    (2)已知函数$f(x)$的定义域是一切非零实数, 且满足$3f(x)+2f(\dfrac 1x)=4x$, 求, $f(x)$的表达式.
-\item (l)作(画)出下列函数的图象:
-\textcircled{1} $y=1+\dfrac{|x|}x$; \textcircled{2} $y=x-|1-x|$; \textcircled{3} $y=|x^2-4x+3|$; \textcircled{4} $y=\dfrac{x^3+x}{|x|}$; \textcircled{5} $y=\dfrac{(x+\dfrac 12)}{|x|-x}^0$.
-(2)已知$f(x)=-x^2+2x+3$, 画出函数$y=\dfrac 12[ f(x)+|f(x)|]$的图象.
-(3)已知$f(x)=|x|$, $x\in [ -1,1 ]$, 作出函数$y=f(x+1)+1$的图象.
-\item (1)将进货单价为40元的商品按每件50元出售时, 每月能卖出500个, 已知这批商品在销售单价的基础上每涨价1元, 其月销售数就减少10个, 为了每月赚取最大利润, 销
-售单价应定为多少?
-(2)飞机飞行1时的耗费由两部分组成: 固定部分4900元, 变动部分$P$与飞机飞行速度$v$(千米/时)的函数关系是$P=0.01v^2$. 已知甲、乙两地相距为一常数$a$(千米), 试写出飞机从甲地飞到乙地的总耗费$y$与飞机速度$v$的函数关系式, 并写出耗费最小时飞机的飞行速度.
-二、幂函数
+\fourch{$[-2,2]$}{$[-1,3]$}{$[-3,1]$}{$[0,4]$}
+\item 若函数$f(x)$的定义域是$[0,1]$, 分别求函数$f(1-2x)$和$f(x+a)$($a>0$)的定义域.
+\item 若函数$f(x+1)$的定义域是$[-2,3)$, 求函数$f(\dfrac 1x+2)$的定义域.
+\item 求函数$y=\dfrac{2x}{x^2+x+1}$的值域.
+\item 求函数$y=\dfrac{x^2+x-1}{x^2+x+1}$的值域.
+\item 求函数$y=\dfrac{x^2-1}{x^2-5x+4}$的值域.
+\item 若实数$x,y$满足$3x^2+2y^2=6x$, 分别求$x$与$x^2+y^2$的取值范围.
+\item 若实数$x,y$满足$x^2+y^2=2x$, 求$x^2-y^2$的取值范围.
+\item 求函数$y=3x-2+\sqrt {3-2x}$的值域.
+\item 求函数$y=2x+\sqrt {2x-1}$的值域.
+\item 求函数$y=(x-1)(x-2)(x-3)(x-4)+15$的值域.
+\item 已知函数$f(x)=x^2-2x+3$在$[0,m]$上有最大值$3$, 最小值$2$, 求正数$m$的取值范围.
+\item 已知函数$y=x^2+mx-1$在区间$[0,3]$上有最小值$-2$, 求实数$m$的值.
+\item 当$x\ge 0$时, 求函数$f(x)=x^2+2ax$的最小值.
+\item 已知函数$f(x)=\dfrac{ax}{2x+3}$($x\ne -\dfrac 32$)满足$f(f(x))=x$, 求实数$a$的值.
+\item 已知$f(x)$是二次函数, 且满足$f(2x)+f(3x+1)=13x^2+6x-1$, 求$f(x)$的表达式.
+\item 已知函数$f(x)$的定义域是一切非零实数, 且满足$3f(x)+2f(\dfrac 1x)=4x$, 求, $f(x)$的表达式.
+\item 作出函数$y=1+\dfrac{|x|}x$的图像.
+\item 作出函数$y=x-|1-x|$的图像.
+\item 作出函数$y=|x^2-4x+3|$的图像.
+\item 作出函数$y=\dfrac{x^3+x}{|x|}$的图像.
+\item 作出函数$y=\dfrac{(x+\dfrac 12)}{|x|-x}^0$的图像.
+\item 已知$f(x)=-x^2+2x+3$, 画出函数$y=\dfrac 12[f(x)+|f(x)|]$的图像.
+\item 已知$f(x)=|x|$, $x\in [-1,1]$, 作出函数$y=f(x+1)+1$的图像.
+\item 将进货单价为$40$元的商品按每件$50$元出售时, 每月能卖出$500$个, 已知这批商品在销售单价的基础上每涨价$1$元, 其月销售数就减少$10$个, 为了每月赚取最大利润, 销售单价应定为多少?
+\item 飞机飞行$1$小时的耗费由两部分组成: 固定部分$4900$元, 变动部分$P$与飞机飞行速度$v$(千米/时)的函数关系是$P=0.01v^2$. 已知甲、乙两地相距为一常数$a$(千米), 试写出飞机从甲地飞到乙地的总耗费$y$与飞机速度$v$的函数关系式, 并写出耗费最小时飞机的飞行速度.
 \item 求证: 函数$f(x)=x^3$在$x\in \mathbf{R}$上是增函数.
 \item 已知奇函数$y=f(x)$在$x<0$时是减函数, 求证: $y=f(x)$在$x>0$时也是减函数.
 \item 已知$f(x)$是奇函数, 且当$x>0$时$f(x)=x(1-x)$, 求$f(x)$在$x<0$时的表达式.
-\item 已知函数$y=f(x)$满足$f(x)=f(4-x)(x\in \mathbf{R})$, 且$f(x)$在$x>2$时为增函数, 记$a=f(\dfrac 35)$, $b=f(\dfrac 65)$, $c=f(4)$, 则$a,b,c$之间的大小关系是\bracket{20}.
+\item 已知函数$y=f(x)$满足$f(x)=f(4-x)$($x\in \mathbf{R}$), 且$f(x)$在$x>2$时为增函数, 记$a=f(\dfrac 35)$, $b=f(\dfrac 65)$, $c=f(4)$, 则$a,b,c$之间的大小关系是\bracket{20}.
 \fourch{$c>a>b$}{$c>b>a$}{$b>a>c$}{$a>c>d$}
-\item 画出函数$y=x^2-2|x|-1$的图象.
+\item 画出函数$y=x^2-2|x|-1$的图像.
 \item 求函数$y=\dfrac{x-2}{2x+1}$的值域.
-\item 已知函数$f(x)=(x-1)^2(x\le 1)$, 又$f(x)$和$\varphi (x)$的图象关于直线$y=x$对称, 求$\varphi (x)$的表达式.
-\item 求实数$m$的范围, 使关于$x$的方程$x^2+2(m-1)x+2m+6=0$:
-(1)有两个实数根, 且一个比2大, 另一个比2小.
-(2)有两个实数根, 且都比1大.
-(3)有两个实数根$\alpha ,\beta$, 且满足$0<\alpha <1<\beta <4$.
-(4)至少有一个正根.
+\item 已知函数$f(x)=(x-1)^2$($x\le 1$), 又$f(x)$和$\varphi (x)$的图像关于直线$y=x$对称, 求$\varphi (x)$的表达式.
+\item 求实数$m$的范围, 使关于$x$的方程$x^2+2(m-1)x+2m+6=0$:\\
+(1) 有两个实数根, 且一个比$2$大, 另一个比$2$小;\\
+(2) 有两个实数根, 且都比$1$大;\\
+(3) 有两个实数根$\alpha ,\beta$, 且满足$0<\alpha <1<\beta <4$;\\
+(4) 至少有一个正根.
 \item 就参数$m$讨论方程$x^2-2|x|-m=0$的解的情况.
-【训练题】
-(一)分数指数幂与根式
 \item 下列记数中, 符合科学记数法的是\bracket{20}.
 \fourch{$35.6\times 10^{-25}$}{$0.356\times 10^{-23}$}{$3.56\times 10^{-24}$}{$356\times 10^{-26}$}
 \item 计算$3^{-1}\times 2^{-2}\div 4^{-2}$的结果是\bracket{20}.
@@ -222,7 +261,7 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 \item 下列各式中, 正确的是\bracket{20}.
 \fourch{$(-1)^0=-1$}{$(-1)^{-1}=1$}{$3a^{-2}=\dfrac 1{3a^2}$}{$(-x)^5\div (-x)^3=x^2$}
 \item 下列各式中, 计算正确的是\bracket{20}.
-\fourch{$(-0.125)\div (-0.5)^{-3}=1$}{$10^{-4}(\sqrt 5)^0=-10000$}{$(\dfrac 13)^0\div 3^{-1}=3$}{$(\sqrt 3-\sqrt 2)^0-(\sqrt 3)^2-(-\sqrt 2)^2=1-3+2=0$}
+\twoch{$(-0.125)\div (-0.5)^{-3}=1$}{$10^{-4}(\sqrt 5)^0=-10000$}{$(\dfrac 13)^0\div 3^{-1}=3$}{$(\sqrt 3-\sqrt 2)^0-(\sqrt 3)^2-(-\sqrt 2)^2=1-3+2=0$}
 \item 化简$\dfrac 13x\sqrt {9x}-x^2\sqrt {\dfrac 1x}$的结果是\bracket{20}.
 \fourch{$\sqrt x$}{$x(1-x^2)\sqrt x$}{$x^2(1-x\sqrt x)$}{0}
 \item 化简$\dfrac{a^{-2}-b^{-2}}{a^2-b^2}$的结果是\bracket{20}.
@@ -233,133 +272,185 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 \fourch{$3-\pi$}{$\pi -3$}{$\pi +3$}{$-\pi -3$}
 \item 若$(\sqrt [n]{-3})^n$有意义, 则$n$一定是\bracket{20}.
 \fourch{正偶数}{自然数}{正奇数}{整数}
-\item 在``\textcircled{1} $\sqrt [4]{(-4)^{2n}}$, \textcircled{2} $\sqrt [4]{(-4)^{2n+1}}$, \textcircled{3} $\sqrt [5]{-x^2}$, \textcircled{4} $\sqrt [5]{-x^2}(n\in \mathbf{N})$''这四个式子中, 有意义的\bracket{20}.
-\fourch{是\textcircled{1} \textcircled{2} \textcircled{3} \textcircled{4} }{只有\textcircled{3} \textcircled{4} }{只有\textcircled{1} \textcircled{3} \textcircled{4} }{只有\textcircled{4} }
+\item 已知$n\in \mathbf{N}$, 在\textcircled{1} $\sqrt [4]{(-4)^{2n}}$; \textcircled{2} $\sqrt [4]{(-4)^{2n+1}}$; \textcircled{3} $\sqrt [5]{-x^2}$; \textcircled{4} $\sqrt [5]{-x^2}$这四个式子中, 有意义的\bracket{20}.
+\fourch{是\textcircled{1}\textcircled{2}\textcircled{3}\textcircled{4} }{只有\textcircled{3}\textcircled{4}}{只有\textcircled{1}\textcircled{3}\textcircled{4}}{只有\textcircled{4}}
 \item 若$\sqrt [4]{4a^2-4a+1}=\sqrt [3]{1-2a}$, 则实数$a$的取值范围是\bracket{20}.
 \fourch{$a<2$}{$a=\dfrac 12$或0}{$a>\dfrac 12$}{$R$}
-\item 在``\textcircled{1} $0^{-1}$, \textcircled{2} $0^{-\dfrac 12}$, \textcircled{3} $0^0$, \textcircled{4} $0^{0.2}$''这四个式子中, 有意义的个数是\bracket{20}.
-\fourch{0}{1}{2}{3}
+\item 在\textcircled{1} $0^{-1}$; \textcircled{2} $0^{-\frac 12}$; \textcircled{3} $0^0$; \textcircled{4} $0^{0.2}$这四个式子中, 有意义的个数是\bracket{20}.
+\fourch{$0$}{$1$}{$2$}{$3$}
 \item 下列各式中正确的是\bracket{20}.
-\fourch{$-4^0=1$}{$(5^{-\dfrac 12})^2=5$}{$(-3^{m-n})^2=9^{m-n}$}{$(-2)^{-1}=\dfrac 12$}
-\item 计算$[ (-3)^2 ]^{\dfrac 12}-(-10)^0$的值等于\bracket{20}.
-\fourch{-2}{2}{-4}{4}
+\fourch{$-4^0=1$}{$(5^{-\frac 12})^2=5$}{$(-3^{m-n})^2=9^{m-n}$}{$(-2)^{-1}=\dfrac 12$}
+\item 计算$[ (-3)^2 ]^{\frac 12}-(-10)^0$的值等于\bracket{20}.
+\fourch{$-2$}{$2$}{$-4$}{$4$}
 \item 下列计算中正确的是\bracket{20}.
-\fourch{$a^{\dfrac 83}\cdot a^{\dfrac 38}=a$}{$a^{\dfrac 83}\cdot a^{-\dfrac 83}=0$}{$a^{\dfrac 83}\div a^{\dfrac 13}=a^8$}{$a^{\dfrac 12}\div a^{\dfrac 13}=a^{\dfrac 16}$}
+\fourch{$a^{\frac 83}\cdot a^{\frac 38}=a$}{$a^{\frac 83}\cdot a^{-\frac 83}=0$}{$a^{\frac 83}\div a^{\frac 13}=a^8$}{$a^{\frac 12}\div a^{\frac 13}=a^{\frac 16}$}
 \item 下列计算中正确的是\bracket{20}.
-\fourch{$a^{\dfrac 34}\cdot a^{\dfrac 43}=a$}{$a^{\dfrac 34}\div a^{\dfrac 34}=a$}{$a^{-4}\div a^4=0$}{$(a^{\dfrac 34})^{\dfrac 43}=a$}
-\item 化简$(a^{\dfrac 23}b^{\dfrac 12})(-3a^{\dfrac 12}b^{\dfrac 13})\div (\dfrac 13a^{\dfrac 16}b^{\dfrac 56})$的结果是\bracket{20}.
+\fourch{$a^{\frac 34}\cdot a^{\frac 43}=a$}{$a^{\frac 34}\div a^{\frac 34}=a$}{$a^{-4}\div a^4=0$}{$(a^{\frac 34})^{\frac 43}=a$}
+\item 化简$(a^{\frac 23}b^{\frac 12})(-3a^{\frac 12}b^{\frac 13})\div (\frac 13a^{\frac 16}b^{\frac 56})$的结果是\bracket{20}.
 \fourch{$6a$}{$-a$}{$-9a$}{$9a$}
 \item 将$\sqrt [3]{-2\sqrt 2}$化成不含根号的式子是\bracket{20}.
-\fourch{$-2^{\dfrac 12}$}{$-2^{-\dfrac 12}$}{$-2^{\dfrac 13}$}{$-2^{\dfrac 23}$}
-\item 将$(a^{\dfrac 1n}+b^{\dfrac 1n})^{\dfrac 13}$表示成根式的形式是\bracket{20}.
-\fourch{$\sqrt [3]{a^{\dfrac 1n}+b^{\dfrac 1n}}$}{$(\sqrt[n]a+\sqrt[n]b)^{\dfrac 13}$}{$\sqrt [3]{\sqrt[n]a+\sqrt[n]b}$}{$(\sqrt[n]a+\sqrt[n]b)^3$}
-\item 计算下列各式:
-(1)$\sqrt {12}-\sqrt 3\div (2+\sqrt 3)=$\blank{50}.
-(2)$(\sqrt {12}-\sqrt {\dfrac 12}-2\sqrt {\dfrac 13})-(\sqrt {\dfrac 18}-\sqrt {18})=$\blank{50}.
-(3)$(\sqrt 3+2)^{1997}\times (\sqrt 3-2)^{1988}=$\blank{50}.
-(4)$\dfrac{2\sqrt {10}-5}{4-\sqrt 10}=$\blank{50}.
-(5)$4\sqrt {\dfrac 25}-\sqrt {1000}+2\sqrt {10}=$\blank{50}.
-(6)$\dfrac 1{(2+\sqrt 3)^2}+\dfrac 1{(2-\sqrt 3)^2}=$\blank{50}.
-(7)$\dfrac 1{1+\sqrt 2+\sqrt 3}+\dfrac 1{1-\sqrt 2+\sqrt 3}=$\blank{50}.
-\item 将下列各式改写成不含分数指数幂的根式形式(要求分母不含有根式形式):
-(1)$3x^{-\dfrac 32}=$\blank{50}.				(2)$a^{\dfrac 12}\cdot b^{-\dfrac 12}=$\blank{50}.
-(3)$(a+b)^{\dfrac 12}\cdot (a-b)^{-\dfrac 43}=$\blank{50}.
-\item 将下列根式改写成分数指数幂的形式:
-(1)$\sqrt [4]{a^3}=$\blank{50}.			(2)$\sqrt [5]{b^8}=$\blank{50}.
-(3)$\sqrt [4]{x^2+y^2}=$\blank{50}.		(4)$\dfrac{\sqrt x}{\sqrt [3]{y^4}}=$\blank{50}.
-(5)$\sqrt {2\sqrt 2}=$\blank{50}.			(6)$-\dfrac 1{\sqrt {27x}}=$\blank{50}.
-(7)$\sqrt {\dfrac 4{3ab^3}}=$\blank{50}.			(8)$2\sqrt [6]{(m-n)^{-2}}=$    $(m<n)$.
-\item 判断下列命题是否正确:
-(1)$2^{\dfrac 32}\cdot 2^{\dfrac 23}=2$:\blank{50}.
-(2)$(\dfrac 18)^{-\dfrac 12}=-2\sqrt 2$:\blank{50}.
-(3)若$a\in \mathbf{R}$, 则$(a-1)^0=1$:\blank{50}.
-(4)$a^x+a^y=a^{x+y}$:\blank{50}.
-(5)$\sqrt [3]{-5}=\sqrt [6]{(-5)^2}=\sqrt [6]{25}$:\blank{50}.
-\item 计算下列各式:
-(1)$(\dfrac{81}{625})^{-\dfrac 34}=$\blank{50}.
-(2)$(0.064)^{-\dfrac 13}=$\blank{50}.
-(3)$(2\sqrt 2)^{-\dfrac 13}=$\blank{50}.
-(4)$[ (-3)^2 ]^{\dfrac 32}=$\blank{50}.
-(5)$(-0.027)^{-\dfrac 23}=$\blank{50}.
-(6)$(-0.001)^{-\dfrac 43}=$\blank{50}.
-(7)$5^{\dfrac 45}\times 125\times 25^{-0.4}=$\blank{50}.
-(8)$(8+2\times 15^{\dfrac 12})^{\dfrac 12}=$\blank{50}.
-(9)$(4-12^{\dfrac 12})^{\dfrac 12}=$\blank{50}.
-(10)$(0.25)^{-0.5}+(\dfrac 1{27})^{-\dfrac 13}-625^{0.25}=$\blank{50}.
-\item 化简下列各式:
-(1)$2x^{-\dfrac 13}(\dfrac 12x^{\dfrac 13}-2x^{-\dfrac 23})-(-3.5)^0=$\blank{50}.
-(2)$(x^{\dfrac 13}+y^{\dfrac 13})(x^{\dfrac 23}-x^{\dfrac 13}y^{\dfrac 13}+y^{\dfrac 23})=$\blank{50}.
-(3)$(\dfrac{b^3}{2a^2})\div (-\dfrac{4b^3}{a^{-7}})\times (-\dfrac{b^2}a)^3=$\blank{50}.
-(4)$(2a^{\dfrac 14}b^{-\dfrac 13})(-3a^{-\dfrac 12}b^{\dfrac 23})\div (-\dfrac 14a^{-\dfrac 14}b^{-\dfrac 23})=$\blank{50}.
-\item 若$a=1.5^{-\dfrac 12}$, $b=0.5^{-\dfrac 12}$, $c=1$, 则它们的大小顺序是\bracket{20}.
+\fourch{$-2^{\frac 12}$}{$-2^{-\frac 12}$}{$-2^{\frac 13}$}{$-2^{\frac 23}$}
+\item 将$(a^{\frac 1n}+b^{\frac 1n})^{\frac 13}$表示成根式的形式是\bracket{20}.
+\fourch{$\sqrt [3]{a^{\frac 1n}+b^{\frac 1n}}$}{$(\sqrt[n]a+\sqrt[n]b)^{\frac 13}$}{$\sqrt [3]{\sqrt[n]a+\sqrt[n]b}$}{$(\sqrt[n]a+\sqrt[n]b)^3$}
+\item 计算: $\sqrt {12}-\sqrt 3\div (2+\sqrt 3)=$\blank{50}.
+\item 计算: $(\sqrt {12}-\sqrt {\dfrac 12}-2\sqrt {\dfrac 13})-(\sqrt {\dfrac 18}-\sqrt {18})=$\blank{50}.
+\item 计算: $(\sqrt 3+2)^{1997}	\times (\sqrt 3-2)^{1988}=$\blank{50}.
+\item 计算: $\dfrac{2\sqrt {10}-5}{4-\sqrt 10}=$\blank{50}.
+\item 计算: $4\sqrt {\dfrac 25}-\sqrt {1000}+2\sqrt {10}=$\blank{50}.
+\item 计算: $\dfrac 1{(2+\sqrt 3)^2}+\dfrac 1{(2-\sqrt 3)^2}=$\blank{50}.
+\item 计算: $\dfrac 1{1+\sqrt 2+\sqrt 3}+\dfrac 1{1-\sqrt 2+\sqrt 3}=$\blank{50}.
+\item 将下式改写成不含分数指数幂的根式形式(要求分母不含有根式形式): $3x^{-\frac 32}=$\blank{50}.
+\item 将下式改写成不含分数指数幂的根式形式(要求分母不含有根式形式): $a^{\frac 12}\cdot b^{-\frac 12}=$\blank{50}.
+\item 将下式改写成不含分数指数幂的根式形式(要求分母不含有根式形式): $(a+b)^{\frac 12}\cdot (a-b)^{-\frac 43}=$\blank{50}.
+\item 将根式改写成分数指数幂的形式: $\sqrt [4]{a^3}=$\blank{50}.
+\item 将根式改写成分数指数幂的形式: $\sqrt [5]{b^8}=$\blank{50}.
+\item 将根式改写成分数指数幂的形式: $\sqrt [4]{x^2+y^2}=$\blank{50}.
+\item 将根式改写成分数指数幂的形式: $\dfrac{\sqrt x}{\sqrt [3]{y^4}}=$\blank{50}.
+\item 将根式改写成分数指数幂的形式: $\sqrt {2\sqrt 2}=$\blank{50}.
+\item 将根式改写成分数指数幂的形式: $-\dfrac 1{\sqrt {27x}}=$\blank{50}.
+\item 将根式改写成分数指数幂的形式: $\sqrt {\dfrac 4{3ab^3}}=$\blank{50}.
+\item 已知$m<n$, 将根式改写成分数指数幂的形式: $2\sqrt [6]{(m-n)^{-2}}=$\blank{50}.
+\item 判断命题: $2^{\frac 32}\cdot 2^{\frac 23}=2$是否正确, \blank{50}.
+\item 判断命题: $(\dfrac 18)^{-\frac 12}=-2\sqrt 2$是否正确, \blank{50}.
+\item 判断命题: 若$a\in \mathbf{R}$, 则$(a-1)^0=1$是否正确, \blank{50}.
+\item 判断命题: $a^x+a^y=a^{x+y}$是否正确, \blank{50}.
+\item 判断命题: $\sqrt [3]{-5}=\sqrt [6]{(-5)^2}=\sqrt [6]{25}$是否正确, \blank{50}.
+\item 计算: $(\dfrac{81}{625})^{-\frac 34}=$\blank{50}.
+\item 计算: $(0.064)^{-\frac 13}=$\blank{50}.
+\item 计算: $(2\sqrt 2)^{-\frac 13}=$\blank{50}.
+\item 计算: $[ (-3)^2 ]^{\frac 32}=$\blank{50}.
+\item 计算: $(-0.027)^{-\frac 23}=$\blank{50}.
+\item 计算: $(-0.001)^{-\frac 43}=$\blank{50}.
+\item 计算: $5^{\frac 45}\times 125	\times 25^{-0.4}=$\blank{50}.
+\item 计算: $(8+2	\times 15^{\frac 12})^{\frac 12}=$\blank{50}.
+\item 计算: $(4-12^{\frac 12})^{\frac 12}=$\blank{50}.
+\item 计算: $(0.25)^{-0.5}+(\dfrac 1{27})^{-\frac 13}-625^{0.25}=$\blank{50}.
+\item 化简: $2x^{-\frac 13}(\dfrac 12x^{\frac 13}-2x^{-\frac 23})-(-3.5)^0=$\blank{50}.
+\item 化简: $(x^{\frac 13}+y^{\frac 13})(x^{\frac 23}-x^{\frac 13}y^{\frac 13}+y^{\frac 23})=$\blank{50}.
+\item 化简: $(\dfrac{b^3}{2a^2})\div (-\dfrac{4b^3}{a^{-7}})\times (-\dfrac{b^2}a)^3=$\blank{50}.
+\item 化简: $(2a^{\frac 14}b^{-\frac 13})(-3a^{-\frac 12}b^{\frac 23})\div (-\frac 14a^{-\frac 14}b^{-\frac 23})=$\blank{50}.
+\item 若$a=1.5^{-\frac 12}$, $b=0.5^{-\frac 12}$, $c=1$, 则它们的大小顺序是\bracket{20}.
 \fourch{$a<c<b$}{$a<b<c$}{$c<b<a$}{$b<c<a$}
-\item (1)若$a=\dfrac 1{\sqrt 2}$, $b=\dfrac 1{\sqrt[3]2}$, 则$[ a^{-\dfrac 32}b(ab^{-2})^{-\dfrac 12}(a^{-1})^{-\dfrac 23} ]^3=$\blank{50}.
-(2)若$a^{\dfrac 12}+a^{-\dfrac 12}=2$, 则: \textcircled{1} $a+a^{-1}=$    ; \textcircled{2} $a^2+a^{-2}=$    ; \textcircled{3} $a^4+a^{-4}=$\blank{50}.
-(3)若$10^{\alpha }=2^{-\dfrac 12}$, $10^{\beta }=\sqrt [3]{32}$, 则$10^{2\alpha -\dfrac 34\beta }=$\blank{50}.
-\item 计算下列各式:
-(1)$(\dfrac 1{125})^{-\dfrac 13}+(-2)^{-2}+(-2)^0$.
-(2)$(2\dfrac 79)^{\dfrac 12}-(-0.027)^{-\dfrac 13}-(-\sqrt 3)^{-2}+\pi ^0$.
-(3)$5-3\times [ (-3\dfrac 38)^{-\dfrac 13}+1031\times (0.25-2^{-2}) ]\div 9^0$.
-(4)$(0.027)^{\dfrac 13}-(-\dfrac 16)^{-2}+256^{0.75}-|-3^{-1}|+(-5.555)^0$.
-(5)$(2.25)^{0.5}+(-4.3)^0-(3\dfrac 38)^{-\dfrac 23}+\dfrac{3^{-2}-2^{-2}}{3^{-1}-2^{-1}}$.
-(6)$(0.25)^{-2}+(\dfrac 8{27})^{\dfrac 13}+(\dfrac 18)^{-\dfrac 23}-(\dfrac 1{16})^{-0.75}$.
-\item 计算或化简下列各式:
-(1)$\sqrt [3]{m^{\dfrac 92}\cdot \sqrt {m^{-3}}}\div \sqrt {\sqrt [3]{m^{-7}}}\cdot \sqrt [3]{m^{13}}(m>0)$.
-(2)$(x-y)\div (x^{\dfrac 12}+y^{\dfrac 12})-(x+y-2x^{\dfrac 12}y^{\dfrac 12})\div (x^{\dfrac 12}-y^{\dfrac 12})(x>y>0)$.
-(3)$(8y^{-\dfrac 13}\sqrt {x^{-\dfrac 13}y\sqrt {x^{\dfrac 43}}})^{\dfrac 13}$.
-(4)$\dfrac{x+y}{\sqrt x+\sqrt y}+\dfrac{2xy}{x\sqrt y+y\sqrt x}$.
-(5)$(5+\sqrt 6+\sqrt {10}+\sqrt {15})\div (\sqrt 2+\sqrt 3+\sqrt 5)$.
-%(6)$(2+3^{\dfrac 12})^{\dfrac 12}\times [ 2+(2+3^{\dfrac 12})^{\dfrac 12} ]^{\dfrac 12}\times {\{2+[ 2+(2+3^{\dfrac 12})^{\dfrac 12} ]^{\dfrac 12}\}^}^{\dfrac 12}$
-$\times {\{2-[ 2+(2+3^{\dfrac 12})^{\dfrac 12} ]^{\dfrac 12}\}^{\dfrac 12}}$.
-\item 化简下列各式:
-(1)$\sqrt {x+2\sqrt {x-1}}+\sqrt {x-2\sqrt {x-1}}$.
-(2)$(x^{\dfrac{a+b}{c-a}})^{\dfrac 1{b-c}}\cdot (x^{\dfrac{x+a}{b-c}})^{\dfrac 1{a-b}}\cdot (x^{\dfrac{b+c}{a-b}})^{\dfrac 1{c-a}}$.
-(3)$\dfrac{a^2-b^2}{a^2+b^2}(\dfrac{a-b}{a+b})^{\dfrac{p+q}{p-q}}\cdot [ (\dfrac{a+b}{a-b})^{\dfrac{2p}{p-q}}+(\dfrac{a+b}{a-b})^{\dfrac{2q}{p-q}} ]$.
-\item 当$a=0.001$时, 求$\dfrac{a^{\dfrac 43}-8a^{\dfrac 13}b}{a^{\dfrac 23}+2\sqrt [3]{ab}+4b^{\dfrac 23}}\div (1-2\sqrt [3]{\dfrac ba})$的值.
+\item 若$a=\dfrac 1{\sqrt 2}$, $b=\dfrac 1{\sqrt[3]2}$, 则$[a^{-\frac 32}b(ab^{-2})^{-\frac 12}(a^{-1})^{-\frac 23}]^3=$\blank{50}.
+\item 若$a^{\frac 12}+a^{-\frac 12}=2$, 则:\\
+(1) $a+a^{-1}=$\blank{50};\\
+(2) $a^2+a^{-2}=$\blank{50};\\
+(3) $a^4+a^{-4}=$\blank{50}.
+\item 若$10^{\alpha }=2^{-\frac 12}$, $10^{\beta }=\sqrt [3]{32}$, 则$10^{2\alpha -\frac 34\beta }=$\blank{50}.
+\item 计算: $(\dfrac 1{125})^{-\frac 13}+(-2)^{-2}+(-2)^0$.
+\item 计算: $(2\dfrac 79)^{\frac 12}-(-0.027)^{-\frac 13}-(-\sqrt 3)^{-2}+\pi ^0$.
+\item 计算: $5-3\times [ (-3\dfrac 38)^{-\frac 13}+1031\times (0.25-2^{-2}) ]\div 9^0$.
+\item 计算: $(0.027)^{\frac 13}-(-\dfrac 16)^{-2}+256^{0.75}-|-3^{-1}|+(-5.555)^0$.
+\item 计算: $(2.25)^{0.5}+(-4.3)^0-(3\dfrac 38)^{-\frac 23}+\dfrac{3^{-2}-2^{-2}}{3^{-1}-2^{-1}}$.
+\item 计算: $(0.25)^{-2}+(\dfrac 8{27})^{\frac 13}+(\dfrac 18)^{-\frac 23}-(\dfrac 1{16})^{-0.75}$.
+\item 计算或化简: $\sqrt [3]{m^{\frac 92}\cdot \sqrt {m^{-3}}}\div \sqrt {\sqrt [3]{m^{-7}}}\cdot \sqrt [3]{m^{13}}(m>0)$.
+\item 计算或化简: $(x-y)\div (x^{\frac 12}+y^{\frac 12})-(x+y-2x^{\frac 12}y^{\frac 12})\div (x^{\frac 12}-y^{\frac 12})(x>y>0)$.
+\item 计算或化简: $(8y^{-\frac 13}\sqrt {x^{-\frac 13}y\sqrt {x^{\frac 43}}})^{\frac 13}$.
+\item 计算或化简: $\dfrac{x+y}{\sqrt x+\sqrt y}+\dfrac{2xy}{x\sqrt y+y\sqrt x}$.
+\item 计算或化简: $(5+\sqrt 6+\sqrt {10}+\sqrt {15})\div (\sqrt 2+\sqrt 3+\sqrt 5)$.
+\item 计算或化简: $(2+3^\frac 12)^\frac 12\times (2+(2+3^\frac 12)^\frac 12)^\frac 12\times (2+(2+(2+3^\frac 12)^\frac 12)^\frac 12)^\frac 12$.
+\item 化简: $\sqrt {x+2\sqrt {x-1}}+\sqrt {x-2\sqrt {x-1}}$.
+\item 化简: $(x^{\frac{a+b}{c-a}})^{\frac 1{b-c}}\cdot (x^{\frac{x+a}{b-c}})^{\frac 1{a-b}}\cdot (x^{\frac{b+c}{a-b}})^{\frac 1{c-a}}$.
+\item 化简: $\dfrac{a^2-b^2}{a^2+b^2}(\dfrac{a-b}{a+b})^{\frac{p+q}{p-q}}\cdot [(\dfrac{a+b}{a-b})^{\frac{2p}{p-q}}+(\dfrac{a+b}{a-b})^{\frac{2q}{p-q}}]$.
+\item 当$a=0.001$时, 求$\dfrac{a^{\frac 43}-8a^{\frac 13}b}{a^{\frac 23}+2\sqrt [3]{ab}+4b^{\frac 23}}\div (1-2\sqrt [3]{\frac ba})$的值.
 \item 求证: $\dfrac 1{1+x^{a-b}+x^{a-c}}+\dfrac 1{1+x^{b-c}+x^{b-a}}+\dfrac 1{1+x^{c-a}+x^{c-b}}=1$.
-(二)幂函数
-\item 已知幂函数$f(x)$的图象经过点$(2,\dfrac{\sqrt 2}2)$, 则$f(4)$的值等于\bracket{20}.
-\fourch{16}{$\dfrac 1{16}$}{$\dfrac 12$}{2}
+\item 已知幂函数$f(x)$的图像经过点$(2,\dfrac{\sqrt 2}2)$, 则$f(4)$的值等于\bracket{20}.
+\fourch{$16$}{$\dfrac 1{16}$}{$\dfrac 12$}{$2$}
 \item 下列幂函数中, 定义域为$\{x|x>0\}$的是\bracket{20}.
-\fourch{$y=x^{\dfrac 23}$}{$y=x^{\dfrac 32}$}{$y=x^{-\dfrac 23}$}{$y=x^{-\dfrac 32}$}
-\item 幂函数$y=x^n(n\in \mathbf{Z})$的图象一定不经过\bracket{20}.
+\fourch{$y=x^{\frac 23}$}{$y=x^{\frac 32}$}{$y=x^{-\frac 23}$}{$y=x^{-\frac 32}$}
+\item 幂函数$y=x^n(n\in \mathbf{Z})$的图像一定不经过\bracket{20}.
 \fourch{第一象限}{第二象限}{第三象限}{第四象限}
-*71.函数$f(x)=x^{\dfrac 23}$的图象是\bracket{20}.
-\item 幂函数$y=x^m$和$y=x^n$在第一象限内的图象$C_1$和$C_2$图象所示, 则$m,n$之间的关系是\bracket{20}.
+\item 函数$f(x)=x^{\frac 23}$的图像是\bracket{20}.
+\fourch{\begin{tikzpicture}[scale = 0.7, >=latex]
+\draw [->] (-2,0) -- (2,0) node [below] {$x$};
+\draw [->] (0,-2) -- (0,2) node [left] {$y$};
+\draw (0,0) node [below left] {$O$};
+\draw (1,0.2) -- (1,0) node [below] {$1$};
+\draw (0.2,1) -- (0,1) node [left] {$1$};
+\draw [domain = 0:4,samples = 400] plot ({\x^(1/2)},{\x^(1/3)});
+\end{tikzpicture}}{\begin{tikzpicture}[scale = 0.7, >=latex]
+\draw [->] (-2,0) -- (2,0) node [below] {$x$};
+\draw [->] (0,-2) -- (0,2) node [left] {$y$};
+\draw (0,0) node [below left] {$O$};
+\draw (1,0.2) -- (1,0) node [below] {$1$};
+\draw (0.2,1) -- (0,1) node [left] {$1$};
+\draw (-1,0.2) -- (-1,0) node [below] {$-1$};
+\draw [domain = 0:4,samples = 400] plot ({\x^(1/3)},{\x^(1/2)});
+\draw [domain = 0:4,samples = 400] plot ({-\x^(1/3)},{\x^(1/2)});
+\end{tikzpicture}}{\begin{tikzpicture}[scale = 0.7, >=latex]
+\draw [->] (-2,0) -- (2,0) node [below] {$x$};
+\draw [->] (0,-2) -- (0,2) node [left] {$y$};
+\draw (0,0) node [below left] {$O$};
+\draw (1,0.2) -- (1,0) node [below] {$1$};
+\draw (0.2,1) -- (0,1) node [left] {$1$};
+\draw (-1,0.2) -- (-1,0) node [below] {$-1$};
+\draw [domain = 0:4,samples = 400] plot ({\x^(1/2)},{\x^(1/3)});
+\draw [domain = 0:4,samples = 400] plot ({-\x^(1/2)},{\x^(1/3)});
+\end{tikzpicture}}{\begin{tikzpicture}[scale = 0.7, >=latex]
+\draw [->] (-2,0) -- (2,0) node [below] {$x$};
+\draw [->] (0,-2) -- (0,2) node [left] {$y$};
+\draw (0,0) node [below left] {$O$};
+\draw (1,0.2) -- (1,0) node [below] {$1$};
+\draw (0.2,1) -- (0,1) node [left] {$1$};
+\draw (-1,0.2) -- (-1,0) node [below] {$-1$};
+\draw (0.2,-1) -- (0,-1) node [left] {$-1$};
+\draw [domain = 0:4,samples = 400] plot ({\x^(1/2)},{\x^(1/3)});
+\draw [domain = 0:4,samples = 400] plot ({-\x^(1/2)},{-\x^(1/3)});
+\end{tikzpicture}}
+\item 幂函数$y=x^m$和$y=x^n$在第一象限内的图像$C_1$和$C_2$图像所示, 则$m,n$之间的关系是\bracket{20}.
+\begin{center}
+    \begin{tikzpicture}[>=latex]
+        \draw [->] (-1,0) -- (3,0) node [below] {$x$};
+        \draw [->] (0,-1) -- (0,3) node [left] {$y$};
+        \draw (0,0) node [below left] {$O$};
+        \draw (1,0.2) -- (1,0) node [below] {$1$};
+        \draw (0.2,1) -- (0,1) node [left] {$1$};
+        \draw [domain = 0.5:2, samples = 400] plot (\x,{\x^(-5/4)});
+        \draw [domain = 0.5:2, samples = 400] plot ({\x^(-5/4)},\x);
+        \draw (0.5,{0.5^(-5/4)}) node [right] {$C_2$} ({0.5^(-5/4)},0.5) node [above] {$C_1$};
+    \end{tikzpicture}
+\end{center}
 \fourch{$n<m<0$}{$m<n<0$}{$n>m>0$}{$m>n>0$}
-*73.图中, $C_1,C_2,C_3$为幂函数$y=x^a$在第一象限的图象, 则解析式中的指数$\alpha$依次可以取\bracket{20}.
+\item 图中, $C_1,C_2,C_3$为幂函数$y=x^a$在第一象限的图像, 则解析式中的指数$\alpha$依次可以取\bracket{20}.
+\begin{center}
+    \begin{tikzpicture}[>=latex]
+        \draw [->] (-1,0) -- (3,0) node [below] {$x$};
+        \draw [->] (0,-1) -- (0,3) node [left] {$y$};
+        \draw (0,0) node [below left] {$O$};
+        \draw (1,0.2) -- (1,0) node [below] {$1$};
+        \draw (0.2,1) -- (0,1) node [left] {$1$};
+        \draw [domain = {sqrt(3)/3}:3, samples = 400] plot (\x,{\x^(-2)});
+        \draw [domain = 0:3, samples = 400] plot (\x,{\x^(3/4)});
+        \draw [domain = 0:{3^(3/4)}, samples = 400] plot (\x,{\x^(4/3)});
+        \draw (3,{1/9}) node [right] {$C_3$} (3,{3^(3/4)}) node [right] {$C_2$} ({3^(3/4)},3) node [above] {$C_1$};
+    \end{tikzpicture}
+\end{center}
 \fourch{$\dfrac 43,-2,\dfrac 34$}{$-2,\dfrac 34,\dfrac 43$}{$-2,\dfrac 43,\dfrac 34$}{$\dfrac 34,\dfrac 43,-2$}
-*74.求下列函数的定义域与值域:
-(1)$y=x^{\dfrac 56}x\in$\blank{50}, $u\in$\blank{50}.
-(2)$y=x^{\dfrac 35}x\in$\blank{50}, $u\in$\blank{50}.
-(3)$y=x^{\dfrac 85}x\in$\blank{50}, $u\in$\blank{50}.
-(4)$y=x^{-\dfrac 54}x\in$\blank{50}, $u\in$\blank{50}.
-(5)$y=x^{-\dfrac 53}x\in$\blank{50}, $u\in$\blank{50}.
-(6)$y=x^{-\dfrac 23}x\in$\blank{50}, $u\in$\blank{50}.
-(7)$y=-2(x+5)^{-\dfrac 14}x\in$\blank{50}, $u\in$\blank{50}.
-(8)$y=5(2x-1)^{\dfrac 34}x\in$\blank{50}, $u\in$\blank{50}.
-\item 将下列函数图象的标号, 填在相应函数后面的横线上:
-*(1)$y=x^{\dfrac 23}$:\blank{50}.	(2)$y=x^{-2}$:\blank{50}.
-(3)$y=x^{\dfrac 12}$:\blank{50}.				(4)$y=x^{-1}$:\blank{50}.
-(5)$y=x^{\dfrac 13}$:\blank{50}.				*(6)$y=x^{\dfrac 32}$:\blank{50}.
-*(7)$y=x^{\dfrac 43}$:\blank{50}.			(8)$y=x^{-\dfrac 12}$:\blank{50}.
-*(9)$y=x^{\dfrac 53}$:\blank{50}.
-\fourch{}{}{}{(E) (F)}
-(G) (H) (I)
-(第75题)
-\item (1)若幂函数$y=x^n$的图象在$0<x<1$时位于直线$y=x$的下方, 则$n$的取值范围是\blank{50}.
-(2)若幂函数$y=x^n$的图象在$0<x<1$时位于直线$y=x$的上方, 则$n$的取值范围是\blank{50}.
-*(3)函数$f(x)=x^{k^2-2k-3}$($k\in \mathbf{Z}$)的图象如图所示, 则$k=$\blank{50}.
+\item 函数$y=x^{\frac 56}$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$y=x^{\frac 35}$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$y=x^{\frac 85}$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$y=x^{-\frac 54}$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$y=x^{-\frac 53}$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$y=x^{-\frac 23}$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$y=-2(x+5)^{-\frac 14}$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$y=5(2x-1)^{\frac 34}$的定义域为\blank{50}, 值域为\blank{50}.
+\item 将下列函数图像的标号, 填在相应函数后面的横线上:\\
+(1) $y=x^{\frac 23}$:\blank{50}; (2) $y=x^{-2}$:\blank{50}; (3) $y=x^{\frac 12}$:\blank{50};\\
+(4) $y=x^{-1}$:\blank{50}; (5) $y=x^{\frac 13}$:\blank{50}; (6)$y=x^{\frac 32}$:\blank{50};\\ (7)$y=x^{\frac 43}$:\blank{50}; (8)$y=x^{-\frac 12}$:\blank{50}; (9)$y=x^{\frac 53}$:\blank{50}.
+
+\item (1)若幂函数$y=x^n$的图像在$0<x<1$时位于直线$y=x$的下方, 则$n$的取值范围是\blank{50}.
+(2)若幂函数$y=x^n$的图像在$0<x<1$时位于直线$y=x$的上方, 则$n$的取值范围是\blank{50}.
+*(3)函数$f(x)=x^{k^2-2k-3}$($k\in \mathbf{Z}$)的图像如图所示, 则$k=$\blank{50}.
 (第76(3)题)
-\item 幂函数$y=x^p$与$y=x^q$的图象都通过定点\blank{50}, 它们在第一象限部分关于直线$y=x$对称, 则$p,q$应满足的条件是\blank{50}.
+\item 幂函数$y=x^p$与$y=x^q$的图像都通过定点\blank{50}, 它们在第一象限部分关于直线$y=x$对称, 则$p,q$应满足的条件是\blank{50}.
 \item 确定实数$a$的取值范围:
 (1)$2.4^a>2.5^a.$				(2)$(\dfrac 34)^{-a}>(\dfrac 43)^{-a}.$
 (3)$a^{-2}>3^{-2}.$				(4)$0.01^{-3}>a^{-3}.$
 \item 将下列各组数从小到大排列:
-(1)$2.5^{\dfrac 23}$, $(-1.4)^{\dfrac 23}$, $(-3)^{\dfrac 13}$:\blank{50}.
-(2)$4.1^{\dfrac 25}$, $3.8^{-\dfrac 23}$, $(-1.9)^{\dfrac 35}$:\blank{50}.
-(3)$0.16^{-\dfrac 34}$, $0.5^{-\dfrac 32}$, $6.25^{\dfrac 38}$:\blank{50}.
-\item 已知函数$y=x^{n^2-2n-3}$($n\in \mathbf{Z}$)的图象与两坐标轴都无公共点, 且其图象关于$y$轴对称, 求$n$的值, 并画出相应的函数图象.
+(1)$2.5^{\frac 23}$, $(-1.4)^{\frac 23}$, $(-3)^{\frac 13}$:\blank{50}.
+(2)$4.1^{\frac 25}$, $3.8^{-\frac 23}$, $(-1.9)^{\frac 35}$:\blank{50}.
+(3)$0.16^{-\frac 34}$, $0.5^{-\frac 32}$, $6.25^{\frac 38}$:\blank{50}.
+\item 已知函数$y=x^{n^2-2n-3}$($n\in \mathbf{Z}$)的图像与两坐标轴都无公共点, 且其图像关于$y$轴对称, 求$n$的值, 并画出相应的函数图像.
 (三)函数的单调性
 \item 函数$y=\sqrt {x^2+2x-3}$为减函数的区间是\bracket{20}.
 \fourch{$(-\infty ,-3 ].$}{$[ -1,+\infty).$}{$(-\infty ,-1 ].$}{$[ 1,+\infty).$}
@@ -385,21 +476,21 @@ $\times {\{2-[ 2+(2+3^{\dfrac 12})^{\dfrac 12} ]^{\dfrac 12}\}^{\dfrac 12}}$.
 (4)已知常数$m,n$满足$mn<2$, 求证: 函数$f(x)=\dfrac{mx+1}{2x+n}$在$(-\dfrac n2,+\infty)$上为减函数.
 \item 已知$f(x)=x^2+1$, $g(x)=x^4+2x^2+2$, 是否存在实数$\lambda$, 使得$F(x)=g(x)-\lambda f(x)$在$(-\infty ,-1)$上是减函数, 在(-1, 0)上是增函数?
 \item 已知函数$f(x)$在区间$(-\infty ,+\infty)$上是增函数, 又实数$a,b$满足$a+b\ge 0$, 求证: $f(a)+f(b)\ge f(-a)+f(-b)$.
-\item $f(x)$是定义在$R^+$的增函数, 且$f(\dfrac xy)=f(x)-f(y)$.
+\item $f(x)$是定义在$\mathbf{R}^+$的增函数, 且$f(\dfrac xy)=f(x)-f(y)$.
 (1)求$f(1)$的值.
 (2)若$f(6)=1$, 解不等式$f(x+3)-f(\dfrac 1x)<2$.
 (四)函数的奇偶性
 \item 若$f(x)=(m-1)x^2+3mx+3$为偶函数, 则$f(x)$在区间(-4, 2)上\bracket{20}.
 \fourch{是增函数}{是减函数}{先是增函数后是减函数}{先是减函数后是增函数}
 \item 函数$f(x)=\begin{cases}   1-x, & x>0,  \\ 0, & x=0,  \\1+x, & x<0,  \end{cases}$则该函数\bracket{20}.
-\fourch{是奇函数, 但不是偶函数}{是偶函数, 但不是奇函数}{既是奇函数, 也是偶函数}{既不是奇函数, 也不是偶函数}
+\twoch{是奇函数, 但不是偶函数}{是偶函数, 但不是奇函数}{既是奇函数, 也是偶函数}{既不是奇函数, 也不是偶函数}
 \item 下列函数中既是奇函数, 又在定义域上为增函数的是\bracket{20}.
 \fourch{$f(x)=3x+1.$}{$f(x)=\dfrac 1x.$}{$f(x)=1-\dfrac 1x.$}{$f(x)=x^3.$}
 \item 若$f(x)$为定义在区间[-6, 6]上的偶函数, 且满足$f(3)>f(1)$, 则恒成立的是\bracket{20}.
 \fourch{$f(-1)<f(3).$}{$f(0)<f(6).$}{$f(3)>f(2).$}{$f(2)>f(0).$}
 \item 函数$f(x)=\dfrac{\sqrt {1-x^2}}{2-|x+2|}$\bracket{20}.
-\fourch{是奇函数, 但不是偶函数}{是偶函数, 但不是奇函数}{既是奇函数, 又是偶函数}{既不是奇函数, 也不是偶函数}
-\item 已知$f(x)$是奇函数, 则下列各点中在函数$y=f(x)$的图象上的点的是\bracket{20}.
+\twoch{是奇函数, 但不是偶函数}{是偶函数, 但不是奇函数}{既是奇函数, 又是偶函数}{既不是奇函数, 也不是偶函数}
+\item 已知$f(x)$是奇函数, 则下列各点中在函数$y=f(x)$的图像上的点的是\bracket{20}.
 \fourch{$(a,f(-a)).$}{$(-a,-f(a)).$}{$(\dfrac 1a,-f(\dfrac 1a)).$}{$(-\sin a,-f(-\sin a)).$}
 \item (1)若$f(x)$是定义在$R$上的偶函数, 且当$x<0$时, $f(x)=2x-3$, 则当$x>0$时, $f(x)=$\blank{50}.
 (2)若奇函数$f(x)$的定义域是$R$, 则$f(0)=$\blank{50}.

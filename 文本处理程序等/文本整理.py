@@ -102,6 +102,9 @@ def give_brackets(string):
     string = re.sub(r"rightset",r"\}",string)
     return string
 #以上是20220715新加的文本处理机制
+def reduce_blank(matchobj):
+    return matchobj.group(1).replace(" ","")
+
 try:
     os.chdir(r"D:\mathdept\mathdept\文本处理程序等")
 except:
@@ -314,7 +317,10 @@ for equation in raw_equations:
     equation1 = re.sub(r"\\\{\s*",r"\\{",equation1)
     equation1 = re.sub(r"\{ *([ZRNQC])\^([\+\-*]) *\}",mathbf,equation1)
     equation1 = re.sub(r"\{\\log *\}_",r"\\log_",equation1)
-    
+    equation1 = re.sub(r"([^\\]\s+?\])",reduce_blank,equation1)
+    equation1 = re.sub(r"([^\\]\s+?\))",reduce_blank,equation1)
+    equation1 = re.sub(r"(\(\s+?)",reduce_blank,equation1)
+    equation1 = re.sub(r"(\[\s+?)",reduce_blank,equation1)
     modified_equations.append(equation1)
 
 
