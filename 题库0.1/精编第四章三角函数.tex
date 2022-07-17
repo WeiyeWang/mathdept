@@ -1,3 +1,50 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[UTF8,fontset = windows]{ctex}
+\setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{华文中宋}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
+\usepackage{ifthen,indentfirst,enumerate,color,titletoc}
+\usepackage{tikz}
+\usepackage{makecell}
+\usepackage{longtable}
+%\usepackage{mathptmx}
+
+\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing}
+\usepackage[bf,small,indentafter,pagestyles]{titlesec}
+\usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
+\renewcommand{\baselinestretch}{1.65}
+\newtheorem{defi}{定义~}
+\newtheorem{eg}{例~}
+\newtheorem{ex}{~}
+\newtheorem{rem}{注~}
+\newtheorem{thm}{定理~}
+\newtheorem{coro}{推论~}
+\newtheorem{axiom}{公理~}
+\newtheorem{prop}{性质~}
+\newcommand{\blank}[1]{\underline{\hbox to #1pt{}}}
+\newcommand{\bracket}[1]{(\hbox to #1pt{})}
+\newcommand{\onech}[4]{\par\begin{tabular}{p{.9\textwidth}}
+A.~#1\\
+B.~#2\\
+C.~#3\\
+D.~#4
+\end{tabular}}
+\newcommand{\twoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+A.~#1& B.~#2\\
+C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\vartwoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+(1)~#1& (2)~#2\\
+(3)~#3& (4)~#4
+\end{tabular}}
+\newcommand{\fourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+A.~#1 &B.~#2& C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\varfourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+(1)~#1 &(2)~#2& (3)~#3& (4)~#4
+\end{tabular}}
+\begin{document}
+\begin{enumerate}[1.]
+
 \item 已知角$\alpha$的一个三角函数值, 求$\alpha$的其他三角函数值.
 对于这类问题.请注意以下几点:
 (1)若角$\alpha$的一个三角函数值是以具体的数给出的.可利用``勾股数''(经常碰到的``勾股数''有3, 4, 5; 5, 12, 13; 8, 15, 17; 7, 24, 25; 9, 40, 41等)或``勾股定理''直接求得.
@@ -65,19 +112,19 @@ $\dfrac{a\sin ^2\theta +b\sin \theta \cos \theta +c\cos ^2\theta }{a'\sin ^2\the
 \blank{50}$=\dfrac{18+6+1}{9+1}=\dfrac 52$.
 【训练题】
 (一)角的概念的推广
-1在``\textcircled{1} 160°, \textcircled{2} 480°, \textcircled{3} -960°, \textcircled{4} -1600°''这四个角中, 属于第二象限的角有()
+1在``\textcircled{1} 160°, \textcircled{2} 480°, \textcircled{3} -960°, \textcircled{4} -1600°''这四个角中, 属于第二象限的角有\bracket{20}.
 \fourch{\textcircled{1} }{\textcircled{1} \textcircled{2} }{\textcircled{1} \textcircled{2} \textcircled{3} }{\textcircled{1} \textcircled{2} \textcircled{3} \textcircled{4} }
-\item 集合$M=\{\alpha|\alpha =k\cdot 90^\circ ,k\in \mathbf{N}\}$中各角的终边都在()
+\item 集合$M=\{\alpha|\alpha =k\cdot 90^\circ ,k\in \mathbf{N}\}$中各角的终边都在\bracket{20}.
 \fourch{$x$轴的正半轴上}{$y$轴的正半轴上}{$x$轴或$y$轴上}{$x$轴正半轴或$y$轴的正半轴上}
-\item 若$\alpha$是第四象限的角, 则$\pi -\alpha$是()
+\item 若$\alpha$是第四象限的角, 则$\pi -\alpha$是\bracket{20}.
 \fourch{第一象限的角}{第二象限的角}{第三象限的角}{第四象限的角}
-\item 若一圆弧长等于其所在圆的内接正三角形的边长, 则其圆心角的弧度数为()
+\item 若一圆弧长等于其所在圆的内接正三角形的边长, 则其圆心角的弧度数为\bracket{20}.
 \fourch{$\dfrac{\pi }3$}{$\dfrac 23\pi$.			(D)$\sqrt 3$.		(D)2.
-\item 若$\alpha$和$\beta$的终边关于$y$轴对称, 则必有()
+\item 若$\alpha$和$\beta$的终边关于$y$轴对称, 则必有\bracket{20}.
 (A)$\alpha +\beta =\dfrac{\pi }2$						(B)$\alpha +\beta =(2k+\dfrac 12)\pi$($k\in \mathbf{Z}$)}{$\alpha +\beta =2k\pi$($k\in \mathbf{Z}$)}{$\alpha +\beta =(2k+1)\pi$($k\in \mathbf{Z}$)}
-\item 若$-\dfrac{\pi }2<\alpha <\beta <\dfrac{\pi }2$, 则$\alpha -\beta$的取值范围是()
+\item 若$-\dfrac{\pi }2<\alpha <\beta <\dfrac{\pi }2$, 则$\alpha -\beta$的取值范围是\bracket{20}.
 \fourch{$(-\dfrac{\pi }2,0)$}{$(-\dfrac{\pi }2,\dfrac{\pi }2)$}{$(-\pi ,0)$}{$(-\pi ,\pi)$)}
-\item 集合$M=\{x|x=\dfrac{k\pi }2\pm \dfrac{\pi }4,k\in \mathbf{Z}\}$与$P=\{x|x=\dfrac{k\pi }4,k\in \mathbf{Z}\}$之间的关系是()
+\item 集合$M=\{x|x=\dfrac{k\pi }2\pm \dfrac{\pi }4,k\in \mathbf{Z}\}$与$P=\{x|x=\dfrac{k\pi }4,k\in \mathbf{Z}\}$之间的关系是\bracket{20}.
 \fourch{$M\subset P$}{$M\supset P$}{$M=P$}{$M\cap P=\varnothing$}
 \item (1)与-45°角终边相同的角的集合是\blank{50}.
 (2)若$\alpha$是第四象限的角, 则$\alpha$的取值范围是\blank{50}.
@@ -89,7 +136,7 @@ $\dfrac{a\sin ^2\theta +b\sin \theta \cos \theta +c\cos ^2\theta }{a'\sin ^2\the
 (2)若$\alpha =-4$, 则$\alpha$是第\blank{50}象限的角.
 \item (1)在-720°与720°之间, 与60°角终边相同的角是\blank{50}.
 (2)设角$\alpha$的终边与$\dfrac 75\pi$的终边关于$y$轴对称, 且$\alpha \in (-2\pi ,2\pi)$, 则$\alpha =$\blank{50}.
-\item (1)在扇形$OAB$中, 已知半径$OA=8$cm, $\overset\frownAB=12$cm, 则圆心角$\angle AOB=$		\blank{50}弧度, 扇形$OAB$的面积为\blank{50}cm2.
+\item (1)在扇形$OAB$中, 已知半径$OA=8$cm, $\overset\frown{AB}=12$cm, 则圆心角$\angle AOB=$		\blank{50}弧度, 扇形$OAB$的面积为\blank{50}cm2.
 (2)若3弧度的圆心角所对的弧长为9cm, 则此圆心角所夹的扇形面积为\blank{50}cm2.
 (3)若圆中的一条弦长等于其半径$r$, 则此弦和劣弧所组成的弓形的面积等于\blank{50}.
 (4)若1弧度的圆心角所对的弦长为2, 则此圆心角所夹的扇形的面积等于\blank{50}.
@@ -98,19 +145,19 @@ $\dfrac{a\sin ^2\theta +b\sin \theta \cos \theta +c\cos ^2\theta }{a'\sin ^2\the
 \item 已知一扇形的圆心角是120°, 求此扇形面积与其内切圆面枳之比.
 \item 在1时15分时, 时针和分针所成的最小正角是多少弧度?
 (二)任意角的三角函数
-\item 若角$\alpha$的终边落在直线$y=2x$上, 则$\sin \alpha$的値等于()
+\item 若角$\alpha$的终边落在直线$y=2x$上, 则$\sin \alpha$的値等于\bracket{20}.
 \fourch{$\pm \dfrac 15$}{$\pm \dfrac{\sqrt 5}5$}{$\pm \dfrac 25\sqrt 5$}{$\pm \dfrac 12$}
-\item 若点$P(3,y)$在角$\alpha$的终边上, 且满足$y<0$, $\cos \alpha =\dfrac 35$, 则$\tan \alpha$的值等于()
+\item 若点$P(3,y)$在角$\alpha$的终边上, 且满足$y<0$, $\cos \alpha =\dfrac 35$, 则$\tan \alpha$的值等于\bracket{20}.
 \fourch{$-\dfrac 34$}{$\dfrac 43$}{$\dfrac 34$}{$-\dfrac 43$}
-\item 若三角形的两内角$\alpha ,\beta$满足$\sin \alpha \cdot \cos \beta <0$, 则此三角形的形状()
+\item 若三角形的两内角$\alpha ,\beta$满足$\sin \alpha \cdot \cos \beta <0$, 则此三角形的形状\bracket{20}.
 \fourch{是锐角三角形}{是钝角三角形}{是直角三角形}{不能确定}
-\item 若$\alpha$是第三象限角, 则下列各式中不成立的是()
+\item 若$\alpha$是第三象限角, 则下列各式中不成立的是\bracket{20}.
 \fourch{$\sin \alpha +\cos \alpha <0$}{$\tan \alpha -\sin \alpha <0$}{$\cos \alpha -\cot \alpha <0$}{$\cot \alpha \cdot \csc \alpha <0$}
-\item 下列四个命题中, 正确的是()
+\item 下列四个命题中, 正确的是\bracket{20}.
 \fourch{终边相同的角的三角函数值相等}{$\{\alpha|\alpha =k\pi +\dfrac{\pi }6,k\in \mathbf{Z}\}\ne \{\beta|\beta =-k\pi +\dfrac{\pi }6,k\in \mathbf{Z}\}$}{若$\alpha$是第二象限角, 则$\sin 2\alpha <0$}{第四象限的角可表示为$\{\alpha|2k\pi +\dfrac 32\pi <\alpha <2k\pi ,k\in \mathbf{Z}\}$}
-\item 若$\theta$是第三象限角.且$\cos \dfrac{\theta }2<0$.则$\theta$是()
+\item 若$\theta$是第三象限角.且$\cos \dfrac{\theta }2<0$.则$\theta$是\bracket{20}.
 \fourch{第一象限角}{第二象限角}{第二象限角}{第四象限角}
-\item 若$(\dfrac 12)^{\sin 2\theta }<1$, 则$\theta$是()
+\item 若$(\dfrac 12)^{\sin 2\theta }<1$, 则$\theta$是\bracket{20}.
 \fourch{第一或第二象限角}{第二或第四象限角}{第一或第三象限角}{第二或第三象限角}
 \item (1)直角坐标平面内, 终边过点$(1-\sqrt 3)$的所有角组成的集合可表示成\blank{50}.
 (2)若角$\alpha$的终边上有一点$P(-3,a)$, 且$\cos \alpha =-\dfrac 35$, 则$a=$\blank{50}.
@@ -123,35 +170,35 @@ $\dfrac{a\sin ^2\theta +b\sin \theta \cos \theta +c\cos ^2\theta }{a'\sin ^2\the
 (3)函数$y=\sqrt {\cos x}$的定义域是\blank{50}.
 (4)函数$y=\sqrt {-\cot x}+\lg \cos x$的定义域是\blank{50}.
 (5)函数$y=\sqrt {\sin x}+\sqrt {-\tan x}$的定义域是\blank{50}.
-\item 若实数$\alpha ,\beta$满足$|\cos \alpha -\cos \beta|=|\cos \alpha|+|\cos \beta|$, 且$\alpha \in (\dfrac{\pi }2,\pi)$, 则化简$\sqrt {(\cos \alpha -\cos \beta)^2}$结果是()
+\item 若实数$\alpha ,\beta$满足$|\cos \alpha -\cos \beta|=|\cos \alpha|+|\cos \beta|$, 且$\alpha \in (\dfrac{\pi }2,\pi)$, 则化简$\sqrt {(\cos \alpha -\cos \beta)^2}$结果是\bracket{20}.
 \fourch{$\cos \alpha -\cos \beta$}{$|\cos \alpha|-|\cos \beta|$}{$\cos \beta -\cos \alpha$}{$|\cos \beta|-|\cos \alpha|$}
 \item (1)已知角$\alpha$终边上—点$P$的坐标是$(5a,12a)$($a<0$), 求角$\alpha$的各二角函数值.
 (2)已知角$\alpha$终边上一点$P$与$x$轴的距离和与轴的距离之比为$4:3$, 且$\cos \alpha <0$.求$\sin \alpha$和$\tan \alpha$.
 \item 求下列函数的定义域:
 (1)$y=\sqrt {\sin (\cos x)}$.					(2)$y=\sqrt {\cos (\sin x)}$.
 (三)同角三角函数的基本关系式
-\item 下列四个命题中.能够成立的是()
+\item 下列四个命题中.能够成立的是\bracket{20}.
 \fourch{$\sin \alpha =\dfrac 12$且$\cos \alpha =\dfrac 12$}{$\sin \alpha =\dfrac 13$且$\csc \alpha =2$}{$\sin \alpha =0$且$\cos \alpha =-1$}{$\cos \alpha =\dfrac 12$且$\sec \alpha =-2$}
-\item 已知$\sin \alpha =\dfrac 45$, 且$\alpha$是第二象限的角, 那么$\tan \alpha$的值等于()
+\item 已知$\sin \alpha =\dfrac 45$, 且$\alpha$是第二象限的角, 那么$\tan \alpha$的值等于\bracket{20}.
 \fourch{$-\dfrac 34$}{$-\dfrac 43$}{$\dfrac 34$			(〇)$\dfrac 43$.
-\item 若$1+\sin \theta \sqrt {1-\cos ^2\theta }+\cos \theta \sqrt {1-\sin ^2\theta }=0$.则$\theta$的取值范围是()
+\item 若$1+\sin \theta \sqrt {1-\cos ^2\theta }+\cos \theta \sqrt {1-\sin ^2\theta }=0$.则$\theta$的取值范围是\bracket{20}.
 (A)第三象限角.							(B)第四象限角.
 (C)$2k\pi \le \theta \le 2k\pi +\dfrac 32\pi$($k\in \mathbf{Z}$)}{$2k\pi +\dfrac 32\pi \le \theta \le 2k\pi +2\pi$($k\in \mathbf{Z}$)}
-\item 若$\alpha$是二角形的一个内角, 且$\sin \alpha +\cos \alpha =\dfrac 23$, 则这个三角形的形状是()
+\item 若$\alpha$是二角形的一个内角, 且$\sin \alpha +\cos \alpha =\dfrac 23$, 则这个三角形的形状是\bracket{20}.
 \fourch{锐角三角形}{钝角三角形}{不等腰的直角三角形}{等腰直角三角形}
-\item 化简$(\dfrac 1{\sin \alpha }+\dfrac 1{\tan \alpha })(1-\cos \alpha)$的结果是()
+\item 化简$(\dfrac 1{\sin \alpha }+\dfrac 1{\tan \alpha })(1-\cos \alpha)$的结果是\bracket{20}.
 \fourch{$\sin \alpha$}{$\cos \alpha$}{$1+\sin \alpha$}{$1+\cos \alpha$}
-\item 若$\theta \ne \dfrac{k\pi }2$($k\in \mathbf{Z}$), 则$\dfrac{\sin \theta +\tan \theta }{\cos \theta +\cot \theta }$()
+\item 若$\theta \ne \dfrac{k\pi }2$($k\in \mathbf{Z}$), 则$\dfrac{\sin \theta +\tan \theta }{\cos \theta +\cot \theta }$\bracket{20}.
 \fourch{恒取正值}{恒取负值}{恒取非正值}{恒取非负值}
-\item 若$0<\alpha <\dfrac{\pi }2$, 且$\lg (1+\cos \alpha)=m$, $\lg \dfrac 1{1-\cos \alpha }=n$, 则$\lg \sin \alpha =$的值等于()
+\item 若$0<\alpha <\dfrac{\pi }2$, 且$\lg (1+\cos \alpha)=m$, $\lg \dfrac 1{1-\cos \alpha }=n$, 则$\lg \sin \alpha =$的值等于\bracket{20}.
 \fourch{$m+\dfrac 1n$}{$m-n$}{$\dfrac 12(m+\dfrac 1n)$}{$\dfrac 12(m-n)$}
-36若$\dfrac{\sin ^2\theta +4}{\cos \theta +1}=2$, 则$(\cos \theta +3)(\sin \theta +1)$的值是()
+36若$\dfrac{\sin ^2\theta +4}{\cos \theta +1}=2$, 则$(\cos \theta +3)(\sin \theta +1)$的值是\bracket{20}.
 \fourch{6}{4}{2}{0}
-\item 若$\sin \theta \cdot \cos \theta <0$, $|\cos \theta|=\cos \theta$, 则点$P(\tan \theta ,\sec \theta)$—定在()
+\item 若$\sin \theta \cdot \cos \theta <0$, $|\cos \theta|=\cos \theta$, 则点$P(\tan \theta ,\sec \theta)$—定在\bracket{20}.
 \fourch{第一象限}{第二象限}{第三象限}{第四象限}
-\item 若$\sqrt {\dfrac{1-\sin x}{1+\sin x}}=\tan x-\sec x$, 则$x$的取值范围是()
+\item 若$\sqrt {\dfrac{1-\sin x}{1+\sin x}}=\tan x-\sec x$, 则$x$的取值范围是\bracket{20}.
 \fourch{$2k\pi +\dfrac{\pi }2<x<2k\pi +\dfrac{3\pi }2$($k\in \mathbf{Z}$)}{$k\pi +\dfrac{\pi }2<x<k\pi +\dfrac{3\pi }2$($k\in \mathbf{Z}$)}{$2k\pi <x<2k\pi +\pi$($k\in \mathbf{Z}$)}{$2k\pi -\dfrac{\pi }2<x<2k\pi +\dfrac{\pi }2$($k\in \mathbf{Z}$)}
-\item 若$\alpha \in (0,2\pi)$, 则适合$\sqrt {\dfrac{1+\cos \alpha }{1-\cos \alpha }}-\sqrt {\dfrac{1-\cos \alpha }{1+\cos \alpha }}=2\cot \alpha$的角$\alpha$的集合是()
+\item 若$\alpha \in (0,2\pi)$, 则适合$\sqrt {\dfrac{1+\cos \alpha }{1-\cos \alpha }}-\sqrt {\dfrac{1-\cos \alpha }{1+\cos \alpha }}=2\cot \alpha$的角$\alpha$的集合是\bracket{20}.
 \fourch{$\{\alpha|0<\alpha <\pi\}$}{$\{\alpha|0<\alpha <\dfrac{\pi }2\pi <\alpha <\dfrac{3\pi }2\}$}{$\{\alpha|0<\alpha <\pi \alpha =\dfrac{3\pi }2\}$}{$\{\alpha|0<\alpha <\dfrac{\pi }2\dfrac{3\pi }2<\alpha <2\pi\}$}
 \item (1)若角$\alpha$的终边过点$(1,\tan \theta)$, 且$\theta \in (\dfrac{\pi }2,\pi)$, 则$\sin \alpha =$\blank{50}.
 (2)若$\sin \alpha +\cos \alpha =\dfrac 13$, 则$\sin \alpha \cos \alpha =$\blank{50}.
@@ -173,11 +220,11 @@ $\dfrac{a\sin ^2\theta +b\sin \theta \cos \theta +c\cos ^2\theta }{a'\sin ^2\the
 \textcircled{3} $\dfrac 14\sin ^2x+\dfrac 23\cos ^2x=$\blank{50}.
 (2)若$\dfrac{2\sin ^2\alpha -3\cos ^2\alpha }{\cos ^2\alpha -\sin ^2\alpha }=-4$, 则$\tan \alpha =$\blank{50}.
 (3)若$(\sin \alpha +\cos \alpha)^2=\dfrac 85$, 则$\tan \alpha =$\blank{50}.
-\item 若$\tan \alpha$和$\tan \beta$是关于$x$的方程$x^2-px+q=0$的两根, $\cot \alpha$和$\cot \beta$是关于$x$的方程$x^2-rx+s=0$的两根, 则$rs$等于()
+\item 若$\tan \alpha$和$\tan \beta$是关于$x$的方程$x^2-px+q=0$的两根, $\cot \alpha$和$\cot \beta$是关于$x$的方程$x^2-rx+s=0$的两根, 则$rs$等于\bracket{20}.
 \fourch{$pq$}{$\dfrac 1{pq}$}{$\dfrac p{q^2}$}{$\dfrac q{p^2}$}
-\item 若$\sin x=\dfrac{a-b}{a+b}$($0<a<b$), 则$\sqrt {\cot ^2x-\cos ^2x}$的结果是()
+\item 若$\sin x=\dfrac{a-b}{a+b}$($0<a<b$), 则$\sqrt {\cot ^2x-\cos ^2x}$的结果是\bracket{20}.
 \fourch{$\dfrac{4ab}{a^2-b^2}$}{$-\dfrac{4ab}{a^2-b^2}$}{$\dfrac{4ab}{a^2+b^2}$}{$-\dfrac{4ab}{a^2+b^2}$}
-\item 若$\alpha$在第一象限, 且$\dfrac{1+\tan \alpha }{1-\tan \alpha }=3+2\sqrt 2$, 则$\cos \alpha$的值是()
+\item 若$\alpha$在第一象限, 且$\dfrac{1+\tan \alpha }{1-\tan \alpha }=3+2\sqrt 2$, 则$\cos \alpha$的值是\bracket{20}.
 \fourch{$\dfrac{\sqrt 6}2$}{$\dfrac{\sqrt 6}3$}{$\dfrac{\sqrt 3}2$}{$\dfrac{\sqrt 3}3$}
 \item 求下列各式的值:
 (1)$(1+\cot \alpha -\csc \alpha)(1+\tan \alpha +\sec \alpha)$.		(2)$\dfrac{1-\sin ^6\alpha -\cos ^6\alpha }{\sin ^2\alpha -\sin ^4\alpha }$.
@@ -196,35 +243,35 @@ $\dfrac{a\sin ^2\theta +b\sin \theta \cos \theta +c\cos ^2\theta }{a'\sin ^2\the
 \item (1)已知$\tan \theta =\sqrt {\dfrac{1-a}a}$($0<a<1$), 求$\dfrac{\sin ^2\theta }{a+\cos \theta }+\dfrac{\sin ^2\theta }{a-\cos \theta }$的值.
 (2)已知锐角$\theta$满足$\log _{(\tan \theta +\cot \theta)}\sin \theta =-\dfrac 34$, 求$\log _{\tan \theta }\cos \theta$的值.
 (四)诱导公式
-\item 若$\sin (\pi +\alpha)=-\dfrac 35$, 则()
+\item 若$\sin (\pi +\alpha)=-\dfrac 35$, 则\bracket{20}.
 \fourch{$\cos \alpha =\dfrac 45$}{$\tan \alpha =\dfrac 34$}{$\sec \alpha =-\dfrac 54$}{$\sin (\pi -\alpha)=\dfrac 35$}
-\item 若$4\pi <\alpha <5\pi$, $\cos \alpha =-\dfrac 13$, 则$\tan \alpha$的值为()
+\item 若$4\pi <\alpha <5\pi$, $\cos \alpha =-\dfrac 13$, 则$\tan \alpha$的值为\bracket{20}.
 \fourch{$-2\sqrt 2$}{$\pm 2\sqrt 2$}{$\pm \dfrac{\sqrt 2}4$}{$-\dfrac{\sqrt 2}4$}
-\item 下列各式正确的是()
+\item 下列各式正确的是\bracket{20}.
 \fourch{$\cos ^3(-\alpha -\pi)=\cos ^3\alpha$}{$\sin (\alpha -3\pi)=\sin \alpha$}{$\sec (3\pi -\alpha)=\dfrac 1{\cos \alpha }$}{$-\cot (5\pi -2\alpha)=\cot 2\alpha$}
-\item 若$\alpha ,\beta ,\gamma$是一个三角形的三个内角, 则在``\textcircled{1} $\sin (\alpha +\beta)-\sin \gamma$, \textcircled{2} $\cos (\alpha +\beta)+\cos \gamma$, \textcircled{3} $\tan \dfrac{\alpha +\beta }2\cdot \tan \dfrac{\gamma }2$, \textcircled{4} $\tan (\alpha +\beta)-\tan \gamma$''这四个式子中, 其值为常数的有()
+\item 若$\alpha ,\beta ,\gamma$是一个三角形的三个内角, 则在``\textcircled{1} $\sin (\alpha +\beta)-\sin \gamma$, \textcircled{2} $\cos (\alpha +\beta)+\cos \gamma$, \textcircled{3} $\tan \dfrac{\alpha +\beta }2\cdot \tan \dfrac{\gamma }2$, \textcircled{4} $\tan (\alpha +\beta)-\tan \gamma$''这四个式子中, 其值为常数的有\bracket{20}.
 \fourch{1个}{2个}{3个}{4个}
-\item 函数$y=\cos (\tan x)$()
+\item 函数$y=\cos (\tan x)$\bracket{20}.
 \fourch{是奇函数, 但不是偶函数}{是偶函数, 但不是奇函数}{既不是奇函数, 也不是偶函数}{奇偶性无法确定}
-\item 若函数$f(x)=a\sin x+b\tan x+1$满足$f(5)=7$, 则$f(-5)$的值等于()
+\item 若函数$f(x)=a\sin x+b\tan x+1$满足$f(5)=7$, 则$f(-5)$的值等于\bracket{20}.
 \fourch{5}{-5}{6}{-6}
-\item 化简$\tan (\dfrac{k\pi }2+\alpha)$($k\in \mathbf{Z}$)的结果是()
+\item 化简$\tan (\dfrac{k\pi }2+\alpha)$($k\in \mathbf{Z}$)的结果是\bracket{20}.
 \fourch{$\tan \alpha$}{$\pm \tan \alpha$}{$\tan \alpha$或$-\cot \alpha$}{$\tan \alpha$或$\cot \alpha$}
 \item 计算下列各题:
 (1)$\sin ^220^\circ +\sin ^270^\circ -\cos ^220^\circ \cdot \cot ^270^\circ \cdot \csc ^220^\circ =$\blank{50}.
-(2)$\tan 1^\circ \centerdot \tan 2^\circ \centerdot \tan 3^\circ \centerdot \cdots \centerdot \tan 87^\circ \centerdot \tan 88^\circ \centerdot \tan 89^\circ =$\blank{50}.
-(3)$\sin ^2(42^\circ +\alpha)+\cot (25^\circ +\beta)\centerdot \cot (\beta -65^\circ)+\sin ^2(48^\circ -\alpha)=$\blank{50}.
+(2)$\tan 1^\circ \cdot \tan 2^\circ \cdot \tan 3^\circ \cdot \cdots \cdot \tan 87^\circ \cdot \tan 88^\circ \cdot \tan 89^\circ =$\blank{50}.
+(3)$\sin ^2(42^\circ +\alpha)+\cot (25^\circ +\beta)\cdot \cot (\beta -65^\circ)+\sin ^2(48^\circ -\alpha)=$\blank{50}.
 (4)$\log _4\sin \dfrac 34\pi +\log _9\tan (-\dfrac{5\pi }6)=$\blank{50}.
 (5)$\tan \dfrac{\pi }5+\tan \dfrac{2\pi }5+\tan \dfrac{3\pi }5+\tan \dfrac{4\pi }5=$\blank{50}.
 \item 若锐角$\alpha$终边上一点$A$的坐标为$(2\sin 3,-2\cos 3)$, 则角$\alpha$的弧度数为\blank{50}.
 \item 化简下列各式:
 (1)$\dfrac{\sin (\pi +\alpha)\cos (\pi -\alpha)\tan (-\alpha +3\pi)}{\sin (5\pi -\alpha)\tan (8\pi -\alpha)\cot (\alpha -3\pi)}$.	
 (2)$\dfrac{\sin (\theta -\pi)\cos (\theta -\dfrac 32\pi)\cot (-\theta -\pi)}{\tan (\theta +3\pi)\sec (-\theta -2\pi)\csc (\dfrac{\pi }2-\theta)}$.
-\item 若三角形中的两内角$\alpha ,\beta$满足$\sin 2\alpha =\sin 2\beta$, 则这个三角形的形状()
-\fourch{只可能是等腰三角形.不可能是直角三角形}{只可能是直角三角形, 不可能是等腰三角形_}{只可能是等腰直角三角形}{既可能是等腰三角形, 也可能是直角三角形}
-\item 若函数$f(x)$满足, $f(\cos x)=\dfrac x2$($0\le x\le \pi$), 则$f(-\dfrac 12)$等于()
+\item 若三角形中的两内角$\alpha ,\beta$满足$\sin 2\alpha =\sin 2\beta$, 则这个三角形的形状\bracket{20}.
+\fourch{只可能是等腰三角形.不可能是直角三角形}{只可能是直角三角形, 不可能是等腰三角形}{只可能是等腰直角三角形}{既可能是等腰三角形, 也可能是直角三角形}
+\item 若函数$f(x)$满足, $f(\cos x)=\dfrac x2$($0\le x\le \pi$), 则$f(-\dfrac 12)$等于\bracket{20}.
 \fourch{$\cos \dfrac 12$}{$\dfrac{\pi }3$}{$\dfrac{\pi }4$}{$\dfrac{\pi }2$}
-\item 若函数$f(x)=a\sin (\pi x+\alpha)+b\cos (\pi x+\beta)$, 其中$a,b,\alpha ,\beta$都是非零实数, 且满足$f(1997)=-1$, 则$f(1998)$等于()
+\item 若函数$f(x)=a\sin (\pi x+\alpha)+b\cos (\pi x+\beta)$, 其中$a,b,\alpha ,\beta$都是非零实数, 且满足$f(1997)=-1$, 则$f(1998)$等于\bracket{20}.
 \fourch{-1}{0}{1}{2}
 \item (1)已知$\cos (\dfrac{\pi }6-\theta)=a$($|a|\le 1$), 求$\cos (\dfrac{5\pi }6+\theta)$和$\sin (\dfrac{2\pi }3-\theta)$的值.
 (2)已知$\tan (\pi -\alpha)=a^2$, $|\cos (\pi -\alpha)|=-\cos \alpha$, 求$\sec (\pi +\alpha)$的值.
@@ -248,9 +295,9 @@ $\therefore 0\le \cos x\le 1$, 画出函数的图象如下:
 (2)如图3(2), 此时$0\le a\le \dfrac 12$, $m(a)=f(a)=-a^2$, $M(a)=f(1)1-2a$, .
 (3)如图3(3), 此时$\dfrac 12\le a<1$, $m(a)=f(a)=-a^2$, $M(a)=f(a)=0$.
 (4)如图3(4), 此时$a\ge 1$, $m(a)=f(1)=1-2a$, $M(a)=f(0)=0$.
-综上所述, 可得$M(a)=\begin{array}*35l
-   1-2a  (a<\dfrac 12),  \\0  (a\ge \dfrac 12),  \end{array} m(a)=\begin{array}*35l
-   0  (a<0),  \\-a^2  (0\le a<1),  \\1-2a  (a\ge 1).  \end{array}$
+综上所述, 可得$M(a)=\begin{cases}
+    1-2a  (a<\dfrac 12),  \\0  (a\ge \dfrac 12),  \end{cases} m(a)=\begin{cases}
+    0  (a<0),  \\-a^2  (0\le a<1),  \\1-2a  (a\ge 1).  \end{cases}$
 \item $f(x)=\dfrac{a\sin x+b}{a'\sin x+b'}$型函数的值域.
 求此类函数的值域, 可按去分母、反表示(即表示成$\sin x=\dfrac{cy+d}{c'y+d'}$和解不等式$(\dfrac{cy+d}{c'y+d'}\le 1)$三个步骤求解.
 \item 求函数$y=\dfrac{2\sin x-1}{\sin x+3}$的值域.
@@ -278,7 +325,7 @@ $\therefore 2k\pi +\dfrac{2\pi }3\le x<2k\pi +\pi$($k\in \mathbf{Z}$).
 \item 函数图象的``平移''和坐标的``伸缩''
 (1)图象的``平移''.
 容易证明, 函数$y=f(x-m)$($m>0$)的图象可由函数$y=f(x)$的图象向右平移$m$个单位长度得到, 而函数$y=f(x+m)$($m>0$)的图象可由函数$y=f(x)$的图象向左平移$m$个单位长度得到.
-\item 在同一个坐标系内, 为了得到$y=3\sin (2x+\dfrac{\pi }4)$的图象, 只需将$y=3\cos 2x$的图象()
+\item 在同一个坐标系内, 为了得到$y=3\sin (2x+\dfrac{\pi }4)$的图象, 只需将$y=3\cos 2x$的图象\bracket{20}.
 \fourch{向左平移$\dfrac{\pi }4$}{向右平移$\dfrac{\pi }4$}{向左平移$\dfrac{\pi }8$}{向右平移$\dfrac{\pi }8$}
 解  令$f(x)=3\cos 2x$, 则
 $\begin{cases} f(x-m)=3\cos 2(x-m)=3\cos (2x-2m)=3\cos (2m-2x)=3\sin [\dfrac{\pi }2-(2m-2x)] \\ =3\sin (2x+\dfrac{\pi }2-2m).
@@ -290,7 +337,7 @@ $\because f(x)=3\sin (2x+\dfrac{\pi }4)=3\cos [(2x+\dfrac{\pi }4)-\dfrac{\pi }2]
 $\therefore$选D.
 (2)坐标的``伸缩''.
 容易证明, 函数$y=f(\dfrac xk)$($k>0$)的图象, 可由将$y=f(x)$图象上每—点的横坐标伸长到原来的$k$倍(纵坐标不变)而得到.
-\item 将函数$y=\cos x$图象上每一点的纵坐标保持不变, 横坐标缩小为原来的一半, 再将所得图象沿$x$轴向左平移$\dfrac{\pi }4$个单位长度, 则与所得新图象对应的函数的解析式为()
+\item 将函数$y=\cos x$图象上每一点的纵坐标保持不变, 横坐标缩小为原来的一半, 再将所得图象沿$x$轴向左平移$\dfrac{\pi }4$个单位长度, 则与所得新图象对应的函数的解析式为\bracket{20}.
 \fourch{$y=\cos (2x+\dfrac{\pi }4)$}{$y=\cos (2x-\dfrac{\pi }4)$}{$y=\sin 2x$}{$y=-\sin 2x$}
 解  横坐标缩小为原来的一半, 可理解为伸长到原来的$\dfrac 12$, 故先得到函数$y=\cos \dfrac x{\dfrac 12}=\cos 2x$.再向左平移$\dfrac{\pi }4$后, 得$y=\cos 2(x+\dfrac{\pi }4)$, 即$y=\cos (2x+\dfrac{\pi }2)=-\sin 2x$, 故选D.
 \item 函数$y=3\sin x$的图象经过怎样的变换后, 可得到$y=3\sin (\dfrac x2-\dfrac{\pi }4)$的图象?
@@ -303,30 +350,30 @@ $\therefore$选D.
 \item 函数$y=A\sin (\omega x+\varphi)=\pm 1$($A\ne 0$)的对称轴.
 观察图7, 易求出$\sin (\omega x+\varphi)=\pm 1$的解$x_0$, 则直线$x=x_0$便是函数$y=A\sin (\omega x+\varphi)$图象的对称轴.
 (图7)
-\item 函数$y=\sin (2x+\dfrac{\pi }4)$图象的一条对称轴是直线()
+\item 函数$y=\sin (2x+\dfrac{\pi }4)$图象的一条对称轴是直线\bracket{20}.
 \fourch{$x=\dfrac{3\pi }4$}{$x=-\dfrac{3\pi }4$}{$x=\dfrac{3\pi }8$}{$x=-\dfrac{3\pi }8$}
 解  以$x=-\dfrac{3\pi }8$代入, 得$\sin [1(-\dfrac{3\pi }8)+\dfrac{\pi }4]=\sin (-\dfrac{\pi }2)=-1$, 故选D.
 注意  若令$\sin (2x+\dfrac{\pi }4)=\pm 1$, 可得$2x+\dfrac{\pi }4=k\pi +\dfrac{\pi }2$, 即得$x=\dfrac{k\pi }2+\dfrac{\pi }8$($k\in \mathbf{Z}$), 故函数$y=\sin (2x+\dfrac{\pi }4)$图象的对称轴直线的一般形式是$x=\dfrac{k\pi }2+\dfrac{\pi }8$($k\in \mathbf{Z}$).
 请读者思考: 若函数$f(x)=3\cos (2x+\varphi)$是偶函数, 则$\varphi$的值应取什么?
 【训练题】
 (一)正弦函数、余弦函数的图象和性质
-\item 若$MP,OM,AT$分别是60°角的正弦线、余弦线和正切线, 则()
+\item 若$MP,OM,AT$分别是60°角的正弦线、余弦线和正切线, 则\bracket{20}.
 \fourch{$MP<OM<AT$}{$OM<MP<AT$}{$AT<OM<MP$}{$OM<AT<MP$}
-\item 在同一坐标系内, 曲线$y=\sin x$与$y=\cos x$的交点坐标是()
+\item 在同一坐标系内, 曲线$y=\sin x$与$y=\cos x$的交点坐标是\bracket{20}.
 \fourch{$(2k\pi +\dfrac{\pi }2,1)$}{$(k\pi +\dfrac{\pi }2,(-1)^k)$}{$(k\pi +\dfrac{\pi }4,\dfrac{(-1)^k}{\sqrt 2})$}{$(k\pi ,0)$($k\in \mathbf{Z}$)}
-\item 函数$y=\log _{\dfrac 12}(\sin 2x)$为减函数的区间是()
+\item 函数$y=\log _{\dfrac 12}(\sin 2x)$为减函数的区间是\bracket{20}.
 \fourch{$(k\pi ,k\pi +\dfrac{\pi }4]$, $k\in \mathbf{Z}$}{$(k\pi ,k\pi +\dfrac{\pi }2]$, $k\in \mathbf{Z}$}{$(2k\pi ,2k\pi +\dfrac{\pi }4]$, $k\in \mathbf{Z}$}{$(2k\pi ,2k\pi +\dfrac{\pi }2]$, $k\in \mathbf{Z}$}
 \item 函数$y=\lg (1-\sin x)-\lg (1+\sin x)$(.)
 \fourch{是奇函数, 但非偶函数}{是偶函数, 但非奇函数}{既不是奇函数, 也不是偶函数}{奇偶性无法确定}
-\item 若$0<x<\dfrac 12$, 则下列各式不成立的是()
+\item 若$0<x<\dfrac 12$, 则下列各式不成立的是\bracket{20}.
 \fourch{$\sin (1+x)>\sin x$}{$\cos (1+x)<\cos x$}{$(1+x)^x>x^x$}{$\log _x(1+x)>\log _xx$}
-\item 若函数$y=\cos (\sin x)$, 则下列结论正确的是()
+\item 若函数$y=\cos (\sin x)$, 则下列结论正确的是\bracket{20}.
 \fourch{它的定义域是[-1, 1]}{它是奇函数}{它的值域是$[\cos 1,1]$}{它不是周期函数}
-\item 下列四个函数中, 是偶函数且在$[0,\dfrac{\pi }2]$上为增函数, 但不是周期函数的函数是()
+\item 下列四个函数中, 是偶函数且在$[0,\dfrac{\pi }2]$上为增函数, 但不是周期函数的函数是\bracket{20}.
 \fourch{$y=|\sin x|$($x\in \mathbf{R}$)}{$y=|\cos x|$($x\in \mathbf{R}$)}{$y=\sin|x|$($x\in \mathbf{R}$)}{$y=|\sin x|+|\cos x|$($x\in \mathbf{R}$)}
-\item 下列函数中, 既在$(0,\dfrac{\pi }2)$上是增函数, 又是以$\pi$为最小正周期的偶函数是()
+\item 下列函数中, 既在$(0,\dfrac{\pi }2)$上是增函数, 又是以$\pi$为最小正周期的偶函数是\bracket{20}.
 \fourch{$y=x^2|\cos x|$}{$y=\cos 2x$}{$y=|\sin x|$}{$y=|\sin 2x|$}
-\item 要使$\sqrt {(1+2\sin \theta)^2}=-(1+2\sin \theta)$, 则$\theta$的取值范围是()
+\item 要使$\sqrt {(1+2\sin \theta)^2}=-(1+2\sin \theta)$, 则$\theta$的取值范围是\bracket{20}.
 \fourch{第三、四象限}{$[2k\pi -\dfrac{5\pi }6,2k\pi -\dfrac{\pi }6]$}{$[2k\pi -\dfrac{\pi }6,2k\pi +\dfrac{7\pi }6]$}{$[2k\pi -\dfrac{7\pi }6,2k\pi -\dfrac{\pi }6]$($k\in \mathbf{Z}$)}
 \item (1)设$\cos ^2x+4\sin x-a=0$($a,x\in \mathbf{R}$), 则$a$的取值范围是\blank{50}.
 (2)函数$y=1-2\sin x+3\cos ^2x$的值域是\blank{50}.
@@ -343,13 +390,13 @@ $\therefore$选D.
 (3)不等式$|\cos 2x|\le \dfrac 12$的解为\blank{50}.
 (4)若集合$M=\{\theta|\sin \theta \ge \dfrac 12,0\le \theta \le \pi\}$, $P=\{\theta|\cos \theta \le \dfrac 12,0<\theta \le \pi\}$, 则$M\cap P=$\blank{50}.
 (5)若$-\pi \le x\le \pi$, 则不等式$\log _2(1+2\cos x)<1$的解为\blank{50}.
-\item 若锐角$\alpha ,\beta$满足$\sin \alpha <\cos \beta$则()
+\item 若锐角$\alpha ,\beta$满足$\sin \alpha <\cos \beta$则\bracket{20}.
 \fourch{$\alpha >\beta$}{$\alpha <\beta$}{$\alpha +\beta <\dfrac{\pi }2$}{$\alpha +\beta >\dfrac{\pi }2$}
-\item 方程$2^x=\cos x$的解有()
+\item 方程$2^x=\cos x$的解有\bracket{20}.
 \fourch{0个}{1个}{2个}{无穷多个}
-\item 函数$f(x)=(\sin \alpha)^{|\log _{\sin \alpha }x|}$($2k\pi <\alpha <2k\pi +\pi$且$\alpha \ne 2k\pi +\dfrac{\pi }2$, $k\in \mathbf{Z}$)的图象是()
+\item 函数$f(x)=(\sin \alpha)^{|\log _{\sin \alpha }x|}$($2k\pi <\alpha <2k\pi +\pi$且$\alpha \ne 2k\pi +\dfrac{\pi }2$, $k\in \mathbf{Z}$)的图象是\bracket{20}.
 \blank{50}\fourch{}{}{}{}
-\item 设$x\in (0,\dfrac{\pi }2)$, 则下列各式中正确的是()
+\item 设$x\in (0,\dfrac{\pi }2)$, 则下列各式中正确的是\bracket{20}.
 \fourch{$\sin (\sin x)<\cos x<\cos (\cos x)$}{$\sin (\cos x)<\cos x<\cos (\sin x)$}{$\cos (\sin x)<\cos x<\sin (\cos x)$}{$\cos (\cos x)<\cos x<\sin (\sin x)$}
 \item 求下列函数的定义域:
 (1)$y=\log _{\sin x}(2\cos x+1)$.				(2)$y=\sqrt {1-2\cos x}+\lg (2\sin x-\sqrt 2)$.
@@ -357,8 +404,8 @@ $\therefore$选D.
 \item 画出下列函数的图象:
 (1)$y=|\sin x|$.							(2)$y=|\cos x|+\cos x$.
 (3)$y=(\sin \alpha)^{|\log _{\sin \alpha }x|}$($\alpha$为锐角).		(4)$y=\dfrac{|\sin x|}{\sin x}$.
-(5)$y=f(\sin x)$, 其中$f(x)=\begin{array}*35l
-   2  (x\ge 0),  \\-1  (x<0).  \end{array}$
+(5)$y=f(\sin x)$, 其中$f(x)=\begin{cases}
+    2  (x\ge 0),  \\-1  (x<0).  \end{cases}$
 \item (1)若$0<\alpha <\dfrac{\pi }4$, 且$\lg \sin \alpha +\log \cos \alpha +\lg 9=\lg \tan \alpha +\lg \cot \alpha +\dfrac 12\lg 8$, 求$\sin \alpha -\cos \alpha$的值.
 (2)设$x$是第二象限角, 且满足$\cos \dfrac x2+\sin \dfrac x2=-\dfrac{\sqrt 5}2$, 求$\sin \dfrac x2-\cos \dfrac x2$的值.
 \item 若$0<\theta <\dfrac{\pi }2$, 比较$M=\log _{\sin \theta }\cos \theta$与$N=\log _{\cos \theta }\sin \theta$的大小.
@@ -366,19 +413,19 @@ $\therefore$选D.
 \item (1)求函数$f(x)=a\sin x-\sin ^2x$的最大值$g(a)$, 并画出$g(a)$的图象.
 (2)若函数$f(x)=\cos ^2x-a\sin x+b$的最大值为0, 最小值为-4, 实数$a>0$, 求$a,b$的值.
 (二)函数$y=A\sin (\omega x+\varphi)$的图象
-\item 函数$y=3\sin (2x+\dfrac{\pi }6)$的图象的一条对称轴是直线()
+\item 函数$y=3\sin (2x+\dfrac{\pi }6)$的图象的一条对称轴是直线\bracket{20}.
 \fourch{$x=0$}{$x=\dfrac{\pi }6$}{$x=-\dfrac{\pi }6$}{$x=\dfrac{\pi }3$}
-\item 先将函数$y=\sin 2x$的图象向右平移$\dfrac{\pi }3$个单位长度, 再将所得图象作关于$y$轴的对称变换, 则与最后所得图象对应的函数的解析式是()
+\item 先将函数$y=\sin 2x$的图象向右平移$\dfrac{\pi }3$个单位长度, 再将所得图象作关于$y$轴的对称变换, 则与最后所得图象对应的函数的解析式是\bracket{20}.
 \fourch{$y=\sin (-2x+\dfrac{\pi }3)$}{$y=\sin (-2x-\dfrac{\pi }3)$}{$y=\sin (-2x+\dfrac 23\pi)$}{$y=\sin (-2x-\dfrac 23\pi)$}
-\item 将函数$y=\sin x$的图象上所有点向左平移$\dfrac{\pi }3$个单位长度, 再把所得图象上各点横坐标伸长到原来的2倍, 则与最后得到的图象对应的函数的解析式为()
+\item 将函数$y=\sin x$的图象上所有点向左平移$\dfrac{\pi }3$个单位长度, 再把所得图象上各点横坐标伸长到原来的2倍, 则与最后得到的图象对应的函数的解析式为\bracket{20}.
 \fourch{$y=\sin (\dfrac x2-\dfrac{\pi }3)$}{$y=\sin (\dfrac x2+\dfrac{\pi }6)$}{$y=\sin (\dfrac x2+\dfrac{\pi }3)$}{$y=\sin (2x+\dfrac{\pi }3)$}
-\item 函数$y=A\sin (\omega x+\varphi)$($A>0$, $\omega >0$, $|\varphi|<\dfrac{\pi }2$)的图象如图所示, 则$y$的表达式是()
+\item 函数$y=A\sin (\omega x+\varphi)$($A>0$, $\omega >0$, $|\varphi|<\dfrac{\pi }2$)的图象如图所示, 则$y$的表达式是\bracket{20}.
 \fourch{$2\sin (\dfrac{10}{11}x+\dfrac{\pi }6)$}{$2\sin (\dfrac{10}{11}x-\dfrac{\pi }6)$}{$2\sin (2x+\dfrac{\pi }6)$}{$2\sin (2x-\dfrac{\pi }6)$}
 (第91题)
-\item 函数$y=2\sin (\dfrac 12x+\dfrac{\pi }3)$在一个周期内的简图是()
+\item 函数$y=2\sin (\dfrac 12x+\dfrac{\pi }3)$在一个周期内的简图是\bracket{20}.
 \blank{50}\fourch{\blank{50}
 \blank{50}(C)\blank{50}(D)
-\item 要得到函数$y=\sin (\dfrac x2-\dfrac{\pi }6)$的图象.只需将函数$y=\sin \dfrac x2$的图象()
+\item 要得到函数$y=\sin (\dfrac x2-\dfrac{\pi }6)$的图象.只需将函数$y=\sin \dfrac x2$的图象\bracket{20}.
 (A)向右平移$\dfrac{\pi }6$}{向左平移$\dfrac{\pi }6$}{向右平移$\dfrac{\pi }3$}{向左平移$\dfrac{\pi }3$}
 \item (1)$f(x)=\log _{\dfrac{\pi }4}\cos (2x+\dfrac{\pi }4)$为增函数的区间是\blank{50}.
 (2)函数$f(x)=2\sin (3-2x)$为增喊数的区间是\blank{50}.
@@ -386,7 +433,7 @@ $\therefore$选D.
 \item (1)函数$y=\sin (2x+\dfrac{\pi }3)$的图象可由$y=\sin 2x$的图象向\blank{50}平移\blank{50}个单位长度得到.
 (2)将奇函数$y=f(x)$($x\in \mathbf{R}$)的图象沿$x$轴正向平移1个单位长度后, 所得的图象为$C'$, 而图象$C'$与$C$关于原点对称, 那么$C$所对应的函数应为\blank{50}.
 (3)先将函数$f(x)=\sin x$的图象向右平移$\dfrac{\pi }5$个单位长度, 再改变各点的横坐标(纵坐标不变), 得到最小正周期为$\dfrac{2\pi }3$的函数$y=\sin (\omega x+\varphi)$($\omega >0$)的图象, 则$\omega =$\blank{50}, $\varphi =$\blank{50}.
-\item 若函数$f(x)=2\cos (\dfrac k4x+\dfrac{\pi }3)-5$的最小正周期不大于2, 则正整数$k$的最小值为()
+\item 若函数$f(x)=2\cos (\dfrac k4x+\dfrac{\pi }3)-5$的最小正周期不大于2, 则正整数$k$的最小值为\bracket{20}.
 \fourch{10}{11}{12}{13}
 \item (1)若函数$f(x)=\sin (2x+\varphi)$($-\pi <\varphi <0$)是偶函数, 则$\varphi =$\blank{50}.
 (2)若函数$f(x)=\cos (x+\varphi)$的图象关于坐标原点对称, 则$\varphi =$\blank{50}.
@@ -396,17 +443,17 @@ $\therefore$选D.
 \item (1)已知函数$f(x)=A\sin (\omega x+\varphi)$($A>0$, $\omega >0$)在同一周期内, 当$x=\dfrac{\pi }9$时取得最大值$\dfrac 12$, 当$x=\dfrac{4\pi }9$时取得最小值$-\dfrac 12$, 求此函数的解析式.
 (2)已知函数$f(x)=A\sin (\omega x+\varphi)$($A>0$, $\omega >0$)的图象上一个最高点的坐标为$(2,\sqrt 2)$, 由这个最高点到其相邻的最低点间, 图象与$x$轴交于点(6, 0), 求此函数的解析式.
 (三)正切函数、余切函数的图象和性质
-\item 函数$y=\tan 3\pi x$的最小正周期为()
+\item 函数$y=\tan 3\pi x$的最小正周期为\bracket{20}.
 \fourch{$\dfrac 13$}{$\dfrac 23$}{$\dfrac 6{\pi }$}{$\dfrac 3{\pi }$}
-\item 下列函数中, 以$\pi$为最小正周期的偶函数是()
-\fourch{$y=\sin x\centerdot \cos x$}{$y=\cot x$}{$y=\cos \dfrac x2$}{$y=\cos ^2x$}
-\item 若$a=\sin \dfrac 34$, $b=\cos \dfrac 34$, $c=\cot \dfrac 34$, 则$a,b,c$之间的大小关系是()
+\item 下列函数中, 以$\pi$为最小正周期的偶函数是\bracket{20}.
+\fourch{$y=\sin x\cdot \cos x$}{$y=\cot x$}{$y=\cos \dfrac x2$}{$y=\cos ^2x$}
+\item 若$a=\sin \dfrac 34$, $b=\cos \dfrac 34$, $c=\cot \dfrac 34$, 则$a,b,c$之间的大小关系是\bracket{20}.
 \fourch{$a>b>c$}{$b>c>a$}{$c>a>b$}{$c>b>a$}
-\item 若$\tan (2x-\dfrac{\pi }3)\le 1$, 则$x$的取值范围是()
+\item 若$\tan (2x-\dfrac{\pi }3)\le 1$, 则$x$的取值范围是\bracket{20}.
 \fourch{$\dfrac{k\pi 2-\dfrac{\pi }{12}\le x\le \dfrac k\pi }2+\dfrac 7{24}\pi$($k\in \mathbf{Z}$)}{$k\pi -\dfrac{\pi }{12}\le x<k\pi +\dfrac 7{24}\pi$($k\in \mathbf{Z}$)}{$\dfrac{k\pi 2-\dfrac{\pi }{12}<x\le \dfrac k\pi }2+\dfrac 7{24}\pi$($k\in \mathbf{Z}$)}{$k\pi -\dfrac{\pi }{12}<x<k\pi +\dfrac 7{24}\pi$($k\in \mathbf{Z}$)}
-\item 下列函数中, 同时满足条件``\textcircled{1} 在$(0,\dfrac{\pi }2)$为增函数, \textcircled{2} 为奇函数, \textcircled{3} 以$\pi$为最小正周期''的函数是()
+\item 下列函数中, 同时满足条件``\textcircled{1} 在$(0,\dfrac{\pi }2)$为增函数, \textcircled{2} 为奇函数, \textcircled{3} 以$\pi$为最小正周期''的函数是\bracket{20}.
 \fourch{$y=\tan x$}{$y=\cot x$}{$y=\tan \dfrac x2$}{$y=|\sin x|$}
-\item 函数$y=\cot x(-\dfrac{\pi }4\le x\le \dfrac{\pi }4)$的值域是()
+\item 函数$y=\cot x(-\dfrac{\pi }4\le x\le \dfrac{\pi }4)$的值域是\bracket{20}.
 \fourch{[-1.1]}{$(-\infty ,-1]\cup [1,+\infty)$}{$(-\infty ,-1]$}{$[1,+\infty)$}
 \item 根据要求, 求$x$的取值范围:
 (1)$\tan \dfrac x2\ge \sqrt 3$:\blank{50}.
@@ -417,11 +464,11 @@ $\therefore$选D.
 \item 将下列各题中的数由小到大排列:
 (1)$\tan 1,\tan 2,\tan 3$:\blank{50}.
 (2)$1,\sin 1,\cos 1,\tan 1$:\blank{50}.
-\item 在``\textcircled{1} $y=|\sin 2x|$, \textcircled{2} $y=|\cos x|$, \textcircled{3} $y=|\tan 2x|$, \textcircled{4} $y=|\tan x|+|\cot x|$''这四个函数中, 最小正周期为$\dfrac{\pi }2$的偶函数有()
+\item 在``\textcircled{1} $y=|\sin 2x|$, \textcircled{2} $y=|\cos x|$, \textcircled{3} $y=|\tan 2x|$, \textcircled{4} $y=|\tan x|+|\cot x|$''这四个函数中, 最小正周期为$\dfrac{\pi }2$的偶函数有\bracket{20}.
 \fourch{0个}{1个}{2个}{3个}
-\item $\sin \dfrac{2\pi }3,\cos 1,\tan 2,\cot 3$的大小关系为()
+\item $\sin \dfrac{2\pi }3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 \fourch{$\sin \dfrac{2\pi }3>\cos 1>\cot 3>\tan 2$}{$\sin \dfrac{2\pi }3>\cos 1>\tan 2>\cot 3$}{$\cos 1>\sin \dfrac{2\pi }3>\tan 2>\cot 3$}{$\cos 1>\sin \dfrac{2\pi }3>\cot 3>\tan 2$}
-\item 若$0<\alpha <2\pi$, 且满足$\sin \alpha <\cos \alpha <\cot \alpha <\tan \alpha$, 则有()
+\item 若$0<\alpha <2\pi$, 且满足$\sin \alpha <\cos \alpha <\cot \alpha <\tan \alpha$, 则有\bracket{20}.
 \fourch{$0<\alpha <\dfrac{\pi }4$}{$\dfrac{\pi }4<\alpha <\dfrac{\pi }2$}{$\pi <\alpha <\dfrac 54\pi$}{$\dfrac{5\pi }4<\alpha <\dfrac{3\pi }2$}
 \item 求下列函数的定义域:
 (1)$y=\sqrt {\sqrt 3-\cot \dfrac x2}$.
@@ -436,13 +483,13 @@ $\therefore$选D.
 \item 利用锐角三角函数的定义解下列各题:
 (1)若$\alpha ,\beta \in (0,\dfrac{\pi }2)$, 且$17\cos \alpha +13\cos \beta =17$, $17\sin \alpha =13\sin \beta$, 求$\dfrac{\alpha }2+\beta$.
 (2)设$x\in [\dfrac{\pi }4,\dfrac{\pi }2]$, 求证: $\csc x-\cot x\ge \sqrt 2-1$.
-\item 已知$a\cos \alpha +b\sin \alpha =c$, $a\cos \beta +b\sin \beta =c$($0<\alpha ,\beta <\pi$, $\alpha \ne \beta$), 且$\cos \alpha +\cos \beta =\cos \alpha \centerdot \cos \beta$, 求证: $c^2-b^2=2ac$.
+\item 已知$a\cos \alpha +b\sin \alpha =c$, $a\cos \beta +b\sin \beta =c$($0<\alpha ,\beta <\pi$, $\alpha \ne \beta$), 且$\cos \alpha +\cos \beta =\cos \alpha \cdot \cos \beta$, 求证: $c^2-b^2=2ac$.
 \item 已知函数$f(x)$满足$af(\sin x)+bf(-\sin x)=c\sin x\cos x(-\dfrac{\pi }2\le x\le \dfrac{\pi }2,a^2-b^2\ne 0)$, 求$f(x)$的解析式.
-\item (1)设$\dfrac{\sin \alpha a^2-1=\dfrac{\cos \alpha }{2a\sin 2\beta }=\dfrac 1{1+2a\cos 2\beta +a^2}}$, 求证: $\sin \alpha =\dfrac{a^2-1}{a^2+1}$.
+\item (1)设$\dfrac{\sin \alpha}{a^2-1}=\dfrac{\cos \alpha }{2a\sin 2\beta }=\dfrac 1{1+2a\cos 2\beta +a^2}$, 求证: $\sin \alpha =\dfrac{a^2-1}{a^2+1}$.
 (2)已知$a\sec ^2\alpha -b\cos \alpha =2a$, $b\cos ^2\alpha -a\sec \alpha =2b$, 求$a,b$的关系式.
 (3)已知$a\sin ^2\theta +b\cos ^2\theta =m$, $b\sin ^2\varphi +a\cos ^2\varphi =n$, $a\tan \theta =b\tan \varphi$($a,b,m,n$互不相等), 求证: $\dfrac 1m+\dfrac 1n=\dfrac 1a+\dfrac 1b$.
 \item 利用单位圆和三角函数线证明:
-(1)若$\alpha$为锐角, 则\textcircled{1} $\sin \alpha +\cos \alpha >1$; \textcircled{2} $\sin \alpha <\alpha <\tan \alpha$; \textcircled{3} $\alpha \centerdot \sin \alpha +\cos \alpha >1$.
+(1)若$\alpha$为锐角, 则\textcircled{1} $\sin \alpha +\cos \alpha >1$; \textcircled{2} $\sin \alpha <\alpha <\tan \alpha$; \textcircled{3} $\alpha \cdot \sin \alpha +\cos \alpha >1$.
 (2)若$0<\beta <\alpha <\dfrac{\pi }2$, 则$\sin \alpha -\sin \beta <\alpha -\beta <\tan \alpha -\tan \beta$.
 \item 若$\alpha$是锐角, 求证: $\cos (\sin \alpha)>\sin (\cos \alpha)$.
 \item (1)已知函数$f(x)$满足$f(x+a)=\dfrac{1-f(x)}{1+f(x)}$($a$为常数, 且$a\ne 0$), 求证: $f(x)$是一个以$2a$为周期的周期函数.
@@ -455,3 +502,6 @@ $\therefore$选D.
 \item 设$0\le x\le \pi$, $f_1(x)=\sin (\cos x)$, $f_2(x)=\cos (\sin x)$.
 (1)求$f_1(x)$, $f_2(x)$的最大值和最小值.
 (2)比较$f_1(x)$与$f_2(x)$的大小.
+    
+\end{enumerate}
+\end{document}
