@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  17 JUL 2022 09:24
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  17 JUL 2022 18:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1082,367 +1082,203 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 663--664
  []
 
 [17] [18]
-Missing character: There is no ⑥ (U+2465) in font [lmroman10-regular]:mapping=tex-text;!
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 810--811
-[][] 
- []
-
-[19]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 812--813
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 814--815
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+ [19] [20]
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+ [21]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 857--858
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 816--817
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 859--860
 [][] 
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 818--818
-[]|\TU/lmr/m/n/10 C. $\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = [\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )][] +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 818--818
-[]|\TU/lmr/m/n/10 D. $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) =
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 818--819
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 861--862
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--822
-[]\TU/华文中宋(0)/m/n/10 在 同 一 平 面 直 角 坐 标 系
- []
-
-
-Underfull \hbox (badness 2401) in paragraph at lines 822--822
-\TU/华文中宋(0)/m/n/10 中\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 ax$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 822--822
-\TU/华文中宋(0)/m/n/10 与 $\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 a[]$ \TU/华文中宋(0)/m/n/10 的
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 822--822
-\TU/华文中宋(0)/m/n/10 图 象 可 能 是 \TU/lmr/m/n/10 ([]).
- []
-
-
-Overfull \hbox (84.31071pt too wide) in paragraph at lines 822--822
-[]$\TU/lmr/m/n/10 (A)$[]$(B)$[]$(C)| 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 822--823
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 863--864
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 824--825
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 867--868
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 826--827
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 828--829
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 830--831
-[][] 
- []
-
-Missing character: There is no ― (U+2015) in font [lmroman10-regular]:mapping=tex-text;!
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 832--833
-[][] 
- []
-
-[20]
-Overfull \hbox (13.16644pt too wide) in paragraph at lines 841--846
-[]\TU/华文中宋(0)/m/n/10 根 据 条 件 确 定 实 数 $\OML/cmm/m/it/10 x$ \TU/华文中宋(0)/m/n/10 的 取 值 范 围\TU/lmr/m/n/10 : (1)$\OT1/cmr/m/n/10 2[] \OML/cmm/m/it/10 > \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5$\TU/lmr/m/n/10 :$[]$. (2)$\OT1/cmr/m/n/10 2[] \OML/cmm/m/it/10 < \OT1/cmr/m/n/10 1$\TU/lmr/m/n/10 :$[]$. (3)$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2[] \OML/cmm/m/it/10 > []$\TU/lmr/m/n/10 :$[]$.
- []
-
-
-Overfull \hbox (9.93767pt too wide) in paragraph at lines 848--853
-[]\TU/lmr/m/n/10 (1) \TU/华文中宋(0)/m/n/10 函 数 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = 3[]$ \TU/华文中宋(0)/m/n/10 为 增 函 数 的 区 间 是$[]$\TU/lmr/m/n/10 . (2) \TU/华文中宋(0)/m/n/10 函 数 $\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 = (0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2)[]$ \TU/华文中宋(0)/m/n/10 为 增 函 数 的 区 间 是$[]$\TU/lmr/m/n/10 .
- []
-
-[21]
-Missing character: There is no ― (U+2015) in font [lmroman10-regular]:mapping=tex-text;!
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 930--931
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 893--894
 [][] 
  []
 
 [22]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 932--933
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 895--896
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 934--935
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 897--898
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 936--937
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 899--900
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 938--939
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 901--902
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 940--941
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 903--904
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 942--943
+Overfull \hbox (6.32393pt too wide) in paragraph at lines 923--924
+[]\TU/华文中宋(0)/m/n/10 若 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ \TU/华文中宋(0)/m/n/10 的 定 义 域 是 $\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1)$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 函 数 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (2[])$ \TU/华文中宋(0)/m/n/10 的 定 义 域 是$[]$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (3 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 9[] + 2 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 3[])$ \TU/华文中宋(0)/m/n/10 的 定 义 域 是$[]$\TU/lmr/m/n/10 . 
+ []
+
+[23] [24] [25]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1008--1009
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 944--945
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1010--1011
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 946--947
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1012--1013
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 948--949
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1014--1015
 [][] 
  []
 
 
-Overfull \hbox (81.95633pt too wide) in paragraph at lines 955--957
-[]\TU/lmr/m/n/10 (1)$\OT1/cmr/m/n/10 2[] + 3[] =$$[]$\TU/lmr/m/n/10 . (2)$\OT1/cmr/m/n/10 2[] =$$[]$\TU/lmr/m/n/10 . (3)$\OT1/cmr/m/n/10 9[] =$$[]$\TU/lmr/m/n/10 . (4)$\OT1/cmr/m/n/10 5[] =$$[]$\TU/lmr/m/n/10 . 
- []
-
-[23]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 982--983
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1016--1017
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 984--985
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1018--1019
+[][] 
+ []
+
+[26]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1020--1021
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 986--987
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1022--1023
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 988--989
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1024--1025
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 990--991
-[][] 
- []
-
-
-Underfull \hbox (badness 1460) in paragraph at lines 995--995
-[]|\TU/lmr/m/n/10 B. $[]$.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 995--995
-\TU/lmr/m/n/10 (B)$[]$.
- []
-
-
-Overfull \hbox (8.15906pt too wide) in paragraph at lines 995--995
-\TU/lmr/m/n/10 (D)$[]$. 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 995--996
-[][] 
- []
-
-[24]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 997--998
-[][] 
- []
-
-
-Overfull \hbox (14.48154pt too wide) in paragraph at lines 998--1007
-[][] \OT1/cmr/m/n/10 6 =$$[]$\TU/lmr/m/n/10 . (4)$\OT1/cmr/m/n/10 ([][] 5 + [][] 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2)([][] 2 + [][] 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5) =$$[]$\TU/lmr/m/n/10 . (5)$[][] [] \OMS/cmsy/m/n/10 ^^A [][] [] ^^A [][] [] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 .
- []
-
-
-Overfull \hbox (13.09602pt too wide) in paragraph at lines 1027--1033
-[]\TU/华文中宋(0)/m/n/10 解 不 等 式 $[][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 + 2\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 3) \OML/cmm/m/it/10 > [][]\OT1/cmr/m/n/10 (3\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + 1)$\TU/lmr/m/n/10 . \TU/华文中宋(0)/m/n/10 解 由 已 知\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 得 $[]$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 即 $[]$
- []
-
-[25] [26]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1089--1090
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1091--1092
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1093--1094
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1095--1098
-[][]
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1098--1099
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1100--1101
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1102--1103
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1026--1027
 [][] 
  []
 
 [27]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1105--1106
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1059--1060
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1107--1108
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1061--1062
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1109--1110
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1063--1064
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1129--1130
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1065--1066
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1131--1132
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1067--1068
+[][] 
+ []
+
+
+Overfull \hbox (2.59906pt too wide) in paragraph at lines 1069--1069
+[]|\TU/lmr/m/n/10 D. $[]$| 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1069--1070
 [][] 
  []
 
 [28]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1139--1140
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1071--1072
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1141--1142
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1073--1074
 [][] 
  []
 
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1143--1144
-[][] 
+[29]
+Overfull \hbox (27.96115pt too wide) in paragraph at lines 1098--1101
+\TU/华文中宋(0)/m/n/10 解 答 在 这 里 由 已 知\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 得 $[]$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 即 $[]$ 解 得 $[] \U/msa/m/n/10 )$
  []
 
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1145--1146
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1147--1148
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1149--1150
-[][] 
- []
-
-
+[30]
 Overfull \hbox (22.22168pt too wide) in paragraph at lines 1151--1152
 [][] 
  []
 
-[29] [30]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1244--1245
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1153--1154
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1246--1247
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1248--1249
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1250--1251
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1252--1253
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1164--1165
 [][] 
  []
 
 [31]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1254--1255
+Overfull \hbox (16.32661pt too wide) in paragraph at lines 1165--1166
+[]\TU/华文中宋(0)/m/n/10 设 $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ \TU/华文中宋(0)/m/n/10 是 定 义 在 $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 +\OMS/cmsy/m/n/10 1\OT1/cmr/m/n/10 )$ \TU/华文中宋(0)/m/n/10 上 的 偶 函 数\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 且 它 在 $\OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 +\OMS/cmsy/m/n/10 1\OT1/cmr/m/n/10 )$ \TU/华文中宋(0)/m/n/10 上 是 增 函 数\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 记 $\OML/cmm/m/it/10 a \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@ [][] []\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 b \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@ [][] []\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1166--1167
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1256--1257
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1203--1204
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1277--1278
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1279--1280
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1281--1282
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1240--1241
 [][] 
  []
 
@@ -1452,23 +1288,108 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 1283--1284
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 1285--1286
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1313--1314
 [][] 
  []
 
 [32]
-Overfull \hbox (10.48598pt too wide) in paragraph at lines 1298--1305
-[]\TU/华文中宋(0)/m/n/10 解 下 列 方 程 \TU/lmr/m/n/10 (\TU/华文中宋(0)/m/n/10 组\TU/lmr/m/n/10 ): (1)$[][]\OT1/cmr/m/n/10 (9[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 5) = [][](3[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 2) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 2$\TU/lmr/m/n/10 . (2)$[][] \OT1/cmr/m/n/10 2 \OMS/cmsy/m/n/10 ^^@ [][] \OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 = [][] 4$\TU/lmr/m/n/10 . (3)$\OT1/cmr/m/n/10 ([])[] =
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1315--1316
+[][] 
  []
 
-[33] [34] [35] (./精编第三章函数.aux) ) 
+[33]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1345--1346
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1347--1348
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1349--1350
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1353--1354
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1355--1356
+[][] 
+ []
+
+[34] [35] [36]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1434--1435
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1436--1437
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1438--1439
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1440--1441
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1442--1443
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1444--1445
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1446--1447
+[][] 
+ []
+
+[37]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1465--1466
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1467--1468
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1469--1470
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1471--1472
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1473--1474
+[][] 
+ []
+
+[38] [39] [40] [41] [42] (./精编第三章函数.aux) ) 
 Here is how much of TeX's memory you used:
- 27316 strings out of 476919
- 607482 string characters out of 5825424
- 1053929 words of memory out of 5000000
- 46906 multiletter control sequences out of 15000+600000
+ 29081 strings out of 476919
+ 641900 string characters out of 5825424
+ 1054040 words of memory out of 5000000
+ 48671 multiletter control sequences out of 15000+600000
  406111 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,19n,104p,414b,799s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,19n,104p,414b,852s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 精编第三章函数.pdf (35 pages).
+Output written on 精编第三章函数.pdf (42 pages).
