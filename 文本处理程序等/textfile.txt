@@ -1,423 +1,822 @@
-第六章  反三角函数和简单三角方程
-一、反三角函数
-【典型题型和解题技巧】
-1.用反三角函数的形式表示一个角.
-这是学习反三角函数内容的一个难点，解此类问题的关键是正确理解反三角函数的定义，熟练掌握反三角函数的定义域和值域，把握角的范围.
-（1）只有在\[-\frac{\pi }{2}\le x\le \frac{\pi }{2}\]时，才可由\[\sin x=a\]（\[\left| a \right|\le 1\]）直接得到\[x=\arcsin a\].
-若\[x\notin \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]，则可利用公式\[\sin \left( 2k\pi +x \right)=\sin x\]或\[\sin \left[ 2k\pi +\left( \pi -x \right) \right]=\sin x\]（\[k\in Z\]）确定一个角，使这个角在\[\left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]范围内，然后用反正弦形式表示.
-例1  已知\[\sin x=-\frac{1}{3}\]（\[\pi <x<\frac{3\pi }{2}\]），用反正弦形式表示\[x\].
-解  ∵\[\sin \left( \pi -x \right)=\sin x=-\frac{1}{3}\]，且由\[\pi <x<\frac{3\pi }{2}\]知，\[-\frac{\pi }{2}<\pi -x<0\]，
-∴\[\pi -x=\arcsin \left( -\frac{1}{3} \right)=-\arcsin \frac{1}{3}\]，于是\[x=\pi +\arcsin \frac{1}{3}\].
-（2）只有在\[0\le x\le \pi \]时，才可由\[\cos x=a\]（\[\left| a \right|\le 1\]）直接得到\[x=\arccos a\].
-若\[x\in \left[ 0,\pi  \right]\]，则可利用公式\[\cos \left( 2k\pi \pm x \right)=\cos x\]（\[k\in Z\]）确定一个角，使这个角在\[\left[ 0,\pi  \right]\]范围内，然后用反余弦形式表示.
-例2  若\[\cos x=\frac{1}{3}\]（\[-\frac{\pi }{2}<x<0\]），用反余弦形式表示\[x\].
-解  ∵\[\cos \left( -x \right)=\cos x=\frac{1}{3}\]，且由\[-\frac{\pi }{2}<x<0\]知，\[0<-x<\frac{\pi }{2}\]，
-∴\[-x=\arccos \frac{1}{3}\]，故\[x=-\arccos \frac{1}{3}\].
-（3）只有在\[-\frac{\pi }{2}<x<\frac{\pi }{2}\]时，才可由\[\tan x=a\]（\[a\in R\]）直接得到\[x=\arctan a\].
-若\[x\notin \left( -\frac{\pi }{2},\frac{\pi }{2} \right)\]，则可利用公式\[\tan \left( k\pi +x \right)=\tan x\]（\[k\in Z\]）确定一个角，使这个角在\[\left( -\frac{\pi }{2},\frac{\pi }{2} \right)\]内，然后用反正切形式表示.
-（4）只存在\[0<x<\pi \]时，才可由\[\cot x=a\]（\[a\in R\]）直接得到\[x=arc\cot a\].
-若\[x\in \left( 0,\pi  \right)\]，则可利用公式\[\cot \left( k\pi +x \right)=\cot x\]（\[k\in Z\]）确定一个角.使这个角在\[\left( 0,\pi  \right)\]内，然后用反余切形式表示.
-2.求含反三角形式的角的三角函数值.
-解此类问题的要点可以概括为“一令、二则、三范围”.例如，求\[\cot \left[ \arcsin \left( -\frac{\sqrt{3}}{3} \right) \right]\]的值.
-“一令”——令\[\alpha =\arcsin \left( -\frac{\sqrt{3}}{3} \right)\]，“二则”——则\[\sin \alpha =-\frac{\sqrt{3}}{3}\]，“三范围”——\[\alpha \in \left( -\frac{\pi }{2},0 \right)\].
-有了以上三步之后，余下的问题就不难解决了.
-例3  求值：
-（1）\[\tan \left[ \frac{1}{2}\arcsin \left( \frac{-2\sqrt{6}}{5} \right) \right]\].			（2）\[\cos \left[ \arctan \frac{3}{4}+\arccos \left( -\frac{2}{3} \right) \right]\].
-解  （1）令\[\alpha =\arcsin \left( \frac{-2\sqrt{6}}{5} \right)\]，则\[\sin \alpha =\frac{-2\sqrt{6}}{5}\]，\[\alpha \in \left( -\frac{\pi }{2},0 \right)\]，于是\[\cos \alpha =\frac{1}{5}\]..
-∴原式\[=\tan \frac{\alpha }{2}=\frac{1-\cos \alpha }{\sin \alpha }=\frac{1-\frac{1}{5}}{-\frac{2\sqrt{6}}{5}}=-\frac{\sqrt{6}}{3}\].
-（2）令\[\alpha =\arctan \frac{3}{4}\]，则\[\tan \alpha =\frac{3}{4}\]，\[\alpha \in \left( 0,\frac{\pi }{2} \right)\]，于是\[\sin \alpha =\frac{3}{5}\]，\[\cos \alpha =\frac{4}{5}\].
-再\[\beta =\arccos \left( -\frac{2}{3} \right)\]，则\[\cos \beta =-\frac{2}{3}\]，\[\beta \in \left( \frac{\pi }{2},\pi  \right)\]，于是\[\sin \beta =\frac{\sqrt{5}}{3}\].
-∴原式\[=\cos \left( \alpha +\beta  \right)=\cos \alpha \cos \beta -\sin \alpha \sin \beta =\frac{4}{5}\times \left( -\frac{2}{3} \right)-\frac{3}{5}\times \frac{\sqrt{5}}{3}=-\frac{8+3\sqrt{5}}{15}\].
-注意  —般地，对于含有反三角形式的计算问题，都可利用“一令、二则、三范围”的方法来解决.
-3.两组重要的恒等式.
-根据反三角函数的定义，可以得到下列两组重要的恒等式：
-（1）\[\sin \left( \arcsin x \right)=x\]，\[x\in \left[ -1,1 \right]\]；\[\cos \left( \arccos x \right)=x\]，\[x\in \left[ -1,1 \right]\]；\[\tan \left( \arctan x \right)=x\]，\[x\in R\]；\[\cot \left( arc\cot x \right)=x\]，\[x\in R\].
-（2）\[\arcsin \left( \sin x \right)=x\]，\[x\in \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]；\[\arccos \left( \cos x \right)=x\]，\[x\in \left[ 0,\pi  \right]\]；\[\arctan \left( \tan x \right)=x\]，\[x\in \left( -\frac{\pi }{2};\frac{\pi }{2} \right)\]；\[arc\cot \left( \cot x \right)=x\]，\[x\in \left( 0,\pi  \right)\].
-第（1）组恒等式是不难掌握的，它们在各自定义域内成立.
-如何运用第（2）组恒等式是—个难点，以\[y=\arcsin \left( \sin x \right)\]为例，它的定义域为\[R\]，值域为\[\left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]，周期是\[2\pi \]，只有在\[x\in \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]时，才有\[\arcsin \left( \sin x \right)=x\]，当\[x\in \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]时，求\[\arcsin \left( \sin x \right)\]的值是一类必须掌握但又有一定难度的问题.
-例4  求值：
-（1）\[\arcsin \left( \sin 2 \right)\].						（2）\[\arccos \left( \cos \frac{6}{5}\pi  \right)\].
-（3）\[\arctan \left( \cot \sqrt{3} \right)\].						（4）\[arc\cot \left( -\cot \frac{\pi }{7} \right)\].
-解  （1）∵\[\sin 2=\sin \left( \pi -2 \right)\]，且\[\pi -2\in \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]，
-∴原式\[=\arcsin \left[ \sin \left( \pi -2 \right) \right]=\pi -2\].
-（2）∵\[\cos \frac{6}{5}\pi =\cos \frac{4}{5}\pi \]，且\[\frac{4}{5}\pi \in \left[ 0,\pi  \right]\]，∴原式\[=\arccos \left( \cos \frac{4}{5}\pi  \right)=\frac{4}{5}\pi \].
-（3）∵\[\cot \sqrt{3}=\tan \left( \frac{\pi }{2}-\sqrt{3} \right)\]，且\[\frac{\pi }{2}-\sqrt{3}\in \left( -\frac{\pi }{2},\frac{\pi }{2} \right)\]，
-∴原式\[=\arctan \left[ \tan \left( \frac{\pi }{2}-\sqrt{3} \right) \right]=\frac{\pi }{2}-\sqrt{3}\].
-（4）∵\[-\cot \frac{\pi }{7}=\cot \left( -\frac{\pi }{7} \right)=\cot \left[ \pi +\left( -\frac{\pi }{7} \right) \right]=\cot \frac{6}{7}\pi \]，且\[\frac{6}{7}\pi \in \left( 0,\pi  \right)\]，
-∴原式\[=arc\cot \left( \cot \frac{6}{7}\pi  \right)=\frac{6}{7}\pi \]
-注意  解此类问题的关键是：
-（1）恒等变形，即利用诱导公式，使\[\arcsin \left( \sin x \right)\]恒等变形为\[\arcsin \left( \sin \alpha  \right)\].
-（2）紧扣\[\alpha \]的范围，即选用诱导公式时，必须使\[\alpha \in \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\].
-满足了以上两个要求，\[\alpha \]便是所要求的值.
-对于解\[\arccos \left( \cos x \right)\]，\[\arctan \left( \tan x \right)\]，\[arc\cot \left( \cot x \right)\]的问题，方法雷同.
-有兴趣的读者不妨对\[y=\arcsin \left( \sin x \right)\]等四个函数的性质（定义域、值域、单调性、奇偶性、周期性）及图象、一般表达式作进一步研究.
-4.有关反三角恒等式的证明.
-例5  若\[\left| x \right|\le 1\]，求证：\[\arcsin x+\arccos x=\frac{\pi }{2}\].
-证法一  ∵\[\sin \left( \frac{\pi }{2}-\arccos x \right)=\cos \left( \arccos x \right)=x\]，其中\[-1\le x\le 1\]，
-又由\[\arccos x\in \left[ 0,\pi  \right]\]，得\[\left( \frac{\pi }{2}-\arccos x \right)\in \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]，
-∴根据反正弦函数的定义，得\[\frac{\pi }{2}-\arccos x=\arcsin x\]，即\[\arcsin x+\arccos x=\frac{\pi }{2}\].
-证法二  设\[\arcsin x=\alpha \]，则\[\sin \alpha =x\]，\[\alpha \in \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]..
-再设\[\arccos x=\beta \]，则\[\cos \beta =x\]，\[\beta \in \left[ 0,\pi  \right]\].
-∵\[\sin \alpha =x\]，\[\sin \left( \frac{\pi }{2}-\beta  \right)=\cos \beta =x\]，∴\[\sin \alpha =\sin \left( \frac{\pi }{2}-\beta  \right)\].
-∵\[-\frac{\pi }{2}\le \alpha \le \frac{\pi }{2}\]，\[-\frac{\pi }{2}\le \frac{\pi }{2}-\beta \le \frac{\pi }{2}\]，∴\[\alpha =\frac{\pi }{2}-\beta \]，
-即\[\alpha +\beta =\frac{\pi }{2}\]，∴\[\arcsin x+\arccos x=\frac{\pi }{2}\].
-例6  求证：\[\arctan \frac{1}{3}+\arctan \frac{1}{5}+\arctan \frac{1}{7}+\arctan \frac{1}{8}=\frac{\pi }{4}\].
-证明  设\[\alpha =\arctan \frac{1}{3}\]，\[\beta =\arctan \frac{1}{5}\]，\[\gamma =\arctan \frac{1}{7}\]，\[\delta =\arctan \frac{1}{8}\]，
-则\[\tan \alpha =\frac{1}{3}\]，\[\tan \beta =\frac{1}{5}\]，\[\tan \gamma =\frac{1}{7}\]，\[\tan \delta =\frac{1}{8}\]且\[\alpha ,\beta ,\gamma ,\delta \in \left( 0,\frac{\pi }{4} \right)\].
-于是\[\tan \left( \alpha +\beta  \right)=\frac{\tan \alpha +\tan \beta }{1-\tan \alpha \tan \beta }=\frac{\frac{1}{3}+\frac{1}{5}}{1-\frac{1}{3}\times \frac{1}{5}}=\frac{4}{7}\]，
-\[\tan \left( \gamma +\delta  \right)=\frac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \delta }=\frac{\frac{1}{7}+\frac{1}{8}}{1-\frac{1}{7}\times \frac{1}{8}}=\frac{3}{11}\].
-∴\[\tan \left( \alpha +\beta +\gamma +\delta  \right)=\frac{\frac{4}{7}+\frac{3}{11}}{1-\frac{4}{7}\times \frac{3}{11}}=1\].
-∵\[0<\alpha +\beta +\gamma +\delta <\pi \]，∴\[\alpha +\beta +\gamma +\delta =\frac{\pi }{4}\]，原命题得证.
-注意  有关反三角恒等式的证明需掌握两点：
-（1）证明等式两边（或先作恒等变形）的同一个三角函数值相等.
-（2）证明等式两边都在所取三角函数的同一个一一对应的区间内（千万不能忽视这一点）.
-5，解简单的反三角不等式.
-只要依据反三角函数的单调性，并切记反三角函数的定义域，解此类不等式就不会感到困难.
-例7  求下列不等式中\[x\]的取值范围：
-（1）\[\arcsin x<1\].						（2）\[\arccos \left( 2{{x}^{2}}-1 \right)<\arccos x\].
-解  （1）由已知条件，得\[\left\{ \begin{align}
-  & -1\le x\le 1, \\ 
- & \arcsin x<\arcsin \left( \sin 1 \right), \\ 
-\end{align} \right.\]于是\[\left\{ \begin{align}
-  & -1\le x\le 1, \\ 
- & x<\sin 1, \\ 
+例1  求\[\theta \]，使复数\[z=\cos 2\theta +\left( {{\tan }^{2}}\theta -\tan \theta -2 \right)i\]是：
+（1）实数.			（2）纯虚数.			（3）零.
+解  （1）由\[{{\tan }^{2}}\theta -\tan \theta -2=0\]，得\[\tan \theta =-1\]，\[\tan \theta =2\]，
+∴\[\theta =k\pi -\frac{\pi }{4}\]，\[\theta =k\pi +\arctan 2\]（\[k\in Z\]）.
+（2）由\[\left\{ \begin{align}
+  & \cos 2\theta =0, \\ 
+ & \left( \tan \theta -2 \right)\left( \tan \theta +1 \right)\ne 0, \\ 
+\end{align} \right.\]得\[\left\{ \begin{align}
+  & {{\cos }^{2}}\theta -{{\sin }^{2}}\theta =0, \\ 
+ & \left( \tan \theta -2 \right)\left( \tan \theta +1 \right)\ne 0, \\ 
 \end{align} \right.\]
-∴\[-1\le x<\sin 1\].
-（2）由已知条件，得\[\left\{ \begin{align}
-  & -1\le 2{{x}^{2}}-1\le 1, \\ 
- & -1\le x\le 1, \\ 
- & 2{{x}^{2}}-1>x, \\ 
-\end{align} \right.\]即\[\left\{ \begin{align}
-  & -1\le x\le 1, \\ 
- & 2{{x}^{2}}-x-1>0, \\ 
-\end{align} \right.\]也即\[\left\{ \begin{align}
-  & -1\le x\le 1, \\ 
- & x<-\frac{1}{2}x>1, \\ 
+即\[\left\{ \begin{align}
+  & \tan \theta =\pm 1, \\ 
+ & \left( \tan \theta -2 \right)\left( \tan \theta +1 \right)\ne 0, \\ 
+\end{align} \right.\]则\[\tan \theta =1\]，∴\[\theta =k\pi +\frac{\pi }{4}\]（\[k\in Z\]）.
+（3）由\[\left\{ \begin{align}
+  & \cos 2\theta =0, \\ 
+ & \left( \tan \theta -2 \right)\left( \tan \theta +1 \right)=0, \\ 
+\end{align} \right.\]得\[\left\{ \begin{align}
+  & \tan \theta =\pm 1, \\ 
+ & \left( \tan \theta -2 \right)\left( \tan \theta +1 \right)=0, \\ 
 \end{align} \right.\]
-∴\[-1\le x<-\frac{1}{2}\].
+则\[\tan \theta =-1\]，∴\[\theta =k\pi -\frac{\pi }{4}\]（\[k\in Z\]）.
+2.复数和几何意义.
+引进了“复平面”的概念以后，复数\[z=a+bi\]（\[a,b\in R\]）有两个几何意义：
+（1）复数\[z=a+bi\]（\[a,b\in R\]）与复平面上的点（\[a,b\]）以一一对应.
+（2）非零复数\[z=a+bi\]（\[a,b\in R\]，\[{{a}^{2}}+{{b}^{2}}\ne 0\]）与复平面上自原点出发，以点\[Z\left( a,b \right)\]为终点的向量\[\overrightarrow{OZ}\]一一对应.
+需要特别说明的是，非零复数和复平面上的向量并不是一一对应的，这是因为向量具有“可平移性”，这就是说，两个方向一致、长度相等的向量是相等的.
+3.两个复数相等的条件.
+两个复数\[{{z}_{1}}=a+bi\]（\[a,b\in R\]）和\[{{z}_{2}}=c+di\]（\[c,d\in R\]），我们规定：
+\[{{z}_{1}}={{z}_{2}}\Leftrightarrow \left\{ \begin{align}
+  & a=c, \\ 
+ & b=d. \\ 
+\end{align} \right.\]
+特别地，有\[a+bi=0\Leftrightarrow \left\{ \begin{align}
+  & a=0, \\ 
+ & b=0, \\ 
+\end{align} \right.\]（\[a,b\in R\]）.
+例2  已知实数\[a,x,y\]满足\[{{a}^{2}}+\left( 2+i \right)a+2xy+\left( x-y \right)i=0\]，则点\[\left( x,y \right)\]的轨迹是（）
+（A）直线.		（B）圆心在原点的圆.		（C）圆心不在原点的圆.	（D）椭圆.
+解  将题设之式整理得\[{{a}^{2}}+2a+2xy+\left( a+x-y \right)i=0\].
+∴\[\left\{ \begin{align}
+  & {{a}^{2}}+2a+2xy=0,\ \ \ \ \ \ \ \ \ \  \\ 
+ & a+x-y=0.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \\ 
+\end{align} \right.\]
+由②，得\[a=y-x\]，代入①，得\[{{\left( y-x \right)}^{2}}+2\left( y-x \right)+2xy=0\]
+即\[{{x}^{2}}+{{y}^{2}}-2x+2y=0\]，\[{{\left( x-1 \right)}^{2}}+{{\left( y+1 \right)}^{2}}=2\].
+故应选（C）.
 【训练题】
-（一）反正弦函数
-1.若\[\pi \le \alpha \le \frac{3\pi }{2}\]，且\[\sin \alpha =-\frac{1}{4}\]，则用反三角形式表示\[\alpha \]是（）
-（A）\[\pi -\arcsin \frac{1}{4}\].						（B）\[\pi +\arcsin \frac{1}{4}\].
-（C）\[\frac{3\pi }{2}-\arcsin \frac{1}{4}\].						（D）\[\frac{3\pi }{2}+\arcsin \frac{1}{4}\].
-2.函数\[y=\arcsin \left( \cot x \right)\]的定义域是（）
-（A）[－1，1].							（B）\[\left[ k\pi +\frac{\pi }{4},k\pi +\frac{3\pi }{4} \right]\]（\[k\in Z\]）.
-（C）\[\left[ -\frac{\pi }{4},\frac{\pi }{4} \right]\].							（D）\[\left[ k\pi -\frac{\pi }{4},k\pi +\frac{\pi }{4} \right]\]（\[k\in Z\]）.
-3.函数\[y=\sin \left( \arcsin x \right)\]的图象是（）
- 
-      （A）               （B）               （C）              （D）
-4.函数\[f\left( x \right)=2\arcsin \left( x-1 \right)\]的反函数是（）
-（A）\[y=\frac{1}{2}\sin \left( x-1 \right)\]（\[-\frac{\pi }{2}<x<\frac{\pi }{2}\]）.	（B）\[y=1+\sin \frac{x}{2}\]（\[-\frac{\pi }{2}\le x\le \frac{\pi }{2}\]）.
-（C）\[y=1+\sin \frac{x}{2}\]（\[-\pi \le x\le \pi \]）.		（D）\[y=\sin \left( \frac{x}{2}+1 \right)\]（\[-\pi \le x\le \pi \]）.
-5.函数\[y=\arcsin \left( {{x}^{2}}-x \right)\]为减函数的区间是（）
-（A）[－1，1].							（B）\[\left[ \frac{1}{2},\frac{1}{2}\left( 1+\sqrt{5} \right) \right]\].
-（C）\[\left( -\frac{\pi }{4},+\infty  \right)\]							（D）\[\left[ \frac{1}{2}\left( 1-\sqrt{5} \right),\frac{1}{2} \right]\].
-6.若\[0<a<1\]，则在\[\left[ 0,2\pi  \right]\]内满足\[\sin x\ge a\]的\[x\]的取值范围是（）
-（A）\[\left[ 0,\arcsin a \right]\].						（B）\[\left[ \arcsin a,\pi -\arcsin a \right]\].
-（C）\[\left[ \pi \arcsin a,\pi  \right]\].						（D）\[\left[ \arcsin a,\frac{\pi }{2}+\arcsin a \right]\].
-7.若\[\frac{\pi }{2}\le x\le \frac{3\pi }{2}\]，则\[\arcsin \left( \sin x \right)\]的值等于（）
-（A）\[x\].				（B）\[\pi -x\].			（C）\[x-\pi \].		（D）\[x+\pi \].
-8.已知\[\arcsin x\ge 1\]，则\[x\]的取值范围是（）
-（A）[0，1].			（B）\[\left[ 0,\sin 1 \right]\].		（C）\[\left[ \sin 1,1 \right]\].	（D）[－1，1].
-9.若函数\[y=\arcsin \left( \cos x \right)\]的定义域是\[\left( -\frac{\pi }{3},\frac{2\pi }{3} \right)\]，则值域是（）
-（A）\[\left( -\frac{\pi }{6},\frac{\pi }{3} \right]\].		（B）\[\left( -\frac{\pi }{6},\frac{\pi }{2} \right]\].		（C）\[\left( \frac{\pi }{6},\frac{\pi }{2} \right]\].	（D）\[\left[ \frac{\pi }{3},\frac{\pi }{2} \right]\].
-10.求下列函数的定义域与值域：
-（1）\[y=\sqrt{\arcsin x}\]，\[x\in \]          ，\[y\in \]          .
-（2）\[y=\arcsin \left( \lg \frac{x}{2} \right)\]，\[x\in \]          ，\[y\in \]          ..
-（3）\[y=\frac{1}{2}\arcsin \frac{1}{x-2}\]，\[x\in \]          ，\[y\in \]          .
-（4）\[y=\arcsin \left( x-{{x}^{2}} \right)\]，\[x\in \]          ，\[y\in \]          .
-（5）\[f\left( x \right)={{\log }_{2}}\left( \arcsin \frac{x}{2} \right)\]，\[x\in \]          ，\[y\in \]          .
-11.计算下列各式：
-（1）\[\arcsin \left[ \sin \left( -\frac{5\pi }{4} \right) \right]=\]          .		（2）\[\arcsin \left( \sin 3 \right)=\]          .
-（3）\[\arcsin \left( \cos 2 \right)=\]          .			（4）\[\arcsin \left( \cos 5 \right)=\]          .
-（5）\[\arcsin \left( \sin {{\pi }^{2}} \right)=\]          .
-12.求函数\[y={{\left( \arcsin x \right)}^{2}}-2\arcsin x-2\]的最大值与最小值，并求取得最大值、最小值时的\[x\]值.
-13.已知\[a,b,c\]依次为直角三角形的两直角边和斜边，且满足\[\arcsin \frac{1}{a}+\arcsin \frac{1}{b}=\frac{\pi }{2}\]，求证：\[c=ab\].
-14.（1）已知\[\alpha =\frac{9\pi }{8}\]，求\[\arcsin \left( \frac{\sin \alpha +\cos \alpha }{\sqrt{2}} \right)\]的值.
-（2）已知\[\frac{\pi }{4}<\theta <\frac{5\pi }{4}\]，求证\[\arcsin \left( \frac{\sin \theta +\cos \theta }{\sqrt{2}} \right)=\frac{3\pi }{4}-\theta \].
-15.根据条件求函数\[f\left( x \right)=\sin \left( x-\frac{\pi }{4} \right)\cos \left( x+\frac{\pi }{4} \right)\]的反函数：
-（1）\[-\frac{\pi }{4}\le x\le \frac{\pi }{4}\].						（2）\[\frac{\pi }{4}\le x\le \frac{\pi }{2}\].
-（二）反余弦函数
-16.下列各式正确的是（）
-（A）\[\arcsin \left( -\frac{\pi }{3} \right)=-\frac{\sqrt{3}}{2}\].				（B）\[\sin \left( \arcsin \frac{\pi }{3} \right)=\frac{\pi }{3}\].
-（C）\[\arcsin \left( \sin \frac{5\pi }{4} \right)=\frac{\pi }{4}\].				（D）\[\sin \left[ \arccos \left( -\frac{\sqrt{2}}{2} \right) \right]=\frac{\sqrt{2}}{2}\].
-17.在\[\left[ -1,\frac{3}{2} \right]\]上与函数\[y=x\]相同的函数是（）
-（A）\[y=\arccos \left( \cos x \right)\].					（B）\[y=\arcsin \left( \sin x \right)\].
-（C）\[y=\sin \left( \arcsin x \right)\].					（D）\[y=\cos \left( \arccos x \right)\].
-18.若\[f\left( \cos x \right)=\frac{x}{2}\]，\[x\in \left[ 0,\pi  \right]\]，则\[f\left( -\frac{1}{2} \right)\]等于（）
-（A）\[\cos \frac{1}{2}\].			（B）\[\frac{\pi }{3}\].			（C）\[\frac{\pi }{4}\].		（D）\[\frac{2\pi }{3}\].
-19.函数\[y=\arccos \left( -x \right)\]的图象与\[y=\arccos x\]的图象（）
-（A）关于\[x\]轴对称.						（B）关于\[y\]轴对称.
-（C）关于原点对称.						（D）关于直线\[y=x\]对称.
-20.函数\[y=\arccos \left( {{x}^{2}}-2x \right)\]为减函数的区间是（）
-（A）\[\left[ 1,+\infty  \right]\].		（B）\[\left[ -1,1+\sqrt{2} \right]\].	（C）\[\left[ 1-\sqrt{2},1+\sqrt{2} \right]\].	（D）\[\left[ 1,1+\sqrt{2} \right]\].
-21.求下列函数的定义域与值域：
-（1）\[y=\sqrt{\arccos x}\]，\[x\in \]          ，\[y\in \]          .
-（2）\[y=\arccos \left( \sqrt{2}\sin x \right)\]，\[x\in \]          ，\[y\in \]          .
-（3）\[y=\arccos \frac{2}{x}\]，\[x\in \]          ，\[y\in \]          .
-（4）\[y=\arccos \left( 2{{x}^{2}}-x \right)\]，\[x\in \]          ，\[y\in \]          .
-（5）\[y=\sqrt{\frac{2\pi }{3}-\arccos \left( \frac{1}{2}x-1 \right)}\]，\[x\in \]          ，\[y\in \]          .
-22.（1）已知\[\cos x=-\frac{1}{3}\]，\[\pi \le x\le 2\pi \]则\[x=\]          .
-（2）函数\[f\left( x \right)=\frac{1}{2}\arccos \left( x+2 \right)\]的反函数是          .
-23.根据条件填空：
-（1）\[\sin \left( \arccos x \right)=\frac{\sqrt{3}}{2}\]，则\[x=\]          .
-（2）已知\[\arccos \left( \cos x \right)=\frac{\pi }{6}\]，则\[x=\]          .
-（3）已知\[\cos \left[ \arccos \left( x+1 \right) \right]=x+1\]，则\[x\]的取值范围是          .
-24.计算下列各式：
-（1）\[\arcsin \left( \sin \frac{3\pi }{4} \right)+\arccos \left( \cos \frac{3\pi }{4} \right)=\]          .
-（2）\[\arccos \left[ \cos \left( -\frac{\pi }{6} \right) \right]=\]          .
-（3）\[\arccos \left( \sin \frac{\pi }{7} \right)=\]          .
-（4）\[\arccos \left( \cos {{\pi }^{2}} \right)=\]          .
-（5）\[\tan \left( \frac{1}{2}\arccos \frac{2\sqrt{2}}{3} \right)=\]          .
-（6）\[\cos \left[ \frac{1}{2}\arccos \left( -\frac{3}{5} \right) \right]=\]          .
-25.根据下列条件求\[x\]的取值范围：
-（1）\[2\arccos x-\arccos \left( -x \right)>0\]：          .
-（2）\[\arccos 3x<\arccos \left( 2-5x \right)\]：          .
-（3）\[\arccos \left( 2{{x}^{2}}-1 \right)<\arccos x\]：          .
-（4）\[\arccos x>\arcsin x\]：          .
-26.已知\[f\left( x \right)=\arccos x+1\]，且\[f\left( a \right)=a\]，求\[f\left( -a \right)\]的值.
-27.设\[f\left( x \right)\]为奇函数，且当\[x>0\]时，\[f\left( x \right)=\pi -\arccos \left( \sin x \right)\]，则当\[x<0\]时，\[f\left( x \right)\]的解析式为（）
-（A）\[\arccos \left( \sin x \right)\].						（B）\[-\arccos \left( \sin x \right)\].
-（C）\[\pi +\arccos \left( \sin x \right)\].					（D）\[-\pi -\arccos \left( \sin x \right)\].
-28.下列四个命题中正确的是（）
-（A）若\[\sin f\left( x \right)\]是奇函数，则\[f\left( x \right)\]是奇函数.
-（B）若\[\cos f\left( x \right)\]是奇函数，则\[f\left( x \right)\]是奇函数.
-（C）若\[\arcsin f\left( x \right)\]是奇函数，则\[f\left( x \right)\]是奇函数.
-（D）若\[\arccos f\left( x \right)\]是奇函数，则\[f\left( x \right)\]是奇函数.
-29.函数\[f\left( x \right)=\frac{\arcsin x}{\frac{\pi }{2}-\arccos x}\]（）
-（A）是奇函数，但不是偶函数.				（B）是偶函数，但不是奇函数.
-（C）即不是奇函数，也不是偶函数.			（D）奇偶性无法确定.
-30.若函数\[f\left( x \right)=-\arccos x+\varphi \]是奇函数，则\[\varphi \]等于（）
-（A）\[\pi \].			（B）\[\frac{\pi }{2}\].			（C）\[-\pi \].		（D）\[-\frac{\pi }{2}\].
-31.（1）用一个反正弦形式表示\[\arcsin \frac{12}{13}+\arccos \frac{4}{5}\].
-（2）用一个反余弦形式表示\[\arccos \frac{15}{17}-\arcsin \frac{4}{5}\].
-32.求值：
-（1）\[\arcsin \frac{2\sqrt{2}}{3}+\arcsin \frac{1}{3}\].				（2）\[\arccos \left( -\frac{11}{14} \right)-\arccos \frac{1}{7}\].
-33.已知\[\arccos \frac{x}{a}=2\arcsin \frac{y}{a}\]，求证：\[{{a}^{2}}=ax+2{{y}^{2}}\].
-34.求值：
-（1）\[\sin \left( \arcsin \frac{3}{5}+\arcsin \frac{8}{17} \right)\].			（2）\[\tan \left[ \arcsin \frac{1}{3}+\arccos \left( -\frac{1}{5} \right) \right]\].
-（3）\[\cos \left[ \arccos \frac{4}{5}-\arccos \left( -\frac{5}{13} \right) \right]\].		（4）\[\arcsin \left( \cos 4 \right)-\arccos \left( \sin 5 \right)\].
-35.（1）已知\[-\frac{\pi }{3}<\theta <\frac{2\pi }{3}\]，求证：\[\arccos \frac{\sqrt{3}\sin \theta -\cos \theta }{2}+\theta =\frac{2\pi }{3}\].
-（2）若\[\arcsin \left( \sin \alpha +\sin \beta  \right)+\arcsin \left( \sin \alpha -\sin \beta  \right)\]是\[\frac{\pi }{2}\]的奇数倍，求证：\[{{\sin }^{2}}\alpha +{{\sin }^{2}}\beta =\frac{1}{2}\].
-36.（1）求函数\[y={{\left( \arccos x \right)}^{2}}-5\arccos x\]（\[\left| x \right|\le 1\]）的值域.
-（2）已知函数\[f\left( x \right)=\cos \left( 2\arccos x \right)+4\sin \left( \arcsin \frac{x}{2} \right)\]，求它的最大值与最小值.
-（三）反正切函数与反余切函数
-37.记\[M=\arcsin \left( -\frac{1}{3} \right)\]，\[P=\arctan \left( -\sqrt{2} \right)\]，\[Q=\arccos \left( -\frac{2}{3} \right)\]，则\[M,P,Q\]的大小关系是（）
-（A）\[M<P<Q\].	（B）\[M<Q<P\].	（C）\[P<M<Q\].	（D）\[P<Q<M\].
-38.计算\[\arctan \left( \tan \frac{3}{5}\pi  \right)\]的值是（）
-（A）\[-\frac{3}{5}\pi \].			（B）\[\frac{2}{5}\pi \].			（C）\[-\frac{2}{5}\pi \].			（D）\[\frac{3}{5}\pi \].
-39.若\[x<0\]，则\[\arctan x\]等于（）
-（A）\[arc\cot \frac{1}{x}\].		（B）\[-arc\cot \frac{1}{x}\].		（C）\[\pi -arc\cot \frac{1}{x}\].	（D）\[arc\cot \frac{1}{x}-\pi \].
-40.函数\[f\left( x \right)=\frac{\pi }{2}+\arctan x\]的反函数是（）
-（A）\[{{f}^{-1}}\left( x \right)=\tan \left( x-\frac{\pi }{2} \right)\]（\[0<x<\pi \]）.	（B）\[{{f}^{-1}}\left( x \right)=-\cot x\]（\[-\frac{\pi }{2}<x<\frac{\pi }{2}\]）.
-（C）\[{{f}^{-1}}\left( x \right)=-\frac{1}{\tan x}\]（\[0<x<\pi \]）.		（D）\[{{f}^{-1}}\left( x \right)=\tan x\]（\[0<x<\pi \]）.
-41.若\[\arctan \left( x+1 \right)-\arctan \left( x-1 \right)=\frac{\pi }{4}\]，则\[\arcsin \frac{1}{{{x}^{2}}}\]等于（）
-（A）\[\frac{\pi }{6}\].			（B）\[\frac{\pi }{4}\].			（C）\[\frac{\pi }{3}\].		（1））\[\frac{4\pi }{3}\].
-42.下列函数中，同时满足条件“①定义域是\[R\]，②是奇函数，③是周期函数”的函数是（）（A）\[y=\arcsin \left( \sin x \right)\].					（B）\[y=\cos \left( \arcsin x \right)\].
-（C）\[y=\tan \left( \arctan x \right)\].					（D）\[y=\arctan \left( \tan x \right)\].
-43.在“①\[\arcsin \left( \sin \frac{5}{6}\pi  \right)=\frac{5}{6}\pi \]，②\[\arctan \left( \tan \frac{7}{6}\pi  \right)=\frac{\pi }{6}\]，③\[\cos \left( \arccos \pi  \right)=\pi \]，④\[\tan \left( arc\cot 0 \right)=0\]”这四个式子中，正确的有（）
-（A）0个.			（B）1个.			（C）2个.			（D）3个.
-44.计算下列各式：
-（1）\[\arctan \frac{1}{3}+\arctan 3+\arcsin \frac{1}{5}-\arccos \left( -\frac{1}{5} \right)=\]          .
-（2）\[\arctan \left( \cot 1 \right)=\]          .
-（3）\[art\cot \left( \cot \frac{10}{7}\pi  \right)=\]          .
-（4）\[\arctan \frac{1-\tan 25{}^\circ }{1+\tan 25{}^\circ }=\]          .
-（5）\[\arctan 7+arc\cot \frac{3}{4}=\]          .
-（6）\[\arctan \left( 3+2\sqrt{2} \right)-\arctan \frac{\sqrt{2}}{2}=\]          .
-（7）\[\arctan \frac{1}{2}+\arctan \frac{1}{5}+\arctan \frac{1}{8}=\]          .
-（8）\[\arcsin \left( \sin 4 \right)+\arccos \left( \cos 3 \right)+\arctan \left( \tan 2 \right)+arc\cot \left( \cot 1 \right)=\]          .
-45.求下列各式的值：
-（1）\[\sin \left[ \frac{1}{2}\arctan \left( -2\sqrt{2} \right) \right]=\]          .
-（2）\[\sin \left[ \frac{1}{2}arc\cot \left( -\frac{3}{4} \right) \right]=\]          .
-（3）\[\tan \left( \arctan \frac{1}{5}+\arctan 3 \right)=\]          .
-（4）\[\sin \left[ 2\arctan \left( -6 \right) \right]=\]          .
-（5）\[\cos \left( 2arc\cot \frac{1}{2} \right)+\tan \left[ \frac{1}{2}\arccos \left( -\frac{3}{5} \right) \right]=\]          .
-46.在下列各组函数中，图象不相同的是（）
-（A）\[y=\sin \left( \arccos x \right)\]与\[y=\cos \left( \arcsin x \right)\].
-（B）\[y=\tan \left( arc\cot x \right)\]与\[y=\cot \left( \arctan x \right)\].
-（C）\[y=\arcsin \left( \sin x \right)\]与\[y=\arccos \left( \cos x \right)\]，\[x\in \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\].
-（D）\[y=\arctan \left( \tan x \right)\]与\[y=\arctan \left( \cot x \right)\]，\[x\in \left[ 0,\frac{\pi }{2} \right]\].
-47.若将函数\[y=\arctan x\]的图象沿\[x\]轴正方向平移2个单位长度所得到的图象记为\[C\]，又图象\[{C}'\]与\[C\]关于原点对称，则与\[{C}'\]对应的函数是（）
-（A）\[y=-\arctan \left( x-2 \right)\].					（B）\[y=\arctan \left( x-2 \right)\].
-（C）\[y=-\arctan \left( x+2 \right)\].					（D）\[y=\arctan \left( x+2 \right)\].
-48.若\[\arctan x+arc\cot y=\pi \]，则点（\[x,y\]）组成的图象是（）
- 
-        （A）             （B）            （C）              （D）
-49.求下列函数的定义域与值域：
-（1）\[y=\arctan \left( \sin x \right)\]，\[x\in \]          ，\[y\in \]          .
-（2）\[y=\frac{1}{3}\arcsin 3x+\arctan \sqrt{3}x\]，\[x\in \]          ，\[y\in \]          .
-（3）\[y=arc\cot \sqrt{\cos x}\]，\[x\in \]          ，\[y\in \]          .
-（4）\[y=\arctan \frac{1}{{{x}^{2}}-1}\]，\[x\in \]          ，\[y\in \]          .
-50.（1）已知方程\[{{x}^{2}}+3\sqrt{3}x+4=0\]的两个实根为\[{{x}_{1}}\]与\[{{x}_{2}}\]，记\[\alpha =\arctan {{x}_{1}}\]，\[\beta =\arctan {{x}_{2}}\]，求\[\alpha +\beta \]的值.
-（2）已知实数\[a,b\]满足\[\left( a+1 \right)\left( b+1 \right)=2\]，求\[\arctan a+\arctan b\]的值.
-（3）已知\[\left| x \right|\le 1\]，求\[{{\csc }^{2}}\left( \arctan x \right)-{{\tan }^{2}}\left( \arccos x \right)\]的值.
-二、简单三角方程
+1.若\[x,y\in R\]，则“\[x=0\]”是“\[x+yi\]为纯虚数”的（）
+（A）充分不必要条件.						（B）必要不充分条件.
+（C）充要条件.							（D）既不充分也不必要条件.
+2.复数\[a+bi\]（\[a,b\in R\]）在复平面内的对应点在虚轴上的一个充要条件是（）
+（A）\[a=0\].			（B）\[b\ne 0\].			（C）\[ab=0\].	（D）\[\frac{a}{b}=0\].
+3.下列结论中，正确的是（）
+（A）复平面内，原点是实轴与虚轴的公共点.
+（B）实数的共轭复数一定是实数，虚数的共轭复数一定是虚数.
+（C）复数集\[C\]与复平面内所有向量所组成的集合是一一对应的.
+（1））若使得实数\[x\]对应于纯虚数\[xi\]，则实数集\[R\]与纯虚数集是一一对应的.
+4.复平面内，若复数\[z={{m}^{2}}\left( 1+i \right)-m\left( 4+i \right)-6i\]所对应的点在第二象限，则实数\[m\]的取值范围是（）
+（A）（0，3）.	（B）（－2.0）.		（C）（3，4）.		（D）\[\left( -\infty ,-2 \right)\].
+5.由方程\[{{\left| z \right|}^{2}}-8\left| z \right|+15=0\]所确定的复数在复平面内对应点的轨迹是（）
+（A）四个点.		（B）四条直线.		（C）一个圆.			（D）两个圆.
+6.已知集合\[M=\left\{ 1,2,\left( {{m}^{2}}-3m-1 \right)+\left( {{m}^{2}}-5m+6 \right)i,m\in R \right\}\]，\[N=\left\{ -1,3 \right\}\]满足\[M\bigcap N\ne \varnothing \]，则\[m\]等于（）
+（A）0或3.		（B）－1或3.		（C）－1或6.		（D）3.
+7.若复数\[z=2{{m}^{2}}-3m-2+\left( {{m}^{2}}-3m+2 \right)i\]是纯虚数，则实数\[m\]的值为（）
+（A）1或2.		（B）\[-\frac{1}{2}\]或2.		（C）\[-\frac{1}{2}\].			（D）2.
+8.复平面内，正方形的三个顶点对应的复数分别是\[1+2i\]，0，\[-2+i\]，则第四个顶点所对应的复数为（）
+（A）\[3+i\].		（B）\[3-i\].			（C）\[1-3i\].			（D）\[-1+3i\].
+9.判断下列命题的真假：
+（1）\[{{x}_{1}}+{{y}_{1}}i={{x}_{2}}+{{y}_{2}}i\]的充要条件是\[{{x}_{1}}={{x}_{2}}\]，且\[{{y}_{1}}={{y}_{2}}\].（）
+（2）任意两个复数都不能比较大小.（）
+（3）若\[x,y\in R\]，且\[x=y\]，则\[\left( x-y \right)+\left( x+y \right)i\]是纯虚数.（）
+10.（1）已知复数\[z=\frac{{{a}^{2}}+a-2}{a-3}+\left( {{a}^{2}}-4a+3 \right)i\]（\[a\in R\]）.
+①若\[z\in R\]，则\[a=\]          ；②若\[z\]是纯虚数，则\[a=\]         .
+（2）已知\[z=\left( 2\cos \theta -\sqrt{3} \right)+i\left( 2\sin \theta -1 \right)\].
+①若\[z\in R\]，则\[\theta =\]          ；②若\[z\]是纯虚数，则\[\theta =\]          .
+（3）已知复数\[z=\left( {{\tan }^{2}}\theta +\tan \theta -2 \right)+i\left( {{\cos }^{2}}\theta -{{\sin }^{2}}\theta  \right)\].
+①当\[\theta =\]          时，\[z\]为实数；②当\[\theta =\]          时，\[z\]为纯虚数；③当\[\theta =\]          时，\[z=0\].
+（4）复平面内，若复数\[z=\left( {{m}^{2}}-m-2 \right)+\left( {{m}^{2}}-3m+2 \right)i\]所对应的点在虚轴上，则实数\[m\]的值等于          .
+（5）复平面内，若复数\[\left( {{m}^{2}}-8m+15 \right)+\left( {{m}^{2}}-5m-14 \right)i\]所对应的点位于第四象限，则实数\[m\]的取值范围是          .
+11.（1）满足\[\left| {{\log }_{3}}x+4i \right|=5\]的实数\[x\]的值是          .
+（2）复平面内，已知复数\[z=x-\frac{1}{3}i\]所对应的点都在单位圆内，则实数\[x\]的取值范围是          .
+（3）不等式\[\left| 4+i{{\log }_{\frac{1}{2}}}\left( x-1 \right) \right|\ge \left| -3+4i \right|\]的解集是          .
+（4）若复数\[z=\left( x-1 \right)+\left( 2x-1 \right)i\]的模小于\[\sqrt{10}\]可，则实数\[x\]的取值范围是          .
+（5）若复数\[z=\cos \alpha +i\left( 1-\sin \alpha  \right)\]，则\[\left| z \right|\]的取值范围是          .
+12.（1）若复数\[{{z}_{1}}=1-ir\sin \alpha \]与\[{{z}_{2}}=r\cos \alpha -\sqrt{3}i\]（\[r>0\]）相等，则\[{{z}_{1}}=\]          .
+（2）已知\[{{z}_{1}}=\sin 2\theta +i\cos \theta \]，\[{{z}_{2}}=\cos \theta -\sqrt{3}\sin \theta \]（\[0\le \theta <\pi \]）.
+①若\[{{z}_{1}}={{z}_{2}}\]，则\[\theta =\]          ；②若\[{{z}_{1}}=\overline{{{z}_{2}}}\]，则\[\theta =\]          .
+13.根据下列条件，求复数\[z\]：
+（1）\[z+\left| {\bar{z}} \right|=2+i\].
+（2）\[z-2\left| z \right|=-7+4i\].
+14.已知复数\[z=\frac{{{x}^{2}}-3x+2}{x+3}+\left( {{x}^{2}}+2x-3 \right)i\]，求实数\[x\]，使：
+（1）\[z\]是实数.					（2）\[z\]是虚数.				（3）\[z\]是纯虚数.
+15.若\[\cos 2\theta +i\left( 1-\tan \theta  \right)\]是纯虚数，则\[\theta \]的值取（）
+（A）\[k\pi -\frac{\pi }{4}\]（\[k\in Z\]）.				（B）\[k\pi +\frac{\pi }{4}\]（\[k\in Z\]）.
+（C）\[k\pi \pm \frac{\pi }{4}\]（\[k\in Z\]）.				（D）\[\frac{k\pi }{2}+\frac{\pi }{4}\]（\[k\in Z\]）.
+16.方程\[3z+\left| z \right|=1-3i\]的解是（）
+（A）\[i\].			（B）\[-i\].			（C）\[\frac{3}{4}-i\].		（D）\[-i\]和\[\frac{3}{4}-i\].
+17.若虚数\[\left( x-2 \right)+yi\]（\[x,y\in R\]）的模为\[\sqrt{3}\]，则\[\frac{y}{x}\]的最大值是（）
+（A）\[\frac{\sqrt{3}}{2}\].		（B）\[\frac{\sqrt{3}}{3}\].			（C）\[\frac{1}{2}\].		（D）\[\sqrt{3}\].
+18.设复数\[z={{\log }_{2}}\left( \cos \alpha +\frac{1}{2} \right)+i{{\log }_{2}}\left( \sin \alpha +\frac{1}{2} \right)\]，求\[\alpha \]，使：
+（1）\[z\]为实数.	（2）\[z\]为纯虚数.		（3）\[z\]在复平面内的对应点在第二象限.
+（4）\[z\]的实部与虚部相等.
+19.根据条件，在复平面内画出复数对应点的集合所表示的图形：
+（1）\[1\le \left| R\left( z \right) \right|\le 2\]（\[R\left( z \right)\]表示\[Z\]的实部）.
+（2）\[1\le \left| z \right|\le 2\]且\[I\left( z \right)<0\]（\[I\left( z \right)\]表示\[z\]的虚部）.
+20.已知两个复数集\[M=\left\{ z\left| z=t+\left( 1-{{t}^{2}} \right)i,t\in R \right. \right\}\]及\[N=\left\{ z\left| z=2\cos \theta +\left( \lambda +3\sin \theta  \right)i,\lambda \in R,\theta \in R \right. \right\}\]的交集为非空集合，求\[\lambda \]的取值范围.
+二、复数的运算
 【典型题型和解题技巧】
-1.主要的三角方程类型.
-（1）\[a{{\sin }^{2}}x+b\sin x+c=0\]（\[a\ne 0\]）型.
-例1  解方程\[2{{\sin }^{2}}x+3\sin x-2=0\].
-解  原方程即\[\left( 2\sin x-1 \right)\left( \sin x+2 \right)=0\]，∴\[\sin x=\frac{1}{2}\]或\[\sin x=-2\]（舍去）.
-∴\[x=k\pi +{{\left( -1 \right)}^{k}}\frac{\pi }{6}\]（\[k\in Z\]）.
-（2）\[a\sin x+b\cos x+c=0\]（\[{{a}^{2}}+{{b}^{2}}\ne 0\]，\[c\ne 0\]）型.
-此类方程可将两边同除以\[\sqrt{{{a}^{2}}+{{b}^{2}}}\]，变形为\[\sin \left( x+\varphi  \right)=\frac{-c}{\sqrt{{{a}^{2}}+{{b}^{2}}}}\].
-例2  解方程\[2\sin x-\cos x=1\].
-解  原方程即\[\sin x\cdot \frac{2}{\sqrt{5}}-\cos x\cdot \frac{1}{\sqrt{5}}=\frac{1}{\sqrt{5}}\]，即\[\sin \left( x-\varphi  \right)=\frac{1}{\sqrt{5}}\]（其中\[\varphi =\arctan \frac{1}{2}\]），
-∴\[x=k\pi +{{\left( -1 \right)}^{k}}\arcsin \frac{1}{\sqrt{5}}+\arctan \frac{1}{2}\]（\[k\in Z\]）.
-注意  方程\[\sin x=a\]，\[\cos x=a\]有解的条件是\[\left| a \right|\le 1\].
-（3）齐次型.
-\[a\sin x+b\cos x=0\]，\[a{{\sin }^{2}}x+b\sin x\cos x+c{{\cos }^{2}}x=0\].
-此类方程可将两边同除以\[\cos x\]或\[{{\cos }^{2}}x\]，转化为\[\tan x\]的一次或二次方程.后者也可采用“降次”，转化为\[A\sin 2x+B\cos 2x=C\]的形式.
-例3  解方程\[{{\sin }^{2}}x-3\sin x\cos x+1=0\].
-解法一  原方程即\[2{{\sin }^{2}}x-3\sin x\cos x+{{\cos }^{2}}x=0\].显然\[{{\cos }^{2}}x\ne 0\]，
-则有\[2{{\tan }^{2}}x-3\tan x+1=0\]，即\[\left( 2\tan x-1 \right)\left( \tan x-1 \right)=0\]，
-∴\[\tan x=\frac{1}{2}\]或\[\tan x=1\]，∴\[x=k\pi +\arctan \frac{1}{2}\]或\[x=k\pi +\frac{\pi }{4}\]（\[k\in Z\]）.
-解法二  原方程即\[\frac{1-\cos 2x}{2}-\frac{3}{2}\sin 2x+1=0\].
-整理，得\[3\sin 2x+\cos 2x=3\]，于是\[\sin \left( 2x+\varphi  \right)=\frac{3}{\sqrt{10}}\]（其中\[\varphi =\arctan \frac{1}{3}\]），
-∴\[2x+\varphi =k\pi +{{\left( -1 \right)}^{k}}\arcsin \frac{3}{\sqrt{10}}\]，
-故\[x=\frac{k\pi }{2}+\frac{1}{2}{{\left( -1 \right)}^{k}}\arcsin \frac{3}{\sqrt{10}}-\frac{1}{2}\arctan \frac{1}{3}\]（\[k\in Z\]）.
-（4）同名三角函数相等型.
-①\[\sin f\left( x \right)=\sin \varphi \left( x \right)\]；②\[\cos f\left( x \right)=\cos \varphi \left( x \right)\]；③\[\tan f\left( x \right)=\tan \varphi \left( x \right)\]；④\[\cot f\left( x \right)=\cot \varphi \left( x \right)\].
-在这四种类型的方程中，①可化为\[f\left( x \right)=2k\pi +\varphi \left( x \right)\]或\[f\left( x \right)=2k\pi +\pi -\varphi \left( x \right)\]；②可化为\[f\left( x \right)=2k\pi \pm \varphi \left( x \right)\]；③，④可化为\[f\left( x \right)=k\pi +\varphi \left( x \right)\]（\[k\in Z\]）.
-例4  解方程\[\tan 5x=\tan 4x\].
-解  由已知，得\[\left\{ \begin{align}
-  & 5x\ne m\pi +\frac{\pi }{2}, \\ 
- & 4x\ne n\pi +\frac{\pi }{2}, \\ 
- & 5x=k\pi +4x \\ 
-\end{align} \right.\]（\[m,n,k\in Z\]），∴\[x=k\pi \]（\[k\in Z\]）.
-（5）含\[\sin x\pm \cos x\]，\[\sin x\cos x\]的三角方程.
-此类方程宜用换元法，即令\[\sin x\pm \cos x=t\]（\[\left| t \right|\le \sqrt{2}\]），则\[\sin x\cos x=\pm \frac{{{t}^{2}}-1}{2}\].
-例5  解方程\[\sin 2x-12\left( \sin x-\cos x \right)+12=0\].
-解  令\[\sin x-\cos x=t\]（\[\left| t \right|\le \sqrt{2}\]），则\[\sin 2x=1-{{t}^{2}}\]，原方程可化为\[1-{{t}^{2}}-12t+12=0\]，
-即\[{{t}^{2}}+12t-13=0\]，也即\[\left( t+13 \right)\left( t-1 \right)=0\].∴\[t=-13\]（舍去），或\[t=1\].
-∴\[\sin x-\cos x=1\]，即\[\sin \left( x-\frac{\pi }{4} \right)=\frac{\sqrt{2}}{2}\]，故\[x=k\pi +{{\left( -1 \right)}^{k}}\frac{\pi }{4}+\frac{\pi }{4}\]（\[k\in Z\]）.
-（4）其他.
-例6  解方程\[{{\sin }^{2}}x+{{\sin }^{2}}2x={{\sin }^{2}}3x\].
-解  原方程即\[\left( {{\sin }^{2}}3x-{{\sin }^{2}}x \right)-{{\sin }^{2}}2x=0\]，
-∴\[\left( \sin 3x+\sin x \right)\left( \sin 3x-\sin x \right)-{{\sin }^{2}}2x=0\]，即\[4\sin 2x\cos x\cos 2x\sin x-{{\sin }^{2}}2x=0\]，
-∴\[2{{\sin }^{2}}2x\cos 2x-{{\sin }^{2}}2x=0\].于是\[{{\sin }^{2}}2x\left( 2\cos 2x-1 \right)=0\]，
-∴\[\sin 2x=0\]或\[\cos 2x=\frac{1}{2}\]，故\[x=\frac{k\pi }{2}\]或\[x=k\pi \pm \frac{\pi }{6}\]（\[k\in Z\]）.
-注意  因式分解以及和差与积的互化，是解三角方程的重要手段.
-2.三角方程解的讨论.
-（1）利/用\[\left| \sin x \right|\le 1\]与\[\left| \cos x \right|\le 1\].
-.例7  求实数\[m\]的取值范围，使关于\[x\]的方程\[2{{\sin }^{2}}x+2\sin x\cos x-{{\cos }^{2}}x-1-m=0\]有解.
-解  原方程即\[{{\sin }^{2}}x+2\sin x\cos x-2{{\cos }^{2}}x=m\]，∴\[\frac{1-\cos 2x}{2}+\sin 2x-2\cdot \frac{1+\cos 2x}{2}=m\]，
-即\[2\sin 2x-3\cos 2x=2m+1\]，∴\[\sin \left( 2x-\varphi  \right)=\frac{2m+1}{\sqrt{13}}\]（其中\[\varphi =\arctan \frac{3}{2}\]）.
-欲使方程有解，只需\[-\sqrt{13}\le 2m+1\le \sqrt{13}\]，∴\[\frac{-1-\sqrt{13}}{2}\le m\le \frac{-1+\sqrt{13}}{2}\].
-注意  例7也可将原方程化为\[\tan x\]的二次方程，再利用\[\Delta \ge 0\]求解，请读者试一试.
-（2）利用函数图象.
-例8  关于\[x\]的方程\[\sin x+\sqrt{3}\cos x+a=0\]在\[\left( 0,2\pi  \right)\]内有两个相异的实数解\[\alpha ,\beta \]，求实数\[a\]的取值及\[\alpha +\beta \]的值.
+高中数学中，复数的综合性特别强，它把代数、三角和几何自然地揉合在一起.本单元中，解有关的复数问题主要有以下几类：
+1.应用复数的代数形式解题.
+复数\[z=x+yi\]（\[x,y\in R\]）称为复数的代数形式，利用复数的代数形式是解复数问题最基本的方法，因此也是最重要的方法.
+例1  已知\[\frac{z}{z-1}\]是纯虚数，求复数\[z\]在复平面内对应点的轨迹的普通方程.
+解  设\[z=x+yi\]（\[x,y\in R\]），
+则\[\frac{z}{z-1}=\frac{x+yi}{\left( x-1 \right)+yi}=\frac{\left( x+yi \right)\left[ \left( x-1 \right)-yi \right]}{{{\left( x-1 \right)}^{2}}+{{y}^{2}}}=\frac{x\left( x-1 \right)+{{y}^{2}}+\left[ y\left( x-1 \right)-xy \right]i}{{{\left( x-1 \right)}^{2}}+{{y}^{2}}}\]
+      \[=\frac{x\left( x-1 \right)+{{y}^{2}}-yi}{{{\left( x-1 \right)}^{2}}+{{y}^{2}}}\].
+∵\[\frac{z}{z-1}\]是纯虚数，∴\[\left\{ \begin{align}
+  & x\left( x-1 \right)+{{y}^{2}}=0, \\ 
+ & y\ne 0. \\ 
+\end{align} \right.\]
+即复数\[z\]在复平面内对应点的轨迹方程是圆（除两点），\[{{\left( x-\frac{1}{2} \right)}^{2}}+{{y}^{2}}=\frac{1}{4}\]（\[y\ne 0\]）.
+2.应用复数运算的几何意义解题.
+（1）应用\[\left| {{z}_{1}}-{{z}_{2}} \right|\]的几何意义.
+设复数\[z\]，\[{{z}_{1}}\]，\[{{z}_{2}}\]在复平面内的对应点分别为\[P\]，\[{{P}_{1}}\]，\[{{P}_{2}}\]，则\[\left| {{z}_{1}}-{{z}_{2}} \right|\]表示两点\[{{P}_{1}}\]，\[{{P}_{2}}\]间的距离，特别地，\[\left| z \right|\]表示点\[P\]和原点的距离.
+例2  若\[\left| z+1-i \right|=1\]，求\[\left| z-3+4i \right|\]的最大值和最小值.
+解  由条件\[\left| z-\left( -1+i \right) \right|=1\]，知复数\[Z\]的对应点\[A\]在以（－1，1）为圆心、1为半径的圆上运动，而\[\left| z-3+4i \right|=\left| z-\left( 3-4i \right) \right|\]，它表示点\[A\]和点\[B\]（3，－4）的距离（如图1），显然，\[\left| BE \right|\le \left| AB \right|\le \left| BD \right|\]，
+∴\[\left| z-3+4i \right|\]的最大值和最小值分别是\[\sqrt{41}+1\]和\[\sqrt{41}-1\].
  
 （图1）
-解  原方程即\[\sin \left( x+\frac{\pi }{3} \right)=-\frac{a}{2}\].
-令\[{{y}_{1}}=\sin \left( x+\frac{\pi }{3} \right)\]（\[0<x<2\pi \]），\[{{y}_{2}}=-\frac{a}{2}\].
-只需\[{{y}_{2}}\]的图象（一条和\[y\]轴垂直的直线）和\[{{y}_{1}}\]的图象在\[\left( 0,2\pi  \right)\]内有两个交点即可.
-观察图1，得\[\left\{ \begin{align}
-  & -1<-\frac{a}{2}<1, \\ 
- & -\frac{a}{2}\ne \frac{\sqrt{3}}{2}, \\ 
-\end{align} \right.\]即\[-2<a<2\]且\[a\ne -\sqrt{3}\].
-利用中点知识，易得\[{{\alpha }_{1}}+{{\beta }_{1}}=2{{x}_{1}}\text{=}\frac{\pi }{2}\]，\[{{\alpha }_{2}}+{{\beta }_{2}}=2{{x}_{2}}\text{=}\frac{7}{3}\pi \]，即\[\alpha +\beta =\frac{\pi }{3}\]或\[\alpha +\beta =\frac{7\pi }{3}\].
-例9  就实数\[a\]的取值范围，讨论关于\[x\]的方程\[\cos 2x+2\sin x+2a-3=0\]在\[\left[ 0,2\pi  \right]\]内解的情况.
-解  原方程即\[{{\sin }^{2}}x-\sin x=a-1\]，配方，得\[{{\left( \sin x-\frac{1}{2} \right)}^{2}}=a-\frac{3}{4}\].
-令\[{{y}_{1}}={{\left( \sin x-\frac{1}{2} \right)}^{2}}\]，\[{{y}_{2}}=a-\frac{3}{4}\].观察图2，得：
-（1）当\[a-\frac{3}{4}>\frac{9}{4}\]或\[a-\frac{3}{4}<0\]，即\[a>3\]或\[a<\frac{3}{4}\]时，方程无解.
-（2）当\[a-\frac{3}{4}=\frac{9}{4}\]，即\[a=3\]时，方程有一解\[x=\frac{3}{2}\pi \].
-（3）当\[\frac{1}{4}<a<-\frac{3}{4}<\frac{9}{4}\]或\[a-\frac{3}{4}=0\]，即\[1<a<3\]或\[a=\frac{3}{4}\]时，方程有两解.
-（4）当\[a-\frac{3}{4}=\frac{1}{4}\]，即\[a=1\]时，方程有三解：\[x=0,\frac{\pi }{2},\pi \].
-（5）当\[0<a-\frac{3}{4}<\frac{1}{4}\]，即\[\frac{3}{4}<a<1\]时，方程有四解.
+注意  设复数\[{{z}_{0}}\]，\[{{z}_{1}}\]，\[{{z}_{2}}\]在复平面内的对应点分别为\[{{Z}_{0}}\]，\[{{Z}_{1}}\]，\[{{Z}_{2}}\]，则：
+①\[\left| z-{{z}_{1}} \right|=\left| z-{{z}_{2}} \right|\]表示线段\[{{Z}_{1}}{{Z}_{2}}\]的中垂线；
+②\[\left| z-{{z}_{0}} \right|=R\]（\[R>0\]）表示以\[{{Z}_{0}}\]为圆心，\[R\]为半径的圆；
+③\[\left| z-{{z}_{1}} \right|+\left| z-{{z}_{2}} \right|=2a\]（\[2a>\left| {{Z}_{1}}{{Z}_{2}} \right|\]）表示以\[{{Z}_{1}}\]，\[{{Z}_{2}}\]为焦点，\[a\]为半长轴的椭圆；
+④\[\left| \left| z-{{z}_{1}} \right|-\left| z-{{z}_{2}} \right| \right|=2a\]（\[0<2a<\left| {{Z}_{1}}{{Z}_{2}} \right|\]）表示以\[{{Z}_{1}}\]，\[{{Z}_{2}}\]为焦点，\[a\]为半实轴长的双曲线.
+（2）应用复数加、减法的几何意义.
+设复数\[{{z}_{1}}\]，\[{{z}_{2}}\]和复平面上的点\[A\]，\[B\]对应，以\[OA\]，\[OB\]为邻边作\[ABCD\]（\[O\]为原点），并连接\[AB\]（如图2），则复数\[{{z}_{1}}+{{z}_{2}}\]和向量\[\overrightarrow{OC}\]对应，复数\[{{z}_{1}}-{{z}_{2}}\]和向量\[\overrightarrow{BA}\]对应.
  
 （图2）
-注意  （1）\[x\in \left[ 0,2\pi  \right]\]时，若以\[\sin x\]为横轴，则函数\[y=a{{\sin }^{2}}x+b\sin x+c\]（\[a\ne 0\]）的图象是在[－1，1]上的一段曲线.
-（2）本例的曲线\[{{y}_{1}}\]的对称轴是固定的.如果对称轴不定，问题的讨论就比较复杂.但就问题的实质而言，方程\[a{{\sin }^{2}}x+b\sin x+c=0\]（\[a\ne 0\]）的讨论，也就是对一元二次方程\[a{{t}^{2}}+bt+c=0\]（\[a\ne 0\]）在区间[－1，1]上解的讨论.读者可参看第一章的例题.
+例3  已知\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|=1\]，\[{{z}_{1}}+{{z}_{2}}=\frac{1}{2}+\frac{\sqrt{3}}{2}i\]，求复数\[{{z}_{1}}\]，\[{{z}_{2}}\].
+解  如图3，
+ 
+（图3）
+∵\[{{z}_{1}}+{{z}_{2}}=\frac{1}{2}+\frac{\sqrt{3}}{2}i\]，
+∴\[{{z}_{1}}+{{z}_{2}}\]对应于向量\[\overrightarrow{OC}\]，其中\[\angle COA={{60}^{\circ }}\].
+设\[\overrightarrow{OA}\]对应于复数\[{{z}_{1}}\]，\[\overrightarrow{OB}\]对应于复数\[{{z}_{2}}\]，则四边形\[AOBC\]是菱形，且\[\Delta AOC\]和\[\Delta BOC\]都是等边三角形，于是\[{{z}_{1}}=1\]，\[{{z}_{2}}=-\frac{1}{2}+\frac{\sqrt{3}}{3}i\]或\[{{z}_{1}}=-\frac{1}{2}+\frac{\sqrt{3}}{3}i\]，\[{{z}_{2}}=1\].
+注意  复平面内，若非零复数\[{{z}_{1}}\]，\[{{z}_{2}}\]分别对应于点\[A\]，\[B\]，\[{{z}_{1}}+{{z}_{2}}\]对应于点\[C\]，\[O\]为原点，则：
+①\[OACB\]是平行四边形；
+②若\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|\]，则\[OACB\]是菱形；
+③若\[\left| {{z}_{1}}+{{z}_{2}} \right|=\left| {{z}_{1}}-{{z}_{2}} \right|\]，则\[OACB\]是矩形；
+④若\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|\]且\[\left| {{z}_{1}}+{{z}_{2}} \right|=\left| {{z}_{1}}-{{z}_{2}} \right|\]，则\[OACB\]是正方形.
+3.应用乘法公式解题.
+应用下列两组乘法公式，将会给计算带来便利：
+（1）\[{{\left( 1+i \right)}^{2}}=2i\]，\[{{\left( 1-i \right)}^{2}}=-2i\].
+（2）记\[\omega =-\frac{1}{2}\pm \frac{\sqrt{3}}{2}i\]，\[{{\omega }_{1}}=-\frac{1}{2}+\frac{\sqrt{3}}{2}i\]，\[{{\omega }_{2}}=-\frac{1}{2}-\frac{\sqrt{3}}{2}i\]，
+则\[{{\omega }^{3}}=1\]，\[{{\omega }^{2}}+\omega +1=0\]，\[\omega +\frac{1}{\omega }=-1\]，\[{{\omega }_{1}}{{\omega }_{2}}=1\]，\[\omega _{1}^{2}={{\omega }_{2}}\]，\[\omega _{2}^{2}={{\omega }_{1}}\].
+例4  求值：
+（1）\[{{\left( 1+i \right)}^{10}}-{{\left( 1-i \right)}^{10}}\].
+（1）\[\frac{{{\left( 2+2i \right)}^{5}}}{{{\left( -1+\sqrt{3}i \right)}^{4}}}\].
+解  （1）原式\[={{\left[ {{\left( 1+i \right)}^{2}} \right]}^{5}}-{{\left[ {{\left( 1-i \right)}^{2}} \right]}^{5}}={{\left( 2i \right)}^{5}}-{{\left( -2i \right)}^{5}}={{2}^{5}}i+{{2}^{5}}i=64i\].
+（2）原式\[=\frac{\left( 2+2i \right){{\left( 1+i \right)}^{4}}}{{{\left( -\frac{1}{2}+\frac{\sqrt{3}}{2}i \right)}^{4}}}=\frac{\left( 2+2i \right){{\left( 2i \right)}^{2}}}{-\frac{1}{2}+\frac{\sqrt{3}}{2}i}=\frac{-8\left( 1+i \right)\left( -\frac{1}{2}-\frac{\sqrt{3}}{2}i \right)}{\left( -\frac{1}{2}+\frac{\sqrt{3}}{2}i \right)\left( -\frac{1}{2}-\frac{\sqrt{3}}{2}i \right)}\]
+        \[=4\left( 1+i \right)\left( 1+\sqrt{3}i \right)=4\left( 1-\sqrt{3} \right)+4\left( 1+\sqrt{3} \right)i\].
+4.应用复数模的运算法则解题.
+容易证明，复数模的运算有以下法则：
+（1）\[\left| z \right|=\left| {\bar{z}} \right|\]，\[\left| {{z}_{1}}\centerdot {{z}_{2}} \right|=\left| {{z}_{1}} \right|\centerdot \left| {{z}_{2}} \right|\]，\[\left| \frac{{{z}_{1}}}{{{z}_{2}}} \right|=\left| \frac{{{z}_{1}}}{{{z}_{2}}} \right|\]（\[{{z}_{2}}\ne 0\]），\[\left| {{z}^{n}} \right|={{\left| z \right|}^{n}}\].
+（2）\[{{\left| z \right|}^{2}}=z\centerdot \bar{z}\].
+例5  求复数\[z=\frac{{{\left( 3-4i \right)}^{3}}}{\left( \frac{\sqrt{3}}{2}-\frac{1}{2}i \right)\centerdot {{\left( \sqrt{3}+\sqrt{2}i \right)}^{4}}}\]的模.
+解  \[\left| z \right|=\frac{{{\left| 3-4i \right|}^{3}}}{{{\left| \frac{\sqrt{3}}{2}-\frac{1}{2}i \right|}^{2}}\centerdot {{\left| \sqrt{3}+\sqrt{2}i \right|}^{4}}}=\frac{{{5}^{3}}}{{{\left( \sqrt{5} \right)}^{4}}}=5\].
+例6  已知\[\left| z \right|\le 1\]，\[\left| \omega  \right|\le 1\]，求证：\[\left| z+\omega  \right|\le \left| 1+\bar{z}\omega  \right|\].
+证明  ∵\[{{\left| z+\omega  \right|}^{2}}-{{\left| 1+\bar{z}\omega  \right|}^{2}}=\left( z+\omega  \right)\left( \bar{z}+\bar{\omega } \right)-\left( 1+\bar{z}\omega  \right)\left( 1+z\bar{\omega } \right)\]
+\[=z\bar{z}+\omega \bar{\omega }-1-z\bar{z}\omega \bar{\omega }={{\left| z \right|}^{2}}+{{\left| \omega  \right|}^{2}}-1-{{\left| z \right|}^{2}}\centerdot {{\left| \omega  \right|}^{2}}=\left( {{\left| z \right|}^{2}}-1 \right)\left( 1-{{\left| \omega  \right|}^{2}} \right)\le 0\].
+∴\[{{\left| z+\omega  \right|}^{2}}\le {{\left| 1+\bar{z}\omega  \right|}^{2}}\]，于是\[\left| z+\omega  \right|\le \left| 1+\bar{z}\omega  \right|\].
+5.应用\[z\in R\]的充要条件解题.
+复数\[z\in R\]的充要条件是\[z=\bar{z}\].
+例7  若复数\[z\]满足\[z+\frac{4}{z}\in R\]，且\[\left| z-2 \right|=2\]，求\[z\].
+解  ∵\[z+\frac{4}{z}\in R\]，∴\[z+\frac{4}{z}=\bar{z}+\frac{4}{{\bar{z}}}\]，整理得\[{{z}^{2}}\bar{z}+4\bar{z}=z\overline{{{z}^{2}}}+4z\]，
+即\[z{{\left| z \right|}^{2}}-{{\left| z \right|}^{2}}\centerdot \bar{z}-4\left( z-\bar{z} \right)=0\]，即\[\left( z-\bar{z} \right)\left( {{\left| z \right|}^{2}}-4 \right)=0\].
+（1）若\[\left| z \right|=2\]，结合已知条件，\[\left| z-2 \right|=2\]，得\[z=1\pm \sqrt{3}i\].
+（2）若\[z-\bar{z}=0\]，结合\[\left| z-2 \right|=2\]，得\[z=0\]（舍去）和\[z=4\].
+综合（1）与（2），得\[z=1\pm \sqrt{3}i\]或\[z=4\].
+6.应用不等式\[\left| \left| {{z}_{1}} \right|-\left| {{z}_{2}} \right| \right|\le \left| {{z}_{1}}+{{z}_{2}} \right|\le \left| {{z}_{1}} \right|+\left| {{z}_{2}} \right|\]解题.
+例8  求函数\[y=\sqrt{4{{a}^{2}}+{{x}^{2}}}+\sqrt{{{\left( x-a \right)}^{2}}+{{a}^{2}}}\]（\[a>0\]）的最值.
+解  令\[{{z}_{1}}=x+2ai\]，\[{{z}_{2}}=a-x+ai\]，
+则\[y=\left| {{z}_{1}} \right|+\left| {{z}_{2}} \right|\ge \left| {{z}_{1}}+{{z}_{2}} \right|=\left| a+3ai \right|=\sqrt{10}a\].
+∴当\[\frac{a-x}{x}=\frac{a}{2a}\]，即\[x=\frac{2a}{3}\]时，函数\[y\]有最小值\[\sqrt{10}a\].
+例9  若\[\left| z+\frac{1}{z} \right|=1\]，求\[\left| z \right|\]的取值范围.
+解  由\[\left| \left| z \right|-\left| \frac{1}{z} \right| \right|\le \left| z+\frac{1}{z} \right|\]，得\[-1\le \left| z \right|-\frac{1}{\left| z \right|}\le 1\]，
+即\[\left\{ \begin{align}
+  & {{\left| z \right|}^{2}}+\left| z \right|-1\ge 0, \\ 
+ & {{\left| z \right|}^{2}}-\left| z \right|-1\le 0, \\ 
+\end{align} \right.\]∴\[\frac{\sqrt{5}-1}{2}\le \left| z \right|\le \frac{\sqrt{5}+1}{2}\].
+注意  在应用不等式\[\left| \left| {{z}_{1}} \right|-\left| {{z}_{2}} \right| \right|\le \left| {{z}_{1}}+{{z}_{2}} \right|\le \left| {{z}_{1}} \right|+\left| {{z}_{2}} \right|\]求函数的最大值、最小值时，需留意取“\[=\]”的条件.当\[\overrightarrow{O{{Z}_{1}}}\]与\[\overrightarrow{O{{Z}_{2}}}\]同向时，\[\left| {{z}_{1}}+{{z}_{2}} \right|=\left| {{z}_{1}} \right|+\left| {{z}_{2}} \right|\]；当\[\overrightarrow{O{{Z}_{1}}}\]与\[\overrightarrow{O{{Z}_{2}}}\]异向时，\[\left| {{z}_{1}}+{{z}_{2}} \right|=\left| \left| {{z}_{1}} \right|-\left| {{z}_{2}} \right| \right|\].
 【训练题】
-（一）最简单的三角方程
-51.若关于\[x\]的方程\[\sin x=2a-1\]有解，则\[a\]的取值范围是（）
-（A）\[0<a<1\].		（B）\[a<0\]或\[a>1\].	（C）\[a\le 0\]或\[a\ge 1\].	（D）\[0\le a\le 1\].
-52.满足\[\cos \left( 2x+45{}^\circ  \right)=\sin \left( 30{}^\circ -x \right)\]的最小正角是（）
-（A）5°.			（B）15°.			（C）30°.			（D）37.5°.
-53.记方程\[\cos 2x=1\]的解集为\[M\]，方程\[\sin 4x=0\]的解集为\[P\]，则\[M\]与\[P\]的关系是（）
-（A）\[M\subset P\].							（B）\[M\supset P\].
-（C）\[M=P\].							（D）\[M\not\subset P\]且\[M\cancel{\supset }P\].
-54.方程\[\cos {{x}^{2}}=1\]的解集是（）
-（A）\[\left\{ x\left| x=2k\pi ,k\in Z \right. \right\}\].					（B）\[\left\{ x\left| x=\pm \sqrt{2k\pi },k\in Z \right. \right\}\]
-（C）\[\left\{ x\left| x=\pm \sqrt{2k\pi },k\in N \right. \right\}\].				（D）\[\left\{ x\left| x=\pm \sqrt{2k\pi },k\in N \right. \right\}\bigcup \left\{ 0 \right\}\].
-55.方程\[{{\sin }^{2}}x={{\cos }^{2}}x\]的解集是（）
-（A）\[\left\{ x\left| x=2k\pi +\frac{\pi }{4},k\in Z \right. \right\}\].			（B）\[\left\{ x\left| x=k\pi +\frac{\pi }{4},k\in Z \right. \right\}\].
-（C）\[\left\{ x\left| x=\frac{k\pi }{2}+\frac{\pi }{4},k\in Z \right. \right\}\].				（D）\[\left\{ x\left| x=\frac{k\pi }{4}+\frac{\pi }{4},k\in Z \right. \right\}\].
-I56.方程\[\sqrt{1-{{\sin }^{2}}x}=\sin x\]的解集是（）
-（A）\[\left\{ x\left| x=k\pi +{{\left( -1 \right)}^{k}}\frac{\pi }{4},k\in Z \right. \right\}\].		（B）\[\left\{ x\left| x=k\pi +\frac{\pi }{4},k\in Z \right. \right\}\].
-（C）\[\left\{ x\left| x=k\pi \pm \frac{\pi }{4},k\in Z \right. \right\}\].				（D）\[\left\{ x\left| x=2k\pi \pm \frac{\pi }{4},k\in Z \right. \right\}\].
-57.方程\[\tan \left( 2x+\frac{\pi }{3} \right)=\frac{\sqrt{3}}{3}\]在\[\left[ 0,2\pi  \right)\]范围内的解的个数是（）
-（A）5.				（B）4.			（C）3.				（D）2.
-58.（1）若方程\[2\cos x={{\left( \frac{1}{2} \right)}^{a}}\]无解，则实数\[a\]的取值范围是          .
-（2）方程\[\sin x=-\cos \frac{2\pi }{5}\]的解集是          .
-（3）方程\[\sin 2x\cdot \cot x=0\]的解集是          .
-59.（1）若函数\[f\left( x \right)=\sin \left( 2x+5\theta  \right)\]的图象关于\[y\]轴对称，则\[\theta \]的值等于          .
-（2）若方程\[\sin x=a\]在\[\left[ \frac{2\pi }{3},\frac{5\pi }{3} \right]\]中恰有两个不同的实数解，则\[a\]的取值范围是         .
-60.（1）若\[-6<{{\log }_{\frac{1}{\sqrt{2}}}}x<-2\]，求方程\[\cos \pi x=1\]的解集.
-（2）求方程\[\lg x=\cos 2x\]解的个数.
-（二）简单的三角方程
-61.方程\[\frac{\cos 2x}{1+\sin 2x}=0\]的解集是（）
-（A）\[\left\{ x\left| x=2k\pi \pm \frac{\pi }{4},k\in Z \right. \right\}\].			（B）\[\left\{ x\left| x=k\pi \pm \frac{\pi }{4},k\in Z \right. \right\}\].
-（C）\[\left\{ x\left| x=k\pi +\frac{\pi }{4},k\in Z \right. \right\}\].				（D）\[\left\{ x\left| x=\frac{k\pi }{2}+\frac{\pi }{4},k\in Z \right. \right\}\].
-62.方程\[\frac{2\sin x}{\sin 2x}=1\]在\[-2\pi \le x\le 2\pi \]范围内（）
-（A）有一个解.		（B）有两个解.		（C）有三个解.	（D）无解.
-63.下列方程中，与方程\[\sin x=\cos x\]的解集相同的是（）
-（A）\[\sin 2x=2{{\sin }^{2}}x\].					（B）\[\cos x=\sqrt{1-{{\cos }^{2}}x}\].
-（C）\[{{\sin }^{2}}x={{\cos }^{2}}x\].						（D）\[\frac{\cos 2x}{\sin x+\cos x}=0\].
-64.写出下列方程的解集：
-（1）\[{{\lg }_{2}}tgx=1+{{\log }_{2}}\sin x\]：          .
-（2）\[\sin x+\sqrt{3}\cos x=2\]：          .
-（3）\[\sin x-\sqrt{3}\cos x=a\]，\[\left| a \right|\le 2\]：          .
-（4）\[\cos \left( x+\frac{2\pi }{3} \right)\cos \left( x+\frac{\pi }{3} \right)=-\frac{1}{4}\]：          .
-（5）\[{{\cos }^{2}}\left( \frac{x-30{}^\circ }{2} \right)+{{\cos }^{2}}\left( \frac{x+30{}^\circ }{2} \right)=1\]：          .
-（6）\[\sin x\cos x+1=\sin x+\cos x\]：          .
-（7）\[\sqrt{2}\sin x=\sin 2x+\cos 2x\]：          .
-（8）\[\sin \left( x-\frac{\pi }{6} \right)\sin \left( x+\frac{\pi }{6} \right)=\frac{1}{2}\]：          .
-65.解下列方程：
-（1）\[\sin 3x-\sin 2x+\sin x=0\].			（2）\[\cos 2x\cos 3x=\cos x\cos 4x\].
-（3）\[\sin 4x\cos 3x=\sin 6x\cos x\].			（4）\[\sin 5x-\sin 3x=\sqrt{2}\cos 4x\].
-（5）\[\sin x+\sin 2x+\sin 3x=1+\cos x+\cos 2x\].
-66.若方程\[\sin x+\cos x=m\]（\[m\in R\]）在\[0\le x\le \pi \]范围内有两个不同的实数解，则（）
-（A）\[-1\le m\le \frac{\sqrt{2}}{2}\].						（B）\[-1<m\le 1\]或\[m=\sqrt{2}\].
-（C）\[1\le m<\sqrt{2}\].						（D）\[-\sqrt{2}<m<\sqrt{2}\].
-67.方程\[{{\sin }^{2}}x+2\sin x-a=0\]有解的条件为（）
-（A）\[a\in R\].			（B）\[a\in \left[ -1,3 \right]\].		（C）\[a\in \left[ -1,\infty  \right)\].	（D）\[a\in \left( -\infty ,3 \right]\].
-68.若方程\[{{\cos }^{2}}x-\left| \sin x \right|+1=0\]在\[-\pi <x<\pi \]范围内的解之和是\[p\]，解之积是\[q\]，则下列结论正确的是（）
-（A）\[p=-1\].		（B）\[p=0\].			（C）\[q=1\].			（D）\[q=2\].
-69.设\[f\left( x \right)=\cos \left( x-a \right)+\sin \left( x+a \right)\]是偶函数，求\[a\]的值.
-70.解下列方程：
-（1）\[8{{\sin }^{2}}x=3\sin 2x-1\].				（2）\[{{\left( \sin x+\cos x \right)}^{2}}=2\cos 2x\].
-71.解下列方程：
-（1）\[\frac{1+\tan x}{1-\tan x}=1+\sin 2x\].				（2）\[\tan \left( \frac{\pi }{3}+x \right)+\tan \left( \frac{\pi }{6}-x \right)=\frac{4}{\sqrt{3}}\].
-72.解下列方程：
-（1）\[\sin x+\cos x+\sin x\cos x=1\].
-（2）\[\sin 2x-12\left( \sin x-\cos x \right)+12=0\].
-（3）\[\sqrt{2}\left( \sin x+\cos x \right)=\tan x+\cot x\].
-（4）\[\sin x+\cos x+\tan x+\cot x+\sec x+\csc x+2=0\].
-73.（1）已知方程\[2{{x}^{2}}-4x\sin \theta +3\cos \theta =0\]（\[0\le \theta \le \pi \]）有相等的实根，求\[\theta \]的值，并解此方程.
-（2）已知方程\[{{x}^{2}}-\left( \sin \alpha +\cos \alpha  \right)x+{{\sin }^{2}}\alpha -\sin \alpha \cos \alpha -1=0\]有两个相等的实根，求实数\[\alpha \]和相成的\[x\]的值. 
-（3）已知方程\[{{x}^{2}}-4x\cos 2\theta +2=0\]和方程\[2{{x}^{2}}+4x\sin 2\theta -1=0\]有—根互为倒数，求角\[\theta \]的值（\[0<\theta <\pi \]）.
-74.（1）已知关于\[x\]的方程\[{{\sin }^{2}}x+\cos x+a=0\]有解，求实数\[a\]的取值范围.
-（2）已知\[{{\cos }^{2}}x-\sin x+a=0\]在\[0<x\le \frac{\pi }{2}\]范围内有解，求实数\[a\]的取值范围.
-（3）求实数\[k\]的取值范围，使关于\[x\]的方程\[{{\sin }^{2}}x-\sin x+k=0\]在\[\left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]上，①无解；②恰有一解；③有两解.
-75.（1）若关于\[x\]的方程\[\cos 2x-\sin x+1+m=0\]有解，求实数\[m\]的取值范围.
-I（2）若关于\[x\]的方程\[{{\sin }^{2}}x+4\sin x\cos x-2{{\cos }^{2}}x=a\]恒有实数解，求实数\[a\]的取值范围.
-76.将下列各组数从小到大排列：
-（1）\[\frac{1}{2}\]，\[\sin \frac{1}{2}\]，\[\arcsin \frac{1}{2}\].				（2）\[\frac{1}{3}\]，\[\cos \frac{1}{3}\]，\[\arccos \frac{1}{3}\].
-（3）\[\arcsin \frac{1}{4}\]，\[\arctan \sqrt{5}\]，\[\arccos \left( -\frac{1}{3} \right)\].
-77.（1）已知\[0<x<1\]，求证：\[2\arctan \frac{1+x}{1-x}+\arcsin \frac{1-{{x}^{2}}}{1+{{x}^{2}}}=\pi \].
-（2）已知\[a,b,c>0\]，求证：若\[\arctan a+\arctan b+\arctan c=\pi \]，则\[a+b+c=abc\]，反过来也成立.
-78.（1）画出函数\[y=\arctan x+\arctan \frac{1-x}{1+x}\]的图象.
-（2）在不同坐标系内分别画出\[y=\arcsin \left( \sin x \right)\]\[\left( -\frac{\pi }{2}\le x\le \frac{3\pi }{2} \right)\]和\[y=\arcsin \left( \sin x \right)\]（\[x\in R\]）的图象.
-79.解下列方程：
-（1）\[x=\arcsin \left( \sin 2x \right)\].
-（2）\[\cos \left( \pi \sin x \right)=\sin \left( \pi \cos x \right)\]（\[0\le \pi <2\pi \]）.
-（3）\[{{x}^{2}}+2x\cos \left( xy \right)+1=0\]（\[x,y\in R\]）.
-80.已知\[\alpha ,\beta \]是关于\[x\]的方程\[a\cos x+b\sin x=c\]的两个实根（\[{{a}^{2}}+{{b}^{2}}\ne 0\]，\[a\ne 2k\pi +\beta \]，\[k\in Z\]），求证\[{{\cos }^{2}}\frac{\alpha -\beta }{2}=\frac{{{c}^{2}}}{{{a}^{2}}+{{b}^{2}}}\].
-81.已知\[\Delta ABC\]的两内角\[A,B\]满足方程\[8{{\sin }^{2}}x+3\sin 2x-4=0\]，且\[A>B\]，求此三角形三边长之比.
-82.解方程\[\tan \left( x+\frac{\pi }{4} \right)+\tan \left( x-\frac{\pi }{4} \right)=2\cot x\].
-83.已知关于\[x\]的方程\[x=a\sin x+b\]（\[0<a<1\]，\[b\in R\]）有实根，求证：该方程只有一个实根.
-84.（1）已知方程\[{{\sin }^{2}}x+3{{a}^{2}}\cos x-2{{a}^{2}}\left( 3a-2 \right)-1=0\]有实数解，求实数\[a\]的取值范围.
-（2）已知关于\[x\]的方程\[2\cos 2x+4\left( a-1 \right)\sin x-4a+1=0\]在\[0\le x\le 2\pi \]范围内有相异两个实根，求\[a\]的取值范围.
-85.已知关于\[x\]的方程\[\cos 2x-2\left( 2a+1 \right)\cos x+2{{a}^{2}}+2a+1=0\]在\[\left[ 0,2\pi  \right)\]范围内有两个不同的解，求实数\[a\]的取位范围.
-.
+（一）复数的加法与减法
+21.两个共轭虚数的差一定是（）.，
+（A）非零实数.		（B）零.			（C）纯虚数.			（D）非纯虚数.
+22.复平面内，已知复数\[2-i\]和\[3+4i\]分別对于点\[M,N\]，则向量\[\overrightarrow{MN}\]对应的复数是（）
+（A）\[5+3i\].			（B）\[-1-5i\].	（C）\[1+5i\].			（D）\[1-5i\]
+23.若复数\[z=3+ai\]满足条件\[\left| z-2 \right|<2\]，则实数\[a\]的取值范围是（）
+（A）\[\left( -2\sqrt{2},2\sqrt{2} \right)\].	（B）（－2，2）.	（C）（－1，1）.		（D）\[\left( -\sqrt{3},\sqrt{3} \right)\].
+24.若复数\[z\]满足\[\left| z+3-4i \right|=2\]，则\[\left| z \right|\]的最小值和最大值分别是（）
+（A）1和9.			（B）4和10.		（C）5和11.			（D）3和7.
+25.（1）若\[\left| z-25i \right|\le 15\]，\[z\in C\]，则\[\left| z \right|\]最小时的\[z=\]          ，\[\left| z \right|\]最大时的\[z=\]         .
+（2）若复数\[z\]满足\[\left| z \right|=3\]，则\[\left| z-1+\sqrt{3}i \right|\]的最小值是          .
+（3）若如数\[z\]满足\[\left| z-3 \right|=5\]，则\[\left| z-\left( 1+4i \right) \right|\]的最大值是          ，最小值是          .
+（4）若\[\left| z-1-2i \right|=1\]，则\[\left| z-3-i \right|\]的取值范围是          .
+26.复平面内，已知点\[A,B,C\]分别对应于复数\[{{z}_{1}}=1+i\]，\[{{z}_{2}}=5+i\]，\[{{z}_{3}}=3+3i\]，以\[AB,AC\]为邻边作一平行四边形\[ABDC\]，求点\[D\]对应的复数\[{{z}_{4}}\]及\[AD\]的长.
+27.若\[f\left( \overline{z+i} \right)=2z+\bar{z}+i\]，则\[f\left( i \right)\]等于（）
+（A）1.				（B）－1.			（C）\[i\].			（D）\[-i\].
+28.若复数\[z\]满足\[{{\left| z+1 \right|}^{2}}-{{\left| z+i \right|}^{2}}=1\]，则\[z\]在复平面内的对应点所表示的图形是（）
+（A）直线.			（B）圆.				（C）椭圆.		（D）双曲线.
+29.若复数\[z\]满足\[\left| z-1 \right|+\left| z+1 \right|=2\]，则\[z\]在复平面内的对应点所表示的图形是（）
+（A）圆.				（B）椭圆.			（C）双曲线.		（D）线段.
+30.若\[{{z}_{1}},{{z}_{2}}\]都是虚数，则“\[{{z}_{1}}={{\bar{z}}_{2}}\]”的一个必要不充分条件是（）
+（A）\[\left| {{z}_{1}}-{{{\bar{z}}}_{2}} \right|=0\].	（B）\[{{\bar{z}}_{1}}={{z}_{2}}\].		（C）\[{{z}_{1}}={{z}_{2}}\].	（D）\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|\].
+31.复平面内，曲线\[\left| z-1+i \right|=1\]关于直线\[y=x\]的对称曲线方程为（）
+（A）\[\left| z-1-i \right|=1\].	（B）\[\left| \bar{z}-1-i \right|=1\].	（C）\[\left| z+1+i \right|=1\].（D）\[\left| \bar{z}+1+i \right|=1\].
+32.若\[\left| z \right|=1\]，则\[\left| z+i \right|+\left| z-6 \right|\]的最小值等于（）
+（A）7.				（B）\[\sqrt{37}\].			（C）6.			（D）5.
+33.（1）若复平面内的点\[A,B\]分别对应于复数\[2+i\]和\[1-i\]，则线段\[AB\]的中垂线方程的复数形式是          .
+（2）设\[z\in C\]，则方程\[\left| z+2 \right|+\left| z-2 \right|=6\]对应的曲线的普通方程是          .
+（3）以\[\left( \pm 3,0 \right)\]为两焦点，且长半轴长为5的椭圆方程的复数形式是          .
+（4）已知复数\[z\]满足\[\left| z-\left( 1+i \right) \right|-\left| z-\left( 1-i \right) \right|=2\]，则复平面内\[z\]的对应点的轨迹是          .
+（5）若\[\left| z-3 \right|+\left| z+3 \right|=10\]，且\[\left| z-5i \right|-\left| z+5i \right|=8\]，则复数\[z=\]          .
+（6）若\[\left| z-2 \right|=\sqrt{17}\]，\[\left| z-3 \right|=4\]，则复数\[z=\]          .
+34.（1）设\[\left| {{z}_{1}} \right|=3\]，\[\left| {{z}_{2}} \right|=5\]，\[\left| {{z}_{1}}+{{z}_{2}} \right|=6\]，求\[\left| {{z}_{1}}-{{z}_{2}} \right|\].
+（2）若\[\left| {{z}_{1}} \right|=3\]，\[\left| {{z}_{1}}+{{z}_{2}} \right|=5\]，\[\left| {{z}_{1}}-{{z}_{2}} \right|=7\]，求\[\left| {{z}_{2}} \right|\].
+35.（1）已知两个复数集合\[A=\left\{ z\left| \left| z-2 \right|\le 2 \right. \right\}\]，\[B=\left\{ z\left| z=\frac{{{z}_{1}}}{2}i+b,{{z}_{1}}\in A,b\in R \right. \right\}\].
+①当\[b=0\]时，求集合\[B\]所对应的区域；
+②当\[A\bigcap B=\varnothing \]时，求\[b\]的取值范围.
+（2）若复数\[{{z}_{1}}=1+2ai\]，\[{{z}_{2}}=a+i\]（\[a\in R\]），集合\[A=\left\{ z\left| \left| z-{{z}_{1}} \right|\le \sqrt{2} \right. \right\}\]，\[B=\left\{ z\left| \left| z-{{z}_{2}} \right|\le 2\sqrt{2} \right. \right\}\]满足\[A\bigcap B=\varnothing \]，求\[a\]的取值范围.
+36.（1）已知复数\[{{z}_{1}},{{z}_{2}}\]满足\[\left| {{z}_{1}} \right|=1\]，\[\left| {{z}_{2}} \right|=1\]，且\[{{z}_{1}}+{{z}_{2}}=\frac{1}{2}+\frac{\sqrt{3}}{2}i\]，求\[{{z}_{1}},{{z}_{2}}\].
+（2）复平面内三点\[A,B,C\]依次对应于复数\[1+z\]，\[1+2z\]，\[1+3z\]，其中\[\left| z \right|=2\]，\[O\]为原点，若\[{{S}_{\Delta AOB}}+{{S}_{\Delta BOC}}=2\]，求复数\[z\].
+（二）复数的乘法与除法
+37.若复数\[z={{\left( 1+i \right)}^{2}}\]，则\[z\centerdot \bar{z}\]的值为（）
+（A）\[-4i\].		（B）\[4i\].			（C）4.				（D）8.
+38.计算\[{{\left( \frac{\sqrt{2}i}{1+i} \right)}^{100}}\]的结果是（）
+（A）\[i\].			（B）\[-i\].			（C）1.				（D）－1.
+39.当\[n\]取遍正整数时，\[{{i}^{n}}+{{i}^{-n}}\]表示不同值的个数是（）
+（A）1.			（B）2.				（C）3.				（D）4.
+40.使\[{{\left( \frac{1+i}{1-i} \right)}^{n}}\]为实数的最小自然数\[n\]是（）
+（A）2.			（B）4.				（C）6.				（D）8.
+41.“\[{{z}_{1}}\]和\[{{z}_{2}}\]为共轭复数”是“\[{{z}_{1}}+{{z}_{2}}\in R\]且\[{{z}_{1}}\centerdot {{z}_{2}}\in R\]”的（）
+（A）充分不必要条件.					（B）必要不充分条件.
+（C）充要条件.						（D）既不充分也不必要条件.
+42.若\[{{\left( z-1 \right)}^{2}}={{\left| z-1 \right|}^{2}}\]，则\[z\]一定是（）
+（A）纯虚数.		（B）实数.			（C）虚数.			（D）零.
+43.设\[z=1+ki\]（\[k\in R\]），则\[{{z}^{2}}\]对应点的轨迹是（）
+（A）圆.			（B）椭圆.			（C）抛物线.			（D）双曲线.
+44.若都是\[z\]，\[{{z}_{1}}\]，\[{{z}_{2}}\]复数，判断下列命题的真假：
+（1）\[{{\left| z \right|}^{2}}={{z}^{2}}\].（）					（2）\[{{\left| z \right|}^{2}}\ne {{z}^{2}}\].（）
+（3）\[\left| {{z}^{2}} \right|={{\left| z \right|}^{2}}\].（）					（4）\[\left| z \right|\le 1\Leftrightarrow -1\le z\le 1\].（）
+（5）\[\sqrt{{{\left| z \right|}^{2}}}=\left| z \right|\].（）					（6）若\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|\]，则\[{{z}_{1}}=\pm {{z}_{2}}\].（）
+（7）\[z+\bar{z}\]是实数.（）				（8）\[z-\bar{z}\]是纯虚数.（）
+（9）\[{{z}^{2}}\ge 0\].（）						（l0）若\[\left| z \right|=1\]，则\[\bar{z}=\frac{1}{z}\].（）
+（11）\[z=\bar{z}\Leftrightarrow z\in R\].（）			（12）若\[z_{1}^{2}+z_{2}^{2}=0\]，则\[{{z}_{1}}={{z}_{2}}=0\].（）
+45.（1）\[{{\left( i-\frac{1}{i} \right)}^{6}}\]的虚部是          .
+（2）计算\[{{\left( 1+i \right)}^{20}}-{{\left( 1-i \right)}^{20}}=\]          .
+（3）计算\[\frac{{{\left( 1+i \right)}^{5}}}{1-i}+\frac{{{\left( 1-i \right)}^{5}}}{1+i}=\]          .
+（4）若\[z=1+i\]，则\[\frac{5}{1+{{z}^{2}}}=\]          .
+（5）计算\[\frac{-2\sqrt{3}+i}{1+2\sqrt{3}i}+{{\left( \frac{\sqrt{2}}{1+i} \right)}^{3996}}=\]          .
+（6）若\[a\in R\]，且\[\frac{a+2i}{3+i}\in R\]，则\[\frac{a+2i}{3+i}=\]          .
+46.（1）已知\[\omega =-\frac{1}{2}+\frac{\sqrt{3}}{2}i\]，则：①\[{{\omega }^{2}}+\frac{1}{{{\omega }^{2}}}=\]          ；②\[{{\omega }^{3}}+\frac{1}{{{\omega }^{3}}}=\]          .
+③\[{{\omega }^{14}}+\frac{1}{{{\omega }^{14}}}=\]          ；④\[1+\omega +{{\omega }^{2}}+{{\omega }^{3}}+\cdots +{{\omega }^{10}}=\]          .
+（2）若\[f\left( x \right)=2{{x}^{4}}-11{{x}^{3}}-7{{x}^{2}}-9x+4\]，则\[f\left( -\frac{1}{2}+\frac{\sqrt{3}}{2}i \right)=\]          .
+47.计算下列各题：
+（1）\[{{\left( i-\frac{1}{i} \right)}^{10}}=\]          .
+（2）\[\frac{{{\left( 1+i \right)}^{3}}-{{\left( 1-i \right)}^{3}}}{{{\left( 1+i \right)}^{2}}-{{\left( 1-i \right)}^{2}}}=\]          .
+（3）\[i\centerdot {{i}^{2}}\centerdot {{i}^{3}}\centerdot \cdots \centerdot {{i}^{1997}}=\]          .
+（4）\[i+{{i}^{2}}+{{i}^{3}}+\cdots +{{i}^{1997}}=\]          .
+（5）\[{{\left( \frac{1+i}{\sqrt{2}} \right)}^{1997}}+{{\left( \frac{1-i}{\sqrt{2}} \right)}^{1997}}=\]          .
+48.已知\[{{i}^{3m}}={{i}^{n}}\]（\[m,n\in Z\]），则\[{{i}^{m+n}}\]的值为（）
+（A）1.			（B）\[i\].				（C）\[-i\].			（D）－1.
+49.若\[x+\frac{1}{x}=-1\]，则\[{{x}^{17}}+{{x}^{-17}}\]的值等于（）
+（A）0.			（B）－1.			（C）1.				（D）2.
+50.（1）计算：\[1+2i+3{{i}^{2}}+4{{i}^{3}}+\cdots +10{{i}^{9}}\].
+（2）计算： \[i+2{{i}^{2}}+3{{i}^{3}}+\cdots +359{{i}^{359}}\].
+（3）求首项为\[i\]，公比为\[1+\frac{1}{i}\]的等比数列的第七项.
+51.（1）计算：
+①\[{{\left( \frac{-1+i}{1+\sqrt{3}i} \right)}^{3}}\]；							②\[\frac{{{\left( \sqrt{3}+i \right)}^{5}}}{-1+\sqrt{3}i}\].
+（2）求下列复数的模：
+①\[\left( 3+4i \right)\left( -\frac{1}{2}+\frac{\sqrt{3}}{2}i \right)\]；					②\[\frac{5-12i}{-8+15i}\]；
+③\[\frac{{{\left( 1+i \right)}^{3}}}{{{\left( 1-i \right)}^{2}}\left( 9+40i \right)}\]；						④\[\frac{1-{{t}^{2}}}{1+{{t}^{2}}}+\frac{2t}{1+{{t}^{2}}}i\]（\[t\in R\]）；
+⑤\[\frac{{{\left( 1-i \right)}^{10}}{{\left( 3-4i \right)}^{4}}}{{{\left( -\sqrt{3}+i \right)}^{8}}}\]；						⑥\[\frac{\left( \sqrt{6}+i \right){{\left( 1+i \right)}^{2}}}{\left( -1+\sqrt{6}i \right)\left( -\frac{1}{3}+\frac{2\sqrt{2}}{3}i \right)\left( \sqrt{3}i \right)}\].
+52.已知\[z=1+i\]，且\[\frac{{{z}^{2}}+az+b}{{{z}^{2}}-z+1}=1-i\]，求实数\[a,b\]的值.
+53.已知\[a>0\]，且\[a\ne 1\]，若\[\left( {{\log }_{a}}x+i \right)z=1+i{{\log }_{a}}x\]，问：\[x\]为何值时，\[z\]为：
+（1）实数.		（2）虚数.			（3）纯虚数.			（4）模等于1的复数.
+54.（1）已知\[z=\left| \frac{\sqrt{2}i{{\left( 3+i \right)}^{2}}}{{{\left( \sqrt{3}+\sqrt{7}i \right)}^{2}}} \right|+2i\]，求\[\left| z \right|\].
+（2）已知复数\[z=\frac{{{\left( 1+i \right)}^{3}}{{\left( a-1 \right)}^{2}}}{\sqrt{2}{{\left( a-3i \right)}^{2}}}\]满足\[\left| z \right|=\frac{2}{3}\]，求实数\[a\]的值.
+（3）已知复数\[z\]满足\[\left| z \right|=5\]，且\[\left( 3+4i \right)z\]是纯虚数，求\[z\].
+（4）已知\[z=\frac{\sqrt{3}\sin \theta +i\cos \theta }{\sin \theta -i\sqrt{3}\cos \theta }\]，求\[z\]的最大值.
+（5）已知复数\[z\]满足\[\left| z+\frac{1}{z} \right|=1\]，求\[\left| z \right|\]的取值范围.
+55.（1）已知复数\[z\]满足\[z+\frac{4}{z}\in R\]，\[\left| z-2 \right|=2\]，求\[z\].
+（2）已知复数\[z\]满足\[\left| z-4 \right|=\left| z-4i \right|\]，\[z+\frac{14-z}{z-1}\in R\]，求\[z\].
+（3）已知\[\left| \frac{z-12}{z-8i} \right|=\frac{5}{3}\]，\[\left| \frac{z-4}{z-8} \right|=1\]，求复数\[z\].
+56.根据条件，求复数\[z\]在复平面内的对应点轨迹的普通方程：
+（1）\[{{z}^{2}}+\frac{9}{{{z}^{2}}}\in R\].	（2）\[\frac{z}{z-1}\]为纯虚数.		（3）\[z\centerdot \bar{z}+az+\bar{z}=0\]（\[a\in R\]）.
+57.已知非零夏数\[{{z}_{1}},{{z}_{2}}\]满足\[\left| {{z}_{1}}+{{z}_{2}} \right|=\left| {{z}_{1}}-{{z}_{2}} \right|\]，求证：\[{{\left( \frac{{{z}_{1}}}{{{z}_{2}}} \right)}^{2}}\]一定是负数.
+58.（1）已知\[P,Q\]两点分别对应于复数\[{{z}_{1}}\]和\[2{{z}_{1}}+3-4i\]，若点\[P\]在曲线\[\left| z \right|=2\]上移动，求点\[Q\]的轨迹.
+（2）已知复数\[z\]满足\[\left| z \right|=2\]，求复数\[\omega =\frac{z+1}{z}\]在复平面内的对应点的轨迹.
+（3）复平面内两动点\[{{P}_{1}},{{P}_{2}}\]所对应的复数\[{{z}_{1}},{{z}_{2}}\]满足\[{{z}_{1}}={{z}_{2}}i+3\]，又点\[{{P}_{2}}\]沿着曲线\[\left| z-5 \right|-\left| z+5 \right|=6\]运动，试求点\[{{P}_{1}}\]的轨迹方程，并指出它表示何种曲线.
+（4）复平面内，线段\[AB\]上的点\[P\]对应的复数为\[z\]，其中\[A,B\]点分别对应于复数\[{{z}_{A}}=1\]，\[{{z}_{B}}=i\]，求\[{{z}^{2}}\]的对应点轨迹的普通方程，并画出图形.
+（5）已知点\[Q\left( u,v \right)\]在\[O\left( 0,0 \right)\]，\[A\left( 1,0 \right)\]，\[B\left( 1,1 \right)\]为顶点的\[\Delta OAB\]的边界上移动，求\[z={{\left( u+2vi \right)}^{2}}+2+3i\]所对应的点\[P\]的轨迹，并画出草图.
+59.求证：
+（1）复数\[z\]可以表示为\[\frac{1+ti}{1-ti}\]（\[t\in R\]）的充要条件是\[\left| z \right|=1\]且\[z\ne -1\].
+（2）\[\frac{z-1}{z+1}\]为纯虚数的充要条件是\[\left| z \right|=1\]且\[z\ne \pm 1\].
+60.利用\[\left| \left| {{z}_{1}} \right|-\left| {{z}_{2}} \right| \right|\le \left| {{z}_{1}}+{{z}_{2}} \right|\le \left| {{z}_{2}} \right|+\left| {{z}_{2}} \right|\]解下列各题：
+（1）求函数\[y=\sqrt{{{x}^{2}}+4}+\sqrt{{{x}^{2}}-8x+17}\]的最小值及相应的\[x\].
+（2）求函数\[y=\sqrt{{{x}^{2}}+9}-\sqrt{{{x}^{2}}-2x+5}\]的最大值及相应的\[x\].
+（3）求证：\[\sqrt{{{x}^{2}}+{{y}^{2}}}+\sqrt{{{\left( x-2 \right)}^{2}}+{{y}^{2}}}+\sqrt{{{x}^{2}}+{{\left( y-2 \right)}^{2}}}+\sqrt{{{\left( x-2 \right)}^{2}}+{{\left( y-2 \right)}^{2}}}\ge 4\sqrt{2}\].
+61.利用\[{{\left| z \right|}^{2}}=z\centerdot \bar{z}\]解下列各题：.
+（1）若\[\left| z \right|=1\]，求证\[\left| \frac{a-z}{1-a\bar{z}} \right|=1\].
+（2）若\[\left| 1-{{z}_{1}}{{z}_{2}} \right|=\left| {{z}_{1}}-{{{\bar{z}}}_{2}} \right|\]，求证：\[\left| {{z}_{1}} \right|\]，\[\left| {{z}_{2}} \right|\]中至少有一个为1.
+（3）若\[\left| {{z}_{1}} \right|\le 1\]，\[\left| {{z}_{2}} \right|\le 1\]，求证：\[\left| \frac{{{z}_{1}}-{{z}_{2}}}{1-{{{\bar{z}}}_{1}}{{z}_{2}}} \right|\le 1\].
+（4）若复数\[{{z}_{i}}\]满足\[\left| {{z}_{i}} \right|=1\]（\[i=1,2,3\]），求\[\left| \frac{{{z}_{1}}{{z}_{2}}+{{z}_{2}}{{z}_{3}}+{{z}_{3}}{{z}_{1}}}{{{z}_{1}}+{{z}_{2}}+{{z}_{3}}} \right|\]的值.
+（5）已知复数\[A={{z}_{1}}{{\bar{z}}_{2}}+{{z}_{2}}{{\bar{z}}_{1}}\]，\[B={{z}_{1}}{{\bar{z}}_{1}}+{{z}_{2}}{{\bar{z}}_{2}}\]，其中\[{{z}_{1}},{{z}_{2}}\]是非零复数，问：\[A,B\]可不可以比较大小？并证明之.
+62.（1）已知\[\left| z \right|=1\]，\[\left| {{z}_{2}} \right|=\sqrt{2}\]，求证：\[\left| \frac{2{{z}_{1}}+\left( 1+3i \right)z_{2}^{2}}{3+4i} \right|\le \frac{12}{5}\].
+（2）已知\[z=\frac{\sin \alpha +i\sqrt{2}\cos \alpha }{\sqrt{2}\sin \alpha -i\cos \alpha }\]，求证：\[\frac{\sqrt{2}}{2}\le \left| z \right|\le \sqrt{2}\].
+（3）复平面内三点\[A,B,C\]分别对应于复数\[{{z}_{1}},{{z}_{2}},{{z}_{3}}\]，若\[\frac{{{z}_{2}}-{{z}_{1}}}{{{z}_{3}}-{{z}_{1}}}=1+\frac{4}{3}i\]，试求\[\Delta ABC\]的三边之比.
+63.已知\[\left| z \right|=1\]，求下列各式的最大值和最小值：
+（1）\[\left| {{z}^{2}}-z+1 \right|\].		（2）\[\left| {{z}^{2}}-z+2 \right|\].		（3）\[\left| {{z}^{3}}-3z-2 \right|\].
+三、复数的三角形式
+【典型题型和解题技巧】
+1.复数的三角形式.
+（1）“伪三角形式”化为三角形式.
+复数的三角形式是\[r\left( \cos \theta +i\sin \theta  \right)\]（\[r\ge 0\]），读者需能熟练地将下列各“伪三角形式，，化为三角形式（\[r>0\]）：
+\[r\left( \cos \theta -i\sin \theta  \right)=\left[ \cos \left( -\theta  \right)+i\sin \left( -\theta  \right) \right]\]，\[r\left( -\cos \theta +i\sin \theta  \right)=\left[ \cos \left( \pi -\theta  \right)+i\sin \left( \pi -\theta  \right) \right]\]，\[-r\left( \cos \theta +i\sin \theta  \right)=r\left[ \cos \left( \pi +\theta  \right)+i\sin \left( \pi +\theta  \right) \right]\]，
+\[r\left( \sin \theta +i\cos \theta  \right)=r\left[ \cos \left( \frac{\pi }{2}-\theta  \right)+i\sin \left( \frac{\pi }{2}-\theta  \right) \right]\].
+例1  将下列复数化为三角形式：
+（1）\[2\left( \cos \frac{\pi }{5}-i\sin \frac{\pi }{5} \right)\].					（2）\[2\left( -\cos \frac{\pi }{5}+i\sin \frac{\pi }{5} \right)\].
+（3）\[-2\left( \cos \frac{\pi }{5}+i\sin \frac{\pi }{5} \right)\].					（4）\[2\left( \sin \frac{\pi }{5}+i\cos \frac{\pi }{5} \right)\].
+解  （1）\[2\left( \cos \frac{\pi }{5}-i\sin \frac{\pi }{5} \right)=2\left[ \cos \left( -\frac{\pi }{5} \right)+i\sin \left( -\frac{\pi }{5} \right) \right]\].
+（2）\[2\left( -\cos \frac{\pi }{5}+i\sin \frac{\pi }{5} \right)=2\left( \cos \frac{4\pi }{5}+i\sin \frac{4\pi }{5} \right)\].
+（3）\[-2\left( \cos \frac{\pi }{5}+i\sin \frac{\pi }{5} \right)=2\left( \cos \frac{6\pi }{5}+i\sin \frac{6\pi }{5} \right)\].
+（4）\[2\left( \sin \frac{\pi }{5}+i\cos \frac{\pi }{5} \right)=2\left( \cos \frac{3\pi }{10}+i\sin \frac{3\pi }{10} \right)\].
+（2）代数形式化为三角形式.
+将复数的代数形式\[z=a+bi\]（\[a,b\in R\]）化为三角形式\[z=r\left( \cos \theta +i\sin \theta  \right)\]（\[r>0\]），可按如下步骤进行：
+①画图，并标出\[r\]和\[\theta \]；
+②求\[\theta \]和\[r\]，其中\[r=\sqrt{{{a}^{2}}+{{b}^{2}}}\]，\[\cos \theta =\frac{a}{r}\]，\[\sin \theta =\frac{b}{r}\]；
+③写出\[z\]的三角形式.
+例2  将下列复数化成三角形式：
+（1）\[z=-\sqrt{3}+i\].					（2）\[5-12i\].
+解  （1）如图4（1），
+∵\[r=2\]，\[\cos \theta =-\frac{\sqrt{3}}{2}\]，\[\theta =\frac{5\pi }{6}\]，∴\[-\sqrt{3}+i=2\left( \cos \frac{5\pi }{6}+i\sin \frac{5\pi }{6} \right)\].
+（2）如图4（2），
+∵\[r=13\]，\[\cos \theta =\frac{5}{13}\]，\[\theta =-\arccos \frac{5}{13}\]，
+∴\[5-12i=13\left[ \cos \left( -\arccos \frac{5}{13} \right)+i\sin \left( -\arccos \frac{5}{13} \right) \right]\].
+ 
+                         （1）                （2）
+（图4）
+（3）复数的辐角、辐角主值\[\arg z\].
+需要时时记住的是复数\[z\]的辐角主值的取值范围是\[\left[ 0,2\pi  \right)\]，\[\arg z\in \left[ 0,2\pi  \right)\].
+例3  若复数\[z=\frac{1}{2}+i\sin \alpha \]（\[\alpha \in R\]），且\[\left| z \right|\le 1\]，求\[\arg z\]和\[\alpha \]的取值范围_
+解  ∵\[\left| z \right|\le 1\]，∴\[\frac{1}{4}+{{\sin }^{2}}\alpha \le 1\]，∴\[-\frac{\sqrt{3}}{2}\le \sin \alpha \le \frac{\sqrt{3}}{2}\]
+如图5，\[z\]的对应点\[P\]应在线段\[AB\]上运动，当点\[P\]在\[MA\]上时，\[\arg z\in \left[ 0,\frac{\pi }{3} \right]\]，当点\[P\]在\[BM\]上时，\[\arg z\in \left[ \frac{5\pi }{3},2\pi  \right)\].
+ 
+（图5）
+∴\[\arg z\in \left[ 0,\frac{\pi }{3} \right]\bigcup \left[ \frac{5\pi }{3},2\pi  \right)\].
+∴\[a\in \left[ k\pi -\frac{\pi }{3},k\pi +\frac{\pi }{3} \right]\]（\[k\in Z\]）.
+2.复数\[z\]，\[\bar{z}\]，\[\frac{1}{z}\]之间的关系.
+在很多复数问题中会出现有关\[z\]，\[\bar{z}\]和\[\frac{1}{z}\]的式子.读者务必对它们的关系及与之相对应的
+点的位置十分熟悉.
+设\[z=r\left( \cos \theta +i\sin \theta  \right)\]（\[r>0\]），则\[\bar{z}=r\left[ \cos \left( -\theta  \right)+i\sin \left( -\theta  \right) \right]\]，
+\[\frac{1}{z}=\frac{1}{r}\left[ \cos \left( -\theta  \right)+i\sin \left( -\theta  \right) \right]\].
+它们的对应点如图6所示.
+ 
+            （\[r>1\]）              （\[r=1\]）              （\[r<1\]）
+（图6）
+例4  已知\[z+\frac{1}{z}=\cos x\]（\[x\in R\]），且\[\left| z \right|\le 1\]，求\[\arg z\]的取值范围.
+解  先设\[\left| z \right|<1\]，则如图7所示，此时\[z+\frac{1}{z}\]所对应的向量不在\[x\]轴上，
+ 
+（图7）
+∴\[z+\frac{1}{z}\ne \cos x\]，
+故\[\left| z \right|<1\]不可能，于是\[\left| z \right|=1\].
+令\[z=\cos \theta +i\sin \theta \]（\[0\le \theta <2\pi \]），
+则由\[z+\frac{1}{z}=z+\bar{z}=2\cos \theta =\cos x\]，
+得\[\cos \theta =\frac{1}{2}\cos x\in \left[ -\frac{1}{2},\frac{1}{2} \right]\].
+∴\[\theta \in \left[ \frac{\pi }{3},\frac{2\pi }{3} \right]\bigcup \left[ \frac{4\pi }{3},\frac{5\pi }{3} \right]\]，即\[\arg z\in \left[ \frac{\pi }{3},\frac{2\pi }{3} \right]\bigcup \left[ \frac{4\pi }{3},\frac{5\pi }{3} \right]\].
+3.应用复数的三角形式解题.
+若题目给出了\[\left| z \right|=r\]（\[r>0\]）的条件，一般来说，复数的三角形式当是解题的最佳选择了，即可令\[z=r\left( \cos \theta +i\sin \theta  \right)\].特别地，若\[\left| z \right|=1\]，则可令\[z=\cos \theta +i\sin \theta \].
+例5  已知非零复数\[z\]满足\[\left| z-i \right|=1\]，且\[\arg z=\theta \]，求：
+（1）\[\theta \]的取值范围.	（2）复数\[z\]的模.	（3）复数\[{{z}^{2}}-zi\]的辐角.
+解  （1）∵\[\left| z-i \right|=1\]，∴\[z\]的对应点\[P\]在以（0，1）为圆心，半径为1的圆上（如图8），\[\theta \]的取值范围是\[0<\theta <\pi \].
+（2）如图9，在Rt\[\Delta AOP\]中，
+∵\[\left| OP \right|=2\sin \theta \]，故\[\left| z \right|=2\sin \theta \].
+（3）由\[\left| z-i \right|=1\]，故可令\[z-i=\cos \varphi +i\sin \varphi \]（\[\varphi \in R\]），
+于是\[{{z}^{2}}-zi=z\left( z-i \right)=2\sin \theta \left( \cos \theta +i\sin \theta  \right)\centerdot \left( \cos \varphi +i\sin \varphi  \right)=2\sin \theta \left[ \cos \left( \theta +\varphi  \right)+i2\sin \left( \theta +\varphi  \right) \right]\].又\[\cos \varphi +i\sin \varphi =z-i=2\sin \theta \left( \cos \theta +i\sin \theta  \right)-i=2\sin \theta \cos \theta +i\left( 2{{\sin }^{2}}\theta -1 \right)\]
+\[=\sin 2\theta -i\cos 2\theta =\cos \left( 2\theta -\frac{\pi }{2} \right)+i\sin \left( 2\theta -\frac{\pi }{2} \right)\]，
+∴\[\varphi =2k\pi +2\theta -\frac{\pi }{2}\]（\[k\in Z\]），\[\theta +\varphi =2k\pi +3\theta -\frac{\pi }{2}\]（\[k\in Z\]）.
+即\[\arg \left( {{z}^{2}}-zi \right)=2k\pi +3\theta -\frac{\pi }{2}\]（\[k\in Z\]）.
+ 
+      （图8）                       （图9）                    （图10）
+第（3）题有另一种解法：如图10，\[z-i\]和向量\[\overrightarrow{MP}\]对应，而\[\angle OMP=2\theta \]，则\[z-i\]的一个辐角为\[2\theta -\frac{\pi }{2}\]，由\[{{z}^{2}}-zi=z\left( z-i \right)\]知，\[{{z}^{2}}-zi\]的辐角等于\[z\]的辐角和\[z-i\]的辅角之和，即\[2k\pi +3\theta -\frac{\pi }{2}\]（\[k\in Z\]）.
+注意  需要掌握的是对于已知\[\left| z \right|=r\]（\[r>0\]）的有关问题，可以从以下四个方面去思考；
+（1）令\[z=r\left( \cos \theta +i\sin \theta  \right)\].
+（2）令\[z=a+bi\]（\[a,b\in R\]），且\[{{a}^{2}}+{{b}^{2}}={{r}^{2}}\].
+（3）由\[{{\left| z \right|}^{2}}={{r}^{2}}\]，得\[z\bar{z}={{r}^{2}}\]，\[z=\frac{{{r}^{2}}}{{\bar{z}}}\]，\[\bar{z}=\frac{{{r}^{2}}}{z}\].
+（4）\[z\]在复平面内的对应点在以原点为圆心，\[r\]为半径的圆上.有时候，并不一定以三角形式为最佳.
+4.运用复数乘法、除法的几何意义解题.
+若\[u=z\centerdot r\left( \cos \theta +i\sin \theta  \right)\]，则只需将\[\overrightarrow{OP}\]（\[P\]为\[z\]在复平面内的对应点）绕原点逆转\[\theta \]角，并将\[\left| \overrightarrow{OP} \right|\]扩大到原来的\[r\]倍，即得复数\[u\]的对应向量\[\overrightarrow{OU}\].
+若\[u=\frac{z}{r\left( \cos \theta +i\sin \theta  \right)}\]，则只需将\[\overrightarrow{OP}\]前绕原点顺转\[\theta \]角，并将\[\overrightarrow{OP}\]缩小到原来的\[r\]倍，即得\[u\]的对应向量\[\overrightarrow{OU}\].
+例6  已知等边\[\Delta ABC\]的两个顶点坐标是\[A\]（2，1），\[B\]（3，2），求顶点\[C\]的对应坐标.
+解  记\[A,B,C\]的对应复数为\[{{z}_{A}}=2+i\]，\[{{z}_{B}}=3+2i\]，\[{{z}_{C}}\].
+由\[{{z}_{C}}={{z}_{A}}+\left( {{z}_{B}}-{{z}_{A}} \right)\left[ \cos {{60}^{\circ }}\pm i\sin {{60}^{\circ }} \right]\]，
+得\[{{z}_{C}}=\left( 2+i \right)+\left( 1+i \right)\left( \frac{1}{2}\pm \frac{\sqrt{3}}{2}i \right)=\frac{5\mp \sqrt{3}}{2}+\frac{3\pm \sqrt{3}}{2}i\]，
+即点\[C\]坐标是\[\left( \frac{5-\sqrt{3}}{2}+\frac{3+\sqrt{3}}{2} \right)\]或\[\left( \frac{5+\sqrt{3}}{2}+\frac{3-\sqrt{3}}{2} \right)\].
+例7  复平面内，两点\[A,B\]分別对应于复数\[\alpha ,\beta \]，且\[\beta +\left( 1+i \right)\alpha =0\]，\[\left| \alpha -2+i \right|=1\]，求\[\Delta AOB\]面积的最大值和最小值.
+解  ∵\[\left| \alpha -\left( 2-i \right) \right|=1\]，
+∴\[A\]是以\[C\left( 2,-1 \right)\]为圆心，1为半径的圆上的动点.
+而\[\beta =\left( -1-i \right)\alpha =\sqrt{2}\left( \cos \frac{5\pi }{4}+i\sin \frac{5\pi }{4} \right)\alpha \]，
+故线段\[OB\]的长是\[OA\]长的\[\sqrt{2}\]倍，且由\[OA\]绕原点按逆时针方向旋转\[\frac{5\pi }{4}\]而得（如图11）.
+ 
+（图11）
+故\[{{S}_{\Delta AOB}}=\frac{1}{2}\left| OA \right|\centerdot \left| OB \right|\centerdot \sin \frac{3\pi }{4}=\frac{1}{2}\sqrt{2}\centerdot {{\left| OA \right|}^{2}}\centerdot \frac{\sqrt{2}}{2}=\frac{1}{2}{{\left| OA \right|}^{2}}\].
+连接\[OC\]并延长，与圆交于点\[{{A}_{1}}\]，\[{{A}_{2}}\]，则\[\left| O{{A}_{1}} \right|=\sqrt{5}-1\]，\[\left| O{{A}_{2}} \right|=\sqrt{5}+1\]，因此\[\Delta AOB\]面积的最大值和最小值分别为\[\frac{1}{2}{{\left( \sqrt{5}+1 \right)}^{2}}\]和\[\frac{1}{2}{{\left( \sqrt{5}-1 \right)}^{2}}\]，即\[3+\sqrt{5}\]和\[3-\sqrt{5}\].
+例8  已知定点\[A\left( -2,0 \right)\]和圆\[{{x}^{2}}+{{y}^{2}}=1\]的动点\[B\]，点\[A,B,C\]按逆时针方向排列，且\[\left| AB \right|:\left| BC \right|:\left| CA \right|=3:4:5\]（如图12），求点\[C\]的轨迹方程.
+解  设点\[C,B\]分别对应复数\[z,{{z}_{0}}\]，
+则\[z={{z}_{0}}+\left( -2-{{z}_{0}} \right)\left( -\frac{4}{3}i \right)={{z}_{0}}+\frac{4}{3}i{{z}_{0}}+\frac{8}{3}i\]，
+于是\[\left( 1+\frac{4}{3}i \right){{z}_{0}}=z-\frac{8}{3}i\]，两边取模得\[\left| 1+\frac{4}{3}i \right|\centerdot \left| {{z}_{0}} \right|=\left| z-\frac{8}{3}i \right|\].
+又∵\[\left| {{z}_{0}} \right|=1\]，∴\[\left| z-\frac{8}{3}i \right|=\frac{5}{3}\]，
+即点\[C\]的轨迹是以\[\left( 0,\frac{8}{3} \right)\]为圆心，\[\frac{5}{3}\]为半径的圆.
+ 
+（图12）
+注意  （1）用复数知识求点的轨迹，主要用于求从动点的轨迹问题，常用“转移法”.
+（2）本例解法中，设主动点对应于复数\[{{z}_{0}}\]，从动点对应于复数\[z\]，有时，则需设主动点对应于复数\[{{x}_{0}}+{{y}_{0}}i\]，从动点对应于复数\[x+yi\]（\[{{x}_{0}},{{y}_{0}},x,y\in R\]）.
+5.复数在三角中的应用.
+例9  求值：\[arc\cot \frac{1}{3}+\arcsin \frac{1}{\sqrt{26}}+\arccos \frac{7}{\sqrt{50}}+arc\cot 8\].
+解  ∵\[\arcsin \frac{1}{\sqrt{26}}=\arccot \frac{1}{5}\]，\[\arccos \frac{1}{\sqrt{50}}=\arccot \frac{1}{7}\]，\[\arccot 8=\arccot \frac{1}{8}\]，
+令\[{{z}_{1}}=3+i={{r}_{1}}\left( \cos \alpha +i\sin \alpha  \right)\]，\[{{z}_{2}}=5+i={{r}_{2}}\left( \cos \beta +i\sin \beta  \right)\]，
+\[{{z}_{3}}=7+i={{r}_{3}}\left( \cos \gamma +i\sin \gamma  \right)\]，\[{{z}_{4}}=8+i={{r}_{4}}\left( \cos \delta +i\sin \delta  \right)\]，其中\[0<\alpha \]，\[\beta \]，\[\gamma \]，\[\delta \]\[<\frac{\pi }{4}\]，
+∴\[{{z}_{1}}\centerdot {{z}_{2}}\centerdot {{z}_{3}}\centerdot {{z}_{4}}=\left( 3+i \right)\left( 5+i \right)\left( 7+i \right)\left( 8+i \right)=650\left( 1+i \right)=650\sqrt{2}\left( \cos \frac{\pi }{4}+i\sin \frac{\pi }{4} \right)\].
+又∵\[{{z}_{1}}\centerdot {{z}_{2}}\centerdot {{z}_{3}}\centerdot {{z}_{4}}={{r}_{1}}{{r}_{2}}{{r}_{3}}{{r}_{4}}\left[ \cos \left( \alpha +\beta +\gamma +\delta  \right)+i\sin \left( \alpha +\beta +\gamma +\delta  \right) \right]\]，
+而\[0<\alpha +\beta +\gamma +\delta <\pi \]，∴\[\alpha +\beta +\gamma +\delta =\frac{\pi }{4}\]，即所求之值为\[\frac{\pi }{4}\].
+例10  记\[A=\cos \frac{\pi }{11}+\cos \frac{3\pi }{11}+\cos \frac{5\pi }{11}+\cos \frac{7\pi }{11}+\cos \frac{9\pi }{11}\]，\[B=\sin \frac{\pi }{11}+\]\[\sin \frac{3\pi }{11}+\]\[\sin \frac{5\pi }{11}\]\[+\]\[\sin \frac{7\pi }{11}+\sin \frac{9\pi }{11}\]，求证：\[A=\frac{1}{2}\]，\[B=\frac{1}{2}\cot \frac{\pi }{22}\].
+证明  设\[z=\cos \frac{\pi }{11}+i\sin \frac{\pi }{11}\]，则
+\[\begin{align}
+  & A+Bi=z+{{z}^{3}}+{{z}^{5}}+{{z}^{7}}+{{z}^{9}}=\frac{z\left( 1-{{z}^{10}} \right)}{1-{{z}^{2}}}=\frac{z-{{z}^{11}}}{1-{{z}^{2}}}=\frac{z-\left( \cos \pi +i\sin \pi  \right)}{1-{{z}^{2}}}=\frac{z+1}{1-{{z}^{2}}}=\frac{1}{1-z} \\ 
+ & =\frac{1-\bar{z}}{\left( 1-z \right)\left( 1-\bar{z} \right)}=\frac{1-\cos \frac{\pi }{11}+i\sin \frac{\pi }{11}}{2-\left( z+\bar{z} \right)}=\frac{1-\cos \frac{\pi }{11}+i\sin \frac{\pi }{11}}{2\left( 1-\cos \frac{\pi }{11} \right)} \\ 
+ & =\frac{1}{2}+\frac{1}{2}\centerdot \frac{\sin \frac{\pi }{11}}{1-\cos \frac{\pi }{11}}i=\frac{1}{2}+i\centerdot \frac{1}{2}\centerdot \cot \frac{\pi }{22},  
+\end{align}\]
+∴\[A=\frac{1}{2}\]，\[B=\frac{1}{2}\cot \frac{\pi }{22}\].
+【训练题】
+（一）复数的三角形式
+64.复数\[z=-\sin 100{}^\circ +i\cos 100{}^\circ \]的轴角主值是（）
+（A）80°.		（B）100°.			（C）190°.			（D）260°.
+65.复数\[z=-2\left( \sin 220{}^\circ -i\cos 220{}^\circ  \right)\]在复平面内的对应点所在的象限是（）
+（A）第一象限.	（B）第二象限.		（C）第三角限.		（D）第四象限.
+66.若\[\frac{3\pi }{2}<\theta <2\pi \]，则\[-\sin \theta +i\cos \theta \]的辐角主值等于（）
+（A）\[2\pi -\theta \].	（B）\[\theta -\frac{3\pi }{2}\].		（C）\[\theta -\pi \].			（D）\[\theta -\frac{\pi }{2}\].
+67.复数\[z=1+\sin \theta +i\cos \theta \]（\[0<\theta <\frac{\pi }{2}\]）的辐角主值是（）
+（A）\[\theta \].			（B）\[\frac{\theta }{2}\].			（C）\[\frac{\pi }{2}-\theta \].			（D）\[\frac{\pi }{4}-\frac{\theta }{2}\].
+68.若复数\[z=a+bi\]（\[a,b\in R\]）所对应的点在第四象限，则\[\arg z\]等于（）
+（A）\[\arcsin \frac{b}{\sqrt{{{a}^{2}}+{{b}^{2}}}}\].				（B）\[\arcsin \frac{a}{\sqrt{{{a}^{2}}+{{b}^{2}}}}\].
+（C）\[arc\cot \frac{b}{a}\].						（D）\[2\pi +\arctan \frac{b}{a}\].
+69.若复数\[z\]满足\[\left| z+3i \right|\le 2\]，则\[\arg z\]的最大值为（）
+（A）\[\arcsin \frac{2}{3}\].						（B）\[\arccos \frac{2}{3}\].
+（C）\[\pi -\arcsin \frac{2}{3}\].					（D）\[2\pi -\arccos \frac{2}{3}\].
+70.复数\[z=1+\cos \theta +i\sin \theta \]（\[\pi <\theta <2\pi \]）的模是（）
+（A）1.			（B）\[1+\cos \theta \].		（C）\[2\cos \frac{\theta }{2}\].		（D）\[-2\cos \frac{\theta }{2}\].
+71.若复数\[z\]的辐角主值是\[\frac{5\pi }{6}\]，实部是\[-2\sqrt{3}\]，则\[z\]的代数形式是（）
+（A）\[-2\sqrt{3}-2i\].						（B）\[-2\sqrt{3}+2i\].
+（C）\[-2\sqrt{3}+2\sqrt{3}i\].					（D）\[-2\sqrt{3}-2\sqrt{3}i\]
+72.若\[\arg z=\alpha \]（\[0<\alpha <\frac{\pi }{2}\]），则\[\arg \bar{z}\]等于（）
+（A）\[-\alpha \].		（B）\[\pi -\alpha \].			（C）\[\pi +\alpha \].			（D）\[2\pi -\alpha \].
+73.满足\[\left| z-2+2i \right|=\sqrt{2}\]的复数\[z\]的辐角主值的最小值是（）
+（A）105°.		（B）265°.			（C）285°.			（D）315°.
+74.复数\[z=-1-2i\]的辐角主值是（）
+（A）\[\arctan 2\].						（B）\[\pi +\arctan 2\].
+（C）\[-\arctan 2\].						（D）\[\left( 2k+1 \right)\pi +\arctan 2\]（\[k\in Z\]）.
+75.若复数\[z\]满足\[z={{\left( a+i \right)}^{2}}\]，且\[\arg z=\frac{7}{4}\pi \]，则实数\[a\]的值为（）
+（A）1.			（B）－1.			（C）\[-1\pm \sqrt{2}\].			（D）\[-1-\sqrt{2}\].
+76.将下列复数化为三角形式：
+（1）\[2\left( \cos \frac{\pi }{5}-i\sin \frac{\pi }{5} \right)=\]          .
+（2）\[2\left( \sin \frac{\pi }{5}+i\cos \frac{\pi }{5} \right)=\]          .
+（3）\[2\left( -\cos \frac{\pi }{5}+i\sin \frac{\pi }{5} \right)=\]          .
+（4）\[-2\left( \cos \frac{\pi }{5}+i\sin \frac{\pi }{5} \right)=\]          .
+（5）\[\left| \cos \theta  \right|+i\left| \sin \theta  \right|=\]          （\[\frac{\pi }{2}<\theta <\pi \]）.
+77.若复数\[z\]满足\[\arg \left( z+4 \right)=\frac{\pi }{6}\]，则\[\left| z \right|\]的最小值为（）
+（A）1.			（B）2.				（C）\[2\sqrt{3}\].			（D）\[3\sqrt{2}\].
+78.若复数\[z\]满足\[\left| z \right|\le \frac{1}{2}\]，则\[\arg \left( z+1 \right)\]的取值范围是（）
+（A）\[\left[ 0,\frac{\pi }{6} \right]\].						（B）\[\left[ -\frac{\pi }{6},\frac{\pi }{6} \right]\].
+（C）\[\left[ 0,\frac{\pi }{6} \right]\bigcup \left[ \frac{11\pi }{6},2\pi  \right)\].			（D）\[\left[ \frac{\pi }{6},\frac{11\pi }{6} \right]\].
+79.若非零复数\[z\]的辐角主值为\[\frac{7\pi }{4}\]，则复数\[z+i\]的辐角主值的取值范围是（）
+（A）\[\left( -\frac{\pi }{4},\frac{\pi }{2} \right)\].						（B）\[\left( \frac{7\pi }{4},2\pi  \right)\].
+（C）\[\left[ 0,\frac{\pi }{2} \right)\].						（D）\[\left[ 0,\frac{\pi }{2} \right)\bigcup \left( \frac{7\pi }{4},2\pi  \right)\].
+80.若\[7+3i\]的辐角主值为\[\theta \]，则\[6-14i\]的辐角主值为（）
+（A）\[\frac{\pi }{2}+\theta \].		（B）\[\frac{\pi }{2}-\theta \].			（C）\[\frac{3\pi }{2}-\theta \].		（D）\[\frac{3\pi }{2}+\theta \].
+81.（1）复数\[\cot 20{}^\circ -i\]的模是          ，辐角的主值是          .
+（2）若\[a,b\in \left\{ -2,-1,1,2 \right\}\]，且\[a\ne b\]，则\[\arg \left( a+bi \right)\]的最大值是          .
+（3）若复数\[z=a+bi\]（\[a,b\in R\]）的对应点在第四象限，则\[\arg z=\]          .
+（4）若\[{{z}_{1}}=1+\cos \theta +i\sin \theta \]，\[{{z}_{2}}=1-\cos \theta +i\sin \theta \]（\[\pi <\theta <2\pi \]），则\[{{z}_{1}},{{z}_{2}}\]的辐角主值之和等于          .
+（5）若\[\pi <\theta <\frac{3\pi }{2}\]，则\[\arg \left( \left| \cos \theta  \right|+i\left| \sin \theta  \right| \right)=\]          .
+（6）若\[\left| z \right|\le 1\]，则\[\arg \left( z-2 \right)\]的最大值为          ，最小值为         .
+82.（1）已知\[\left| z+1 \right|=\sqrt{10}\]，\[\arg \left( z-3\bar{z} \right)=\frac{5\pi }{4}\]，求复数\[z\].
+（2）已知复数\[z\]满足\[\left| \frac{1}{z}-1 \right|=\frac{1}{2}\]，\[\arg \frac{z-1}{z}=\frac{\pi }{3}\]，求\[z\]的值.
+（3）已知复数\[z\]满足\[\left| \frac{z-i}{2z} \right|=2\]，\[\arg \frac{1+iz}{z}=\frac{\pi }{2}\]，求\[z\].
+83.（1）已知\[\omega =z+ai\]，其中\[a\in R\]，\[z=\frac{\left( 1+4i \right)\left( 1+i \right)+2+4i}{3+4i}\].且\[\left| \omega  \right|\le \sqrt{2}\]，求\[\omega \]的辐角主值\[\theta \]的取值范围.
+（2）已知\[f\left( z \right)=\left| 1+z \right|-\bar{z}\]，\[f\left( -\bar{z}i \right)=10+3i\]，求\[\frac{z+3}{z-2}\]的模及辐角主值.
+（3）已知复数\[1-\cos \theta +i\sin \theta \]（\[-\pi <\theta <\pi \]）.①求\[\left| z \right|\]及\[\arg z\]；②要使\[1\le \left| z \right|\le \sqrt{2}\]，求\[\theta \]的取值范围.
+（4）求复数\[z=\frac{1+i}{1+\cos \theta +i\sin \theta }\]的模和辐角，其中\[\theta \in \left[ 0,2\pi  \right)\]，\[\theta \ne \pi \].
+84.已知复数\[z=\sqrt{\left| \cos t \right|}+i\sqrt{\left| \sin t \right|}\].求：
+（1）\[\left| z \right|\]的取值范围.
+（2）\[t\]的范围，使\[0\le \arg z\le \frac{\pi }{4}\].
+85.（1）复平面内，根据要求作出复数\[z\]的对应点所构成的图形：
+①\[\left\{ \begin{align}
+  & \left| z \right|\le 1, \\ 
+ & \arg z\in \left[ \frac{\pi }{6},\frac{2\pi }{3} \right]; \\ 
+\end{align} \right.\]					②\[\arg \left( z+2 \right)=\frac{\pi }{4}\]；
+③\[\left\{ \begin{align}
+  & 0\le \arg \left( z-1 \right)\le \frac{\pi }{4}, \\ 
+ & R\left( z \right)\le 2; \\ 
+\end{align} \right.\]				④\[\left\{ \begin{align}
+  & \left| z \right|=1, \\ 
+ & \frac{\pi }{4}<\arg \left( z+i \right)<\frac{\pi }{2}. \\ 
+\end{align} \right.\]
+（2）已知\[A=\left\{ z\left| \left| z-1 \right|\le 1,z\in C \right. \right\}\]，\[B=\left\{ z\left| \arg z\ge \frac{\pi }{6},z\in C \right. \right\}\]在复平面内，求\[A\bigcap B\]所表示的图形的面积.
+（3）已知复数\[z\]满足\[\left| z-\left( 1+\sqrt{3}i \right) \right|\le 2\]，\[\arg z\le \frac{\pi }{3}\]，求\[z\]所对应区域的面积.
+（二）复数三角形式的运算
+86.若复数\[{{z}_{1}}=\cos \frac{2\pi }{3}+i\sin \frac{2\pi }{3}\]，\[{{z}_{2}}=\cos \frac{11\pi }{6}+i\sin \frac{11\pi }{6}\]，则\[\frac{2z_{1}^{2}}{{{z}_{2}}}\]的辐角主值是（）
+（A）\[\frac{\pi }{6}\].								（B）\[\frac{5\pi }{6}\].
+（C）\[\frac{3\pi }{2}\].								（D）\[-\frac{\pi }{2}\].
+ 
+（第87题）
+87.复平面内有\[A,B,C,D,E\]五点分别在单位圆内部和外部（如图），其中有一点对应的复数是点\[A\]对应复数的倒数，则此点是（）
+（A）点\[B\].		（C）点\[C\].			（C）点\[D\].			（D）点\[E\].
+88.把复数\[a+bi\]（\[a,b\in R\]）在复平间内的对应向量绕原点\[O\]顺时针方向旋转90°后，所得向量对应的复数为（）
+（A）\[a-bi\].		（B）\[-a+bi\].		（C）\[b-ai\].			（D）\[-b+ai\].
+89.复平面内，向量\[\overrightarrow{OA}\]，\[\overrightarrow{OB}\]分别对应于非零复数\[{{z}_{1}}\]，\[{{z}_{2}}\]，若\[\overrightarrow{OA}\bot \overrightarrow{OB}\]，则\[\frac{{{z}_{2}}}{{{z}_{1}}}\]一定是（）
+（A）非负数.		（B）纯虚数.			（C）正实数.			（D）非纯虚数.
+90.复数\[z={{\left( \sin 25{}^\circ +i\cos 25{}^\circ  \right)}^{3}}\]的三角形式为（）
+（A）\[\sin 75{}^\circ +i\cos 75{}^\circ \].				（B）\[\cos 15{}^\circ +i\sin 15{}^\circ \].
+（C）\[\cos 75{}^\circ +i\sin 75{}^\circ \].				（D）\[\cos 195{}^\circ +i\sin 195{}^\circ \].
+91. \[{{\left( 1-\sqrt{3}i \right)}^{2}}\]的辐角主值为（）
+（A）\[\frac{10\pi }{3}\].		（B）\[\frac{7\pi }{3}\].			（C）\[\frac{4}{3}\pi \].			（D）\[\frac{\pi }{3}\].
+92.（1）若\[\alpha ,\beta ,\gamma \]是一个三角形的三个内角，则\[\left( \cos \alpha +i\sin \alpha  \right)\left( \cos \beta +i\sin \beta  \right)\left( \cos \gamma +i\sin \gamma  \right)=\]          .
+（2）\[\left( \cos 1{}^\circ +i\sin 1{}^\circ  \right)\left( \cos 2{}^\circ +i\sin 2{}^\circ  \right)\left( \cos 3{}^\circ +i\sin 3{}^\circ  \right)\cdots \left( \cos 359{}^\circ +i\sin 359{}^\circ  \right)=\]     .
+（3）若\[\frac{\sin A+i\cos A}{\left( \sin B+i\cos B \right)\left( \sin C+i\cos C \right)}\]是纯虚数，则\[\Delta ABC\]是          三角形.
+93.计算下列各题：
+（1）\[\frac{{{\left[ 2\left( \cos 45{}^\circ +i\sin 45{}^\circ  \right) \right]}^{4}}}{\left( \sin 80{}^\circ +i\cos 80{}^\circ  \right)}=\]          .
+（2）\[\frac{{{\left( \sqrt{3}+i \right)}^{5}}}{-1+\sqrt{3}i}=\]          .
+（3）\[\left( 1-\cos {{60}^{\circ }}+i\sin {{60}^{\circ }} \right)=\]          .
+（4）\[{{\left( \cos 15{}^\circ -i\sin 15{}^\circ  \right)}^{3}}+{{\left( \cos 15{}^\circ -i\sin 15{}^\circ  \right)}^{-3}}=\]          .
+94.（1）若\[z={{\left( \sqrt{3}-i \right)}^{5}}\]，则\[\arg z=\]          .
+（2）若复数\[z=7\left( \sin 140{}^\circ -i\cos 140{}^\circ  \right)\]，则\[\arg \left( -\frac{1}{{{z}^{2}}} \right)=\]          .
+（3）若\[\arg z=\theta \]，则\[\arg {{z}^{2}}=\]          .
+（4）若\[\arg z=\theta \]，\[\frac{4}{3}\pi \le \theta <2\pi \]，则\[\arg {{z}^{3}}=\]          .
+95.（1）复平面内，将\[1+\sqrt{3}i\]所对应的向量绕原点按逆时针方向旋转\[\theta \]角，所得向量对应的复数是\[-2i\]，则\[\theta \]的最小正值为          .
+（2）复平面内，向量\[\overrightarrow{AB}\]对应的复数为\[2+i\]，点\[A\]对应的复数为\[-1\]，将\[\overrightarrow{AB}\]绕点\[A\]顺时针方向旋转90°后得到向量\[\overrightarrow{AC}\]，则点\[C\]对应的复数为          .
+（3）若复数\[{{z}_{1}}=\tan \theta -i\]，\[{{z}_{2}}=\tan \theta +i\]（\[0<\theta <\frac{\pi }{2}\]），将\[{{z}_{1}}\]的对应向量顺时针旋转到\[{{z}_{2}}\]所对应的向量，则所转过的最小正角等于          .
+（4）若复数\[{{z}_{1}}\centerdot {{z}_{2}}\]满足\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|=1\]，\[{{z}_{2}}-{{z}_{1}}=-1\]，则\[\arg \frac{{{z}_{1}}}{{{z}_{2}}}=\]          .
+（5）若\[\arg \left( zi \right)=\theta \]，\[\theta \in \left( \frac{\pi }{2},\pi  \right)\]，则\[\arg \bar{z}=\]          .
+96.若\[\arg {{z}_{1}}=\alpha \]，\[\arg {{z}_{2}}=\beta \]，且\[\alpha <\beta \]，则\[\arg \frac{{{z}_{1}}}{{{z}_{2}}}\]等于（）
+（A）\[\beta -\alpha \].		（B）\[\alpha -\beta \].			（C）\[2\pi +\alpha -\beta \].	（D）\[\pi +\beta -\alpha \].
+97.若\[\left| z \right|=1\]，\[\arg z=\theta \]（\[\theta \ne 0\]），则\[\frac{z+\bar{z}}{1+{{z}^{2}}}\]的辐角主值为（）
+（A）\[\frac{\theta }{2}\].		（B）\[\theta \].				（C）\[\pi -\theta \].			（D）\[2\pi -\theta \].
+98.若\[{{z}_{1}}=1+\cos 2\theta +i\sin 2\theta \]，\[{{z}_{2}}=1-\cos 2\theta +i\sin \theta \]，则下列各式中必为定值的是（）
+（A）\[{{z}_{1}}\centerdot {{z}_{2}}\].		（B）\[\frac{{{z}_{1}}}{{{z}_{2}}}\]			（C）\[\left| {{z}_{1}} \right|+\left| {{z}_{2}} \right|\].		（D）\[{{\left| {{z}_{1}} \right|}^{2}}+{{\left| {{z}_{2}} \right|}^{2}}\].
+99.若复数\[-2+i\]和\[3-i\]的辐角主值分别为\[\alpha \]和\[\beta \]，则\[\alpha +\beta \]等于（）
+（A）\[\frac{3\pi }{4}\].		（B）\[\frac{5\pi }{4}\].			（C）\[\frac{7\pi }{4}\].			（D）\[\frac{11\pi }{4}\].
+l00.复平面内，已知点\[{{P}_{1}}\]，\[{{P}_{2}}\]分别对应于复数\[3-2i\]，\[7+4i\]，线段\[{{P}_{1}}{{P}_{2}}\]绕点\[{{P}_{1}}\]按逆时针方向旋转\[\frac{5}{6}\pi \]到\[{{P}_{1}}{{P}_{3}}\]的位置，则点\[{{P}_{3}}\]对应的复数为（）
+（A）\[2\sqrt{3}+3\sqrt{3}i\].					（B）\[2\sqrt{3}-3\sqrt{3}i\].
+（C）\[-2\sqrt{3}+3\sqrt{3}i\].					（D）\[-2\sqrt{3}-3\sqrt{3}i\].
+101.复平面内，点\[{{P}_{1}}\]的对应复数是\[{{z}_{1}}=-2\sqrt{3}+4i\]，将向量\[\overrightarrow{O{{P}_{1}}}\]（\[O\]为原点）旋转一个锐角\[\theta \]后得到新向量\[\overrightarrow{O{{P}_{2}}}\]，且点\[{{P}_{2}}\]的对应复数是\[{{z}_{2}}=\sqrt{3}+5i\]，则（）
+（A）\[\theta ={{60}^{\circ }}\]，且按逆时针旋转.		（B）\[\theta ={{60}^{\circ }}\]，且按顺时针旋转.
+（C）\[\theta ={{30}^{\circ }}\]，且按逆时针旋转.		（D）\[\theta ={{30}^{\circ }}\]，且按顺时针旋转.
+102.已知\[{{z}_{A}}=a+bi\]（\[a,b\in R\]，且\[ab\ne 0\]），复平面内，把\[{{z}_{A}}\]对应的向量\[\overrightarrow{OA}\]绕原点分别按逆、顺时针方向旋转\[\frac{2\pi }{3}\]，得向量\[\overrightarrow{OB}\]，\[\overrightarrow{OC}\]，则\[\overrightarrow{OA}\]，\[\overrightarrow{OB}\]，\[\overrightarrow{OC}\]所对应的复数之和等于（）
+（A）\[-a-bi\].	（B）\[-\frac{1}{2}+\frac{\sqrt{3}}{2}i\].		（C）\[a-bi\].			（D）0.
+l03.若\[\arg z\in \left[ \frac{\pi }{4},\frac{3\pi }{4} \right]\]，则\[\arg \left( -\frac{1}{zi} \right)\]的取值范围是（）
+（4）\[\left[ \frac{3\pi }{4},\frac{5\pi }{4} \right]\].						（B）\[\left[ \frac{5\pi }{4},\frac{7\pi }{4} \right]\].
+（C）\[\left[ \frac{\pi }{4},\frac{7\pi }{4} \right]\].						（D）\[\left[ 0,\frac{\pi }{4} \right]\bigcup \left[ \frac{7\pi }{4},2\pi  \right)\].
+104.若数列\[\left\{ {{a}_{n}} \right\}\]的通项公式为\[{{a}_{n}}={{\left( \cos \theta +i\sin \theta  \right)}^{n}}\]（\[\theta \ne 2k\pi \]，\[k\in Z\]），则\[\left\{ {{a}_{n}} \right\}\]（）
+（A）成等差数列，但不成等比数列.		（B）成等比数列，但不成等差数列.
+（C）成等差数列又成等比数列.			（D）既不成等差数列也不成等比数列.
+105.若\[{{\left( -\sqrt{3}+i \right)}^{n}}\in {{R}^{+}}\]，则最小的自然数\[n\]的值是（）
+（A）6.			（B）8.				（C）10.				（D）12.
+106.已知非纯虚数\[z\]满足\[\arg z=\arg \left[ \left( z+1 \right)i \right]\]，则\[z\]在复平面内的对应点所表示的图形为（）
+ 
+          （A）           （B）             （C)               （D）
+107.复平面内，已知\[\Delta ABC\]的三个顶点分别对应于复数\[z\]，\[\bar{z}\]，\[\frac{1}{z}\]，且\[\left| z \right|=3\]，点\[A\]的位置如图24所示.
+（1）试在图上画出点\[B,C\]的大概位置.
+（2）求\[\Delta ABC\]面积的最大值.
+ 
+（第107题）
+108.（1）已知\[\left| {{z}_{1}} \right|=3\]，\[\left| {{z}_{2}} \right|=5\]，\[\left| {{z}_{1}}-{{z}_{2}} \right|=7\]，求\[\frac{{{z}_{1}}}{{{z}_{2}}}\].
+（2）已知复数\[z\]满足\[\left| z \right|=5\]，且\[\left( 3+4i \right)z\]为纯虚数，求\[z\].
+（3）若\[\left| z \right|=1\]，求\[\left| {{z}^{2}}-z+1 \right|\]的最大值和最小值.
+（4）已知\[{{z}_{1}},{{z}_{2}}\in C\]，且\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|=1\]，\[{{z}_{1}}+{{z}_{2}}=\frac{4}{5}+\frac{3}{5}i\]，求\[\tan \left( \arg {{z}_{1}}+\arg {{z}_{2}} \right)\].
+（5）已知复数\[{{z}_{1}}\]和\[{{z}_{2}}\]满足\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|=1\]，且\[{{z}_{1}}-{{z}_{2}}=\frac{1}{2}-\frac{1}{3}i\]，设\[\theta \]是\[{{z}_{1}}\centerdot {{z}_{2}}\]的辐角，求\[\sin \theta \]的值.
+109.（1）已知复数\[{{z}_{1}},{{z}_{2}},{{z}_{3}}\]的辐角主值依次成公差为\[\frac{2\pi }{3}\]的等差数列，且\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|=\left| {{z}_{3}} \right|=1\]，求证：\[{{z}_{1}}+{{z}_{2}}+{{z}_{3}}=0\].
+（2）若复数\[{{z}_{1}},{{z}_{2}},{{z}_{3}}\]满足\[{{z}_{1}}+{{z}_{2}}+{{z}_{3}}=0\]，且\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|=\left| {{z}_{3}} \right|=1\]，求证：复平面内以\[{{z}_{1}},{{z}_{2}},{{z}_{3}}\]所对应的点为顶点的三角形是内接于单位圆的正三角形.
+（3）已知非零实数\[x,y,z\]满足了\[x+y+z=0\]，复数\[\alpha ,\beta ,\gamma \]满足\[\left| \alpha  \right|=\left| \beta  \right|=\left| \gamma  \right|\ne 0\]，且\[x\alpha +y\beta +z\gamma =0\]，求证：\[\alpha =\beta =\gamma \].
+110.（1）计算：\[\arg \left( i+2 \right)+\arg \left( i+3 \right)\].
+（2）若\[\arg \left( -2-i \right)=\alpha \]，\[\arg \left( -3-i \right)=\beta \]，求\[\alpha +\beta \].
+111.复平面内，两点\[A,B\]分别对应于非零复数\[\alpha ,\beta \]，试根据下列条件判断\[\Delta OAB\]的形状（\[O\]为原点）：
+（1）\[\alpha =\beta \left( \cos \theta +i\sin \theta  \right)\]（\[0<\theta <\pi \]）.	（2）\[\alpha =\pm \beta i\].
+（3）\[\frac{\alpha }{\beta }=\pm \sqrt{3}i\].							（4）\[\frac{\alpha }{\beta }=\frac{1+\sqrt{3}i}{2}\].
+（5）\[\frac{\alpha }{\beta }=1+i\].
+112.（1）已知复数\[{{z}_{1}},{{z}_{2}}\]满足\[4z_{1}^{2}-2{{z}_{1}}{{z}_{2}}+z_{2}^{2}=0\]，且\[\left| {{z}_{2}} \right|=4\]，\[{{z}_{1}}\]，\[{{z}_{2}}\]，0所对应的点分别为\[A\]，\[B\]，\[O\]，求\[\Delta AOB\]的面积.
+（2）复平面内，点\[A\]，\[B\]分别对应于复数\[\omega -z\]和\[\omega +z\]，其中\[\omega =-\frac{1}{2}+\frac{\sqrt{3}}{2}i\]，若\[\Delta AOB\]是以原点\[O\]为直角顶点的等腰直角三角形.求：
+①复数\[z\].							②\[\Delta AOB\]的面积.
+113.（1）已知等边三角形的两个顶点\[A\]，\[B\]对应的复数分别为\[{{z}_{A}}=2+i\]，\[{{z}_{B}}=3+2i\]，求第三个顶点\[C\]所对应的复数.
+（2）复平面内，等边三角形的一个顶点在原点，中心\[P\]所对应的复数是\[1+i\]，求其他两个顶点所对应的复数.
+（3）复平而内，矩形\[OMNP\]的相邻两边之比是\[\left| OM \right|:\left| OP \right|=1:\sqrt{3}\]，且点\[O\]，\[M\]的对应复数分别是0，\[-1+2i\]，求点\[N\]对应的复数.
+（4）已知等腰Rt\[\Delta ABC\]的斜边\[AB\]的两个端点的坐标分别为\[A\left( -1,2 \right)\]，\[B\left( 2,3 \right)\]，求顶点\[C\]的坐标.
+（5）若等边\[\Delta ABC\]的一个顶点为\[A\left( 0,5 \right)\]，中心\[M\]的坐标是\[M\left( 2,3 \right)\]，求其他两个顶点\[B\]，\[C\]的坐标.
+114.已知复数\[{{z}_{1}}=1+\left( 2-\sqrt{3} \right)i\]，\[{{z}_{3}}=\left( 2+\sqrt{3} \right)+i\]，又复数\[{{z}_{1}}\]，\[{{z}_{2}}\]，\[{{z}_{3}}\]，\[{{z}_{4}}\]在复平面内的对应点依逆时针方向排列足一个正方形的四个顶点.
+（1）求\[{{z}_{2}}\]，\[{{z}_{4}}\].
+（2）求证：\[{{z}_{2}}\]，\[{{z}_{4}}\]，0的对应点是一个等边三角形的三个顶点.
+115.复平面内，已知\[\Delta AOB\]的顶点\[A\]，\[B\]所对应的复数\[\alpha \]，\[\beta \]满足\[\beta +\left( 1-i \right)\alpha =0\]，且\[\Delta AOB\]（\[O\]为原点）面积的最大值和最小值分别是8和2，求\[\left| \alpha  \right|\]与\[\left| \beta  \right|\]的取值范围.
+116.（1）已知复数\[{{z}_{1}}\]，\[{{z}_{2}}\]，\[{{z}_{3}}\]满足\[\frac{{{z}_{2}}-{{z}_{1}}}{{{z}_{3}}-{{z}_{1}}}=1+\sqrt{3}i\]，试判断复平面内的\[{{z}_{1}}\]，\[{{z}_{2}}\]，\[{{z}_{3}}\]的对应点为顶点的三角形的形状，并求其各内角的值.
+（2）复平面内，已知\[A\]，\[B\]，\[C\]三点对应的复数\[{{z}_{1}}\]，\[{{z}_{2}}\]，\[{{z}_{3}}\]满足\[\frac{{{z}_{2}}-{{z}_{1}}}{{{z}_{3}}-{{z}_{1}}}=1+\frac{3}{4}i\]，试求这个三角形三边长之比.
+117.（1）—个三角形的底边\[BC\]的两端所表水的复数是\[{{z}_{B}}=a\]，\[{{z}_{C}}=-a\]，顶点\[A\]的位置不定，以两边\[AB\]，\[AC\]为腰，分别以\[B\]，\[C\]为直角的顶点，在\[\Delta ABC\]外作等腰直角三角形\[ABD\]，\[ACE\]，求证：\[DE\]的中点\[M\]为定点，
+（2）已知\[B\]是半圆\[{{x}^{2}}+{{y}^{2}}=1\]（\[y\ge 0\]）上的动点，\[A\left( 2,0 \right)\]是\[x\]轴上的一个定点，以\[A\]为直角顶点作等腰直角\[\Delta ABC\]（字母按顺时针排列），求\[\left| OC \right|\]的最大值及其相应的点\[B\]的坐标（\[O\]为坐标原点）.
+118.（1）复平面内，已知Rt\[\Delta ABC\]的三个顶点\[A\]，\[B\]，\[C\]分别对应于复数\[z\]，\[{{z}^{2}}\]，\[{{z}^{3}}\]，且\[\left| z \right|=2\]，\[\angle BAC={{90}^{\circ }}\]，求复数\[z\].
+（2）已知复数\[{{z}_{1}}\]满足\[\arg {{z}_{1}}=\frac{5\pi }{12}\]，\[\left| {{z}_{1}}-{{z}_{0}} \right|=\sqrt{2}\]，\[{{z}_{0}}-\left( 1+i \right){{z}_{1}}=0\].
+①求\[{{z}_{1}}\]和\[{{z}_{0}}\]；
+②求证：在满足\[\left| {{z}_{1}}-{{z}_{0}} \right|=\sqrt{2}\]条件的所有复数\[z\]中，\[{{z}_{1}}\]的辐角主值最小.
+119.已知复数\[z=\left[ \cos \left( \pi +\alpha  \right)+i\sin \left( \pi +\alpha  \right) \right]\centerdot \left[ \sin \left( \frac{3}{2}\pi +\beta  \right)+i\cos \left( \frac{3}{2}\pi +\beta  \right) \right]\]，\[0<\beta <\alpha <\frac{\pi }{2}\]，且\[\sin \left( \alpha +\beta  \right)=4\cos \alpha \sin \beta \]，求\[\arg z\]的最大值.
+120.已知\[\left| z-1-i \right|=2\]，求复数\[{{z}^{2}}\]虚部的取值范围.
+121.已知复数\[z=x+yi\]满足\[\left| z+\frac{1}{z} \right|=1\]（\[x,y\in R\]）.求证：
+（1）\[{{\left( {{x}^{2}}+{{y}^{2}} \right)}^{2}}+{{x}^{2}}-3{{y}^{2}}+1=0\].
+（2）\[k\pi +\frac{\pi }{3}\le \arg z\le k\pi +\frac{2\pi }{3}\]（\[k\in Z\]）.
+（3）\[\frac{\sqrt{5}-1}{2}\le \left| z \right|\le \frac{\sqrt{5}+1}{2}\].
+122.对\[n\in N\]，\[k\in N\]，求证：
+（1）\[{{\left( \frac{1+i}{\sqrt{2}} \right)}^{n}}+{{\left( \frac{1-i}{\sqrt{2}} \right)}^{n}}=2\cos \frac{n\pi }{4}\].
+（2）\[{{\left( 1+\cos \alpha +i\sin \alpha  \right)}^{n}}={{2}^{n}}{{\cos }^{n}}\left( \frac{\alpha }{2} \right)\left( \cos \frac{n\alpha }{2}+i\sin \frac{n\alpha }{2} \right)\].
+（3）\[{{\left( \frac{1+i\tan \alpha }{1-i\tan \alpha } \right)}^{n}}=\frac{1+i\tan n\alpha }{1-i\tan n\alpha }\].
+（4）\[{{\left( \frac{1-\cos \theta +i\sin \theta }{1-\cos \theta -i\sin \theta } \right)}^{n}}=\cos n\left( \pi +\theta  \right)-i\sin n\left( \pi +\theta  \right)\]（\[\theta \ne 2k\pi \]）.
+123.（1）若\[{{\left( 1+\sqrt{3}i \right)}^{n}}\]是—个实数，求自然数\[n\]的值.
+（2）已知复数\[z=\frac{{{\left( 1+i \right)}^{3}}}{\sqrt{2}{{\left( a+i \right)}^{2}}}\]（\[a>0\]）满足\[\left| z \right|=\frac{1}{2}\].求：
+①\[a\]的值；								②使\[{{z}^{n}}\]为实数的最小自然数\[n\].
+124.已知数列\[\left\{ {{a}_{n}} \right\}\]的通项\[{{a}_{n}}=\frac{1}{{{\left( 1+\sqrt{3}i \right)}^{n}}}\]，当\[n\]取1，2，3，…时，依次得到的实数记为\[{{b}_{1}}\]，\[{{b}_{2}}\]，\[{{b}_{3}}\]，…，求数列\[\left\{ {{b}_{n}} \right\}\]的所有项之和.
+125.（1）已知复数\[z=\cos 20{}^\circ +i\sin 20{}^\circ \]，求\[\left| z-{{z}^{2}}+{{z}^{3}}-{{z}^{4}}+{{z}^{5}}-{{z}^{6}}+{{z}^{7}}-{{z}^{8}}+{{z}^{9}}-{{z}^{10}} \right|\].
+（2）设\[z=\cos 40{}^\circ +i\sin 40{}^\circ \]，求\[\left| z+{{z}^{2}}+\cdots +{{z}^{100}} \right|\].
+（3）已知\[z=\cos \frac{2\pi }{5}+i\sin \frac{2\pi }{5}\]，求\[\left( 1+{{z}^{8}} \right)\left( 1+{{z}^{4}} \right)\left( 1+{{z}^{2}} \right)\left( 1+z \right)\].
+（4）已知\[z=\cos \frac{\pi }{3}+i\sin \frac{\pi }{3}\]，求\[\left| z+2{{z}^{2}}+3{{z}^{3}}+\cdots +12{{z}^{12}} \right|\].
+126.已知\[{{z}_{n}}={{\left( \frac{1+i}{2} \right)}^{n}}\]（\[n\in N\]）.
+（1）记\[{{a}_{n}}=\left| {{z}_{n+1}} \right|-\left| {{z}_{n}} \right|\]（\[n\in N\]），求数列\[\left\{ {{a}_{n}} \right\}\]所有项之和.
+（2）记\[{{b}_{n}}=\left| {{z}_{n+2}}-{{z}_{n}} \right|\]（\[n\in N\]），求数列\[\left\{ {{b}_{n}} \right\}\]所有项之和.
+127.设复数\[z=\cos \theta +i\sin \theta \]（\[0<\theta <\pi \]），\[\omega =\frac{1-{{\left( {\bar{z}} \right)}^{4}}}{1+{{z}^{4}}}\]，且\[\left| \omega  \right|=\frac{\sqrt{3}}{3}\]，\[\arg \omega <\frac{\pi }{2}\]，求\[\theta \].
+128.已知复数\[z=\cos \theta +i\sin \theta \]（\[0<\theta <2\pi \]），\[\omega =\frac{1-{{z}^{3}}}{1-z}\].求：
+（1）满足\[\left| \omega  \right|=1\]的复数\[z\].
+（2）\[\omega \]的辐角（用\[\theta \]表示）.
+四、复数方程
+【典型题型和解题技巧】
+复数方程主要有以下几种类型：
+1，—次方程\[az=b\]（\[a,b\in C\]，\[a\ne 0\]）.
+此类方程的解是\[z=\frac{b}{a}\].
+例1  解方程\[3z+i=2iz+1\].
+解  由已知，得\[\left( 3-2i \right)z=1-i\]，∴\[z=\frac{1-i}{3-2i}=\frac{\left( 1-i \right)\left( 3+2i \right)}{13}=\frac{5}{13}-\frac{1}{13}i\].
+注意  关于\[z\]的一次方程，若令\[z=a+bi\]（\[a,b\in R\]）也可获解，但显然不妥.
+2.二次方程\[a{{z}^{2}}+bz+c=0\]（\[a,b,c\in C\]，\[a\ne 0\]）.
+对于这类方程需强调两点：
+韦达定理仍可沿用——若\[\alpha \]，\[\beta \]是上述方程的两根，则\[\left\{ \begin{align}
+  & \alpha +\beta =-\frac{b}{a}, \\ 
+ & \alpha \beta =\frac{c}{a}, \\ 
+\end{align} \right.\]反之亦真；
+若\[a\]，\[b\]，\[c\]不全是实数，则\[\Delta ={{b}^{2}}-4ac\]不能用来判断方程有无实根.
+（1）二次方程\[a{{z}^{2}}+bz+c=0\]（\[a,b,c\in C\]，\[a\ne 0\]），这就是通常所说的“实系数—元二次方程.
+解此类方程可分为两步：
+第一步，先算\[\Delta ={{b}^{2}}-4ac\]；
+第二步，若\[\Delta \ge 0\]，则方程的解是\[z=\frac{-b\pm \sqrt{\Delta }}{2a}\]；
+若\[\Delta <0\]，则方程的解是\[z=\frac{-b\pm \sqrt{-\Delta }i}{2a}\].
+显然，此类方程的\[\Delta ={{b}^{2}}-4ac\]可以用来判断此方程有无实根，若方程有虚根，则虚根一定“成对出现”，即若\[p+qi\]（\[p\centerdot q\in R\]）是上述方程的根，则\[p-qi\]也是此方程的根.
+例2  设\[x\]是模不为1的虚数，记\[y=x+\frac{1}{x}\]，求满足\[{{y}^{2}}+ay+1=0\]的实数\[a\]的取值范围.
+解  由题意可设\[x=r\left( \cos \theta +i\sin \theta  \right)\]（\[r>0\]，\[r\ne 1\]，\[\theta \ne k\pi \]），
+则\[y=x+\frac{1}{x}=r\left( \cos \theta +i\sin \theta  \right)+\frac{1}{r}\left( \cos \theta -i\sin \theta  \right)=\left( r+\frac{1}{r} \right)\cos \theta +i\left( r-\frac{1}{r} \right)\sin \theta \].
+∵\[\theta \ne k\pi \]，\[r>0\]，且\[r\ne 1\]，∴\[\left( r-\frac{1}{r} \right)\sin \theta \ne 0\].
+故\[y\]是虚数，即方程\[{{y}^{2}}+ay+1=0\]有虚数根，∴\[\Delta ={{a}^{2}}-a<0\]，
+故实数\[a\]的取值范围是\[-2<a<2\].
+例3  已知关于\[x\]的实系数方程\[{{z}^{2}}-2pz+q=0\]（\[p\ne 0\]）的两虚根\[{{z}_{1}}\]，\[{{z}_{2}}\]在复平面内的对应点为\[{{F}_{1}}\]，\[{{F}_{2}}\]，求以\[{{F}_{1}}\]，\[{{F}_{2}}\]为两焦点，且经过原点的椭圆的普通方程.
+解  设\[{{z}_{1}}=a+bi\]（\[a,b\in R\]），则\[{{z}_{2}}=a-bi\].
+由韦达定理，得\[\left\{ \begin{align}
+  & {{z}_{1}}+{{z}_{2}}=2a=2p, \\ 
+ & {{z}_{1}}{{z}_{2}}={{a}^{2}}+{{b}^{2}}=q. \\ 
+\end{align} \right.\]
+于是\[a=p\]，\[\left| O{{F}_{1}} \right|=\left| O{{F}_{2}} \right|=\sqrt{{{a}^{2}}+{{b}^{2}}}=\sqrt{q}\]（如图13）.显然，椭圆的半短轴长\[=\left| OM \right|=\left| a \right|=\left| p \right|\]，半焦距\[=\left| b \right|\]，半长轴\[=\sqrt{{{a}^{2}}+{{b}^{2}}}=\sqrt{q}\]，而椭圆的中心为\[\left( a,0 \right)\]，即\[\left( p,0 \right)\]，所以椭圆的普通方程为\[\frac{{{\left( x-p \right)}^{2}}}{{{p}^{2}}}+\frac{{{y}^{2}}}{q}=1\].
+ 
+（图13）
+（2）齐二次方程\[az_{1}^{2}+b{{z}_{1}}{{z}_{2}}+cz_{2}^{2}=0\]（\[a,b,c\in R\]，\[a\ne 0\]）.此类方程称为关于\[{{z}_{1}}\]，\[{{z}_{2}}\]的齐二次方程，在\[{{z}_{2}}\ne 0\]的前提下，方程可变形为\[a{{\left( \frac{{{z}_{1}}}{{{z}_{2}}} \right)}^{2}}+b\centerdot \frac{{{z}_{1}}}{{{z}_{2}}}+c=0\].若令\[t=\frac{{{z}_{1}}}{{{z}_{2}}}\]，则有\[a{{t}^{2}}+bt+c=0\].
+因此，就实质而言，它也是实系数的二次方程.
+例4  若非零复数\[{{z}_{1}}\]，\[{{z}_{2}}\]在复平面内的对应点分别为\[A\]，\[B\]，且满足\[\left| {{z}_{2}} \right|=2\]，\[z_{1}^{2}-2{{z}_{1}}{{z}_{2}}+4z_{2}^{2}=0\].
+（1）试判断\[\Delta AOB\]（\[O\]为原点）的形状.	（2）求\[\Delta AOB\]的面积.
+解  （1）由\[z_{1}^{2}-2{{z}_{1}}{{z}_{2}}+4z_{2}^{2}=0\]，得\[{{z}_{1}}=\frac{2{{z}_{2}}\pm 2\sqrt{3}i{{z}_{2}}}{2}\]，即\[{{z}_{1}}=\left( 1\pm \sqrt{3}i \right){{z}_{2}}\]，
+即\[{{z}_{1}}\text{=}2\left( \cos \frac{\pi }{3}\pm i\sin \frac{\pi }{3} \right){{z}_{2}}\].由此得\[\Delta AOB\]是直角三舟形，且\[\angle AOB={{60}^{\circ }}\].
+（2）\[{{S}_{\Delta AOB}}=\frac{1}{2}\left| AO \right|\centerdot \left| BO \right|\sin \frac{\pi }{3}=\frac{\sqrt{3}}{4}\centerdot 2\centerdot {{\left| BO \right|}^{2}}=2\sqrt{3}\].
+（3）二次方程\[a{{z}^{2}}+bz+c=0\]（\[a\]，\[b\]，\[c\]不全为实数，\[a\ne 0\]）.
+此类方程布些超过教科书的要求，它的解法可按以下步骤进行：
+先计算\[\Delta ={{b}^{2}}-4ac\]，再把\[\Delta \]化成一个复数\[u\]的平方，即\[\Delta ={{u}^{2}}\]，
+然后用公式\[z=\frac{-b\pm u}{2a}\].
+例5  解方程\[{{x}^{2}}-\left( 3-2i \right)x+5-5i=0\].
+解  ∵\[\Delta ={{\left( 3-2i \right)}^{2}}-4\left( 5-5i \right)=-15+8i={{\left( 1+4i \right)}^{2}}\]，
+∴\[x=\frac{3-2i\pm \left( 1+4i \right)}{2}\].故\[{{x}_{1}}=2+i\]，\[{{x}_{2}}=1-3i\].
+3.—元高次方程.
+本单元出现的一元高次方程的系数均为实数，即\[{{a}_{n}}{{x}^{n}}+{{a}_{n-1}}{{x}^{n-1}}+\cdots +{{a}_{1}}x+{{a}_{0}}=0\]，其中\[{{a}_{k}}\in R\]（\[k=0,1,2,3,\cdots n\]）.
+解实系数的高次方程主要有下面两种方法.
+（1）分解因式法.
+例6  解方程\[{{x}^{3}}+8=0\].
+解  原方程即为\[\left( x+2 \right)\left( {{x}^{2}}-2x+4 \right)=0\].
+由\[x+2=0\]，得\[x=-2\].由\[{{x}^{2}}-2x+4=0\]，得\[x=1\pm \sqrt{3}i\].
+∴原方程的解为\[{{x}_{1}}=-2\]，\[{{x}_{2}}=1+\sqrt{3}i\]，\[{{x}_{3}}=1-\sqrt{3}i\].
+（2）公式法.
+所谓公式法，即对于“\[n\]次方程”\[{{z}^{n}}=a\]（常数\[a\in C\]），可利用公式求解.
+先将\[a\]化成三角形式，即\[a=r\left( \cos \theta +i\sin \theta  \right)\]（\[r>0\]）.
+再用公式\[z=\sqrt[n]{r}\left( \cos \frac{2k\pi +\theta }{n}+i\sin \frac{2k\pi +\theta }{n} \right)\]（\[k=0,1,2,\cdots n-1\]）.
+例7  解方程\[{{\left( 1+z \right)}^{n}}-{{\left( 1-z \right)}^{n}}=0\].
+解  由已知，得\[{{\left( 1+z \right)}^{n}}={{\left( 1-z \right)}^{n}}\]，显然\[{{\left( 1-z \right)}^{n}}\ne 0\]，故有\[{{\left( \frac{1+z}{1-z} \right)}^{n}}=1\].
+∴\[\frac{1+z}{1-z}=\cos \frac{2k\pi }{n}+i\sin \frac{2k\pi }{n}\]（\[k=0,1,2,\cdots n-1\]）.由合分比定理得
+\[z=\frac{\cos \frac{2k\pi }{n}+i\sin \frac{2k\pi }{n}-1}{\cos \frac{2k\pi }{n}+i\sin \frac{2k\pi }{n}+1}=\frac{\sin \frac{k\pi }{n}\left( -\sin \frac{k\pi }{n}+i\cos \frac{k\pi }{n} \right)}{\cos \frac{k\pi }{n}\left( \cos \frac{k\pi }{n}+i\sin \frac{k\pi }{n} \right)}=\tan \frac{k\pi }{n}\centerdot \frac{\left( \cos \frac{k\pi }{n}+i\sin \frac{k\pi }{n} \right)i}{\left( \cos \frac{k\pi }{n}+i\sin \frac{k\pi }{n} \right)}\]
+ \[=-i\tan \frac{k\pi }{n}\]（\[n=0,1,2,\cdots ,n-1\]）.
+4.方程\[f\left( z,\bar{z},\left| z \right| \right)=0\].
+这是一类比较特殊的方程，方程中含有\[z\]，\[\bar{z}\]和\[\left| z \right|\].解此类方程通常有以下两种方法.
+（1）代数式法.
+所谓代数式法，即令\[z=x+yi\]（\[x,y\in R\]）代入方程求解.
+例8  解方程\[{{\left( {\bar{z}} \right)}^{2}}=z\].
+解  令\[z=x+yi\]（\[x,y\in R\]），则有\[{{\left( x-yi \right)}^{2}}=x+yi\]，
+即\[{{x}^{2}}-{{y}^{2}}-2xyi=x+yi\]，于是\[\left\{ \begin{align}
+  & {{x}^{2}}-{{y}^{2}}=x, \\ 
+ & -2xy=y. \\ 
+\end{align} \right.\]
+若\[y=0\]，则\[{{x}^{2}}=x\]，得\[x=0\]或\[x=1\]，∴\[{{z}_{1}}=0\]，\[{{z}_{2}}=1\].
+若\[y\ne 0\]，则\[x=-\frac{1}{2}\]，\[y=\pm \frac{\sqrt{3}}{2}\]，∴\[{{z}_{3}}=-\frac{1}{2}+\frac{\sqrt{3}}{2}i\]，\[{{z}_{4}}=-\frac{1}{2}-\frac{\sqrt{3}}{2}i\].
+∴方程的解为0，1，\[-\frac{1}{2}\pm \frac{\sqrt{3}}{2}i\].
+（2）定性法.
+有一类方程，可以通过初步观察，对方程的根先“定性”，从而为求解带来一定的方便.
+例9  解方程\[{{z}^{2}}-4\left| z \right|+3=0\].
+解  由已知，\[{{z}^{2}}=-3+4\left| z \right|\]，故\[{{z}^{2}}\]必是实数，因此，\[z\]是实数或纯虚数.
+（1）\[z\]是实数时，原方程即为\[{{\left| z \right|}^{2}}-4\left| z \right|+3=0\]，∴\[\left( \left| z \right|-1 \right)\left( \left| z \right|-3 \right)=0\]，
+于是得\[z=\pm 1\]或\[z=\pm 3\].
+（2）\[z\]是纯虚数时，可令\[z=ti\]（\[t\in R\]，\[t\ne 0\]），则原方程即为\[{{\left( ti \right)}^{2}}-4\left| ti \right|+3=0\]，即\[-{{t}^{2}}-4\left| t \right|+3=0\]，即\[{{\left| t \right|}^{2}}+4\left| t \right|-3=0\]，∴\[\left| t \right|=-2+\sqrt{7}\]，
+故\[z=\pm \left( -2+\sqrt{7} \right)i\].方程的解为\[\pm 1\]，\[\pm 3\]，\[\pm \left( 2-\sqrt{7} \right)i\]
+【训练题】
+129.若\[z\in C\]，则方程\[{{\left| z \right|}^{2}}-\left| z \right|=0\]解的个数是（）
+（A）2.			（B）3.				（C）5.				（D）无穷多.
+130.方程\[{{z}^{2}}=\bar{z}\]的解的个数是（）
+（A）2.			（B）3.				（C）4.				（D）5.
+131.二次方程\[{{x}^{2}}-2xi-5=0\]的根的情况是（）
+（A）有两个不等的实根.				（B）有一个实根和一个虚根.
+（C）有一对共轭的虚根.				（D）有两个不共轭的虚根.
+132.满足\[z+\left| {\bar{z}} \right|=2+i\]的复数\[z\]等于（）
+（A）\[-\frac{3}{4}+i\].	（B）\[\frac{3}{4}-i\].			（C）\[-\frac{3}{4}-i\].		（D）\[\frac{3}{4}+i\].
+133.若关于\[x\]的方程\[{{x}^{2}}+x+p=0\]的两个虚根\[\alpha \]，\[\beta \]满足\[\left| \alpha -\beta  \right|=3\]，则实数\[p\]的值为（）
+（A）－2.		（B）\[-\frac{1}{2}\].			（C）\[\frac{5}{2}\].			（D）1.
+134.若\[a>1\]，\[\alpha \]，\[\beta \]是关于\[x\]的方程\[{{x}^{2}}+2x+a=0\]的两根，则\[\left| \alpha  \right|+\left| \beta  \right|\]的值为（）
+（A）2.			（B）\[2\sqrt{a}\].			（C）\[2\sqrt{a-1}\].		（D）\[2\sqrt{1-a}\].
+135.（1）若关于\[x\]的实系数二次方程\[{{x}^{2}}+ax+b=0\]的一个根是\[2+i\]，则\[a=\]          ，\[b=\]          .
+（2）若实系数的一元二次方程的一个根是\[\frac{1}{3}-\frac{4\sqrt{5}}{3}i\]，则这个方程为          .
+136.1的5次方根的五个复数的辐角主值之和是（）
+（A）\[2\pi \].		（B）\[4\pi \].			（C）\[6\pi \].			（D）\[8\pi \].
+137.若\[\omega \]是\[{{x}^{5}}-1=0\]的一个虚根，则\[\omega \left( 1+\omega  \right)\left( 1+{{\omega }^{2}} \right)\]的值是（）
+（A）1.			（B）－1.			（C）\[i\].				（D）\[-\frac{1}{2}+\frac{\sqrt{3}}{2}i\].
+138.复平面内，两点\[M\]，\[N\]所对应的非零复数是\[\alpha \]，\[\beta \]（\[O\]是原点）.
+（1）若\[{{\alpha }^{2}}+{{\beta }^{2}}=0\]，则\[\Delta OMN\]是          三角形.
+（2）若\[2{{\alpha }^{2}}-2\alpha \beta +{{\beta }^{2}}=0\]，则\[\Delta OMN\]是          三角形.
+139.在复数范围内解方程：
+（1）\[z\centerdot \bar{z}-3i\bar{z}=1+3i\].				（2）\[{{z}^{2}}-5\left| z \right|+6=0\].
+（3）\[2z+\left| z \right|=2+6i\].					（4）\[z\left| z \right|+az+i=0\]（\[a\ge 0\]）.
+（5）\[{{\left| z \right|}^{2}}-2zi+2a\left( 1+i \right)=0\]（\[a\in R\]）.
+140.（1）已知关于\[x\]的方程\[{{x}^{2}}+\left( k+2i \right)x+2+ki=0\]有一个实根，求实数\[k\]的值.
+（2）已知关于\[x\]的方程\[{{x}^{2}}-ix-m+4ni=0\]有实根，求点\[\left( m,n \right)\]应满足的方程.
+（3）已知关于\[x\]的方程\[{{x}^{2}}-zx+4+3i=0\]有实根，求复数\[z\]的模的最小值和此时的\[z\]值.
+141.（1）已知方程\[{{x}^{2}}+ix+6=2i+5x\]有一个实数解，试在复数范围内解此方程.
+（2）已知关于\[x\]的方程\[{{x}^{2}}+2px+1=0\]的两根\[\alpha \]，\[\beta \]在复平面内的对应点和原点恰是一个等边三角形的三个顶点，求实数\[p\]的值.
+（3）已知\[p,q\in R\]，方程\[{{x}^{2}}+px+q=0\]有两虚根\[\alpha \]，\[\beta \]，方程\[{{x}^{2}}-px+q=0\]有两虚根\[{{\alpha }^{2}}\]，\[{{\beta }^{2}}\]，求\[\alpha \]，\[\beta \]，\[p\]，\[q\]的值.
+（4）已知\[a\]，\[b\]是实数，关于\[x\]的方程\[{{x}^{2}}+\left( 2a-bi \right)x+a-bi=0\]的两个非零复数根的辐角分別为\[\frac{2\pi }{3}\]及\[\pi \]，求\[a\]，\[b\]的值.
+142.（1）求\[5+12i\]的平方根.
+（2）解方程：①\[{{z}^{2}}-i=0\].				②\[{{z}^{2}}-2zi-5=0\].
+143.复平面内，已知非零复数\[{{z}_{1}}\]，\[{{z}_{2}}\]对应于点\[A\]和\[B\]，复数\[{{z}_{1}}-a\]与\[{{z}_{1}}+a\]所对应的两个向量相互垂直且模不相等，又\[z_{1}^{2}-4{{z}_{1}}{{z}_{2}}+6z_{2}^{2}=0\].
+（1）求\[{{z}_{1}}\]与\[{{z}_{2}}\]的模.
+（2）\[O\]为复平面上的坐标原点，求\[\Delta AOB\]的面积_
+144.非零复数\[\alpha \]，\[\beta \]分别对应于点\[A\]，\[B\]（\[O\]是原点），已知\[4{{\alpha }^{2}}-2\alpha \beta +{{\beta }^{2}}=0\].
+（1）求证：\[\Delta AOB\]是直角三角形.
+（2）若\[\left| \alpha  \right|=1\]，求\[\Delta AOB\]的面积.
+（3）若\[\left| \alpha  \right|=t>0\]，求\[{{\left| \beta  \right|}^{2}}-\alpha \bar{\beta }-\bar{\alpha }\beta \]的值.
+145.设\[\alpha \]，\[\beta \]是实系数一元二次方程\[a{{x}^{2}}+bx+c=0\]的两根，\[\alpha \]为虚数，而\[\frac{{{\alpha }^{2}}}{\beta }\]为实数，求复数\[\frac{\alpha }{\beta }\]的值.
+146.已知：\[x+\frac{1}{x}=2\cos \varphi \].求证：
+（1）\[x=\cos \varphi \pm i\sin \varphi \].
+（2）\[{{x}^{n}}+\frac{1}{{{x}^{n}}}=2\cos n\varphi \]（\[n\in N\]）.
+147.（1）要使关于\[x\]的方程\[\left( 1-i \right){{x}^{2}}+2mix-\left( 1+i \right)=0\]有实根，求实数\[m\]的值.
+（2）若关于\[x\]的实系数方程\[2{{x}^{2}}+3ax+{{a}^{2}}-a=0\]至少布一个模为1的根，求实数\[a\]的值.
+（3）若关于\[x\]的方程\[{{x}^{2}}+\left( 2+i \right)x+4mn+\left( 2m-n \right)i=0\]（\[m,n\in R\]）有实根，求点\[\left( m,n \right)\]的轨迹方程.
+（4）已知\[\alpha \]，\[\beta \]是方程\[{{x}^{2}}-2x+2=0\]的两根，\[p\]，\[q\]是关于\[x\]的方程\[{{x}^{2}}+2mx-1=0\]（\[m\in R\]）的两根，且\[\alpha \]，\[\beta \]，\[p\]，\[q\]在复平面内的对应点共圆，求\[m\]的值.
+（5）已知关于\[x\]的方程\[3{{x}^{2}}-6\left( m-1 \right)x+{{m}^{2}}+1=0\]的两根\[{{x}_{1}}\]，\[{{x}_{2}}\]满足\[\left| {{x}_{1}} \right|+\left| {{x}_{2}} \right|=2\]，求实数\[m\]的值.
+148.（1）实系数方程\[{{x}^{4}}-4{{x}^{3}}+9{{x}^{2}}-ax+b=0\]的一个根是\[1+i\]，求\[a\]，\[b\]的值，并解此方程.
+（2）已知关于\[x\]的实系数方程\[{{x}^{4}}+a{{x}^{3}}+b{{x}^{2}}+cx+d=0\]有一个纯虚根，求证：\[{{a}^{2}}d+{{c}^{2}}-abc=0\].
+（3）已知模为2，辐角为\[\frac{\pi }{6}\]的复数是方程\[{{x}^{5}}+a=0\]的一个根，求\[a\].
+（4）已知复数\[z=\frac{1}{2}+\frac{\sqrt{3}}{2}i\]满足\[{{z}^{n}}=\bar{z}\]，求整数\[n\]的一般形式.
+149.利用复数乘法、除法的几何意义，求证：
+（1）\[\arctan 1+\arctan 2+\arctan 3=\pi \].
+（2）\[\arcsin \frac{\sqrt{10}}{10}+\arccos \frac{7\sqrt{2}}{10}+\arctan \frac{7}{31}+arc\cot 10=\frac{\pi }{4}\].
+（3）\[\arctan \left( 3+2\sqrt{2} \right)-\arctan \frac{\sqrt{2}}{2}=\frac{\pi }{4}\].
+（4）\[\arctan \frac{1}{7}+2\arcsin \frac{1}{\sqrt{10}}=\frac{\pi }{4}\].
+150.（1）复平面内，已知动点\[A\]，\[B\]所对应的复数\[{{z}_{1}}\]，\[{{z}_{2}}\]的一个辐角为定值\[\theta \]和\[-\theta \]（\[0<\theta <\frac{\pi }{2}\]），且\[\Delta AOB\]的面积为定值\[S\]（\[O\]为坐标原点〉，求\[\Delta AOB\]的重心\[M\]所对应复数\[z\]的模的最小值.
+（2）复数\[{{z}_{1}}\]，\[{{z}_{2}}\]，\[{{z}_{3}}\]的辐角主值分别为\[\alpha \]，\[\beta \]，\[\gamma \]，模分别为1，\[k\]和\[2-k\]，且\[{{z}_{1}}+{{z}_{2}}+{{z}_{3}}=0\]，求\[k\]，使\[\cos \left( \beta -\alpha  \right)\]分别取到最大值和最小值，并求出大值和最小值.
+151.已知复数\[z=\cos \theta +i\sin \theta \].
+（1）当实数\[k\]和\[\theta \]分别为何值时，\[{{z}^{3}}+k{{\bar{z}}^{3}}\]是纯虚数？
+（2）求\[\left| {{z}^{3}}+k{{{\bar{z}}}^{3}} \right|\]的最大值与最小值.
+152.（1）已知复数\[{{z}_{1}}\]，\[{{z}_{2}}\]，\[{{z}_{3}}\]满足\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|=\left| {{z}_{3}} \right|=1\]，求证：\[\left| {{z}_{1}}{{z}_{2}}+{{z}_{2}}{{z}_{3}}+{{z}_{3}}{{z}_{1}} \right|=\left| {{z}_{1}}+{{z}_{2}}+{{z}_{3}} \right|\].
+（2）已知复数\[\alpha \]，\[\beta \]，\[\gamma \]满足\[\left| \alpha  \right|=\left| \beta  \right|=\left| \gamma  \right|\ne 0\]，求证：\[\frac{\left( \alpha +\beta  \right)\left( \beta +\gamma  \right)\left( \gamma +\alpha  \right)}{\alpha \beta \gamma }\]是实数.
+153.设\[A\]，\[B\]，\[C\]分别是复数\[{{z}_{1}}\]，\[{{z}_{2}}\]，\[{{z}_{3}}\]（\[{{z}_{1}}\]，\[{{z}_{2}}\]，\[{{z}_{3}}\]互不相等）在复平面内所对应的点，求证：\[\Delta ABC\]为等边三角形的充要条件是\[z_{1}^{2}+z_{2}^{2}+z_{3}^{2}={{z}_{1}}{{z}_{2}}+{{z}_{2}}{{z}_{3}}+{{z}_{3}}{{z}_{1}}\].
+154.利用复数知识证明：\[\cos 3\alpha =4{{\cos }^{3}}\alpha -3\cos \alpha \]，\[\sin 3\alpha =3\sin \alpha -4{{\sin }^{3}}\alpha \].
+155.（1）求证：\[\cos \frac{\pi }{2n+1}+\cos \frac{3\pi }{2n+1}+\cos \frac{5\pi }{2n+1}+\cdots +\cos \frac{2n-1}{2n+1}\pi =\frac{1}{2}\]（\[n\in N\]）.
+（2）已知\[\cos \alpha +\cos \beta +\cos \gamma =0\]，\[\sin \alpha +\sin \beta +\sin \gamma =0\].求证：
+①\[\cos 3\alpha +\cos 3\beta +\cos 3\gamma =3\cos \left( \alpha +\beta +\gamma  \right)\]，\[\sin 3\alpha +\sin 3\beta +\sin 3\gamma =3\sin \left( \alpha +\beta +\gamma  \right)\]；
+②\[\cos 3k\alpha =\cos 3k\beta =\cos 3k\gamma =\cos k\left( \alpha +\beta +\gamma  \right)\]，
+\[\sin 3k\alpha =\sin 3k\beta =\sin 3k\gamma =\sin k\left( \alpha +\beta +\gamma  \right)\]（\[k\in N\]）.
+156.（1）若\[\left| z \right|=1\]，求复数\[u=3{{z}^{2}}+\frac{1}{{{z}^{2}}}\]在复平面内的对应点的轨迹.
+（2）求复数\[z=\frac{1}{1-bi}\]（\[b\in R\]且\[b\ne 0\]）在复平面内对应点的轨迹方程.
+（3）复平面内，若复数\[z\]对应的点在连接复数\[2+i\]和\[2-i\]对应点的线段上移动，求\[{{z}^{2}}\]对应点的轨迹方程.
+157.根据条件，求复数\[z+\frac{1}{z}\]在复平面内的对应点轨迹的普通方程：
+（1）\[\left| z \right|=1\].
+（2）\[\left| z \right|=r\]（\[r>0\]，\[r\ne 1\]）.
+（3）\[\left| z \right|\ne 0\]，且\[\arg z=\theta \].
+158.（1）在等腰Rt\[\Delta ABC\]中，已知\[\angle C={{90}^{\circ }}\]，\[\left| AC \right|=a\].若点\[A\]在\[x\]轴上移动，点\[B\]在抛物线上移动，且点\[A\]，\[B\]，\[C\]按逆时针方向排列，求顶点\[C\]的轨迹方程.
+（2）设\[P\]是抛物线\[y={{x}^{2}}\]上任意一点，以线段\[OP\]为边，按逆时针方向作正方形\[OPQR\]（如图），利用复数知识求点\[R\]的轨迹方程.
+ 
+（第158题）
+159.一动点从原点出发，开始沿\[x\]轴的正半轴运动，每运动一个长度单位，就向左转\[\theta \]角，求此动点运动\[n\]个长度单位时与原点的距离.
+160.（1）复平面内，复数\[\alpha \]的对应点在连接\[1+i\]和\[1-i\]的对应两点的线段上运动，复数\[\beta \]的对应点在以原点为圆心，半径为1的圆周上运动，试求：
+①复数\[\alpha +\beta \]的对应点运动范围的面积；		②复数\[\alpha \beta \]的对应点运动范围的面积.
+（2）已知半径为1的定圆\[O\]的内接正\[n\]边形的顶点为\[{{P}_{k}}\]（\[k=1,2,\cdots n\]），\[P\]为该圆周上任意一点，求证：\[{{\left| P{{P}_{1}} \right|}^{2}}+{{\left| P{{P}_{2}} \right|}^{2}}+\cdots +{{\left| P{{P}_{n}} \right|}^{2}}\]为一定值.
+

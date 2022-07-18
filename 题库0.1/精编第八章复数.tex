@@ -1,4 +1,52 @@
-例1  求$\theta$, 使复数$z=\cos 2\theta +(\tan ^2\theta -\tan \theta -2)i$是:
+\documentclass[10pt,a4paper]{article}
+\usepackage[UTF8,fontset = windows]{ctex}
+\setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{华文中宋}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
+\usepackage{ifthen,indentfirst,enumerate,color,titletoc}
+\usepackage{tikz}
+\usepackage{makecell}
+\usepackage{longtable}
+%\usepackage{mathptmx}
+
+\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing}
+\usepackage[bf,small,indentafter,pagestyles]{titlesec}
+\usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
+\renewcommand{\baselinestretch}{1.65}
+\newtheorem{defi}{定义~}
+\newtheorem{eg}{例~}
+\newtheorem{ex}{~}
+\newtheorem{rem}{注~}
+\newtheorem{thm}{定理~}
+\newtheorem{coro}{推论~}
+\newtheorem{axiom}{公理~}
+\newtheorem{prop}{性质~}
+\newcommand{\blank}[1]{\underline{\hbox to #1pt{}}}
+\newcommand{\bracket}[1]{(\hbox to #1pt{})}
+\newcommand{\onech}[4]{\par\begin{tabular}{p{.9\textwidth}}
+A.~#1\\
+B.~#2\\
+C.~#3\\
+D.~#4
+\end{tabular}}
+\newcommand{\twoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+A.~#1& B.~#2\\
+C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\vartwoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+(1)~#1& (2)~#2\\
+(3)~#3& (4)~#4
+\end{tabular}}
+\newcommand{\fourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+A.~#1 &B.~#2& C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\varfourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+(1)~#1 &(2)~#2& (3)~#3& (4)~#4
+\end{tabular}}
+\begin{document}
+\begin{enumerate}[1.]
+
+
+\item 例1  求$\theta$, 使复数$z=\cos 2\theta +(\tan ^2\theta -\tan \theta -2)i$是:
 (1)实数.			(2)纯虚数.			(3)零.
 解  (1)由$\tan ^2\theta -\tan \theta -2=0$, 得$\tan \theta =-1$, $\tan \theta =2$,
 ∴$\theta =k\pi -\dfrac{\pi }4$, $\theta =k\pi +\arctan 2$($k\in \mathbf{Z}$).
@@ -8,11 +56,11 @@
 则$\tan \theta =-1$, ∴$\theta =k\pi -\dfrac{\pi }4$($k\in \mathbf{Z}$).
 \item 复数和几何意义.
 引进了``复平面''的概念以后, 复数$z=a+bi$($a,b\in \mathbf{R}$)有两个几何意义:
-(1)复数$z=a+b\mathrm{i}$($a,b\\mathrm{i}n R$)与复平面上的点($a,b$)以一一对应.
+(1)复数$z=a+b\mathrm{i}$($a,b\in R$)与复平面上的点($a,b$)以一一对应.
 (2)非零复数$z=a+bi$($a,b\in \mathbf{R}$, $a^2+b^2\ne 0$)与复平面上自原点出发, 以点$Z(a,b)$为终点的向量$\overrightarrow{OZ}$一一对应.
 需要特别说明的是, 非零复数和复平面上的向量并不是一一对应的, 这是因为向量具有``可平移性'', 这就是说, 两个方向一致、长度相等的向量是相等的.
 \item 两个复数相等的条件.
-两个复数$z_1=a+b\mathrm{i}$($a,b\\mathrm{i}n R$)和$z_2=c+d\mathrm{i}$($c,d\\mathrm{i}n R$), 我们规定:
+两个复数$z_1=a+b\mathrm{i}$($a,b\in R$)和$z_2=c+d\mathrm{i}$($c,d\in R$), 我们规定:
 $z_1=z_2\Leftrightarrow \begin{cases} a=c, \\ b=d. \end{cases}$
 特别地, 有$a+bi=0\Leftrightarrow \begin{cases} a=0, \\ b=0, \end{cases}$($a,b\in \mathbf{R}$).
 \item 已知实数$a,x,y$满足$a^2+(2+i)a+2xy+(x-y)i=0$, 则点$(x,y)$的轨迹是()
@@ -25,7 +73,7 @@ $z_1=z_2\Leftrightarrow \begin{cases} a=c, \\ b=d. \end{cases}$
 【训练题】
 \item 若$x,y\in \mathbf{R}$, 则``$x=0$''是``$x+yi$为纯虚数''的()
 \fourch{充分不必要条件}{必要不充分条件}{充要条件}{既不充分也不必要条件}
-\item 复数$a+b\mathrm{i}$($a,b\\mathrm{i}n R$)在复平面内的对应点在虚轴上的一个充要条件是()
+\item 复数$a+b\mathrm{i}$($a,b\in R$)在复平面内的对应点在虚轴上的一个充要条件是()
 \fourch{$a=0$}{$b\ne 0$}{$ab=0$}{$\dfrac ab=0$}
 \item 下列结论中, 正确的是()
 \fourch{复平面内, 原点是实轴与虚轴的公共点}{实数的共轭复数一定是实数, 虚数的共轭复数一定是虚数}{复数集$C$与复平面内所有向量所组成的集合是一一对应的.
@@ -44,11 +92,11 @@ $z_1=z_2\Leftrightarrow \begin{cases} a=c, \\ b=d. \end{cases}$
 (1)$x_1+y_1i=x_2+y_2i$的充要条件是$x_1=x_2$, 且$y_1=y_2$.()
 (2)任意两个复数都不能比较大小.()
 (3)若$x,y\in \mathbf{R}$, 且$x=y$, 则$(x-y)+(x+y)i$是纯虚数.()
-\item (1)已知复数$z=\dfrac{{a^2}+a-2}{a-3}+(a^2-4a+3)\mathrm{i}$($a\\mathrm{i}n R$).
+\item (1)已知复数$z=\dfrac{{a^2}+a-2}{a-3}+(a^2-4a+3)\mathrm{i}$($a\in R$).
 \textcircled{1} 若$z\in \mathbf{R}$, 则$a=$\blank{50}; \textcircled{2} 若$z$是纯虚数, 则$a=$\blank{50}.
 (2)已知$z=(2\cos \theta -\sqrt 3)+i(2\sin \theta -1)$.
 \textcircled{1} 若$z\in \mathbf{R}$, 则$\theta =$\blank{50}; \textcircled{2} 若$z$是纯虚数, 则$\theta =$\blank{50}.
-(3)已知复数$z=(\tan ^2\theta +\tan \theta -2)+\mathrm{i}(\cos ^2\theta -\s\mathrm{i}n ^2\theta)$.
+(3)已知复数$z=(\tan ^2\theta +\tan \theta -2)+\mathrm{i}(\cos ^2\theta -\sin ^2\theta)$.
 \textcircled{1} 当$\theta =$\blank{50}时, $z$为实数; \textcircled{2} 当$\theta =$\blank{50}时, $z$为纯虚数; \textcircled{3} 当$\theta =$\blank{50}时, $z=0$.
 (4)复平面内, 若复数$z=(m^2-m-2)+(m^2-3m+2)\mathrm{i}$所对应的点在虚轴上, 则实数$m$的值等于\blank{50}.
 (5)复平面内, 若复数$(m^2-8m+15)+(m^2-5m-14)i$所对应的点位于第四象限, 则实数$m$的取值范围是\blank{50}.
@@ -57,7 +105,7 @@ $z_1=z_2\Leftrightarrow \begin{cases} a=c, \\ b=d. \end{cases}$
 (3)不等式$|4+i\log _{\dfrac 12}(x-1)|\ge|-3+4i|$的解集是\blank{50}.
 (4)若复数$z=(x-1)+(2x-1)\mathrm{i}$的模小于$\sqrt {10}$可, 则实数$x$的取值范围是\blank{50}.
 (5)若复数$z=\cos \alpha +i(1-\sin \alpha)$, 则$|z|$的取值范围是\blank{50}.
-\item (1)若复数$z_1=1-\mathrm{i}r\s\mathrm{i}n \alpha$与$z_2=r\cos \alpha -\sqrt 3\mathrm{i}$($r>0$)相等, 则$z_1=$\blank{50}.
+\item (1)若复数$z_1=1-\mathrm{i}r\sin \alpha$与$z_2=r\cos \alpha -\sqrt 3\mathrm{i}$($r>0$)相等, 则$z_1=$\blank{50}.
 (2)已知$z_1=\sin 2\theta +i\cos \theta$, $z_2=\cos \theta -\sqrt 3\sin \theta$($0\le \theta <\pi$).
 \textcircled{1} 若$z_1=z_2$, 则$\theta =$\blank{50}; \textcircled{2} 若$z_1=\overline{z_2}$, 则$\theta =$\blank{50}.
 \item 根据下列条件, 求复数$z$:
@@ -71,18 +119,18 @@ $z_1=z_2\Leftrightarrow \begin{cases} a=c, \\ b=d. \end{cases}$
 \fourch{$i$}{$-i$}{$\dfrac 34-i$}{$-i$和$\dfrac 34-i$}
 \item 若虚数$(x-2)+yi$($x,y\in \mathbf{R}$)的模为$\sqrt 3$, 则$\dfrac yx$的最大值是()
 \fourch{$\dfrac{\sqrt 3}2$}{$\dfrac{\sqrt 3}3$}{$\dfrac 12$}{$\sqrt 3$}
-\item 设复数$z=\log _2(\cos \alpha +\dfrac 12)+\mathrm{i}\log _2(\s\mathrm{i}n \alpha +\dfrac 12)$, 求$\alpha$, 使:
+\item 设复数$z=\log _2(\cos \alpha +\dfrac 12)+\mathrm{i}\log _2(\sin \alpha +\dfrac 12)$, 求$\alpha$, 使:
 (1)$z$为实数.	(2)$z$为纯虚数.		(3)$z$在复平面内的对应点在第二象限.
 (4)$z$的实部与虚部相等.
 \item 根据条件, 在复平面内画出复数对应点的集合所表示的图形:
 (1)$1\le|R(z)|\le 2$($R(z)$表示$Z$的实部).
 (2)$1\le|z|\le 2$且$I(z)<0$($I(z)$表示$z$的虚部).
-\item 已知两个复数集$M=\{z|z=t+(1-t^2)\mathrm{i},t\\mathrm{i}n R\}$及$N=\{z|z=2\cos \theta +(\lambda +3\s\mathrm{i}n \theta)\mathrm{i},\lambda \\mathrm{i}n R,\theta \\mathrm{i}n R\}$的交集为非空集合, 求$\lambda$的取值范围.
+\item 已知两个复数集$M=\{z|z=t+(1-t^2)\mathrm{i},t\in R\}$及$N=\{z|z=2\cos \theta +(\lambda +3\sin \theta)\mathrm{i},\lambda \in R,\theta \in R\}$的交集为非空集合, 求$\lambda$的取值范围.
 二、复数的运算
 【典型题型和解题技巧】
 高中数学中, 复数的综合性特别强, 它把代数、三角和几何自然地揉合在一起.本单元中, 解有关的复数问题主要有以下几类:
 \item 应用复数的代数形式解题.
-复数$z=x+y\mathrm{i}$($x,y\\mathrm{i}n R$)称为复数的代数形式, 利用复数的代数形式是解复数问题最基本的方法, 因此也是最重要的方法.
+复数$z=x+y\mathrm{i}$($x,y\in R$)称为复数的代数形式, 利用复数的代数形式是解复数问题最基本的方法, 因此也是最重要的方法.
 \item 已知$\dfrac z{z-1}$是纯虚数, 求复数$z$在复平面内对应点的轨迹的普通方程.
 解  设$z=x+yi$($x,y\in \mathbf{R}$),
 则$\dfrac z{z-1}=\dfrac{x+yi}{(x-1)+yi}=\dfrac{(x+yi)[(x-1)-yi]}{{{(x-1)}^2}+{y^2}}=\dfrac{x(x-1)+{y^2}+[y(x-1)-xy]i}{{{(x-1)}^2}+{y^2}}$
@@ -109,7 +157,7 @@ $z_1=z_2\Leftrightarrow \begin{cases} a=c, \\ b=d. \end{cases}$
 (图3)
 ∵$z_1+z_2=\dfrac 12+\dfrac{\sqrt 3}2i$,
 ∴$z_1+z_2$对应于向量$\overrightarrow{OC}$, 其中$\angle COA=60^{\circ }$.
-设$\overr\mathrm{i}ghtarrow{OA}$对应于复数$z_1$, $\overr\mathrm{i}ghtarrow{OB}$对应于复数$z_2$, 则四边形$AOBC$是菱形, 且$\triangle AOC$和$\triangle BOC$都是等边三角形, 于是$z_1=1$, $z_2=-\dfrac 12+\dfrac{\sqrt 3}3\mathrm{i}$或$z_1=-\dfrac 12+\dfrac{\sqrt 3}3\mathrm{i}$, $z_2=1$.
+设$\overrightarrow{OA}$对应于复数$z_1$, $\overrightarrow{OB}$对应于复数$z_2$, 则四边形$AOBC$是菱形, 且$\triangle AOC$和$\triangle BOC$都是等边三角形, 于是$z_1=1$, $z_2=-\dfrac 12+\dfrac{\sqrt 3}3\mathrm{i}$或$z_1=-\dfrac 12+\dfrac{\sqrt 3}3\mathrm{i}$, $z_2=1$.
 注意  复平面内, 若非零复数$z_1$, $z_2$分别对应于点$A$, $B$, $z_1+z_2$对应于点$C$, $O$为原点, 则:
 \textcircled{1} $OACB$是平行四边形;
 \textcircled{2} 若$|z_1|=|z_2|$, 则$OACB$是菱形;
@@ -137,7 +185,7 @@ $z_1=z_2\Leftrightarrow \begin{cases} a=c, \\ b=d. \end{cases}$
 $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|z|^2+|\omega|^2-1-|z|^2\cdot|\omega|^2=(|z|^2-1)(1-|\omega|^2)\le 0$.
 ∴$|z+\omega|^2\le|1+\overline z\omega|^2$, 于是$|z+\omega|\le|1+\overline z\omega|$.
 \item 应用$z\in \mathbf{R}$的充要条件解题.
-复数$z\\mathrm{i}n R$的充要条件是$z=\overline z$.
+复数$z\in R$的充要条件是$z=\overline z$.
 \item 若复数$z$满足$z+\dfrac 4z\in \mathbf{R}$, 且$|z-2|=2$, 求$z$.
 解  ∵$z+\dfrac 4z\in \mathbf{R}$, ∴$z+\dfrac 4z=\overline z+\dfrac 4{\overline z}$, 整理得$z^2\overline z+4\overline z=z\overline{z^2}+4z$,
 即$z|z|^2-|z|^2\cdot \overline z-4(z-\overline z)=0$, 即$(z-\overline z)(|z|^2-4)=0$.
@@ -157,7 +205,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 (一)复数的加法与减法
 \item 两个共轭虚数的差一定是().,
 \fourch{非零实数}{零}{纯虚数}{非纯虚数}
-\item 复平面内, 已知复数$2-\mathrm{i}$和$3+4\mathrm{i}$分別对于点$M,N$, 则向量$\overr\mathrm{i}ghtarrow{MN}$对应的复数是()
+\item 复平面内, 已知复数$2-\mathrm{i}$和$3+4\mathrm{i}$分別对于点$M,N$, 则向量$\overrightarrow{MN}$对应的复数是()
 \fourch{$5+3i$}{$-1-5i$}{$1+5i$}{$1-5i$}
 \item 若复数$z=3+a\mathrm{i}$满足条件$|z-2|<2$, 则实数$a$的取值范围是()
 \fourch{$(-2\sqrt 2,2\sqrt 2)$}{(-2, 2)}{(-1, 1)}{$(-\sqrt 3,\sqrt 3)$}
@@ -188,10 +236,10 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 (6)若$|z-2|=\sqrt {17}$, $|z-3|=4$, 则复数$z=$\blank{50}.
 \item (1)设$|z_1|=3$, $|z_2|=5$, $|z_1+z_2|=6$, 求$|z_1-z_2|$.
 (2)若$|z_1|=3$, $|z_1+z_2|=5$, $|z_1-z_2|=7$, 求$|z_2|$.
-\item (1)已知两个复数集合$A=\{z||z-2|\le 2\}$, $B=\{z|z=\dfrac{z_1}2\mathrm{i}+b,z_1\\mathrm{i}n A,b\\mathrm{i}n R\}$.
+\item (1)已知两个复数集合$A=\{z||z-2|\le 2\}$, $B=\{z|z=\dfrac{z_1}2\mathrm{i}+b,z_1\in A,b\in R\}$.
 \textcircled{1} 当$b=0$时, 求集合$B$所对应的区域;
 \textcircled{2} 当$A\cap B=\varnothing$时, 求$b$的取值范围.
-(2)若复数$z_1=1+2a\mathrm{i}$, $z_2=a+\mathrm{i}$($a\\mathrm{i}n R$), 集合$A=\{z||z-z_1|\le \sqrt 2\}$, $B=\{z||z-z_2|\le 2\sqrt 2\}$满足$A\b\mathrm{i}gcap B=\varnoth\mathrm{i}ng$, 求$a$的取值范围.
+(2)若复数$z_1=1+2a\mathrm{i}$, $z_2=a+\mathrm{i}$($a\in R$), 集合$A=\{z||z-z_1|\le \sqrt 2\}$, $B=\{z||z-z_2|\le 2\sqrt 2\}$满足$A\cap B=\varnothing$, 求$a$的取值范围.
 \item (1)已知复数$z_1,z_2$满足$|z_1|=1$, $|z_2|=1$, 且$z_1+z_2=\dfrac 12+\dfrac{\sqrt 3}2i$, 求$z_1,z_2$.
 (2)复平面内三点$A,B,C$依次对应于复数$1+z$, $1+2z$, $1+3z$, 其中$|z|=2$, $O$为原点, 若$S_{\triangle AOB}+S_{\triangle BOC}=2$, 求复数$z$.
 (二)复数的乘法与除法
@@ -203,7 +251,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 \fourch{1}{2}{3}{4}
 \item 使$(\dfrac{1+i}{1-i})^n$为实数的最小自然数$n$是()
 \fourch{2}{4}{6}{8}
-\item ``$z_1$和$z_2$为共轭复数''是``$z_1+z_2\\mathrm{i}n R$且$z_1\cdot z_2\\mathrm{i}n R$''的()
+\item ``$z_1$和$z_2$为共轭复数''是``$z_1+z_2\in R$且$z_1\cdot z_2\in R$''的()
 \fourch{充分不必要条件}{必要不充分条件}{充要条件}{既不充分也不必要条件}
 \item 若$(z-1)^2=|z-1|^2$, 则$z$一定是()
 \fourch{纯虚数}{实数}{虚数}{零}
@@ -253,7 +301,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 (4)已知$z=\dfrac{\sqrt 3\sin \theta +i\cos \theta }{\sin \theta -i\sqrt 3\cos \theta }$, 求$z$的最大值.
 (5)已知复数$z$满足$|z+\dfrac 1z|=1$, 求$|z|$的取值范围.
 \item (1)已知复数$z$满足$z+\dfrac 4z\in \mathbf{R}$, $|z-2|=2$, 求$z$.
-(2)已知复数$z$满足$|z-4|=|z-4\mathrm{i}|$, $z+\dfrac{14-z}{z-1}\\mathrm{i}n R$, 求$z$.
+(2)已知复数$z$满足$|z-4|=|z-4\mathrm{i}|$, $z+\dfrac{14-z}{z-1}\in R$, 求$z$.
 (3)已知$|\dfrac{z-12}{z-8i}|=\dfrac 53$, $|\dfrac{z-4}{z-8}|=1$, 求复数$z$.
 \item 根据条件, 求复数$z$在复平面内的对应点轨迹的普通方程:
 (1)$z^2+\dfrac 9{z^2}\in \mathbf{R}$.	(2)$\dfrac z{z-1}$为纯虚数.		(3)$z\cdot \overline z+az+\overline z=0$($a\in \mathbf{R}$).
@@ -264,7 +312,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 (4)复平面内, 线段$AB$上的点$P$对应的复数为$z$, 其中$A,B$点分别对应于复数$z_A=1$, $z_B=i$, 求$z^2$的对应点轨迹的普通方程, 并画出图形.
 (5)已知点$Q(u,v)$在$O(0,0)$, $A(1,0)$, $B(1,1)$为顶点的$\triangle OAB$的边界上移动, 求$z=(u+2vi)^2+2+3i$所对应的点$P$的轨迹, 并画出草图.
 \item 求证:
-(1)复数$z$可以表示为$\dfrac{1+t\mathrm{i}}{1-t\mathrm{i}}$($t\\mathrm{i}n R$)的充要条件是$|z|=1$且$z\ne -1$.
+(1)复数$z$可以表示为$\dfrac{1+t\mathrm{i}}{1-t\mathrm{i}}$($t\in R$)的充要条件是$|z|=1$且$z\ne -1$.
 (2)$\dfrac{z-1}{z+1}$为纯虚数的充要条件是$|z|=1$且$z\ne \pm 1$.
 \item 利用$||z_1|-|z_2||\le|z_1+z_2|\le|z_2|+|z_2|$解下列各题:
 (1)求函数$y=\sqrt {x^2+4}+\sqrt {x^2-8x+17}$的最小值及相应的$x$.
@@ -285,7 +333,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 【典型题型和解题技巧】
 \item 复数的三角形式.
 (1)``伪三角形式''化为三角形式.
-复数的三角形式是$r(\cos \theta +\mathrm{i}\s\mathrm{i}n \theta)$($r\ge 0$), 读者需能熟练地将下列各``伪三角形式, , 化为三角形式($r>0$):
+复数的三角形式是$r(\cos \theta +\mathrm{i}\sin \theta)$($r\ge 0$), 读者需能熟练地将下列各``伪三角形式, , 化为三角形式($r>0$):
 $r(\cos \theta -i\sin \theta)=[\cos (-\theta)+i\sin (-\theta)]$, $r(-\cos \theta +i\sin \theta)=[\cos (\pi -\theta)+i\sin (\pi -\theta)]$, $-r(\cos \theta +i\sin \theta)=r[\cos (\pi +\theta)+i\sin (\pi +\theta)]$,
 $r(\sin \theta +i\cos \theta)=r[\cos (\dfrac{\pi }2-\theta)+i\sin (\dfrac{\pi }2-\theta)]$.
 \item 将下列复数化为三角形式:
@@ -296,7 +344,7 @@ $r(\sin \theta +i\cos \theta)=r[\cos (\dfrac{\pi }2-\theta)+i\sin (\dfrac{\pi }2
 (3)$-2(\cos \dfrac{\pi }5+i\sin \dfrac{\pi }5)=2(\cos \dfrac{6\pi }5+i\sin \dfrac{6\pi }5)$.
 (4)$2(\sin \dfrac{\pi }5+i\cos \dfrac{\pi }5)=2(\cos \dfrac{3\pi }{10}+i\sin \dfrac{3\pi }{10})$.
 (2)代数形式化为三角形式.
-将复数的代数形式$z=a+b\mathrm{i}$($a,b\\mathrm{i}n R$)化为三角形式$z=r(\cos \theta +\mathrm{i}\s\mathrm{i}n \theta)$($r>0$), 可按如下步骤进行:
+将复数的代数形式$z=a+b\mathrm{i}$($a,b\in R$)化为三角形式$z=r(\cos \theta +\mathrm{i}\sin \theta)$($r>0$), 可按如下步骤进行:
 \textcircled{1} 画图, 并标出$r$和$\theta$;
 \textcircled{2} 求$\theta$和$r$, 其中$r=\sqrt {a^2+b^2}$, $\cos \theta =\dfrac ar$, $\sin \theta =\dfrac br$;
 \textcircled{3} 写出$z$的三角形式.
@@ -311,7 +359,7 @@ $r(\sin \theta +i\cos \theta)=r[\cos (\dfrac{\pi }2-\theta)+i\sin (\dfrac{\pi }2
 (图4)
 (3)复数的辐角、辐角主值$\arg z$.
 需要时时记住的是复数$z$的辐角主值的取值范围是$[0,2\pi)$, $\arg z\in [0,2\pi)$.
-\item 若复数$z=\dfrac 12+\mathrm{i}\s\mathrm{i}n \alpha$($\alpha \\mathrm{i}n R$), 且$|z|\le 1$, 求$\arg z$和$\alpha$的取值范围_
+\item 若复数$z=\dfrac 12+\mathrm{i}\sin \alpha$($\alpha \in R$), 且$|z|\le 1$, 求$\arg z$和$\alpha$的取值范围.
 解  ∵$|z|\le 1$, ∴$\dfrac 14+\sin ^2\alpha \le 1$, ∴$-\dfrac{\sqrt 3}2\le \sin \alpha \le \dfrac{\sqrt 3}2$
 如图5, $z$的对应点$P$应在线段$AB$上运动, 当点$P$在$MA$上时, $\arg z\in [0,\dfrac{\pi }3]$, 当点$P$在$BM$上时, $\arg z\in [\dfrac{5\pi }3,2\pi)$.
 (图5)
@@ -380,7 +428,7 @@ $=\sin 2\theta -i\cos 2\theta =\cos (2\theta -\dfrac{\pi }2)+i\sin (2\theta -\df
 (2)本例解法中, 设主动点对应于复数$z_0$, 从动点对应于复数$z$, 有时, 则需设主动点对应于复数$x_0+y_0i$, 从动点对应于复数$x+yi$($x_0,y_0,x,y\in \mathbf{R}$).
 \item 复数在三角中的应用.
 \item 求值: $arc\cot \dfrac 13+\arcsin \dfrac 1{\sqrt {26}}+\arccos \dfrac 7{\sqrt {50}}+arc\cot 8$.
-解  ∵$\arcsin \dfrac 1{\sqrt {26}}=\arccot \dfrac 15$, $\arccos \dfrac 1{\sqrt {50}}=\arccot \dfrac 17$, $\arccot 8=\arccot \dfrac 18$,
+解  ∵$\arcsin \dfrac 1{\sqrt {26}}=\mathrm{arccot} \dfrac 15$, $\arccos \dfrac 1{\sqrt {50}}=\mathrm{arccot} \dfrac 17$, $\mathrm{arccot} 8=\mathrm{arccot} \dfrac 18$,
 令$z_1=3+i=r_1(\cos \alpha +i\sin \alpha)$, $z_2=5+i=r_2(\cos \beta +i\sin \beta)$,
 $z_3=7+i=r_3(\cos \gamma +i\sin \gamma)$, $z_4=8+i=r_4(\cos \delta +i\sin \delta)$, 其中$0<\alpha$, $\beta$, $\gamma$, $\delta <\dfrac{\pi }4$,
 ∴$z_1\cdot z_2\cdot z_3\cdot z_4=(3+i)(5+i)(7+i)(8+i)=650(1+i)=650\sqrt 2(\cos \dfrac{\pi }4+i\sin \dfrac{\pi }4)$.
@@ -395,19 +443,19 @@ $\begin{cases} A+Bi=z+z^3+z^5+z^7+z^9=\dfrac{z(1-{z^{10}})}{1-{z^2}}=\dfrac{z-{z
 (一)复数的三角形式
 \item 复数$z=-\sin 100^\circ +i\cos 100^\circ$的轴角主值是()
 \fourch{80°}{100°}{190°}{260°}
-\item 复数$z=-2(\s\mathrm{i}n 220^\c\mathrm{i}rc -\mathrm{i}\cos 220^\c\mathrm{i}rc)$在复平面内的对应点所在的象限是()
+\item 复数$z=-2(\sin 220^\circ -\mathrm{i}\cos 220^\circ)$在复平面内的对应点所在的象限是()
 \fourch{第一象限}{第二象限}{第三角限}{第四象限}
 \item 若$\dfrac{3\pi }2<\theta <2\pi$, 则$-\sin \theta +i\cos \theta$的辐角主值等于()
 \fourch{$2\pi -\theta$}{$\theta -\dfrac{3\pi }2$}{$\theta -\pi$}{$\theta -\dfrac{\pi }2$}
-\item 复数$z=1+\s\mathrm{i}n \theta +\mathrm{i}\cos \theta$($0<\theta <\dfrac{\p\mathrm{i} }2$)的辐角主值是()
+\item 复数$z=1+\sin \theta +\mathrm{i}\cos \theta$($0<\theta <\dfrac{\pi }2$)的辐角主值是()
 \fourch{$\theta$}{$\dfrac{\theta }2$}{$\dfrac{\pi }2-\theta$}{$\dfrac{\pi }4-\dfrac{\theta }2$}
-\item 若复数$z=a+b\mathrm{i}$($a,b\\mathrm{i}n R$)所对应的点在第四象限, 则$\arg z$等于()
+\item 若复数$z=a+b\mathrm{i}$($a,b\in R$)所对应的点在第四象限, 则$\arg z$等于()
 \fourch{$\arcsin \dfrac b{\sqrt {a^2+b^2}}$}{$\arcsin \dfrac a{\sqrt {a^2+b^2}}$}{$arc\cot \dfrac ba$}{$2\pi +\arctan \dfrac ba$}
 \item 若复数$z$满足$|z+3\mathrm{i}|\le 2$, 则$\arg z$的最大值为()
 \fourch{$\arcsin \dfrac 23$}{$\arccos \dfrac 23$}{$\pi -\arcsin \dfrac 23$}{$2\pi -\arccos \dfrac 23$}
-\item 复数$z=1+\cos \theta +\mathrm{i}\s\mathrm{i}n \theta$($\p\mathrm{i} <\theta <2\p\mathrm{i}$)的模是()
+\item 复数$z=1+\cos \theta +\mathrm{i}\sin \theta$($\pi <\theta <2\pi$)的模是()
 \fourch{1}{$1+\cos \theta$}{$2\cos \dfrac{\theta }2$}{$-2\cos \dfrac{\theta }2$}
-\item 若复数$z$的辐角主值是$\dfrac{5\p\mathrm{i} }6$, 实部是$-2\sqrt 3$, 则$z$的代数形式是()
+\item 若复数$z$的辐角主值是$\dfrac{5\pi }6$, 实部是$-2\sqrt 3$, 则$z$的代数形式是()
 \fourch{$-2\sqrt 3-2i$}{$-2\sqrt 3+2i$}{$-2\sqrt 3+2\sqrt 3i$}{$-2\sqrt 3-2\sqrt 3i$}
 \item 若$\arg z=\alpha$($0<\alpha <\dfrac{\pi }2$), 则$\arg \overline z$等于()
 \fourch{$-\alpha$}{$\pi -\alpha$}{$\pi +\alpha$}{$2\pi -\alpha$}
@@ -415,7 +463,7 @@ $\begin{cases} A+Bi=z+z^3+z^5+z^7+z^9=\dfrac{z(1-{z^{10}})}{1-{z^2}}=\dfrac{z-{z
 \fourch{105°}{265°}{285°}{315°}
 \item 复数$z=-1-2\mathrm{i}$的辐角主值是()
 \fourch{$\arctan 2$}{$\pi +\arctan 2$}{$-\arctan 2$}{$(2k+1)\pi +\arctan 2$($k\in \mathbf{Z}$)}
-\item 若复数$z$满足$z=(a+\mathrm{i})^2$, 且$\arg z=\dfrac 74\p\mathrm{i}$, 则实数$a$的值为()
+\item 若复数$z$满足$z=(a+\mathrm{i})^2$, 且$\arg z=\dfrac 74\pi$, 则实数$a$的值为()
 \fourch{1}{-1}{$-1\pm \sqrt 2$}{$-1-\sqrt 2$}
 \item 将下列复数化为三角形式:
 (1)$2(\cos \dfrac{\pi }5-i\sin \dfrac{\pi }5)=$\blank{50}.
@@ -423,46 +471,46 @@ $\begin{cases} A+Bi=z+z^3+z^5+z^7+z^9=\dfrac{z(1-{z^{10}})}{1-{z^2}}=\dfrac{z-{z
 (3)$2(-\cos \dfrac{\pi }5+i\sin \dfrac{\pi }5)=$\blank{50}.
 (4)$-2(\cos \dfrac{\pi }5+i\sin \dfrac{\pi }5)=$\blank{50}.
 (5)$|\cos \theta|+i|\sin \theta|=$\blank{50}($\dfrac{\pi }2<\theta <\pi$).
-\item 若复数$z$满足$\arg (z+4)=\dfrac{\p\mathrm{i} }6$, 则$|z|$的最小值为()
+\item 若复数$z$满足$\arg (z+4)=\dfrac{\pi }6$, 则$|z|$的最小值为()
 \fourch{1}{2}{$2\sqrt 3$}{$3\sqrt 2$}
 \item 若复数$z$满足$|z|\le \dfrac 12$, 则$\arg (z+1)$的取值范围是()
 \fourch{$[0,\dfrac{\pi }6]$}{$[-\dfrac{\pi }6,\dfrac{\pi }6]$}{$[0,\dfrac{\pi }6]\cup [\dfrac{11\pi }6,2\pi)$}{$[\dfrac{\pi }6,\dfrac{11\pi }6]$}
-\item 若非零复数$z$的辐角主值为$\dfrac{7\p\mathrm{i} }4$, 则复数$z+\mathrm{i}$的辐角主值的取值范围是()
+\item 若非零复数$z$的辐角主值为$\dfrac{7\pi }4$, 则复数$z+\mathrm{i}$的辐角主值的取值范围是()
 \fourch{$(-\dfrac{\pi }4,\dfrac{\pi }2)$}{$(\dfrac{7\pi }4,2\pi)$}{$[0,\dfrac{\pi }2)$}{$[0,\dfrac{\pi }2)\cup (\dfrac{7\pi }4,2\pi)$}
 \item 若$7+3i$的辐角主值为$\theta$, 则$6-14i$的辐角主值为()
 \fourch{$\dfrac{\pi }2+\theta$}{$\dfrac{\pi }2-\theta$}{$\dfrac{3\pi }2-\theta$}{$\dfrac{3\pi }2+\theta$}
-\item (1)复数$\cot 20^\c\mathrm{i}rc -\mathrm{i}$的模是\blank{50}, 辐角的主值是\blank{50}.
+\item (1)复数$\cot 20^\circ -\mathrm{i}$的模是\blank{50}, 辐角的主值是\blank{50}.
 (2)若$a,b\in \{-2,-1,1,2\}$, 且$a\ne b$, 则$\arg (a+bi)$的最大值是\blank{50}.
-(3)若复数$z=a+b\mathrm{i}$($a,b\\mathrm{i}n R$)的对应点在第四象限, 则$\arg z=$\blank{50}.
+(3)若复数$z=a+b\mathrm{i}$($a,b\in R$)的对应点在第四象限, 则$\arg z=$\blank{50}.
 (4)若$z_1=1+\cos \theta +i\sin \theta$, $z_2=1-\cos \theta +i\sin \theta$($\pi <\theta <2\pi$), 则$z_1,z_2$的辐角主值之和等于\blank{50}.
 (5)若$\pi <\theta <\dfrac{3\pi }2$, 则$\arg (|\cos \theta|+i|\sin \theta|)=$\blank{50}.
 (6)若$|z|\le 1$, 则$\arg (z-2)$的最大值为\blank{50}, 最小值为\blank{50}.
-\item (1)已知$|z+1|=\sqrt {10}$, $\arg (z-3\overline z)=\dfrac{5\p\mathrm{i} }4$, 求复数$z$.
+\item (1)已知$|z+1|=\sqrt {10}$, $\arg (z-3\overline z)=\dfrac{5\pi }4$, 求复数$z$.
 (2)已知复数$z$满足$|\dfrac 1z-1|=\dfrac 12$, $\arg \dfrac{z-1}z=\dfrac{\pi }3$, 求$z$的值.
-(3)已知复数$z$满足$|\dfrac{z-\mathrm{i}}{2z}|=2$, $\arg \dfrac{1+\mathrm{i}z}z=\dfrac{\p\mathrm{i} }2$, 求$z$.
+(3)已知复数$z$满足$|\dfrac{z-\mathrm{i}}{2z}|=2$, $\arg \dfrac{1+\mathrm{i}z}z=\dfrac{\pi }2$, 求$z$.
 \item (1)已知$\omega =z+ai$, 其中$a\in \mathbf{R}$, $z=\dfrac{(1+4i)(1+i)+2+4i}{3+4i}$.且$|\omega|\le \sqrt 2$, 求$\omega$的辐角主值$\theta$的取值范围.
 (2)已知$f(z)=|1+z|-\overline z$, $f(-\overline zi)=10+3i$, 求$\dfrac{z+3}{z-2}$的模及辐角主值.
-(3)已知复数$1-\cos \theta +\mathrm{i}\s\mathrm{i}n \theta$($-\p\mathrm{i} <\theta <\p\mathrm{i}$).\textc\mathrm{i}rcled{1} 求$|z|$及$\arg z$; \textc\mathrm{i}rcled{2} 要使$1\le|z|\le \sqrt 2$, 求$\theta$的取值范围.
+(3)已知复数$1-\cos \theta +\mathrm{i}\sin \theta$($-\pi <\theta <\pi$).\textcircled{1} 求$|z|$及$\arg z$; \textcircled{2} 要使$1\le|z|\le \sqrt 2$, 求$\theta$的取值范围.
 (4)求复数$z=\dfrac{1+i}{1+\cos \theta +i\sin \theta }$的模和辐角, 其中$\theta \in [0,2\pi)$, $\theta \ne \pi$.
-\item 已知复数$z=\sqrt {|\cos t|}+\mathrm{i}\sqrt {|\s\mathrm{i}n t|}$.求:
+\item 已知复数$z=\sqrt {|\cos t|}+\mathrm{i}\sqrt {|\sin t|}$.求:
 (1)$|z|$的取值范围.
 (2)$t$的范围, 使$0\le \arg z\le \dfrac{\pi }4$.
 \item (1)复平面内, 根据要求作出复数$z$的对应点所构成的图形:
 \textcircled{1} $\begin{cases}|z|\le 1, \\ \arg z\in [\dfrac{\pi }6,\dfrac{2\pi }3]; \end{cases}$					\textcircled{2} $\arg (z+2)=\dfrac{\pi }4$;
 \textcircled{3} $\begin{cases} 0\le \arg (z-1)\le \dfrac{\pi }4, \\ R(z)\le 2; \end{cases}$				\textcircled{4} $\begin{cases}|z|=1, \\ \dfrac{\pi }4<\arg (z+i)<\dfrac{\pi }2. \end{cases}$
 (2)已知$A=\{z||z-1|\le 1,z\in \mathbf{C}\}$, $B=\{z|\arg z\ge \dfrac{\pi }6,z\in \mathbf{C}\}$在复平面内, 求$A\cap B$所表示的图形的面积.
-(3)已知复数$z$满足$|z-(1+\sqrt 3\mathrm{i})|\le 2$, $\arg z\le \dfrac{\p\mathrm{i} }3$, 求$z$所对应区域的面积.
+(3)已知复数$z$满足$|z-(1+\sqrt 3\mathrm{i})|\le 2$, $\arg z\le \dfrac{\pi }3$, 求$z$所对应区域的面积.
 (二)复数三角形式的运算
-\item 若复数$z_1=\cos \dfrac{2\p\mathrm{i} }3+\mathrm{i}\s\mathrm{i}n \dfrac{2\p\mathrm{i} }3$, $z_2=\cos \dfrac{11\p\mathrm{i} }6+\mathrm{i}\s\mathrm{i}n \dfrac{11\p\mathrm{i} }6$, 则$\dfrac{2z_1^2}{z_2}$的辐角主值是()
+\item 若复数$z_1=\cos \dfrac{2\pi }3+\mathrm{i}\sin \dfrac{2\pi }3$, $z_2=\cos \dfrac{11\pi }6+\mathrm{i}\sin \dfrac{11\pi }6$, 则$\dfrac{2z_1^2}{z_2}$的辐角主值是()
 \fourch{$\dfrac{\pi }6$}{$\dfrac{5\pi }6$}{$\dfrac{3\pi }2$}{$-\dfrac{\pi }2$}
 (第87题)
 \item 复平面内有$A,B,C,D,E$五点分别在单位圆内部和外部(如图), 其中有一点对应的复数是点$A$对应复数的倒数, 则此点是()
 \fourch{点$B$.		(C)点$C$.			(C)点$D$.			(D)点$E$.
-\item 把复数$a+b\mathrm{i}$($a,b\\mathrm{i}n R$)在复平间内的对应向量绕原点$O$顺时针方向旋转90°后, 所得向量对应的复数为()
+\item 把复数$a+b\mathrm{i}$($a,b\in R$)在复平间内的对应向量绕原点$O$顺时针方向旋转90°后, 所得向量对应的复数为()
 (A)$a-bi$}{$-a+bi$}{$b-ai$}{$-b+ai$}
-\item 复平面内, 向量$\overr\mathrm{i}ghtarrow{OA}$, $\overr\mathrm{i}ghtarrow{OB}$分别对应于非零复数$z_1$, $z_2$, 若$\overr\mathrm{i}ghtarrow{OA}\perp \overr\mathrm{i}ghtarrow{OB}$, 则$\dfrac{z_2}{z_1}$一定是()
+\item 复平面内, 向量$\overrightarrow{OA}$, $\overrightarrow{OB}$分别对应于非零复数$z_1$, $z_2$, 若$\overrightarrow{OA}\perp \overrightarrow{OB}$, 则$\dfrac{z_2}{z_1}$一定是()
 \fourch{非负数}{纯虚数}{正实数}{非纯虚数}
-\item 复数$z=(\s\mathrm{i}n 25^\c\mathrm{i}rc +\mathrm{i}\cos 25^\c\mathrm{i}rc)^3$的三角形式为()
+\item 复数$z=(\sin 25^\circ +\mathrm{i}\cos 25^\circ)^3$的三角形式为()
 \fourch{$\sin 75^\circ +i\cos 75^\circ$}{$\cos 15^\circ +i\sin 15^\circ$}{$\cos 75^\circ +i\sin 75^\circ$}{$\cos 195^\circ +i\sin 195^\circ$}
 \item $(1-\sqrt 3i)^2$的辐角主值为()
 \fourch{$\dfrac{10\pi }3$}{$\dfrac{7\pi }3$}{$\dfrac 43\pi$}{$\dfrac{\pi }3$}
@@ -475,12 +523,12 @@ $\begin{cases} A+Bi=z+z^3+z^5+z^7+z^9=\dfrac{z(1-{z^{10}})}{1-{z^2}}=\dfrac{z-{z
 (3)$(1-\cos 60^{\circ }+i\sin 60^{\circ })=$\blank{50}.
 (4)$(\cos 15^\circ -i\sin 15^\circ)^3+(\cos 15^\circ -i\sin 15^\circ)^{-3}=$\blank{50}.
 \item (1)若$z=(\sqrt 3-i)^5$, 则$\arg z=$\blank{50}.
-(2)若复数$z=7(\s\mathrm{i}n 140^\c\mathrm{i}rc -\mathrm{i}\cos 140^\c\mathrm{i}rc)$, 则$\arg (-\dfrac 1{z^2})=$\blank{50}.
+(2)若复数$z=7(\sin 140^\circ -\mathrm{i}\cos 140^\circ)$, 则$\arg (-\dfrac 1{z^2})=$\blank{50}.
 (3)若$\arg z=\theta$, 则$\arg z^2=$\blank{50}.
 (4)若$\arg z=\theta$, $\dfrac 43\pi \le \theta <2\pi$, 则$\arg z^3=$\blank{50}.
 \item (1)复平面内, 将$1+\sqrt 3\mathrm{i}$所对应的向量绕原点按逆时针方向旋转$\theta$角, 所得向量对应的复数是$-2\mathrm{i}$, 则$\theta$的最小正值为\blank{50}.
 (2)复平面内, 向量$\overrightarrow{AB}$对应的复数为$2+i$, 点$A$对应的复数为$-1$, 将$\overrightarrow{AB}$绕点$A$顺时针方向旋转90°后得到向量$\overrightarrow{AC}$, 则点$C$对应的复数为\blank{50}.
-(3)若复数$z_1=\tan \theta -\mathrm{i}$, $z_2=\tan \theta +\mathrm{i}$($0<\theta <\dfrac{\p\mathrm{i} }2$), 将$z_1$的对应向量顺时针旋转到$z_2$所对应的向量, 则所转过的最小正角等于\blank{50}.
+(3)若复数$z_1=\tan \theta -\mathrm{i}$, $z_2=\tan \theta +\mathrm{i}$($0<\theta <\dfrac{\pi }2$), 将$z_1$的对应向量顺时针旋转到$z_2$所对应的向量, 则所转过的最小正角等于\blank{50}.
 (4)若复数$z_1\cdot z_2$满足$|z_1|=|z_2|=1$, $z_2-z_1=-1$, 则$\arg \dfrac{z_1}{z_2}=$\blank{50}.
 (5)若$\arg (zi)=\theta$, $\theta \in (\dfrac{\pi }2,\pi)$, 则$\arg \overline z=$\blank{50}.
 \item 若$\arg z_1=\alpha$, $\arg z_2=\beta$, 且$\alpha <\beta$, 则$\arg \dfrac{z_1}{z_2}$等于()
@@ -491,11 +539,11 @@ $\begin{cases} A+Bi=z+z^3+z^5+z^7+z^9=\dfrac{z(1-{z^{10}})}{1-{z^2}}=\dfrac{z-{z
 \fourch{$z_1\cdot z_2$}{$\dfrac{z_1}{z_2}$}{$|z_1|+|z_2|$}{$|z_1|^2+|z_2|^2$}
 \item 若复数$-2+\mathrm{i}$和$3-\mathrm{i}$的辐角主值分别为$\alpha$和$\beta$, 则$\alpha +\beta$等于()
 \fourch{$\dfrac{3\pi }4$}{$\dfrac{5\pi }4$}{$\dfrac{7\pi }4$}{$\dfrac{11\pi }4$}
-l00.复平面内, 已知点$P_1$, $P_2$分别对应于复数$3-2\mathrm{i}$, $7+4\mathrm{i}$, 线段$P_1P_2$绕点$P_1$按逆时针方向旋转$\dfrac 56\p\mathrm{i}$到$P_1P_3$的位置, 则点$P_3$对应的复数为()
+l00.复平面内, 已知点$P_1$, $P_2$分别对应于复数$3-2\mathrm{i}$, $7+4\mathrm{i}$, 线段$P_1P_2$绕点$P_1$按逆时针方向旋转$\dfrac 56\pi$到$P_1P_3$的位置, 则点$P_3$对应的复数为()
 \fourch{$2\sqrt 3+3\sqrt 3i$}{$2\sqrt 3-3\sqrt 3i$}{$-2\sqrt 3+3\sqrt 3i$}{$-2\sqrt 3-3\sqrt 3i$}
-\item 复平面内, 点$P_1$的对应复数是$z_1=-2\sqrt 3+4\mathrm{i}$, 将向量$\overr\mathrm{i}ghtarrow{OP_1}$($O$为原点)旋转一个锐角$\theta$后得到新向量$\overr\mathrm{i}ghtarrow{OP_2}$, 且点$P_2$的对应复数是$z_2=\sqrt 3+5\mathrm{i}$, 则()
+\item 复平面内, 点$P_1$的对应复数是$z_1=-2\sqrt 3+4\mathrm{i}$, 将向量$\overrightarrow{OP_1}$($O$为原点)旋转一个锐角$\theta$后得到新向量$\overrightarrow{OP_2}$, 且点$P_2$的对应复数是$z_2=\sqrt 3+5\mathrm{i}$, 则()
 \fourch{$\theta =60^{\circ }$, 且按逆时针旋转}{$\theta =60^{\circ }$, 且按顺时针旋转}{$\theta =30^{\circ }$, 且按逆时针旋转}{$\theta =30^{\circ }$, 且按顺时针旋转}
-\item 已知$z_A=a+b\mathrm{i}$($a,b\\mathrm{i}n R$, 且$ab\ne 0$), 复平面内, 把$z_A$对应的向量$\overr\mathrm{i}ghtarrow{OA}$绕原点分别按逆、顺时针方向旋转$\dfrac{2\p\mathrm{i} }3$, 得向量$\overr\mathrm{i}ghtarrow{OB}$, $\overr\mathrm{i}ghtarrow{OC}$, 则$\overr\mathrm{i}ghtarrow{OA}$, $\overr\mathrm{i}ghtarrow{OB}$, $\overr\mathrm{i}ghtarrow{OC}$所对应的复数之和等于()
+\item 已知$z_A=a+b\mathrm{i}$($a,b\in R$, 且$ab\ne 0$), 复平面内, 把$z_A$对应的向量$\overrightarrow{OA}$绕原点分别按逆、顺时针方向旋转$\dfrac{2\pi }3$, 得向量$\overrightarrow{OB}$, $\overrightarrow{OC}$, 则$\overrightarrow{OA}$, $\overrightarrow{OB}$, $\overrightarrow{OC}$所对应的复数之和等于()
 \fourch{$-a-bi$}{$-\dfrac 12+\dfrac{\sqrt 3}2i$}{$a-bi$}{0}
 l03.若$\arg z\in [\dfrac{\pi }4,\dfrac{3\pi }4]$, 则$\arg (-\dfrac 1{zi})$的取值范围是()
 (4)$[\dfrac{3\pi }4,\dfrac{5\pi }4]$.						(B)$[\dfrac{5\pi }4,\dfrac{7\pi }4]$.
@@ -514,7 +562,7 @@ l03.若$\arg z\in [\dfrac{\pi }4,\dfrac{3\pi }4]$, 则$\arg (-\dfrac 1{zi})$的�
 (2)已知复数$z$满足$|z|=5$, 且$(3+4\mathrm{i})z$为纯虚数, 求$z$.
 (3)若$|z|=1$, 求$|z^2-z+1|$的最大值和最小值.
 (4)已知$z_1,z_2\in \mathbf{C}$, 且$|z_1|=|z_2|=1$, $z_1+z_2=\dfrac 45+\dfrac 35i$, 求$\tan (\arg z_1+\arg z_2)$.
-(5)已知复数$z_1$和$z_2$满足$|z_1|=|z_2|=1$, 且$z_1-z_2=\dfrac 12-\dfrac 13\mathrm{i}$, 设$\theta$是$z_1\cdot z_2$的辐角, 求$\s\mathrm{i}n \theta$的值.
+(5)已知复数$z_1$和$z_2$满足$|z_1|=|z_2|=1$, 且$z_1-z_2=\dfrac 12-\dfrac 13\mathrm{i}$, 设$\theta$是$z_1\cdot z_2$的辐角, 求$\sin \theta$的值.
 \item (1)已知复数$z_1,z_2,z_3$的辐角主值依次成公差为$\dfrac{2\pi }3$的等差数列, 且$|z_1|=|z_2|=|z_3|=1$, 求证: $z_1+z_2+z_3=0$.
 (2)若复数$z_1,z_2,z_3$满足$z_1+z_2+z_3=0$, 且$|z_1|=|z_2|=|z_3|=1$, 求证: 复平面内以$z_1,z_2,z_3$所对应的点为顶点的三角形是内接于单位圆的正三角形.
 (3)已知非零实数$x,y,z$满足了$x+y+z=0$, 复数$\alpha ,\beta ,\gamma$满足$|\alpha|=|\beta|=|\gamma|\ne 0$, 且$x\alpha +y\beta +z\gamma =0$, 求证: $\alpha =\beta =\gamma$.
@@ -526,7 +574,7 @@ l03.若$\arg z\in [\dfrac{\pi }4,\dfrac{3\pi }4]$, 则$\arg (-\dfrac 1{zi})$的�
 (5)$\dfrac{\alpha }{\beta }=1+i$.
 \item (1)已知复数$z_1,z_2$满足$4z_1^2-2z_1z_2+z_2^2=0$, 且$|z_2|=4$, $z_1$, $z_2$, 0所对应的点分别为$A$, $B$, $O$, 求$\triangle AOB$的面积.
 (2)复平面内, 点$A$, $B$分别对应于复数$\omega -z$和$\omega +z$, 其中$\omega =-\dfrac 12+\dfrac{\sqrt 3}2i$, 若$\triangle AOB$是以原点$O$为直角顶点的等腰直角三角形.求:
-\textc\mathrm{i}rcled{1} 复数$z$.							\textc\mathrm{i}rcled{2} $\triangle AOB$的面积.
+\textcircled{1} 复数$z$.							\textcircled{2} $\triangle AOB$的面积.
 \item (1)已知等边三角形的两个顶点$A$, $B$对应的复数分别为$z_A=2+i$, $z_B=3+2i$, 求第三个顶点$C$所对应的复数.
 (2)复平面内, 等边三角形的一个顶点在原点, 中心$P$所对应的复数是$1+\mathrm{i}$, 求其他两个顶点所对应的复数.
 (3)复平而内, 矩形$OMNP$的相邻两边之比是$|OM|:|OP|=1:\sqrt 3$, 且点$O$, $M$的对应复数分别是0, $-1+2i$, 求点$N$对应的复数.
@@ -540,10 +588,10 @@ l03.若$\arg z\in [\dfrac{\pi }4,\dfrac{3\pi }4]$, 则$\arg (-\dfrac 1{zi})$的�
 (2)复平面内, 已知$A$, $B$, $C$三点对应的复数$z_1$, $z_2$, $z_3$满足$\dfrac{{z_2}-{z_1}}{{z_3}-{z_1}}=1+\dfrac 34\mathrm{i}$, 试求这个三角形三边长之比.
 \item (1)—个三角形的底边$BC$的两端所表水的复数是$z_B=a$, $z_C=-a$, 顶点$A$的位置不定, 以两边$AB$, $AC$为腰, 分别以$B$, $C$为直角的顶点, 在$\triangle ABC$外作等腰直角三角形$ABD$, $ACE$, 求证: $DE$的中点$M$为定点,
 (2)已知$B$是半圆$x^2+y^2=1$($y\ge 0$)上的动点, $A(2,0)$是$x$轴上的一个定点, 以$A$为直角顶点作等腰直角$\triangle ABC$(字母按顺时针排列), 求$|OC|$的最大值及其相应的点$B$的坐标($O$为坐标原点).
-\item (1)复平面内, 已知Rt$\triangle ABC$的三个顶点$A$, $B$, $C$分别对应于复数$z$, $z^2$, $z^3$, 且$|z|=2$, $\angle BAC=90^{\c\mathrm{i}rc }$, 求复数$z$.
+\item (1)复平面内, 已知Rt$\triangle ABC$的三个顶点$A$, $B$, $C$分别对应于复数$z$, $z^2$, $z^3$, 且$|z|=2$, $\angle BAC=90^{\circ }$, 求复数$z$.
 (2)已知复数$z_1$满足$\arg z_1=\dfrac{5\pi }{12}$, $|z_1-z_0|=\sqrt 2$, $z_0-(1+i)z_1=0$.
 \textcircled{1} 求$z_1$和$z_0$;
-\textc\mathrm{i}rcled{2} 求证: 在满足$|z_1-z_0|=\sqrt 2$条件的所有复数$z$中, $z_1$的辐角主值最小.
+\textcircled{2} 求证: 在满足$|z_1-z_0|=\sqrt 2$条件的所有复数$z$中, $z_1$的辐角主值最小.
 \item 已知复数$z=[\cos (\pi +\alpha)+i\sin (\pi +\alpha)]\cdot [\sin (\dfrac 32\pi +\beta)+i\cos (\dfrac 32\pi +\beta)]$, $0<\beta <\alpha <\dfrac{\pi }2$, 且$\sin (\alpha +\beta)=4\cos \alpha \sin \beta$, 求$\arg z$的最大值.
 \item 已知$|z-1-\mathrm{i}|=2$, 求复数$z^2$虚部的取值范围.
 \item 已知复数$z=x+yi$满足$|z+\dfrac 1z|=1$($x,y\in \mathbf{R}$).求证:
@@ -559,14 +607,14 @@ l03.若$\arg z\in [\dfrac{\pi }4,\dfrac{3\pi }4]$, 则$\arg (-\dfrac 1{zi})$的�
 (2)已知复数$z=\dfrac{{{(1+\mathrm{i})}^3}}{\sqrt 2{{(a+\mathrm{i})}^2}}$($a>0$)满足$|z|=\dfrac 12$.求:
 \textcircled{1} $a$的值; 								\textcircled{2} 使$z^n$为实数的最小自然数$n$.
 \item 已知数列$\{a_n\}$的通项$a_n=\dfrac 1{(1+\sqrt 3i)^n}$, 当$n$取1, 2, 3, …时, 依次得到的实数记为$b_1$, $b_2$, $b_3$, …, 求数列$\{b_n\}$的所有项之和.
-\item (1)已知复数$z=\cos 20^\c\mathrm{i}rc +\mathrm{i}\s\mathrm{i}n 20^\c\mathrm{i}rc$, 求$|z-z^2+z^3-z^4+z^5-z^6+z^7-z^8+z^9-z^{10}|$.
+\item (1)已知复数$z=\cos 20^\circ +\mathrm{i}\sin 20^\circ$, 求$|z-z^2+z^3-z^4+z^5-z^6+z^7-z^8+z^9-z^{10}|$.
 (2)设$z=\cos 40^\circ +i\sin 40^\circ$, 求$|z+z^2+\cdots +z^{100}|$.
 (3)已知$z=\cos \dfrac{2\pi }5+i\sin \dfrac{2\pi }5$, 求$(1+z^8)(1+z^4)(1+z^2)(1+z)$.
 (4)已知$z=\cos \dfrac{\pi }3+i\sin \dfrac{\pi }3$, 求$|z+2z^2+3z^3+\cdots +12z^{12}|$.
 \item 已知$z_n=(\dfrac{1+i}2)^n$($n\in \mathbf{N}$).
 (1)记$a_n=|z_{n+1}|-|z_n|$($n\in \mathbf{N}$), 求数列$\{a_n\}$所有项之和.
 (2)记$b_n=|z_{n+2}-z_n|$($n\in \mathbf{N}$), 求数列$\{b_n\}$所有项之和.
-\item 设复数$z=\cos \theta +\mathrm{i}\s\mathrm{i}n \theta$($0<\theta <\p\mathrm{i}$), $\omega =\dfrac{1-{{({\overline z})}^4}}{1+{z^4}}$, 且$|\omega|=\dfrac{\sqrt 3}3$, $\arg \omega <\dfrac{\p\mathrm{i} }2$, 求$\theta$.
+\item 设复数$z=\cos \theta +\mathrm{i}\sin \theta$($0<\theta <\pi$), $\omega =\dfrac{1-{{({\overline z})}^4}}{1+{z^4}}$, 且$|\omega|=\dfrac{\sqrt 3}3$, $\arg \omega <\dfrac{\pi }2$, 求$\theta$.
 \item 已知复数$z=\cos \theta +i\sin \theta$($0<\theta <2\pi$), $\omega =\dfrac{1-{z^3}}{1-z}$.求:
 (1)满足$|\omega|=1$的复数$z$.
 (2)$\omega$的辐角(用$\theta$表示).
@@ -680,12 +728,12 @@ $z=\dfrac{\cos \dfrac{2k\pi }n+i\sin \dfrac{2k\pi }n-1}{\cos \dfrac{2k\pi }n+i\s
 \item (1)已知方程$x^2+ix+6=2i+5x$有一个实数解, 试在复数范围内解此方程.
 (2)已知关于$x$的方程$x^2+2px+1=0$的两根$\alpha$, $\beta$在复平面内的对应点和原点恰是一个等边三角形的三个顶点, 求实数$p$的值.
 (3)已知$p,q\in \mathbf{R}$, 方程$x^2+px+q=0$有两虚根$\alpha$, $\beta$, 方程$x^2-px+q=0$有两虚根$\alpha ^2$, $\beta ^2$, 求$\alpha$, $\beta$, $p$, $q$的值.
-(4)已知$a$, $b$是实数, 关于$x$的方程$x^2+(2a-b\mathrm{i})x+a-b\mathrm{i}=0$的两个非零复数根的辐角分別为$\dfrac{2\p\mathrm{i} }3$及$\p\mathrm{i}$, 求$a$, $b$的值.
+(4)已知$a$, $b$是实数, 关于$x$的方程$x^2+(2a-b\mathrm{i})x+a-b\mathrm{i}=0$的两个非零复数根的辐角分別为$\dfrac{2\pi }3$及$\pi$, 求$a$, $b$的值.
 \item (1)求$5+12i$的平方根.
 (2)解方程: \textcircled{1} $z^2-i=0$.				\textcircled{2} $z^2-2zi-5=0$.
 \item 复平面内, 已知非零复数$z_1$, $z_2$对应于点$A$和$B$, 复数$z_1-a$与$z_1+a$所对应的两个向量相互垂直且模不相等, 又$z_1^2-4z_1z_2+6z_2^2=0$.
 (1)求$z_1$与$z_2$的模.
-(2)$O$为复平面上的坐标原点, 求$\triangle AOB$的面积_
+(2)$O$为复平面上的坐标原点, 求$\triangle AOB$的面积.
 \item 非零复数$\alpha$, $\beta$分别对应于点$A$, $B$($O$是原点), 已知$4\alpha ^2-2\alpha \beta +\beta ^2=0$.
 (1)求证: $\triangle AOB$是直角三角形.
 (2)若$|\alpha|=1$, 求$\triangle AOB$的面积.
@@ -701,16 +749,16 @@ $z=\dfrac{\cos \dfrac{2k\pi }n+i\sin \dfrac{2k\pi }n-1}{\cos \dfrac{2k\pi }n+i\s
 (5)已知关于$x$的方程$3x^2-6(m-1)x+m^2+1=0$的两根$x_1$, $x_2$满足$|x_1|+|x_2|=2$, 求实数$m$的值.
 \item (1)实系数方程$x^4-4x^3+9x^2-ax+b=0$的一个根是$1+i$, 求$a$, $b$的值, 并解此方程.
 (2)已知关于$x$的实系数方程$x^4+ax^3+bx^2+cx+d=0$有一个纯虚根, 求证: $a^2d+c^2-abc=0$.
-(3)已知模为2, 辐角为$\dfrac{\p\mathrm{i} }6$的复数是方程$x^5+a=0$的一个根, 求$a$.
+(3)已知模为2, 辐角为$\dfrac{\pi }6$的复数是方程$x^5+a=0$的一个根, 求$a$.
 (4)已知复数$z=\dfrac 12+\dfrac{\sqrt 3}2i$满足$z^n=\overline z$, 求整数$n$的一般形式.
 \item 利用复数乘法、除法的几何意义, 求证:
 (1)$\arctan 1+\arctan 2+\arctan 3=\pi$.
 (2)$\arcsin \dfrac{\sqrt {10}}{10}+\arccos \dfrac{7\sqrt 2}{10}+\arctan \dfrac 7{31}+arc\cot 10=\dfrac{\pi }4$.
 (3)$\arctan (3+2\sqrt 2)-\arctan \dfrac{\sqrt 2}2=\dfrac{\pi }4$.
 (4)$\arctan \dfrac 17+2\arcsin \dfrac 1{\sqrt {10}}=\dfrac{\pi }4$.
-\item (1)复平面内, 已知动点$A$, $B$所对应的复数$z_1$, $z_2$的一个辐角为定值$\theta$和$-\theta$($0<\theta <\dfrac{\p\mathrm{i} }2$), 且$\triangle AOB$的面积为定值$S$($O$为坐标原点〉, 求$\triangle AOB$的重心$M$所对应复数$z$的模的最小值.
+\item (1)复平面内, 已知动点$A$, $B$所对应的复数$z_1$, $z_2$的一个辐角为定值$\theta$和$-\theta$($0<\theta <\dfrac{\pi }2$), 且$\triangle AOB$的面积为定值$S$($O$为坐标原点〉, 求$\triangle AOB$的重心$M$所对应复数$z$的模的最小值.
 (2)复数$z_1$, $z_2$, $z_3$的辐角主值分别为$\alpha$, $\beta$, $\gamma$, 模分别为1, $k$和$2-k$, 且$z_1+z_2+z_3=0$, 求$k$, 使$\cos (\beta -\alpha)$分别取到最大值和最小值, 并求出大值和最小值.
-\item 已知复数$z=\cos \theta +\mathrm{i}\s\mathrm{i}n \theta$.
+\item 已知复数$z=\cos \theta +\mathrm{i}\sin \theta$.
 (1)当实数$k$和$\theta$分别为何值时, $z^3+k\overline z^3$是纯虚数?
 (2)求$|z^3+k\overline z^3|$的最大值与最小值.
 \item (1)已知复数$z_1$, $z_2$, $z_3$满足$|z_1|=|z_2|=|z_3|=1$, 求证: $|z_1z_2+z_2z_3+z_3z_1|=|z_1+z_2+z_3|$.
@@ -736,3 +784,7 @@ $\sin 3k\alpha =\sin 3k\beta =\sin 3k\gamma =\sin k(\alpha +\beta +\gamma)$($k\i
 \item (1)复平面内, 复数$\alpha$的对应点在连接$1+\mathrm{i}$和$1-\mathrm{i}$的对应两点的线段上运动, 复数$\beta$的对应点在以原点为圆心, 半径为1的圆周上运动, 试求:
 \textcircled{1} 复数$\alpha +\beta$的对应点运动范围的面积; 		\textcircled{2} 复数$\alpha \beta$的对应点运动范围的面积.
 (2)已知半径为1的定圆$O$的内接正$n$边形的顶点为$P_k$($k=1,2,\cdots n$), $P$为该圆周上任意一点, 求证: $|PP_1|^2+|PP_2|^2+\cdots +|PP_n|^2$为一定值.
+
+
+\end{enumerate}
+\end{document}
