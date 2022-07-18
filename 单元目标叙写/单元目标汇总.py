@@ -15,10 +15,10 @@ for f in filelist:
     with open(f,"r",encoding = "utf8") as datafile:
         data += datafile.read()
 objects = []
-for obj in re.findall(r"<目标编码>([\s\S]*?)<目标内容>([\s\S]*?)<对应单元目标编码>([\s\S]*?)<叙写",data):
-    objects.append((trim(obj[0]),trim(obj[2]),trim(obj[1])))
+for obj in re.findall(r"<目标编码>([\s\S]*?)<目标内容>([\s\S]*?)<叙写人员>",data):
+    objects.append((trim(obj[0]),trim(obj[1])))
 texfile_string = ""
 for obj in objects:
-    texfile_string += obj[0] + " & " + obj[1] + " & " + obj[2] + r"\\ \hline" +"\n"
-with open("课时目标汇总.tex","w",encoding="utf8") as output_file:
+    texfile_string += obj[0] + " & " + obj[1] + r"\\ \hline" +"\n"
+with open("单元目标汇总.tex","w",encoding="utf8") as output_file:
     output_file.write(texfile_string)
