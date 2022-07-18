@@ -1,4 +1,4 @@
-import os
+import os,re
 def trim(string):
     if string == "":
         return ""
