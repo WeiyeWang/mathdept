@@ -66,11 +66,11 @@ def sqrt_brackets(matchobj):
     else:
         first_group = matchobj.group(1)
     return "sqrt "+ first_group +"{" + matchobj.group(2) + "}"
-def refine_frac(string):
-    for s in range(7):
-        for t in range(7):
-            string = re.sub(r"frac[\s]*leftbracket"+str(s)+"(.*?)"+r"rightbracket"+str(s)+"[\s]*"+r"leftbracket"+str(t)+"(.*?)"+r"rightbracket"+str(t),frac_brackets,string)
-    return string
+#def refine_frac(string):
+#    for s in range(7):
+#        for t in range(7):
+#            string = re.sub(r"frac[\s]*leftbracket"+str(s)+"(.*?)"+r"rightbracket"+str(s)+"[\s]*"+r"leftbracket"+str(t)+"(.*?)"+r"rightbracket"+str(t),frac_brackets,string)
+#    return string
 def refine_single_second_frac(string):
     for s in range(7):
         string = re.sub(r"frac[\s]*(\w)[\s]*leftbracket"+str(s)+"(.*?)"+r"rightbracket"+str(s),frac_single_second_bracket,string)
@@ -102,6 +102,39 @@ def give_brackets(string):
     string = re.sub(r"rightset",r"\}",string)
     return string
 #以上是20220715新加的文本处理机制
+def initial_bracket_search(string):
+    t = re.search(r"^[\s]*?leftbracket(\d)",string)
+    if t == None:
+        return -1
+    else:
+        return t.span()[1]
+def initial_brackets_pair_search(string,d):
+    t = re.search("rightbracket"+d,string)
+    if t == None:
+        return -1
+    else:
+        return t.span()[1]
+def refine_frac(string):
+    eq_left = ""
+    eq_right = string
+    while re.search("frac",eq_right) != None:
+        pos = re.search("frac",eq_right)
+        eq_left += eq_right[:pos.span()[1]]
+        eq_right = eq_right[pos.span()[1]:]
+        if initial_bracket_search(eq_right)>0:
+            pos = initial_brackets_pair_search(eq_right,eq_right[initial_bracket_search(eq_right)-1])
+            first_bracket = eq_right[:pos]
+            eq_remain = eq_right[pos:]
+            if initial_bracket_search(eq_remain)>0:
+                pos = initial_brackets_pair_search(eq_remain,eq_remain[initial_bracket_search(eq_remain)-1])
+                second_bracket = eq_remain[:pos]
+                first_bracket = re.sub("leftbracket\d","{",first_bracket)
+                second_bracket = re.sub("leftbracket\d","{",second_bracket)
+                first_bracket = re.sub("rightbracket\d","}",first_bracket)
+                second_bracket = re.sub("rightbracket\d","}",second_bracket)
+                eq_right = first_bracket+second_bracket+eq_remain[pos:]
+    return eq_left+eq_right
+#以上是20220718修改的大括号处理机制, 修复了一个bug
 def reduce_blank(matchobj):
     return matchobj.group(1).replace(" ","")
 
@@ -167,8 +200,9 @@ data = re.sub("②",r"\\textcircled{2} ",data)
 data = re.sub("③",r"\\textcircled{3} ",data)
 data = re.sub("④",r"\\textcircled{4} ",data)
 data = re.sub("⑤",r"\\textcircled{5} ",data)
-
-
+#修改一些常用的错误latex命令
+data = re.sub("centerdot","cdot",data)
+data = re.sub("cancel","not",data)
 
 whole_numbers = "０１２３４５６７８９＋－＝狆狇狉犕犖＞＜犃犅犆犇狓犝［］｜犪狔犙犽犘犚犫犛犮犈犗犿犣狀犳犵犺狋犻犼狕犉犾′"
 correct_numbers = "0123456789+-=pqrMN><ABCDxU[]|ayQkPRbScEOmZnfghtijzFl'"
@@ -272,6 +306,7 @@ for equation in raw_equations:
     equation1 = refine_vital_bracket(refine_single_second_frac(refine_frac(equation1)))
     equation1 = give_blanks(equation1)
     equation1 = give_brackets(equation1)
+    
     #改善交集和并集
     equation1 = equation1.replace("\\bigc","\\c")
     #在数集中的数集改为粗黑体

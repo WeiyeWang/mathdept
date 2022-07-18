@@ -1,6 +1,50 @@
-第六章  反三角函数和简单三角方程
-一、反三角函数
-【典型题型和解题技巧】
+\documentclass[10pt,a4paper]{article}
+\usepackage[UTF8,fontset = windows]{ctex}
+\setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{华文中宋}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
+\usepackage{ifthen,indentfirst,enumerate,color,titletoc}
+\usepackage{tikz}
+\usepackage{makecell}
+\usepackage{longtable}
+%\usepackage{mathptmx}
+
+\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing}
+\usepackage[bf,small,indentafter,pagestyles]{titlesec}
+\usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
+\renewcommand{\baselinestretch}{1.65}
+\newtheorem{defi}{定义~}
+\newtheorem{eg}{例~}
+\newtheorem{ex}{~}
+\newtheorem{rem}{注~}
+\newtheorem{thm}{定理~}
+\newtheorem{coro}{推论~}
+\newtheorem{axiom}{公理~}
+\newtheorem{prop}{性质~}
+\newcommand{\blank}[1]{\underline{\hbox to #1pt{}}}
+\newcommand{\bracket}[1]{(\hbox to #1pt{})}
+\newcommand{\onech}[4]{\par\begin{tabular}{p{.9\textwidth}}
+A.~#1\\
+B.~#2\\
+C.~#3\\
+D.~#4
+\end{tabular}}
+\newcommand{\twoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+A.~#1& B.~#2\\
+C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\vartwoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+(1)~#1& (2)~#2\\
+(3)~#3& (4)~#4
+\end{tabular}}
+\newcommand{\fourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+A.~#1 &B.~#2& C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\varfourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+(1)~#1 &(2)~#2& (3)~#3& (4)~#4
+\end{tabular}}
+\begin{document}
+\begin{enumerate}[1.]
+
 \item 用反三角函数的形式表示一个角.
 这是学习反三角函数内容的一个难点, 解此类问题的关键是正确理解反三角函数的定义, 熟练掌握反三角函数的定义域和值域, 把握角的范围.
 (1)只有在$-\dfrac{\pi }2\le x\le \dfrac{\pi }2$时, 才可由$\sin x=a$($|a|\le 1$)直接得到$x=\arcsin a$.
@@ -24,10 +68,10 @@
 \item 求值:
 (1)$\tan [\dfrac 12\arcsin (\dfrac{-2\sqrt 6}5)]$.			(2)$\cos [\arctan \dfrac 34+\arccos (-\dfrac 23)]$.
 解  (1)令$\alpha =\arcsin (\dfrac{-2\sqrt 6}5)$, 则$\sin \alpha =\dfrac{-2\sqrt 6}5$, $\alpha \in (-\dfrac{\pi }2,0)$, 于是$\cos \alpha =\dfrac 15$..
-∴原式$=\tan \dfrac{\alpha }2=\dfrac{1-\cos \alpha }{\sin \alpha }=\dfrac{1-\dfrac 15}{-\dfrac{2\sqrt 6}5}=-\dfrac{\sqrt 6}3$.
+∴原式$=\tan \dfrac\alpha 2=\dfrac{1-\cos \alpha }{\sin \alpha }=\dfrac{1-\dfrac 15}{-\dfrac {2\sqrt 6}5}=-\dfrac{\sqrt 6}3$.
 (2)令$\alpha =\arctan \dfrac 34$, 则$\tan \alpha =\dfrac 34$, $\alpha \in (0,\dfrac{\pi }2)$, 于是$\sin \alpha =\dfrac 35$, $\cos \alpha =\dfrac 45$.
 再$\beta =\arccos (-\dfrac 23)$, 则$\cos \beta =-\dfrac 23$, $\beta \in (\dfrac{\pi }2,\pi)$, 于是$\sin \beta =\dfrac{\sqrt 5}3$.
-∴原式$=\cos (\alpha +\beta)=\cos \alpha \cos \beta -\sin \alpha \sin \beta =\dfrac 45\times (-\dfrac 23)-\dfrac 35\times \dfrac{\sqrt 5}3=-\dfrac{8+3\sqrt 5}{15}$.
+∴原式$=\cos (\alpha +\beta)=\cos \alpha \cos \beta -\sin \alpha \sin \beta =\dfrac 45\times (-\dfrac 23)-\dfrac 35\times \dfrac{\sqrt 53=-\dfrac 8+3\sqrt 5}{15}$.
 注意  —般地, 对于含有反三角形式的计算问题, 都可利用``一令、二则、三范围''的方法来解决.
 \item 两组重要的恒等式.
 根据反三角函数的定义, 可以得到下列两组重要的恒等式:
@@ -223,7 +267,7 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 解  原方程即$(2\sin x-1)(\sin x+2)=0$, ∴$\sin x=\dfrac 12$或$\sin x=-2$(舍去).
 ∴$x=k\pi +(-1)^k\dfrac{\pi }6$($k\in \mathbf{Z}$).
 (2)$a\sin x+b\cos x+c=0$($a^2+b^2\ne 0$, $c\ne 0$)型.
-此类方程可将两边同除以$\sqrt {a^2+b^2}$, 变形为$\sin (x+\varphi)=\dfrac{-c}{\sqrt {{a^2}+{b^2}}}$.
+此类方程可将两边同除以$\sqrt {a^2+b^2}$, 变形为$\sin (x+\varphi)=\dfrac{-c}{\sqrt {a^2+b^2}}$.
 \item 解方程$2\sin x-\cos x=1$.
 解  原方程即$\sin x\cdot \dfrac 2{\sqrt 5}-\cos x\cdot \dfrac 1{\sqrt 5}=\dfrac 1{\sqrt 5}$, 即$\sin (x-\varphi)=\dfrac 1{\sqrt 5}$(其中$\varphi =\arctan \dfrac 12$),
 ∴$x=k\pi +(-1)^k\arcsin \dfrac 1{\sqrt 5}+\arctan \dfrac 12$($k\in \mathbf{Z}$).
@@ -353,7 +397,7 @@ I(2)若关于$x$的方程$\sin ^2x+4\sin x\cos x-2\cos ^2x=a$恒有实数解, �
 \item 将下列各组数从小到大排列:
 (1)$\dfrac 12$, $\sin \dfrac 12$, $\arcsin \dfrac 12$.				(2)$\dfrac 13$, $\cos \dfrac 13$, $\arccos \dfrac 13$.
 (3)$\arcsin \dfrac 14$, $\arctan \sqrt 5$, $\arccos (-\dfrac 13)$.
-\item (1)已知$0<x<1$, 求证: $2\arctan \dfrac{1+x}{1-x}+\arcsin \dfrac{1-{x^2}}{1+{x^2}}=\pi$.
+\item (1)已知$0<x<1$, 求证: $2\arctan \dfrac{1+x}{1-x}+\arcsin \dfrac{1-x^2}{1+x^2}=\pi$.
 (2)已知$a,b,c>0$, 求证: 若$\arctan a+\arctan b+\arctan c=\pi$, 则$a+b+c=abc$, 反过来也成立.
 \item (1)画出函数$y=\arctan x+\arctan \dfrac{1-x}{1+x}$的图象.
 (2)在不同坐标系内分别画出$y=\arcsin (\sin x)(-\dfrac{\pi }2\le x\le \dfrac{3\pi }2)$和$y=\arcsin (\sin x)$($x\in \mathbf{R}$)的图象.
@@ -361,7 +405,7 @@ I(2)若关于$x$的方程$\sin ^2x+4\sin x\cos x-2\cos ^2x=a$恒有实数解, �
 (1)$x=\arcsin (\sin 2x)$.
 (2)$\cos (\pi \sin x)=\sin (\pi \cos x)$($0\le \pi <2\pi$).
 (3)$x^2+2x\cos (xy)+1=0$($x,y\in \mathbf{R}$).
-\item 已知$\alpha ,\beta$是关于$x$的方程$a\cos x+b\sin x=c$的两个实根($a^2+b^2\ne 0$, $a\ne 2k\pi +\beta$, $k\in \mathbf{Z}$), 求证$\cos ^2\dfrac{\alpha -\beta }2=\dfrac{c^2}{{a^2}+{b^2}}$.
+\item 已知$\alpha ,\beta$是关于$x$的方程$a\cos x+b\sin x=c$的两个实根($a^2+b^2\ne 0$, $a\ne 2k\pi +\beta$, $k\in \mathbf{Z}$), 求证$\cos ^2\dfrac{\alpha -\beta}2=\dfrac{c^2}{a^2+b^2}$.
 \item 已知$\triangle ABC$的两内角$A,B$满足方程$8\sin ^2x+3\sin 2x-4=0$, 且$A>B$, 求此三角形三边长之比.
 \item 解方程$\tan (x+\dfrac{\pi }4)+\tan (x-\dfrac{\pi }4)=2\cot x$.
 \item 已知关于$x$的方程$x=a\sin x+b$($0<a<1$, $b\in \mathbf{R}$)有实根, 求证: 该方程只有一个实根.
@@ -369,3 +413,8 @@ I(2)若关于$x$的方程$\sin ^2x+4\sin x\cos x-2\cos ^2x=a$恒有实数解, �
 (2)已知关于$x$的方程$2\cos 2x+4(a-1)\sin x-4a+1=0$在$0\le x\le 2\pi$范围内有相异两个实根, 求$a$的取值范围.
 \item 已知关于$x$的方程$\cos 2x-2(2a+1)\cos x+2a^2+2a+1=0$在$[0,2\pi)$范围内有两个不同的解, 求实数$a$的取位范围.
 .
+
+
+
+\end{enumerate}
+\end{document}

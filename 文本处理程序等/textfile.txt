@@ -1,722 +1,423 @@
-第五章  两角和与差的三角函数、解斜三角形
-一、和、差、倍、半公式
+第六章  反三角函数和简单三角方程
+一、反三角函数
 【典型题型和解题技巧】
-1.“变”角.
-所谓变角，就是将角度进行恒等变换，为解题作铺垫，常用的变角类型有\[2\alpha =\left( \alpha +\beta  \right)+\left( \alpha -\beta  \right)\]，\[2\beta =\left( \alpha +\beta  \right)+\left( \alpha -\beta  \right)\]，\[\alpha =\left( \alpha +\beta  \right)-\beta \]，\[\alpha =\left( \alpha +45{}^\circ  \right)-45{}^\circ \]，\[\alpha =\left( m+1 \right)\alpha -m\alpha \]，等等.
-例1  已知\[\cos \left( \alpha +\beta  \right)=\frac{4}{5}\]，\[\cos \left( \alpha -\beta  \right)=-\frac{4}{5}\]，其中\[\alpha +\beta \in \left( \frac{7\pi }{4},2\pi  \right)\]，\[\alpha -\beta \in \left( \frac{3\pi }{4},\pi  \right)\]，求\[\cos 2\alpha \].
-解  ' \[\because \frac{7\pi }{4}<\alpha +\beta <2\pi \]，\[\frac{3\pi }{4}<\alpha -\beta <\pi \]，\[\therefore \sin \left( \alpha +\beta  \right)=-\frac{3}{5}\]，\[\sin \left( \alpha -\beta  \right)=\frac{3}{5}\]，
-于是\[\cos 2\alpha =\cos \left[ \left( \alpha +\beta  \right)+\left( \alpha -\beta  \right) \right]=\cos \left( \alpha +\beta  \right)\cos \left( \alpha -\beta  \right)-\sin \left( \alpha +\beta  \right)\sin \left( \alpha -\beta  \right)\]
-      \[=\frac{4}{5}\left( -\frac{4}{5} \right)-\left( -\frac{3}{5} \right)\times \frac{3}{5}=-\frac{16}{25}+\frac{9}{25}=-\frac{7}{25}\].
-例2  求证：\[\tan \left( \alpha -\beta  \right)+\tan \left( \beta -\gamma  \right)+\tan \left( \gamma -\alpha  \right)=\tan \left( \alpha -\beta  \right)\tan \left( \beta -\gamma  \right)\tan \left( \gamma -\alpha  \right)\].
-证明  \[\tan \left( \gamma -\alpha  \right)=-\tan \left( \alpha -\gamma  \right)=-\tan \left[ \left( \alpha -\beta  \right)+\left( \beta -\gamma  \right) \right]\]
-                \[=-\frac{\tan \left( \alpha -\beta  \right)+\tan \left( \beta -\gamma  \right)}{1-\tan \left( \alpha -\beta  \right)\tan \left( \beta -\gamma  \right)}\].
-去分母，得\[-\tan \left( \gamma -\alpha  \right)+\tan \left( \gamma -\alpha  \right)\tan \left( \alpha -\beta  \right)\tan \left( \beta -\gamma  \right)=\tan \left( \alpha -\beta  \right)+\tan \left( \beta -\gamma  \right)\]，
-即\[\tan \left( \alpha -\beta  \right)+\tan \left( \beta -\gamma  \right)+\tan \left( \gamma -\alpha  \right)=\tan \left( \alpha -\beta  \right)\tan \left( \beta -\gamma  \right)\tan \left( \gamma -\alpha  \right)\].
-2.“拆”角.
-所谓拆角，就是把已知的角一拆为二，以达到消项的目的.实际上，拆角是变角的特例.
-例3  求\[\frac{2\cos 10{}^\circ -\sin 20{}^\circ }{\cos 20{}^\circ }\]的值.
-解  原试\[=\frac{2\cos \left( 30{}^\circ -20{}^\circ  \right)-\sin 20{}^\circ }{\cos 20{}^\circ }=\frac{2\left( \cos 30{}^\circ \cos 20{}^\circ +\sin 30{}^\circ \sin 20{}^\circ  \right)-\sin 20{}^\circ }{\cos 20{}^\circ }\]
-        \[=\frac{2\cos 30{}^\circ \cos 20{}^\circ }{\cos 20{}^\circ }=\sqrt{3}\].
-注意  上述解法是把10°“拆”成\[30{}^\circ -20{}^\circ \]来求解，如果把20°“拆”成\[30{}^\circ -10{}^\circ \]也可获解，但过程较冗赘.
-3.正、余互变.
-如果\[\alpha +\beta =\frac{\pi }{2}\]，那么\[\sin \alpha =\cos \beta \]，\[\cos \alpha =\sin \beta \]，\[\tan \beta =\cot \alpha \].例如，由\[\left( \frac{\pi }{3}-\varphi  \right)+\left( \frac{\pi }{6}+\varphi  \right)=\frac{\pi }{2}\]，可得\[\sin \left( \frac{\pi }{3}-\varphi  \right)=\cos \left( \frac{\pi }{6}+\varphi  \right)\].
-例4  已知\[\sin \left( \frac{\pi }{4}-x \right)=\frac{5}{13}\]，且\[0<x<\frac{\pi }{4}\].求\[\frac{\cos 2x}{\cos \left( \frac{\pi }{4}+x \right)}\]的值.
-解  由条件，得\[\cos \left( \frac{\pi }{4}-x \right)=\frac{12}{13}\].
-\[\therefore \]原式\[=\frac{\sin \left( \frac{\pi }{2}-2x \right)}{\cos \left( \frac{\pi }{4}+x \right)}=\frac{\sin 2\left( \frac{\pi }{4}-x \right)}{\cos \left( \frac{\pi }{4}+x \right)}=\frac{2\sin \left( \frac{\pi }{4}-x \right)\cos \left( \frac{\pi }{4}-x \right)}{\cos \left( \frac{\pi }{4}+x \right)}\]
-      \[=\frac{2\cos \left( \frac{\pi }{4}+x \right)\cos \left( \frac{\pi }{4}-x \right)}{\cos \left( \frac{\pi }{4}+x \right)}=2\cos \left( \frac{\pi }{4}-x \right)=\frac{24}{13}\].
-4.逆用公式.
-由\[\tan \left( \alpha +\beta  \right)=\frac{\tan \alpha +\tan \beta }{1-\tan \alpha \tan \beta }\]可得
-\[\tan \alpha +\tan \beta =\tan \left( \alpha +\beta  \right)\left( 1-\tan \alpha \tan \beta  \right)\]，或\[1-\tan \alpha \tan \beta =\frac{\tan \alpha +\tan \beta }{\tan \left( \alpha +\beta  \right)}\].
-后两个公式是第一个公式的逆用.
-例5  求\[\tan 65{}^\circ +\tan 70{}^\circ +1-\tan 65{}^\circ \tan 70{}^\circ \]的值.
-解  原式\[=\tan \left( 65{}^\circ +70{}^\circ  \right)\left( 1-\tan 65{}^\circ \tan 70{}^\circ  \right)+1-\tan 65{}^\circ \tan 70{}^\circ \]
-        \[=\left( -1 \right)\cdot \left( 1-\tan 65{}^\circ \tan 70{}^\circ  \right)+1-\tan 65{}^\circ \tan 70{}^\circ =0\].
-注意  此例也可用“他推法”求解.所谓“他推法”，即从某已知等式出发，经过变换后，便可获得欲求之解.
-如例5，\[\because 135{}^\circ =65{}^\circ +70{}^\circ \]，两边取正切，便得\[-1=\tan \left( 65{}^\circ +70{}^\circ  \right)=\frac{\tan 65{}^\circ +\tan 70{}^\circ }{1-\tan 65{}^\circ \tan 70{}^\circ }\]，
-\[\therefore \tan 65{}^\circ \tan 70{}^\circ -1=\tan 65{}^\circ +\tan 70{}^\circ \]，移项即可得原式\[=0\].
-请读者思考，如何通过“公式逆用”或“他推法”来证明：
-\[\tan \left( A-B \right)+\tan \left( B-C \right)+\tan \left( C-A \right)=\tan \left( A-B \right)\tan \left( B-C \right)\tan \left( C-A \right)\].
-5.合一变形.
-形如\[a\sin x+b\sin x\]的式子颇为常见.此类式子可作“合一变形”，即
-\[a\sin x+b\sin x=\sqrt{{{a}^{2}}+{{b}^{2}}}\left( \frac{a}{\sqrt{{{a}^{2}}+{{b}^{2}}}}\sin x+\frac{b}{\sqrt{{{a}^{2}}+{{b}^{2}}}}\cos x \right)=\sqrt{{{a}^{2}}+{{b}^{2}}}\sin \left( x+\varphi  \right)\]，
-其中，\[\sin \varphi =\frac{b}{\sqrt{{{a}^{2}}+{{b}^{2}}}}\]，\[\cos \varphi =\frac{a}{\sqrt{{{a}^{2}}+{{b}^{2}}}}\].
-由此便可求得\[a\sin x+b\sin x\]的值域、周期和单调区间等.
-例6  求函数\[f\left( x \right)=\sin x-\sqrt{3}\cos x\]的值域、最小正周期以及为增函数的区间.
-解  \[\because f\left( x \right)=2\left( \sin x\cdot \frac{1}{2}-\cos x\cdot \frac{\sqrt{3}}{2} \right)=2\sin \left( x-\frac{\pi }{3} \right)\]，
-\[\therefore \]函数的值域为[－2，2]，最小正周期是\[2\pi \]，为增函数的区间是\[\left[ 2k\pi -\frac{\pi }{6},2k\pi +\frac{5\pi }{6} \right]\]（\[k\in Z\]）.
-例7  求函数\[y=\frac{\sqrt{3}\sin x}{2+\cos x}\]的值域.
-解  由已知，得\[2y+y\cos x=\sqrt{3}\sin x\]，即\[\sqrt{3}\sin x-y\cos x=2y\]，
-\[\therefore \sin x\cdot \frac{\sqrt{3}}{\sqrt{3+{{y}^{2}}}}-\cos x\cdot \frac{y}{\sqrt{3+{{y}^{2}}}}=\frac{2y}{\sqrt{3+{{y}^{2}}}}\].
-于是\[\sin \left( x-\varphi  \right)=\frac{2y}{\sqrt{3+{{y}^{2}}}}\]（其中\[\varphi \]满足\[\sin \varphi =\frac{y}{\sqrt{3+{{y}^{2}}}}\]，\[\cos \varphi =\frac{\sqrt{3}}{\sqrt{3+{{y}^{2}}}}\]）.
-\[\because \left| \sin \left( x-\varphi  \right) \right|\le 1\]，\[\therefore \frac{2y}{\sqrt{3+{{y}^{2}}}}\le 1\]，\[\therefore -1\le y\le 1\].
-注意  对于求\[y=\frac{a\sin x+b\cos x+c}{{a}'\sin x+{b}'\cos x+{c}'}\]的值域，均可采用例7的方法，即去分母，合一变形，解不等式三个步骤.
-6.升幂和降幂.
-（1）升幂.运用公式\[1+\cos 2x=2{{\cos }^{2}}x\]，\[1-\cos 2x=2{{\sin }^{2}}x\].
-例8  化简\[\frac{1+\cos \theta -\sin \theta }{1-\cos \theta -\sin \theta }+\frac{1-\cos \theta -\sin \theta }{1+\cos \theta -\sin \theta }\].
-解  原式\[=\frac{2{{\cos }^{2}}\frac{\theta }{2}-2\sin \frac{\theta }{2}\cos \frac{\theta }{2}}{2{{\sin }^{2}}\frac{\theta }{2}-2\sin \frac{\theta }{2}\cos \frac{\theta }{2}}+\frac{2{{\sin }^{2}}\frac{\theta }{2}-2\sin \frac{\theta }{2}\cos \frac{\theta }{2}}{2{{\cos }^{2}}\frac{\theta }{2}-2\sin \frac{\theta }{2}\cos \frac{\theta }{2}}\]
-        \[\begin{align}
-  & =\frac{\cos \frac{\theta }{2}\left( \cos \frac{\theta }{2}-\sin \frac{\theta }{2} \right)}{\sin \frac{\theta }{2}\left( \sin \frac{\theta }{2}-\cos \frac{\theta }{2} \right)}+\frac{\sin \frac{\theta }{2}\left( \sin \frac{\theta }{2}-\cos \frac{\theta }{2} \right)}{\cos \frac{\theta }{2}\left( \cos \frac{\theta }{2}-\sin \frac{\theta }{2} \right)} \\ 
- & =-\left( \cot \frac{\theta }{2}+\tan \frac{\theta }{2} \right)=-\left( \frac{1+\cos \theta }{\sin \theta }+\frac{1-\cos \theta }{\sin \theta } \right)=-\frac{2}{\sin \theta }=-2\csc \theta . \\ 
-\end{align}\]
-（2）降幕.逆用公式\[\cos 2\alpha =2{{\cos }^{2}}\alpha -1\]和\[\cos 2\alpha =1-2{{\sin }^{2}}\alpha \]，
-可得\[{{\cos }^{2}}\alpha =\frac{1+\cos 2\alpha }{2}\]，\[{{\sin }^{2}}\alpha =\frac{1-\cos 2\alpha }{2}\].
-例9  求函数\[y=3{{\sin }^{2}}\alpha -4\sin \alpha \cdot \cos \alpha +{{\cos }^{2}}\alpha \]的值域和最小正周期.
-解  \[\because y=3\cdot \frac{1-\cos 2\alpha }{2}-2\sin 2\alpha +\frac{1+\cos 2\alpha }{2}=2-\left( 2\sin 2\alpha +\cos 2\alpha  \right)=2-\sqrt{5}\left( 2\alpha +\varphi  \right)\]，
-其中\[\sin \varphi =\frac{1}{\sqrt{5}}\]，\[\cos \varphi =\frac{2}{\sqrt{5}}\]，\[\therefore \]函数的值域是\[\left[ 2-\sqrt{5},2+\sqrt{5} \right]\]，最小正周期是\[\pi \].
-注意  对于形如\[y=a{{\sin }^{2}}\alpha +b\sin \alpha \cos \alpha +c{{\cos }^{2}}\alpha \]的函数，宜采用“先降幂，后合一”的方法进行化简，再研究其性质.
+1.用反三角函数的形式表示一个角.
+这是学习反三角函数内容的一个难点，解此类问题的关键是正确理解反三角函数的定义，熟练掌握反三角函数的定义域和值域，把握角的范围.
+（1）只有在\[-\frac{\pi }{2}\le x\le \frac{\pi }{2}\]时，才可由\[\sin x=a\]（\[\left| a \right|\le 1\]）直接得到\[x=\arcsin a\].
+若\[x\notin \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]，则可利用公式\[\sin \left( 2k\pi +x \right)=\sin x\]或\[\sin \left[ 2k\pi +\left( \pi -x \right) \right]=\sin x\]（\[k\in Z\]）确定一个角，使这个角在\[\left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]范围内，然后用反正弦形式表示.
+例1  已知\[\sin x=-\frac{1}{3}\]（\[\pi <x<\frac{3\pi }{2}\]），用反正弦形式表示\[x\].
+解  ∵\[\sin \left( \pi -x \right)=\sin x=-\frac{1}{3}\]，且由\[\pi <x<\frac{3\pi }{2}\]知，\[-\frac{\pi }{2}<\pi -x<0\]，
+∴\[\pi -x=\arcsin \left( -\frac{1}{3} \right)=-\arcsin \frac{1}{3}\]，于是\[x=\pi +\arcsin \frac{1}{3}\].
+（2）只有在\[0\le x\le \pi \]时，才可由\[\cos x=a\]（\[\left| a \right|\le 1\]）直接得到\[x=\arccos a\].
+若\[x\in \left[ 0,\pi  \right]\]，则可利用公式\[\cos \left( 2k\pi \pm x \right)=\cos x\]（\[k\in Z\]）确定一个角，使这个角在\[\left[ 0,\pi  \right]\]范围内，然后用反余弦形式表示.
+例2  若\[\cos x=\frac{1}{3}\]（\[-\frac{\pi }{2}<x<0\]），用反余弦形式表示\[x\].
+解  ∵\[\cos \left( -x \right)=\cos x=\frac{1}{3}\]，且由\[-\frac{\pi }{2}<x<0\]知，\[0<-x<\frac{\pi }{2}\]，
+∴\[-x=\arccos \frac{1}{3}\]，故\[x=-\arccos \frac{1}{3}\].
+（3）只有在\[-\frac{\pi }{2}<x<\frac{\pi }{2}\]时，才可由\[\tan x=a\]（\[a\in R\]）直接得到\[x=\arctan a\].
+若\[x\notin \left( -\frac{\pi }{2},\frac{\pi }{2} \right)\]，则可利用公式\[\tan \left( k\pi +x \right)=\tan x\]（\[k\in Z\]）确定一个角，使这个角在\[\left( -\frac{\pi }{2},\frac{\pi }{2} \right)\]内，然后用反正切形式表示.
+（4）只存在\[0<x<\pi \]时，才可由\[\cot x=a\]（\[a\in R\]）直接得到\[x=arc\cot a\].
+若\[x\in \left( 0,\pi  \right)\]，则可利用公式\[\cot \left( k\pi +x \right)=\cot x\]（\[k\in Z\]）确定一个角.使这个角在\[\left( 0,\pi  \right)\]内，然后用反余切形式表示.
+2.求含反三角形式的角的三角函数值.
+解此类问题的要点可以概括为“一令、二则、三范围”.例如，求\[\cot \left[ \arcsin \left( -\frac{\sqrt{3}}{3} \right) \right]\]的值.
+“一令”——令\[\alpha =\arcsin \left( -\frac{\sqrt{3}}{3} \right)\]，“二则”——则\[\sin \alpha =-\frac{\sqrt{3}}{3}\]，“三范围”——\[\alpha \in \left( -\frac{\pi }{2},0 \right)\].
+有了以上三步之后，余下的问题就不难解决了.
+例3  求值：
+（1）\[\tan \left[ \frac{1}{2}\arcsin \left( \frac{-2\sqrt{6}}{5} \right) \right]\].			（2）\[\cos \left[ \arctan \frac{3}{4}+\arccos \left( -\frac{2}{3} \right) \right]\].
+解  （1）令\[\alpha =\arcsin \left( \frac{-2\sqrt{6}}{5} \right)\]，则\[\sin \alpha =\frac{-2\sqrt{6}}{5}\]，\[\alpha \in \left( -\frac{\pi }{2},0 \right)\]，于是\[\cos \alpha =\frac{1}{5}\]..
+∴原式\[=\tan \frac{\alpha }{2}=\frac{1-\cos \alpha }{\sin \alpha }=\frac{1-\frac{1}{5}}{-\frac{2\sqrt{6}}{5}}=-\frac{\sqrt{6}}{3}\].
+（2）令\[\alpha =\arctan \frac{3}{4}\]，则\[\tan \alpha =\frac{3}{4}\]，\[\alpha \in \left( 0,\frac{\pi }{2} \right)\]，于是\[\sin \alpha =\frac{3}{5}\]，\[\cos \alpha =\frac{4}{5}\].
+再\[\beta =\arccos \left( -\frac{2}{3} \right)\]，则\[\cos \beta =-\frac{2}{3}\]，\[\beta \in \left( \frac{\pi }{2},\pi  \right)\]，于是\[\sin \beta =\frac{\sqrt{5}}{3}\].
+∴原式\[=\cos \left( \alpha +\beta  \right)=\cos \alpha \cos \beta -\sin \alpha \sin \beta =\frac{4}{5}\times \left( -\frac{2}{3} \right)-\frac{3}{5}\times \frac{\sqrt{5}}{3}=-\frac{8+3\sqrt{5}}{15}\].
+注意  —般地，对于含有反三角形式的计算问题，都可利用“一令、二则、三范围”的方法来解决.
+3.两组重要的恒等式.
+根据反三角函数的定义，可以得到下列两组重要的恒等式：
+（1）\[\sin \left( \arcsin x \right)=x\]，\[x\in \left[ -1,1 \right]\]；\[\cos \left( \arccos x \right)=x\]，\[x\in \left[ -1,1 \right]\]；\[\tan \left( \arctan x \right)=x\]，\[x\in R\]；\[\cot \left( arc\cot x \right)=x\]，\[x\in R\].
+（2）\[\arcsin \left( \sin x \right)=x\]，\[x\in \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]；\[\arccos \left( \cos x \right)=x\]，\[x\in \left[ 0,\pi  \right]\]；\[\arctan \left( \tan x \right)=x\]，\[x\in \left( -\frac{\pi }{2};\frac{\pi }{2} \right)\]；\[arc\cot \left( \cot x \right)=x\]，\[x\in \left( 0,\pi  \right)\].
+第（1）组恒等式是不难掌握的，它们在各自定义域内成立.
+如何运用第（2）组恒等式是—个难点，以\[y=\arcsin \left( \sin x \right)\]为例，它的定义域为\[R\]，值域为\[\left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]，周期是\[2\pi \]，只有在\[x\in \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]时，才有\[\arcsin \left( \sin x \right)=x\]，当\[x\in \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]时，求\[\arcsin \left( \sin x \right)\]的值是一类必须掌握但又有一定难度的问题.
+例4  求值：
+（1）\[\arcsin \left( \sin 2 \right)\].						（2）\[\arccos \left( \cos \frac{6}{5}\pi  \right)\].
+（3）\[\arctan \left( \cot \sqrt{3} \right)\].						（4）\[arc\cot \left( -\cot \frac{\pi }{7} \right)\].
+解  （1）∵\[\sin 2=\sin \left( \pi -2 \right)\]，且\[\pi -2\in \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]，
+∴原式\[=\arcsin \left[ \sin \left( \pi -2 \right) \right]=\pi -2\].
+（2）∵\[\cos \frac{6}{5}\pi =\cos \frac{4}{5}\pi \]，且\[\frac{4}{5}\pi \in \left[ 0,\pi  \right]\]，∴原式\[=\arccos \left( \cos \frac{4}{5}\pi  \right)=\frac{4}{5}\pi \].
+（3）∵\[\cot \sqrt{3}=\tan \left( \frac{\pi }{2}-\sqrt{3} \right)\]，且\[\frac{\pi }{2}-\sqrt{3}\in \left( -\frac{\pi }{2},\frac{\pi }{2} \right)\]，
+∴原式\[=\arctan \left[ \tan \left( \frac{\pi }{2}-\sqrt{3} \right) \right]=\frac{\pi }{2}-\sqrt{3}\].
+（4）∵\[-\cot \frac{\pi }{7}=\cot \left( -\frac{\pi }{7} \right)=\cot \left[ \pi +\left( -\frac{\pi }{7} \right) \right]=\cot \frac{6}{7}\pi \]，且\[\frac{6}{7}\pi \in \left( 0,\pi  \right)\]，
+∴原式\[=arc\cot \left( \cot \frac{6}{7}\pi  \right)=\frac{6}{7}\pi \]
+注意  解此类问题的关键是：
+（1）恒等变形，即利用诱导公式，使\[\arcsin \left( \sin x \right)\]恒等变形为\[\arcsin \left( \sin \alpha  \right)\].
+（2）紧扣\[\alpha \]的范围，即选用诱导公式时，必须使\[\alpha \in \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\].
+满足了以上两个要求，\[\alpha \]便是所要求的值.
+对于解\[\arccos \left( \cos x \right)\]，\[\arctan \left( \tan x \right)\]，\[arc\cot \left( \cot x \right)\]的问题，方法雷同.
+有兴趣的读者不妨对\[y=\arcsin \left( \sin x \right)\]等四个函数的性质（定义域、值域、单调性、奇偶性、周期性）及图象、一般表达式作进一步研究.
+4.有关反三角恒等式的证明.
+例5  若\[\left| x \right|\le 1\]，求证：\[\arcsin x+\arccos x=\frac{\pi }{2}\].
+证法一  ∵\[\sin \left( \frac{\pi }{2}-\arccos x \right)=\cos \left( \arccos x \right)=x\]，其中\[-1\le x\le 1\]，
+又由\[\arccos x\in \left[ 0,\pi  \right]\]，得\[\left( \frac{\pi }{2}-\arccos x \right)\in \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]，
+∴根据反正弦函数的定义，得\[\frac{\pi }{2}-\arccos x=\arcsin x\]，即\[\arcsin x+\arccos x=\frac{\pi }{2}\].
+证法二  设\[\arcsin x=\alpha \]，则\[\sin \alpha =x\]，\[\alpha \in \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]..
+再设\[\arccos x=\beta \]，则\[\cos \beta =x\]，\[\beta \in \left[ 0,\pi  \right]\].
+∵\[\sin \alpha =x\]，\[\sin \left( \frac{\pi }{2}-\beta  \right)=\cos \beta =x\]，∴\[\sin \alpha =\sin \left( \frac{\pi }{2}-\beta  \right)\].
+∵\[-\frac{\pi }{2}\le \alpha \le \frac{\pi }{2}\]，\[-\frac{\pi }{2}\le \frac{\pi }{2}-\beta \le \frac{\pi }{2}\]，∴\[\alpha =\frac{\pi }{2}-\beta \]，
+即\[\alpha +\beta =\frac{\pi }{2}\]，∴\[\arcsin x+\arccos x=\frac{\pi }{2}\].
+例6  求证：\[\arctan \frac{1}{3}+\arctan \frac{1}{5}+\arctan \frac{1}{7}+\arctan \frac{1}{8}=\frac{\pi }{4}\].
+证明  设\[\alpha =\arctan \frac{1}{3}\]，\[\beta =\arctan \frac{1}{5}\]，\[\gamma =\arctan \frac{1}{7}\]，\[\delta =\arctan \frac{1}{8}\]，
+则\[\tan \alpha =\frac{1}{3}\]，\[\tan \beta =\frac{1}{5}\]，\[\tan \gamma =\frac{1}{7}\]，\[\tan \delta =\frac{1}{8}\]且\[\alpha ,\beta ,\gamma ,\delta \in \left( 0,\frac{\pi }{4} \right)\].
+于是\[\tan \left( \alpha +\beta  \right)=\frac{\tan \alpha +\tan \beta }{1-\tan \alpha \tan \beta }=\frac{\frac{1}{3}+\frac{1}{5}}{1-\frac{1}{3}\times \frac{1}{5}}=\frac{4}{7}\]，
+\[\tan \left( \gamma +\delta  \right)=\frac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \delta }=\frac{\frac{1}{7}+\frac{1}{8}}{1-\frac{1}{7}\times \frac{1}{8}}=\frac{3}{11}\].
+∴\[\tan \left( \alpha +\beta +\gamma +\delta  \right)=\frac{\frac{4}{7}+\frac{3}{11}}{1-\frac{4}{7}\times \frac{3}{11}}=1\].
+∵\[0<\alpha +\beta +\gamma +\delta <\pi \]，∴\[\alpha +\beta +\gamma +\delta =\frac{\pi }{4}\]，原命题得证.
+注意  有关反三角恒等式的证明需掌握两点：
+（1）证明等式两边（或先作恒等变形）的同一个三角函数值相等.
+（2）证明等式两边都在所取三角函数的同一个一一对应的区间内（千万不能忽视这一点）.
+5，解简单的反三角不等式.
+只要依据反三角函数的单调性，并切记反三角函数的定义域，解此类不等式就不会感到困难.
+例7  求下列不等式中\[x\]的取值范围：
+（1）\[\arcsin x<1\].						（2）\[\arccos \left( 2{{x}^{2}}-1 \right)<\arccos x\].
+解  （1）由已知条件，得\[\left\{ \begin{align}
+  & -1\le x\le 1, \\ 
+ & \arcsin x<\arcsin \left( \sin 1 \right), \\ 
+\end{align} \right.\]于是\[\left\{ \begin{align}
+  & -1\le x\le 1, \\ 
+ & x<\sin 1, \\ 
+\end{align} \right.\]
+∴\[-1\le x<\sin 1\].
+（2）由已知条件，得\[\left\{ \begin{align}
+  & -1\le 2{{x}^{2}}-1\le 1, \\ 
+ & -1\le x\le 1, \\ 
+ & 2{{x}^{2}}-1>x, \\ 
+\end{align} \right.\]即\[\left\{ \begin{align}
+  & -1\le x\le 1, \\ 
+ & 2{{x}^{2}}-x-1>0, \\ 
+\end{align} \right.\]也即\[\left\{ \begin{align}
+  & -1\le x\le 1, \\ 
+ & x<-\frac{1}{2}x>1, \\ 
+\end{align} \right.\]
+∴\[-1\le x<-\frac{1}{2}\].
 【训练题】
-（一）两角和（差）的余弦公式
-1.化简\[\sin \left( x+y \right)\sin x+\cos \left( x+y \right)\cos x\]的结果是（）
-（A）\[\cos \left( 2x+y \right)\].		（B）\[\cos y\].		（C）\[\sin \left( 2x+y \right)\].		（D）\[\sin y\].
-2.满足\[\cos \alpha \cos \beta =\frac{\sqrt{3}}{2}+\sin \alpha \sin \beta \]的一组\[\alpha ,\beta \]的值是（）
-（A）\[\alpha =\frac{13\pi }{12},\beta =\frac{3\pi }{4}\].（B）\[\alpha =\frac{\pi }{2},\beta =\frac{\pi }{3}\].（C）\[\alpha =\frac{\pi }{2},\beta =\frac{\pi }{6}\].（D）\[\alpha =\frac{\pi }{3},\beta =\frac{\pi }{6}\].
-3.若\[\frac{3\pi }{2}<\alpha <2\pi \]，且\[\cot \left( \frac{3\pi }{2}+\alpha  \right)=\frac{3}{4}\]，则\[\cos \left( \alpha -\frac{3\pi }{2} \right)\]的值等于（）
-（A）\[\frac{\sqrt{2}}{10}\].		（B）\[-\frac{\sqrt{2}}{10}\].		（C）\[\frac{7\sqrt{2}}{10}\].		（D）\[-\frac{7\sqrt{2}}{10}\].
-4.若三角形的两内角\[\alpha ,\beta \]满足\[\cos \alpha \cos \beta >\sin \alpha \sin \beta \]，则这个三角形的形状（）
-（A）是锐角三角形.						（B）是貞角三角形.
-（C）是钝角三角形.						（D）不能确定.
-5.若关于\[x\]的方程\[{{x}^{2}}+x\cos \alpha \cos \beta +\cos \gamma =0\]的两根\[{{x}_{1}},{{x}_{2}}\]满足\[{{x}_{1}}+{{x}_{2}}=\frac{{{x}_{1}}{{x}_{2}}}{2}\]，则以\[\alpha ,\beta ,\gamma \]为内角的三角形的形状（）
-（A）是等腰三角形，不可能是直角三角形.	（B）是直角三角形，不可能是等腰三角形.
-（C）是等腰直角三角形.					（D）是等腰三角形，也可能是直角三角形.
-6.（1）若\[\tan x=\frac{4}{3}\]（\[\pi <x<2\pi \]），则\[\cos \left( 2x-\frac{\pi }{3} \right)\cdot \cos \left( \frac{\pi }{3}-x \right)-\sin \left( 2x-\frac{\pi }{3} \right)\cdot \sin \left( \frac{\pi }{3}-x \right)=\]         .
-（2）若锐角\[\alpha ,\beta \]满足\[\cos \alpha =\frac{3}{5}\]，\[\cos \left( \alpha +\beta  \right)=-\frac{5}{13}\]则\[\cos \beta =\]          .
-（3）若\[\cos \left( \alpha -\beta  \right)=-\frac{4}{5}\]，\[\cos \left( \alpha +\beta  \right)=\frac{4}{5}\]，且\[90{}^\circ <\alpha -\beta <180{}^\circ \]，\[270{}^\circ <\alpha +\beta <360{}^\circ \]，则\[\cos 2\alpha =\]          ，\[\cos 2\beta =\]          .
-（4）若\[\cos x+\cos y=\frac{1}{2}\]，\[\sin x-\sin y=\frac{1}{3}\]，则\[\cos \left( x+y \right)=\]          .
-7.若\[\sin \alpha \sin \beta =1\]，则\[\cos \left( \alpha +\beta  \right)\]的值是（）
-（A）－1.			（B）0.				（C）1.			（D）\[\pm 1\].
-8.若\[\alpha ,\beta \]为锐角，则（）
-（A）\[\cos \left( \alpha +\beta  \right)>\cos \alpha +\cos \beta \].			（B）\[\cos \left( \alpha +\beta  \right)>\sin \alpha +\sin \beta \].
-（C）\[\cos \left( \alpha +\beta  \right)<\cos \alpha +\cos \beta \].			（D）\[\cos \left( \alpha +\beta  \right)<\sin \alpha +\sin \beta \].
-9.若\[\sin \alpha +\sin \beta =\frac{\sqrt{2}}{2}\]，则\[\cos \alpha +\cos \beta \]的取值范围是（）
-（A）\[\left[ 0,\frac{\sqrt{2}}{2} \right]\].							（B）\[\left[ -\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2} \right]\].
-（C）[―2，2].							（D）\[\left[ -\frac{\sqrt{14}}{2},\frac{\sqrt{14}}{2} \right]\]..
-10.若三角形的两内角\[\alpha ,\beta \]满足\[\tan \alpha \tan \beta >1\]，则这个三角形的形状是（）
-（A）等腰直角三角形.						（B）不等腰的直角三角形.
-（C）锐角三角形.							（D）钝角三角形.
-11.若三角形的两内角\[\alpha ,\beta \]满足\[\sin \alpha =\frac{3}{5}\]，\[\cos \beta =\frac{5}{13}\]，则此三角形的另—内角\[\gamma \]的余弦值等于（）
-（A）\[\frac{16}{65}\]或\[\frac{56}{65}\].		（B）\[\frac{56}{65}\].		（C）\[\frac{16}{65}\].		（D）\[-\frac{16}{65}\]或\[-\frac{56}{65}\].
-12.（1）已知锐角\[\alpha ,\beta \]满足\[\cos \alpha =\frac{4}{5}\]，\[\tan \left( \alpha -\beta  \right)=-\frac{1}{3}\]，求\[\cos \beta \].
-（2）已知\[\cos \left( \frac{\pi }{4}-\alpha  \right)=\frac{3}{5}\]，\[\sin \left( \frac{3\pi }{4}+\beta  \right)=\frac{5}{13}\]，其中\[\frac{\pi }{4}<\alpha <\frac{3\pi }{4}\]，\[0<\beta <\frac{\pi }{4}\]，求\[\sin \left( \alpha +\beta  \right)\]的值.
-（3）已知\[\alpha ,\beta \]为锐角，满足\[\cos \alpha =\frac{1}{7}\]，\[\sin \left( \alpha +\beta  \right)=\frac{5\sqrt{3}}{14}\]，求\[\cos \beta \]的值.
-13.已知\[8\cos \left( 2\alpha +\beta  \right)+5\cos \beta =0\]，求\[\tan \left( \alpha +\beta  \right)\cdot \tan \alpha \]的值.
-14.解不等式：\[\sin 4x+\cos 4x\cdot \cot 2x>1\].
-15.已知锐角\[\alpha ,\beta ,\gamma \]满足\[\sin \alpha +\sin \gamma =\sin \beta \]，\[\cos \alpha -\cos \gamma =\cos \beta \]，求\[\alpha -\beta \]的值.
-（二）两角和（差）的正弦公式
-16.若\[\alpha ,\beta \]为锐角，且满足\[\cos \alpha =\frac{4}{5}\]，\[\cos \left( \alpha +\beta  \right)=\frac{3}{5}\]，则\[\sin \beta \]的值是（）
-（A）\[\frac{17}{25}\].			（B）\[\frac{3}{5}\].			（C）\[\frac{7}{25}\].			（D）\[\frac{1}{5}\].
-17.函数\[y=\sin \left( x+\frac{\pi }{3} \right)-\sqrt{3}\cos \left( x+\frac{\pi }{3} \right)\]（）
-（A）是奇函数，但不是偶函数.			（B）是偶函数，但不是奇函数.
-（C）既不是奇函数，也不是偶函数.		（D）奇偶性无法确定.
-18.下列函数中，与\[y=\sin x+\cos x\]的振幅、最小正周期都相同的函数是（）
-（A）\[y=\sin x\].		（B）\[y=\cos x\].	（C）\[y=\sqrt{2}\sin x\].	（D）\[y=\sin x\cos x\].
-19.函数\[y=\sin x+\sqrt{3}\cos x\]（\[0\le x\le \frac{\pi }{2}\]）的值域是（）
-（A）\[\left[ 1,\frac{3}{2} \right]\] 		（B）[1，2].		（C）\[\left[ \frac{3}{2},2 \right]\].		（D）[0，2].
-20.（1）化简\[\sin \left( x+27{}^\circ  \right)\cos \left( 18{}^\circ -x \right)+\cos \left( x+27{}^\circ  \right)\sin \left( 18{}^\circ -x \right)=\]          .
-（2）函数\[y=3\sin 2x+3\sqrt{3}\cos 2x+1\]的最小正周期是          ，最大值是          ，最小值是          .
-21.若\[\alpha \]是一个三角形的最小内角，则函数\[y=\sin \alpha -\cos \alpha \]的值域为（）
-（A）\[\left[ -\sqrt{2},\sqrt{2} \right]\].	（B）\[\left( -1,\frac{\sqrt{3}-1}{2} \right)\].	（C）\[\left( -1,\frac{\sqrt{3}-1}{2} \right]\].	（D）\[\left[ -1,\frac{\sqrt{3}-1}{2} \right]\].
-22.若函数\[f\left( x \right)=\sin 2x+a\cos 2x\]的图象关于直线\[x=-\frac{\pi }{8}\]对称，则实数\[a\]的值等于（）
-（A）\[\sqrt{2}\].			（B）\[-\sqrt{2}\].			（C）1.				（D）－1.
-23.（1）若以\[\sin \left( 45{}^\circ -\alpha  \right)=-\frac{2}{3}\]，\[\frac{\pi }{4}<\alpha <\frac{\pi }{2}\]，则\[\sin \alpha =\]          .
-（2）计算：\[\frac{\sin 7{}^\circ +\sin 8{}^\circ \cos 15{}^\circ }{\cos 7{}^\circ -\sin 8{}^\circ \sin 15{}^\circ }=\]         .
-（3）计算：\[\csc 10{}^\circ -\sqrt{3}\sec 10{}^\circ =\]          .
-24.（1）函数\[y={{\log }_{0.2}}\left( \sin x+\cos x \right)\]为增函数的区间是          .
-（2）不等式\[\sin x<\cos x\]的解是          .
-25.求下列函数的值域：
-（1）\[y=\frac{\sqrt{5}\sin x+1}{\cos x+2}\].					（2）\[y=\frac{\tan \theta +2}{\sec \theta -1}\].
-26.在\[\Delta ABC\]中，已知\[2\cos B\cos C=1-\cos A\]，且\[2\sin B\cos C=1+\sin \left( B-C \right)\]，判断此三角形的形状.
-27.（1）已知关于\[x\]的方程\[{{x}^{2}}+px+q=0\]的两根是\[\tan \alpha \]，\[\tan \beta \]，求\[\frac{\sin \left( \alpha +\beta  \right)}{\cos \left( \alpha -\beta  \right)}\]的值.
-（2）已知\[\sin \left( \alpha +\beta  \right)=\frac{1}{2}\]，\[\sin \left( \alpha -\beta  \right)=\frac{1}{3}\]，求\[\tan \alpha \cot \beta \]的值.
-（3）已知\[\tan \left( \alpha +\beta  \right)=-2\]，\[\tan \left( \alpha -\beta  \right)=\frac{1}{2}\]，求\[\frac{\sin 2\alpha }{\sin 2\beta }\]的值.
-28.已知\[\tan \alpha =1\]，\[3\sin \beta =\sin \left( 2\alpha +\beta  \right)\]，求\[\tan \left( \alpha +\beta  \right)\]的值.
-29已知\[\frac{\tan \left( \alpha -\gamma  \right)}{\tan \alpha }+\frac{{{\sin }^{2}}\beta }{{{\sin }^{2}}\alpha }=1\]，求证：\[{{\tan }^{2}}\beta =\tan \alpha \tan \gamma \].
-30.（1）求函数\[y=\frac{\sin x\cos x}{1+\sin x+\cos x}\]的最大值，
-（2）求函数\[y=\sin x+\cos x+\sin x\cos x\]的值域.
-（3）\[a\in R\]，求\[y=\left( \sin x+a \right)\left( \cos x+a \right)\]的最小值.
-注意  对于含\[\sin x\pm \cos x\]，\[\sin x\cos x\]的三角函数式，可令\[t=\sin x\pm \cos x\]，则\[\sin x\cos x=\pm \frac{{{t}^{2}}-1}{2}\]，\[t\in \left[ -\sqrt{2},\sqrt{2} \right]\].
-（三）两角和（差）的正切公式
-31.若\[\tan \left( \alpha +\beta  \right)=\frac{2}{5}\]，\[\tan \left( \beta -\frac{\pi }{4} \right)=\frac{1}{4}\]，则\[\tan \left( \alpha +\frac{\pi }{4} \right)\]等于（）
-（A）\[\frac{13}{18}\].			（B）\[\frac{13}{22}\].			（C）\[\frac{3}{22}\].		（D）\[\frac{1}{6}\].
-32.若\[\frac{1-\tan A}{1+\tan A}=4+\sqrt{5}\]，则\[\cot \left( \frac{\pi }{4}+A \right)\]的值等于（）
-（A）\[-4-\sqrt{5}\].		（B）\[4+\sqrt{5}\].		（C）\[-\frac{1}{4+\sqrt{5}}\].	（D）\[\frac{1}{4+\sqrt{5}}\].
-33.已知\[\alpha +\beta =\frac{3\pi }{4}\]，则\[\left( 1-\tan \alpha  \right)\left( 1-\tan \beta  \right)\]的值等于（）
-（A）2.				（B）－2.			（C）1.			（D）－1.
-34.（1）计算\[\frac{1+\cot 15{}^\circ }{1-\tan 75{}^\circ }=\]          .
-（2）若\[\alpha +\beta =\frac{\pi }{4}\]，则\[\frac{1-\tan \beta }{1+\tan \beta }=\]          .
-（3）若\[\tan x=\frac{1}{2}\]，\[\tan \left( x-y \right)=-\frac{2}{5}\]，则\[\tan \left( 2x-y \right)=\]          .
-（4）在\[\Delta ABC\]中，\[\tan A\]，\[\tan B\]是方程\[3{{x}^{2}}+8x-1=0\]的两个根，则\[\tan C=\]          .
-（5）若\[\tan \left( \alpha +\frac{\pi }{4} \right)=-\frac{9}{40}\]，则\[\tan \alpha =\]          ，\[\tan \left( \alpha -\frac{\pi }{4} \right)=\]          .
-35.若\[\alpha ,\beta \in \left( \frac{\pi }{2},\pi  \right)\]，且\[\tan \alpha <\cot \beta \]，则（）
-（A）\[\alpha <\beta \].	（B）\[\beta >\alpha \].			（C）\[\pi <\alpha +\beta <\frac{3\pi }{2}\].	（D）\[\alpha +\beta >\frac{3\pi }{2}\].
-36.函数\[y=\frac{\cos 2x+\sin 2x}{\cos 2x-\sin 2x}\]的最小正周期是（）
-（A）\[2\pi \].		（B）\[\frac{3\pi }{2}\].			（C）\[\pi \].					（D）\[\frac{\pi }{2}\].
-37.若\[-\frac{\pi }{2}<\alpha <\frac{\pi }{2}\]，\[-\frac{\pi }{2}<\beta <\frac{\pi }{2}\]，且\[\tan \alpha \]，\[\tan \beta \]是方程\[{{x}^{2}}+3\sqrt{3}x+4=0\]的两个根，则\[\alpha +\beta \]等于（）
-（A）\[\frac{\pi }{3}\].		（B）\[-\frac{2\pi }{3}\].			（C）\[\frac{\pi }{3}\]或\[\frac{4\pi }{3}\].			（D）\[\frac{\pi }{3}\]或\[-\frac{2\pi }{3}\].
-38.（1）若\[\tan \theta \]和\[\tan \left( \frac{\pi }{4}-\theta  \right)\]是方程\[{{x}^{2}}+px+q=0\]的两个根，则\[p,q\]满足关系式      .
-（2）若\[\tan \alpha =\frac{1}{7}\]，\[\tan \beta =\frac{1}{3}\]，\[0<\alpha ,\beta <\frac{\pi }{2}\]，则\[\alpha +2\beta =\]          .
-39.（1）计算：\[1+\tan 66{}^\circ +\tan 69{}^\circ -\tan 66{}^\circ \tan 69{}^\circ =\]          .
-（2）计算：\[\tan 19{}^\circ +\tan 101{}^\circ -\sqrt{3}\tan 19{}^\circ \tan 101{}^\circ =\]          .
-（3）若\[\alpha +\beta =k\pi +\frac{\pi }{4}\]（\[k\in Z\]），则\[\left( 1+\tan \alpha  \right)\left( 1+\tan \beta  \right)=\]          .
-（4）计算\[\left( 1+\tan 1{}^\circ  \right)\left( 1+\tan 2{}^\circ  \right)\left( 1+\tan 3{}^\circ  \right)\cdots \left( 1+\tan 43{}^\circ  \right)\left( 1+\tan 44{}^\circ  \right)=\]          .
-40.（1）求证：\[\tan 20{}^\circ \tan 30{}^\circ +\tan 30{}^\circ \tan 40{}^\circ +\tan 40{}^\circ \tan 20{}^\circ =1\].
-（2）求证：\[\tan \left( A-B \right)+\tan \left( B-C \right)+\tan \left( C-A \right)=\tan \left( A-B \right)\tan \left( B-C \right)\tan \left( C-A \right)\].
-（3）求证：\[\tan A+\tan B+\tan C=\tan A\tan B\tan C\]，其中\[A+B+C=k\pi \]（\[k\in Z\]）.
-41.已知锐角\[\alpha ,\beta \]满足\[\tan \alpha =\sqrt{3}\left( m+1 \right)\]，\[\tan \left( -\beta  \right)=\sqrt{3}\left( \tan \alpha \tan \beta +m \right)\]，求\[\alpha +\beta \]的值.
-42.（1）求\[\frac{\tan 20{}^\circ +\tan 40{}^\circ +\tan 120{}^\circ }{\tan 20{}^\circ \tan 40{}^\circ }\]的值.
-（2）已知\[\tan \theta =\frac{\sin \alpha -\cos \alpha }{\sin \alpha +\cos \alpha }\]（\[\alpha ,\theta \]都是锐角），求\[\frac{\sin \alpha -\cos \alpha }{\sin \theta }\]的值.
-（3）已知\[\tan \left( \frac{\pi }{4}+\alpha  \right)=-\frac{1}{2}\]，求\[\frac{2\cos \alpha \left( \sin \alpha -\cos \alpha  \right)}{1+\tan \alpha }\]的值.
-43.已知\[\tan \alpha \]，\[\tan \beta \]是关于\[x\]的方程\[m{{x}^{2}}-2x\sqrt{7m-3}+2m=0\]的两个实根，求\[\tan \left( \alpha +\beta  \right)\]的取值范围.
-（四）二倍角的正弦公式
-44.若\[\sin \alpha +\cos \alpha =-\sqrt{2}\]，则\[\tan \alpha +\cot \alpha \]等于（）
-（A）－2.			（B）－1.			（C）1.			（D）2.
-45.若三角形的一个内角\[\alpha \]满足\[\sin \alpha +\cos \alpha =\frac{3}{4}\]，则这个二角形的形状是（）
-（A）锐角三角形.							（B）钝角三角形.
-（C）不等腰的直角三角形.					（D）等腰直角三角形.
-46.函数\[f\left( x \right)=\sqrt{{{\cos }^{2}}x-{{\cos }^{4}}x}\]的最小正周期为（）
-（A）\[\frac{\pi }{2}\].			（B）\[\pi \].				（C）\[\frac{3\pi }{2}\].		（D）\[2\pi \].
-47.若\[\alpha \in \left[ \frac{5\pi }{2},\frac{7}{2}\pi  \right]\]，则\[\sqrt{1+\sin \alpha }+\sqrt{1-\sin \alpha }\]的值为（）
-（A）\[2\cos \frac{\alpha }{2}\].		（B）\[-2\cos \frac{\alpha }{2}\].		（C）\[2\sin \frac{\alpha }{2}\].	（D）\[-2\sin \frac{\alpha }{2}\].
-48.函数\[y={{\log }_{0.5}}\left( \sin x\cos x \right)\]为增函数的区间是（）
-（A）\[\left( k\pi -\frac{\pi }{4},k\pi +\frac{\pi }{4} \right)\]（\[k\in Z\]）.		（B）\[\left( k\pi ,k\pi +\frac{\pi }{4} \right]\]（\[k\in Z\]）.
-（C）\[\left( k\pi +\frac{\pi }{4},k\pi +\frac{\pi }{2} \right)\]（\[k\in Z\]）.		（D）\[\left[ k\pi +\frac{\pi }{4},k\pi +\frac{3\pi }{4} \right)\]（\[k\in Z\]）.
-49. \[\cos \frac{\pi }{5}\cos \frac{2\pi }{5}\]的值等于（）
-（A）4.				（B）\[\frac{1}{4}\]				（C）2.				（D）\[\frac{1}{2}\].
-50.（1）若\[{{\cos }^{2}}\left( \frac{x}{2} \right)=\sin x\]，则\[\tan \frac{x}{2}\]等于          .
-（2）计算：①\[\sin 105{}^\circ \cos 75{}^\circ =\]          ；
-②\[{{\cos }^{2}}15{}^\circ +{{\cos }^{2}}75{}^\circ +\cos 15{}^\circ \cos 75{}^\circ =\]          ；
-③\[\cos \frac{5\pi }{8}\cos \frac{\pi }{8}=\]          .
-（3）函数\[y=\cos \left( \frac{\pi }{2}x \right)\cos \left[ \frac{\pi }{2}\left( x-1 \right) \right]\]的最小正周期是          .
-（4）若\[\sin x-\cos x=\frac{1}{2}\]，则\[{{\sin }^{3}}x-{{\cos }^{3}}x=\]          .
-51.（1）在\[\Delta ABC\]中，\[\angle C={{90}^{\circ }}\]，\[\tan A+\tan B=4\]，则此三角形的两个锐角分別等于          .
-（2）若\[\sin 2\alpha =\frac{4}{5}\]，则\[{{\tan }^{2}}\alpha +{{\cot }^{2}}\alpha =\]          .
-52.若\[\sin x\cos y=\frac{1}{2}\]，则\[\cos x\sin y\]的取值范围是（）
-（A）\[\left[ -\frac{1}{2},\frac{1}{2} \right]\].		（B）\[\left[ -\frac{3}{2},\frac{1}{2} \right]\]		（C）\[\left[ -\frac{1}{2},\frac{3}{2} \right]\].	（D）\[\left[ -1,1 \right]\].
-53.求值：
-（1）\[\sin 18{}^\circ \sin 54{}^\circ \].						（2）\[\cos \frac{\pi }{17}\cos \frac{2\pi }{17}\cos \frac{4\pi }{17}\cos \frac{8\pi }{17}\].
-54.求值：
-（1）\[{{\cos }^{4}}\left( \frac{\pi }{8} \right)+{{\cos }^{4}}\left( \frac{3\pi }{8} \right)+{{\cos }^{4}}\left( \frac{5\pi }{8} \right)+{{\cos }^{4}}\left( \frac{7\pi }{8} \right)\].
-（2）\[{{\sin }^{4}}\left( \frac{\pi }{16} \right)+{{\sin }^{4}}\left( \frac{3\pi }{16} \right)+{{\sin }^{4}}\left( \frac{5\pi }{16} \right)+{{\sin }^{4}}\left( \frac{7\pi }{16} \right)\].
-55.求值：
-（1）\[\csc 10{}^\circ -\sqrt{3}\sec 10{}^\circ \].					（2）\[\cos 40{}^\circ \left( 1+\sqrt{3}\cot 80{}^\circ  \right)\].
-（3）\[\tan 70{}^\circ \cos 10{}^\circ \left( \sqrt{3}\tan 20{}^\circ -1 \right)\].		（4）\[\sec 50{}^\circ +\cot 80{}^\circ \].
-（五）二倍角的余弦公式
-56.若\[x=\frac{\pi }{12}\]，则\[{{\cos }^{4}}x-{{\sin }^{4}}x\]的值为（）
-（A）0.			（B）\[\frac{1}{2}\].			（C）\[\frac{\sqrt{2}}{2}\].		（D）\[\frac{\sqrt{3}}{2}\].
-57.函数\[y={{\sin }^{2}}x\]是（），
-（A）最小正周期为\[2\pi \]的偶函数.		（B）最小正周期为\[2\pi \]的奇函数.
-（C）最小正周期为\[\pi \]的偶函数.			（D）最小正周期为\[\pi \]的奇函数.
-58.若\[\sin \frac{\alpha }{2}=\frac{3}{5}\]，\[\cos \frac{\alpha }{2}=-\frac{4}{5}\]，则角\[\alpha \]所在的象限是（）
-（A）第一象限.		（B）第二象限.		（C）第三象限.		（D）第四象限.
-59.函数\[y=2\sin x\cos sx-\left( {{\cos }^{2}}x-{{\sin }^{2}}x \right)\]的最大值与最小值之积等于（）
-（A）2.				（B）－2.			（C）1.				（D）－1.
-60.函数\[y=1-{{\cos }^{2}}x+{{\cos }^{4}}x\]的最小正周期是（）
-（A）\[2\pi \].			（B）\[\pi \].				（C）\[\frac{\pi }{2}\].			（D）\[\frac{\pi }{4}\].
-61.化简\[\sqrt{1-\cos 4-{{\sin }^{2}}2}\]的结果是（）
-（A）\[\cos 2\].			（B）\[-\cos 2\].		（C）\[\sqrt{3}\cos 2\].		（D）\[-\sqrt{3}\cos 2\].
-62.（1）若\[\sin \theta :\sin \frac{\theta }{2}=8:5\]，则\[\cos \theta =\]          .
-（2）计算\[\sin \frac{\pi }{8}\cos \frac{\pi }{8}\cot \frac{\pi }{8}=\]          .
-（3）若\[8\cos \left( \frac{\pi }{8}+\alpha  \right)\cos \left( \frac{\pi }{4}-\alpha  \right)=1\]，则\[{{\sin }^{4}}\alpha +{{\cos }^{4}}\alpha =\]          .
-（4）函数\[y=\sin x\cos x-2{{\sin }^{3}}x\cos x\]的最小正周期是          .
-（5）若\[\tan x=\sqrt{2}\]，则\[\frac{2{{\cos }^{2}}\frac{x}{2}-\sin x-1}{\sin x+\cos x}=\]          .
-（6）函数\[y=2\sin x\left( \sin x+\cos x \right)\]为减函数的区间是          .
-63.若\[270{}^\circ <\alpha <360{}^\circ \]，则化简\[\sqrt{\frac{1}{2}+\frac{1}{2}\sqrt{\frac{1}{2}+\frac{1}{2}\cos 2\alpha }}\]的结果是（）
-（A）\[\sin \frac{\alpha }{2}\].		（B）\[-\sin \frac{\alpha }{2}\].		（C）\[\cos \frac{\alpha }{2}\].		（D）\[-\cos \frac{\alpha }{2}\].
-64.若\[\pi <x<\frac{3\pi }{2}\]，则\[\sqrt{\tan x+\sin x}+\sqrt{\tan x-\sin x}\]可以化成（）
-（A）\[2\sqrt{\tan x}\sin \left( \frac{x}{2}-\frac{\pi }{4} \right)\].			（B）\[2\sqrt{\tan x}\sin \left( \frac{x}{2}+\frac{\pi }{4} \right)\].
-（C）\[-2\sqrt{\tan x}\sin \left( \frac{x}{2}-\frac{\pi }{4} \right)\].			（D）\[-2\sqrt{\tan x}\sin \left( \frac{x}{2}+\frac{\pi }{4} \right)\].
-65.（1）已知\[\sin \alpha +\sin \beta =\frac{1}{2}\]，\[\cos \alpha +\cos \beta =\frac{1}{3}\]，求\[{{\cos }^{2}}\left( \frac{\alpha -\beta }{2} \right)\]的值.
-（2）求\[y={{\sin }^{6}}x+{{\cos }^{6}}x\]的最小正周期.
-（3）已知\[\tan \alpha \tan \beta =\frac{1}{\sqrt{3}}\]，求\[\left( 2-\cos 2\alpha  \right)\left( 2-\cos 2\beta  \right)\]的值.
-66.（1）化简：\[\frac{2{{\cos }^{2}}\alpha -1}{2\tan \left( \frac{\pi }{4}-\alpha  \right){{\sin }^{2}}\left( \frac{\pi }{4}+\alpha  \right)}\].（2）化简：\[\frac{1+\cos \theta -\sin \theta }{1-\cos \theta -\sin \theta }+\frac{1-\cos \theta -\sin \theta }{1+\cos \theta -\sin \theta }\].
-（3）已知\[\cos \left( \frac{\pi }{4}+x \right)=\frac{4}{5}\]（\[\frac{19\pi }{12}<x<\frac{7\pi }{4}\]），求\[\frac{\sin 2x-2{{\sin }^{2}}x}{1-\tan x}\]的值.
-67.求下列函数的最大值及其相成的\[x\]值：
-（1）\[f\left( x \right)=4\cos 2x+12\sin x-5{{\cos }^{2}}x\].	（2）\[f\left( x \right)=\sin 2x+\sin x+\cos x\].
-（3）\[f\left( x \right)=\frac{\sin x\cos x}{1+\sin x+\cos x}\].
-68.求函数\[y={{\sin }^{2}}x+2\sin x\cos x+3{{\cos }^{2}}x-2\]的取值范、最小正周期以及为增函数的区间.
-（六）万能公式
-69.化简\[\frac{\cot \frac{\alpha }{2}-\tan \frac{\alpha }{2}}{\cot \frac{\alpha }{2}+\tan \frac{\alpha }{2}}\]的结果是（）
-（A）\[\sin \alpha \].			（B）\[\cos \alpha \].			（C）\[\tan \alpha \].		（D）\[\cot \alpha \].
-70.函数\[y=\lg \frac{\tan x}{1+\tan x}\]为增函数的区间是（）
-（A）\[\left( k\pi ,k\pi +\frac{\pi }{4} \right]\]，\[k\in Z\].			（B）\[\left( k\pi ,2k\pi +\frac{\pi }{4} \right]\]，\[k\in Z\]
-（C）\[\left( 2k\pi ,2k\pi +\frac{\pi }{2} \right]\]，\[k\in Z\]		（D）\[\left( 2k\pi ,k\pi +\frac{\pi }{2} \right]\]，\[k\in Z\].
-71.若\[f\left( \tan x \right)=\sin 2x\]，则\[f\left( -1 \right)\]的値是（）
-（A）\[-\sin 2\].		（B）－1.		（C）\[\frac{1}{2}\].		（D）1.
-72.若\[\tan \frac{A}{2}=\frac{m}{n}\]，则\[m\cos A-n\sin A\]等于（）
-（A）\[n\].				（B）\[-n\].		（C）\[m\].		（D）\[-m\].
-73.若锐角\[\theta \]满足\[\sin \frac{\theta }{2}=\sqrt{\frac{x-1}{2x}}\]，则\[\tan \theta \]等于（）
-（A）\[x\].				（B）\[\frac{x+1}{\sqrt{x-1}}\].	（C）\[\frac{\sqrt{{{x}^{2}}-1}}{x}\].	（D）\[\sqrt{{{x}^{2}}-1}\].
-74.（1）化简\[\frac{\tan \left( 45{}^\circ -\alpha  \right)}{1-{{\tan }^{2}}\left( 45{}^\circ -\alpha  \right)}\cdot \frac{\sin \alpha \cos \alpha }{{{\cos }^{2}}\alpha -{{\sin }^{2}}\alpha }=\]          .
-（2）若\[\tan \frac{\alpha }{2}=\frac{2}{5}\]，则\[\frac{2\sin \alpha +3\cos \alpha }{3\cos \alpha -4\sin \alpha }=\]          .
-（3）若\[\frac{2\sin \theta +\cos \theta }{\sin \theta -3\cos \theta }=-5\]，则\[3\cos 2\theta +4\sin 2\theta =\]          .
-75.（1）已知\[\sin \alpha =\frac{3}{5}\]，\[\alpha \in \left( \frac{\pi }{2},\pi  \right)\]，\[\tan \left( \pi -\beta  \right)=\frac{1}{2}\]，求\[\tan \left( \alpha -2\beta  \right)\]的值.
-（2）已知\[\tan 2\theta =-2\sqrt{2}\]，\[\frac{\pi }{4}<\theta <\frac{\pi }{2}\]，求\[\frac{2{{\cos }^{2}}\left( \frac{\theta }{2} \right)-\sin \theta -1}{\sqrt{2}\sin \left( \frac{\pi }{4}+\theta  \right)}\]的值.
-76.已知\[a\sin x+b\cos x=0\]，\[A\sin 2x+B\cos 2x=C\]，'（\[a,b\]是不同时为零的实数），求证：\[2abA+\left( {{b}^{2}}-{{a}^{2}} \right)B+\left( {{a}^{2}}+{{b}^{2}} \right)C=0\].
-（七）半角公式
-77.下列函数中，最小正周期为\[\pi \]的是（）
-（A）\[y=\frac{\sin x}{1-\cos x}\].						（B）\[y=\tan \frac{x}{2}-\frac{1}{\sin x}\].
-（C）\[y={{\cos }^{2}}\left( 2x \right)\].						（D）\[y=\tan x-\cot x\].
-78.若\[\cos \alpha =-\frac{3}{5}\]，且\[\pi <\alpha <\frac{3\pi }{2}\]，则\[\cos \frac{\alpha }{2}\]的值等于（）
-（A）\[\frac{\sqrt{5}}{5}\].			（B）\[-\frac{\sqrt{5}}{5}\].			（C）\[\frac{2\sqrt{5}}{5}\].			（D）\[-\frac{2\sqrt{5}}{5}\].
-79.若\[2\pi <\theta <4\pi \]，\[\sin \theta =-\frac{3}{5}\]，\[\cos \theta <0\]，则\[\tan \frac{\theta }{2}\]的值等于（）
-（A）－3.			（B）3.				（C）\[-\frac{1}{3}\].			（D）\[\frac{1}{3}\].
-80.若\[\alpha +\beta =\frac{\pi }{2}\]，则（）
-（A）\[\cos \frac{\alpha }{2}=-\sqrt{\frac{1+\sin \beta }{2}}\].				（B）\[\sin \frac{\alpha }{2}=-\sqrt{\frac{1-\sin \beta }{2}}\].
-（C）\[\tan \frac{\alpha }{2}=\pm \sqrt{\frac{1-\sin \beta }{1+\sin \beta }}\].				（D）\[\tan \frac{\alpha }{2}=\pm \sqrt{\frac{1+\sin \beta }{1-\sin \beta }}\].
-81.当\[3\pi <\alpha <4\pi \]时.化简\[\sqrt{\frac{1+\cos \alpha }{2}}-\sqrt{\frac{1-\cos \alpha }{2}}\]得（）
-（A）\[-\sqrt{2}\sin \left( \frac{\alpha }{2}+\frac{\pi }{4} \right)\].					（B）\[\sqrt{2}\sin \left( \frac{\alpha }{2}+\frac{\pi }{4} \right)\].
-（C）\[-\sqrt{2}\sin \left( \frac{\alpha }{2}-\frac{\pi }{4} \right)\].					（D）\[\sqrt{2}\sin \left( \frac{\alpha }{2}-\frac{\pi }{4} \right)\].
-82.若\[\sin 2\alpha =a\]，\[\cos 2\alpha =b\]，则\[\tan \left( \alpha +\frac{\pi }{4} \right)\]的值是（）
-（A）\[\frac{a}{1+b}\].			（B）\[\frac{1+a}{b}\].			（C）\[\frac{1+a-b}{1-a+b}\].		（D）\[\frac{a-b+1}{a+b+1}\].
-83.（1）若\[\sin x=\frac{2}{3}\]，且\[\frac{\pi }{2}<x<\pi \]，则\[\sin \frac{x}{2}=\]          .
-（2）若\[\alpha \]是第三象限角，且\[\sin \left( \alpha +\beta  \right)\cos \beta -\sin \beta \cdot \cos \left( \alpha +\beta  \right)=-\frac{5}{13}\]，则\[\tan \frac{\alpha }{2}=\]     .
-（3）若\[3\sin \alpha =4\cos \alpha \]，且\[\sin \alpha <0\]，则\[\tan \frac{\alpha }{2}=\]          .
-（4）若\[\tan 35{}^\circ =m\]，则\[\frac{\cos 20{}^\circ }{1-\sin 20{}^\circ }=\]          .
-（5）当\[k\in Z\]时，\[{{\left( \tan \frac{5\pi }{12} \right)}^{k}}\cdot {{\left( \tan \frac{\pi }{12} \right)}^{k+2}}=\]          .
-84.与\[\lg {{\left( \cos x-1 \right)}^{2}}\]相等的式子是（）
-（A）\[4\lg \left| \cos \frac{x}{2} \right|+2\lg 2\].					（B）\[2\lg \left( \cos x-1 \right)\].
-（C）\[{{\left[ \lg \left( \cos x-1 \right) \right]}^{2}}\].					（D）\[4\lg \left| \sin \frac{x}{2} \right|+2\lg 2\].
-85.（1）已知\[\frac{1-\cos 2\theta }{1+\cos 2\theta }=7-4\sqrt{3}\]，且\[{{\left( \frac{1}{2} \right)}^{\sin 2\theta }}>1\]，求\[\tan \theta \]的值.
-（2）已知\[\sin \left( \alpha +\frac{3\pi }{4} \right)=\frac{5}{13}\]，\[\cos \left( \frac{\pi }{4}-\beta  \right)=\frac{3}{5}\]，且\[-\frac{\pi }{4}<\alpha <\frac{\pi }{4}\]，\[\frac{\pi }{4}<\beta <\frac{3\pi }{4}\]，求\[\sin \frac{\alpha -\beta }{2}\]的值.
-（3）已知\[\sin \alpha -\cos \alpha =\frac{1}{2}\]，且\[\pi <\alpha <2\pi \]，求\[\tan \frac{\alpha }{2}\]的值.
-（4）已知\[\cos \alpha =-\frac{3}{5}\]，且\[\alpha \]为第二象限角，求\[\frac{\tan \frac{\pi +\alpha }{4}}{1-{{\cot }^{2}}\frac{\pi -\alpha }{4}}\]的值.
-二、积化和差与和差化积公式
-【典型题型和解题技巧】
-1.拆项法.
-对形如\[\sin \alpha +\sin \left( \alpha +\beta  \right)+\sin \left( \alpha +2\beta  \right)+\cdots +\sin \left( \alpha +n\beta  \right)\]及\[\cos \alpha +\cos \left( \alpha +\beta  \right)+\cos \left( \alpha +2\beta  \right)+\cdots +\cos \left( \alpha +n\beta  \right)\]的式子，可乘以\[\frac{\sin \frac{\beta }{2}}{\sin \frac{\beta }{2}}\]，再逐项积化和差，依次将各项一拆为二，以达到消项的目的.
-例1  求证：\[\cos x+\cos 2x+\cdots +\cos nx=\frac{\cos \frac{n+1}{2}x\sin \frac{n}{2}x}{\sin \frac{x}{2}}\].
-证明  ∵左边\[=\frac{1}{\sin \frac{x}{2}}\left( \sin \frac{x}{2}\cos x+\sin \frac{x}{2}\cos 2x+\sin \frac{x}{2}\cos 3x+\cdots +\sin \frac{x}{2}\cos nx \right)\]
-\[=\frac{1}{2\sin \frac{x}{2}}\left[ \left( \sin \frac{3x}{2}-\sin \frac{x}{2} \right)+\left( \sin \frac{5x}{2}-\sin \frac{3x}{2} \right)+\left( \sin \frac{7x}{2}-\sin \frac{5x}{2} \right)+\cdots +\left( \sin \frac{2n+1}{2}x-\sin \frac{2n-1}{2}x \right) \right]\]
-\[=\frac{1}{2\sin \frac{x}{2}}\left( \sin \frac{2n+1}{2}x-\sin \frac{x}{2} \right)=\frac{\cos \frac{n+1}{2}x\sin \frac{n}{2}x}{\sin \frac{x}{2}}=\]右边，
-∴原式得证.
-2.三角形中的恒等变形.
-在\[\Delta ABC\]中，以下变形应相当熟练：
-\[\sin \left( A+B \right)=\sin C\]，\[\cos \left( A+B \right)=-\cos C\]，\[\tan \left( A+B \right)=-\tan C\]；
-\[\sin \frac{A+B}{2}=\cos \frac{C}{2}\]，\[\cos \frac{A+B}{2}=\sin \frac{C}{2}\]，\[\tan \frac{A+B}{2}=\cot \frac{C}{2}\]，
-进一步还有：\[\sin \left( A+B \right)=\sin C=2\sin \frac{C}{2}\cos \frac{C}{2}=2\cos \frac{A+B}{2}\cos \frac{C}{2}=2\sin \frac{C}{2}\sin \frac{A+B}{2}\]，
-\[\cos \left( A+B \right)=2{{\cos }^{2}}\frac{A+B}{2}-1=2{{\sin }^{2}}\frac{C}{2}-1=1-2{{\sin }^{2}}\frac{A+B}{2}=1-2{{\cos }^{2}}\frac{C}{2}\].
-例2  在\[\Delta ABC\]中，求证：\[{{\sin }^{2}}\frac{A}{2}+{{\sin }^{2}}\frac{B}{2}+{{\sin }^{2}}\frac{C}{2}=1-2\sin \frac{A}{2}\sin \frac{B}{2}\sin \frac{C}{2}\].
-证明  ∵左边\[=\frac{3}{2}-\frac{1}{2}\left( \cos A+\cos B+\cos C \right)=\frac{3}{2}-\frac{1}{2}\left( 2\cos \frac{A+B}{2}\cos \frac{A-B}{2}+\cos C \right)\]
-           \[\begin{align}
-  & =\frac{3}{2}-\frac{1}{2}\left( 2\sin \frac{C}{2}\cos \frac{A-B}{2}+1-2{{\sin }^{2}}\frac{C}{2} \right) \\ 
- & =1-\sin \frac{C}{2}\left( \cos \frac{A-B}{2}-\sin \frac{C}{2} \right)=1-\sin \frac{C}{2}\left( \cos \frac{A-B}{2}-\cos \frac{A+B}{2} \right) \\ 
-\end{align}\]
-           \[=1-2\sin \frac{A}{2}\sin \frac{B}{2}\sin \frac{C}{2}=\]右边，
-∴原式得证.
-3.题型\[a\sin \alpha +b\sin \beta =m\]，\[a\cos \alpha +b\cos \beta =n\].
-此类题型或类似的题型十分多见，常可利用两式四则运算.并结合和差化积来求解.
-例3  已知\[\cos \alpha +\cos \beta =a\]，\[\sin \alpha +\sin \beta =b\]（\[ab\ne 0\]），求\[\cos \left( \alpha -\beta  \right)\]，\[\cos \left( \alpha +\beta  \right)\]的值.
-解  两式平方相加，可得\[2+2\cos \left( \alpha -\beta  \right)={{a}^{2}}+{{b}^{2}}\]，∴\[\cos \left( \alpha -\beta  \right)=\frac{{{a}^{2}}+{{b}^{2}}-2}{2}\].再将两式和差化积，得\[2\cos \frac{\alpha +\beta }{2}\cos \frac{\alpha -\beta }{2}=a\]，\[2\sin \frac{\alpha +\beta }{2}\cos \frac{\alpha -\beta }{2}=b\].
-显然\[\cos \frac{\alpha -\beta }{2}\ne 0\]，于是两式相除，得\[\tan \frac{\alpha +\beta }{2}=\frac{b}{a}\].
-再由万能公式，得\[\cos \left( \alpha +\beta  \right)=\frac{1-{{\tan }^{2}}\left( \frac{\alpha +\beta }{2} \right)}{1+{{\tan }^{2}}\left( \frac{\alpha +\beta }{2} \right)}=\frac{1-\frac{{{b}^{2}}}{{{a}^{2}}}}{1+\frac{{{b}^{2}}}{{{a}^{2}}}}=\frac{{{a}^{2}}-{{b}^{2}}}{{{a}^{2}}+{{b}^{2}}}\].
-例4  已知\[a\cos \alpha +b\sin \alpha =c\]，\[a\cos \beta +b\sin \beta =c\]，其中\[\alpha \pm \beta \ne k\pi \]，\[k\in Z\]，求证：\[\frac{a}{\cos \frac{\alpha +\beta }{2}}=\frac{b}{\sin \frac{\alpha +\beta }{2}}=\frac{c}{\cos \frac{\alpha -\beta }{2}}\].
-证明  将已知的两式相减，得\[a\left( \cos \alpha -\cos \beta  \right)+b\left( \sin \alpha -\sin \beta  \right)=0\].
-利用和差化积，得\[-2a\sin \frac{\alpha +\beta }{2}\sin \frac{\alpha -\beta }{2}+2b\cos \frac{\alpha +\beta }{2}\sin \frac{\alpha -\beta }{2}=0\].
-由条件知\[\sin \frac{\alpha -\beta }{2}\ne 0\]，∴\[a\sin \frac{\alpha +\beta }{2}=b\cos \frac{\alpha +\beta }{2}\]，即\[\frac{a}{\cos \frac{\alpha +\beta }{2}}=\frac{b}{\sin \frac{\alpha +\beta }{2}}\].
-再利用等比性质，得\[\frac{a\cos \alpha }{\cos \frac{\alpha +\beta }{2}\cos \alpha }=\frac{b\sin \alpha }{\sin \frac{\alpha +\beta }{2}\sin \alpha }=\frac{a\cos \alpha +b\sin \alpha }{\cos \frac{\alpha +\beta }{2}\cos \alpha +\sin \frac{\alpha +\beta }{2}\sin \alpha }=\frac{c}{\cos \frac{\alpha -\beta }{2}}\]，
-∴\[\frac{a}{\cos \frac{\alpha +\beta }{2}}=\frac{b}{\sin \frac{\alpha +\beta }{2}}=\frac{c}{\cos \frac{\alpha -\beta }{2}}\]
-4.降幂与化积.
-在本章内，有不少问题的求解要通过先降幂再化积来完成.
-例5  已知\[\alpha +\beta =\frac{2\pi }{3}\]，求\[{{\sin }^{2}}\alpha +{{\sin }^{2}}\beta \]的取值范围.
-解  ∵\[{{\sin }^{2}}\alpha +{{\sin }^{2}}\beta =\frac{1-\cos 2\alpha }{2}+\frac{1-\cos 2\beta }{2}=1-\frac{1}{2}\left( \cos 2\alpha +\cos 2\beta  \right)\]
-                    \[=1-\cos \left( \alpha +\beta  \right)\cos \left( \alpha -\beta  \right)=1+\frac{1}{2}\cos \left( \alpha -\beta  \right)\]，
-又_\[=-1\le \cos \left( \alpha -\beta  \right)\le 1\]，∴\[{{\sin }^{2}}\alpha +{{\sin }^{2}}\beta \]的取值范围是\[\left[ \frac{1}{2},\frac{3}{2} \right]\].
-【训练题】
-（一）积化和差公式
-86.函数\[y=\sin \left( 3x+\frac{\pi }{12} \right)\sin \left( 3x-\frac{5\pi }{12} \right)\]的最小正周期是（）
-（A）\[\frac{\pi }{3}\].			（B）\[\frac{2\pi }{3}\].		（C）\[3\pi \].		（D）\[6\pi \].
-87.若\[{{\cos }^{2}}\alpha -{{\cos }^{2}}\beta =m\]，则\[\sin \left( \alpha +\beta  \right)\sin \left( \alpha -\beta  \right)\]等于（）
-（A）\[4m\].			（B）\[-4m\].		（C）\[m\].		（D）\[-m\].
-88. \[\cos \left( \frac{\pi }{5}+1 \right)\cos \left( \frac{\pi }{5}-1 \right)\]等于（）
-（A）\[{{\cos }^{2}}\left( \frac{\pi }{5} \right)+{{\sin }^{2}}1\].				（B）\[{{\sin }^{2}}\left( \frac{\pi }{5} \right)-{{\cos }^{2}}1\].
-（C）\[{{\cos }^{2}}\left( \frac{\pi }{5} \right)-{{\sin }^{2}}1\].				（D）\[{{\sin }^{2}}\left( \frac{\pi }{5} \right)+{{\cos }^{2}}1\].
-89.函数\[f\left( x \right)=\sin \left( x+\frac{5\pi }{12} \right)\cos \left( x-\frac{\pi }{12} \right)\]是（）
-（A）最小正周期为\[\pi \]的奇函数.			（B）最小正周期为\[\pi \]的偶函数.
-（C）最小正周期为\[2\pi \]的函数，没有奇偶性.	（D）最小正周期为\[\pi \]的函数，没有奇偶性.
-90.函数\[f\left( x \right)=2\sin \frac{x}{2}\sin \left( \alpha -\frac{x}{2} \right)\]的最大值等于（）
-（A）\[2{{\sin }^{2}}\left( \frac{\alpha }{2} \right)\].	（B）\[-2{{\sin }^{2}}\left( \frac{\alpha }{2} \right)\].	（C）\[2{{\cos }^{2}}\left( \frac{\alpha }{2} \right)\].	（D）\[-2{{\cos }^{2}}\left( \frac{\alpha }{2} \right)\].
-91.（1）函数\[y=\sin \left( \frac{3\pi }{4}-x \right)\sin \left( \frac{3\pi }{4}+x \right)\]的值域是          .
-（2）函数\[f\left( x \right)=\sin x\cos \left( x+A \right)\]的最小正周期是          ，最大值是          .
-92.求值或化简：
-（1）\[{{\cos }^{2}}\alpha -\cos \left( \alpha +{{60}^{\circ }} \right)\cos \left( \alpha -{{60}^{\circ }} \right)=\]          .
-（2）\[\cos \left( \alpha +\beta  \right)\cos \left( \alpha -\beta  \right)+{{\sin }^{2}}\beta =\]          .
-（3）若\[\sin \left( \alpha +\beta  \right)=\frac{2}{3}\]，\[\sin \left( \alpha -\beta  \right)=\frac{1}{5}\]，则\[\tan \alpha \cot \beta =\]          .
-（4）若\[\sin \left( \theta +\frac{\pi }{6} \right)\sin \left( \theta -\frac{\pi }{6} \right)=\frac{11}{20}\]，则\[\tan \theta =\]          .
-93.计算下列各式：
-（1）\[\sin 63{}^\circ -\cos 63{}^\circ +2\sqrt{2}\sin 66{}^\circ \cos 84{}^\circ =\]          .
-（2）\[\frac{1}{2\sin 10{}^\circ }-2\sin 70{}^\circ =\]          .
-（3）\[\frac{1-4\sin 10{}^\circ +8{{\sin }^{3}}10{}^\circ }{2\cos 80{}^\circ }=\]          .
-（4）\[\sin 80{}^\circ \cos 20{}^\circ +\sin 45{}^\circ \cos 145{}^\circ +\sin 55{}^\circ \cos 245{}^\circ =\]          .
-94.（1）求证：\[\tan \frac{3\alpha }{2}-\tan \frac{\alpha }{2}=\frac{2\sin \alpha }{\cos \alpha +\cos 2\alpha }\].
-（2）已知\[\tan \frac{\alpha +\beta }{2}=\frac{\sqrt{2}}{2}\]，求\[\cos 2\alpha \cdot \cos 2\beta -{{\cos }^{2}}\left( \alpha -\beta  \right)\]的值.
-95.已知\[A,B,C\]是\[\Delta ABC\]的三内角，若\[B={{60}^{\circ }}\]，求\[\cos A\cos C\]的取值范围.
-96.计算下列各式：。
-（1）\[\cos 20{}^\circ +\cos 60{}^\circ +\cos 100{}^\circ +\cos 140{}^\circ \].
-（2）\[\cos \frac{2\pi }{7}+\cos \frac{4\pi }{7}+\cos \frac{6\pi }{7}\].
-97.*（1）求证：
-①\[\sin \alpha \sin \left( {{60}^{\circ }}+\alpha  \right)\sin \left( {{60}^{\circ }}-\alpha  \right)=\frac{1}{4}\sin 3\alpha \]；
-②\[\cos \alpha \cos \left( {{60}^{\circ }}+\alpha  \right)\cos \left( {{60}^{\circ }}-\alpha  \right)=\frac{1}{4}\cos 3\alpha \]；
-③\[\tan \alpha \tan \left( {{60}^{\circ }}+\alpha  \right)\tan \left( {{60}^{\circ }}-\alpha  \right)=\tan 3\alpha \].
-（2）求值或化简..
-①\[\sin 5{}^\circ \sin 55{}^\circ \sin 65{}^\circ \]；
-②\[\sin 10{}^\circ \sin 30{}^\circ \sin 50{}^\circ \sin 70{}^\circ \]；
-③\[\cos 10{}^\circ \cos 30{}^\circ \cos 50{}^\circ \cos 70{}^\circ \]；
-*④\[\sin x\sin \left( \frac{1}{3}\pi +x \right)\sin \left( \frac{2}{3}\pi +x \right)\]；
-*⑤\[\tan 5{}^\circ \tan 55{}^\circ \tan 65{}^\circ \tan 75{}^\circ \].
-*98.已知\[f\left( x \right)={{\cos }^{2}}\left( x+\theta  \right)-2\cos \theta \cos x\cos \left( x+\theta  \right)+{{\cos }^{2}}\theta \].
-（1）求此函数的最小正周期.
-（2）若\[\frac{1}{4}\le f\left( x \right)\le \frac{3}{4}\]，\[0\le x\le 2\pi \]，求\[x\]取值范围.
-*99.已知\[\cos \left( \alpha +\beta  \right)\sin \left( \alpha -\beta  \right)+\frac{1}{2}\sin \alpha \cos \alpha =0\]，且\[3{{\sin }^{2}}\alpha +2{{\sin }^{2}}\beta =1\]，\[\alpha ,\beta \in \left( 0,\frac{\pi }{2} \right)\]，求\[\sin \left( \alpha +\beta  \right)\]的值.
-（二）和差化积公式
-100.下列各式中，不正确的是（）
-（A）\[\sin \alpha +\sin \beta =2\sin \frac{\beta +\alpha }{2}\cos \frac{\beta -\alpha }{2}\].	（B）\[\sin \alpha -\sin \beta =2\cos \frac{\beta +\alpha }{2}\sin \frac{\beta -\alpha }{2}\].
-（C）\[\cos \alpha +\cos \beta =2\cos \frac{\beta +\alpha }{2}\cos \frac{\beta -\alpha }{2}\].
-
-（D）\[\cos \alpha -\cos \beta =2\sin \frac{\beta +\alpha }{2}\sin \frac{\beta -\alpha }{2}\].
-101.函数\[y={{\cos }^{2}}\left( x-\frac{\pi }{12} \right)+{{\sin }^{2}}\left( x+\frac{\pi }{12} \right)-1\]是（）
-（A）最小正周期为\[2\pi \]的奇函数.			（B）最小正周期为\[2\pi \]的偶函数.
+（一）反正弦函数
+1.若\[\pi \le \alpha \le \frac{3\pi }{2}\]，且\[\sin \alpha =-\frac{1}{4}\]，则用反三角形式表示\[\alpha \]是（）
+（A）\[\pi -\arcsin \frac{1}{4}\].						（B）\[\pi +\arcsin \frac{1}{4}\].
+（C）\[\frac{3\pi }{2}-\arcsin \frac{1}{4}\].						（D）\[\frac{3\pi }{2}+\arcsin \frac{1}{4}\].
+2.函数\[y=\arcsin \left( \cot x \right)\]的定义域是（）
+（A）[－1，1].							（B）\[\left[ k\pi +\frac{\pi }{4},k\pi +\frac{3\pi }{4} \right]\]（\[k\in Z\]）.
+（C）\[\left[ -\frac{\pi }{4},\frac{\pi }{4} \right]\].							（D）\[\left[ k\pi -\frac{\pi }{4},k\pi +\frac{\pi }{4} \right]\]（\[k\in Z\]）.
+3.函数\[y=\sin \left( \arcsin x \right)\]的图象是（）
  
-（C）最小正周期为\[\pi \]的奇函数.				（D）最小正周期为\[\pi \]的偶函数.
-102.将\[{{\cos }^{2}}x-{{\sin }^{2}}y\]化为积的形式，结果是（）
-（A）\[-\sin \left( x+y \right)\sin \left( x-y \right)\].				（B）\[\cos \left( x+y \right)\cos \left( x-y \right)\].
-（C）\[\sin \left( x+y \right)\cos \left( x-y \right)\].				（D）\[-\cos \left( x+y \right)\sin \left( x-y \right)\].
-103.设\[x+y=\frac{2\pi }{3}\]，则\[\cos x-\cos y\]的最大值是（）
-（A）\[-\sqrt{3}\].			（B）\[2\sqrt{3}\].			（C）\[\sqrt{3}\].		（D）1.
-104.函数\[f\left( x \right)=\frac{\cos 3x-\cos x}{\cos x}\]的值域是（）
-（A）\[\left[ -4,+\infty  \right)\].		（B）\[\left[ -4,0 \right)\].		（C）\[\left( -4,0 \right]\].	（D）\[\left( -4,4 \right]\].
-105.求值或化简：
-（1）\[\sin 10{}^\circ +\sin 50{}^\circ -\sin 70{}^\circ =\]          .
-（2）\[\cos 20{}^\circ -\cos 80{}^\circ -\sin 50{}^\circ =\]          .
-（3）\[\sin 15{}^\circ -\sin 75{}^\circ +2\sin 15{}^\circ \sin 75{}^\circ =\]          .
-（4）\[\sin 80{}^\circ -\sin 20{}^\circ +2\sin 10{}^\circ \cos 50{}^\circ =\]           .
-（5）\[\cos \frac{5\pi }{13}+\cos \frac{3\pi }{13}+2\cos \frac{9\pi }{13}\cos \frac{\pi }{13}=\]          .
-（6）\[{{\cos }^{2}}\left( \alpha +\beta  \right)+{{\cos }^{2}}\left( \alpha -\beta  \right)-\cos 2\alpha \cos 2\beta =\]          .
-（7）\[\cos \alpha +\cos \left( \frac{2}{3}\pi +\alpha  \right)+\cos \left( \frac{2}{3}\pi -\alpha  \right)=\]          .
-（8）\[{{\sin }^{2}}40{}^\circ +{{\sin }^{2}}80{}^\circ +\frac{1}{2}\cos 220{}^\circ =\]          .
-（9）\[\cos 20{}^\circ +\sin 60{}^\circ +\cos 100{}^\circ +\cos 140{}^\circ =\]          .
-（10）\[\sin 63{}^\circ -\sin 27{}^\circ +2\sqrt{2}\cos 84{}^\circ \sin 66{}^\circ =\]           .
-106.计算下列各式：
-（1）\[\frac{\sin 20{}^\circ -\cos 50{}^\circ }{\cos 80{}^\circ }=\]          .
-（2）\[\frac{\sin 10{}^\circ +\sin 50{}^\circ }{\sin 35{}^\circ \sin 55{}^\circ }=\]          .
-（3）\[\csc 18{}^\circ -\csc 54{}^\circ =\]          .
-107.若\[x+y=1\]，则\[\sin x+\sin y\]与1的大小关系是（）
-（A）\[\sin x+\sin y>1\].					（B）\[\sin x+\sin y=1\].
-（C）\[\sin x+\sin y<1\].					（D）随\[x,y\]的取值而定.
-108.若\[\sqrt{3}\left( \sin \alpha +\sin \beta  \right)=\cos \beta -\cos \alpha \]，\[\alpha ,\beta \in \left( 0,\pi  \right)\]，则\[\alpha -\beta \]等于（）
-（A）\[-\frac{2\pi }{3}\].				（B）\[-\frac{\pi }{3}\].		（C）\[\frac{\pi }{3}\].		（D）\[\frac{2\pi }{3}\].
-109.若\[x>0\]，\[y>0\]，\[0<x+y<2\pi \]，则\[f\left( x \right)=\sin \left( x+y \right)-\sin x-\sin y\]的值（）
-（A）恒大于零.							（B）恒小于零.
-（C）恒等于零.							（D）符号随\[x,y\]的取值而定.
-110.函数\[y=\sin \left( 2x-\frac{\pi }{6} \right)-\cos 2x\]的图象，可由函数\[y=\sqrt{3}\sin 2x\]的图象（）
-（A）向右平移\[\frac{\pi }{3}\]个单位长度得到.		（B）向左平移\[\frac{\pi }{3}\]个单位长度得到.
-（C）向右平移\[\frac{\pi }{6}\]个单位长度得到.		（D）向左平移\[\frac{\pi }{6}\]个单位长度得到.
-111.在“①\[\cos 40{}^\circ +\sqrt{3}\sin 40{}^\circ =2\cos 20{}^\circ \]，②\[1+2\cos 20{}^\circ =4\cos 20{}^\circ \cos 40{}^\circ \]，③\[\frac{\sin 40{}^\circ }{1+\cos 40{}^\circ }=\cot 70{}^\circ \]，④\[\frac{1-\tan 40{}^\circ }{1+\tan 40{}^\circ }=\tan 20{}^\circ \]”这四个式子中，成立的个数是（）
-（A）1.				（B）2.			（C）3.				（D）4.
-*112.已知\[\cos 36{}^\circ \cos 72{}^\circ =\frac{1}{4}\]，求下列各式的值：
-（1）\[\cos 36{}^\circ -\cos 72{}^\circ \].				（2）\[{{\cos }^{2}}\left( \frac{\pi }{5} \right)+{{\sin }^{2}}\left( \frac{\pi }{10} \right)\].
-（3）\[\cos 12{}^\circ -\cos 24{}^\circ -\cos 48{}^\circ +\cos 84{}^\circ \].
-113.求下列各式的值：
-（1）\[{{\cos }^{2}}73{}^\circ +{{\sin }^{2}}43{}^\circ +\cos 73{}^\circ \sin 43{}^\circ \].		（2）\[{{\cos }^{2}}10{}^\circ +{{\cos }^{2}}110{}^\circ +{{\cos }^{2}}130{}^\circ \].
-（3）\[\sin 10{}^\circ \sin 50{}^\circ -\sin 50{}^\circ \sin 70{}^\circ -\sin 70{}^\circ \sin 10{}^\circ \].（4）\[\tan 9{}^\circ -\tan 27{}^\circ -\tan 63{}^\circ +\tan 81{}^\circ \].
-114.（1）已知\[\cos \alpha -\cos \beta =\frac{1}{2}\]，\[\sin \alpha -\sin \beta =-\frac{1}{3}\]，求\[\sin \left( \alpha +\beta  \right)\]，\[\cos \left( \alpha -\beta  \right)\]的值.
-（2）已知\[\cos \alpha +\cos \beta =\frac{\sqrt{2}}{4}\]，\[\tan \left( \alpha +\beta  \right)=-\frac{4}{3}\]，求\[\sin \alpha +\sin \beta \]的值.
-*（3）已知\[a\cos x+b\sin x+c=0\]（\[a\ne 0\]）在区间\[\left( \frac{\pi }{2},\pi  \right)\]内有两个相异的实根\[\alpha ,\beta \]，求\[\sin \left( \alpha +\beta  \right)\]的值.
-*（4）已知\[\sin \alpha +\sin \beta =\frac{3}{5}\]，\[\cos \alpha +\cos \beta =\frac{4}{5}\]，求\[\cos \alpha \cdot \cos \beta \]的值.
-115.根据下列条件判断\[\Delta ABC\]的形状：
-（1）\[\sin A+\sin B=\cos A+\cos B\].			（2）\[{{\sin }^{2}}A+{{\sin }^{2}}B+{{\sin }^{2}}C<2\].
-*（3）\[\tan B=\frac{\cos \left( B-C \right)}{\sin A-\sin \left( B-C \right)}\].			*（4）\[\sin A=\frac{\sin B+\sin C}{\cos B+\cos C}\].
-*116.将\[\sin x+\sin y+\sin z-\sin \left( x+y+z \right)\]化为积的形式.
-*ll7.若\[\frac{\sin \left( A+30{}^\circ  \right)-\sin \left( B+30{}^\circ  \right)}{\cos A-\cos B}=m\cot \frac{A+B}{2}+n\]，求\[m,n\]的值.
-*118.已知\[\sin A+\sin B-\sin C=0\]，\[\cos A+\cos B-\cos C=0\]，求证：\[{{\sin }^{2}}A+{{\sin }^{2}}B+{{\sin }^{2}}C\]为定值.
-*119.（1）已知\[0<x<\pi \]，求函数\[f\left( x \right)=-\frac{1}{2}+\frac{\sin \frac{5x}{2}}{2\sin \frac{x}{2}}\]的最小值.
-（2）已知三角形内角\[\theta \]满足\[\frac{\sin \frac{5\theta }{2}}{2\sin \frac{\theta }{2}}-\frac{1}{2}=a\cos \theta +a\]，求实数\[a\]的取值范围.
-120.（1）已知\[0<\alpha <\pi \]，\[0<\beta <\pi \]，且\[\cos \alpha +\cos \beta -\cos \left( \alpha +\beta  \right)=\frac{3}{2}\]，求证：\[\alpha =\beta =\frac{\pi }{3}\].
-*（2）已知\[A,B\]是两个锐角，且满足\[a\sin A+b\cos B-\sin B=0\]，\[a\sin B+b\cos A-\sin A=0\]，又\[\tan \frac{A+B}{2}=a+1\]，求证：\[{{a}^{2}}+b=1\].
-三、解斜三角形 
+      （A）               （B）               （C）              （D）
+4.函数\[f\left( x \right)=2\arcsin \left( x-1 \right)\]的反函数是（）
+（A）\[y=\frac{1}{2}\sin \left( x-1 \right)\]（\[-\frac{\pi }{2}<x<\frac{\pi }{2}\]）.	（B）\[y=1+\sin \frac{x}{2}\]（\[-\frac{\pi }{2}\le x\le \frac{\pi }{2}\]）.
+（C）\[y=1+\sin \frac{x}{2}\]（\[-\pi \le x\le \pi \]）.		（D）\[y=\sin \left( \frac{x}{2}+1 \right)\]（\[-\pi \le x\le \pi \]）.
+5.函数\[y=\arcsin \left( {{x}^{2}}-x \right)\]为减函数的区间是（）
+（A）[－1，1].							（B）\[\left[ \frac{1}{2},\frac{1}{2}\left( 1+\sqrt{5} \right) \right]\].
+（C）\[\left( -\frac{\pi }{4},+\infty  \right)\]							（D）\[\left[ \frac{1}{2}\left( 1-\sqrt{5} \right),\frac{1}{2} \right]\].
+6.若\[0<a<1\]，则在\[\left[ 0,2\pi  \right]\]内满足\[\sin x\ge a\]的\[x\]的取值范围是（）
+（A）\[\left[ 0,\arcsin a \right]\].						（B）\[\left[ \arcsin a,\pi -\arcsin a \right]\].
+（C）\[\left[ \pi \arcsin a,\pi  \right]\].						（D）\[\left[ \arcsin a,\frac{\pi }{2}+\arcsin a \right]\].
+7.若\[\frac{\pi }{2}\le x\le \frac{3\pi }{2}\]，则\[\arcsin \left( \sin x \right)\]的值等于（）
+（A）\[x\].				（B）\[\pi -x\].			（C）\[x-\pi \].		（D）\[x+\pi \].
+8.已知\[\arcsin x\ge 1\]，则\[x\]的取值范围是（）
+（A）[0，1].			（B）\[\left[ 0,\sin 1 \right]\].		（C）\[\left[ \sin 1,1 \right]\].	（D）[－1，1].
+9.若函数\[y=\arcsin \left( \cos x \right)\]的定义域是\[\left( -\frac{\pi }{3},\frac{2\pi }{3} \right)\]，则值域是（）
+（A）\[\left( -\frac{\pi }{6},\frac{\pi }{3} \right]\].		（B）\[\left( -\frac{\pi }{6},\frac{\pi }{2} \right]\].		（C）\[\left( \frac{\pi }{6},\frac{\pi }{2} \right]\].	（D）\[\left[ \frac{\pi }{3},\frac{\pi }{2} \right]\].
+10.求下列函数的定义域与值域：
+（1）\[y=\sqrt{\arcsin x}\]，\[x\in \]          ，\[y\in \]          .
+（2）\[y=\arcsin \left( \lg \frac{x}{2} \right)\]，\[x\in \]          ，\[y\in \]          ..
+（3）\[y=\frac{1}{2}\arcsin \frac{1}{x-2}\]，\[x\in \]          ，\[y\in \]          .
+（4）\[y=\arcsin \left( x-{{x}^{2}} \right)\]，\[x\in \]          ，\[y\in \]          .
+（5）\[f\left( x \right)={{\log }_{2}}\left( \arcsin \frac{x}{2} \right)\]，\[x\in \]          ，\[y\in \]          .
+11.计算下列各式：
+（1）\[\arcsin \left[ \sin \left( -\frac{5\pi }{4} \right) \right]=\]          .		（2）\[\arcsin \left( \sin 3 \right)=\]          .
+（3）\[\arcsin \left( \cos 2 \right)=\]          .			（4）\[\arcsin \left( \cos 5 \right)=\]          .
+（5）\[\arcsin \left( \sin {{\pi }^{2}} \right)=\]          .
+12.求函数\[y={{\left( \arcsin x \right)}^{2}}-2\arcsin x-2\]的最大值与最小值，并求取得最大值、最小值时的\[x\]值.
+13.已知\[a,b,c\]依次为直角三角形的两直角边和斜边，且满足\[\arcsin \frac{1}{a}+\arcsin \frac{1}{b}=\frac{\pi }{2}\]，求证：\[c=ab\].
+14.（1）已知\[\alpha =\frac{9\pi }{8}\]，求\[\arcsin \left( \frac{\sin \alpha +\cos \alpha }{\sqrt{2}} \right)\]的值.
+（2）已知\[\frac{\pi }{4}<\theta <\frac{5\pi }{4}\]，求证\[\arcsin \left( \frac{\sin \theta +\cos \theta }{\sqrt{2}} \right)=\frac{3\pi }{4}-\theta \].
+15.根据条件求函数\[f\left( x \right)=\sin \left( x-\frac{\pi }{4} \right)\cos \left( x+\frac{\pi }{4} \right)\]的反函数：
+（1）\[-\frac{\pi }{4}\le x\le \frac{\pi }{4}\].						（2）\[\frac{\pi }{4}\le x\le \frac{\pi }{2}\].
+（二）反余弦函数
+16.下列各式正确的是（）
+（A）\[\arcsin \left( -\frac{\pi }{3} \right)=-\frac{\sqrt{3}}{2}\].				（B）\[\sin \left( \arcsin \frac{\pi }{3} \right)=\frac{\pi }{3}\].
+（C）\[\arcsin \left( \sin \frac{5\pi }{4} \right)=\frac{\pi }{4}\].				（D）\[\sin \left[ \arccos \left( -\frac{\sqrt{2}}{2} \right) \right]=\frac{\sqrt{2}}{2}\].
+17.在\[\left[ -1,\frac{3}{2} \right]\]上与函数\[y=x\]相同的函数是（）
+（A）\[y=\arccos \left( \cos x \right)\].					（B）\[y=\arcsin \left( \sin x \right)\].
+（C）\[y=\sin \left( \arcsin x \right)\].					（D）\[y=\cos \left( \arccos x \right)\].
+18.若\[f\left( \cos x \right)=\frac{x}{2}\]，\[x\in \left[ 0,\pi  \right]\]，则\[f\left( -\frac{1}{2} \right)\]等于（）
+（A）\[\cos \frac{1}{2}\].			（B）\[\frac{\pi }{3}\].			（C）\[\frac{\pi }{4}\].		（D）\[\frac{2\pi }{3}\].
+19.函数\[y=\arccos \left( -x \right)\]的图象与\[y=\arccos x\]的图象（）
+（A）关于\[x\]轴对称.						（B）关于\[y\]轴对称.
+（C）关于原点对称.						（D）关于直线\[y=x\]对称.
+20.函数\[y=\arccos \left( {{x}^{2}}-2x \right)\]为减函数的区间是（）
+（A）\[\left[ 1,+\infty  \right]\].		（B）\[\left[ -1,1+\sqrt{2} \right]\].	（C）\[\left[ 1-\sqrt{2},1+\sqrt{2} \right]\].	（D）\[\left[ 1,1+\sqrt{2} \right]\].
+21.求下列函数的定义域与值域：
+（1）\[y=\sqrt{\arccos x}\]，\[x\in \]          ，\[y\in \]          .
+（2）\[y=\arccos \left( \sqrt{2}\sin x \right)\]，\[x\in \]          ，\[y\in \]          .
+（3）\[y=\arccos \frac{2}{x}\]，\[x\in \]          ，\[y\in \]          .
+（4）\[y=\arccos \left( 2{{x}^{2}}-x \right)\]，\[x\in \]          ，\[y\in \]          .
+（5）\[y=\sqrt{\frac{2\pi }{3}-\arccos \left( \frac{1}{2}x-1 \right)}\]，\[x\in \]          ，\[y\in \]          .
+22.（1）已知\[\cos x=-\frac{1}{3}\]，\[\pi \le x\le 2\pi \]则\[x=\]          .
+（2）函数\[f\left( x \right)=\frac{1}{2}\arccos \left( x+2 \right)\]的反函数是          .
+23.根据条件填空：
+（1）\[\sin \left( \arccos x \right)=\frac{\sqrt{3}}{2}\]，则\[x=\]          .
+（2）已知\[\arccos \left( \cos x \right)=\frac{\pi }{6}\]，则\[x=\]          .
+（3）已知\[\cos \left[ \arccos \left( x+1 \right) \right]=x+1\]，则\[x\]的取值范围是          .
+24.计算下列各式：
+（1）\[\arcsin \left( \sin \frac{3\pi }{4} \right)+\arccos \left( \cos \frac{3\pi }{4} \right)=\]          .
+（2）\[\arccos \left[ \cos \left( -\frac{\pi }{6} \right) \right]=\]          .
+（3）\[\arccos \left( \sin \frac{\pi }{7} \right)=\]          .
+（4）\[\arccos \left( \cos {{\pi }^{2}} \right)=\]          .
+（5）\[\tan \left( \frac{1}{2}\arccos \frac{2\sqrt{2}}{3} \right)=\]          .
+（6）\[\cos \left[ \frac{1}{2}\arccos \left( -\frac{3}{5} \right) \right]=\]          .
+25.根据下列条件求\[x\]的取值范围：
+（1）\[2\arccos x-\arccos \left( -x \right)>0\]：          .
+（2）\[\arccos 3x<\arccos \left( 2-5x \right)\]：          .
+（3）\[\arccos \left( 2{{x}^{2}}-1 \right)<\arccos x\]：          .
+（4）\[\arccos x>\arcsin x\]：          .
+26.已知\[f\left( x \right)=\arccos x+1\]，且\[f\left( a \right)=a\]，求\[f\left( -a \right)\]的值.
+27.设\[f\left( x \right)\]为奇函数，且当\[x>0\]时，\[f\left( x \right)=\pi -\arccos \left( \sin x \right)\]，则当\[x<0\]时，\[f\left( x \right)\]的解析式为（）
+（A）\[\arccos \left( \sin x \right)\].						（B）\[-\arccos \left( \sin x \right)\].
+（C）\[\pi +\arccos \left( \sin x \right)\].					（D）\[-\pi -\arccos \left( \sin x \right)\].
+28.下列四个命题中正确的是（）
+（A）若\[\sin f\left( x \right)\]是奇函数，则\[f\left( x \right)\]是奇函数.
+（B）若\[\cos f\left( x \right)\]是奇函数，则\[f\left( x \right)\]是奇函数.
+（C）若\[\arcsin f\left( x \right)\]是奇函数，则\[f\left( x \right)\]是奇函数.
+（D）若\[\arccos f\left( x \right)\]是奇函数，则\[f\left( x \right)\]是奇函数.
+29.函数\[f\left( x \right)=\frac{\arcsin x}{\frac{\pi }{2}-\arccos x}\]（）
+（A）是奇函数，但不是偶函数.				（B）是偶函数，但不是奇函数.
+（C）即不是奇函数，也不是偶函数.			（D）奇偶性无法确定.
+30.若函数\[f\left( x \right)=-\arccos x+\varphi \]是奇函数，则\[\varphi \]等于（）
+（A）\[\pi \].			（B）\[\frac{\pi }{2}\].			（C）\[-\pi \].		（D）\[-\frac{\pi }{2}\].
+31.（1）用一个反正弦形式表示\[\arcsin \frac{12}{13}+\arccos \frac{4}{5}\].
+（2）用一个反余弦形式表示\[\arccos \frac{15}{17}-\arcsin \frac{4}{5}\].
+32.求值：
+（1）\[\arcsin \frac{2\sqrt{2}}{3}+\arcsin \frac{1}{3}\].				（2）\[\arccos \left( -\frac{11}{14} \right)-\arccos \frac{1}{7}\].
+33.已知\[\arccos \frac{x}{a}=2\arcsin \frac{y}{a}\]，求证：\[{{a}^{2}}=ax+2{{y}^{2}}\].
+34.求值：
+（1）\[\sin \left( \arcsin \frac{3}{5}+\arcsin \frac{8}{17} \right)\].			（2）\[\tan \left[ \arcsin \frac{1}{3}+\arccos \left( -\frac{1}{5} \right) \right]\].
+（3）\[\cos \left[ \arccos \frac{4}{5}-\arccos \left( -\frac{5}{13} \right) \right]\].		（4）\[\arcsin \left( \cos 4 \right)-\arccos \left( \sin 5 \right)\].
+35.（1）已知\[-\frac{\pi }{3}<\theta <\frac{2\pi }{3}\]，求证：\[\arccos \frac{\sqrt{3}\sin \theta -\cos \theta }{2}+\theta =\frac{2\pi }{3}\].
+（2）若\[\arcsin \left( \sin \alpha +\sin \beta  \right)+\arcsin \left( \sin \alpha -\sin \beta  \right)\]是\[\frac{\pi }{2}\]的奇数倍，求证：\[{{\sin }^{2}}\alpha +{{\sin }^{2}}\beta =\frac{1}{2}\].
+36.（1）求函数\[y={{\left( \arccos x \right)}^{2}}-5\arccos x\]（\[\left| x \right|\le 1\]）的值域.
+（2）已知函数\[f\left( x \right)=\cos \left( 2\arccos x \right)+4\sin \left( \arcsin \frac{x}{2} \right)\]，求它的最大值与最小值.
+（三）反正切函数与反余切函数
+37.记\[M=\arcsin \left( -\frac{1}{3} \right)\]，\[P=\arctan \left( -\sqrt{2} \right)\]，\[Q=\arccos \left( -\frac{2}{3} \right)\]，则\[M,P,Q\]的大小关系是（）
+（A）\[M<P<Q\].	（B）\[M<Q<P\].	（C）\[P<M<Q\].	（D）\[P<Q<M\].
+38.计算\[\arctan \left( \tan \frac{3}{5}\pi  \right)\]的值是（）
+（A）\[-\frac{3}{5}\pi \].			（B）\[\frac{2}{5}\pi \].			（C）\[-\frac{2}{5}\pi \].			（D）\[\frac{3}{5}\pi \].
+39.若\[x<0\]，则\[\arctan x\]等于（）
+（A）\[arc\cot \frac{1}{x}\].		（B）\[-arc\cot \frac{1}{x}\].		（C）\[\pi -arc\cot \frac{1}{x}\].	（D）\[arc\cot \frac{1}{x}-\pi \].
+40.函数\[f\left( x \right)=\frac{\pi }{2}+\arctan x\]的反函数是（）
+（A）\[{{f}^{-1}}\left( x \right)=\tan \left( x-\frac{\pi }{2} \right)\]（\[0<x<\pi \]）.	（B）\[{{f}^{-1}}\left( x \right)=-\cot x\]（\[-\frac{\pi }{2}<x<\frac{\pi }{2}\]）.
+（C）\[{{f}^{-1}}\left( x \right)=-\frac{1}{\tan x}\]（\[0<x<\pi \]）.		（D）\[{{f}^{-1}}\left( x \right)=\tan x\]（\[0<x<\pi \]）.
+41.若\[\arctan \left( x+1 \right)-\arctan \left( x-1 \right)=\frac{\pi }{4}\]，则\[\arcsin \frac{1}{{{x}^{2}}}\]等于（）
+（A）\[\frac{\pi }{6}\].			（B）\[\frac{\pi }{4}\].			（C）\[\frac{\pi }{3}\].		（1））\[\frac{4\pi }{3}\].
+42.下列函数中，同时满足条件“①定义域是\[R\]，②是奇函数，③是周期函数”的函数是（）（A）\[y=\arcsin \left( \sin x \right)\].					（B）\[y=\cos \left( \arcsin x \right)\].
+（C）\[y=\tan \left( \arctan x \right)\].					（D）\[y=\arctan \left( \tan x \right)\].
+43.在“①\[\arcsin \left( \sin \frac{5}{6}\pi  \right)=\frac{5}{6}\pi \]，②\[\arctan \left( \tan \frac{7}{6}\pi  \right)=\frac{\pi }{6}\]，③\[\cos \left( \arccos \pi  \right)=\pi \]，④\[\tan \left( arc\cot 0 \right)=0\]”这四个式子中，正确的有（）
+（A）0个.			（B）1个.			（C）2个.			（D）3个.
+44.计算下列各式：
+（1）\[\arctan \frac{1}{3}+\arctan 3+\arcsin \frac{1}{5}-\arccos \left( -\frac{1}{5} \right)=\]          .
+（2）\[\arctan \left( \cot 1 \right)=\]          .
+（3）\[art\cot \left( \cot \frac{10}{7}\pi  \right)=\]          .
+（4）\[\arctan \frac{1-\tan 25{}^\circ }{1+\tan 25{}^\circ }=\]          .
+（5）\[\arctan 7+arc\cot \frac{3}{4}=\]          .
+（6）\[\arctan \left( 3+2\sqrt{2} \right)-\arctan \frac{\sqrt{2}}{2}=\]          .
+（7）\[\arctan \frac{1}{2}+\arctan \frac{1}{5}+\arctan \frac{1}{8}=\]          .
+（8）\[\arcsin \left( \sin 4 \right)+\arccos \left( \cos 3 \right)+\arctan \left( \tan 2 \right)+arc\cot \left( \cot 1 \right)=\]          .
+45.求下列各式的值：
+（1）\[\sin \left[ \frac{1}{2}\arctan \left( -2\sqrt{2} \right) \right]=\]          .
+（2）\[\sin \left[ \frac{1}{2}arc\cot \left( -\frac{3}{4} \right) \right]=\]          .
+（3）\[\tan \left( \arctan \frac{1}{5}+\arctan 3 \right)=\]          .
+（4）\[\sin \left[ 2\arctan \left( -6 \right) \right]=\]          .
+（5）\[\cos \left( 2arc\cot \frac{1}{2} \right)+\tan \left[ \frac{1}{2}\arccos \left( -\frac{3}{5} \right) \right]=\]          .
+46.在下列各组函数中，图象不相同的是（）
+（A）\[y=\sin \left( \arccos x \right)\]与\[y=\cos \left( \arcsin x \right)\].
+（B）\[y=\tan \left( arc\cot x \right)\]与\[y=\cot \left( \arctan x \right)\].
+（C）\[y=\arcsin \left( \sin x \right)\]与\[y=\arccos \left( \cos x \right)\]，\[x\in \left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\].
+（D）\[y=\arctan \left( \tan x \right)\]与\[y=\arctan \left( \cot x \right)\]，\[x\in \left[ 0,\frac{\pi }{2} \right]\].
+47.若将函数\[y=\arctan x\]的图象沿\[x\]轴正方向平移2个单位长度所得到的图象记为\[C\]，又图象\[{C}'\]与\[C\]关于原点对称，则与\[{C}'\]对应的函数是（）
+（A）\[y=-\arctan \left( x-2 \right)\].					（B）\[y=\arctan \left( x-2 \right)\].
+（C）\[y=-\arctan \left( x+2 \right)\].					（D）\[y=\arctan \left( x+2 \right)\].
+48.若\[\arctan x+arc\cot y=\pi \]，则点（\[x,y\]）组成的图象是（）
+ 
+        （A）             （B）            （C）              （D）
+49.求下列函数的定义域与值域：
+（1）\[y=\arctan \left( \sin x \right)\]，\[x\in \]          ，\[y\in \]          .
+（2）\[y=\frac{1}{3}\arcsin 3x+\arctan \sqrt{3}x\]，\[x\in \]          ，\[y\in \]          .
+（3）\[y=arc\cot \sqrt{\cos x}\]，\[x\in \]          ，\[y\in \]          .
+（4）\[y=\arctan \frac{1}{{{x}^{2}}-1}\]，\[x\in \]          ，\[y\in \]          .
+50.（1）已知方程\[{{x}^{2}}+3\sqrt{3}x+4=0\]的两个实根为\[{{x}_{1}}\]与\[{{x}_{2}}\]，记\[\alpha =\arctan {{x}_{1}}\]，\[\beta =\arctan {{x}_{2}}\]，求\[\alpha +\beta \]的值.
+（2）已知实数\[a,b\]满足\[\left( a+1 \right)\left( b+1 \right)=2\]，求\[\arctan a+\arctan b\]的值.
+（3）已知\[\left| x \right|\le 1\]，求\[{{\csc }^{2}}\left( \arctan x \right)-{{\tan }^{2}}\left( \arccos x \right)\]的值.
+二、简单三角方程
 【典型题型和解题技巧】
-1.三角形形状的确定.
-按边分：可分为等边三角形、等腰三角形和不等边三角形.
-按角分：可分为锐角三角形、直角三角形和钝角三角形.
-例1  根据条件确定三角形的形状：
-（1）已知\[\frac{{{a}^{3}}+{{b}^{3}}-{{c}^{3}}}{a+b-c}={{c}^{2}}\]，且\[\sin A\sin B=\frac{3}{4}\].
-（2）\[\cos A+\cos B>\sin A+\sin B\].
-（3）\[a\cos B+b\cos C+c\cos A=b\cos A+c\cos B+a\cos C\].
-解  （l）由\[\frac{{{a}^{3}}+{{b}^{3}}-{{c}^{3}}}{a+b-c}={{c}^{2}}\]，得\[{{a}^{2}}+{{b}^{2}}={{c}^{2}}\left( a+b \right)\]，即\[\left( a+b \right)\left( {{a}^{2}}-ab+{{b}^{2}}-{{c}^{2}} \right)=0\].
-∵\[a+b\ne 0\]，∴\[{{c}^{2}}={{a}^{2}}+{{b}^{2}}-ab\]，结合余弦定理可得\[2\cos C=1\].
-∴\[\cos C=\frac{1}{2}\]，故\[C={{60}^{\circ }}\]，再由\[\sin A\sin B=\frac{3}{4}\]，得\[-\frac{1}{2}\left[ \cos \left( A+B \right)-\cos \left( A-B \right) \right]=\frac{3}{4}\].
-∵\[A+B=120{}^\circ \]，∴\[\frac{1}{2}\cos \left( A-B \right)=\frac{1}{2}\]，∴\[A=B\].
-∴\[\Delta ABC\]为等边三角形.
-（2）∵\[\left( \cos A+\cos B \right)-\left( \sin A+\sin B \right)=2\cos \frac{A+B}{2}\cos \frac{A-B}{2}-2\sin \frac{A+B}{2}\cos \frac{A-B}{2}\]
-\[=2\cos \frac{A-B}{2}\left( \cos \frac{A+B}{2}-\sin \frac{A+B}{2} \right)=2\sqrt{2}\cos \frac{A-B}{2}\sin \left( \frac{\pi }{4}-\frac{A+B}{2} \right)\],
-由条件\[\cos A+\cos B>\sin A+\sin B\]及\[\cos \frac{A-B}{2}>0\]，得\[\sin \frac{\pi -2\left( A+B \right)}{4}>0\]，
-∴\[2k\pi <\frac{\pi -2\left( A+B \right)}{4}<2k\pi +\pi \]，即\[2k\pi <\frac{C-\left( A+B \right)}{4}<2k\pi +\pi \].
-又∵\[A,B,C\]是三角形的内角，取\[k=0\]，∴\[0<C-\left( A+B \right)<4\pi \]，即\[C>A+B\].
-结合\[A+B=\pi -C\]，有\[C>\frac{\pi }{2}\]，∴\[\Delta ABC\]是钝角三角形（\[C\]为钝角）.
-（3）利用正弦定理，有\[a=2R\sin A\]，\[b=2R\sin B\]，\[c=2R\sin C\]（\[R\]为\[\Delta ABC\]的外接圆半径），由已知条件可得\[\left( \sin A\cos B-\cos A\sin B \right)+\left( \sin B\cos C-\cos B\sin C \right)+\left( \sin C\cos A-\cos C\sin A \right)=0\].
-即\[\sin \left( A-B \right)+\sin \left( B-C \right)+\sin \left( C-A \right)=0\]，前两项和差化积.便得
-\[2\sin \frac{A-C}{2}\cos \frac{A-2B+C}{2}-2\sin \frac{A-C}{2}\cos \frac{A-C}{2}=0\]，
-即\[\sin \frac{A-C}{2}\left( \cos \frac{A-2B+C}{2}-\cos \frac{A-C}{2} \right)=0\].再和差化积，
-得\[\sin \frac{A-B}{2}\sin \frac{B-C}{2}\sin \frac{C-A}{2}=0\]，于是\[A=B\]或\[B=C\]或\[C=A\].∴是等腰三角形.
-2.三角形中的恒等式证明.
-对于\[\Delta ABC\]中的恒等式证明，除了要能熟练运用正弦定理、余弦定理、三角恒等变换公式等外，还要能熟练掌握下列变换： 
-\[\sin \left( A+B \right)=\sin C\]，\[\cos \left( A+B \right)=-\cos C\]，\[\tan \left( A+B \right)=-\tan C\]；
-\[\sin \frac{A+B}{2}=\cos \frac{C}{2}\]，\[\cos \frac{A+B}{2}=\sin \frac{C}{2}\]，\[\tan \frac{A+B}{2}=\cot \frac{C}{2}\]；
-\[\sin \left( A+B \right)=\sin C=2\sin \frac{C}{2}\cos \frac{C}{2}=2\cos \frac{A+B}{2}\cos \frac{C}{2}=2\sin \frac{C}{2}\sin \frac{A+B}{2}\].
-例2  在\[\Delta ABC\]中，求证：
-（1）\[{{\sin }^{2}}\frac{A}{2}+{{\sin }^{2}}\frac{B}{2}+{{\sin }^{2}}\frac{C}{2}=1-2\sin \frac{A}{2}\sin \frac{B}{2}\sin \frac{C}{2}\].
-（2）\[\left( a-b \right)\cot \frac{C}{2}+\left( b-c \right)\cot \frac{A}{2}+\left( c-a \right)\cot \frac{B}{2}=0\].
-证明  （1）∵左边\[=\frac{1-\cos A}{2}+\frac{1-\cos B}{2}+{{\sin }^{2}}\frac{C}{2}=1-\cos \frac{A+B}{2}\cos \frac{A-B}{2}+{{\sin }^{2}}\frac{C}{2}\]
-                 \[\begin{align}
-  & =1-\sin \frac{C}{2}\left( \cos \frac{A-B}{2}-\cos \frac{A+B}{2} \right) \\ 
- & =1-\left( -2 \right)\sin \frac{C}{2}\sin \frac{A}{2}\sin \left( -\frac{B}{2} \right) \\ 
-\end{align}\]
-                 \[=1-2\sin \frac{A}{2}\sin \frac{B}{2}\sin \frac{C}{2}=\]右边，
-∴原式得证.
-（2）∵左边\[=2R\left( \sin A-\sin B \right)\tan \frac{A+B}{2}+2R\left( \sin B-\sin C \right)\tan \frac{B+C}{2}\]
-             \[+2R\left( \sin C-\sin A \right)\tan \frac{C+A}{2}\]
-\[=2R\left( 2\cos \frac{A+B}{2}\sin \frac{A-B}{2}\cdot \frac{\sin \frac{A+B}{2}}{\cos \frac{A+B}{2}}+2\cos \frac{B+C}{2}\sin \frac{B-C}{2}\cdot \frac{\sin \frac{B+C}{2}}{\cos \frac{B+C}{2}}+2\cos \frac{C+A}{2}\sin \frac{C-A}{2}\cdot \frac{\sin \frac{C+A}{2}}{\cos \frac{C+A}{2}} \right)\]
-\[=4R\left( \sin \frac{A+B}{2}\sin \frac{A-B}{2}+\sin \frac{B+C}{2}\sin \frac{B-C}{2}+\sin \frac{C+A}{2}\sin \frac{C-A}{2} \right)\]
-\[=2R\left[ \left( \cos A-\cos B \right)+\left( \cos B-\cos C \right)+\left( \cos C-\cos A \right) \right]=0=\]右边，
-∴原式得证.
-3.三角形中的有关计算.
-一般情况下，解斜三角形可按下列步骤进行：
-（1）若是实际的应用题，则应将所讨论的问题归结到某一个三角形中.
-（2）在三角形中表明已知量与所要求的量，分析已知量与所求量之间的关系.
-（3）利用三角形的有关知识进行计算.
-例3  在\[\Delta ABC\]中.已知\[A>B>C\]，且\[A=2C\]，\[b=4\]，\[a+c=8\]，求\[a,c\]的长.
-解  由正弦定理\[\frac{a}{\sin A}=\frac{c}{\sin C}\]及\[A=2C\]，得\[\cos C=\frac{a}{2c}\].
-由条件\[a+c=8=2b\]，利用余弦定理得
-\[\cos C=\frac{{{a}^{2}}+{{b}^{2}}-{{c}^{2}}}{2ab}=\frac{{{a}^{2}}+{{\left( \frac{a+c}{2} \right)}^{2}}-{{c}^{2}}}{a\left( a+c \right)}=\frac{5{{a}^{2}}+2ac-3{{c}^{2}}}{4a\left( a+c \right)}=\frac{\left( 5a-3c \right)\left( a+c \right)}{4a\left( a+c \right)}=\frac{5a-3c}{4a}\].
-于是\[\frac{a}{2c}=\frac{5a-3c}{4a}\]，整理得\[\left( 2a-3c \right)\left( a-c \right)=0\].
-∵\[a\ne c\]，∴\[2a=3c\].∵\[a+c=8\]，∴\[a=\frac{24}{5}\]，\[c=\frac{16}{5}\].
-例4  如图1，海岛\[O\]上有一座海拔1000米的山，山顶上设有一个观察站\[A\]，上午11时测得一轮船在岛北偏东60°的\[C\]处，俯角为30°；11时10分又测得该船在岛的北偏西60°的\[B\]处，俯角为60°.
-（1）该船的速度为每小时多少千米？
-（2）若此船以不变航速继续前进，则它何时到达岛的正西方向？此时所在点\[E\]离开海岛多少千米？
+1.主要的三角方程类型.
+（1）\[a{{\sin }^{2}}x+b\sin x+c=0\]（\[a\ne 0\]）型.
+例1  解方程\[2{{\sin }^{2}}x+3\sin x-2=0\].
+解  原方程即\[\left( 2\sin x-1 \right)\left( \sin x+2 \right)=0\]，∴\[\sin x=\frac{1}{2}\]或\[\sin x=-2\]（舍去）.
+∴\[x=k\pi +{{\left( -1 \right)}^{k}}\frac{\pi }{6}\]（\[k\in Z\]）.
+（2）\[a\sin x+b\cos x+c=0\]（\[{{a}^{2}}+{{b}^{2}}\ne 0\]，\[c\ne 0\]）型.
+此类方程可将两边同除以\[\sqrt{{{a}^{2}}+{{b}^{2}}}\]，变形为\[\sin \left( x+\varphi  \right)=\frac{-c}{\sqrt{{{a}^{2}}+{{b}^{2}}}}\].
+例2  解方程\[2\sin x-\cos x=1\].
+解  原方程即\[\sin x\cdot \frac{2}{\sqrt{5}}-\cos x\cdot \frac{1}{\sqrt{5}}=\frac{1}{\sqrt{5}}\]，即\[\sin \left( x-\varphi  \right)=\frac{1}{\sqrt{5}}\]（其中\[\varphi =\arctan \frac{1}{2}\]），
+∴\[x=k\pi +{{\left( -1 \right)}^{k}}\arcsin \frac{1}{\sqrt{5}}+\arctan \frac{1}{2}\]（\[k\in Z\]）.
+注意  方程\[\sin x=a\]，\[\cos x=a\]有解的条件是\[\left| a \right|\le 1\].
+（3）齐次型.
+\[a\sin x+b\cos x=0\]，\[a{{\sin }^{2}}x+b\sin x\cos x+c{{\cos }^{2}}x=0\].
+此类方程可将两边同除以\[\cos x\]或\[{{\cos }^{2}}x\]，转化为\[\tan x\]的一次或二次方程.后者也可采用“降次”，转化为\[A\sin 2x+B\cos 2x=C\]的形式.
+例3  解方程\[{{\sin }^{2}}x-3\sin x\cos x+1=0\].
+解法一  原方程即\[2{{\sin }^{2}}x-3\sin x\cos x+{{\cos }^{2}}x=0\].显然\[{{\cos }^{2}}x\ne 0\]，
+则有\[2{{\tan }^{2}}x-3\tan x+1=0\]，即\[\left( 2\tan x-1 \right)\left( \tan x-1 \right)=0\]，
+∴\[\tan x=\frac{1}{2}\]或\[\tan x=1\]，∴\[x=k\pi +\arctan \frac{1}{2}\]或\[x=k\pi +\frac{\pi }{4}\]（\[k\in Z\]）.
+解法二  原方程即\[\frac{1-\cos 2x}{2}-\frac{3}{2}\sin 2x+1=0\].
+整理，得\[3\sin 2x+\cos 2x=3\]，于是\[\sin \left( 2x+\varphi  \right)=\frac{3}{\sqrt{10}}\]（其中\[\varphi =\arctan \frac{1}{3}\]），
+∴\[2x+\varphi =k\pi +{{\left( -1 \right)}^{k}}\arcsin \frac{3}{\sqrt{10}}\]，
+故\[x=\frac{k\pi }{2}+\frac{1}{2}{{\left( -1 \right)}^{k}}\arcsin \frac{3}{\sqrt{10}}-\frac{1}{2}\arctan \frac{1}{3}\]（\[k\in Z\]）.
+（4）同名三角函数相等型.
+①\[\sin f\left( x \right)=\sin \varphi \left( x \right)\]；②\[\cos f\left( x \right)=\cos \varphi \left( x \right)\]；③\[\tan f\left( x \right)=\tan \varphi \left( x \right)\]；④\[\cot f\left( x \right)=\cot \varphi \left( x \right)\].
+在这四种类型的方程中，①可化为\[f\left( x \right)=2k\pi +\varphi \left( x \right)\]或\[f\left( x \right)=2k\pi +\pi -\varphi \left( x \right)\]；②可化为\[f\left( x \right)=2k\pi \pm \varphi \left( x \right)\]；③，④可化为\[f\left( x \right)=k\pi +\varphi \left( x \right)\]（\[k\in Z\]）.
+例4  解方程\[\tan 5x=\tan 4x\].
+解  由已知，得\[\left\{ \begin{align}
+  & 5x\ne m\pi +\frac{\pi }{2}, \\ 
+ & 4x\ne n\pi +\frac{\pi }{2}, \\ 
+ & 5x=k\pi +4x \\ 
+\end{align} \right.\]（\[m,n,k\in Z\]），∴\[x=k\pi \]（\[k\in Z\]）.
+（5）含\[\sin x\pm \cos x\]，\[\sin x\cos x\]的三角方程.
+此类方程宜用换元法，即令\[\sin x\pm \cos x=t\]（\[\left| t \right|\le \sqrt{2}\]），则\[\sin x\cos x=\pm \frac{{{t}^{2}}-1}{2}\].
+例5  解方程\[\sin 2x-12\left( \sin x-\cos x \right)+12=0\].
+解  令\[\sin x-\cos x=t\]（\[\left| t \right|\le \sqrt{2}\]），则\[\sin 2x=1-{{t}^{2}}\]，原方程可化为\[1-{{t}^{2}}-12t+12=0\]，
+即\[{{t}^{2}}+12t-13=0\]，也即\[\left( t+13 \right)\left( t-1 \right)=0\].∴\[t=-13\]（舍去），或\[t=1\].
+∴\[\sin x-\cos x=1\]，即\[\sin \left( x-\frac{\pi }{4} \right)=\frac{\sqrt{2}}{2}\]，故\[x=k\pi +{{\left( -1 \right)}^{k}}\frac{\pi }{4}+\frac{\pi }{4}\]（\[k\in Z\]）.
+（4）其他.
+例6  解方程\[{{\sin }^{2}}x+{{\sin }^{2}}2x={{\sin }^{2}}3x\].
+解  原方程即\[\left( {{\sin }^{2}}3x-{{\sin }^{2}}x \right)-{{\sin }^{2}}2x=0\]，
+∴\[\left( \sin 3x+\sin x \right)\left( \sin 3x-\sin x \right)-{{\sin }^{2}}2x=0\]，即\[4\sin 2x\cos x\cos 2x\sin x-{{\sin }^{2}}2x=0\]，
+∴\[2{{\sin }^{2}}2x\cos 2x-{{\sin }^{2}}2x=0\].于是\[{{\sin }^{2}}2x\left( 2\cos 2x-1 \right)=0\]，
+∴\[\sin 2x=0\]或\[\cos 2x=\frac{1}{2}\]，故\[x=\frac{k\pi }{2}\]或\[x=k\pi \pm \frac{\pi }{6}\]（\[k\in Z\]）.
+注意  因式分解以及和差与积的互化，是解三角方程的重要手段.
+2.三角方程解的讨论.
+（1）利/用\[\left| \sin x \right|\le 1\]与\[\left| \cos x \right|\le 1\].
+.例7  求实数\[m\]的取值范围，使关于\[x\]的方程\[2{{\sin }^{2}}x+2\sin x\cos x-{{\cos }^{2}}x-1-m=0\]有解.
+解  原方程即\[{{\sin }^{2}}x+2\sin x\cos x-2{{\cos }^{2}}x=m\]，∴\[\frac{1-\cos 2x}{2}+\sin 2x-2\cdot \frac{1+\cos 2x}{2}=m\]，
+即\[2\sin 2x-3\cos 2x=2m+1\]，∴\[\sin \left( 2x-\varphi  \right)=\frac{2m+1}{\sqrt{13}}\]（其中\[\varphi =\arctan \frac{3}{2}\]）.
+欲使方程有解，只需\[-\sqrt{13}\le 2m+1\le \sqrt{13}\]，∴\[\frac{-1-\sqrt{13}}{2}\le m\le \frac{-1+\sqrt{13}}{2}\].
+注意  例7也可将原方程化为\[\tan x\]的二次方程，再利用\[\Delta \ge 0\]求解，请读者试一试.
+（2）利用函数图象.
+例8  关于\[x\]的方程\[\sin x+\sqrt{3}\cos x+a=0\]在\[\left( 0,2\pi  \right)\]内有两个相异的实数解\[\alpha ,\beta \]，求实数\[a\]的取值及\[\alpha +\beta \]的值.
  
 （图1）
-解  （1）在Rt\[\Delta ABC\]与Rt\[\Delta AOC\]中，求得\[OB=OA\tan 30{}^\circ =\frac{\sqrt{3}}{3}\]（千米），
-\[OC=OA\tan {{60}^{\circ }}=\sqrt{3}\]（千米）.由余弦定理，得
-\[\begin{align}
-  & BC=\sqrt{O{{B}^{2}}+O{{C}^{2}}-2\cdot OB\cdot OC\cos \angle BOC} \\ 
- & =\sqrt{\frac{3}{9}+3-2\left( -\frac{1}{2} \right)}=\sqrt{\frac{13}{3},}  
-\end{align}\]
-于是船速\[v=\frac{BC}{\frac{1}{6}}=2\sqrt{39}\]（千米/时）.
-（2）在\[\Delta OBC\]中，由余弦定理，得\[\cos \angle OBC=\frac{B{{C}^{2}}+O{{B}^{2}}-O{{C}^{2}}}{2\cdot BC\cdot OB}=\frac{\frac{13}{3}+\frac{3}{9}-3}{2\sqrt{\frac{13}{3}}\cdot \frac{\sqrt{3}}{3}}=\frac{5\sqrt{13}}{26}\].
-于是\[\sin \angle EBO=\sin \angle OBC=\sqrt{1-{{\left( \frac{5\sqrt{13}}{26} \right)}^{2}}}=\frac{3\sqrt{39}}{26}\]，
-\[\begin{align}
-  & \sin \angle BEO=\sin \left[ 180{}^\circ -\left( \angle EBO+30{}^\circ  \right) \right]=\sin \left( \angle EBO+30{}^\circ  \right) \\ 
- & =\frac{3\sqrt{39}}{26}\times \frac{\sqrt{3}}{2}-\frac{5\sqrt{13}}{26}\times \frac{1}{2}=\frac{\sqrt{13}}{13}.  
-\end{align}\]
-在\[\Delta BEO\]中，由正弦定理，得
-\[OE=\frac{OB\cdot \sin \angle EBO}{\sin \angle BEO}=\frac{3}{2}\]（千米），\[BE=\frac{OB\sin \angle BOE}{\sin \angle BEO}=\frac{\sqrt{39}}{6}\]（千米）.
-于是从\[B\]到\[E\]所需时间\[t=\frac{BE}{v}=\frac{1}{12}\]（时）\[=5\]分.
-∴再经过5分到达海岛的正西方方向，此时\[E\]点离海岛1.5千米.
+解  原方程即\[\sin \left( x+\frac{\pi }{3} \right)=-\frac{a}{2}\].
+令\[{{y}_{1}}=\sin \left( x+\frac{\pi }{3} \right)\]（\[0<x<2\pi \]），\[{{y}_{2}}=-\frac{a}{2}\].
+只需\[{{y}_{2}}\]的图象（一条和\[y\]轴垂直的直线）和\[{{y}_{1}}\]的图象在\[\left( 0,2\pi  \right)\]内有两个交点即可.
+观察图1，得\[\left\{ \begin{align}
+  & -1<-\frac{a}{2}<1, \\ 
+ & -\frac{a}{2}\ne \frac{\sqrt{3}}{2}, \\ 
+\end{align} \right.\]即\[-2<a<2\]且\[a\ne -\sqrt{3}\].
+利用中点知识，易得\[{{\alpha }_{1}}+{{\beta }_{1}}=2{{x}_{1}}\text{=}\frac{\pi }{2}\]，\[{{\alpha }_{2}}+{{\beta }_{2}}=2{{x}_{2}}\text{=}\frac{7}{3}\pi \]，即\[\alpha +\beta =\frac{\pi }{3}\]或\[\alpha +\beta =\frac{7\pi }{3}\].
+例9  就实数\[a\]的取值范围，讨论关于\[x\]的方程\[\cos 2x+2\sin x+2a-3=0\]在\[\left[ 0,2\pi  \right]\]内解的情况.
+解  原方程即\[{{\sin }^{2}}x-\sin x=a-1\]，配方，得\[{{\left( \sin x-\frac{1}{2} \right)}^{2}}=a-\frac{3}{4}\].
+令\[{{y}_{1}}={{\left( \sin x-\frac{1}{2} \right)}^{2}}\]，\[{{y}_{2}}=a-\frac{3}{4}\].观察图2，得：
+（1）当\[a-\frac{3}{4}>\frac{9}{4}\]或\[a-\frac{3}{4}<0\]，即\[a>3\]或\[a<\frac{3}{4}\]时，方程无解.
+（2）当\[a-\frac{3}{4}=\frac{9}{4}\]，即\[a=3\]时，方程有一解\[x=\frac{3}{2}\pi \].
+（3）当\[\frac{1}{4}<a<-\frac{3}{4}<\frac{9}{4}\]或\[a-\frac{3}{4}=0\]，即\[1<a<3\]或\[a=\frac{3}{4}\]时，方程有两解.
+（4）当\[a-\frac{3}{4}=\frac{1}{4}\]，即\[a=1\]时，方程有三解：\[x=0,\frac{\pi }{2},\pi \].
+（5）当\[0<a-\frac{3}{4}<\frac{1}{4}\]，即\[\frac{3}{4}<a<1\]时，方程有四解.
+ 
+（图2）
+注意  （1）\[x\in \left[ 0,2\pi  \right]\]时，若以\[\sin x\]为横轴，则函数\[y=a{{\sin }^{2}}x+b\sin x+c\]（\[a\ne 0\]）的图象是在[－1，1]上的一段曲线.
+（2）本例的曲线\[{{y}_{1}}\]的对称轴是固定的.如果对称轴不定，问题的讨论就比较复杂.但就问题的实质而言，方程\[a{{\sin }^{2}}x+b\sin x+c=0\]（\[a\ne 0\]）的讨论，也就是对一元二次方程\[a{{t}^{2}}+bt+c=0\]（\[a\ne 0\]）在区间[－1，1]上解的讨论.读者可参看第一章的例题.
 【训练题】
-121.在\[\Delta ABC\]中，若\[A=60{}^\circ \]，\[AC=16\]，且此三角形的面积为\[220\sqrt{3}\]，则\[BC\]边的长是（）
-（A）\[\sqrt{2400}\].		（B）25.				（C）51.				（D）49.
-122.在\[\Delta ABC\]中，若\[a+b=10\]，\[c=6\]，\[C=30{}^\circ \]，则此三角形的面积等于（）
-（A）\[8\left( 2+\sqrt{3} \right)\].		（B）\[8\left( 2-\sqrt{3} \right)\].		（C）\[16\left( 2+\sqrt{3} \right)\].	（D）\[16\left( 2-\sqrt{3} \right)\].
-123.若\[\Delta ABC\]的三边\[a,b,c\]满足\[\frac{1}{a+b}+\frac{1}{b+c}=\frac{3}{a+b+c}\]，则\[B\]等于（）
-（A）30°.			（B）45°.			（C）60°.			（D）120°.
-124.在\[\Delta ABC\]中，若\[A=60{}^\circ \]，且最大边长和最小边长恰好是方程\[{{x}^{2}}-7x+11=0\]的两根，则第三边的边长为（）
-（A）2.				（B）3.				（C）4.				（D）5.
-125.若三角形的三条边氏分别是4，5，6，则这个三角形的形状（）
-（A）是锐角三角形.						（B）是自：角二角形.
-（C）是钝角三角形.						（D）不能确定.
-126.若三角形的角\[A\]满足\[\sin A=\frac{\sqrt{3}}{2}\]，则\[A\]等于（）
-（A）60°.			（B）120°.			（C）60°或120°.	（D）30°或150°.
-127.若三角形的三内角之比为\[1:2:3\]，则它们所对边的边长之比为（）
-（A）\[1:2:3\].		（B）\[3:4:5\].		（C）1\[1:\sqrt{3}:2\].		（D）\[5:6:7\].
-128.在\[\Delta ABC\]中，\[a\left( \sin B-\sin C \right)+b\left( \sin C-\sin A \right)+c\left( \sin A-\sin B \right)\]的值是（）
-（A）\[\frac{1}{2}\].			（B）0.				（C）1.				（D）\[\pi \].
-129.若方程\[{{x}^{2}}\sin A+2x\sin B+\sin C=0\]有重根，则\[\Delta ABC\]的三边\[a,b,c\]满足关系式（）
-（A）\[b=ac\].		（B）\[a=b=c\].		（C）\[c=ab\].		（D）\[{{b}^{2}}=ac\].
-130.在\[\Delta ABC\]中，若\[a=1\]，\[b=\sqrt{3}\]，\[A=30{}^\circ \]，则\[B\]的值是（）
-（A）60°.			（B）60。或120°.	（C）120°.			（D）30°或150°.
-131.在\[\Delta ABC\]中，若\[B=45{}^\circ \]，\[c=2\sqrt{2}\]，\[b=\frac{4\sqrt{3}}{3}\]，则\[A\]的值是（）
-（A）15°.			（B）75°.			（C）105°.			（D）15°或75°.
-132.在\[\Delta ABC\]中，若\[B=45{}^\circ \]，\[b=10\]，\[c=5\sqrt{6}\]，则\[a\]等于（）
-（A）\[5\left( \sqrt{3}+1 \right)\].							（B）\[5\left( \sqrt{3}-1 \right)\].
-（C）\[10\left( \sqrt{3}+1 \right)\]或\[10\left( \sqrt{3}-1 \right)\].			（D）\[5\left( \sqrt{3}+1 \right)\]或\[5\left( \sqrt{3}-1 \right)\].
-133.在\[\Delta ABC\]中，若三内角满足\[{{\sin }^{2}}A={{\sin }^{2}}B+\sin B\sin C+{{\sin }^{2}}C\]，则\[A\]等于（）
-（A）30°.			（B）60°.			（C）120°.			（D）150°.
-134.在\[\Delta ABC\]中，若\[b=2\sqrt{2}\]，\[a=2\]，且三角形有解，则\[A\]的取值范围是（）
-（A）\[0{}^\circ <A<30{}^\circ \].	（B）\[0{}^\circ <A\le 45{}^\circ \].	（C）\[0{}^\circ <A<90{}^\circ \].	（D）\[30{}^\circ <A<60{}^\circ \].
-135.在\[\Delta ABC\]中，若\[a\cos A=b\cos B\]，则\[\Delta ABC\]的形状（）
-（A）只可能是等边三角形.
-（B）只可能是等腰三角形.
-（C）只可能是直角三角形.
-（D）既可能是等腰三角形，也可能是直角三角形.
-136.在Rt\[\Delta ABC\]中，已知\[C={{90}^{\circ }}\]，\[a=2\]，\[c=\sqrt{29}\]，那么\[\tan B\]的值等于（）
-（A）\[\frac{2}{5}\].		（B）\[\frac{2\sqrt{29}}{29}\].		（C）\[\frac{5\sqrt{29}}{29}\].		（D）\[\frac{5}{2}\].
-137.在\[\Delta ABC\]巾，若\[C={{90}^{\circ }}\]，\[{{S}_{\Delta ABC}}=8\sqrt{3}\]，\[b=4\]，则\[B\]等于（）
-（A）15°.		（B）30°.			（C）45°.		（D）60°.
-138.在\[\Delta ABC\]中，若\[C={{90}^{\circ }}\]，则\[{{a}^{3}}\cos A+{{b}^{3}}\cos B\]等于（）
-（A）\[{{c}^{3}}\].		（B）\[abc\].			（C）\[\left( a+b \right){{c}^{2}}\].	（D）\[\left( a+b \right){{c}^{3}}\]
-139.在Rt\[\Delta ABC\]中，若\[B={{60}^{\circ }}\]，\[C={{45}^{\circ }}\]，\[BC=8\]，\[AD\bot BC\]于点\[D\]，则\[AD\]的长为（）
-（A）\[4\left( \sqrt{3}-1 \right)\].	（B）\[4\left( \sqrt{3}+1 \right)\].		（C）\[4\left( 3-\sqrt{3} \right)\].	（D）\[4\left( 3+\sqrt{3} \right)\].
-140.若Rt\[\Delta ABC\]的斜边\[AB=2\]，则其内切圆的半径\[r\]的取值范围是（）
-（A）\[\left( 1,\sqrt{2} \right]\].	（B）\[\left[ 1,\sqrt{2} \right]\].		（C）\[\left( 0,\sqrt{2}-1 \right]\].	（D）\[\left[ 1,\sqrt{2}-1 \right]\].
-141.若\[AD\]是Rt\[\Delta ABC\]斜边\[BC\]上的高，则下列命题不成立的是（）
-（A）\[\sin B=\sqrt{\frac{CD}{BC}}\].					（B）\[\cos B=\sqrt{\frac{BD}{BC}}\].
-（C）\[\tan B=\sqrt{\frac{BD}{CD}}\].					（D）\[\cot B=\sqrt{\frac{BD\cdot BC}{AC}}\].
-142.在\[\Delta ABC\]中，若\[\sin A=\sin B\]，则下列结论中正确的是（）
-（A）\[A=B\].						（B）\[A=180{}^\circ -B\].
-（C）\[A=B\]或\[A=180{}^\circ -B\].			（D）\[A+B=90{}^\circ \].
-143.在\[\Delta ABC\]中，若\[\sin A:\sin B:\sin C=3:5:7\]，则此三角形的最大内角的度数等于（）
-（A）75°.		（B）120°.			（C）135°.		（D）150°.
-144.在\[\Delta ABC\]中，若\[A={{60}^{\circ }}\]，\[B=1\]，\[{{S}_{\Delta ABC}}=\sqrt{3}\]，则\[\frac{a+b+c}{\sin A+\sin B+\sin C}\]等于（）
-（A）\[\frac{8\sqrt{3}}{3}\].		（B）\[\frac{2\sqrt{39}}{3}\].			（C）\[\frac{26\sqrt{3}}{3}\].		（D）\[2\sqrt{7}\].
-145.若\[\Delta ABC\]的三边\[a,b,c\]满足\[\left( a+b-c \right)\left( c-a \right)=0\]，则此三角形的形状是（）
-（A）不等腰的锐角三角形.					（B）直角三角形.
-（C）不等腰的钝角三角形.					（D）等腰三角形.
-146.在\[\Delta ABC\]中，若\[\sin A\cdot \cos B<0\]，则\[\Delta ABC\]的形状（）
-（A）是锐角三角形.	（B）是直角三角形.	（C）是钝角三角形.	（D）不能确定.
-147.在\[\Delta ABC\]中，若\[\sin A=2\cos B\cdot \sin C\]，则此三角形的形状（）
-（A）是等腰三角形，但不一定是等边三角形.
-（B）是等边三角形.
-（C）是不等腰的直角三角形.
-（D）是边长互不相等的三角形.
-148.一角槽的横断面如图所示，四边形\[ADEB\]是矩形，且\[\alpha =50{}^\circ \]，\[\beta =70{}^\circ \]，\[AC=90\]mm，\[BC=150\]mm，则\[DE\]的长等于
-（A）210mm.							（B）200mm.C
-（C）198mm.								（D）171mm.
- 
-（第148题）
-149.\[\Delta ABC\]的\[BC\]边上有一点\[D\]，满足\[\angle CAD=\angle DAB={{60}^{\circ }}\]，且\[AC=3\]，\[AB=6\]，则\[AD\]的长为（）
-（A）2.									（B）2.5.
-（C）3.									（D）3.5.
-150.设\[a\]，\[a+1\]，\[a+2\]是钝角三角形的三边，则\[a\]的取值范围是（）
-（A）\[0<a<3\].		（B）\[1<a<3\].		（C）\[3<a<4\].		（D）\[4<a<6\].
-151.在\[\Delta ABC\]中，根据条件求三角形的内角：
-（1）若\[a=\sqrt{3}+1\]，\[b=2\]，\[c=\sqrt{6}\]，则\[A=\]          .
-（2）若\[a:b:c=\sqrt{2}:\left( 1+\sqrt{3} \right):2\]，则\[A=\]          .
-（3）若三角形中三边长的比为\[3:4:\sqrt{37}\]，则这个三角形的最大内角等于          .
-（4）若\[\left( a+b+c \right)\left( b+c-a \right)=3bc\]，则\[A=\]          .
-（5）若\[2\lg \left( {{a}^{2}}+{{b}^{2}}-{{c}^{2}} \right)=\lg 2+2\lg a+2\lg b\]，则\[C=\]          .
-（6）若三角形面积\[S=\frac{1}{4\sqrt{3}}\left( {{b}^{2}}+{{c}^{2}}-{{a}^{2}} \right)\]，则\[A=\]          .
-152.在\[\Delta ABC\]中，根据条件求三角形的边长：
-（1）若\[a=6\]，\[b=6\sqrt{3}\]，\[A=30{}^\circ \]，则\[c=\]          .
-（2）若一内角为30°，它的一邻边边长为4，对边长为\[\frac{5}{2}\]，则另一邻边边长为          .
-（3）若一个内角是45°，这个角的一条邻边长是\[\sqrt{3}+1\]，对边长是2，则其另一条邻边长等于          .
-（4）若\[\frac{b-1}{c+2}=\frac{2}{3}\]，\[a=\sqrt{21}\]，\[A={{60}^{\circ }}\]，则\[c=\]          .
-（5）若\[AB=AC\]，\[BC-AB=2\]，\[\cos B=\frac{4}{5}\]，则\[AB=\]          ，\[BC=\]          .
-（6）若\[a+b=8\]，\[c=7\]，\[C={{60}^{\circ }}\]，则\[a=\]          ，\[b=\]          .
-（7）若三角形的面积为\[\sqrt{3}\]，\[B=60{}^\circ \]，\[b=4\]，则\[a=\]          ，\[c=\]          .
-153.在\[\Delta ABC\]中，根据条件求三角形的内角：
-（1）若\[b=2c\sin B\]，则\[C=\]          .
-（2）若\[a=4\]，\[b=6\]，\[\sin B=\frac{3}{4}\]，则\[A=\]          .
-（3）若\[a=2\sqrt{2}\]，\[b=2\sqrt{3}\]，\[A=45{}^\circ \]。则\[C=\]          .
-154.在\[\Delta ABC\]中，根据条件求三角形的边长：
-（1）若等边\[\Delta ABC\]的外接圆半径为\[6\sqrt{3}\]cm，则它的边长为          .
-（2）若\[A=105{}^\circ \]，\[B=45{}^\circ \]，\[c=\sqrt{2}\]，则\[b=\]          .
-（3）若\[A=45{}^\circ \]，\[B={{60}^{\circ }}\]，\[a=10\]，则\[b=\]          ，\[c=\]          .
-（4）若\[\cos A=\frac{\sin B}{2\sin C}\]，\[b=4\sqrt{3}\]，\[2\sin B=\sqrt{3}\]，则\[a=\]          .
-155.在\[\Delta ABC\]中，根据条件直接写出结论：
-（1）若\[\sqrt{{{\left( \sin B-\frac{\sqrt{2}}{2} \right)}^{2}}}+{{\left( \sqrt{3}-\tan C \right)}^{2}}=0\]，则\[A=\]          .
-（2）若\[AC=5\]，\[B={{60}^{\circ }}\]，\[AD\bot BC\]于点\[D\]，且\[AD=3\]，则\[BC=\]      ，\[AB=\]        .
-（3）若\[C={{90}^{\circ }}\]，\[CD\bot AB\]于点\[D\]，\[BD=6\]，\[CD=2\]，则\[\sin A=\]          .
-156.在\[\Delta ABC\]中，根据条件计算：
-（1）若\[2B=A+C\]，且边\[AC=2\]，则外接圆半径\[R=\]          .
-（2）若面积\[S=\frac{1}{4}\]，外接圆半径\[R=1\]，则\[abc=\]          .
-（3）若\[\frac{a}{\sin A}=2\]，则\[\frac{a+b+c}{\sin A+\sin B+\sin C}=\]          .
-（4）若\[\left( b+c \right):\left( c+a \right):\left( a+b \right)=4:5:6\]，则\[\sin A:\sin B:\sin C=\]          .
-（5）若\[A=105{}^\circ \]，\[B=30{}^\circ \]，\[BC=\frac{\sqrt{6}}{2}\]，则的\[B\]分线的长为          .
-（6）若\[BC\]边上的中线\[m=\sqrt{\frac{8-3\sqrt{3}}{2}}\]，且\[a=\sqrt{3}+1\]，\[b=\sqrt{6}\]，则\[B=\]          .
-157.根据条件判断\[\Delta ABC\]的形状：
-（1）若\[\sin A:\sin B:\sin C=2:3:4\]，则这个三角形是          三角形.
-（2）若关于\[x\]的方程\[{{x}^{2}}+\cos B\cdot x-\frac{a}{c}=0\]的两根之和等于两根之积，则这个三角形是   三角形.
-（3）若\[b\sin B=c\sin C\]，则这个三角形是          三角形.
-（4）若\[a\cos A=b\cos B\]，则这个三角形是          三角形.
-（5）若\[\sin A=2\sin B\cos C\]，且\[\frac{a+b-c}{b+c-a}=\frac{3b}{c}\]，则这个三角形是          三角形.
-（6）若\[B=30{}^\circ \]，\[c=150\]，\[b=50\sqrt{3}\]，则这个三角形是          三角形.
-（7）若\[b=a\sin C\]，\[c=a\sin \left( 90{}^\circ -B \right)\]，\[B<90{}^\circ \]，则这个三角形是          三角形.
-（8）若\[a=\sqrt{3}-1\]，\[b=\frac{\sqrt{6}}{2}\]，\[C=\frac{\pi }{4}\]，则这个三角形是          三角形.
-158.（1）在\[\Delta ABC\]中，已知\[a=8\]，\[b=7\]，\[c=5\]，求\[B\]及三角形的面积\[S\].
-（2）在\[\Delta ABC\]中，已知\[a=12\]，\[b=4\sqrt{3}\]，\[A=120{}^\circ \]，求\[C\]及三角形的面积.
-（3）在\[\Delta ABC\]中，已知\[a=7\]，\[b=3\]，\[c=5\]，求最大角与\[\sin C\]的值.
-（4）在\[\Delta ABC\]中，已知\[b=\sqrt{2}\]，\[c=1\]，\[B=45{}^\circ \]，求\[a,C\]的值.
-（5）在\[\Delta ABC\]中，已知\[A=45{}^\circ \]，\[B=60{}^\circ \]，\[a=10\]，求\[b,c\]的值.
-（6）在\[\Delta ABC\]中，已知\[a=10\]，\[b=6\]，\[C=120{}^\circ \]，求\[\sin A\]的值.
-（7）在\[\Delta ABC\]中，已知一个内角是60°，其对边为7，且而积为\[10\sqrt{3}\]，求其他两边的长.
-（8）已知钝角三角形的三边长是三个连续偶数，求三边长.
-159.根据条件判断\[\Delta ABC\]的形状：
-（1）\[A={{60}^{\circ }}\]，\[a=1\]，\[b+c=2\].			（2）\[\left( b-c \right){{\cos }^{2}}A=b{{\cos }^{2}}B-c{{\cos }^{2}}C\].
-（3）\[\tan \frac{A-B}{2}=\frac{a-b}{a+b}\].
-160.在\[\Delta ABC\]中，求证：
-（1）\[a\left( \sin B-\sin C \right)+b\left( \sin C-\sin A \right)+c\left( \sin A-\sin B \right)=0\].
-（2）\[{{\sin }^{2}}A+{{\sin }^{2}}B+{{\cos }^{2}}C+2\sin A\sin B\cos \left( A+B \right)=1\].
-（3）\[{{a}^{2}}\left( {{\cos }^{2}}B-{{\cos }^{2}}C \right)+{{b}^{2}}\left( {{\cos }^{2}}C-{{\cos }^{2}}A \right)+{{c}^{2}}\left( {{\cos }^{2}}A-{{\cos }^{2}}B \right)=0\].
-（4）\[\left( {{a}^{2}}-{{b}^{2}}-{{c}^{2}} \right)\tan A+\left( {{a}^{2}}-{{b}^{2}}+{{c}^{2}} \right)\tan B=0\].
-（5）\[\frac{a-c\cos B}{b-c\cos A}=\frac{\sin B}{\sin A}\].
-161.在\[\Delta ABC\]中：
-（1）已知\[\left( a+b+c \right)\left( a+b-c \right)=3ab\]，求\[C\].
-（2）已知\[ab=60\]，\[ab=60\]，面积\[S=15\]，求三内角.
-（3）已知三边长分别为\[{{k}^{2}}+k+1\]，\[{{k}^{2}}-1\]，\[2k+1\]，求最大内角.
-（4）已知\[\left( b+c \right):\left( c+a \right):\left( a+b \right)=4:5:6\]求最大内角.
-（5）已知面积\[S=\sqrt{3}\]，\[a=2\sqrt{3}\]，\[b=2\]，求\[A,B,c\].
-（6）已知\[A=120{}^\circ \]，\[AB+BC=21\]，\[AC+BC=20\]，求\[BC\]的长.
-162.在\[\Delta ABC\]中：
-（1）已知\[A>{{90}^{\circ }}\]，\[\sin B=\frac{5\sqrt{3}}{14}\]，\[{{2}^{5a-7b}}=1\]，求\[a:b:c\].
-（2）已知两边之和为4，其夹角为60°，分別求周氏的最小值和面积的最大值.
-163.在\[\Delta ABC\]中：
-（1）已知\[C={{90}^{\circ }}\]，求证：\[\sin 2A\cdot \cot A=\frac{2{{b}^{2}}}{{{c}^{2}}}\].
-（2）已知\[A:B=1:2\]，求证：\[\frac{a}{b}=\frac{a+b}{a+b+c}\].
-（3）已知\[C=2B\]，求证：\[{{c}^{2}}-{{b}^{2}}=ab\].
-（4）已知\[A=100{}^\circ \]，\[AB=AC\]，角\[B\]的平分线交\[AC\]于点\[D\]，求证：\[AD+DB=BC\].
-（5）已知\[2b=a+c\]，求证：
-①\[\tan \frac{A}{2}\cdot \tan \frac{C}{2}=\frac{1}{3}\]；
-②\[\cos A+\cos C-\cos A\cdot \cos C+\frac{1}{3}\sin A\cdot \sin C\]为定值.
-（6）已知\[\sin A+\sin C=2\sin B\]，且最大角与最小角之差为90°，求证：三边之比为\[\left( \sqrt{7}-1 \right):\sqrt{7}:\left( \sqrt{7}+1 \right)\].
-（7）已知\[C=90{}^\circ \]，\[CD\]是斜边\[AB\]上的高，且\[\Delta CBD\]的面积是\[\Delta ACD\]，\[\Delta ABC\]面积的比例中项，求证：\[\sin B=\frac{\sqrt{5}-1}{2}\].
-164.在\[\Delta ABC\]中：
-（1）已知\[B\]的2倍等于其他两角的和，最长边长与最短边长的和是8cm，最长边长与最短边长的积是15cm2，求面积及\[B\]所对边的长.
-（2）已知\[B\]为锐角，\[b=7\]cm，外接圆半径\[R=\frac{7\sqrt{3}}{3}\]cm，面积\[S=10\sqrt{3}\]cm2，求其他两边的长.
-（3）已知\[A=120{}^\circ \]，\[\sin B:\sin C=3:2\]，且面积\[S=6\sqrt{3}\]，求\[a\]的值.
-（4）已知\[\sin A:\sin B:\sin C=4:5:6\]，且最大边为10，求外接圆半径\[R\]和内切圆半径\[r\].
-165.如图，在圆内接四边形\[ABCD\]中，已知边\[AB=3\]，\[AD=5\]，对角线\[BD=7\]，\[\angle BDC=45{}^\circ \]，求：
-（1）\[\sin \angle BAD\]的值.						（2）边\[BC\]的长.
- 
-       （第166题）                            （第165题）
-166.如图，\[AB\]是半圆\[O\]的直径，延长\[AB\]到\[C\]，使\[BC=AB\]，\[D\]是半圆上一点，连接\[CD\]，且\[\tan \angle CDB=\frac{1}{3}\]，求\[\cos \angle DAB\]的值.
-167.已知\[R,r\]分別是直角三角形的外接圆半径与内切圆半径，求\[\frac{r}{R}\]的最大值，并说明此时三角形的形状.
-168.如图，为了测定河的宽度，在一岸边选定两点\[A,B\]，望对岸标记物\[C\]，测得\[\angle CAB=30{}^\circ \]，\[\angle CBA=75{}^\circ \]，\[AB=120\]米，求河的宽度.
- 
-（第168题）
-169.如图，在塔底\[B\]测得山顶\[C\]的仰角为60°，在山顶\[C\]测得塔顶\[A\]的俯角为45°，已知塔高\[AB=20\]米，求山高\[DC\].
- 
-（第169题）
-170.如图，半圆\[O\]的直径\[MN\]的长为2，\[A\]为直径延长线上一点，且\[OA=2\]，\[B\]为半圆上任意一点，以\[AB\]为边作等边\[\Delta ABC\]（\[A,B,C\]顺时针排列），\[\angle AOB\]等于多少时，四边形\[OACB\]的面积最大？最大面积是多少？
- 
-（第170题）
-171.利用二角代换求下列函数的值域：
-（1）\[y=x+\sqrt{1-{{x}^{2}}}+3\].					（2）\[y=\sqrt{x-4}+\sqrt{15-3x}\].
-（3）\[y=2\sqrt{x+3}+\sqrt{2-x}\].				（4）\[S={{x}^{2}}+xy+{{y}^{2}}\]（\[1\le {{x}^{2}}+{{y}^{2}}\le 2\]）.
-（5）\[y=\sqrt{1+x}-\sqrt{x}\].
-注意  常用的三角代换有如下几种：
-若\[0\le x\le 1\]，可令\[x={{\sin }^{2}}\alpha \]或令\[x={{\cos }^{2}}\alpha \]（\[0\le \alpha \le \frac{\pi }{2}\]），或令\[x=\tan \alpha \]（\[0\le \alpha \le \frac{\pi }{4}\]）；
-若\[-1\le x\le 1\]，可令\[x=\sin \alpha \]（\[-\frac{\pi }{2}\le \alpha \le \frac{\pi }{2}\]），或令\[x=\cos \alpha \]（\[0\le \alpha \le \pi \]），或令\[x=\tan \alpha \]（\[-\frac{\pi }{4}\le \alpha \le \frac{\pi }{4}\]）；
-若\[{{x}^{2}}+{{y}^{2}}={{R}^{2}}\]，可令\[x=R\cos \alpha \]，\[y=R\sin \alpha \]（\[0\le \alpha \le 2\pi \]）；
-若\[x\in R\]，可令\[x=\tan \alpha \]（\[-\frac{\pi }{2}<\alpha <\frac{\pi }{2}\]）；
-若\[{{x}^{2}}-{{y}^{2}}=1\]，可令\[x=\sec \alpha \]，\[y=\tan \alpha \]（\[0\le \alpha <\frac{\pi }{2}\]）
-172.（1.）求函数\[f\left( x \right)=\sqrt{x-1}+\sqrt{2-x}\]的最大值、最小值.
-（2）已知\[a,b>0\]，求函数\[f\left( x \right)=a\sqrt{1-{{x}^{2}}}+bx\]的最大值、最小值.
-（3）已知\[0\le y<x<\frac{\pi }{2}\]，且满足\[\tan x=3\tan y\]，求\[x-y\]的最大值.
-173.（1）\[0<\alpha <\beta <\frac{\pi }{2}\]，且\[\sin \alpha \]，\[\sin \beta \]是方程\[{{x}^{2}}-\left( \sqrt{2}\cos 40{}^\circ  \right)x+{{\cos }^{2}}40{}^\circ -\frac{1}{2}=0\]的两根，求\[\cos \left( 2\alpha -\beta  \right)\]的值.
-（2）在\[\Delta ABC\]中，\[\tan A\]，\[\tan B\]是关于\[x\]的二次方程\[{{x}^{2}}+mx+m+1=0\]的两个实根，求实数\[m\]的取值范围.
-174.如图，已知\[P\]为\[\Delta ABC\]内一点，且满足\[\angle PAB=\angle PBC=\angle PCA=\theta \]，求证：\[\cot \theta =\cot A+\cot B+\cot C\].
- 
-（第174题）
-175.若不等式\[\frac{\left( {{x}^{2}}+1 \right)\cos \theta -x\left( \cos \theta -5 \right)+3}{{{x}^{2}}-x+1}>\sin \theta -1\]对任意实数\[x\]恒成立，求\[\theta \]的取值范围.
-176.已知函数\[f\left( x \right)=a+b\cos x+c\sin x\]的图象过两点（0，1），\[\left( \frac{\pi }{2},1 \right)\]，且当\[x\in \left[ 0,\frac{\pi }{2} \right]\]时，\[\left| f\left( x \right) \right|\le 2\]，求实数\[a\]的取值范围.
-177.（1）已知\[\odot O\]的半径为\[R\]，它的内接三角形\[ABC\]满足关系式\[2R\left( {{\sin }^{2}}A-{{\sin }^{2}}C \right)=\left( \sqrt{2}a-b \right)\sin B\]，求\[\Delta ABC\]面积的最大值.
-（2）如图，已知扇形\[AOB\]的中心角为45°，半径为1，矩形\[MNPQ\]内接于扇形，使\[P,Q\]点在半径\[OA\]上，求矩形\[MNPQ\]的对角线\[PM\]的最小值.
-（3）如图，已知\[P\]是正方形\[ABCD\]内一点，\[PQ\bot BC\]，\[PR\bot CD\]，（\[Q,R\]为垂足），\[AB=10\]，\[AP=9\]，求矩形面积的最大值、最小值.
- 
-              （第177（2）题）                    （第177（3）题）
-178.（1）若\[x\ne k\pi \]（\[k\in N\]），求证：
-①\[\frac{1}{\sin 2x}=\cot x-\cot 2x\]；
-②\[\frac{1}{\sin 2x}+\frac{1}{\sin {{2}^{2}}x}+\cdots +\frac{1}{\sin {{2}^{n}}x}=\cot x-\cot {{2}^{n}}x\].
-（2）求证：\[\tan x\tan 2x+\tan 2x\tan 3x+\cdots +\tan \left( n-1 \right)x\tan nx=\frac{\tan nx}{\tan x}-n\]（\[n\in N\]）.
-（3）求证：\[\left( 2\cos \theta -1 \right)\left( 2\cos 2\theta -1 \right)\left( 2\cos {{2}^{2}}\theta -1 \right)\cdot \cdots \cdot \left( 2\cos {{2}^{n-1}}\theta -1 \right)=\frac{2\cos {{2}^{n}}\theta +1}{2\cos \theta +1}\]
-179.求\[\cos \frac{\pi }{17}\cos \frac{2\pi }{17}\cos \frac{3\pi }{17}\cos \frac{4\pi }{17}\cos \frac{5\pi }{17}\cos \frac{6\pi }{17}\cos \frac{7\pi }{17}\cos \frac{8\pi }{17}\]的值.
-180.实数\[x,y,z\]满足\[\sin x=a\sin \left( y-z \right)\]，\[\sin y=b\sin \left( z-x \right)\]，\[\sin z=c\sin \left( x-y \right)\]（\[a,b,c\ne 1\]），且\[\sin \left( x-y \right)\]，\[\sin \left( y-z \right)\]，\[\sin \left( z-x \right)\]都不为0，求\[a,b,c\]应满足的关系式...
-
+（一）最简单的三角方程
+51.若关于\[x\]的方程\[\sin x=2a-1\]有解，则\[a\]的取值范围是（）
+（A）\[0<a<1\].		（B）\[a<0\]或\[a>1\].	（C）\[a\le 0\]或\[a\ge 1\].	（D）\[0\le a\le 1\].
+52.满足\[\cos \left( 2x+45{}^\circ  \right)=\sin \left( 30{}^\circ -x \right)\]的最小正角是（）
+（A）5°.			（B）15°.			（C）30°.			（D）37.5°.
+53.记方程\[\cos 2x=1\]的解集为\[M\]，方程\[\sin 4x=0\]的解集为\[P\]，则\[M\]与\[P\]的关系是（）
+（A）\[M\subset P\].							（B）\[M\supset P\].
+（C）\[M=P\].							（D）\[M\not\subset P\]且\[M\cancel{\supset }P\].
+54.方程\[\cos {{x}^{2}}=1\]的解集是（）
+（A）\[\left\{ x\left| x=2k\pi ,k\in Z \right. \right\}\].					（B）\[\left\{ x\left| x=\pm \sqrt{2k\pi },k\in Z \right. \right\}\]
+（C）\[\left\{ x\left| x=\pm \sqrt{2k\pi },k\in N \right. \right\}\].				（D）\[\left\{ x\left| x=\pm \sqrt{2k\pi },k\in N \right. \right\}\bigcup \left\{ 0 \right\}\].
+55.方程\[{{\sin }^{2}}x={{\cos }^{2}}x\]的解集是（）
+（A）\[\left\{ x\left| x=2k\pi +\frac{\pi }{4},k\in Z \right. \right\}\].			（B）\[\left\{ x\left| x=k\pi +\frac{\pi }{4},k\in Z \right. \right\}\].
+（C）\[\left\{ x\left| x=\frac{k\pi }{2}+\frac{\pi }{4},k\in Z \right. \right\}\].				（D）\[\left\{ x\left| x=\frac{k\pi }{4}+\frac{\pi }{4},k\in Z \right. \right\}\].
+I56.方程\[\sqrt{1-{{\sin }^{2}}x}=\sin x\]的解集是（）
+（A）\[\left\{ x\left| x=k\pi +{{\left( -1 \right)}^{k}}\frac{\pi }{4},k\in Z \right. \right\}\].		（B）\[\left\{ x\left| x=k\pi +\frac{\pi }{4},k\in Z \right. \right\}\].
+（C）\[\left\{ x\left| x=k\pi \pm \frac{\pi }{4},k\in Z \right. \right\}\].				（D）\[\left\{ x\left| x=2k\pi \pm \frac{\pi }{4},k\in Z \right. \right\}\].
+57.方程\[\tan \left( 2x+\frac{\pi }{3} \right)=\frac{\sqrt{3}}{3}\]在\[\left[ 0,2\pi  \right)\]范围内的解的个数是（）
+（A）5.				（B）4.			（C）3.				（D）2.
+58.（1）若方程\[2\cos x={{\left( \frac{1}{2} \right)}^{a}}\]无解，则实数\[a\]的取值范围是          .
+（2）方程\[\sin x=-\cos \frac{2\pi }{5}\]的解集是          .
+（3）方程\[\sin 2x\cdot \cot x=0\]的解集是          .
+59.（1）若函数\[f\left( x \right)=\sin \left( 2x+5\theta  \right)\]的图象关于\[y\]轴对称，则\[\theta \]的值等于          .
+（2）若方程\[\sin x=a\]在\[\left[ \frac{2\pi }{3},\frac{5\pi }{3} \right]\]中恰有两个不同的实数解，则\[a\]的取值范围是         .
+60.（1）若\[-6<{{\log }_{\frac{1}{\sqrt{2}}}}x<-2\]，求方程\[\cos \pi x=1\]的解集.
+（2）求方程\[\lg x=\cos 2x\]解的个数.
+（二）简单的三角方程
+61.方程\[\frac{\cos 2x}{1+\sin 2x}=0\]的解集是（）
+（A）\[\left\{ x\left| x=2k\pi \pm \frac{\pi }{4},k\in Z \right. \right\}\].			（B）\[\left\{ x\left| x=k\pi \pm \frac{\pi }{4},k\in Z \right. \right\}\].
+（C）\[\left\{ x\left| x=k\pi +\frac{\pi }{4},k\in Z \right. \right\}\].				（D）\[\left\{ x\left| x=\frac{k\pi }{2}+\frac{\pi }{4},k\in Z \right. \right\}\].
+62.方程\[\frac{2\sin x}{\sin 2x}=1\]在\[-2\pi \le x\le 2\pi \]范围内（）
+（A）有一个解.		（B）有两个解.		（C）有三个解.	（D）无解.
+63.下列方程中，与方程\[\sin x=\cos x\]的解集相同的是（）
+（A）\[\sin 2x=2{{\sin }^{2}}x\].					（B）\[\cos x=\sqrt{1-{{\cos }^{2}}x}\].
+（C）\[{{\sin }^{2}}x={{\cos }^{2}}x\].						（D）\[\frac{\cos 2x}{\sin x+\cos x}=0\].
+64.写出下列方程的解集：
+（1）\[{{\lg }_{2}}tgx=1+{{\log }_{2}}\sin x\]：          .
+（2）\[\sin x+\sqrt{3}\cos x=2\]：          .
+（3）\[\sin x-\sqrt{3}\cos x=a\]，\[\left| a \right|\le 2\]：          .
+（4）\[\cos \left( x+\frac{2\pi }{3} \right)\cos \left( x+\frac{\pi }{3} \right)=-\frac{1}{4}\]：          .
+（5）\[{{\cos }^{2}}\left( \frac{x-30{}^\circ }{2} \right)+{{\cos }^{2}}\left( \frac{x+30{}^\circ }{2} \right)=1\]：          .
+（6）\[\sin x\cos x+1=\sin x+\cos x\]：          .
+（7）\[\sqrt{2}\sin x=\sin 2x+\cos 2x\]：          .
+（8）\[\sin \left( x-\frac{\pi }{6} \right)\sin \left( x+\frac{\pi }{6} \right)=\frac{1}{2}\]：          .
+65.解下列方程：
+（1）\[\sin 3x-\sin 2x+\sin x=0\].			（2）\[\cos 2x\cos 3x=\cos x\cos 4x\].
+（3）\[\sin 4x\cos 3x=\sin 6x\cos x\].			（4）\[\sin 5x-\sin 3x=\sqrt{2}\cos 4x\].
+（5）\[\sin x+\sin 2x+\sin 3x=1+\cos x+\cos 2x\].
+66.若方程\[\sin x+\cos x=m\]（\[m\in R\]）在\[0\le x\le \pi \]范围内有两个不同的实数解，则（）
+（A）\[-1\le m\le \frac{\sqrt{2}}{2}\].						（B）\[-1<m\le 1\]或\[m=\sqrt{2}\].
+（C）\[1\le m<\sqrt{2}\].						（D）\[-\sqrt{2}<m<\sqrt{2}\].
+67.方程\[{{\sin }^{2}}x+2\sin x-a=0\]有解的条件为（）
+（A）\[a\in R\].			（B）\[a\in \left[ -1,3 \right]\].		（C）\[a\in \left[ -1,\infty  \right)\].	（D）\[a\in \left( -\infty ,3 \right]\].
+68.若方程\[{{\cos }^{2}}x-\left| \sin x \right|+1=0\]在\[-\pi <x<\pi \]范围内的解之和是\[p\]，解之积是\[q\]，则下列结论正确的是（）
+（A）\[p=-1\].		（B）\[p=0\].			（C）\[q=1\].			（D）\[q=2\].
+69.设\[f\left( x \right)=\cos \left( x-a \right)+\sin \left( x+a \right)\]是偶函数，求\[a\]的值.
+70.解下列方程：
+（1）\[8{{\sin }^{2}}x=3\sin 2x-1\].				（2）\[{{\left( \sin x+\cos x \right)}^{2}}=2\cos 2x\].
+71.解下列方程：
+（1）\[\frac{1+\tan x}{1-\tan x}=1+\sin 2x\].				（2）\[\tan \left( \frac{\pi }{3}+x \right)+\tan \left( \frac{\pi }{6}-x \right)=\frac{4}{\sqrt{3}}\].
+72.解下列方程：
+（1）\[\sin x+\cos x+\sin x\cos x=1\].
+（2）\[\sin 2x-12\left( \sin x-\cos x \right)+12=0\].
+（3）\[\sqrt{2}\left( \sin x+\cos x \right)=\tan x+\cot x\].
+（4）\[\sin x+\cos x+\tan x+\cot x+\sec x+\csc x+2=0\].
+73.（1）已知方程\[2{{x}^{2}}-4x\sin \theta +3\cos \theta =0\]（\[0\le \theta \le \pi \]）有相等的实根，求\[\theta \]的值，并解此方程.
+（2）已知方程\[{{x}^{2}}-\left( \sin \alpha +\cos \alpha  \right)x+{{\sin }^{2}}\alpha -\sin \alpha \cos \alpha -1=0\]有两个相等的实根，求实数\[\alpha \]和相成的\[x\]的值. 
+（3）已知方程\[{{x}^{2}}-4x\cos 2\theta +2=0\]和方程\[2{{x}^{2}}+4x\sin 2\theta -1=0\]有—根互为倒数，求角\[\theta \]的值（\[0<\theta <\pi \]）.
+74.（1）已知关于\[x\]的方程\[{{\sin }^{2}}x+\cos x+a=0\]有解，求实数\[a\]的取值范围.
+（2）已知\[{{\cos }^{2}}x-\sin x+a=0\]在\[0<x\le \frac{\pi }{2}\]范围内有解，求实数\[a\]的取值范围.
+（3）求实数\[k\]的取值范围，使关于\[x\]的方程\[{{\sin }^{2}}x-\sin x+k=0\]在\[\left[ -\frac{\pi }{2},\frac{\pi }{2} \right]\]上，①无解；②恰有一解；③有两解.
+75.（1）若关于\[x\]的方程\[\cos 2x-\sin x+1+m=0\]有解，求实数\[m\]的取值范围.
+I（2）若关于\[x\]的方程\[{{\sin }^{2}}x+4\sin x\cos x-2{{\cos }^{2}}x=a\]恒有实数解，求实数\[a\]的取值范围.
+76.将下列各组数从小到大排列：
+（1）\[\frac{1}{2}\]，\[\sin \frac{1}{2}\]，\[\arcsin \frac{1}{2}\].				（2）\[\frac{1}{3}\]，\[\cos \frac{1}{3}\]，\[\arccos \frac{1}{3}\].
+（3）\[\arcsin \frac{1}{4}\]，\[\arctan \sqrt{5}\]，\[\arccos \left( -\frac{1}{3} \right)\].
+77.（1）已知\[0<x<1\]，求证：\[2\arctan \frac{1+x}{1-x}+\arcsin \frac{1-{{x}^{2}}}{1+{{x}^{2}}}=\pi \].
+（2）已知\[a,b,c>0\]，求证：若\[\arctan a+\arctan b+\arctan c=\pi \]，则\[a+b+c=abc\]，反过来也成立.
+78.（1）画出函数\[y=\arctan x+\arctan \frac{1-x}{1+x}\]的图象.
+（2）在不同坐标系内分别画出\[y=\arcsin \left( \sin x \right)\]\[\left( -\frac{\pi }{2}\le x\le \frac{3\pi }{2} \right)\]和\[y=\arcsin \left( \sin x \right)\]（\[x\in R\]）的图象.
+79.解下列方程：
+（1）\[x=\arcsin \left( \sin 2x \right)\].
+（2）\[\cos \left( \pi \sin x \right)=\sin \left( \pi \cos x \right)\]（\[0\le \pi <2\pi \]）.
+（3）\[{{x}^{2}}+2x\cos \left( xy \right)+1=0\]（\[x,y\in R\]）.
+80.已知\[\alpha ,\beta \]是关于\[x\]的方程\[a\cos x+b\sin x=c\]的两个实根（\[{{a}^{2}}+{{b}^{2}}\ne 0\]，\[a\ne 2k\pi +\beta \]，\[k\in Z\]），求证\[{{\cos }^{2}}\frac{\alpha -\beta }{2}=\frac{{{c}^{2}}}{{{a}^{2}}+{{b}^{2}}}\].
+81.已知\[\Delta ABC\]的两内角\[A,B\]满足方程\[8{{\sin }^{2}}x+3\sin 2x-4=0\]，且\[A>B\]，求此三角形三边长之比.
+82.解方程\[\tan \left( x+\frac{\pi }{4} \right)+\tan \left( x-\frac{\pi }{4} \right)=2\cot x\].
+83.已知关于\[x\]的方程\[x=a\sin x+b\]（\[0<a<1\]，\[b\in R\]）有实根，求证：该方程只有一个实根.
+84.（1）已知方程\[{{\sin }^{2}}x+3{{a}^{2}}\cos x-2{{a}^{2}}\left( 3a-2 \right)-1=0\]有实数解，求实数\[a\]的取值范围.
+（2）已知关于\[x\]的方程\[2\cos 2x+4\left( a-1 \right)\sin x-4a+1=0\]在\[0\le x\le 2\pi \]范围内有相异两个实根，求\[a\]的取值范围.
+85.已知关于\[x\]的方程\[\cos 2x-2\left( 2a+1 \right)\cos x+2{{a}^{2}}+2a+1=0\]在\[\left[ 0,2\pi  \right)\]范围内有两个不同的解，求实数\[a\]的取位范围.
+.
