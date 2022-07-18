@@ -1,3 +1,52 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[UTF8,fontset = windows]{ctex}
+\setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{华文中宋}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
+\usepackage{ifthen,indentfirst,enumerate,color,titletoc}
+\usepackage{tikz}
+\usepackage{makecell}
+\usepackage{longtable}
+%\usepackage{mathptmx}
+
+\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing}
+\usepackage[bf,small,indentafter,pagestyles]{titlesec}
+\usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
+\renewcommand{\baselinestretch}{1.65}
+\newtheorem{defi}{定义~}
+\newtheorem{eg}{例~}
+\newtheorem{ex}{~}
+\newtheorem{rem}{注~}
+\newtheorem{thm}{定理~}
+\newtheorem{coro}{推论~}
+\newtheorem{axiom}{公理~}
+\newtheorem{prop}{性质~}
+\newcommand{\blank}[1]{\underline{\hbox to #1pt{}}}
+\newcommand{\bracket}[1]{(\hbox to #1pt{})}
+\newcommand{\onech}[4]{\par\begin{tabular}{p{.9\textwidth}}
+A.~#1\\
+B.~#2\\
+C.~#3\\
+D.~#4
+\end{tabular}}
+\newcommand{\twoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+A.~#1& B.~#2\\
+C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\vartwoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+(1)~#1& (2)~#2\\
+(3)~#3& (4)~#4
+\end{tabular}}
+\newcommand{\fourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+A.~#1 &B.~#2& C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\varfourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+(1)~#1 &(2)~#2& (3)~#3& (4)~#4
+\end{tabular}}
+\begin{document}
+\begin{enumerate}[1.]
+
+
+
 \item ``变''角.
 所谓变角, 就是将角度进行恒等变换, 为解题作铺垫, 常用的变角类型有$2\alpha =(\alpha +\beta)+(\alpha -\beta)$, $2\beta =(\alpha +\beta)+(\alpha -\beta)$, $\alpha =(\alpha +\beta)-\beta$, $\alpha =(\alpha +45^\circ)-45^\circ$, $\alpha =(m+1)\alpha -m\alpha$, 等等.
 \item 已知$\cos (\alpha +\beta)=\dfrac 45$, $\cos (\alpha -\beta)=-\dfrac 45$, 其中$\alpha +\beta \in (\dfrac{7\pi }4,2\pi)$, $\alpha -\beta \in (\dfrac{3\pi }4,\pi)$, 求$\cos 2\alpha$.
@@ -18,9 +67,9 @@
 \item 正、余互变.
 如果$\alpha +\beta =\dfrac{\pi }2$, 那么$\sin \alpha =\cos \beta$, $\cos \alpha =\sin \beta$, $\tan \beta =\cot \alpha$.例如, 由$(\dfrac{\pi }3-\varphi)+(\dfrac{\pi }6+\varphi)=\dfrac{\pi }2$, 可得$\sin (\dfrac{\pi }3-\varphi)=\cos (\dfrac{\pi }6+\varphi)$.
 \item 已知$\sin (\dfrac{\pi }4-x)=\dfrac 5{13}$, 且$0<x<\dfrac{\pi }4$.求$\dfrac{\cos 2x}{\cos (\dfrac{\pi }4+x)}$的值.
-解  由条件, 得$\cos (\dfrac{\pi 4-x)=\dfrac 12}{13}$.
+解  由条件, 得$\cos (\dfrac\pi 4-x)=\dfrac {12}{13}$.
 $\therefore$原式$=\dfrac{\sin (\dfrac{\pi }2-2x)}{\cos (\dfrac{\pi }4+x)}=\dfrac{\sin 2(\dfrac{\pi }4-x)}{\cos (\dfrac{\pi }4+x)}=\dfrac{2\sin (\dfrac{\pi }4-x)\cos (\dfrac{\pi }4-x)}{\cos (\dfrac{\pi }4+x)}$
-\blank{50}$=\dfrac{2\cos (\dfrac{\pi 4+x)\cos (\dfrac{\pi }4-x)}{\cos (\dfrac{\pi }4+x)}=2\cos (\dfrac{\pi }4-x)=\dfrac 24}{13}$.
+\blank{50}$=\dfrac{2\cos (\dfrac\pi 4+x)\cos (\dfrac{\pi }4-x)}{\cos (\dfrac{\pi }4+x)}=2\cos (\dfrac{\pi }4-x)=\dfrac {24}{13}$.
 \item 逆用公式.
 由$\tan (\alpha +\beta)=\dfrac{\tan \alpha +\tan \beta }{1-\tan \alpha \tan \beta }$可得
 $\tan \alpha +\tan \beta =\tan (\alpha +\beta)(1-\tan \alpha \tan \beta)$, 或$1-\tan \alpha \tan \beta =\dfrac{\tan \alpha +\tan \beta }{\tan (\alpha +\beta)}$.
@@ -51,7 +100,7 @@ $\because|\sin (x-\varphi)|\le 1$, $\therefore \dfrac{2y}{\sqrt {3+y^2}}\le 1$, 
 (1)升幂.运用公式$1+\cos 2x=2\cos ^2x$, $1-\cos 2x=2\sin ^2x$.
 \item 化简$\dfrac{1+\cos \theta -\sin \theta }{1-\cos \theta -\sin \theta }+\dfrac{1-\cos \theta -\sin \theta }{1+\cos \theta -\sin \theta }$.
 解  原式$=\dfrac{2\cos ^2\dfrac{\theta }2-2\sin \dfrac{\theta }2\cos \dfrac{\theta }2}{2\sin ^2\dfrac{\theta }2-2\sin \dfrac{\theta }2\cos \dfrac{\theta }2}+\dfrac{2\sin ^2\dfrac{\theta }2-2\sin \dfrac{\theta }2\cos \dfrac{\theta }2}{2\cos ^2\dfrac{\theta }2-2\sin \dfrac{\theta }2\cos \dfrac{\theta }2}$
-\blank{50}$\begin{cases} =\dfrac{\cos \dfrac{\theta }2(\cos \dfrac{\theta }2-\sin \dfrac{\theta }2)}{\sin \dfrac{\theta }2(\sin \dfrac{\theta }2-\cos \dfrac{\theta }2)}+\dfrac{\sin \dfrac{\theta }2(\sin \dfrac{\theta }2-\cos \dfrac{\theta }2)}{\cos \dfrac{\theta }2(\cos \dfrac{\theta }2-\sin \dfrac{\theta }2)} \\ =-(\cot \dfrac{\theta 2+\tan \dfrac{\theta }2)=-(\dfrac 1+\cos \theta }{\sin \theta }+\dfrac{1-\cos \theta }{\sin \theta })=-\dfrac 2{\sin \theta }=-2\csc \theta . \end{cases}$
+\blank{50}$\begin{cases} =\dfrac{\cos \dfrac{\theta }2(\cos \dfrac{\theta }2-\sin \dfrac{\theta }2)}{\sin \dfrac{\theta }2(\sin \dfrac{\theta }2-\cos \dfrac{\theta }2)}+\dfrac{\sin \dfrac{\theta }2(\sin \dfrac{\theta }2-\cos \dfrac{\theta }2)}{\cos \dfrac{\theta }2(\cos \dfrac{\theta }2-\sin \dfrac{\theta }2)} \\ =-(\cot \dfrac\theta 2+\tan \dfrac{\theta }2)=-(\dfrac {1+\cos \theta }{\sin \theta }+\dfrac{1-\cos \theta }{\sin \theta })=-\dfrac 2{\sin \theta }=-2\csc \theta . \end{cases}$
 (2)降幕.逆用公式$\cos 2\alpha =2\cos ^2\alpha -1$和$\cos 2\alpha =1-2\sin ^2\alpha$,
 可得$\cos ^2\alpha =\dfrac{1+\cos 2\alpha }2$, $\sin ^2\alpha =\dfrac{1-\cos 2\alpha }2$.
 \item 求函数$y=3\sin ^2\alpha -4\sin \alpha \cdot \cos \alpha +\cos ^2\alpha$的值域和最小正周期.
@@ -226,7 +275,7 @@ $\because|\sin (x-\varphi)|\le 1$, $\therefore \dfrac{2y}{\sqrt {3+y^2}}\le 1$, 
 \fourch{$-\sin 2$}{-1}{$\dfrac 12$}{1}
 \item 若$\tan \dfrac A2=\dfrac mn$, 则$m\cos A-n\sin A$等于()
 \fourch{$n$}{$-n$}{$m$}{$-m$}
-\item 若锐角$\theta$满足$\sin \dfrac{\theta 2=\sqrt {\dfrac x-1}{2x}}$, 则$\tan \theta$等于()
+\item 若锐角$\theta$满足$\sin \dfrac\theta 2=\sqrt {\dfrac {x-1}{2x}}$, 则$\tan \theta$等于()
 \fourch{$x$}{$\dfrac{x+1}{\sqrt {x-1}}$}{$\dfrac{\sqrt {x^2-1}}x$}{$\sqrt {x^2-1}$}
 \item (1)化简$\dfrac{\tan (45^\circ -\alpha)}{1-\tan ^2(45^\circ -\alpha)}\cdot \dfrac{\sin \alpha \cos \alpha }{\cos ^2\alpha -\sin ^2\alpha }=$\blank{50}.
 (2)若$\tan \dfrac{\alpha }2=\dfrac 25$, 则$\dfrac{2\sin \alpha +3\cos \alpha }{3\cos \alpha -4\sin \alpha }=$\blank{50}.
@@ -242,7 +291,7 @@ $\because|\sin (x-\varphi)|\le 1$, $\therefore \dfrac{2y}{\sqrt {3+y^2}}\le 1$, 
 \item 若$2\pi <\theta <4\pi$, $\sin \theta =-\dfrac 35$, $\cos \theta <0$, 则$\tan \dfrac{\theta }2$的值等于()
 \fourch{-3}{3}{$-\dfrac 13$}{$\dfrac 13$}
 \item 若$\alpha +\beta =\dfrac{\pi }2$, 则()
-\fourch{$\cos \dfrac{\alpha }2=-\sqrt {\dfrac{1+\sin \beta }2}$}{$\sin \dfrac{\alpha }2=-\sqrt {\dfrac{1-\sin \beta }2}$}{$\tan \dfrac{\alpha 2=\pm \sqrt {\dfrac 1-\sin \beta }{1+\sin \beta }}$}{$\tan \dfrac{\alpha 2=\pm \sqrt {\dfrac 1+\sin \beta }{1-\sin \beta }}$}
+\fourch{$\cos \dfrac{\alpha }2=-\sqrt {\dfrac{1+\sin \beta }2}$}{$\sin \dfrac{\alpha }2=-\sqrt {\dfrac{1-\sin \beta }2}$}{$\tan \dfrac\alpha 2=\pm \sqrt {\dfrac {1-\sin \beta }{1+\sin \beta }}$}{$\tan \dfrac\alpha 2=\pm \sqrt {\dfrac {1+\sin \beta }{1-\sin \beta }}$}
 \item 当$3\pi <\alpha <4\pi$时.化简$\sqrt {\dfrac{1+\cos \alpha }2}-\sqrt {\dfrac{1-\cos \alpha }2}$得()
 \fourch{$-\sqrt 2\sin (\dfrac{\alpha }2+\dfrac{\pi }4)$}{$\sqrt 2\sin (\dfrac{\alpha }2+\dfrac{\pi }4)$}{$-\sqrt 2\sin (\dfrac{\alpha }2-\dfrac{\pi }4)$}{$\sqrt 2\sin (\dfrac{\alpha }2-\dfrac{\pi }4)$}
 \item 若$\sin 2\alpha =a$, $\cos 2\alpha =b$, 则$\tan (\alpha +\dfrac{\pi }4)$的值是()
@@ -283,7 +332,7 @@ $\cos (A+B)=2\cos ^2\dfrac{A+B}2-1=2\sin ^2\dfrac C2-1=1-2\sin ^2\dfrac{A+B}2=1-
 \item 已知$\cos \alpha +\cos \beta =a$, $\sin \alpha +\sin \beta =b$($ab\ne 0$), 求$\cos (\alpha -\beta)$, $\cos (\alpha +\beta)$的值.
 解  两式平方相加, 可得$2+2\cos (\alpha -\beta)=a^2+b^2$, ∴$\cos (\alpha -\beta)=\dfrac{a^2+b^2-2}2$.再将两式和差化积, 得$2\cos \dfrac{\alpha +\beta }2\cos \dfrac{\alpha -\beta }2=a$, $2\sin \dfrac{\alpha +\beta }2\cos \dfrac{\alpha -\beta }2=b$.
 显然$\cos \dfrac{\alpha -\beta }2\ne 0$, 于是两式相除, 得$\tan \dfrac{\alpha +\beta }2=\dfrac ba$.
-再由万能公式, 得$\cos (\alpha +\beta)=\dfrac{1-\tan ^2(\dfrac{\alpha +\beta 2)}{1+\tan ^2(\dfrac{\alpha +\beta }2)}=\dfrac{1-\dfrac{b^2}{a^2}}{1+\dfrac{b^2}{a^2}}=\dfrac{a^2}-b^2}{a^2+b^2}$.
+再由万能公式, 得$\cos (\alpha +\beta)=\dfrac{1-\tan ^2(\dfrac{\alpha +\beta} 2)}{1+\tan ^2(\dfrac{\alpha +\beta }2)}=\dfrac{1-\dfrac{b^2}{a^2}}{1+\dfrac{b^2}{a^2}}=\dfrac{a^2-b^2}{a^2+b^2}$.
 \item 已知$a\cos \alpha +b\sin \alpha =c$, $a\cos \beta +b\sin \beta =c$, 其中$\alpha \pm \beta \ne k\pi$, $k\in \mathbf{Z}$, 求证: $\dfrac a{\cos \dfrac{\alpha +\beta }2}=\dfrac b{\sin \dfrac{\alpha +\beta }2}=\dfrac c{\cos \dfrac{\alpha -\beta }2}$.
 证明  将已知的两式相减, 得$a(\cos \alpha -\cos \beta)+b(\sin \alpha -\sin \beta)=0$.
 利用和差化积, 得$-2a\sin \dfrac{\alpha +\beta }2\sin \dfrac{\alpha -\beta }2+2b\cos \dfrac{\alpha +\beta }2\sin \dfrac{\alpha -\beta }2=0$.
@@ -293,9 +342,10 @@ $\cos (A+B)=2\cos ^2\dfrac{A+B}2-1=2\sin ^2\dfrac C2-1=1-2\sin ^2\dfrac{A+B}2=1-
 \item 降幂与化积.
 在本章内, 有不少问题的求解要通过先降幂再化积来完成.
 \item 已知$\alpha +\beta =\dfrac{2\pi }3$, 求$\sin ^2\alpha +\sin ^2\beta$的取值范围.
+
 解  ∵$\sin ^2\alpha +\sin ^2\beta =\dfrac{1-\cos 2\alpha }2+\dfrac{1-\cos 2\beta }2=1-\dfrac 12(\cos 2\alpha +\cos 2\beta)$
 \blank{50}$=1-\cos (\alpha +\beta)\cos (\alpha -\beta)=1+\dfrac 12\cos (\alpha -\beta)$,
-又_$=-1\le \cos (\alpha -\beta)\le 1$, ∴$\sin ^2\alpha +\sin ^2\beta$的取值范围是$[\dfrac 12,\dfrac 32]$.
+又$=-1\le \cos (\alpha -\beta)\le 1$, ∴$\sin ^2\alpha +\sin ^2\beta$的取值范围是$[\dfrac 12,\dfrac 32]$.
 【训练题】
 (一)积化和差公式
 \item 函数$y=\sin (3x+\dfrac{\pi }{12})\sin (3x-\dfrac{5\pi }{12})$的最小正周期是()
@@ -314,7 +364,7 @@ $\cos (A+B)=2\cos ^2\dfrac{A+B}2-1=2\sin ^2\dfrac C2-1=1-2\sin ^2\dfrac{A+B}2=1-
 (1)$\cos ^2\alpha -\cos (\alpha +60^{\circ })\cos (\alpha -60^{\circ })=$\blank{50}.
 (2)$\cos (\alpha +\beta)\cos (\alpha -\beta)+\sin ^2\beta =$\blank{50}.
 (3)若$\sin (\alpha +\beta)=\dfrac 23$, $\sin (\alpha -\beta)=\dfrac 15$, 则$\tan \alpha \cot \beta =$\blank{50}.
-(4)若$\sin (\theta +\dfrac{\pi 6)\sin (\theta -\dfrac{\pi }6)=\dfrac 11}{20}$, 则$\tan \theta =$\blank{50}.
+(4)若$\sin (\theta +\dfrac\pi 6)\sin (\theta -\dfrac{\pi }6)=\dfrac {11}{20}$, 则$\tan \theta =$\blank{50}.
 \item 计算下列各式:
 (1)$\sin 63^\circ -\cos 63^\circ +2\sqrt 2\sin 66^\circ \cos 84^\circ =$\blank{50}.
 (2)$\dfrac 1{2\sin 10^\circ }-2\sin 70^\circ =$\blank{50}.
@@ -377,7 +427,7 @@ $\cos (A+B)=2\cos ^2\dfrac{A+B}2-1=2\sin ^2\dfrac C2-1=1-2\sin ^2\dfrac{A+B}2=1-
 \item 在``\textcircled{1} $\cos 40^\circ +\sqrt 3\sin 40^\circ =2\cos 20^\circ$, \textcircled{2} $1+2\cos 20^\circ =4\cos 20^\circ \cos 40^\circ$, \textcircled{3} $\dfrac{\sin 40^\circ }{1+\cos 40^\circ }=\cot 70^\circ$, \textcircled{4} $\dfrac{1-\tan 40^\circ }{1+\tan 40^\circ }=\tan 20^\circ$''这四个式子中, 成立的个数是()
 \fourch{1}{2}{3}{4}
 *112.已知$\cos 36^\circ \cos 72^\circ =\dfrac 14$, 求下列各式的值:
-(1)$\cos 36^\circ -\cos 72^\circ$.				(2)$\cos ^2(\dfrac{\pi 5)+\sin ^2(\dfrac \pi }{10})$.
+(1)$\cos 36^\circ -\cos 72^\circ$.				(2)$\cos ^2(\dfrac\pi 5)+\sin ^2(\dfrac \pi {10})$.
 (3)$\cos 12^\circ -\cos 24^\circ -\cos 48^\circ +\cos 84^\circ$.
 \item 求下列各式的值:
 (1)$\cos ^273^\circ +\sin ^243^\circ +\cos 73^\circ \sin 43^\circ$.		(2)$\cos ^210^\circ +\cos ^2110^\circ +\cos ^2130^\circ$.
@@ -447,7 +497,7 @@ $=2R[(\cos A-\cos B)+(\cos B-\cos C)+(\cos C-\cos A)]=0=$右边,
 \item 在$\triangle ABC$中.已知$A>B>C$, 且$A=2C$, $b=4$, $a+c=8$, 求$a,c$的长.
 解  由正弦定理$\dfrac a{\sin A}=\dfrac c{\sin C}$及$A=2C$, 得$\cos C=\dfrac a{2c}$.
 由条件$a+c=8=2b$, 利用余弦定理得
-$\cos C=\dfrac{a^2+b^2-c^2}{2ab}=\dfrac{a^2+(\dfrac{a+c2)^2-c^2}{a(a+c)}=\dfrac{5a^2+2ac-3c^2}{4a(a+c)}=\dfrac (5a-3c)(a+c)}{4a(a+c)}=\dfrac{5a-3c}{4a}$.
+$\cos C=\dfrac{a^2+b^2-c^2}{2ab}=\dfrac{a^2+(\dfrac{a+c}2)^2-c^2}{a(a+c)}=\dfrac{5a^2+2ac-3c^2}{4a(a+c)}=\dfrac {(5a-3c)(a+c)}{4a(a+c)}=\dfrac{5a-3c}{4a}$.
 于是$\dfrac a{2c}=\dfrac{5a-3c}{4a}$, 整理得$(2a-3c)(a-c)=0$.
 ∵$a\ne c$, ∴$2a=3c$.∵$a+c=8$, ∴$a=\dfrac{24}5$, $c=\dfrac{16}5$.
 \item 如图1, 海岛$O$上有一座海拔1000米的山, 山顶上设有一个观察站$A$, 上午11时测得一轮船在岛北偏东60°的$C$处, 俯角为30°; 11时10分又测得该船在岛的北偏西60°的$B$处, 俯角为60°.
@@ -459,7 +509,7 @@ $OC=OA\tan 60^{\circ }=\sqrt 3$(千米).由余弦定理, 得
 $\begin{cases} BC=\sqrt {OB^2+OC^2-2\cdot OB\cdot OC\cos \angle BOC} \\ =\sqrt {\dfrac 39+3-2(-\dfrac 12)}=\sqrt {\dfrac{13}3,}
 \end{cases}$
 于是船速$v=\dfrac{BC}{\dfrac 16}=2\sqrt {39}$(千米/时).
-(2)在$\triangle OBC$中, 由余弦定理, 得$\cos \angle OBC=\dfrac{BC^2+OB^2-OC^2}{2\cdot BC\cdot OB}=\dfrac{\dfrac{13}3+\dfrac 39-32\sqrt {\dfrac{13}3}\cdot \dfrac{\sqrt 3}3=\dfrac 5\sqrt {13}}{26}$.
+(2)在$\triangle OBC$中, 由余弦定理, 得$\cos \angle OBC=\dfrac{BC^2+OB^2-OC^2}{2\cdot BC\cdot OB}=\dfrac{\dfrac{13}3+\dfrac 39-3}{2\sqrt {\dfrac{13}3}\cdot \dfrac{\sqrt 3}3}=\dfrac 5{\sqrt {13}}{26}$.
 于是$\sin \angle EBO=\sin \angle OBC=\sqrt {1-(\dfrac{5\sqrt {13}}{26})^2}=\dfrac{3\sqrt {39}}{26}$,
 $\begin{cases} \sin \angle BEO=\sin [180^\circ -(\angle EBO+30^\circ)]=\sin (\angle EBO+30^\circ) \\ =\dfrac{3\sqrt {39}}{26}\times \dfrac{\sqrt 3}2-\dfrac{5\sqrt {13}}{26}\times \dfrac 12=\dfrac{\sqrt {13}}{13}.
 \end{cases}$
@@ -655,4 +705,8 @@ $OE=\dfrac{OB\cdot \sin \angle EBO}{\sin \angle BEO}=\dfrac 32$(千米), $BE=\df
 (2)求证: $\tan x\tan 2x+\tan 2x\tan 3x+\cdots +\tan (n-1)x\tan nx=\dfrac{\tan nx}{\tan x}-n$($n\in \mathbf{N}$).
 (3)求证: $(2\cos \theta -1)(2\cos 2\theta -1)(2\cos 2^2\theta -1)\cdot \cdots \cdot (2\cos 2^{n-1}\theta -1)=\dfrac{2\cos 2^n\theta +1}{2\cos \theta +1}$
 \item 求$\cos \dfrac{\pi }{17}\cos \dfrac{2\pi }{17}\cos \dfrac{3\pi }{17}\cos \dfrac{4\pi }{17}\cos \dfrac{5\pi }{17}\cos \dfrac{6\pi }{17}\cos \dfrac{7\pi }{17}\cos \dfrac{8\pi }{17}$的值.
-\item 实数$x,y,z$满足$\sin x=a\sin (y-z)$, $\sin y=b\sin (z-x)$, $\sin z=c\sin (x-y)$($a,b,c\ne 1$), 且$\sin (x-y)$, $\sin (y-z)$, $\sin (z-x)$都不为0, 求$a,b,c$应满足的关系式...
+\item 实数$x,y,z$满足$\sin x=a\sin (y-z)$, $\sin y=b\sin (z-x)$, $\sin z=c\sin (x-y)$($a,b,c\ne 1$), 且$\sin (x-y)$, $\sin (y-z)$, $\sin (z-x)$都不为0, 求$a,b,c$应满足的关系式.
+    
+    
+\end{enumerate}
+\end{document}

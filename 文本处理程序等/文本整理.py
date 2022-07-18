@@ -287,6 +287,8 @@ for equation in raw_equations:
     equation1 = re.sub(r"\\underset{([\w]\\to \\infty) }{\\mathop{\\lim }}\\,",limit,equation1)
     equation1 = re.sub(r"\\underset{([\w]\\to \\infty) }{\\mathop{\\lim }}",limit,equation1)
     equation1 = re.sub(r"\\underset{([\w]\\to \\infty) }{\\mathop{\\lim }",limit,equation1)
+    #修改centerdot
+    equation1 = re.sub(r"centerdot",r"cdot",equation1)
     #分情况和方程组的处理
     equation1 = re.sub("align\}[\s]*","cases}",equation1)
     equation1 = re.sub(r"\\\\[\s]*","\\\\\\\\",equation1)
