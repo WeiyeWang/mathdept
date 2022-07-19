@@ -8,7 +8,7 @@
 \usepackage{longtable}
 %\usepackage{mathptmx}
 
-\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing}
+\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing,angles}
 \usepackage[bf,small,indentafter,pagestyles]{titlesec}
 \usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
 \renewcommand{\baselinestretch}{1.65}
@@ -529,9 +529,48 @@ $\dfrac 1a$, $\dfrac 1{a+d}$, $\dfrac 1{a+2d}$, $\dfrac 1{a+3d}$, …, $\dfrac 1
 (2)设$W_n=a_1S_1+a_2S_2+\cdots +a_nS_n$, 求$\displaystyle \lim_{n\to \infty} W_n$(用$b,q$表示).
 \item (1)在45°角的一边上, 取距离顶点为$a$的一点, 由这点向另一边作垂线, 然后再由这个垂线的垂足向另一边作垂线, …, 如此无限地继续下去, 求所有这些垂线长的和.
 (2)如图, 在直角坐标平面上, 点$P$从原点出发沿$x$轴的正方向前进$a$后向左转90°, 前进$\dfrac a2$后又向右转90, 前进$\dfrac 1{2^2}a$后再左转90°, 无限地继续下去, 点$P$最后到达哪一点.
-    (第133(2)题)\blank{50}(第133(3)题)\blank{50}(第133(4)题)
+\begin{center}
+    \begin{tikzpicture}[>=latex]
+        \draw [->] (-0.5,0) -- (3,0) node [below] {$x$};
+        \draw [->] (0,-0.5) -- (0,2) node [left] {$y$};
+        \draw (0,0) node [below left] {$O$};
+        \draw (0,0) -- (2,0) --++ (0,1) --++ (0.5,0) --++ (0,0.25) --++ (0.125,0) --++ (0,0.0625) --++ (0.03125,0);
+    \end{tikzpicture}
+\end{center}
 (3)设扇形$AOB$的半径为$R$, 中心角为$\theta$($0<\theta <\dfrac{\pi }2$), 由$A$向半径$OB$作垂线$AB_1$, 由垂足$B_1$引弦$AB$的平行线交$OA$于点$A_1$, 再由$A_1$向$OB$作垂线$A_1B_2$, 由垂足$B_2$引弦$AB$的平行线交$OA$于点$A_2$(如图), 这样无限地继续下去, 在$OA$, $OB$上得到的点列$\{A_n\}$、$\{B_n\}$, 设$\triangle ABB_1$, $\triangle A_1B_1B_2$, …, $\triangle A_nB_nB_{n+1}$, …的面积为$S_1$, $S_2$, …, $S_{n+1}$, …, 求$S=\displaystyle \lim_{n\to \infty} \sum\limits_{k=1}^nS_k$.
+\begin{center}
+    \begin{tikzpicture}[scale = 5]
+        \draw (0,0) node [left] {$O$} coordinate (O);
+        \draw (1,0) node [right] {$A$} coordinate (A);
+        \draw (35:1) node [above] {$B$} coordinate (B);
+        \draw (O) -- (A) -- (B) -- cycle (A) arc (0:35:1);
+        \draw ($(O)!{cos(35)}!(B)$) node [above left] {$B_1$} coordinate (B1) ($(O)!{cos(35)}!(A)$) node [below] {$A_1$} coordinate (A1);
+        \draw ($(O)!{cos(35)}!(B1)$) node [above left] {$B_2$} coordinate (B2) ($(O)!{cos(35)}!(A1)$) node [below] {$A_2$} coordinate (A2);
+        \draw ($(O)!{cos(35)}!(B2)$) node [above left] {$B_3$} coordinate (B3) ($(O)!{cos(35)}!(A2)$) node [below] {$A_3$} coordinate (A3);
+        \draw (A) -- (B1) -- (A1) -- (B2) -- (A2) -- (B3) -- (A3);
+        \pic [draw] {angle = A--O--B}; 
+        \draw (0.15,0) node [above] {$\theta$};
+        \pic [draw, angle radius = 0.2cm] {right angle = A--B1--B};
+        \pic [draw, angle radius = 0.2cm] {right angle = A1--B2--B1};
+        \pic [draw, angle radius = 0.2cm] {right angle = A2--B3--B2};      
+    \end{tikzpicture}
+\end{center}
 (4)如图, 在Rt$\triangle ABC$中排列着无限个正方形$S_1$, $S_2$, $S_3$, $S_4$, …, 且已知直角边$BC=a$, 这无限个正方形的面积之和正好是这个直角三角形面积的一半, 求另一直角边$AC$的长.
+\begin{center}
+    \begin{tikzpicture}
+        \draw (0,0) node [left] {$C$} coordinate (C);
+        \draw (4,0) node [right] {$A$} coordinate (A);
+        \draw (0,3) node [left] {$B$} coordinate (B);
+        \draw (A) -- (C) -- (B) -- cycle;
+        \draw ({12/7},0) coordinate (X1) -- ({12/7},{12/7}) -- (0,{12/7});
+        \draw ({6/7},{6/7}) node {$S_1$};
+        \draw (X1) ++ ({12/7*4/7},0) coordinate (X2) --++ (0,{12/7*4/7})  --++ ({-12/7*4/7},0);
+        \draw (X1) ++ ({12/7*4/7/2},{12/7*4/7/2}) node {$S_2$};
+        \draw (X2) ++ ({12/7*4/7*4/7},0) coordinate (X3) --++ (0,{12/7*4/7*4/7}) --++ ({-12/7*4/7*4/7},0);
+        \draw (X2) ++ ({12/7*4/7*4/7/2},{12/7*4/7*4/7/2}) node {$S_3$};
+        \draw (X3) ++ ({12/7*4/7*4/7*4/7},0) coordinate (X3) --++ (0,{12/7*4/7*4/7*4/7}) --++ ({-12/7*4/7*4/7*4/7},0);
+    \end{tikzpicture}
+\end{center}
 \item 在半径为$r$的球内作正方体, 然后在正方体内再作内切球, 在内切球内再作内接正方体, 然后再作它的内切球, 如此无限地作下去, 求所有这些球的表面积之和(包括半径为$r$的球).
 三、数学归纳法
 【典型题型和解题技巧】
@@ -597,9 +636,15 @@ $\begin{cases} a_{k+1}=\dfrac 1{2-a_k}=\dfrac 1{2-\dfrac{(k-1)-(k-2)a}{k-(k-1)a}
 由\textcircled{1} , \textcircled{2} 可知, 对$n\in \mathbf{N}$, 都有$a_n=\dfrac{(n-1)-(n-2)a}{n-(n-1)a}$.
 (5)证明几何命题.
 \item 平面内有$n$个圆, 其中每两个圆都交于两点, 且无任何三个圆交于一点, 求证: 这$n$个圆将平面分成$n^2-n+2$个部分.
-略证  设$n=k$时, $k$个圆将平面分成$k^2-k+2$个部分(如图1), 则当$n=k+1$时, 第$k+1$个圆$C_{k+1}$交前面$k$个圆于$2k$个点, 这$2k$个点将圆$C_{k+1}$分成$2k$段, 每段将各自所在区域一分为二, 因此增加了$2k$个区域, 于是这$k+1$个圆将平面分成$k^2-k+2+2k$个部分, 即$(k+1)^2-(k+1)+2$个部分.
-(图1)
-【训练题】
+略证  设$n=k$时, $k$个圆将平面分成$k^2-k+2$个部分(如图), 则当$n=k+1$时, 第$k+1$个圆$C_{k+1}$交前面$k$个圆于$2k$个点, 这$2k$个点将圆$C_{k+1}$分成$2k$段, 每段将各自所在区域一分为二, 因此增加了$2k$个区域, 于是这$k+1$个圆将平面分成$k^2-k+2+2k$个部分, 即$(k+1)^2-(k+1)+2$个部分.
+\begin{center}
+    \begin{tikzpicture}
+        \draw (0,0) circle (1);
+        \draw (0.5,0.6) circle (1.2);
+        \draw (0.8,0.2) circle (1.1);
+        \draw [very thick] (-1.3,0.9) circle (1.5);
+    \end{tikzpicture}
+\end{center}
 \item 利用数学归纳法证明``$1+a+a^2+\cdots +a^{n+1}=\dfrac{1-{a^{n+2}}}{1-a}$($a\ne 1$, $n\in \mathbf{N}$)''时, 在验证$n=1$成立时, 左边应该是()
 \fourch{1}{$1+a$}{$1+a+a^2$}{$1+a+a^2+a^3$}
 \item 欲用数学归纳法证明``对于足够大的自然数$n$, 总有$2^n>n^3$'', 则验证不等式成立所取的第一个$n$值, 最小应当是()

@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  19 JUL 2022 10:30
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  19 JUL 2022 17:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**精编第四章三角函数
-(./精编第四章三角函数.tex
+**精编第八章复数
+(./精编第八章复数.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -597,7 +597,9 @@ File: pgflibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfdecorationsegmentlength=\dimen303
 )
 \tikz@lib@dec@box=\box69
-) (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryangles.code.tex
+File: tikzlibraryangles.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box70
 \beforetitleunit=\skip69
@@ -636,8 +638,8 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \c@coro=\count333
 \c@axiom=\count334
 \c@prop=\count335
- (./精编第四章三角函数.aux)
-\openout1 = `精编第四章三角函数.aux'.
+ (./精编第八章复数.aux)
+\openout1 = `精编第八章复数.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
@@ -760,50 +762,64 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 49.
  (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \hbox (10.58746pt too wide) in paragraph at lines 77--79
-[]\TU/华文中宋(0)/m/n/10 求 证 $[] \OT1/cmr/m/n/10 = []$\TU/lmr/m/n/10 . \TU/华文中宋(0)/m/n/10 解 答 在 这 里 因 为 $[] \OT1/cmr/m/n/10 = [] =
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 70.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 70.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 70.
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 67--74
+[][]
  []
 
 
-Overfull \hbox (5.41241pt too wide) in paragraph at lines 77--79
-[] \OT1/cmr/m/n/10 = [] = [] \OML/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 + [] \OML/cmm/m/it/10 ^^K \OT1/cmr/m/n/10 = [] +
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 75--76
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 77--78
+[][] 
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 82--82
+\OT1/cmr/m/n/10 6[]$ \TU/华文中宋(0)/m/n/10 所 对 应 的 点 在 第 二 象
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 82--83
+[][] 
  []
 
 [1
 
 ]
-LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 84.
- (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 84.
- (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 84.
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 85--86
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 84--85
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 89--90
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 86--87
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 91--92
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 88--89
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 95--96
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 97--98
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 90--91
 [][] 
  []
 
@@ -822,244 +838,404 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 121--122
 [][] 
  []
 
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 123--124
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 127--128
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 129--130
-[][] 
- []
-
+Missing character: There is no ∵ (U+2235) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
 [3]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 142--143
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ∵ (U+2235) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+ [4]
+Missing character: There is no ∵ (U+2235) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∵ (U+2235) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+
+Overfull \hbox (26.5529pt too wide) in paragraph at lines 224--230
+[]\TU/华文中宋(0)/m/n/10 若 $\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 z \OT1/cmr/m/n/10 + []\OMS/cmsy/m/n/10 j \OT1/cmr/m/n/10 = 1$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 求 $\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 z\OMS/cmsy/m/n/10 j$ \TU/华文中宋(0)/m/n/10 的 取 值 范 围\TU/lmr/m/n/10 . \TU/华文中宋(0)/m/n/10 解 由 $\OMS/cmsy/m/n/10 jj\OML/cmm/m/it/10 z\OMS/cmsy/m/n/10 j ^^@ j[]jj ^^T j\OML/cmm/m/it/10 z \OT1/cmr/m/n/10 + []\OMS/cmsy/m/n/10 j$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 得 $\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^T j\OML/cmm/m/it/10 z\OMS/cmsy/m/n/10 j ^^@ [] ^^T \OT1/cmr/m/n/10 1$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 即 $[]$\TU/lmr/m/n/10 ∴$[] \OMS/cmsy/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 231--232
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 150--151
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 154--155
-[][] 
- []
-
-[4]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 156--157
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 158--159
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 160--161
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 162--163
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 164--165
-[][] 
- []
-
-[5]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 187--188
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 189--190
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 191--192
-[][] 
- []
-
-[6]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 209--210
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 211--212
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 215--216
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 219--220
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 221--222
-[][] 
- []
-
-[7]
 Overfull \hbox (22.22168pt too wide) in paragraph at lines 233--234
 [][] 
  []
 
-
+[5]
 Overfull \hbox (22.22168pt too wide) in paragraph at lines 235--236
 [][] 
  []
 
-[8] [9] [10]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 374--376
-[][]
- []
 
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 384--386
-[][]
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 394--396
-[][]
- []
-
-[11]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 397--398
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 237--238
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 401--402
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 244--245
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 405--406
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 246--247
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 407--408
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 248--249
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 411--412
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 250--251
 [][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 252--253
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 254--255
+[][] 
+ []
+
+[6]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 271--272
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 273--274
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 275--276
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 277--278
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 279--280
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 281--282
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 283--284
+[][] 
+ []
+
+
+Overfull \hbox (29.98627pt too wide) in paragraph at lines 291--297
+[]\TU/lmr/m/n/10 (1)$\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 )[]$ \TU/华文中宋(0)/m/n/10 的 虚 部 是$[]$\TU/lmr/m/n/10 . (2) \TU/华文中宋(0)/m/n/10 计 算 $\OT1/cmr/m/n/10 (1 + \OML/cmm/m/it/10 i\OT1/cmr/m/n/10 )[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 i\OT1/cmr/m/n/10 )[] =$$[]$\TU/lmr/m/n/10 . (3) \TU/华文中宋(0)/m/n/10 计 算 $[] \OT1/cmr/m/n/10 + [] =$$[]$\TU/lmr/m/n/10 .
+ []
+
+[7]
+Overfull \hbox (11.38849pt too wide) in paragraph at lines 300--306
+[]\TU/华文中宋(0)/m/n/10 计 算 下 列 各 题\TU/lmr/m/n/10 : (1)$\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 )[] =$$[]$\TU/lmr/m/n/10 . (2)$[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . (3)$\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 i[] \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 i[] \OMS/cmsy/m/n/10 ^^A [] ^^A \OML/cmm/m/it/10 i[] \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 .
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 307--308
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 309--310
+[][] 
+ []
+
+Missing character: There is no ⑥ (U+2465) in font [lmroman10-regular]:mapping=tex-text;!
+[8]
+Missing character: There is no ∵ (U+2235) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+ [9]
+Missing character: There is no ∵ (U+2235) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∵ (U+2235) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+ [10]
+Missing character: There is no ∵ (U+2235) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∵ (U+2235) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∵ (U+2235) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+ [11]
+Missing character: There is no ∵ (U+2235) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∵ (U+2235) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∵ (U+2235) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+
+Overfull \hbox (173.20747pt too wide) in paragraph at lines 566--573
+\OML/cmm/m/it/10 B \OT1/cmr/m/n/10 = [] [] []$\TU/lmr/m/n/10 . \TU/华文中宋(0)/m/n/10 证 明 设 $\OML/cmm/m/it/10 z \OT1/cmr/m/n/10 = [] [] + \OML/cmm/m/it/10 i [] []$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 $[]$
  []
 
 [12]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 429--430
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 431--432
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 477--478
-[][] 
- []
-
-[13]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 496--497
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 498--499
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 500--501
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 513--514
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 564--565
-[][] 
- []
-
-[14]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 566--567
-[][] 
- []
-
-
 Overfull \hbox (22.22168pt too wide) in paragraph at lines 574--575
 [][] 
  []
 
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 576--577
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 578--579
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 580--581
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 582--583
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 584--585
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 586--587
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 588--589
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 590--591
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 592--593
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 594--594
+[]|\TU/lmr/m/n/10 D. $\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 + 1)\OML/cmm/m/it/10 ^^Y \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 594--595
+[][] 
+ []
+
+[13]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 596--597
+[][] 
+ []
+
+
+Overfull \hbox (13.49484pt too wide) in paragraph at lines 597--603
+[]\TU/华文中宋(0)/m/n/10 将 下 列 复 数 化 为 三 角 形 式\TU/lmr/m/n/10 : (1)$\OT1/cmr/m/n/10 2([] [] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 i [] []\OT1/cmr/m/n/10 ) =$$[]$\TU/lmr/m/n/10 . (2)$\OT1/cmr/m/n/10 2([] [] + \OML/cmm/m/it/10 i [] []\OT1/cmr/m/n/10 ) =$$[]$\TU/lmr/m/n/10 . (3)$\OT1/cmr/m/n/10 2(\OMS/cmsy/m/n/10 ^^@ [] [] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 604--605
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 606--607
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 608--609
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 610--611
+[][] 
+ []
+
+[14]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 634--635
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 650--651
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 652--653
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 654--655
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 656--657
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 658--659
+[][] 
+ []
+
+
+Overfull \hbox (91.23888pt too wide) in paragraph at lines 659--662
+\TU/lmr/m/n/10 (2)$\OT1/cmr/m/n/10 ([] 1[] + \OML/cmm/m/it/10 i [] \OT1/cmr/m/n/10 1[])([] 2[] + \OML/cmm/m/it/10 i [] \OT1/cmr/m/n/10 2[])([] 3[] + \OML/cmm/m/it/10 i [] \OT1/cmr/m/n/10 3[]) [] ([] 359[] + \OML/cmm/m/it/10 i [] \OT1/cmr/m/n/10 359[]) =$$[]$\TU/lmr/m/n/10 . (3) \TU/华文中宋(0)/m/n/10 若 $[]$
+ []
+
 [15]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 583--584
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 677--678
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 585--586
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 679--680
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 587--588
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 681--682
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 591--592
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 683--685
+[][]
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 685--686
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 593--594
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 687--688
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 603--604
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 689--693
+[][]
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 694--695
 [][] 
  []
 
 [16]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 607--608
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 696--697
 [][] 
  []
 
-[17] [18] (./精编第四章三角函数.aux) ) 
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 730--731
+[][] 
+ []
+
+[17] [18]
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∵ (U+2235) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+ [19]
+Missing character: There is no ∵ (U+2235) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+ [20]
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∴ (U+2234) in font [lmroman10-regular]:mapping=tex-text;!
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 892--893
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 894--895
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 896--897
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 898--899
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 900--901
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 902--903
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 906--907
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 908--909
+[][] 
+ []
+
+[21] [22] [23] [24] (./精编第八章复数.aux) ) 
 Here is how much of TeX's memory you used:
- 21727 strings out of 476919
- 497293 string characters out of 5825424
- 840706 words of memory out of 5000000
- 41306 multiletter control sequences out of 15000+600000
+ 21524 strings out of 476919
+ 493500 string characters out of 5825424
+ 843162 words of memory out of 5000000
+ 41100 multiletter control sequences out of 15000+600000
  406095 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,13n,104p,544b,941s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,14n,104p,551b,1097s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 精编第四章三角函数.pdf (18 pages).
+Output written on 精编第八章复数.pdf (24 pages).
