@@ -8,7 +8,7 @@
 \usepackage{longtable}
 %\usepackage{mathptmx}
 
-\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing}
+\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing,3d}
 \usepackage[bf,small,indentafter,pagestyles]{titlesec}
 \usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
 \renewcommand{\baselinestretch}{1.65}
@@ -152,7 +152,7 @@ $\because|\sin (x-\varphi)|\le 1$, $\therefore \dfrac{2y}{\sqrt {3+y^2}}\le 1$, 
 (2)函数$y=3\sin 2x+3\sqrt 3\cos 2x+1$的最小正周期是\blank{50}, 最大值是\blank{50}, 最小值是\blank{50}.
 \item 若$\alpha$是一个三角形的最小内角, 则函数$y=\sin \alpha -\cos \alpha$的值域为()
 \fourch{$[-\sqrt 2,\sqrt 2]$}{$(-1,\dfrac{\sqrt 3-1}2)$}{$(-1,\dfrac{\sqrt 3-1}2]$}{$[-1,\dfrac{\sqrt 3-1}2]$}
-\item 若函数$f(x)=\sin 2x+a\cos 2x$的图象关于直线$x=-\dfrac{\pi }8$对称, 则实数$a$的值等于()
+\item 若函数$f(x)=\sin 2x+a\cos 2x$的图像关于直线$x=-\dfrac{\pi }8$对称, 则实数$a$的值等于()
 \fourch{$\sqrt 2$}{$-\sqrt 2$}{1}{-1}
 \item (1)若以$\sin (45^\circ -\alpha)=-\dfrac 23$, $\dfrac{\pi }4<\alpha <\dfrac{\pi }2$, 则$\sin \alpha =$\blank{50}.
 (2)计算: $\dfrac{\sin 7^\circ +\sin 8^\circ \cos 15^\circ }{\cos 7^\circ -\sin 8^\circ \sin 15^\circ }=$\blank{50}.
@@ -422,11 +422,11 @@ $\cos (A+B)=2\cos ^2\dfrac{A+B}2-1=2\sin ^2\dfrac C2-1=1-2\sin ^2\dfrac{A+B}2=1-
 \fourch{$-\dfrac{2\pi }3$}{$-\dfrac{\pi }3$}{$\dfrac{\pi }3$}{$\dfrac{2\pi }3$}
 \item 若$x>0$, $y>0$, $0<x+y<2\pi$, 则$f(x)=\sin (x+y)-\sin x-\sin y$的值()
 \fourch{恒大于零}{恒小于零}{恒等于零}{符号随$x,y$的取值而定}
-\item 函数$y=\sin (2x-\dfrac{\pi }6)-\cos 2x$的图象, 可由函数$y=\sqrt 3\sin 2x$的图象()
+\item 函数$y=\sin (2x-\dfrac{\pi }6)-\cos 2x$的图像, 可由函数$y=\sqrt 3\sin 2x$的图像()
 \fourch{向右平移$\dfrac{\pi }3$个单位长度得到}{向左平移$\dfrac{\pi }3$个单位长度得到}{向右平移$\dfrac{\pi }6$个单位长度得到}{向左平移$\dfrac{\pi }6$个单位长度得到}
 \item 在``\textcircled{1} $\cos 40^\circ +\sqrt 3\sin 40^\circ =2\cos 20^\circ$, \textcircled{2} $1+2\cos 20^\circ =4\cos 20^\circ \cos 40^\circ$, \textcircled{3} $\dfrac{\sin 40^\circ }{1+\cos 40^\circ }=\cot 70^\circ$, \textcircled{4} $\dfrac{1-\tan 40^\circ }{1+\tan 40^\circ }=\tan 20^\circ$''这四个式子中, 成立的个数是()
 \fourch{1}{2}{3}{4}
-*112.已知$\cos 36^\circ \cos 72^\circ =\dfrac 14$, 求下列各式的值:
+\item 已知$\cos 36^\circ \cos 72^\circ =\dfrac 14$, 求下列各式的值:
 (1)$\cos 36^\circ -\cos 72^\circ$.				(2)$\cos ^2(\dfrac\pi 5)+\sin ^2(\dfrac \pi {10})$.
 (3)$\cos 12^\circ -\cos 24^\circ -\cos 48^\circ +\cos 84^\circ$.
 \item 求下列各式的值:
@@ -500,10 +500,20 @@ $=2R[(\cos A-\cos B)+(\cos B-\cos C)+(\cos C-\cos A)]=0=$右边,
 $\cos C=\dfrac{a^2+b^2-c^2}{2ab}=\dfrac{a^2+(\dfrac{a+c}2)^2-c^2}{a(a+c)}=\dfrac{5a^2+2ac-3c^2}{4a(a+c)}=\dfrac {(5a-3c)(a+c)}{4a(a+c)}=\dfrac{5a-3c}{4a}$.
 于是$\dfrac a{2c}=\dfrac{5a-3c}{4a}$, 整理得$(2a-3c)(a-c)=0$.
 ∵$a\ne c$, ∴$2a=3c$.∵$a+c=8$, ∴$a=\dfrac{24}5$, $c=\dfrac{16}5$.
-\item 如图1, 海岛$O$上有一座海拔1000米的山, 山顶上设有一个观察站$A$, 上午11时测得一轮船在岛北偏东60°的$C$处, 俯角为30°; 11时10分又测得该船在岛的北偏西60°的$B$处, 俯角为60°.
+\item 如图, 海岛$O$上有一座海拔1000米的山, 山顶上设有一个观察站$A$, 上午11时测得一轮船在岛北偏东60°的$C$处, 俯角为30°; 11时10分又测得该船在岛的北偏西60°的$B$处, 俯角为60°.
 (1)该船的速度为每小时多少千米?
 (2)若此船以不变航速继续前进, 则它何时到达岛的正西方向? 此时所在点$E$离开海岛多少千米?
-(图1)
+\begin{center}
+    \begin{tikzpicture}[scale = 2, >=stealth]
+        \draw (0,0,0) node [below] {$O$} coordinate (O) -- (0,1,0) node [above] {$A$} coordinate (A);
+        \draw (0,0,0) -- (1.5,0,{-0.5*sqrt(3)}) node [right] {$C$} coordinate (C);
+        \draw (0,0,0) -- (-0.5,0,{-0.5/sqrt(3)}) node [above left] {$B$} coordinate (B);
+        \draw ($(C)!1.5!(B)$) node [left] {$E$} coordinate (E) -- (B) (E) -- (O);
+        \draw [dashed] (B) -- (C);
+        \draw (B) -- (A) -- (C);
+        \draw [->] (0,0,0) -- (1,0,0) node [below] {东}; \draw [->] (0,0,0) -- (0,0,-1) node [above right] {北};
+    \end{tikzpicture}
+\end{center}
 解  (1)在Rt$\triangle ABC$与Rt$\triangle AOC$中, 求得$OB=OA\tan 30^\circ =\dfrac{\sqrt 3}3$(千米),
 $OC=OA\tan 60^{\circ }=\sqrt 3$(千米).由余弦定理, 得
 $\begin{cases} BC=\sqrt {OB^2+OC^2-2\cdot OB\cdot OC\cos \angle BOC} \\ =\sqrt {\dfrac 39+3-2(-\dfrac 12)}=\sqrt {\dfrac{13}3,}
@@ -694,7 +704,7 @@ $OE=\dfrac{OB\cdot \sin \angle EBO}{\sin \angle BEO}=\dfrac 32$(千米), $BE=\df
 \item 如图, 已知$P$为$\triangle ABC$内一点, 且满足$\angle PAB=\angle PBC=\angle PCA=\theta$, 求证: $\cot \theta =\cot A+\cot B+\cot C$.
 (第174题)
 \item 若不等式$\dfrac{(x^2+1)\cos \theta -x(\cos \theta -5)+3}{x^2-x+1}>\sin \theta -1$对任意实数$x$恒成立, 求$\theta$的取值范围.
-\item 已知函数$f(x)=a+b\cos x+c\sin x$的图象过两点(0, 1), $(\dfrac{\pi }2,1)$, 且当$x\in [0,\dfrac{\pi }2]$时, $|f(x)|\le 2$, 求实数$a$的取值范围.
+\item 已知函数$f(x)=a+b\cos x+c\sin x$的图像过两点(0, 1), $(\dfrac{\pi }2,1)$, 且当$x\in [0,\dfrac{\pi }2]$时, $|f(x)|\le 2$, 求实数$a$的取值范围.
 \item (1)已知$\odot O$的半径为$R$, 它的内接三角形$ABC$满足关系式$2R(\sin ^2A-\sin ^2C)=(\sqrt 2a-b)\sin B$, 求$\triangle ABC$面积的最大值.
 (2)如图, 已知扇形$AOB$的中心角为45°, 半径为1, 矩形$MNPQ$内接于扇形, 使$P,Q$点在半径$OA$上, 求矩形$MNPQ$的对角线$PM$的最小值.
 (3)如图, 已知$P$是正方形$ABCD$内一点, $PQ\perp BC$, $PR\perp CD$, ($Q,R$为垂足), $AB=10$, $AP=9$, 求矩形面积的最大值、最小值.
