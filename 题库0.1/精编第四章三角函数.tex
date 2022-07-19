@@ -325,107 +325,173 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 (2) 若$y\ne 1$, 则$\tan x\in \mathbf{R}$, 得$\triangle =(y+1)^2-4(y-1)^2\ge 0$, 于是$\dfrac 13\le y\le 3$且$y\ne 1$.\\
 综含(1), (2)知, 函数的值域是$[\dfrac 13,3]$.
 \item 解不等式$\sin x\le \dfrac 12$.\\
-解答在这里  在单位圆内绘出$\sin x=\dfrac 12$的正弦线*****(如图4), 并结合$y=\sin x$的单调性, 可得$2k\pi -\dfrac{7\pi}6\le x\le 2k\pi +\dfrac{\pi}6$($k\in \mathbf{Z}$).
-\blank{50}(图4)\blank{50}(图5)
-\item 解不等式$|\cos 2x|\le \dfrac 12$.
-解  原不等式为$-\dfrac 12\le \cos 2x\le \dfrac 12$.由图5, 可得$k\pi +\dfrac{\pi}3\le 2x\le k\pi +\dfrac{2\pi}3$,
-于是$\dfrac{k\pi}2+\dfrac{\pi}6\le x\le \dfrac{k\pi}2+\dfrac{\pi}3$($k\in \mathbf{Z}$).
-\item 解不等式$\tan \dfrac x2\ge \sqrt 3$.
-解  由图6, 可得$k\pi +\dfrac{\pi}3\le \dfrac x2\le k\pi +\dfrac{\pi}2$,
+解答在这里  在单位圆内绘出$\sin x=\dfrac 12$的正弦线(如图), 并结合$y=\sin x$的单调性, 可得$2k\pi -\dfrac{7\pi}6\le x\le 2k\pi +\dfrac{\pi}6$($k\in \mathbf{Z}$).
+\begin{center}
+    \begin{tikzpicture}[>=stealth,scale = 2]
+        \filldraw [gray!20] (0,0) -- (150:1) arc (150:390:1) -- cycle;
+        \draw [->] (-1.2,0) -- (1.2,0) node [below] {$x$};
+        \draw [->] (0,-1.2) -- (0,1.2) node [left] {$y$};
+        \draw (0,0) node [below left] {$O$};
+        \draw (0,0) circle (1);
+        \draw (30:1) -- (0,0) -- (150:1);
+        \draw [dashed] (30:1) -- (150:1);
+        \draw (30:1) node [right] {$\dfrac \pi 6$} (150:1) node [left] {$\dfrac {5\pi}6$};
+        \draw (0,0.5) node [above right] {$\dfrac 12$};
+    \end{tikzpicture}
+\end{center}
+\item 解不等式$|\cos 2x|\le \dfrac 12$.\\
+解答在这里  原不等式为$-\dfrac 12\le \cos 2x\le \dfrac 12$.如图, 可得$k\pi +\dfrac{\pi}3\le 2x\le k\pi +\dfrac{2\pi}3$, 于是$\dfrac{k\pi}2+\dfrac{\pi}6\le x\le \dfrac{k\pi}2+\dfrac{\pi}3$($k\in \mathbf{Z}$).
+\begin{center}
+    \begin{tikzpicture}[>=stealth,scale = 2]
+        \filldraw [gray!20] (0,0) -- (60:1) arc (60:120:1) -- cycle;
+        \filldraw [gray!20] (0,0) -- (240:1) arc (240:300:1) -- cycle;
+        \draw [->] (-1.2,0) -- (1.2,0) node [below] {$x$};
+        \draw [->] (0,-1.2) -- (0,1.2) node [left] {$y$};
+        \draw (0,0) node [below left] {$O$};
+        \draw (0,0) circle (1);
+        \draw (60:1) node [above] {$\dfrac\pi 3$} -- (240:1) node [below] {$\dfrac{4\pi} 3$} (120:1) node [above] {$\dfrac{2\pi} 3$}-- (300:1) node [below] {$\dfrac{5\pi} 3$};
+        \draw [dashed] (60:1) -- (300:1) (120:1) -- (240:1);
+        \draw (0.5,0) node [below right] {$\dfrac 12$};
+        \draw (-0.5,0) node [below left] {$-\dfrac 12$};
+    \end{tikzpicture}
+\end{center}
+\item 解不等式$\tan \dfrac x2\ge \sqrt 3$.\\
+解答在这里  如图, 可得$k\pi +\dfrac{\pi}3\le \dfrac x2\le k\pi +\dfrac{\pi}2$,
 所以$ 2k\pi +\dfrac{2\pi}3\le x<2k\pi +\pi$($k\in \mathbf{Z}$).
-(图6)
-注意  有关$\sin x,\cos x,\tan x$等的简单不等式, 通常可在单位圆中利用三角函数线的知识求解.
-\item 函数图像的``平移''和坐标的``伸缩''
-(1)图像的``平移''.
-容易证明, 函数$y=f(x-m)$($m>0$)的图像可由函数$y=f(x)$的图像向右平移$m$个单位长度得到, 而函数$y=f(x+m)$($m>0$)的图像可由函数$y=f(x)$的图像向左平移$m$个单位长度得到.
+\begin{center}
+    \begin{tikzpicture}[>=latex, scale = 2]
+        \filldraw [gray!20] (60:1) arc (60:90:1) -- (0,0) -- cycle;
+        \filldraw [gray!20] (240:1) arc (240:270:1) -- (0,0) -- cycle;
+        \draw [->] (-1.2,0) -- (1.2,0) node [below] {$x$};
+        \draw [->] (0,-1.2) -- (0,1.2) node [left] {$y$};
+        \draw (0,0) node [below left] {$O$};
+        \draw (0,0) circle (1);
+        \draw (240:1) -- (60:2) -- (1,0);
+        \draw (60:1) node [above] {$\dfrac \pi 3$};         
+    \end{tikzpicture}
+\end{center}
 \item 在同一个坐标系内, 为了得到$y=3\sin (2x+\dfrac{\pi}4)$的图像, 只需将$y=3\cos 2x$的图像\bracket{20}.
 \fourch{向左平移$\dfrac{\pi}4$}{向右平移$\dfrac{\pi}4$}{向左平移$\dfrac{\pi}8$}{向右平移$\dfrac{\pi}8$}
-解  令$f(x)=3\cos 2x$, 则
-$\begin{cases} f(x-m)=3\cos 2(x-m)=3\cos (2x-2m)=3\cos (2m-2x)=3\sin [\dfrac{\pi}2-(2m-2x)] \\ =3\sin (2x+\dfrac{\pi}2-2m).
-\end{cases}$按题意应有$3\sin (2x+\dfrac{\pi}2-2m)=3\sin (2x+\dfrac{\pi}4)$.
-令$\dfrac{\pi}2-2m=\dfrac{\pi}4$, 得$m=\dfrac{\pi}8$, 故选D.
+解答在这里  令$f(x)=3\cos 2x$, 则
+\begin{align*}f(x-m)&=3\cos 2(x-m)=3\cos (2x-2m)=3\cos (2m-2x)=3\sin [\dfrac{\pi}2-(2m-2x)] \\ &=3\sin (2x+\dfrac{\pi}2-2m).
+\end{align*}
+按题意应有$3\sin (2x+\dfrac{\pi}2-2m)=3\sin (2x+\dfrac{\pi}4)$.
+令$\dfrac{\pi}2-2m=\dfrac{\pi}4$, 得$m=\dfrac{\pi}8$, 故选D.\\
 也可以这样解:
-因为$ f(x)=3\sin (2x+\dfrac{\pi}4)=3\cos [(2x+\dfrac{\pi}4)-\dfrac{\pi}2]$
-\blank{50}$=3\cos (2x-\dfrac{\pi}4)=3\cos [2(x-\dfrac{\pi}8)]=f(x-\dfrac{\pi}8)$,
+因为$f(x)=3\sin (2x+\dfrac{\pi}4)=3\cos [(2x+\dfrac{\pi}4)-\dfrac{\pi}2]=3\cos (2x-\dfrac{\pi}4)=3\cos [2(x-\dfrac{\pi}8)]=f(x-\dfrac{\pi}8)$,
 所以选D.
-(2)坐标的``伸缩''.
-容易证明, 函数$y=f(\dfrac xk)$($k>0$)的图像, 可由将$y=f(x)$图像上每—点的横坐标伸长到原来的$k$倍(纵坐标不变)而得到.
 \item 将函数$y=\cos x$图像上每一点的纵坐标保持不变, 横坐标缩小为原来的一半, 再将所得图像沿$x$轴向左平移$\dfrac{\pi}4$个单位长度, 则与所得新图像对应的函数的解析式为\bracket{20}.
 \fourch{$y=\cos (2x+\dfrac{\pi}4)$}{$y=\cos (2x-\dfrac{\pi}4)$}{$y=\sin 2x$}{$y=-\sin 2x$}
-解  横坐标缩小为原来的一半, 可理解为伸长到原来的$\dfrac 12$, 故先得到函数$y=\cos \dfrac x{\dfrac 12}=\cos 2x$.再向左平移$\dfrac{\pi}4$后, 得$y=\cos 2(x+\dfrac{\pi}4)$, 即$y=\cos (2x+\dfrac{\pi}2)=-\sin 2x$, 故选D.
-\item 函数$y=3\sin x$的图像经过怎样的变换后, 可得到$y=3\sin (\dfrac x2-\dfrac{\pi}4)$的图像?
-解法一  先``伸缩'', 后``平移''.
+解答在这里  横坐标缩小为原来的一半, 可理解为伸长到原来的$\dfrac 12$, 故先得到函数$y=\cos \dfrac x{\dfrac 12}=\cos 2x$.再向左平移$\dfrac{\pi}4$后, 得$y=\cos 2(x+\dfrac{\pi}4)$, 即$y=\cos (2x+\dfrac{\pi}2)=-\sin 2x$, 故选D.
+\item 函数$y=3\sin x$的图像经过怎样的变换后, 可得到$y=3\sin (\dfrac x2-\dfrac{\pi}4)$的图像?\\
+解答在这里 解法一  先``伸缩'', 后``平移''.
 第一步: 将函数$y=3\sin x$的图像上的每一点, 纵坐标保持不变, 横坐标伸长到原来的2倍.得到函数$y=3\sin \dfrac x2$的图像.
-第二步: 将函数$y=3\sin \dfrac x2$的图像向右平移$\dfrac{\pi}2$个单位长度, 便得到函数$y=3\sin \dfrac 12(x-\dfrac{\pi}2)=3\sin (\dfrac x2-\dfrac{\pi}4)$的图像.
+第二步: 将函数$y=3\sin \dfrac x2$的图像向右平移$\dfrac{\pi}2$个单位长度, 便得到函数$y=3\sin \dfrac 12(x-\dfrac{\pi}2)=3\sin (\dfrac x2-\dfrac{\pi}4)$的图像.\\
 解法二  先``平移'', 后``伸缩''.
 第一步: 将函数$y=3\sin x$的图像, 向右平移$\dfrac{\pi}4$个单位长度, 得到函数$y=3\sin (x-\dfrac{\pi}4)$的图像.
 第二步: 将函数$y=3\sin (x-\dfrac{\pi}4)$的每一点, 纵坐标保持不变, 横坐标伸长到原来的2倍, 得到函数$y=3\sin (\dfrac x2-\dfrac{\pi}4)$的图像.
-\item 函数$y=A\sin (\omega x+\varphi)=\pm 1$($A\ne 0$)的对称轴.
-观察图7, 易求出$\sin (\omega x+\varphi)=\pm 1$的解$x_0$, 则直线$x=x_0$便是函数$y=A\sin (\omega x+\varphi)$图像的对称轴.
-(图7)
 \item 函数$y=\sin (2x+\dfrac{\pi}4)$图像的一条对称轴是直线\bracket{20}.
 \fourch{$x=\dfrac{3\pi}4$}{$x=-\dfrac{3\pi}4$}{$x=\dfrac{3\pi}8$}{$x=-\dfrac{3\pi}8$}
-解  以$x=-\dfrac{3\pi}8$代入, 得$\sin [1(-\dfrac{3\pi}8)+\dfrac{\pi}4]=\sin (-\dfrac{\pi}2)=-1$, 故选D.
-注意  若令$\sin (2x+\dfrac{\pi}4)=\pm 1$, 可得$2x+\dfrac{\pi}4=k\pi +\dfrac{\pi}2$, 即得$x=\dfrac{k\pi}2+\dfrac{\pi}8$($k\in \mathbf{Z}$), 故函数$y=\sin (2x+\dfrac{\pi}4)$图像的对称轴直线的一般形式是$x=\dfrac{k\pi}2+\dfrac{\pi}8$($k\in \mathbf{Z}$).
-请读者思考: 若函数$f(x)=3\cos (2x+\varphi)$是偶函数, 则$\varphi$的值应取什么?
-【训练题】
-(一)正弦函数、余弦函数的图像和性质
+解答在这里 以$x=-\dfrac{3\pi}8$代入, 得$\sin [1(-\dfrac{3\pi}8)+\dfrac{\pi}4]=\sin (-\dfrac{\pi}2)=-1$, 故选D.
 \item 若$MP,OM,AT$分别是$60^\circ$角的正弦线、余弦线和正切线, 则\bracket{20}.
 \fourch{$MP<OM<AT$}{$OM<MP<AT$}{$AT<OM<MP$}{$OM<AT<MP$}
 \item 在同一坐标系内, 曲线$y=\sin x$与$y=\cos x$的交点坐标是\bracket{20}.
-\fourch{$(2k\pi +\dfrac{\pi}2,1)$}{$(k\pi +\dfrac{\pi}2,(-1)^k)$}{$(k\pi +\dfrac{\pi}4,\dfrac{(-1)^k}{\sqrt 2})$}{$(k\pi ,0)$($k\in \mathbf{Z}$)}
-\item 函数$y=\log _{\dfrac 12}(\sin 2x)$为减函数的区间是\bracket{20}.
+\twoch{$(2k\pi +\dfrac{\pi}2,1)$($k\in \mathbf{Z}$)}{$(k\pi +\dfrac{\pi}2,(-1)^k)$($k\in \mathbf{Z}$)}{$(k\pi +\dfrac{\pi}4,\dfrac{(-1)^k}{\sqrt 2})$($k\in \mathbf{Z}$)}{$(k\pi ,0)$($k\in \mathbf{Z}$)}
+\item 函数$y=\log _{\frac 12}(\sin 2x)$为减函数的区间是\bracket{20}.
 \fourch{$(k\pi ,k\pi +\dfrac{\pi}4]$, $k\in \mathbf{Z}$}{$(k\pi ,k\pi +\dfrac{\pi}2]$, $k\in \mathbf{Z}$}{$(2k\pi ,2k\pi +\dfrac{\pi}4]$, $k\in \mathbf{Z}$}{$(2k\pi ,2k\pi +\dfrac{\pi}2]$, $k\in \mathbf{Z}$}
 \item 函数$y=\lg (1-\sin x)-\lg (1+\sin x)$(.)
-\fourch{是奇函数, 但非偶函数}{是偶函数, 但非奇函数}{既不是奇函数, 也不是偶函数}{奇偶性无法确定}
+\twoch{是奇函数, 但非偶函数}{是偶函数, 但非奇函数}{既不是奇函数, 也不是偶函数}{奇偶性无法确定}
 \item 若$0<x<\dfrac 12$, 则下列各式不成立的是\bracket{20}.
 \fourch{$\sin (1+x)>\sin x$}{$\cos (1+x)<\cos x$}{$(1+x)^x>x^x$}{$\log _x(1+x)>\log _xx$}
 \item 若函数$y=\cos (\sin x)$, 则下列结论正确的是\bracket{20}.
 \fourch{它的定义域是[-1, 1]}{它是奇函数}{它的值域是$[\cos 1,1]$}{它不是周期函数}
 \item 下列四个函数中, 是偶函数且在$[0,\dfrac{\pi}2]$上为增函数, 但不是周期函数的函数是\bracket{20}.
-\fourch{$y=|\sin x|$($x\in \mathbf{R}$)}{$y=|\cos x|$($x\in \mathbf{R}$)}{$y=\sin|x|$($x\in \mathbf{R}$)}{$y=|\sin x|+|\cos x|$($x\in \mathbf{R}$)}
+\twoch{$y=|\sin x|$($x\in \mathbf{R}$)}{$y=|\cos x|$($x\in \mathbf{R}$)}{$y=\sin|x|$($x\in \mathbf{R}$)}{$y=|\sin x|+|\cos x|$($x\in \mathbf{R}$)}
 \item 下列函数中, 既在$(0,\dfrac{\pi}2)$上是增函数, 又是以$\pi$为最小正周期的偶函数是\bracket{20}.
 \fourch{$y=x^2|\cos x|$}{$y=\cos 2x$}{$y=|\sin x|$}{$y=|\sin 2x|$}
 \item 要使$\sqrt {(1+2\sin \theta)^2}=-(1+2\sin \theta)$, 则$\theta$的取值范围是\bracket{20}.
-\fourch{第三、四象限}{$[2k\pi -\dfrac{5\pi}6,2k\pi -\dfrac{\pi}6]$}{$[2k\pi -\dfrac{\pi}6,2k\pi +\dfrac{7\pi}6]$}{$[2k\pi -\dfrac{7\pi}6,2k\pi -\dfrac{\pi}6]$($k\in \mathbf{Z}$)}
-\item (1)设$\cos ^2x+4\sin x-a=0$($a,x\in \mathbf{R}$), 则$a$的取值范围是\blank{50}.
-(2)函数$y=1-2\sin x+3\cos ^2x$的值域是\blank{50}.
-(3)函数$y=\sin ^2x+2\cos x(-\dfrac{\pi}3\le x\le \dfrac 23\pi)$的值域是\blank{50}.
-(4)函数$y=\dfrac{3\cos x+1}{\cos x+2}$的值域是\blank{50}.
-(5)函数$f(x)=\log _{\dfrac 12}(2\sin x)$的最小值是\blank{50}.
-\item 将下列各数由小到大排列:
-(1)$\sin 46^\circ ,\cos 46^\circ ,\cos 36^\circ$:\blank{50}.
-(2)$\sin 2,\cos 2,\tan 2$:\blank{50}.
-(3)$\log _x\sin \dfrac x2,\log _x\cos \dfrac x2$($0<x<1$):\blank{50}.
-(4)$\cos 1^\circ ,\sin 1^\circ ,\cos 1,\sin 1$:\blank{50}.
-\item (1)在$[0,2\pi]$中, 满足$\sin x\ge \dfrac 12$的$x$的取值范围是\blank{50}.
-(2)不等式$\sin x\le \dfrac 12$的解为\blank{50}.
-(3)不等式$|\cos 2x|\le \dfrac 12$的解为\blank{50}.
-(4)若集合$M=\{\theta|\sin \theta \ge \dfrac 12,0\le \theta \le \pi\}$, $P=\{\theta|\cos \theta \le \dfrac 12,0<\theta \le \pi\}$, 则$M\cap P=$\blank{50}.
-(5)若$-\pi \le x\le \pi$, 则不等式$\log _2(1+2\cos x)<1$的解为\blank{50}.
+\twoch{第三、四象限}{$[2k\pi -\dfrac{5\pi}6,2k\pi -\dfrac{\pi}6]$($k\in \mathbf{Z}$)}{$[2k\pi -\dfrac{\pi}6,2k\pi +\dfrac{7\pi}6]$($k\in \mathbf{Z}$)}{$[2k\pi -\dfrac{7\pi}6,2k\pi -\dfrac{\pi}6]$($k\in \mathbf{Z}$)}
+\item 设$\cos ^2x+4\sin x-a=0$($a,x\in \mathbf{R}$), 则$a$的取值范围是\blank{50}.
+\item 函数$y=1-2\sin x+3\cos ^2x$的值域是\blank{50}.
+\item 函数$y=\sin ^2x+2\cos x(-\dfrac{\pi}3\le x\le \dfrac 23\pi)$的值域是\blank{50}.
+\item 函数$y=\dfrac{3\cos x+1}{\cos x+2}$的值域是\blank{50}.
+\item 函数$f(x)=\log _{\frac 12}(2\sin x)$的最小值是\blank{50}.
+\item 将下列各数由小到大排列: $\sin 46^\circ ,\cos 46^\circ ,\cos 36^\circ$:\blank{50}.
+\item 将下列各数由小到大排列: $\sin 2,\cos 2,\tan 2$:\blank{50}.
+\item 将下列各数由小到大排列: $\log _x\sin \dfrac x2,\log _x\cos \dfrac x2$($0<x<1$):\blank{50}.
+\item 将下列各数由小到大排列: $\cos 1^\circ ,\sin 1^\circ ,\cos 1,\sin 1$:\blank{50}.
+\item 在$[0,2\pi]$中, 满足$\sin x\ge \dfrac 12$的$x$的取值范围是\blank{50}.
+\item 不等式$\sin x\le \dfrac 12$的解为\blank{50}.
+\item 不等式$|\cos 2x|\le \dfrac 12$的解为\blank{50}.
+\item 若集合$M=\{\theta|\sin \theta \ge \dfrac 12,0\le \theta \le \pi\}$, $P=\{\theta|\cos \theta \le \dfrac 12,0<\theta \le \pi\}$, 则$M\cap P=$\blank{50}.
+\item 若$-\pi \le x\le \pi$, 则不等式$\log _2(1+2\cos x)<1$的解为\blank{50}.
 \item 若锐角$\alpha ,\beta$满足$\sin \alpha <\cos \beta$则\bracket{20}.
 \fourch{$\alpha >\beta$}{$\alpha <\beta$}{$\alpha +\beta <\dfrac{\pi}2$}{$\alpha +\beta >\dfrac{\pi}2$}
 \item 方程$2^x=\cos x$的解有\bracket{20}.
-\fourch{0个}{1个}{2个}{无穷多个}
+\fourch{$0$个}{$1$个}{$2$个}{无穷多个}
 \item 函数$f(x)=(\sin \alpha)^{|\log _{\sin \alpha}x|}$($2k\pi <\alpha <2k\pi +\pi$且$\alpha \ne 2k\pi +\dfrac{\pi}2$, $k\in \mathbf{Z}$)的图像是\bracket{20}.
-\blank{50}\fourch{}{}{}{}
+\fourch{
+\begin{center}
+    \begin{tikzpicture}[>=stealth]
+        \draw [->] (-1,0) -- (2.5,0) node [below] {$x$};
+        \draw [->] (0,-1) -- (0,2.5) node [left] {$y$};
+        \draw (0,0) node [below left] {$O$};
+        \draw [dashed] (1,0) -- (1,1) -- (0,1);
+        \draw (1,0) node [below] {$1$} (0,1) node [left] {$1$};
+        \filldraw (1,1) circle (0.05);
+        \draw [domain = 0.4:2.5] plot (\x,{1/\x});
+    \end{tikzpicture}
+\end{center}
+}{\begin{center}
+    \begin{tikzpicture}[>=stealth]
+        \draw [->] (-2.5,0) -- (1,0) node [below] {$x$};
+        \draw [->] (0,-1) -- (0,2.5) node [left] {$y$};
+        \draw (0,0) node [below left] {$O$};
+        \draw [dashed] (-1,0) -- (-1,1) -- (0,1);
+        \draw (-1,0) node [below] {$-1$} (0,1) node [right] {$1$};
+        \draw [domain = 0.4:2.5] plot (-\x,{1/\x});
+        \filldraw [fill = white, draw = black] (-1,1) circle (0.05);
+    \end{tikzpicture}
+\end{center}}{\begin{center}
+    \begin{tikzpicture}[>=stealth]
+        \draw [->] (-1,0) -- (2.5,0) node [below] {$x$};
+        \draw [->] (0,-1) -- (0,2.5) node [left] {$y$};
+        \draw (0,0) node [below left] {$O$};
+        \draw [dashed] (1,0) -- (1,1) -- (0,1);
+        \draw (1,0) node [below] {$1$} (0,1) node [left] {$1$};
+        \draw [domain = 0:2.5] plot (\x,\x);
+        \filldraw [fill = white, draw = black] (1,1) circle (0.05);
+        \filldraw [fill = white, draw = black] (0,0) circle (0.05);    
+    \end{tikzpicture}
+\end{center}}{\begin{center}
+    \begin{tikzpicture}[>=stealth]
+        \draw [->] (-1,0) -- (2.5,0) node [below] {$x$};
+        \draw [->] (0,-1) -- (0,2.5) node [left] {$y$};
+        \draw (0,0) node [below left] {$O$};
+        \draw [dashed] (1,0) -- (1,1) -- (0,1);
+        \draw (1,0) node [below] {$1$} (0,1) node [left] {$1$};
+        \draw (0,0) -- (1,1);
+        \draw [domain = 1:2.5] plot (\x,{1/\x});
+        \filldraw [fill = white, draw = black] (0,0) circle (0.05);    
+    \end{tikzpicture}
+\end{center}}
 \item 设$x\in (0,\dfrac{\pi}2)$, 则下列各式中正确的是\bracket{20}.
-\fourch{$\sin (\sin x)<\cos x<\cos (\cos x)$}{$\sin (\cos x)<\cos x<\cos (\sin x)$}{$\cos (\sin x)<\cos x<\sin (\cos x)$}{$\cos (\cos x)<\cos x<\sin (\sin x)$}
-\item 求下列函数的定义域:
-(1)$y=\log _{\sin x}(2\cos x+1)$.				(2)$y=\sqrt {1-2\cos x}+\lg (2\sin x-\sqrt 2)$.
-(3)$y=\sqrt {\sin x}+\dfrac 1{\sqrt {16-x^2}}$.
-\item 画出下列函数的图像:
-(1)$y=|\sin x|$.							(2)$y=|\cos x|+\cos x$.
-(3)$y=(\sin \alpha)^{|\log _{\sin \alpha}x|}$($\alpha$为锐角).		(4)$y=\dfrac{|\sin x|}{\sin x}$.
-(5)$y=f(\sin x)$, 其中$f(x)=\begin{cases}
-    2  (x\ge 0),  \\-1  (x<0).  \end{cases}$
-\item (1)若$0<\alpha <\dfrac{\pi}4$, 且$\lg \sin \alpha +\log \cos \alpha +\lg 9=\lg \tan \alpha +\lg \cot \alpha +\dfrac 12\lg 8$, 求$\sin \alpha -\cos \alpha$的值.
-(2)设$x$是第二象限角, 且满足$\cos \dfrac x2+\sin \dfrac x2=-\dfrac{\sqrt 5}2$, 求$\sin \dfrac x2-\cos \dfrac x2$的值.
+\twoch{$\sin (\sin x)<\cos x<\cos (\cos x)$}{$\sin (\cos x)<\cos x<\cos (\sin x)$}{$\cos (\sin x)<\cos x<\sin (\cos x)$}{$\cos (\cos x)<\cos x<\sin (\sin x)$}
+\item 求函数$y=\log _{\sin x}(2\cos x+1)$的定义域.
+\item 求函数$y=\sqrt {1-2\cos x}+\lg (2\sin x-\sqrt 2)$的定义域.
+\item 求函数$y=\sqrt {\sin x}+\dfrac 1{\sqrt {16-x^2}}$的定义域.
+\item 作出函数$y=|\sin x|$的图像.
+\item 作出函数$y=|\cos x|+\cos x$的图像.
+\item 作出函数$y=(\sin \alpha)^{|\log _{\sin \alpha}x|}$的图像, 其中$\alpha$为锐角.
+\item 作出函数$y=\dfrac{|\sin x|}{\sin x}$的图像.
+\item 作出函数$y=f(\sin x)$的图像, 其中$f(x)=\begin{cases}
+    2, &  x\ge 0,  \\ -1, & x<0. \end{cases}$
+\item 若$0<\alpha <\dfrac{\pi}4$, 且$\lg \sin \alpha +\log \cos \alpha +\lg 9=\lg \tan \alpha +\lg \cot \alpha +\dfrac 12\lg 8$, 求$\sin \alpha -\cos \alpha$的值.
+\item 设$x$是第二象限角, 且满足$\cos \dfrac x2+\sin \dfrac x2=-\dfrac{\sqrt 5}2$, 求$\sin \dfrac x2-\cos \dfrac x2$的值.
 \item 若$0<\theta <\dfrac{\pi}2$, 比较$M=\log _{\sin \theta}\cos \theta$与$N=\log _{\cos \theta}\sin \theta$的大小.
 \item 若$\alpha ,\beta$是关于$x$的二次方程$x^2+2(\cos \theta +1)x+\cos ^2\theta =0$的两实根, 且$|\alpha -\beta|\le 2\sqrt 2$, 求$\theta$的范围.
-\item (1)求函数$f(x)=a\sin x-\sin ^2x$的最大值$g(a)$, 并画出$g(a)$的图像.
-(2)若函数$f(x)=\cos ^2x-a\sin x+b$的最大值为0, 最小值为-4, 实数$a>0$, 求$a,b$的值.
-(二)函数$y=A\sin (\omega x+\varphi)$的图像
+\item 求函数$f(x)=a\sin x-\sin ^2x$的最大值$g(a)$, 并画出$g(a)$的图像.
+\item 若函数$f(x)=\cos ^2x-a\sin x+b$的最大值为$0$, 最小值为$-4$, 实数$a>0$, 求$a,b$的值.
 \item 函数$y=3\sin (2x+\dfrac{\pi}6)$的图像的一条对称轴是直线\bracket{20}.
 \fourch{$x=0$}{$x=\dfrac{\pi}6$}{$x=-\dfrac{\pi}6$}{$x=\dfrac{\pi}3$}
 \item 先将函数$y=\sin 2x$的图像向右平移$\dfrac{\pi}3$个单位长度, 再将所得图像作关于$y$轴的对称变换, 则与最后所得图像对应的函数的解析式是\bracket{20}.
@@ -433,29 +499,86 @@ $\begin{cases} f(x-m)=3\cos 2(x-m)=3\cos (2x-2m)=3\cos (2m-2x)=3\sin [\dfrac{\pi
 \item 将函数$y=\sin x$的图像上所有点向左平移$\dfrac{\pi}3$个单位长度, 再把所得图像上各点横坐标伸长到原来的2倍, 则与最后得到的图像对应的函数的解析式为\bracket{20}.
 \fourch{$y=\sin (\dfrac x2-\dfrac{\pi}3)$}{$y=\sin (\dfrac x2+\dfrac{\pi}6)$}{$y=\sin (\dfrac x2+\dfrac{\pi}3)$}{$y=\sin (2x+\dfrac{\pi}3)$}
 \item 函数$y=A\sin (\omega x+\varphi)$($A>0$, $\omega >0$, $|\varphi|<\dfrac{\pi}2$)的图像如图所示, 则$y$的表达式是\bracket{20}.
+\begin{center}
+    \begin{tikzpicture}[>=stealth]
+        \draw [->] (-1,0) -- (3,0) node [below] {$x$};
+        \draw [->] (0,-2.5) -- (0,2.5) node [left] {$y$};
+        \draw (0,0) node [below left] {$O$};
+        \draw [dashed] (0,-2) -- ({2*pi/3},-2) -- ({2*pi/3},0) (0,2) -- ({pi/6},2) -- ({pi/6},0);
+        \draw (0.1,1) -- (0,1);
+        \draw (0,-2) node [left] {$-2$} (0,1) node [left] {$1$} (0,2) node [left] {$2$} ({pi/6},0) node [below] {$\dfrac \pi 6$} ({2*pi/3},0) node [above] {$\dfrac{2\pi}3$};
+        \draw [domain = -0.2:2.6] plot (\x,{2*sin(2*\x/pi*180+30)});
+    \end{tikzpicture}
+\end{center}
 \fourch{$2\sin (\dfrac{10}{11}x+\dfrac{\pi}6)$}{$2\sin (\dfrac{10}{11}x-\dfrac{\pi}6)$}{$2\sin (2x+\dfrac{\pi}6)$}{$2\sin (2x-\dfrac{\pi}6)$}
-(第91题)
 \item 函数$y=2\sin (\dfrac 12x+\dfrac{\pi}3)$在一个周期内的简图是\bracket{20}.
-\blank{50}\fourch{\blank{50}
-\blank{50}(C)\blank{50}(D)
-\item 要得到函数$y=\sin (\dfrac x2-\dfrac{\pi}6)$的图像.只需将函数$y=\sin \dfrac x2$的图像\bracket{20}.
-(A)向右平移$\dfrac{\pi}6$}{向左平移$\dfrac{\pi}6$}{向右平移$\dfrac{\pi}3$}{向左平移$\dfrac{\pi}3$}
-\item (1)$f(x)=\log _{\dfrac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{50}.
-(2)函数$f(x)=2\sin (3-2x)$为增喊数的区间是\blank{50}.
-(3)函数$y=\cos (2x-\dfrac{\pi}5)$为减函数的区间是\blank{50}.
-\item (1)函数$y=\sin (2x+\dfrac{\pi}3)$的图像可由$y=\sin 2x$的图像向\blank{50}平移\blank{50}个单位长度得到.
-(2)将奇函数$y=f(x)$($x\in \mathbf{R}$)的图像沿$x$轴正向平移1个单位长度后, 所得的图像为$C'$, 而图像$C'$与$C$关于原点对称, 那么$C$所对应的函数应为\blank{50}.
-(3)先将函数$f(x)=\sin x$的图像向右平移$\dfrac{\pi}5$个单位长度, 再改变各点的横坐标(纵坐标不变), 得到最小正周期为$\dfrac{2\pi}3$的函数$y=\sin (\omega x+\varphi)$($\omega >0$)的图像, 则$\omega =$\blank{50}, $\varphi =$\blank{50}.
-\item 若函数$f(x)=2\cos (\dfrac k4x+\dfrac{\pi}3)-5$的最小正周期不大于2, 则正整数$k$的最小值为\bracket{20}.
-\fourch{10}{11}{12}{13}
-\item (1)若函数$f(x)=\sin (2x+\varphi)$($-\pi <\varphi <0$)是偶函数, 则$\varphi =$\blank{50}.
-(2)若函数$f(x)=\cos (x+\varphi)$的图像关于坐标原点对称, 则$\varphi =$\blank{50}.
-\item 根据周期涵数的定义, 求函数$y=2\cos (4x-\dfrac{\pi}3)$的最小正周期.
-\item (1)若奇函数$f(x)$是姑小正周期为3的周期函数, 且$f(1)=-1$, 则$f(101)=$\blank{50}.
-(2)若偶函数$y=f(x)$是最小正周期为2的周期函数.且$2\le x\le 3$时, $f(x)=x$, 则当$-2\le x\le 0$时, $f(x)$的表达式为\blank{50}.
-\item (1)已知函数$f(x)=A\sin (\omega x+\varphi)$($A>0$, $\omega >0$)在同一周期内, 当$x=\dfrac{\pi}9$时取得最大值$\dfrac 12$, 当$x=\dfrac{4\pi}9$时取得最小值$-\dfrac 12$, 求此函数的解析式.
-(2)已知函数$f(x)=A\sin (\omega x+\varphi)$($A>0$, $\omega >0$)的图像上一个最高点的坐标为$(2,\sqrt 2)$, 由这个最高点到其相邻的最低点间, 图像与$x$轴交于点(6, 0), 求此函数的解析式.
-(三)正切函数、余切函数的图像和性质
+\fourch{\begin{center}
+    \begin{tikzpicture}[>=latex,yscale = 0.6,xscale = 0.2]
+        \draw [->] (-4,0) -- (12,0) node [below] {$x$};
+        \draw [->] (0,-2.5) -- (0,2.5) node [left] {$y$};
+        \draw (0,0) node [below right] {$O$};
+        \draw (0.3,-2) -- (0,-2) node [left] {$-2$};
+        \draw (0.3,2) -- (0,2) node [left] {$2$};
+        \draw [domain = {-pi*2/3}:{10*pi/3}] plot (\x,{2*sin(\x/2/pi*180+60)});
+        \draw ({-2*pi/3},0) node [below] {$-\dfrac \pi 3$};
+        \draw ({4*pi/3},0) node [above right] {$\dfrac {5\pi} 3$};
+        \draw ({10*pi/3},0) node [above] {$\dfrac {11\pi} 3$};
+    \end{tikzpicture}
+\end{center}
+}{\begin{center}
+    \begin{tikzpicture}[>=latex,yscale = 0.6,xscale = 0.2]
+        \draw [->] (-4,0) -- (12,0) node [below] {$x$};
+        \draw [->] (0,-2.5) -- (0,2.5) node [left] {$y$};
+        \draw (0,0) node [below right] {$O$};
+        \draw (0.3,-2) -- (0,-2) node [left] {$-2$};
+        \draw (0.3,2) -- (0,2) node [left] {$2$};
+        \draw [domain = {-pi*2/3}:{10*pi/3}] plot (\x,{2*sin(\x/2/pi*180+60)});
+        \draw ({-2*pi/3},0) node [below] {$-\dfrac {2\pi} 3$};
+        \draw ({4*pi/3},0) node [above right] {$\dfrac {4\pi} 3$};
+        \draw ({10*pi/3},0) node [above] {$\dfrac {10\pi} 3$};
+    \end{tikzpicture}
+\end{center}}{\begin{center}
+    \begin{tikzpicture}[>=latex,yscale = 0.6,xscale = 0.2]
+        \draw [->] (-4,0) -- (12,0) node [below] {$x$};
+        \draw [->] (0,-2.5) -- (0,2.5) node [left] {$y$};
+        \draw (0,0) node [below right] {$O$};
+        \draw (0.3,-2) -- (0,-2) node [left] {$-2$};
+        \draw (0.3,2) -- (0,2) node [left] {$2$};
+        \draw [domain = {-pi*2/3}:{10*pi/3}] plot (\x,{2*sin(\x/2/pi*180+60)});
+        \draw ({-2*pi/3},0) node [below] {$-\dfrac \pi 6$};
+        \draw ({4*pi/3},0) node [above right] {$\dfrac {11\pi} 6$};
+        \draw ({10*pi/3},0) node [above] {$\dfrac {23\pi} 6$};
+    \end{tikzpicture}
+\end{center}}{\begin{center}
+    \begin{tikzpicture}[>=latex,yscale = 0.6,xscale = 0.2]
+        \draw [->] (-4,0) -- (12,0) node [below] {$x$};
+        \draw [->] (0,-2.5) -- (0,2.5) node [left] {$y$};
+        \draw (0,0) node [below right] {$O$};
+        \draw (0.3,-2) -- (0,-2) node [left] {$-2$};
+        \draw (0.3,2) -- (0,2) node [left] {$2$};
+        \draw [domain = {-pi*2/3}:{10*pi/3}] plot (\x,{2*sin(\x/2/pi*180+60)});
+        \draw ({-2*pi/3},0) node [below] {$-\dfrac \pi 3$};
+        \draw ({4*pi/3},0) node [above right] {$\dfrac {2\pi} 3$};
+        \draw ({10*pi/3},0) node [above] {$\dfrac {5\pi} 3$};
+    \end{tikzpicture}
+\end{center}}
+\item 要得到函数$y=\sin (\dfrac x2-\dfrac{\pi}6)$的图像, 只需将函数$y=\sin \dfrac x2$的图像\bracket{20}.
+\fourch{向右平移$\dfrac{\pi}6$}{向左平移$\dfrac{\pi}6$}{向右平移$\dfrac{\pi}3$}{向左平移$\dfrac{\pi}3$}
+\item $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{50}.
+\item 函数$f(x)=2\sin (3-2x)$为增喊数的区间是\blank{50}.
+\item 函数$y=\cos (2x-\dfrac{\pi}5)$为减函数的区间是\blank{50}.
+\item 函数$y=\sin (2x+\dfrac{\pi}3)$的图像可由$y=\sin 2x$的图像向\blank{50}平移\blank{50}个单位长度得到.
+\item 将奇函数$y=f(x)$($x\in \mathbf{R}$)的图像沿$x$轴正向平移$1$个单位长度后, 所得的图像为$C'$, 而图像$C'$与$C$关于原点对称, 那么$C$所对应的函数应为\blank{50}.
+\item 先将函数$f(x)=\sin x$的图像向右平移$\dfrac{\pi}5$个单位长度, 再改变各点的横坐标(纵坐标不变), 得到最小正周期为$\dfrac{2\pi}3$的函数$y=\sin (\omega x+\varphi)$($\omega >0$)的图像, 则$\omega =$\blank{50}, $\varphi =$\blank{50}.
+\item 若函数$f(x)=2\cos (\dfrac k4x+\dfrac{\pi}3)-5$的最小正周期不大于$2$, 则正整数$k$的最小值为\bracket{20}.
+\fourch{$10$}{$11$}{$12$}{$13$}
+\item 若函数$f(x)=\sin (2x+\varphi)$($-\pi <\varphi <0$)是偶函数, 则$\varphi =$\blank{50}.
+\item 若函数$f(x)=\cos (x+\varphi)$的图像关于坐标原点对称, 则$\varphi =$\blank{50}.
+\item 根据周期函数的定义, 求函数$y=2\cos (4x-\dfrac{\pi}3)$的最小正周期.
+\item 若奇函数$f(x)$是最小正周期为$3$的周期函数, 且$f(1)=-1$, 则$f(101)=$\blank{50}.
+\item 若偶函数$y=f(x)$是最小正周期为$2$的周期函数.且$2\le x\le 3$时, $f(x)=x$, 则当$-2\le x\le 0$时, $f(x)$的表达式为\blank{50}.
+\item 已知函数$f(x)=A\sin (\omega x+\varphi)$($A>0$, $\omega >0$)在同一周期内, 当$x=\dfrac{\pi}9$时取得最大值$\dfrac 12$, 当$x=\dfrac{4\pi}9$时取得最小值$-\dfrac 12$, 求此函数的解析式.
+\item 已知函数$f(x)=A\sin (\omega x+\varphi)$($A>0$, $\omega >0$)的图像上一个最高点的坐标为$(2,\sqrt 2)$, 由这个最高点到其相邻的最低点间, 图像与$x$轴交于点$(6, 0)$, 求此函数的解析式.
 \item 函数$y=\tan 3\pi x$的最小正周期为\bracket{20}.
 \fourch{$\dfrac 13$}{$\dfrac 23$}{$\dfrac 6{\pi}$}{$\dfrac 3{\pi}$}
 \item 下列函数中, 以$\pi$为最小正周期的偶函数是\bracket{20}.
@@ -463,58 +586,55 @@ $\begin{cases} f(x-m)=3\cos 2(x-m)=3\cos (2x-2m)=3\cos (2m-2x)=3\sin [\dfrac{\pi
 \item 若$a=\sin \dfrac 34$, $b=\cos \dfrac 34$, $c=\cot \dfrac 34$, 则$a,b,c$之间的大小关系是\bracket{20}.
 \fourch{$a>b>c$}{$b>c>a$}{$c>a>b$}{$c>b>a$}
 \item 若$\tan (2x-\dfrac{\pi}3)\le 1$, 则$x$的取值范围是\bracket{20}.
-\fourch{$\dfrac{k\pi 2-\dfrac{\pi}{12}\le x\le \dfrac k\pi}2+\dfrac 7{24}\pi$($k\in \mathbf{Z}$)}{$k\pi -\dfrac{\pi}{12}\le x<k\pi +\dfrac 7{24}\pi$($k\in \mathbf{Z}$)}{$\dfrac{k\pi 2-\dfrac{\pi}{12}<x\le \dfrac k\pi}2+\dfrac 7{24}\pi$($k\in \mathbf{Z}$)}{$k\pi -\dfrac{\pi}{12}<x<k\pi +\dfrac 7{24}\pi$($k\in \mathbf{Z}$)}
-\item 下列函数中, 同时满足条件``\textcircled{1} 在$(0,\dfrac{\pi}2)$为增函数, \textcircled{2} 为奇函数, \textcircled{3} 以$\pi$为最小正周期''的函数是\bracket{20}.
+\twoch{$\dfrac{k\pi}2-\dfrac{\pi}{12}\le x\le \dfrac {k\pi}2+\dfrac 7{24}\pi$($k\in \mathbf{Z}$)}{$k\pi -\dfrac{\pi}{12}\le x<k\pi +\dfrac 7{24}\pi$($k\in \mathbf{Z}$)}{$\dfrac{k\pi} 2-\dfrac{\pi}{12}<x\le \dfrac {k\pi}2+\dfrac 7{24}\pi$($k\in \mathbf{Z}$)}{$k\pi -\dfrac{\pi}{12}<x<k\pi +\dfrac 7{24}\pi$($k\in \mathbf{Z}$)}
+\item 下列函数中, 同时满足条件\textcircled{1} 在$(0,\dfrac{\pi}2)$为增函数, \textcircled{2} 为奇函数, \textcircled{3} 以$\pi$为最小正周期的函数是\bracket{20}.
 \fourch{$y=\tan x$}{$y=\cot x$}{$y=\tan \dfrac x2$}{$y=|\sin x|$}
 \item 函数$y=\cot x(-\dfrac{\pi}4\le x\le \dfrac{\pi}4)$的值域是\bracket{20}.
 \fourch{[-1.1]}{$(-\infty ,-1]\cup [1,+\infty)$}{$(-\infty ,-1]$}{$[1,+\infty)$}
-\item 根据要求, 求$x$的取值范围:
-(1)$\tan \dfrac x2\ge \sqrt 3$:\blank{50}.
-(2)$\cot 2x\le -\sqrt 3$:\blank{50}.
-(3)$|\sin x|\le|\cos x|$:\blank{50}.
-(4)$\log _x\tan x>0$:\blank{50}.
-(5)$\log _{\sqrt 3}\sin \dfrac x2-\log _{\sqrt 3}\cos \dfrac x2>-1$, 且$-2\pi <x<2\pi$:\blank{50}.
-\item 将下列各题中的数由小到大排列:
-(1)$\tan 1,\tan 2,\tan 3$:\blank{50}.
-(2)$1,\sin 1,\cos 1,\tan 1$:\blank{50}.
-\item 在``\textcircled{1} $y=|\sin 2x|$, \textcircled{2} $y=|\cos x|$, \textcircled{3} $y=|\tan 2x|$, \textcircled{4} $y=|\tan x|+|\cot x|$''这四个函数中, 最小正周期为$\dfrac{\pi}2$的偶函数有\bracket{20}.
-\fourch{0个}{1个}{2个}{3个}
+\item 已知$x$满足$x$, 则$x$的取值范围为\blank{50}.
+\item 已知$x$满足$\tan \dfrac x2\ge \sqrt 3$, 则$x$的取值范围为\blank{50}.
+\item 已知$x$满足$\cot 2x\le -\sqrt 3$, 则$x$的取值范围为\blank{50}.
+\item 已知$x$满足$|\sin x|\le|\cos x|$, 则$x$的取值范围为\blank{50}.
+\item 已知$x$满足$\log _x\tan x>0$, 则$x$的取值范围为\blank{50}.
+\item 已知$x$满足$\log _{\sqrt 3}\sin \dfrac x2-\log _{\sqrt 3}\cos \dfrac x2>-1$, 且$-2\pi <x<2\pi$, 则$x$的取值范围为\blank{50}.
+\item 将下列各数按从小到大的顺序排列$\tan 1,\tan 2,\tan 3$:\blank{50}.
+\item 将下列各数按从小到大的顺序排列$1,\sin 1,\cos 1,\tan 1$:\blank{50}.
+\item 在\textcircled{1} $y=|\sin 2x|$, \textcircled{2} $y=|\cos x|$, \textcircled{3} $y=|\tan 2x|$, \textcircled{4} $y=|\tan x|+|\cot x|$这四个函数中, 最小正周期为$\dfrac{\pi}2$的偶函数有\bracket{20}.
+\fourch{$0$个}{$1$个}{$2$个}{$3$个}
 \item $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
-\fourch{$\sin \dfrac{2\pi}3>\cos 1>\cot 3>\tan 2$}{$\sin \dfrac{2\pi}3>\cos 1>\tan 2>\cot 3$}{$\cos 1>\sin \dfrac{2\pi}3>\tan 2>\cot 3$}{$\cos 1>\sin \dfrac{2\pi}3>\cot 3>\tan 2$}
+\twoch{$\sin \dfrac{2\pi}3>\cos 1>\cot 3>\tan 2$}{$\sin \dfrac{2\pi}3>\cos 1>\tan 2>\cot 3$}{$\cos 1>\sin \dfrac{2\pi}3>\tan 2>\cot 3$}{$\cos 1>\sin \dfrac{2\pi}3>\cot 3>\tan 2$}
 \item 若$0<\alpha <2\pi$, 且满足$\sin \alpha <\cos \alpha <\cot \alpha <\tan \alpha$, 则有\bracket{20}.
 \fourch{$0<\alpha <\dfrac{\pi}4$}{$\dfrac{\pi}4<\alpha <\dfrac{\pi}2$}{$\pi <\alpha <\dfrac 54\pi$}{$\dfrac{5\pi}4<\alpha <\dfrac{3\pi}2$}
-\item 求下列函数的定义域:
-(1)$y=\sqrt {\sqrt 3-\cot \dfrac x2}$.
-(2)$y=\dfrac{\lg (\tan x-1)}{\sqrt {1-2\sin x}}$.
-(3)$y=\lg (\tan x-1)+\sqrt {\sin 2x}$.
-\item (1)求函数$y=\dfrac{\sec ^2x+\tan x}{\sec ^2x-\tan x}$的值域.
-(2)已知$\theta \in [-\dfrac{\pi}3,\dfrac{\pi}4]$, 求函数$y=\sec ^2\theta +2\tan \theta +1$的最大值与最小值.
-\item 根据条件比较下列各组数的大小:
-(1)已知$\dfrac{\pi}3<\theta <\dfrac{\pi}2$, 比较$\sin \theta ,\cot \theta ,\cos \theta$的大小.
-(2)已知$0<\alpha <\dfrac{\pi}4$, 比较$\sin \alpha ,\sin (\sin \alpha),\sin (\tan \alpha)$的大小.
-(3)已知$0<\theta <\dfrac{\pi}2$, 比较$\cos \theta ,\sin (\cos \theta),\cos (\sin \theta)$的大小.
-\item 利用锐角三角函数的定义解下列各题:
-(1)若$\alpha ,\beta \in (0,\dfrac{\pi}2)$, 且$17\cos \alpha +13\cos \beta =17$, $17\sin \alpha =13\sin \beta$, 求$\dfrac{\alpha}2+\beta$.
-(2)设$x\in [\dfrac{\pi}4,\dfrac{\pi}2]$, 求证: $\csc x-\cot x\ge \sqrt 2-1$.
+\item 求函数$y=\sqrt {\sqrt 3-\cot \dfrac x2}$的定义域.
+\item 求函数$y=\dfrac{\lg (\tan x-1)}{\sqrt {1-2\sin x}}$的定义域.
+\item 求函数$y=\lg (\tan x-1)+\sqrt {\sin 2x}$的定义域.
+\item 求函数$y=\dfrac{\sec ^2x+\tan x}{\sec ^2x-\tan x}$的值域.
+\item 已知$\theta \in [-\dfrac{\pi}3,\dfrac{\pi}4]$, 求函数$y=\sec ^2\theta +2\tan \theta +1$的最大值与最小值.
+\item 已知$\dfrac{\pi}3<\theta <\dfrac{\pi}2$, 比较$\sin \theta ,\cot \theta ,\cos \theta$的大小.
+\item 已知$0<\alpha <\dfrac{\pi}4$, 比较$\sin \alpha ,\sin (\sin \alpha),\sin (\tan \alpha)$的大小.
+\item 已知$0<\theta <\dfrac{\pi}2$, 比较$\cos \theta ,\sin (\cos \theta),\cos (\sin \theta)$的大小.
+\item 利用锐角三角函数的定义解决问题``若$\alpha ,\beta \in (0,\dfrac{\pi}2)$, 且$17\cos \alpha +13\cos \beta =17$, $17\sin \alpha =13\sin \beta$, 求$\dfrac{\alpha}2+\beta$''.
+\item 利用锐角三角函数的定义解决问题``设$x\in [\dfrac{\pi}4,\dfrac{\pi}2]$, 求证: $\csc x-\cot x\ge \sqrt 2-1$''.
 \item 已知$a\cos \alpha +b\sin \alpha =c$, $a\cos \beta +b\sin \beta =c$($0<\alpha ,\beta <\pi$, $\alpha \ne \beta$), 且$\cos \alpha +\cos \beta =\cos \alpha \cdot \cos \beta$, 求证: $c^2-b^2=2ac$.
 \item 已知函数$f(x)$满足$af(\sin x)+bf(-\sin x)=c\sin x\cos x(-\dfrac{\pi}2\le x\le \dfrac{\pi}2,a^2-b^2\ne 0)$, 求$f(x)$的解析式.
-\item (1)设$\dfrac{\sin \alpha}{a^2-1}=\dfrac{\cos \alpha}{2a\sin 2\beta}=\dfrac 1{1+2a\cos 2\beta +a^2}$, 求证: $\sin \alpha =\dfrac{a^2-1}{a^2+1}$.
-(2)已知$a\sec ^2\alpha -b\cos \alpha =2a$, $b\cos ^2\alpha -a\sec \alpha =2b$, 求$a,b$的关系式.
-(3)已知$a\sin ^2\theta +b\cos ^2\theta =m$, $b\sin ^2\varphi +a\cos ^2\varphi =n$, $a\tan \theta =b\tan \varphi$($a,b,m,n$互不相等), 求证: $\dfrac 1m+\dfrac 1n=\dfrac 1a+\dfrac 1b$.
-\item 利用单位圆和三角函数线证明:
-(1)若$\alpha$为锐角, 则\textcircled{1} $\sin \alpha +\cos \alpha >1$; \textcircled{2} $\sin \alpha <\alpha <\tan \alpha$; \textcircled{3} $\alpha \cdot \sin \alpha +\cos \alpha >1$.
-(2)若$0<\beta <\alpha <\dfrac{\pi}2$, 则$\sin \alpha -\sin \beta <\alpha -\beta <\tan \alpha -\tan \beta$.
+\item 设$\dfrac{\sin \alpha}{a^2-1}=\dfrac{\cos \alpha}{2a\sin 2\beta}=\dfrac 1{1+2a\cos 2\beta +a^2}$, 求证: $\sin \alpha =\dfrac{a^2-1}{a^2+1}$.
+\item 已知$a\sec ^2\alpha -b\cos \alpha =2a$, $b\cos ^2\alpha -a\sec \alpha =2b$, 求$a,b$的关系式.
+\item 已知$a\sin ^2\theta +b\cos ^2\theta =m$, $b\sin ^2\varphi +a\cos ^2\varphi =n$, $a\tan \theta =b\tan \varphi$($a,b,m,n$互不相等), 求证: $\dfrac 1m+\dfrac 1n=\dfrac 1a+\dfrac 1b$.
+\item 利用单位圆和三角函数线证明:``若$\alpha$为锐角, 则$\sin \alpha +\cos \alpha >1$''.
+\item 利用单位圆和三角函数线证明:``若$\alpha$为锐角, 则$\sin \alpha <\alpha <\tan \alpha$''.
+\item 利用单位圆和三角函数线证明:``若$\alpha$为锐角, 则$\alpha \cdot \sin \alpha +\cos \alpha >1$''.
+\item 利用单位圆和三角函数线证明:``若$0<\beta <\alpha <\dfrac{\pi}2$, 则$\sin \alpha -\sin \beta <\alpha -\beta <\tan \alpha -\tan \beta$''.
 \item 若$\alpha$是锐角, 求证: $\cos (\sin \alpha)>\sin (\cos \alpha)$.
-\item (1)已知函数$f(x)$满足$f(x+a)=\dfrac{1-f(x)}{1+f(x)}$($a$为常数, 且$a\ne 0$), 求证: $f(x)$是一个以$2a$为周期的周期函数.
-(2)已知$f(x)$为偶函数, 其图像关于直线$x=a$($a\ne 0$)对称, 求证: $f(x)$是一个以$2a$为周期的周期函数.
-\item 已知$f(x)$, $g(x)$是定义在$R$上的两个函数, 且$g(x)$为奇函数.并满足: \textcircled{1} $f(0)=1$; \textcircled{2} 对任何$x,y\in \mathbf{R}$都有$f(x-y)=f(x)f(y)+g(x)g(y)$.求证:
-(1)对任何$x\in \mathbf{R}$都有$f^2(x)+g^2(x)=1$.
-(2)$f(x)$是偶函数.
-(3)若存在非零实数$a$满足$f(a)=1$, 则$f(x)$是周期函数.
+\item 已知函数$f(x)$满足$f(x+a)=\dfrac{1-f(x)}{1+f(x)}$($a$为常数, 且$a\ne 0$), 求证: $f(x)$是一个以$2a$为周期的周期函数.
+\item 已知$f(x)$为偶函数, 其图像关于直线$x=a$($a\ne 0$)对称, 求证: $f(x)$是一个以$2a$为周期的周期函数.
+\item 已知$f(x)$, $g(x)$是定义在$\mathbf{R}$上的两个函数, 且$g(x)$为奇函数.并满足: \textcircled{1} $f(0)=1$; \textcircled{2} 对任何$x,y\in \mathbf{R}$都有$f(x-y)=f(x)f(y)+g(x)g(y)$. 求证:\\
+(1) 对任何$x\in \mathbf{R}$都有$f^2(x)+g^2(x)=1$;\\
+(2) $f(x)$是偶函数;\\
+(3) 若存在非零实数$a$满足$f(a)=1$, 则$f(x)$是周期函数.
 \item 利用图像求方程$\sin x=\tan \dfrac x2$在区间$[0,8\pi]$上解的个数.
-\item 设$0\le x\le \pi$, $f_1(x)=\sin (\cos x)$, $f_2(x)=\cos (\sin x)$.
-(1)求$f_1(x)$, $f_2(x)$的最大值和最小值.
-(2)比较$f_1(x)$与$f_2(x)$的大小.
+\item 设$0\le x\le \pi$, $f_1(x)=\sin (\cos x)$, $f_2(x)=\cos (\sin x)$.\\
+(1) 求$f_1(x)$, $f_2(x)$的最大值和最小值;\\
+(2) 比较$f_1(x)$与$f_2(x)$的大小.
     
 \end{enumerate}
 \end{document}
