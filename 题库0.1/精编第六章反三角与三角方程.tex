@@ -45,90 +45,54 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 \begin{document}
 \begin{enumerate}[1.]
 
-\item 用反三角函数的形式表示一个角.
-这是学习反三角函数内容的一个难点, 解此类问题的关键是正确理解反三角函数的定义, 熟练掌握反三角函数的定义域和值域, 把握角的范围.
-(1)只有在$-\dfrac{\pi }2\le x\le \dfrac{\pi }2$时, 才可由$\sin x=a$($|a|\le 1$)直接得到$x=\arcsin a$.
-若$x\notin [-\dfrac{\pi }2,\dfrac{\pi }2]$, 则可利用公式$\sin (2k\pi +x)=\sin x$或$\sin [2k\pi +(\pi -x)]=\sin x$($k\in \mathbf{Z}$)确定一个角, 使这个角在$[-\dfrac{\pi }2,\dfrac{\pi }2]$范围内, 然后用反正弦形式表示.
-\item 已知$\sin x=-\dfrac 13$($\pi <x<\dfrac{3\pi }2$), 用反正弦形式表示$x$.
-解  ∵$\sin (\pi -x)=\sin x=-\dfrac 13$, 且由$\pi <x<\dfrac{3\pi }2$知, $-\dfrac{\pi }2<\pi -x<0$,
-∴$\pi -x=\arcsin (-\dfrac 13)=-\arcsin \dfrac 13$, 于是$x=\pi +\arcsin \dfrac 13$.
-(2)只有在$0\le x\le \pi$时, 才可由$\cos x=a$($|a|\le 1$)直接得到$x=\arccos a$.
-若$x\in [0,\pi]$, 则可利用公式$\cos (2k\pi \pm x)=\cos x$($k\in \mathbf{Z}$)确定一个角, 使这个角在$[0,\pi]$范围内, 然后用反余弦形式表示.
-\item 若$\cos x=\dfrac 13$($-\dfrac{\pi }2<x<0$), 用反余弦形式表示$x$.
-解  ∵$\cos (-x)=\cos x=\dfrac 13$, 且由$-\dfrac{\pi }2<x<0$知, $0<-x<\dfrac{\pi }2$,
-∴$-x=\arccos \dfrac 13$, 故$x=-\arccos \dfrac 13$.
-(3)只有在$-\dfrac{\pi }2<x<\dfrac{\pi }2$时, 才可由$\tan x=a$($a\in \mathbf{R}$)直接得到$x=\arctan a$.
-若$x\notin (-\dfrac{\pi }2,\dfrac{\pi }2)$, 则可利用公式$\tan (k\pi +x)=\tan x$($k\in \mathbf{Z}$)确定一个角, 使这个角在$(-\dfrac{\pi }2,\dfrac{\pi }2)$内, 然后用反正切形式表示.
-(4)只存在$0<x<\pi$时, 才可由$\cot x=a$($a\in \mathbf{R}$)直接得到$x=\mathrm{arccot} a$.
-若$x\in (0,\pi)$, 则可利用公式$\cot (k\pi +x)=\cot x$($k\in \mathbf{Z}$)确定一个角.使这个角在$(0,\pi)$内, 然后用反余切形式表示.
-\item 求含反三角形式的角的三角函数值.
-解此类问题的要点可以概括为``一令、二则、三范围''.例如, 求$\cot [\arcsin (-\dfrac{\sqrt 3}3)]$的值.
-``一令''——令$\alpha =\arcsin (-\dfrac{\sqrt 3}3)$, ``二则''——则$\sin \alpha =-\dfrac{\sqrt 3}3$, ``三范围''——$\alpha \in (-\dfrac{\pi }2,0)$.
-有了以上三步之后, 余下的问题就不难解决了.
-\item 求值:
-(1)$\tan [\dfrac 12\arcsin (\dfrac{-2\sqrt 6}5)]$.			(2)$\cos [\arctan \dfrac 34+\arccos (-\dfrac 23)]$.
-解  (1)令$\alpha =\arcsin (\dfrac{-2\sqrt 6}5)$, 则$\sin \alpha =\dfrac{-2\sqrt 6}5$, $\alpha \in (-\dfrac{\pi }2,0)$, 于是$\cos \alpha =\dfrac 15$..
-∴原式$=\tan \dfrac\alpha 2=\dfrac{1-\cos \alpha }{\sin \alpha }=\dfrac{1-\dfrac 15}{-\dfrac {2\sqrt 6}5}=-\dfrac{\sqrt 6}3$.
-(2)令$\alpha =\arctan \dfrac 34$, 则$\tan \alpha =\dfrac 34$, $\alpha \in (0,\dfrac{\pi }2)$, 于是$\sin \alpha =\dfrac 35$, $\cos \alpha =\dfrac 45$.
-再$\beta =\arccos (-\dfrac 23)$, 则$\cos \beta =-\dfrac 23$, $\beta \in (\dfrac{\pi }2,\pi)$, 于是$\sin \beta =\dfrac{\sqrt 5}3$.
-∴原式$=\cos (\alpha +\beta)=\cos \alpha \cos \beta -\sin \alpha \sin \beta =\dfrac 45\times (-\dfrac 23)-\dfrac 35\times \dfrac{\sqrt 53=-\dfrac 8+3\sqrt 5}{15}$.
-注意  —般地, 对于含有反三角形式的计算问题, 都可利用``一令、二则、三范围''的方法来解决.
-\item 两组重要的恒等式.
-根据反三角函数的定义, 可以得到下列两组重要的恒等式:
-(1)$\sin (\arcsin x)=x$, $x\in [-1,1]$; $\cos (\arccos x)=x$, $x\in [-1,1]$; $\tan (\arctan x)=x$, $x\in \mathbf{R}$; $\cot (\mathrm{arccot} x)=x$, $x\in \mathbf{R}$.
-(2)$\arcsin (\sin x)=x$, $x\in [-\dfrac{\pi }2,\dfrac{\pi }2]$; $\arccos (\cos x)=x$, $x\in [0,\pi]$; $\arctan (\tan x)=x$, $x\in (-\dfrac{\pi }2;\dfrac{\pi }2)$; $\mathrm{arccot} (\cot x)=x$, $x\in (0,\pi)$.
-第(1)组恒等式是不难掌握的, 它们在各自定义域内成立.
-如何运用第(2)组恒等式是—个难点, 以$y=\arcsin (\sin x)$为例, 它的定义域为$R$, 值域为$[-\dfrac{\pi }2,\dfrac{\pi }2]$, 周期是$2\pi$, 只有在$x\in [-\dfrac{\pi }2,\dfrac{\pi }2]$时, 才有$\arcsin (\sin x)=x$, 当$x\in [-\dfrac{\pi }2,\dfrac{\pi }2]$时, 求$\arcsin (\sin x)$的值是一类必须掌握但又有一定难度的问题.
-\item 求值:
-(1)$\arcsin (\sin 2)$.						(2)$\arccos (\cos \dfrac 65\pi)$.
-(3)$\arctan (\cot \sqrt 3)$.						(4)$\mathrm{arccot} (-\cot \dfrac{\pi }7)$.
-解  (1)∵$\sin 2=\sin (\pi -2)$, 且$\pi -2\in [-\dfrac{\pi }2,\dfrac{\pi }2]$,
-∴原式$=\arcsin [\sin (\pi -2)]=\pi -2$.
-(2)∵$\cos \dfrac 65\pi =\cos \dfrac 45\pi$, 且$\dfrac 45\pi \in [0,\pi]$, ∴原式$=\arccos (\cos \dfrac 45\pi)=\dfrac 45\pi$.
-(3)∵$\cot \sqrt 3=\tan (\dfrac{\pi }2-\sqrt 3)$, 且$\dfrac{\pi }2-\sqrt 3\in (-\dfrac{\pi }2,\dfrac{\pi }2)$,
-∴原式$=\arctan [\tan (\dfrac{\pi }2-\sqrt 3)]=\dfrac{\pi }2-\sqrt 3$.
-(4)∵$-\cot \dfrac{\pi }7=\cot (-\dfrac{\pi }7)=\cot [\pi +(-\dfrac{\pi }7)]=\cot \dfrac 67\pi$, 且$\dfrac 67\pi \in (0,\pi)$,
-∴原式$=\mathrm{arccot} (\cot \dfrac 67\pi)=\dfrac 67\pi$
-注意  解此类问题的关键是:
-(1)恒等变形, 即利用诱导公式, 使$\arcsin (\sin x)$恒等变形为$\arcsin (\sin \alpha)$.
-(2)紧扣$\alpha$的范围, 即选用诱导公式时, 必须使$\alpha \in [-\dfrac{\pi }2,\dfrac{\pi }2]$.
-满足了以上两个要求, $\alpha$便是所要求的值.
-对于解$\arccos (\cos x)$, $\arctan (\tan x)$, $\mathrm{arccot} (\cot x)$的问题, 方法雷同.
-有兴趣的读者不妨对$y=\arcsin (\sin x)$等四个函数的性质(定义域、值域、单调性、奇偶性、周期性)及图像、一般表达式作进一步研究.
-\item 有关反三角恒等式的证明.
-\item 若$|x|\le 1$, 求证: $\arcsin x+\arccos x=\dfrac{\pi }2$.
-证法一  ∵$\sin (\dfrac{\pi }2-\arccos x)=\cos (\arccos x)=x$, 其中$-1\le x\le 1$,
+\item 已知$\sin x=-\dfrac 13$($\pi <x<\dfrac{3\pi }2$), 用反正弦形式表示$x$.\\
+解答在这里  因为$\sin (\pi -x)=\sin x=-\dfrac 13$, 且由$\pi <x<\dfrac{3\pi }2$知, $-\dfrac{\pi }2<\pi -x<0$,
+所以$\pi -x=\arcsin (-\dfrac 13)=-\arcsin \dfrac 13$, 于是$x=\pi +\arcsin \dfrac 13$.
+\item 若$\cos x=\dfrac 13$($-\dfrac{\pi }2<x<0$), 用反余弦形式表示$x$.\\
+解答在这里  因为$\cos (-x)=\cos x=\dfrac 13$, 且由$-\dfrac{\pi }2<x<0$知, $0<-x<\dfrac{\pi }2$,
+所以$-x=\arccos \dfrac 13$, 故$x=-\arccos \dfrac 13$.
+\item 求值: $\tan [\dfrac 12\arcsin (\dfrac{-2\sqrt 6}5)]$.\\
+解答在这里 令$\alpha =\arcsin (\dfrac{-2\sqrt 6}5)$, 则$\sin \alpha =\dfrac{-2\sqrt 6}5$, $\alpha \in (-\dfrac{\pi }2,0)$, 于是$\cos \alpha =\dfrac 15$.
+所以原式$=\tan \dfrac\alpha 2=\dfrac{1-\cos \alpha }{\sin \alpha }=\dfrac{1-\dfrac 15}{-\dfrac {2\sqrt 6}5}=-\dfrac{\sqrt 6}3$.
+\item 求值: $\cos [\arctan \dfrac 34+\arccos (-\dfrac 23)]$.
+解答在这里 令$\alpha =\arctan \dfrac 34$, 则$\tan \alpha =\dfrac 34$, $\alpha \in (0,\dfrac{\pi }2)$, 于是$\sin \alpha =\dfrac 35$, $\cos \alpha =\dfrac 45$. 又$\beta =\arccos (-\dfrac 23)$, 则$\cos \beta =-\dfrac 23$, $\beta \in (\dfrac{\pi }2,\pi)$, 于是$\sin \beta =\dfrac{\sqrt 5}3$.
+所以原式$=\cos (\alpha +\beta)=\cos \alpha \cos \beta -\sin \alpha \sin \beta =\dfrac 45\times (-\dfrac 23)-\dfrac 35\times \dfrac{\sqrt 5}3=-\dfrac {8+3\sqrt 5}{15}$.
+\item 求值: $\arcsin (\sin 2)$.\\
+解答在这里 (1)因为$\sin 2=\sin (\pi -2)$, 且$\pi -2\in [-\dfrac{\pi }2,\dfrac{\pi }2]$,
+所以原式$=\arcsin [\sin (\pi -2)]=\pi -2$.
+\item 求值: $\arccos (\cos \dfrac 65\pi)$.\\
+解答在这里 因为$\cos \dfrac 65\pi =\cos \dfrac 45\pi$, 且$\dfrac 45\pi \in [0,\pi]$, 所以原式$=\arccos (\cos \dfrac 45\pi)=\dfrac 45\pi$.
+\item 求值: $\arctan (\cot \sqrt 3)$.\\
+解答在这里 因为$\cot \sqrt 3=\tan (\dfrac{\pi }2-\sqrt 3)$, 且$\dfrac{\pi }2-\sqrt 3\in (-\dfrac{\pi }2,\dfrac{\pi }2)$,
+所以原式$=\arctan [\tan (\dfrac{\pi }2-\sqrt 3)]=\dfrac{\pi }2-\sqrt 3$.
+\item 求值: $\mathrm{arccot} (-\cot \dfrac{\pi }7)$.
+解答在这里 因为$-\cot \dfrac{\pi }7=\cot (-\dfrac{\pi }7)=\cot [\pi +(-\dfrac{\pi }7)]=\cot \dfrac 67\pi$, 且$\dfrac 67\pi \in (0,\pi)$, 所以原式$=\mathrm{arccot} (\cot \dfrac 67\pi)=\dfrac 67\pi$.
+\item 若$|x|\le 1$, 求证: $\arcsin x+\arccos x=\dfrac{\pi }2$.\\
+解答在这里 证法一  因为$\sin (\dfrac{\pi }2-\arccos x)=\cos (\arccos x)=x$, 其中$-1\le x\le 1$,
 又由$\arccos x\in [0,\pi]$, 得$(\dfrac{\pi }2-\arccos x)\in [-\dfrac{\pi }2,\dfrac{\pi }2]$,
-∴根据反正弦函数的定义, 得$\dfrac{\pi }2-\arccos x=\arcsin x$, 即$\arcsin x+\arccos x=\dfrac{\pi }2$.
+所以根据反正弦函数的定义, 得$\dfrac{\pi }2-\arccos x=\arcsin x$, 即$\arcsin x+\arccos x=\dfrac{\pi }2$.\\
 证法二  设$\arcsin x=\alpha$, 则$\sin \alpha =x$, $\alpha \in [-\dfrac{\pi }2,\dfrac{\pi }2]$..
 再设$\arccos x=\beta$, 则$\cos \beta =x$, $\beta \in [0,\pi]$.
-∵$\sin \alpha =x$, $\sin (\dfrac{\pi }2-\beta)=\cos \beta =x$, ∴$\sin \alpha =\sin (\dfrac{\pi }2-\beta)$.
-∵$-\dfrac{\pi }2\le \alpha \le \dfrac{\pi }2$, $-\dfrac{\pi }2\le \dfrac{\pi }2-\beta \le \dfrac{\pi }2$, ∴$\alpha =\dfrac{\pi }2-\beta$,
-即$\alpha +\beta =\dfrac{\pi }2$, ∴$\arcsin x+\arccos x=\dfrac{\pi }2$.
-\item 求证: $\arctan \dfrac 13+\arctan \dfrac 15+\arctan \dfrac 17+\arctan \dfrac 18=\dfrac{\pi }4$.
-证明  设$\alpha =\arctan \dfrac 13$, $\beta =\arctan \dfrac 15$, $\gamma =\arctan \dfrac 17$, $\delta =\arctan \dfrac 18$,
+因为$\sin \alpha =x$, $\sin (\dfrac{\pi }2-\beta)=\cos \beta =x$, 所以$\sin \alpha =\sin (\dfrac{\pi }2-\beta)$.
+因为$-\dfrac{\pi }2\le \alpha \le \dfrac{\pi }2$, $-\dfrac{\pi }2\le \dfrac{\pi }2-\beta \le \dfrac{\pi }2$, 所以$\alpha =\dfrac{\pi }2-\beta$,
+即$\alpha +\beta =\dfrac{\pi }2$, 所以$\arcsin x+\arccos x=\dfrac{\pi }2$.
+\item 求证: $\arctan \dfrac 13+\arctan \dfrac 15+\arctan \dfrac 17+\arctan \dfrac 18=\dfrac{\pi }4$.\\
+解答在这里  设$\alpha =\arctan \dfrac 13$, $\beta =\arctan \dfrac 15$, $\gamma =\arctan \dfrac 17$, $\delta =\arctan \dfrac 18$,
 则$\tan \alpha =\dfrac 13$, $\tan \beta =\dfrac 15$, $\tan \gamma =\dfrac 17$, $\tan \delta =\dfrac 18$且$\alpha ,\beta ,\gamma ,\delta \in (0,\dfrac{\pi }4)$.
 于是$\tan (\alpha +\beta)=\dfrac{\tan \alpha +\tan \beta }{1-\tan \alpha \tan \beta }=\dfrac{\dfrac 13+\dfrac 15}{1-\dfrac 13\times \dfrac 15}=\dfrac 47$,
 $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \delta }=\dfrac{\dfrac 17+\dfrac 18}{1-\dfrac 17\times \dfrac 18}=\dfrac 3{11}$.
-∴$\tan (\alpha +\beta +\gamma +\delta)=\dfrac{\dfrac 47+\dfrac 3{11}}{1-\dfrac 47\times \dfrac 3{11}}=1$.
-∵$0<\alpha +\beta +\gamma +\delta <\pi$, ∴$\alpha +\beta +\gamma +\delta =\dfrac{\pi }4$, 原命题得证.
-注意  有关反三角恒等式的证明需掌握两点:
-(1)证明等式两边(或先作恒等变形)的同一个三角函数值相等.
-(2)证明等式两边都在所取三角函数的同一个一一对应的区间内(千万不能忽视这一点).
-5, 解简单的反三角不等式.
-只要依据反三角函数的单调性, 并切记反三角函数的定义域, 解此类不等式就不会感到困难.
-\item 求下列不等式中$x$的取值范围:
-(1)$\arcsin x<1$.						(2)$\arccos (2x^2-1)<\arccos x$.
-解  (1)由已知条件, 得$\begin{cases} -1\le x\le 1, \\ \arcsin x<\arcsin (\sin 1), \end{cases}$于是$\begin{cases} -1\le x\le 1, \\ x<\sin 1, \end{cases}$
-∴$-1\le x<\sin 1$.
-(2)由已知条件, 得$\begin{cases} -1\le 2x^2-1\le 1, \\ -1\le x\le 1, \\ 2x^2-1>x, \end{cases}$即$\begin{cases} -1\le x\le 1, \\ 2x^2-x-1>0, \end{cases}$也即$\begin{cases} -1\le x\le 1, \\ x<-\dfrac 12x>1, \end{cases}$
-∴$-1\le x<-\dfrac 12$.
-【训练题】
-(一)反正弦函数
+所以$\tan (\alpha +\beta +\gamma +\delta)=\dfrac{\dfrac 47+\dfrac 3{11}}{1-\dfrac 47\times \dfrac 3{11}}=1$.
+因为$0<\alpha +\beta +\gamma +\delta <\pi$, 所以$\alpha +\beta +\gamma +\delta =\dfrac{\pi }4$, 原命题得证.
+\item 求满足不等式$\arcsin x<1$的$x$的取值范围.
+解答在这里 由已知条件, 得$\begin{cases} -1\le x\le 1, \\ \arcsin x<\arcsin (\sin 1), \end{cases}$于是$\begin{cases} -1\le x\le 1, \\ x<\sin 1, \end{cases}$
+所以$-1\le x<\sin 1$.
+\item 求满足不等式$\arccos (2x^2-1)<\arccos x$的$x$的取值范围.
+解答在这里 由已知条件, 得$\begin{cases} -1\le 2x^2-1\le 1, \\ -1\le x\le 1, \\ 2x^2-1>x, \end{cases}$即$\begin{cases} -1\le x\le 1, \\ 2x^2-x-1>0, \end{cases}$也即$\begin{cases} -1\le x\le 1, \\ x<-\dfrac 12x>1, \end{cases}$
+所以$-1\le x<-\dfrac 12$.
 \item 若$\pi \le \alpha \le \dfrac{3\pi }2$, 且$\sin \alpha =-\dfrac 14$, 则用反三角形式表示$\alpha$是\bracket{20}.
 \fourch{$\pi -\arcsin \dfrac 14$}{$\pi +\arcsin \dfrac 14$}{$\dfrac{3\pi }2-\arcsin \dfrac 14$}{$\dfrac{3\pi }2+\arcsin \dfrac 14$}
 \item 函数$y=\arcsin (\cot x)$的定义域是\bracket{20}.
-\fourch{[-1, 1]}{$[k\pi +\dfrac{\pi }4,k\pi +\dfrac{3\pi }4]$($k\in \mathbf{Z}$)}{$[-\dfrac{\pi }4,\dfrac{\pi }4]$}{$[k\pi -\dfrac{\pi }4,k\pi +\dfrac{\pi }4]$($k\in \mathbf{Z}$)}
+\twoch{$[-1, 1]$}{$[k\pi +\dfrac{\pi }4,k\pi +\dfrac{3\pi }4]$($k\in \mathbf{Z}$)}{$[-\dfrac{\pi }4,\dfrac{\pi }4]$}{$[k\pi -\dfrac{\pi }4,k\pi +\dfrac{\pi }4]$($k\in \mathbf{Z}$)}
 \item 函数$y=\sin (\arcsin x)$的图像是\bracket{20}.
 \fourch{\begin{tikzpicture}[scale = 0.7,>=latex]
     \draw [->] (-2,0) -- (2,0) node [below] {$x$};
@@ -164,34 +128,33 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 \item 函数$f(x)=2\arcsin (x-1)$的反函数是\bracket{20}.
 \twoch{$y=\dfrac 12\sin (x-1)$($-\dfrac{\pi }2<x<\dfrac{\pi }2$)}{$y=1+\sin \dfrac x2$($-\dfrac{\pi }2\le x\le \dfrac{\pi }2$)}{$y=1+\sin \dfrac x2$($-\pi \le x\le \pi$)}{$y=\sin (\dfrac x2+1)$($-\pi \le x\le \pi$)}
 \item 函数$y=\arcsin (x^2-x)$为减函数的区间是\bracket{20}.
-\fourch{[-1, 1]}{$[\dfrac 12,\dfrac 12(1+\sqrt 5)]$}{$(-\dfrac{\pi }4,+\infty)$}{$[\dfrac 12(1-\sqrt 5),\dfrac 12]$}
+\fourch{$[-1, 1]$}{$[\dfrac 12,\dfrac 12(1+\sqrt 5)]$}{$(-\dfrac{\pi }4,+\infty)$}{$[\dfrac 12(1-\sqrt 5),\dfrac 12]$}
 \item 若$0<a<1$, 则在$[0,2\pi]$内满足$\sin x\ge a$的$x$的取值范围是\bracket{20}.
 \fourch{$[0,\arcsin a]$}{$[\arcsin a,\pi -\arcsin a]$}{$[\pi \arcsin a,\pi]$}{$[\arcsin a,\dfrac{\pi }2+\arcsin a]$}
 \item 若$\dfrac{\pi }2\le x\le \dfrac{3\pi }2$, 则$\arcsin (\sin x)$的值等于\bracket{20}.
 \fourch{$x$}{$\pi -x$}{$x-\pi$}{$x+\pi$}
 \item 已知$\arcsin x\ge 1$, 则$x$的取值范围是\bracket{20}.
-\fourch{[0, 1]}{$[0,\sin 1]$}{$[\sin 1,1]$}{[-1, 1]}
+\fourch{$[0, 1]$}{$[0,\sin 1]$}{$[\sin 1,1]$}{$[-1, 1]$}
 \item 若函数$y=\arcsin (\cos x)$的定义域是$(-\dfrac{\pi }3,\dfrac{2\pi }3)$, 则值域是\bracket{20}.
 \fourch{$(-\dfrac{\pi }6,\dfrac{\pi }3]$}{$(-\dfrac{\pi }6,\dfrac{\pi }2]$}{$(\dfrac{\pi }6,\dfrac{\pi }2]$}{$[\dfrac{\pi }3,\dfrac{\pi }2]$}
-\item 求下列函数的定义域与值域:
-(1)$y=\sqrt {\arcsin x}$, $x\in$\blank{50}, $y\in$\blank{50}.
-(2)$y=\arcsin (\lg \dfrac x2)$, $x\in$\blank{50}, $y\in$\blank{50}..
-(3)$y=\dfrac 12\arcsin \dfrac 1{x-2}$, $x\in$\blank{50}, $y\in$\blank{50}.
-(4)$y=\arcsin (x-x^2)$, $x\in$\blank{50}, $y\in$\blank{50}.
-(5)$f(x)=\log _2(\arcsin \dfrac x2)$, $x\in$\blank{50}, $y\in$\blank{50}.
-\item 计算下列各式:
-(1)$\arcsin [\sin (-\dfrac{5\pi }4)]=$\blank{50}.		(2)$\arcsin (\sin 3)=$\blank{50}.
-(3)$\arcsin (\cos 2)=$\blank{50}.			(4)$\arcsin (\cos 5)=$\blank{50}.
-(5)$\arcsin (\sin \pi ^2)=$\blank{50}.
+\item 函数$y=\sqrt {\arcsin x}$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$y=\arcsin (\lg \dfrac x2)$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$y=\dfrac 12\arcsin \dfrac 1{x-2}$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$y=\arcsin (x-x^2)$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$f(x)=\log _2(\arcsin \dfrac x2)$的定义域为\blank{50}, 值域为\blank{50}.
+\item 计算: $\arcsin [\sin (-\dfrac{5\pi }4)]=$\blank{50}.		
+\item 计算: $\arcsin (\sin 3)=$\blank{50}.
+\item 计算: $\arcsin (\cos 2)=$\blank{50}.
+\item 计算: $\arcsin (\cos 5)=$\blank{50}.
+\item 计算: $\arcsin (\sin \pi ^2)=$\blank{50}.
 \item 求函数$y=(\arcsin x)^2-2\arcsin x-2$的最大值与最小值, 并求取得最大值、最小值时的$x$值.
 \item 已知$a,b,c$依次为直角三角形的两直角边和斜边, 且满足$\arcsin \dfrac 1a+\arcsin \dfrac 1b=\dfrac{\pi }2$, 求证: $c=ab$.
-\item (1)已知$\alpha =\dfrac{9\pi }8$, 求$\arcsin (\dfrac{\sin \alpha +\cos \alpha }{\sqrt 2})$的值.
-(2)已知$\dfrac{\pi }4<\theta <\dfrac{5\pi }4$, 求证$\arcsin (\dfrac{\sin \theta +\cos \theta }{\sqrt 2})=\dfrac{3\pi }4-\theta$.
-\item 根据条件求函数$f(x)=\sin (x-\dfrac{\pi }4)\cos (x+\dfrac{\pi }4)$的反函数:
-(1)$-\dfrac{\pi }4\le x\le \dfrac{\pi }4$.						(2)$\dfrac{\pi }4\le x\le \dfrac{\pi }2$.
-(二)反余弦函数
+\item 已知$\alpha =\dfrac{9\pi }8$, 求$\arcsin (\dfrac{\sin \alpha +\cos \alpha }{\sqrt 2})$的值.
+\item 已知$\dfrac{\pi }4<\theta <\dfrac{5\pi }4$, 求证$\arcsin (\dfrac{\sin \theta +\cos \theta }{\sqrt 2})=\dfrac{3\pi }4-\theta$.
+\item 求函数$f(x)=\sin (x-\dfrac{\pi }4)\cos (x+\dfrac{\pi }4), \ -\dfrac{\pi }4\le x\le \dfrac{\pi }4$的反函数.
+\item 求函数$f(x)=\sin (x-\dfrac{\pi }4)\cos (x+\dfrac{\pi }4),\  \dfrac{\pi }4\le x\le \dfrac{\pi }2$的反函数.
 \item 下列各式正确的是\bracket{20}.
-\fourch{$\arcsin (-\dfrac{\pi }3)=-\dfrac{\sqrt 3}2$}{$\sin (\arcsin \dfrac{\pi }3)=\dfrac{\pi }3$}{$\arcsin (\sin \dfrac{5\pi }4)=\dfrac{\pi }4$}{$\sin [\arccos (-\dfrac{\sqrt 2}2)]=\dfrac{\sqrt 2}2$}
+\twoch{$\arcsin (-\dfrac{\pi }3)=-\dfrac{\sqrt 3}2$}{$\sin (\arcsin \dfrac{\pi }3)=\dfrac{\pi }3$}{$\arcsin (\sin \dfrac{5\pi }4)=\dfrac{\pi }4$}{$\sin [\arccos (-\dfrac{\sqrt 2}2)]=\dfrac{\sqrt 2}2$}
 \item 在$[-1,\dfrac 32]$上与函数$y=x$相同的函数是\bracket{20}.
 \fourch{$y=\arccos (\cos x)$}{$y=\arcsin (\sin x)$}{$y=\sin (\arcsin x)$}{$y=\cos (\arccos x)$}
 \item 若$f(\cos x)=\dfrac x2$, $x\in [0,\pi]$, 则$f(-\dfrac 12)$等于\bracket{20}.
@@ -200,52 +163,48 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 \fourch{关于$x$轴对称}{关于$y$轴对称}{关于原点对称}{关于直线$y=x$对称}
 \item 函数$y=\arccos (x^2-2x)$为减函数的区间是\bracket{20}.
 \fourch{$[1,+\infty]$}{$[-1,1+\sqrt 2]$}{$[1-\sqrt 2,1+\sqrt 2]$}{$[1,1+\sqrt 2]$}
-\item 求下列函数的定义域与值域:
-(1)$y=\sqrt {\arccos x}$, $x\in$\blank{50}, $y\in$\blank{50}.
-(2)$y=\arccos (\sqrt 2\sin x)$, $x\in$\blank{50}, $y\in$\blank{50}.
-(3)$y=\arccos \dfrac 2x$, $x\in$\blank{50}, $y\in$\blank{50}.
-(4)$y=\arccos (2x^2-x)$, $x\in$\blank{50}, $y\in$\blank{50}.
-(5)$y=\sqrt {\dfrac{2\pi }3-\arccos (\dfrac 12x-1)}$, $x\in$\blank{50}, $y\in$\blank{50}.
-\item (1)已知$\cos x=-\dfrac 13$, $\pi \le x\le 2\pi$则$x=$\blank{50}.
-(2)函数$f(x)=\dfrac 12\arccos (x+2)$的反函数是\blank{50}.
-\item 根据条件填空:
-(1)$\sin (\arccos x)=\dfrac{\sqrt 3}2$, 则$x=$\blank{50}.
-(2)已知$\arccos (\cos x)=\dfrac{\pi }6$, 则$x=$\blank{50}.
-(3)已知$\cos [\arccos (x+1)]=x+1$, 则$x$的取值范围是\blank{50}.
-\item 计算下列各式:
-(1)$\arcsin (\sin \dfrac{3\pi }4)+\arccos (\cos \dfrac{3\pi }4)=$\blank{50}.
-(2)$\arccos [\cos (-\dfrac{\pi }6)]=$\blank{50}.
-(3)$\arccos (\sin \dfrac{\pi }7)=$\blank{50}.
-(4)$\arccos (\cos \pi ^2)=$\blank{50}.
-(5)$\tan (\dfrac 12\arccos \dfrac{2\sqrt 2}3)=$\blank{50}.
-(6)$\cos [\dfrac 12\arccos (-\dfrac 35)]=$\blank{50}.
-\item 根据下列条件求$x$的取值范围:
-(1)$2\arccos x-\arccos (-x)>0$:\blank{50}.
-(2)$\arccos 3x<\arccos (2-5x)$:\blank{50}.
-(3)$\arccos (2x^2-1)<\arccos x$:\blank{50}.
-(4)$\arccos x>\arcsin x$:\blank{50}.
+\item 函数$y=\sqrt {\arccos x}$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$y=\arccos (\sqrt 2\sin x)$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$y=\arccos \dfrac 2x$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$y=\arccos (2x^2-x)$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$y=\sqrt {\dfrac{2\pi }3-\arccos (\dfrac 12x-1)}$的定义域为\blank{50}, 值域为\blank{50}.
+\item 已知$\cos x=-\dfrac 13$, $\pi \le x\le 2\pi$则$x=$\blank{50}.
+\item 函数$f(x)=\dfrac 12\arccos (x+2)$的反函数是\blank{50}.
+\item $\sin (\arccos x)=\dfrac{\sqrt 3}2$, 则$x=$\blank{50}.
+\item 已知$\arccos (\cos x)=\dfrac{\pi }6$, 则$x=$\blank{50}.
+\item 已知$\cos [\arccos (x+1)]=x+1$, 则$x$的取值范围是\blank{50}.
+\item 计算: $\arcsin (\sin \dfrac{3\pi }4)+\arccos (\cos \dfrac{3\pi }4)=$\blank{50}.
+\item 计算: $\arccos [\cos (-\dfrac{\pi }6)]=$\blank{50}.
+\item 计算: $\arccos (\sin \dfrac{\pi }7)=$\blank{50}.
+\item 计算: $\arccos (\cos \pi ^2)=$\blank{50}.
+\item 计算: $\tan (\dfrac 12\arccos \dfrac{2\sqrt 2}3)=$\blank{50}.
+\item 计算: $\cos [\dfrac 12\arccos (-\dfrac 35)]=$\blank{50}.
+\item 满足不等式$2\arccos x-\arccos (-x)>0$的$x$的取值集合为\blank{50}.
+\item 满足不等式$\arccos 3x<\arccos (2-5x)$的$x$的取值集合为\blank{50}.
+\item 满足不等式$\arccos (2x^2-1)<\arccos x$的$x$的取值集合为\blank{50}.
+\item 满足不等式$\arccos x>\arcsin x$的$x$的取值集合为\blank{50}.
 \item 已知$f(x)=\arccos x+1$, 且$f(a)=a$, 求$f(-a)$的值.
 \item 设$f(x)$为奇函数, 且当$x>0$时, $f(x)=\pi -\arccos (\sin x)$, 则当$x<0$时, $f(x)$的解析式为\bracket{20}.
 \fourch{$\arccos (\sin x)$}{$-\arccos (\sin x)$}{$\pi +\arccos (\sin x)$}{$-\pi -\arccos (\sin x)$}
 \item 下列四个命题中正确的是\bracket{20}.
-\fourch{若$\sin f(x)$是奇函数, 则$f(x)$是奇函数}{若$\cos f(x)$是奇函数, 则$f(x)$是奇函数}{若$\arcsin f(x)$是奇函数, 则$f(x)$是奇函数}{若$\arccos f(x)$是奇函数, 则$f(x)$是奇函数}
+\twoch{若$\sin f(x)$是奇函数, 则$f(x)$是奇函数}{若$\cos f(x)$是奇函数, 则$f(x)$是奇函数}{若$\arcsin f(x)$是奇函数, 则$f(x)$是奇函数}{若$\arccos f(x)$是奇函数, 则$f(x)$是奇函数}
 \item 函数$f(x)=\dfrac{\arcsin x}{\dfrac{\pi }2-\arccos x}$\bracket{20}.
-\fourch{是奇函数, 但不是偶函数}{是偶函数, 但不是奇函数}{即不是奇函数, 也不是偶函数}{奇偶性无法确定}
+\twoch{是奇函数, 但不是偶函数}{是偶函数, 但不是奇函数}{即不是奇函数, 也不是偶函数}{奇偶性无法确定}
 \item 若函数$f(x)=-\arccos x+\varphi$是奇函数, 则$\varphi$等于\bracket{20}.
 \fourch{$\pi$}{$\dfrac{\pi }2$}{$-\pi$}{$-\dfrac{\pi }2$}
-\item (1)用一个反正弦形式表示$\arcsin \dfrac{12}{13}+\arccos \dfrac 45$.
-(2)用一个反余弦形式表示$\arccos \dfrac{15}{17}-\arcsin \dfrac 45$.
-\item 求值:
-(1)$\arcsin \dfrac{2\sqrt 2}3+\arcsin \dfrac 13$.				(2)$\arccos (-\dfrac{11}{14})-\arccos \dfrac 17$.
+\item 用一个反正弦形式表示$\arcsin \dfrac{12}{13}+\arccos \dfrac 45$.
+\item 用一个反余弦形式表示$\arccos \dfrac{15}{17}-\arcsin \dfrac 45$.
+\item 求值: $\arcsin \dfrac{2\sqrt 2}3+\arcsin \dfrac 13$.
+\item 求值: $\arccos (-\dfrac{11}{14})-\arccos \dfrac 17$.
 \item 已知$\arccos \dfrac xa=2\arcsin \dfrac ya$, 求证: $a^2=ax+2y^2$.
-\item 求值:
-(1)$\sin (\arcsin \dfrac 35+\arcsin \dfrac 8{17})$.			(2)$\tan [\arcsin \dfrac 13+\arccos (-\dfrac 15)]$.
-(3)$\cos [\arccos \dfrac 45-\arccos (-\dfrac 5{13})]$.		(4)$\arcsin (\cos 4)-\arccos (\sin 5)$.
-\item (1)已知$-\dfrac{\pi }3<\theta <\dfrac{2\pi }3$, 求证: $\arccos \dfrac{\sqrt 3\sin \theta -\cos \theta }2+\theta =\dfrac{2\pi }3$.
-(2)若$\arcsin (\sin \alpha +\sin \beta)+\arcsin (\sin \alpha -\sin \beta)$是$\dfrac{\pi }2$的奇数倍, 求证: $\sin ^2\alpha +\sin ^2\beta =\dfrac 12$.
-\item (1)求函数$y=(\arccos x)^2-5\arccos x$($|x|\le 1$)的值域.
-(2)已知函数$f(x)=\cos (2\arccos x)+4\sin (\arcsin \dfrac x2)$, 求它的最大值与最小值.
-(三)反正切函数与反余切函数
+\item 求值: $\sin (\arcsin \dfrac 35+\arcsin \dfrac 8{17})$.
+\item 求值: $\tan [\arcsin \dfrac 13+\arccos (-\dfrac 15)]$.
+\item 求值: $\cos [\arccos \dfrac 45-\arccos (-\dfrac 5{13})]$.
+\item 求值: $\arcsin (\cos 4)-\arccos (\sin 5)$.
+\item 已知$-\dfrac{\pi }3<\theta <\dfrac{2\pi }3$, 求证: $\arccos \dfrac{\sqrt 3\sin \theta -\cos \theta }2+\theta =\dfrac{2\pi }3$.
+\item 若$\arcsin (\sin \alpha +\sin \beta)+\arcsin (\sin \alpha -\sin \beta)$是$\dfrac{\pi }2$的奇数倍, 求证: $\sin ^2\alpha +\sin ^2\beta =\dfrac 12$.
+\item 求函数$y=(\arccos x)^2-5\arccos x$($|x|\le 1$)的值域.
+\item 已知函数$f(x)=\cos (2\arccos x)+4\sin (\arcsin \dfrac x2)$, 求它的最大值与最小值.
 \item 记$M=\arcsin (-\dfrac 13)$, $P=\arctan (-\sqrt 2)$, $Q=\arccos (-\dfrac 23)$, 则$M,P,Q$的大小关系是\bracket{20}.
 \fourch{$M<P<Q$}{$M<Q<P$}{$P<M<Q$}{$P<Q<M$}
 \item 计算$\arctan (\tan \dfrac 35\pi)$的值是\bracket{20}.
@@ -253,33 +212,31 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 \item 若$x<0$, 则$\arctan x$等于\bracket{20}.
 \fourch{$\mathrm{arccot} \dfrac 1x$}{$-\mathrm{arccot} \dfrac 1x$}{$\pi -\mathrm{arccot} \dfrac 1x$}{$\mathrm{arccot} \dfrac 1x-\pi$}
 \item 函数$f(x)=\dfrac{\pi }2+\arctan x$的反函数是\bracket{20}.
-\fourch{$f^{-1}(x)=\tan (x-\dfrac{\pi }2)$($0<x<\pi$)}{$f^{-1}(x)=-\cot x$($-\dfrac{\pi }2<x<\dfrac{\pi }2$)}{$f^{-1}(x)=-\dfrac 1{\tan x}$($0<x<\pi$)}{$f^{-1}(x)=\tan x$($0<x<\pi$)}
+\twoch{$f^{-1}(x)=\tan (x-\dfrac{\pi }2)$($0<x<\pi$)}{$f^{-1}(x)=-\cot x$($-\dfrac{\pi }2<x<\dfrac{\pi }2$)}{$f^{-1}(x)=-\dfrac 1{\tan x}$($0<x<\pi$)}{$f^{-1}(x)=\tan x$($0<x<\pi$)}
 \item 若$\arctan (x+1)-\arctan (x-1)=\dfrac{\pi }4$, 则$\arcsin \dfrac 1{x^2}$等于\bracket{20}.
-\fourch{$\dfrac{\pi }6$}{$\dfrac{\pi }4$}{$\dfrac{\pi }3$.		(1))$\dfrac{4\pi }3$.
-\item 下列函数中, 同时满足条件``\textcircled{1} 定义域是$R$, \textcircled{2} 是奇函数, \textcircled{3} 是周期函数''的函数是\bracket{20}.(A)$y=\arcsin (\sin x)$.					(B)$y=\cos (\arcsin x)$.
-(C)$y=\tan (\arctan x)$}{$y=\arctan (\tan x)$}
-\item 在``\textcircled{1} $\arcsin (\sin \dfrac 56\pi)=\dfrac 56\pi$, \textcircled{2} $\arctan (\tan \dfrac 76\pi)=\dfrac{\pi }6$, \textcircled{3} $\cos (\arccos \pi)=\pi$, \textcircled{4} $\tan (\mathrm{arccot} 0)=0$''这四个式子中, 正确的有\bracket{20}.
-\fourch{0个}{1个}{2个}{3个}
-\item 计算下列各式:
-(1)$\arctan \dfrac 13+\arctan 3+\arcsin \dfrac 15-\arccos (-\dfrac 15)=$\blank{50}.
-(2)$\arctan (\cot 1)=$\blank{50}.
-(3)$art\cot (\cot \dfrac{10}7\pi)=$\blank{50}.
-(4)$\arctan \dfrac{1-\tan 25^\circ }{1+\tan 25^\circ }=$\blank{50}.
-(5)$\arctan 7+\mathrm{arccot} \dfrac 34=$\blank{50}.
-(6)$\arctan (3+2\sqrt 2)-\arctan \dfrac{\sqrt 2}2=$\blank{50}.
-(7)$\arctan \dfrac 12+\arctan \dfrac 15+\arctan \dfrac 18=$\blank{50}.
-(8)$\arcsin (\sin 4)+\arccos (\cos 3)+\arctan (\tan 2)+\mathrm{arccot} (\cot 1)=$\blank{50}.
-\item 求下列各式的值:
-(1)$\sin [\dfrac 12\arctan (-2\sqrt 2)]=$\blank{50}.
-(2)$\sin [\dfrac 12\mathrm{arccot} (-\dfrac 34)]=$\blank{50}.
-(3)$\tan (\arctan \dfrac 15+\arctan 3)=$\blank{50}.
-(4)$\sin [2\arctan (-6)]=$\blank{50}.
-(5)$\cos (2\mathrm{arccot} \dfrac 12)+\tan [\dfrac 12\arccos (-\dfrac 35)]=$\blank{50}.
+\fourch{$\dfrac{\pi }6$}{$\dfrac{\pi }4$}{$\dfrac{\pi }3$}{$\dfrac{4\pi }3$}
+\item 下列函数中, 同时满足条件\textcircled{1} 定义域是$\mathbf{R}$, \textcircled{2} 是奇函数, \textcircled{3} 是周期函数的函数是\bracket{20}.
+\fourch{$y=\arcsin (\sin x)$}{$y=\cos (\arcsin x)$}{$y=\tan (\arctan x)$}{$y=\arctan (\tan x)$}
+\item 在\textcircled{1} $\arcsin (\sin \dfrac 56\pi)=\dfrac 56\pi$, \textcircled{2} $\arctan (\tan \dfrac 76\pi)=\dfrac{\pi }6$, \textcircled{3} $\cos (\arccos \pi)=\pi$, \textcircled{4} $\tan (\mathrm{arccot} 0)=0$这四个式子中, 正确的有\bracket{20}.
+\fourch{$0$个}{$1$个}{$2$个}{$3$个}
+\item 计算: $\arctan \dfrac 13+\arctan 3+\arcsin \dfrac 15-\arccos (-\dfrac 15)=$\blank{50}.
+\item 计算: $\arctan (\cot 1)=$\blank{50}.
+\item 计算: $\mathrm{arccot} (\cot \dfrac{10}7\pi)=$\blank{50}.
+\item 计算: $\arctan \dfrac{1-\tan 25^\circ }{1+\tan 25^\circ }=$\blank{50}.
+\item 计算: $\arctan 7+\mathrm{arccot} \dfrac 34=$\blank{50}.
+\item 计算: $\arctan (3+2\sqrt 2)-\arctan \dfrac{\sqrt 2}2=$\blank{50}.
+\item 计算: $\arctan \dfrac 12+\arctan \dfrac 15+\arctan \dfrac 18=$\blank{50}.
+\item 计算: $\arcsin (\sin 4)+\arccos (\cos 3)+\arctan (\tan 2)+\mathrm{arccot} (\cot 1)=$\blank{50}.
+\item 求值: $\sin [\dfrac 12\arctan (-2\sqrt 2)]=$\blank{50}.
+\item 求值: $\sin [\dfrac 12\mathrm{arccot} (-\dfrac 34)]=$\blank{50}.
+\item 求值: $\tan (\arctan \dfrac 15+\arctan 3)=$\blank{50}.
+\item 求值: $\sin [2\arctan (-6)]=$\blank{50}.
+\item 求值: $\cos (2\mathrm{arccot} \dfrac 12)+\tan [\dfrac 12\arccos (-\dfrac 35)]=$\blank{50}.
 \item 在下列各组函数中, 图像不相同的是\bracket{20}.
-\fourch{$y=\sin (\arccos x)$与$y=\cos (\arcsin x)$}{$y=\tan (\mathrm{arccot} x)$与$y=\cot (\arctan x)$}{$y=\arcsin (\sin x)$与$y=\arccos (\cos x)$, $x\in [-\dfrac{\pi }2,\dfrac{\pi }2]$}{$y=\arctan (\tan x)$与$y=\arctan (\cot x)$, $x\in [0,\dfrac{\pi }2]$}
+\onech{$y=\sin (\arccos x)$与$y=\cos (\arcsin x)$}{$y=\tan (\mathrm{arccot} x)$与$y=\cot (\arctan x)$}{$y=\arcsin (\sin x)$与$y=\arccos (\cos x)$, $x\in [-\dfrac{\pi }2,\dfrac{\pi }2]$}{$y=\arctan (\tan x)$与$y=\arctan (\cot x)$, $x\in [0,\dfrac{\pi }2]$}
 \item 若将函数$y=\arctan x$的图像沿$x$轴正方向平移2个单位长度所得到的图像记为$C$, 又图像$C'$与$C$关于原点对称, 则与$C'$对应的函数是\bracket{20}.
 \fourch{$y=-\arctan (x-2)$}{$y=\arctan (x-2)$}{$y=-\arctan (x+2)$}{$y=\arctan (x+2)$}
-\item 若$\arctan x+\mathrm{arccot} y=\pi$, 则点($x,y$)组成的图像是\bracket{20}.
+\item 若$\arctan x+\mathrm{arccot} y=\pi$, 则点$(x,y)$组成的图像是\bracket{20}.
 \fourch{\begin{tikzpicture}[>=stealth,scale = 0.6]
     \draw [->] (-2.5,0) -- (2.5,0) node [below] {$x$};
     \draw [->] (0,-2.5) -- (0,2.5) node [left] {$y$};
@@ -312,65 +269,48 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
     \draw [domain = 0.4:2.5] plot (\x,{-1/\x});
     \draw [domain = 0.4:2.5] plot (\x,{1/\x});
 \end{tikzpicture}}
-\item 求下列函数的定义域与值域:
-(1)$y=\arctan (\sin x)$, $x\in$\blank{50}, $y\in$\blank{50}.
-(2)$y=\dfrac 13\arcsin 3x+\arctan \sqrt 3x$, $x\in$\blank{50}, $y\in$\blank{50}.
-(3)$y=\mathrm{arccot} \sqrt {\cos x}$, $x\in$\blank{50}, $y\in$\blank{50}.
-(4)$y=\arctan \dfrac 1{x^2-1}$, $x\in$\blank{50}, $y\in$\blank{50}.
-\item (1)已知方程$x^2+3\sqrt 3x+4=0$的两个实根为$x_1$与$x_2$, 记$\alpha =\arctan x_1$, $\beta =\arctan x_2$, 求$\alpha +\beta$的值.
-(2)已知实数$a,b$满足$(a+1)(b+1)=2$, 求$\arctan a+\arctan b$的值.
-(3)已知$|x|\le 1$, 求$\csc ^2(\arctan x)-\tan ^2(\arccos x)$的值.
-二、简单三角方程
-【典型题型和解题技巧】
-\item 主要的三角方程类型.
-(1)$a\sin ^2x+b\sin x+c=0$($a\ne 0$)型.
-\item 解方程$2\sin ^2x+3\sin x-2=0$.
-解  原方程即$(2\sin x-1)(\sin x+2)=0$, ∴$\sin x=\dfrac 12$或$\sin x=-2$(舍去).
-∴$x=k\pi +(-1)^k\dfrac{\pi }6$($k\in \mathbf{Z}$).
-(2)$a\sin x+b\cos x+c=0$($a^2+b^2\ne 0$, $c\ne 0$)型.
-此类方程可将两边同除以$\sqrt {a^2+b^2}$, 变形为$\sin (x+\varphi)=\dfrac{-c}{\sqrt {a^2+b^2}}$.
-\item 解方程$2\sin x-\cos x=1$.
-解  原方程即$\sin x\cdot \dfrac 2{\sqrt 5}-\cos x\cdot \dfrac 1{\sqrt 5}=\dfrac 1{\sqrt 5}$, 即$\sin (x-\varphi)=\dfrac 1{\sqrt 5}$(其中$\varphi =\arctan \dfrac 12$),
-∴$x=k\pi +(-1)^k\arcsin \dfrac 1{\sqrt 5}+\arctan \dfrac 12$($k\in \mathbf{Z}$).
-注意  方程$\sin x=a$, $\cos x=a$有解的条件是$|a|\le 1$.
-(3)齐次型.
-$a\sin x+b\cos x=0$, $a\sin ^2x+b\sin x\cos x+c\cos ^2x=0$.
-此类方程可将两边同除以$\cos x$或$\cos ^2x$, 转化为$\tan x$的一次或二次方程.后者也可采用``降次'', 转化为$A\sin 2x+B\cos 2x=C$的形式.
-\item 解方程$\sin ^2x-3\sin x\cos x+1=0$.
-解法一  原方程即$2\sin ^2x-3\sin x\cos x+\cos ^2x=0$.显然$\cos ^2x\ne 0$,
+\item 函数$y=\arctan (\sin x)$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$y=\dfrac 13\arcsin 3x+\arctan \sqrt 3x$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$y=\mathrm{arccot} \sqrt {\cos x}$的定义域为\blank{50}, 值域为\blank{50}.
+\item 函数$y=\arctan \dfrac 1{x^2-1}$的定义域为\blank{50}, 值域为\blank{50}.
+\item 已知方程$x^2+3\sqrt 3x+4=0$的两个实根为$x_1$与$x_2$, 记$\alpha =\arctan x_1$, $\beta =\arctan x_2$, 求$\alpha +\beta$的值.
+\item 已知实数$a,b$满足$(a+1)(b+1)=2$, 求$\arctan a+\arctan b$的值.
+\item 已知$|x|\le 1$, 求$\csc ^2(\arctan x)-\tan ^2(\arccos x)$的值.
+\item 解方程$2\sin ^2x+3\sin x-2=0$.\\
+解答在这里  原方程即$(2\sin x-1)(\sin x+2)=0$, 所以$\sin x=\dfrac 12$或$\sin x=-2$(舍去).
+所以$x=k\pi +(-1)^k\dfrac{\pi }6$($k\in \mathbf{Z}$).
+\item 解方程$2\sin x-\cos x=1$.\\
+解答在这里  原方程即$\sin x\cdot \dfrac 2{\sqrt 5}-\cos x\cdot \dfrac 1{\sqrt 5}=\dfrac 1{\sqrt 5}$, 即$\sin (x-\varphi)=\dfrac 1{\sqrt 5}$(其中$\varphi =\arctan \dfrac 12$),
+所以$x=k\pi +(-1)^k\arcsin \dfrac 1{\sqrt 5}+\arctan \dfrac 12$($k\in \mathbf{Z}$).
+\item 解方程$\sin ^2x-3\sin x\cos x+1=0$.\\
+解答在这里 解法一  原方程即$2\sin ^2x-3\sin x\cos x+\cos ^2x=0$.显然$\cos ^2x\ne 0$,
 则有$2\tan ^2x-3\tan x+1=0$, 即$(2\tan x-1)(\tan x-1)=0$,
-∴$\tan x=\dfrac 12$或$\tan x=1$, ∴$x=k\pi +\arctan \dfrac 12$或$x=k\pi +\dfrac{\pi }4$($k\in \mathbf{Z}$).
+所以$\tan x=\dfrac 12$或$\tan x=1$, 所以$x=k\pi +\arctan \dfrac 12$或$x=k\pi +\dfrac{\pi }4$($k\in \mathbf{Z}$).
 解法二  原方程即$\dfrac{1-\cos 2x}2-\dfrac 32\sin 2x+1=0$.
 整理, 得$3\sin 2x+\cos 2x=3$, 于是$\sin (2x+\varphi)=\dfrac 3{\sqrt {10}}$(其中$\varphi =\arctan \dfrac 13$),
-∴$2x+\varphi =k\pi +(-1)^k\arcsin \dfrac 3{\sqrt {10}}$,
+所以$2x+\varphi =k\pi +(-1)^k\arcsin \dfrac 3{\sqrt {10}}$,
 故$x=\dfrac{k\pi }2+\dfrac 12(-1)^k\arcsin \dfrac 3{\sqrt {10}}-\dfrac 12\arctan \dfrac 13$($k\in \mathbf{Z}$).
-(4)同名三角函数相等型.
-\textcircled{1} $\sin f(x)=\sin \varphi (x)$; \textcircled{2} $\cos f(x)=\cos \varphi (x)$; \textcircled{3} $\tan f(x)=\tan \varphi (x)$; \textcircled{4} $\cot f(x)=\cot \varphi (x)$.
-在这四种类型的方程中, \textcircled{1} 可化为$f(x)=2k\pi +\varphi (x)$或$f(x)=2k\pi +\pi -\varphi (x)$; \textcircled{2} 可化为$f(x)=2k\pi \pm \varphi (x)$; \textcircled{3} , \textcircled{4} 可化为$f(x)=k\pi +\varphi (x)$($k\in \mathbf{Z}$).
-\item 解方程$\tan 5x=\tan 4x$.
-解  由已知, 得$\begin{cases} 5x\ne m\pi +\dfrac{\pi }2, \\ 4x\ne n\pi +\dfrac{\pi }2, \\ 5x=k\pi +4x \end{cases}$($m,n,k\in \mathbf{Z}$), ∴$x=k\pi$($k\in \mathbf{Z}$).
-(5)含$\sin x\pm \cos x$, $\sin x\cos x$的三角方程.
-此类方程宜用换元法, 即令$\sin x\pm \cos x=t$($|t|\le \sqrt 2$), 则$\sin x\cos x=\pm \dfrac{t^2-1}2$.
-\item 解方程$\sin 2x-12(\sin x-\cos x)+12=0$.
-解  令$\sin x-\cos x=t$($|t|\le \sqrt 2$), 则$\sin 2x=1-t^2$, 原方程可化为$1-t^2-12t+12=0$,
-即$t^2+12t-13=0$, 也即$(t+13)(t-1)=0$.∴$t=-13$(舍去), 或$t=1$.
-∴$\sin x-\cos x=1$, 即$\sin (x-\dfrac{\pi }4)=\dfrac{\sqrt 2}2$, 故$x=k\pi +(-1)^k\dfrac{\pi }4+\dfrac{\pi }4$($k\in \mathbf{Z}$).
-(4)其他.
-\item 解方程$\sin ^2x+\sin ^22x=\sin ^23x$.
-解  原方程即$(\sin ^23x-\sin ^2x)-\sin ^22x=0$,
-∴$(\sin 3x+\sin x)(\sin 3x-\sin x)-\sin ^22x=0$, 即$4\sin 2x\cos x\cos 2x\sin x-\sin ^22x=0$,
-∴$2\sin ^22x\cos 2x-\sin ^22x=0$.于是$\sin ^22x(2\cos 2x-1)=0$,
-∴$\sin 2x=0$或$\cos 2x=\dfrac 12$, 故$x=\dfrac{k\pi }2$或$x=k\pi \pm \dfrac{\pi }6$($k\in \mathbf{Z}$).
-注意  因式分解以及和差与积的互化, 是解三角方程的重要手段.
-\item 三角方程解的讨论.
-(1)利/用$|\sin x|\le 1$与$|\cos x|\le 1$.
-.例7  求实数$m$的取值范围, 使关于$x$的方程$2\sin ^2x+2\sin x\cos x-\cos ^2x-1-m=0$有解.
-解  原方程即$\sin ^2x+2\sin x\cos x-2\cos ^2x=m$, ∴$\dfrac{1-\cos 2x}2+\sin 2x-2\cdot \dfrac{1+\cos 2x}2=m$,
-即$2\sin 2x-3\cos 2x=2m+1$, ∴$\sin (2x-\varphi)=\dfrac{2m+1}{\sqrt {13}}$(其中$\varphi =\arctan \dfrac 32$).
-欲使方程有解, 只需$-\sqrt {13}\le 2m+1\le \sqrt {13}$, ∴$\dfrac{-1-\sqrt {13}}2\le m\le \dfrac{-1+\sqrt {13}}2$.
-注意  例7也可将原方程化为$\tan x$的二次方程, 再利用$\triangle \ge 0$求解, 请读者试一试.
-(2)利用函数图像.
-\item 关于$x$的方程$\sin x+\sqrt 3\cos x+a=0$在$(0,2\pi)$内有两个相异的实数解$\alpha ,\beta$, 求实数$a$的取值及$\alpha +\beta$的值.
+\item 解方程$\tan 5x=\tan 4x$.\\
+解答在这里  由已知, 得$\begin{cases} 5x\ne m\pi +\dfrac{\pi }2, \\ 4x\ne n\pi +\dfrac{\pi }2, \\ 5x=k\pi +4x \end{cases}$($m,n,k\in \mathbf{Z}$), 所以$x=k\pi$($k\in \mathbf{Z}$).
+\item 解方程$\sin 2x-12(\sin x-\cos x)+12=0$.\\
+解答在这里  令$\sin x-\cos x=t$($|t|\le \sqrt 2$), 则$\sin 2x=1-t^2$, 原方程可化为$1-t^2-12t+12=0$,
+即$t^2+12t-13=0$, 也即$(t+13)(t-1)=0$.所以$t=-13$(舍去), 或$t=1$.
+所以$\sin x-\cos x=1$, 即$\sin (x-\dfrac{\pi }4)=\dfrac{\sqrt 2}2$, 故$x=k\pi +(-1)^k\dfrac{\pi }4+\dfrac{\pi }4$($k\in \mathbf{Z}$).
+\item 解方程$\sin ^2x+\sin ^22x=\sin ^23x$.\\
+解答在这里  原方程即$(\sin ^23x-\sin ^2x)-\sin ^22x=0$,
+所以$(\sin 3x+\sin x)(\sin 3x-\sin x)-\sin ^22x=0$, 即$4\sin 2x\cos x\cos 2x\sin x-\sin ^22x=0$,
+所以$2\sin ^22x\cos 2x-\sin ^22x=0$.于是$\sin ^22x(2\cos 2x-1)=0$,
+所以$\sin 2x=0$或$\cos 2x=\dfrac 12$, 故$x=\dfrac{k\pi }2$或$x=k\pi \pm \dfrac{\pi }6$($k\in \mathbf{Z}$).
+\item 求实数$m$的取值范围, 使关于$x$的方程$2\sin ^2x+2\sin x\cos x-\cos ^2x-1-m=0$有解.\\
+解答在这里  原方程即$\sin ^2x+2\sin x\cos x-2\cos ^2x=m$, 所以$\dfrac{1-\cos 2x}2+\sin 2x-2\cdot \dfrac{1+\cos 2x}2=m$,
+即$2\sin 2x-3\cos 2x=2m+1$, 所以$\sin (2x-\varphi)=\dfrac{2m+1}{\sqrt {13}}$(其中$\varphi =\arctan \dfrac 32$).
+欲使方程有解, 只需$-\sqrt {13}\le 2m+1\le \sqrt {13}$, 所以$\dfrac{-1-\sqrt {13}}2\le m\le \dfrac{-1+\sqrt {13}}2$.
+\item 关于$x$的方程$\sin x+\sqrt 3\cos x+a=0$在$(0,2\pi)$内有两个相异的实数解$\alpha ,\beta$, 求实数$a$的取值及$\alpha +\beta$的值.\\
+解答在这里  原方程即$\sin (x+\dfrac{\pi }3)=-\dfrac a2$.
+令$y_1=\sin (x+\dfrac{\pi }3)$($0<x<2\pi$), $y_2=-\dfrac a2$.
+只需$y_2$的图像(一条和$y$轴垂直的直线)和$y_1$的图像在$(0,2\pi)$内有两个交点即可.
+观察下图, 得$\begin{cases} -1<-\dfrac a2<1, \\ -\dfrac a2\ne \dfrac{\sqrt 3}2, \end{cases}$即$-2<a<2$且$a\ne -\sqrt 3$.
+利用中点知识, 易得$\alpha _1+\beta _1=2x_1\text=\dfrac{\pi }2$, $\alpha _2+\beta _2=2x_2\text=\dfrac 73\pi$, 即$\alpha +\beta =\dfrac{\pi }3$或$\alpha +\beta =\dfrac{7\pi }3$.
 \begin{center}
     \begin{tikzpicture}
         \draw [->] (-0.5,0) -- (7,0) coordinate (X) node [below] {$x$};
@@ -394,19 +334,14 @@ $a\sin x+b\cos x=0$, $a\sin ^2x+b\sin x\cos x+c\cos ^2x=0$.
         \filldraw [fill = white, draw = black] ({2*pi},{sqrt(3)/2}) circle (0.03);
     \end{tikzpicture}
 \end{center}
-解  原方程即$\sin (x+\dfrac{\pi }3)=-\dfrac a2$.
-令$y_1=\sin (x+\dfrac{\pi }3)$($0<x<2\pi$), $y_2=-\dfrac a2$.
-只需$y_2$的图像(一条和$y$轴垂直的直线)和$y_1$的图像在$(0,2\pi)$内有两个交点即可.
-观察图1, 得$\begin{cases} -1<-\dfrac a2<1, \\ -\dfrac a2\ne \dfrac{\sqrt 3}2, \end{cases}$即$-2<a<2$且$a\ne -\sqrt 3$.
-利用中点知识, 易得$\alpha _1+\beta _1=2x_1\text=\dfrac{\pi }2$, $\alpha _2+\beta _2=2x_2\text=\dfrac 73\pi$, 即$\alpha +\beta =\dfrac{\pi }3$或$\alpha +\beta =\dfrac{7\pi }3$.
-\item 就实数$a$的取值范围, 讨论关于$x$的方程$\cos 2x+2\sin x+2a-3=0$在$[0,2\pi]$内解的情况.
-解  原方程即$\sin ^2x-\sin x=a-1$, 配方, 得$(\sin x-\dfrac 12)^2=a-\dfrac 34$.
-令$y_1=(\sin x-\dfrac 12)^2$, $y_2=a-\dfrac 34$.观察图2, 得:
-(1)当$a-\dfrac 34>\dfrac 94$或$a-\dfrac 34<0$, 即$a>3$或$a<\dfrac 34$时, 方程无解.
-(2)当$a-\dfrac 34=\dfrac 94$, 即$a=3$时, 方程有一解$x=\dfrac 32\pi$.
-(3)当$\dfrac 14<a<-\dfrac 34<\dfrac 94$或$a-\dfrac 34=0$, 即$1<a<3$或$a=\dfrac 34$时, 方程有两解.
-(4)当$a-\dfrac 34=\dfrac 14$, 即$a=1$时, 方程有三解: $x=0,\dfrac{\pi }2,\pi$.
-(5)当$0<a-\dfrac 34<\dfrac 14$, 即$\dfrac 34<a<1$时, 方程有四解.
+\item 就实数$a$的取值范围, 讨论关于$x$的方程$\cos 2x+2\sin x+2a-3=0$在$[0,2\pi]$内解的情况.\\
+解答在这里  原方程即$\sin ^2x-\sin x=a-1$, 配方, 得$(\sin x-\dfrac 12)^2=a-\dfrac 34$.
+令$y_1=(\sin x-\dfrac 12)^2$, $y_2=a-\dfrac 34$.观察下图, 得:\\
+(1) 当$a-\dfrac 34>\dfrac 94$或$a-\dfrac 34<0$, 即$a>3$或$a<\dfrac 34$时, 方程无解.\\
+(2) 当$a-\dfrac 34=\dfrac 94$, 即$a=3$时, 方程有一解$x=\dfrac 32\pi$.\\
+(3) 当$\dfrac 14<a<-\dfrac 34<\dfrac 94$或$a-\dfrac 34=0$, 即$1<a<3$或$a=\dfrac 34$时, 方程有两解.\\
+(4) 当$a-\dfrac 34=\dfrac 14$, 即$a=1$时, 方程有三解: $x=0,\dfrac{\pi }2,\pi$.\\
+(5) 当$0<a-\dfrac 34<\dfrac 14$, 即$\dfrac 34<a<1$时, 方程有四解.
 \begin{center}
     \begin{tikzpicture}[>=stealth]
         \draw [->] (-2,0) -- (2,0) node [below] {$x$};
@@ -420,96 +355,89 @@ $a\sin x+b\cos x=0$, $a\sin ^2x+b\sin x\cos x+c\cos ^2x=0$.
         \draw (-1.3,0.1) -- (1.3,0.1);
     \end{tikzpicture}
 \end{center}
-注意  (1)$x\in [0,2\pi]$时, 若以$\sin x$为横轴, 则函数$y=a\sin ^2x+b\sin x+c$($a\ne 0$)的图像是在[-1, 1]上的一段曲线.
-(2)本例的曲线$y_1$的对称轴是固定的.如果对称轴不定, 问题的讨论就比较复杂.但就问题的实质而言, 方程$a\sin ^2x+b\sin x+c=0$($a\ne 0$)的讨论, 也就是对一元二次方程$at^2+bt+c=0$($a\ne 0$)在区间[-1, 1]上解的讨论.读者可参看第一章的例题.
-【训练题】
-(一)最简单的三角方程
 \item 若关于$x$的方程$\sin x=2a-1$有解, 则$a$的取值范围是\bracket{20}.
 \fourch{$0<a<1$}{$a<0$或$a>1$}{$a\le 0$或$a\ge 1$}{$0\le a\le 1$}
 \item 满足$\cos (2x+45^\circ)=\sin (30^\circ -x)$的最小正角是\bracket{20}.
-\fourch{5°}{15°}{30°}{37.5°}
+\fourch{$5^\circ$}{$15^\circ$}{$30^\circ$}{$37.5^\circ$}
 \item 记方程$\cos 2x=1$的解集为$M$, 方程$\sin 4x=0$的解集为$P$, 则$M$与$P$的关系是\bracket{20}.
 \fourch{$M\subset P$}{$M\supset P$}{$M=P$}{$M\not\subset P$且$M\not\supset P$}
 \item 方程$\cos x^2=1$的解集是\bracket{20}.
-\fourch{$\{x|x=2k\pi ,k\in \mathbf{Z}\}$}{$\{x|x=\pm \sqrt {2k\pi },k\in \mathbf{Z}\}$}{$\{x|x=\pm \sqrt {2k\pi },k\in \mathbf{N}\}$}{$\{x|x=\pm \sqrt {2k\pi },k\in \mathbf{N}\}\cup \{0\}$}
+\twoch{$\{x|x=2k\pi ,k\in \mathbf{Z}\}$}{$\{x|x=\pm \sqrt {2k\pi },k\in \mathbf{Z}\}$}{$\{x|x=\pm \sqrt {2k\pi },k\in \mathbf{N}\}$}{$\{x|x=\pm \sqrt {2k\pi },k\in \mathbf{N}\}\cup \{0\}$}
 \item 方程$\sin ^2x=\cos ^2x$的解集是\bracket{20}.
-\fourch{$\{x|x=2k\pi +\dfrac{\pi }4,k\in \mathbf{Z}\}$}{$\{x|x=k\pi +\dfrac{\pi }4,k\in \mathbf{Z}\}$}{$\{x|x=\dfrac{k\pi }2+\dfrac{\pi }4,k\in \mathbf{Z}\}$}{$\{x|x=\dfrac{k\pi }4+\dfrac{\pi }4,k\in \mathbf{Z}\}$}
+\twoch{$\{x|x=2k\pi +\dfrac{\pi }4,k\in \mathbf{Z}\}$}{$\{x|x=k\pi +\dfrac{\pi }4,k\in \mathbf{Z}\}$}{$\{x|x=\dfrac{k\pi }2+\dfrac{\pi }4,k\in \mathbf{Z}\}$}{$\{x|x=\dfrac{k\pi }4+\dfrac{\pi }4,k\in \mathbf{Z}\}$}
 I56.方程$\sqrt {1-\sin ^2x}=\sin x$的解集是\bracket{20}.
-\fourch{$\{x|x=k\pi +(-1)^k\dfrac{\pi }4,k\in \mathbf{Z}\}$}{$\{x|x=k\pi +\dfrac{\pi }4,k\in \mathbf{Z}\}$}{$\{x|x=k\pi \pm \dfrac{\pi }4,k\in \mathbf{Z}\}$}{$\{x|x=2k\pi \pm \dfrac{\pi }4,k\in \mathbf{Z}\}$}
+\twoch{$\{x|x=k\pi +(-1)^k\dfrac{\pi }4, \ k\in \mathbf{Z}\}$}{$\{x|x=k\pi +\dfrac{\pi }4,\ k\in \mathbf{Z}\}$}{$\{x|x=k\pi \pm \dfrac{\pi }4, \ k\in \mathbf{Z}\}$}{$\{x|x=2k\pi \pm \dfrac{\pi }4,\ k\in \mathbf{Z}\}$}
 \item 方程$\tan (2x+\dfrac{\pi }3)=\dfrac{\sqrt 3}3$在$[0,2\pi)$范围内的解的个数是\bracket{20}.
-\fourch{5}{4}{3}{2}
-\item (1)若方程$2\cos x=(\dfrac 12)^a$无解, 则实数$a$的取值范围是\blank{50}.
-(2)方程$\sin x=-\cos \dfrac{2\pi }5$的解集是\blank{50}.
-(3)方程$\sin 2x\cdot \cot x=0$的解集是\blank{50}.
-\item (1)若函数$f(x)=\sin (2x+5\theta)$的图像关于$y$轴对称, 则$\theta$的值等于\blank{50}.
-(2)若方程$\sin x=a$在$[\dfrac{2\pi }3,\dfrac{5\pi }3]$中恰有两个不同的实数解, 则$a$的取值范围是\blank{50}.
-\item (1)若$-6<\log _{\dfrac 1{\sqrt 2}}x<-2$, 求方程$\cos \pi x=1$的解集.
-(2)求方程$\lg x=\cos 2x$解的个数.
-(二)简单的三角方程
+\fourch{$5$}{$4$}{$3$}{$2$}
+\item 若方程$2\cos x=(\dfrac 12)^a$无解, 则实数$a$的取值范围是\blank{50}.
+\item 方程$\sin x=-\cos \dfrac{2\pi }5$的解集是\blank{50}.
+\item 方程$\sin 2x\cdot \cot x=0$的解集是\blank{50}.
+\item 若函数$f(x)=\sin (2x+5\theta)$的图像关于$y$轴对称, 则$\theta$的值等于\blank{50}.
+\item 若方程$\sin x=a$在$[\dfrac{2\pi }3,\dfrac{5\pi }3]$中恰有两个不同的实数解, 则$a$的取值范围是\blank{50}.
+\item 若$-6<\log _{\frac 1{\sqrt 2}}x<-2$, 求方程$\cos \pi x=1$的解集.
+\item 求方程$\lg x=\cos 2x$解的个数.
 \item 方程$\dfrac{\cos 2x}{1+\sin 2x}=0$的解集是\bracket{20}.
-\fourch{$\{x|x=2k\pi \pm \dfrac{\pi }4,k\in \mathbf{Z}\}$}{$\{x|x=k\pi \pm \dfrac{\pi }4,k\in \mathbf{Z}\}$}{$\{x|x=k\pi +\dfrac{\pi }4,k\in \mathbf{Z}\}$}{$\{x|x=\dfrac{k\pi }2+\dfrac{\pi }4,k\in \mathbf{Z}\}$}
+\fourch{$\{x|x=2k\pi \pm \dfrac{\pi }4, \ k\in \mathbf{Z}\}$}{$\{x|x=k\pi \pm \dfrac{\pi }4, \ k\in \mathbf{Z}\}$}{$\{x|x=k\pi +\dfrac{\pi }4, \ k\in \mathbf{Z}\}$}{$\{x|x=\dfrac{k\pi }2+\dfrac{\pi }4,\ k\in \mathbf{Z}\}$}
 \item 方程$\dfrac{2\sin x}{\sin 2x}=1$在$-2\pi \le x\le 2\pi$范围内\bracket{20}.
 \fourch{有一个解}{有两个解}{有三个解}{无解}
 \item 下列方程中, 与方程$\sin x=\cos x$的解集相同的是\bracket{20}.
 \fourch{$\sin 2x=2\sin ^2x$}{$\cos x=\sqrt {1-\cos ^2x}$}{$\sin ^2x=\cos ^2x$}{$\dfrac{\cos 2x}{\sin x+\cos x}=0$}
-\item 写出下列方程的解集:
-(1)$\lg _2tgx=1+\log _2\sin x$:\blank{50}.
-(2)$\sin x+\sqrt 3\cos x=2$:\blank{50}.
-(3)$\sin x-\sqrt 3\cos x=a$, $|a|\le 2$:\blank{50}.
-(4)$\cos (x+\dfrac{2\pi }3)\cos (x+\dfrac{\pi }3)=-\dfrac 14$:\blank{50}.
-(5)$\cos ^2(\dfrac{x-30^\circ }2)+\cos ^2(\dfrac{x+30^\circ }2)=1$:\blank{50}.
-(6)$\sin x\cos x+1=\sin x+\cos x$:\blank{50}.
-(7)$\sqrt 2\sin x=\sin 2x+\cos 2x$:\blank{50}.
-(8)$\sin (x-\dfrac{\pi }6)\sin (x+\dfrac{\pi }6)=\dfrac 12$:\blank{50}.
-\item 解下列方程:
-(1)$\sin 3x-\sin 2x+\sin x=0$.			(2)$\cos 2x\cos 3x=\cos x\cos 4x$.
-(3)$\sin 4x\cos 3x=\sin 6x\cos x$.			(4)$\sin 5x-\sin 3x=\sqrt 2\cos 4x$.
-(5)$\sin x+\sin 2x+\sin 3x=1+\cos x+\cos 2x$.
+\item 方程$\lg _2\tan x=1+\log _2\sin x$的解集为\blank{50}.
+\item 方程$\sin x+\sqrt 3\cos x=2$的解集为\blank{50}.
+\item 已知$|a|\le 2$, 方程$\sin x-\sqrt 3\cos x=a$的解集为\blank{50}.
+\item 方程$\cos (x+\dfrac{2\pi }3)\cos (x+\dfrac{\pi }3)=-\dfrac 14$的解集为\blank{50}.
+\item 方程$\cos ^2(\dfrac{x-30^\circ }2)+\cos ^2(\dfrac{x+30^\circ }2)=1$的解集为\blank{50}.
+\item 方程$\sin x\cos x+1=\sin x+\cos x$的解集为\blank{50}.
+\item 方程$\sqrt 2\sin x=\sin 2x+\cos 2x$的解集为\blank{50}.
+\item 方程$\sin (x-\dfrac{\pi }6)\sin (x+\dfrac{\pi }6)=\dfrac 12$的解集为\blank{50}.
+\item 解方程$\sin 3x-\sin 2x+\sin x=0$.
+\item 解方程$\cos 2x\cos 3x=\cos x\cos 4x$.
+\item 解方程$\sin 4x\cos 3x=\sin 6x\cos x$.
+\item 解方程$\sin 5x-\sin 3x=\sqrt 2\cos 4x$.
+\item 解方程$\sin x+\sin 2x+\sin 3x=1+\cos x+\cos 2x$.
 \item 若方程$\sin x+\cos x=m$($m\in \mathbf{R}$)在$0\le x\le \pi$范围内有两个不同的实数解, 则\bracket{20}.
 \fourch{$-1\le m\le \dfrac{\sqrt 2}2$}{$-1<m\le 1$或$m=\sqrt 2$}{$1\le m<\sqrt 2$}{$-\sqrt 2<m<\sqrt 2$}
 \item 方程$\sin ^2x+2\sin x-a=0$有解的条件为\bracket{20}.
 \fourch{$a\in \mathbf{R}$}{$a\in [-1,3]$}{$a\in [-1,\infty)$}{$a\in (-\infty ,3]$}
 \item 若方程$\cos ^2x-|\sin x|+1=0$在$-\pi <x<\pi$范围内的解之和是$p$, 解之积是$q$, 则下列结论正确的是\bracket{20}.
-\fourch{$p=-1$}{$p=0$}{$q=1$}{$q=2$}
+\twoch{$p=-1$}{$p=0$}{$q=1$}{$q=2$}
 \item 设$f(x)=\cos (x-a)+\sin (x+a)$是偶函数, 求$a$的值.
-\item 解下列方程:
-(1)$8\sin ^2x=3\sin 2x-1$.				(2)$(\sin x+\cos x)^2=2\cos 2x$.
-\item 解下列方程:
-(1)$\dfrac{1+\tan x}{1-\tan x}=1+\sin 2x$.				(2)$\tan (\dfrac{\pi }3+x)+\tan (\dfrac{\pi }6-x)=\dfrac 4{\sqrt 3}$.
-\item 解下列方程:
-(1)$\sin x+\cos x+\sin x\cos x=1$.
-(2)$\sin 2x-12(\sin x-\cos x)+12=0$.
-(3)$\sqrt 2(\sin x+\cos x)=\tan x+\cot x$.
-(4)$\sin x+\cos x+\tan x+\cot x+\sec x+\csc x+2=0$.
-\item (1)已知方程$2x^2-4x\sin \theta +3\cos \theta =0$($0\le \theta \le \pi$)有相等的实根, 求$\theta$的值, 并解此方程.
-(2)已知方程$x^2-(\sin \alpha +\cos \alpha)x+\sin ^2\alpha -\sin \alpha \cos \alpha -1=0$有两个相等的实根, 求实数$\alpha$和相成的$x$的值.
-(3)已知方程$x^2-4x\cos 2\theta +2=0$和方程$2x^2+4x\sin 2\theta -1=0$有—根互为倒数, 求角$\theta$的值($0<\theta <\pi$).
-\item (1)已知关于$x$的方程$\sin ^2x+\cos x+a=0$有解, 求实数$a$的取值范围.
-(2)已知$\cos ^2x-\sin x+a=0$在$0<x\le \dfrac{\pi }2$范围内有解, 求实数$a$的取值范围.
-(3)求实数$k$的取值范围, 使关于$x$的方程$\sin ^2x-\sin x+k=0$在$[-\dfrac{\pi }2,\dfrac{\pi }2]$上, \textcircled{1} 无解; \textcircled{2} 恰有一解; \textcircled{3} 有两解.
+\item 解方程$8\sin ^2x=3\sin 2x-1$.
+\item 解方程$(\sin x+\cos x)^2=2\cos 2x$.
+\item 解方程$\dfrac{1+\tan x}{1-\tan x}=1+\sin 2x$.
+\item 解方程$\tan (\dfrac{\pi }3+x)+\tan (\dfrac{\pi }6-x)=\dfrac 4{\sqrt 3}$.
+\item 解方程$\sin x+\cos x+\sin x\cos x=1$.
+\item 解方程$\sin 2x-12(\sin x-\cos x)+12=0$.
+\item 解方程$\sqrt 2(\sin x+\cos x)=\tan x+\cot x$.
+\item 解方程$\sin x+\cos x+\tan x+\cot x+\sec x+\csc x+2=0$.
+\item 已知方程$2x^2-4x\sin \theta +3\cos \theta =0$($0\le \theta \le \pi$)有相等的实根, 求$\theta$的值, 并解此方程.
+\item 已知方程$x^2-(\sin \alpha +\cos \alpha)x+\sin ^2\alpha -\sin \alpha \cos \alpha -1=0$有两个相等的实根, 求实数$\alpha$和相成的$x$的值.
+\item 已知方程$x^2-4x\cos 2\theta +2=0$和方程$2x^2+4x\sin 2\theta -1=0$有—根互为倒数, 求角$\theta$的值($0<\theta <\pi$).
+\item 已知关于$x$的方程$\sin ^2x+\cos x+a=0$有解, 求实数$a$的取值范围.
+\item 已知$\cos ^2x-\sin x+a=0$在$0<x\le \dfrac{\pi }2$范围内有解, 求实数$a$的取值范围.
+\item 求实数$k$的取值范围, 使关于$x$的方程$\sin ^2x-\sin x+k=0$在$[-\dfrac{\pi }2,\dfrac{\pi }2]$上\\
+(1) 无解;\\
+(2) 恰有一解;\\
+(3) 有两解.
 \item (1)若关于$x$的方程$\cos 2x-\sin x+1+m=0$有解, 求实数$m$的取值范围.
 I(2)若关于$x$的方程$\sin ^2x+4\sin x\cos x-2\cos ^2x=a$恒有实数解, 求实数$a$的取值范围.
-\item 将下列各组数从小到大排列:
-(1)$\dfrac 12$, $\sin \dfrac 12$, $\arcsin \dfrac 12$.				(2)$\dfrac 13$, $\cos \dfrac 13$, $\arccos \dfrac 13$.
-(3)$\arcsin \dfrac 14$, $\arctan \sqrt 5$, $\arccos (-\dfrac 13)$.
-\item (1)已知$0<x<1$, 求证: $2\arctan \dfrac{1+x}{1-x}+\arcsin \dfrac{1-x^2}{1+x^2}=\pi$.
-(2)已知$a,b,c>0$, 求证: 若$\arctan a+\arctan b+\arctan c=\pi$, 则$a+b+c=abc$, 反过来也成立.
-\item (1)画出函数$y=\arctan x+\arctan \dfrac{1-x}{1+x}$的图像.
-(2)在不同坐标系内分别画出$y=\arcsin (\sin x)(-\dfrac{\pi }2\le x\le \dfrac{3\pi }2)$和$y=\arcsin (\sin x)$($x\in \mathbf{R}$)的图像.
-\item 解下列方程:
-(1)$x=\arcsin (\sin 2x)$.
-(2)$\cos (\pi \sin x)=\sin (\pi \cos x)$($0\le \pi <2\pi$).
-(3)$x^2+2x\cos (xy)+1=0$($x,y\in \mathbf{R}$).
+\item 将$\dfrac 12,\sin \dfrac 12,\arcsin \dfrac 12$中的三个数从小到大排列.
+\item 将$\dfrac 13,\cos \dfrac 13,\arccos \dfrac 13$中的三个数从小到大排列.
+\item 将$\arcsin \dfrac 14,\arctan \sqrt 5,\arccos (-\dfrac 13)$中的三个数从小到大排列.
+\item 已知$0<x<1$, 求证: $2\arctan \dfrac{1+x}{1-x}+\arcsin \dfrac{1-x^2}{1+x^2}=\pi$.
+\item 已知$a,b,c>0$, 求证: 若$\arctan a+\arctan b+\arctan c=\pi$, 则$a+b+c=abc$, 反过来也成立.
+\item 画出函数$y=\arctan x+\arctan \dfrac{1-x}{1+x}$的图像.
+\item 在不同坐标系内分别画出$y=\arcsin (\sin x)(-\dfrac{\pi }2\le x\le \dfrac{3\pi }2)$和$y=\arcsin (\sin x)$($x\in \mathbf{R}$)的图像.
+\item 解方程$x=\arcsin (\sin 2x)$.
+\item 解方程$\cos (\pi \sin x)=\sin (\pi \cos x)$($0\le \pi <2\pi$).
+\item 解方程$x^2+2x\cos (xy)+1=0$($x,y\in \mathbf{R}$).
 \item 已知$\alpha ,\beta$是关于$x$的方程$a\cos x+b\sin x=c$的两个实根($a^2+b^2\ne 0$, $a\ne 2k\pi +\beta$, $k\in \mathbf{Z}$), 求证$\cos ^2\dfrac{\alpha -\beta}2=\dfrac{c^2}{a^2+b^2}$.
 \item 已知$\triangle ABC$的两内角$A,B$满足方程$8\sin ^2x+3\sin 2x-4=0$, 且$A>B$, 求此三角形三边长之比.
 \item 解方程$\tan (x+\dfrac{\pi }4)+\tan (x-\dfrac{\pi }4)=2\cot x$.
 \item 已知关于$x$的方程$x=a\sin x+b$($0<a<1$, $b\in \mathbf{R}$)有实根, 求证: 该方程只有一个实根.
-\item (1)已知方程$\sin ^2x+3a^2\cos x-2a^2(3a-2)-1=0$有实数解, 求实数$a$的取值范围.
-(2)已知关于$x$的方程$2\cos 2x+4(a-1)\sin x-4a+1=0$在$0\le x\le 2\pi$范围内有相异两个实根, 求$a$的取值范围.
+\item 已知方程$\sin ^2x+3a^2\cos x-2a^2(3a-2)-1=0$有实数解, 求实数$a$的取值范围.
+\item 已知关于$x$的方程$2\cos 2x+4(a-1)\sin x-4a+1=0$在$0\le x\le 2\pi$范围内有相异两个实根, 求$a$的取值范围.
 \item 已知关于$x$的方程$\cos 2x-2(2a+1)\cos x+2a^2+2a+1=0$在$[0,2\pi)$范围内有两个不同的解, 求实数$a$的取位范围.
-.
-
-
 
 \end{enumerate}
 \end{document}
