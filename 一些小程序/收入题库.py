@@ -10,7 +10,7 @@ def crop_text(string,substr1,substr2):
     end_pos = string.index(substr2)+len(substr2)
     return string[start_pos:end_pos]
 #文件名须修改
-with open(r"题库0.1\2022届高三四次统考试卷.tex","r",encoding = "utf8") as f:
+with open(r"题库0.1\精编第四章三角函数.tex","r",encoding = "utf8") as f:
     data = f.read()
 with open(r"题库0.2\模板.txt","r",encoding = "utf8") as f1:
     template = f1.read()
@@ -21,11 +21,11 @@ data = re.sub(r"\\item",r"\\enditem\\item",data)
 data = re.sub(r"\\end\{enumerate\}",r"\\enditem",data)
 problems = [trim(p) for p in re.findall(r"\\item([\s\S]*?)\\enditem",data)]
 #以上已经生成了题目列表，以下出处、使用记录、修订历史等须设定
-origin = ""
+origin = "代数精编第四章三角函数"
 usage = ""
-editor = "20220711\t王伟叶"
+editor = "20220720\t王伟叶"
 # 重要！！！初始ID
-starting_ID = 4661
+starting_ID = 5272
 
 head_str = crop_text(template,"[B题目]","<BID>\n")
 body_str_1 = crop_text(template,"\n<EID>","<B题目>\n")
