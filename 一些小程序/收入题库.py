@@ -19,13 +19,13 @@ data = re.sub(r"\n[\s]*?\%[\s\S]*?\n","\n",data)
 data = re.sub(r"\n{2,}","\n",data)
 data = re.sub(r"\\item",r"\\enditem\\item",data)
 data = re.sub(r"\\end\{enumerate\}",r"\\enditem",data)
-problems = [trim(p) for p in re.findall(r"\\item([\s\S]*?)\\enditem",data)]
+problems= [trim(p) for p in re.findall(r"\\item([\s\S]*?)\\enditem",data)] 
 #以上已经生成了题目列表，以下出处、使用记录、修订历史等须设定
 origin = "代数精编第四章三角函数"
 usage = ""
 editor = "20220720\t王伟叶"
 # 重要！！！初始ID
-starting_ID = 5272
+starting_ID = 5861
 
 head_str = crop_text(template,"[B题目]","<BID>\n")
 body_str_1 = crop_text(template,"\n<EID>","<B题目>\n")

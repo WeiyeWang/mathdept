@@ -23,7 +23,7 @@ for filename in vault_files:
 #读入全部题库数据
 
 # 重要!!!最初的新题的id
-starting_ID = 4897
+starting_ID = 5861
 
 problem_list = [[x[0],trimpic(trim(x[1]))] for x in re.findall("<BID>\\n([\s\S]*?)\\n<EID>[\s\S]*?<B题目>([\s\S]*?)<E题目>",problems)]
 #生成题号列表
@@ -38,7 +38,7 @@ for i in range(len(new_problems)):
     for j in range(len(old_problems)):
         similar_rate = get_equal_rate_1(new_problems[i][1],old_problems[j][1])
         if similar_rate>0.92:
-            alike_problems += (("%.4f" %similar_rate)+"\n"+new_problems[i][0]+"\t"+new_problems[i][1]+"\n"+old_problems[j][0]+"\t"+old_problems[j][1]+"\n\n")
+            alike_problems += (("%.4f" %similar_rate)+"\n\n"+new_problems[i][0]+"\t"+new_problems[i][1]+"\n\n"+old_problems[j][0]+"\t"+old_problems[j][1]+"\n\n")
 
 for i in range(len(new_problems)):
     if i // 50 == i / 50:
@@ -47,7 +47,7 @@ for i in range(len(new_problems)):
         similar_rate = get_equal_rate_1(new_problems[i][1],new_problems[j][1])
         #print(similar_rate)
         if similar_rate>0.92:
-            alike_problems += (("%.4f" %similar_rate)+"\n"+new_problems[i][0]+"\t"+new_problems[i][1]+"\n"+new_problems[j][0]+"\t"+new_problems[j][1]+"\n\n")
+            alike_problems += (("%.4f" %similar_rate)+"\n\n"+new_problems[i][0]+"\t"+new_problems[i][1]+"\n\n"+new_problems[j][0]+"\t"+new_problems[j][1]+"\n\n")
 
 
 

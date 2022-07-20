@@ -1,6 +1,6 @@
 [B题目]
 <BID>
-005272
+005861
 <EID>
 <B题目>
 已知$\cos \alpha =\dfrac{24}{25}$, 求$\sin \alpha$.
@@ -12,7 +12,7 @@
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -45,7 +45,7 @@
 
 [B题目]
 <BID>
-005273
+005862
 <EID>
 <B题目>
 已知$\tan \alpha =-\sqrt 5$, 求$\cos \alpha$.
@@ -57,7 +57,7 @@
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -99,7 +99,7 @@
 
 [B题目]
 <BID>
-005274
+005863
 <EID>
 <B题目>
 已知$\cos \alpha =m$($m\ne 0$, $m\ne \pm 1$), 求$\alpha$的其他三角函数值.
@@ -111,7 +111,7 @@
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -146,7 +146,7 @@
 
 [B题目]
 <BID>
-005275
+005864
 <EID>
 <B题目>
 求证: $\dfrac{1-\tan ^2x}{1+\tan ^2x}=\cos ^2x-\sin ^2x$.
@@ -158,7 +158,7 @@
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -191,12 +191,10 @@
 
 [B题目]
 <BID>
-005276
+005865
 <EID>
 <B题目>
-求证: $\dfrac{\tan \alpha}{\tan \alpha -\tan \beta}=\dfrac{\cot \beta}{\cot \beta -\cot \alpha}$.\\
-解答在这里 因为$\dfrac{\cot \beta}{\cot \beta -\cot \alpha}=\dfrac{\cot \beta (\tan \alpha \tan \beta)}{(\cot \beta -\cot \alpha)(\tan \alpha \tan \beta)}=\dfrac{\tan \alpha (\cot \beta \tan \beta)}{\tan \alpha (\cot \beta \tan \beta)-(\cot \alpha \tan \alpha)\tan \beta}$
-$=\dfrac{\tan \alpha}{\tan \alpha -\tan \beta}$, 左边$=$右边, 所以原式成立.
+求证: $\dfrac{\tan \alpha}{\tan \alpha -\tan \beta}=\dfrac{\cot \beta}{\cot \beta -\cot \alpha}$.
 <E题目>
 <B目标>
 
@@ -205,13 +203,14 @@ $=\dfrac{\tan \alpha}{\tan \alpha -\tan \beta}$, 左边$=$右边, 所以原式�
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
 <E答案>
 <B解答或提示>
-
+因为$\dfrac{\cot \beta}{\cot \beta -\cot \alpha}=\dfrac{\cot \beta (\tan \alpha \tan \beta)}{(\cot \beta -\cot \alpha)(\tan \alpha \tan \beta)}=\dfrac{\tan \alpha (\cot \beta \tan \beta)}{\tan \alpha (\cot \beta \tan \beta)-(\cot \alpha \tan \alpha)\tan \beta}$
+$=\dfrac{\tan \alpha}{\tan \alpha -\tan \beta}$, 左边$=$右边, 所以原式成立.
 <E解答或提示>
 <B预计耗时>
 
@@ -238,28 +237,27 @@ $=\dfrac{\tan \alpha}{\tan \alpha -\tan \beta}$, 左边$=$右边, 所以原式�
 
 [B题目]
 <BID>
-005277
+005866
 <EID>
 <B题目>
-求证: $\sin ^21^\circ +\sin ^22^\circ +\cdots +\sin ^289^\circ =\dfrac{89}2$.\\
-解答在这里  因为$ \sin ^289^\circ =\cos ^21^\circ$, $\sin ^288^\circ =\cos ^22^\circ$, …, $\sin ^246^\circ =\cos ^244^\circ$,
+求证: $\sin ^21^\circ +\sin ^22^\circ +\cdots +\sin ^289^\circ =\dfrac{89}2$.
+<E题目>
+<B目标>
+
+<E目标>
+<B标签>
+
+<E标签>
+<B类型>
+解答题
+<E类型>
+<B答案>
+
+<E答案>
+<B解答或提示>
+因为$ \sin ^289^\circ =\cos ^21^\circ$, $\sin ^288^\circ =\cos ^22^\circ$, …, $\sin ^246^\circ =\cos ^244^\circ$,
 所以左边$=(\sin ^21^\circ +\cos ^21^\circ)+(\sin ^22^\circ +\cos ^22^\circ)+\cdots +(\sin ^244^\circ +\cos ^244^\circ)+\sin ^245^\circ$
 $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
-<E题目>
-<B目标>
-
-<E目标>
-<B标签>
-
-<E标签>
-<B类型>
-
-<E类型>
-<B答案>
-
-<E答案>
-<B解答或提示>
-
 <E解答或提示>
 <B预计耗时>
 
@@ -286,11 +284,10 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005278
+005867
 <EID>
 <B题目>
-求证$\dfrac{1+2\sin \alpha \cos \alpha \cos ^2\alpha -\sin ^2\alpha =\dfrac 1+\tan \alpha}{1-\tan \alpha}$.\\
-解答在这里 因为左边$=\dfrac{\sin ^2\alpha +2\sin \alpha \cos \alpha +\cos ^2\alpha \cos ^2\alpha -\sin ^2\alpha =\dfrac (\cos \alpha +\sin \alpha)^2}{(\cos \alpha +\sin \alpha)(\cos \alpha -\sin \alpha)}=\dfrac{\cos \alpha +\sin \alpha}{\cos \alpha -\sin \alpha}=\dfrac{1+\tan \alpha}{1-\tan \alpha}$, 所以原式成立.
+求证$\dfrac{1+2\sin \alpha \cos \alpha \cos ^2\alpha -\sin ^2\alpha =\dfrac 1+\tan \alpha}{1-\tan \alpha}$.
 <E题目>
 <B目标>
 
@@ -299,13 +296,13 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
 <E答案>
 <B解答或提示>
-
+因为左边$=\dfrac{\sin ^2\alpha +2\sin \alpha \cos \alpha +\cos ^2\alpha \cos ^2\alpha -\sin ^2\alpha =\dfrac (\cos \alpha +\sin \alpha)^2}{(\cos \alpha +\sin \alpha)(\cos \alpha -\sin \alpha)}=\dfrac{\cos \alpha +\sin \alpha}{\cos \alpha -\sin \alpha}=\dfrac{1+\tan \alpha}{1-\tan \alpha}$, 所以原式成立.
 <E解答或提示>
 <B预计耗时>
 
@@ -332,11 +329,10 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005279
+005868
 <EID>
 <B题目>
 求证$\dfrac{1+\sec \alpha +\tan \alpha}{1+\sec \alpha -\tan \alpha}=\dfrac{1+\sin \alpha}{\cos \alpha}$.
-解答在这里 因为$ \dfrac{1+\sec \alpha +\tan \alpha}{1+\sec \alpha -\tan \alpha}=\dfrac{(\sec ^2\alpha -\tan ^2\alpha)+(\sec \alpha +\tan \alpha)}{\sec \alpha +1-\tan \alpha}=\dfrac{(\sec \alpha +\tan \alpha)(\sec \alpha -\tan \alpha)+(\sec \alpha +\tan \alpha)}{\sec \alpha +1-\tan \alpha}=\dfrac{(\sec \alpha +\tan \alpha)(\sec \alpha -\tan \alpha +1)}{\sec \alpha +1-\tan \alpha}=\sec \alpha +\tan \alpha =\dfrac 1{\cos \alpha}+\dfrac{\sin \alpha}{\cos \alpha}=\dfrac{1+\sin \alpha}{\cos \alpha}$, 所以原式成立.
 <E题目>
 <B目标>
 
@@ -345,13 +341,13 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
 <E答案>
 <B解答或提示>
-
+因为$ \dfrac{1+\sec \alpha +\tan \alpha}{1+\sec \alpha -\tan \alpha}=\dfrac{(\sec ^2\alpha -\tan ^2\alpha)+(\sec \alpha +\tan \alpha)}{\sec \alpha +1-\tan \alpha}=\dfrac{(\sec \alpha +\tan \alpha)(\sec \alpha -\tan \alpha)+(\sec \alpha +\tan \alpha)}{\sec \alpha +1-\tan \alpha}=\dfrac{(\sec \alpha +\tan \alpha)(\sec \alpha -\tan \alpha +1)}{\sec \alpha +1-\tan \alpha}=\sec \alpha +\tan \alpha =\dfrac 1{\cos \alpha}+\dfrac{\sin \alpha}{\cos \alpha}=\dfrac{1+\sin \alpha}{\cos \alpha}$, 所以原式成立.
 <E解答或提示>
 <B预计耗时>
 
@@ -378,14 +374,12 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005280
+005869
 <EID>
 <B题目>
 已知$\tan \theta =-3$, 求下列各式的值:\\
 (1) $3\sin \theta +\cos \theta$;\\
-(2)$\sin ^2\theta -2\sin \theta \cos \theta +1$.\\
-解答在这里  (1)$3\sin \theta +\cos \theta =\cos \theta (3\tan \theta +1)=\pm \dfrac 1{\sqrt {10}}(-9+1)=\pm \dfrac 8{\sqrt {10}}=\pm \dfrac 45\sqrt {10}$.
-(2)$\sin ^2\theta -2\sin \theta \cos \theta +1=\dfrac{2\sin ^2\theta -2\sin \theta \cos \theta +\cos ^2\theta}{\sin ^2\theta +\cos ^2\theta}=\dfrac{2\tan ^2\theta -2\tan \theta +1}{\tan ^2\theta +1}=\dfrac{18+6+1}{9+1}=\dfrac 52$.
+(2)$\sin ^2\theta -2\sin \theta \cos \theta +1$.
 <E题目>
 <B目标>
 
@@ -394,13 +388,14 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
 <E答案>
 <B解答或提示>
-
+(1)$3\sin \theta +\cos \theta =\cos \theta (3\tan \theta +1)=\pm \dfrac 1{\sqrt {10}}(-9+1)=\pm \dfrac 8{\sqrt {10}}=\pm \dfrac 45\sqrt {10}$.
+(2)$\sin ^2\theta -2\sin \theta \cos \theta +1=\dfrac{2\sin ^2\theta -2\sin \theta \cos \theta +\cos ^2\theta}{\sin ^2\theta +\cos ^2\theta}=\dfrac{2\tan ^2\theta -2\tan \theta +1}{\tan ^2\theta +1}=\dfrac{18+6+1}{9+1}=\dfrac 52$.
 <E解答或提示>
 <B预计耗时>
 
@@ -427,7 +422,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005281
+005870
 <EID>
 <B题目>
 在\textcircled{1} $160^\circ$, \textcircled{2} $480^\circ$, \textcircled{3} $-960^\circ$, \textcircled{4} $-1600^\circ$这四个角中, 属于第二象限的角有\bracket{20}.
@@ -440,7 +435,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -473,7 +468,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005282
+005871
 <EID>
 <B题目>
 集合$M=\{\alpha|\alpha =k\cdot 90^\circ , \ k\in \mathbf{N}\}$中各角的终边都在\bracket{20}.
@@ -486,7 +481,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -519,7 +514,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005283
+005872
 <EID>
 <B题目>
 若$\alpha$是第四象限的角, 则$\pi -\alpha$是\bracket{20}.
@@ -532,7 +527,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -565,7 +560,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005284
+005873
 <EID>
 <B题目>
 若一圆弧长等于其所在圆的内接正三角形的边长, 则其圆心角的弧度数为\bracket{20}.
@@ -578,7 +573,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -611,7 +606,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005285
+005874
 <EID>
 <B题目>
 若$\alpha$和$\beta$的终边关于$y$轴对称, 则必有\bracket{20}.
@@ -624,7 +619,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -657,7 +652,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005286
+005875
 <EID>
 <B题目>
 若$-\dfrac{\pi}2<\alpha <\beta <\dfrac{\pi}2$, 则$\alpha -\beta$的取值范围是\bracket{20}.
@@ -670,7 +665,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -703,7 +698,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005287
+005876
 <EID>
 <B题目>
 集合$M=\{x|x=\dfrac{k\pi}2\pm \dfrac{\pi}4,\ k\in \mathbf{Z}\}$与$P=\{x|x=\dfrac{k\pi}4,\ k\in \mathbf{Z}\}$之间的关系是\bracket{20}.
@@ -716,7 +711,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -749,7 +744,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005288
+005877
 <EID>
 <B题目>
 与$-45^\circ$角终边相同的角的集合是\blank{50}.
@@ -761,7 +756,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -782,7 +777,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+003065
 <E相同题目>
 <B关联题目>
 
@@ -794,7 +789,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005289
+005878
 <EID>
 <B题目>
 若$\alpha$是第四象限的角, 则$\alpha$的取值范围是\blank{50}.
@@ -806,7 +801,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -839,7 +834,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005290
+005879
 <EID>
 <B题目>
 终边落在$x$轴负半轴上的角的集合为\blank{50}.
@@ -851,7 +846,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -884,7 +879,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005291
+005880
 <EID>
 <B题目>
 终边落在第一、三象限角平分线上的角的集合为\blank{50}.
@@ -896,7 +891,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -929,7 +924,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005292
+005881
 <EID>
 <B题目>
 若角$\alpha$与$\beta$的终边是互为反向延长线, 则$\alpha$, $\beta$之间满足关系式是\blank{50}.
@@ -941,7 +936,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -974,7 +969,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005293
+005882
 <EID>
 <B题目>
 若角$\alpha$的终边和函数$y=-|x|$的图像重合, 则$\alpha$的集合是\blank{50}.
@@ -986,7 +981,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -1019,7 +1014,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005294
+005883
 <EID>
 <B题目>
 若$\alpha$是第二象限的角, 则$\dfrac{\alpha}2$是第\blank{50}象限的角, $2\alpha$是第\blank{50}象限的角.
@@ -1031,7 +1026,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -1064,7 +1059,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005295
+005884
 <EID>
 <B题目>
 若$\alpha =-4$, 则$\alpha$是第\blank{50}象限的角.
@@ -1076,7 +1071,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -1109,7 +1104,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005296
+005885
 <EID>
 <B题目>
 在$-720^\circ$与$720^\circ$之间, 与$60^\circ$角终边相同的角是\blank{50}.
@@ -1121,7 +1116,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -1154,7 +1149,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005297
+005886
 <EID>
 <B题目>
 设角$\alpha$的终边与$\dfrac 75\pi$的终边关于$y$轴对称, 且$\alpha \in (-2\pi ,2\pi)$, 则$\alpha =$\blank{50}.
@@ -1166,7 +1161,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -1190,7 +1185,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E相同题目>
 <B关联题目>
-
+003066
 <E关联题目>
 <B备注>
 
@@ -1199,7 +1194,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005298
+005887
 <EID>
 <B题目>
 在扇形$OAB$中, 已知半径$OA=8\text{cm}$, $\overset\frown{AB}=12\text{cm}$, 则圆心角$\angle AOB=$	\blank{50}弧度, 扇形$OAB$的面积为\blank{50}$\text{cm}^2$.
@@ -1211,7 +1206,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -1244,7 +1239,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005299
+005888
 <EID>
 <B题目>
 若$3$弧度的圆心角所对的弧长为$9\text{cm}$, 则此圆心角所夹的扇形面积为\blank{50}$\text{cm}^2$.
@@ -1256,7 +1251,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -1289,7 +1284,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005300
+005889
 <EID>
 <B题目>
 若圆中的一条弦长等于其半径$r$, 则此弦和劣弧所组成的弓形的面积等于\blank{50}.
@@ -1301,7 +1296,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -1334,7 +1329,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005301
+005890
 <EID>
 <B题目>
 若$1$弧度的圆心角所对的弦长为$2$, 则此圆心角所夹的扇形的面积等于\blank{50}.
@@ -1346,7 +1341,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -1379,7 +1374,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005302
+005891
 <EID>
 <B题目>
 若集合$A=\{x|k\pi +\dfrac{\pi}3\le x<k\pi +\dfrac{\pi}2, \ k\in \mathbf{Z}\}$, $B=\{x|4-x^2\ge 0\}$, 则$A\cap B=$\blank{50}.
@@ -1391,7 +1386,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -1424,7 +1419,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005303
+005892
 <EID>
 <B题目>
 已知扇形的周长为$30\text{cm}$, 当它的半径和圆心角各取什么值时, 扇形的面积最大? 最大面积是多少?
@@ -1436,7 +1431,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -1469,7 +1464,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005304
+005893
 <EID>
 <B题目>
 已知一扇形的圆心角是$120^\circ$, 求此扇形面积与其内切圆面枳之比.
@@ -1481,7 +1476,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -1514,7 +1509,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005305
+005894
 <EID>
 <B题目>
 在$1$时$15$分时, 时针和分针所成的最小正角是多少弧度?
@@ -1526,7 +1521,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -1559,7 +1554,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005306
+005895
 <EID>
 <B题目>
 若角$\alpha$的终边落在直线$y=2x$上, 则$\sin \alpha$的值等于\bracket{20}.
@@ -1572,7 +1567,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -1605,7 +1600,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005307
+005896
 <EID>
 <B题目>
 若点$P(3,y)$在角$\alpha$的终边上, 且满足$y<0$, $\cos \alpha =\dfrac 35$, 则$\tan \alpha$的值等于\bracket{20}.
@@ -1618,7 +1613,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -1651,7 +1646,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005308
+005897
 <EID>
 <B题目>
 若三角形的两内角$\alpha ,\beta$满足$\sin \alpha \cdot \cos \beta <0$, 则此三角形的形状\bracket{20}.
@@ -1664,7 +1659,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -1697,7 +1692,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005309
+005898
 <EID>
 <B题目>
 若$\alpha$是第三象限角, 则下列各式中不成立的是\bracket{20}.
@@ -1710,7 +1705,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -1743,7 +1738,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005310
+005899
 <EID>
 <B题目>
 下列四个命题中, 正确的是\bracket{20}.
@@ -1756,7 +1751,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -1789,7 +1784,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005311
+005900
 <EID>
 <B题目>
 若$\theta$是第三象限角.且$\cos \dfrac{\theta}2<0$.则$\theta$是\bracket{20}.
@@ -1802,7 +1797,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -1835,7 +1830,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005312
+005901
 <EID>
 <B题目>
 若$(\dfrac 12)^{\sin 2\theta}<1$, 则$\theta$是\bracket{20}.
@@ -1848,7 +1843,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -1881,7 +1876,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005313
+005902
 <EID>
 <B题目>
 直角坐标平面内, 终边过点$(1,-\sqrt 3)$的所有角组成的集合可表示成\blank{50}.
@@ -1893,7 +1888,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -1926,7 +1921,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005314
+005903
 <EID>
 <B题目>
 若角$\alpha$的终边上有一点$P(-3,a)$, 且$\cos \alpha =-\dfrac 35$, 则$a=$\blank{50}.
@@ -1938,7 +1933,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -1971,7 +1966,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005315
+005904
 <EID>
 <B题目>
 若点$P(-\sqrt 3,m)$是角$\theta$终边上一点, 且$\sin \theta =\dfrac{\sqrt {13}}{13}$, 则$m=$\blank{50}.
@@ -1983,7 +1978,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -2016,7 +2011,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005316
+005905
 <EID>
 <B题目>
 若点$P(-\sqrt 2,-\sqrt 3)$在角$\alpha$的终边上, 则$\sin \alpha -\cos \alpha =$\blank{50}.
@@ -2028,7 +2023,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -2061,7 +2056,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 [B题目]
 <BID>
-005317
+005906
 <EID>
 <B题目>
 $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfrac{|\cot x|}{\cot x}$的取值范围是\blank{50}.
@@ -2073,7 +2068,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -2094,7 +2089,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+003061
 <E相同题目>
 <B关联题目>
 
@@ -2106,7 +2101,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005318
+005907
 <EID>
 <B题目>
 若$\sin \alpha \cdot \cos \alpha >0$, 则$\alpha$的取值范围(用区间表示)是\blank{50}.
@@ -2118,7 +2113,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -2151,7 +2146,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005319
+005908
 <EID>
 <B题目>
 若$x$为三角形的内角, 则当$x=$\blank{50}时, $\dfrac{\sin \dfrac x2}{1-\tan x}$无意义.
@@ -2163,7 +2158,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -2196,7 +2191,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005320
+005909
 <EID>
 <B题目>
 若函数$f(x)$的定义域是$[0, 1]$, 则$f(\sin x)$的定义域是\blank{50}.
@@ -2208,7 +2203,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -2241,7 +2236,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005321
+005910
 <EID>
 <B题目>
 函数$y=\sqrt {\cos x}$的定义域是\blank{50}.
@@ -2253,7 +2248,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -2277,7 +2272,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E相同题目>
 <B关联题目>
-
+003148
 <E关联题目>
 <B备注>
 
@@ -2286,7 +2281,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005322
+005911
 <EID>
 <B题目>
 函数$y=\sqrt {-\cot x}+\lg \cos x$的定义域是\blank{50}.
@@ -2298,7 +2293,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -2331,7 +2326,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005323
+005912
 <EID>
 <B题目>
 函数$y=\sqrt {\sin x}+\sqrt {-\tan x}$的定义域是\blank{50}.
@@ -2343,7 +2338,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -2376,7 +2371,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005324
+005913
 <EID>
 <B题目>
 若实数$\alpha ,\beta$满足$|\cos \alpha -\cos \beta|=|\cos \alpha|+|\cos \beta|$, 且$\alpha \in (\dfrac{\pi}2,\pi)$, 则化简$\sqrt {(\cos \alpha -\cos \beta)^2}$结果是\bracket{20}.
@@ -2389,7 +2384,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -2422,7 +2417,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005325
+005914
 <EID>
 <B题目>
 已知角$\alpha$终边上—点$P$的坐标是$(5a,12a)$($a<0$), 求角$\alpha$的各三角函数值.
@@ -2435,7 +2430,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -2468,7 +2463,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005326
+005915
 <EID>
 <B题目>
 求函数$y=\sqrt {\sin (\cos x)}$的定义域.
@@ -2480,7 +2475,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -2513,7 +2508,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005327
+005916
 <EID>
 <B题目>
 求函数$y=\sqrt {\cos (\sin x)}$的定义域.
@@ -2525,7 +2520,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -2558,7 +2553,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005328
+005917
 <EID>
 <B题目>
 下列四个命题中.能够成立的是\bracket{20}.
@@ -2571,7 +2566,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -2604,7 +2599,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005329
+005918
 <EID>
 <B题目>
 已知$\sin \alpha =\dfrac 45$, 且$\alpha$是第二象限的角, 那么$\tan \alpha$的值等于\bracket{20}.
@@ -2617,7 +2612,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -2650,7 +2645,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005330
+005919
 <EID>
 <B题目>
 若$1+\sin \theta \sqrt {1-\cos ^2\theta}+\cos \theta \sqrt {1-\sin ^2\theta}=0$.则$\theta$的取值范围是\bracket{20}.
@@ -2663,7 +2658,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -2696,7 +2691,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005331
+005920
 <EID>
 <B题目>
 若$\alpha$是二角形的一个内角, 且$\sin \alpha +\cos \alpha =\dfrac 23$, 则这个三角形的形状是\bracket{20}.
@@ -2709,7 +2704,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -2742,7 +2737,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005332
+005921
 <EID>
 <B题目>
 化简$(\dfrac 1{\sin \alpha}+\dfrac 1{\tan \alpha})(1-\cos \alpha)$的结果是\bracket{20}.
@@ -2755,7 +2750,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -2788,7 +2783,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005333
+005922
 <EID>
 <B题目>
 若$\theta \ne \dfrac{k\pi}2$($k\in \mathbf{Z}$), 则$\dfrac{\sin \theta +\tan \theta}{\cos \theta +\cot \theta}$\bracket{20}.
@@ -2801,7 +2796,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -2834,7 +2829,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005334
+005923
 <EID>
 <B题目>
 若$0<\alpha <\dfrac{\pi}2$, 且$\lg (1+\cos \alpha)=m$, $\lg \dfrac 1{1-\cos \alpha}=n$, 则$\lg \sin \alpha =$的值等于\bracket{20}.
@@ -2847,7 +2842,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -2880,7 +2875,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005335
+005924
 <EID>
 <B题目>
 若$\dfrac{\sin ^2\theta +4}{\cos \theta +1}=2$, 则$(\cos \theta +3)(\sin \theta +1)$的值是\bracket{20}.
@@ -2893,7 +2888,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -2926,7 +2921,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005336
+005925
 <EID>
 <B题目>
 若$\sin \theta \cdot \cos \theta <0$, $|\cos \theta|=\cos \theta$, 则点$P(\tan \theta ,\sec \theta)$—定在\bracket{20}.
@@ -2939,7 +2934,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -2972,7 +2967,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005337
+005926
 <EID>
 <B题目>
 若$\sqrt {\dfrac{1-\sin x}{1+\sin x}}=\tan x-\sec x$, 则$x$的取值范围是\bracket{20}.
@@ -2985,7 +2980,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -3018,7 +3013,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005338
+005927
 <EID>
 <B题目>
 若$\alpha \in (0,2\pi)$, 则适合$\sqrt {\dfrac{1+\cos \alpha}{1-\cos \alpha}}-\sqrt {\dfrac{1-\cos \alpha}{1+\cos \alpha}}=2\cot \alpha$的角$\alpha$的集合是\bracket{20}.
@@ -3031,7 +3026,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -3064,7 +3059,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005339
+005928
 <EID>
 <B题目>
 若角$\alpha$的终边过点$(1,\tan \theta)$, 且$\theta \in (\dfrac{\pi}2,\pi)$, 则$\sin \alpha =$\blank{50}.
@@ -3076,7 +3071,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -3109,7 +3104,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005340
+005929
 <EID>
 <B题目>
 若$\sin \alpha +\cos \alpha =\dfrac 13$, 则$\sin \alpha \cos \alpha =$\blank{50}.
@@ -3121,7 +3116,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -3154,7 +3149,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005341
+005930
 <EID>
 <B题目>
 化简$\sin ^2\alpha +\cos ^2\alpha \sin ^2\beta +\cos ^2\alpha \cos ^2\beta =$\blank{50}.
@@ -3166,7 +3161,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -3199,7 +3194,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005342
+005931
 <EID>
 <B题目>
 化简$\sin ^2\alpha +\sin ^2\beta -\sin ^2\alpha \sin ^2\beta +\cos ^2\alpha \cos ^2\beta =$\blank{50}.
@@ -3211,7 +3206,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -3244,7 +3239,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005343
+005932
 <EID>
 <B题目>
 化简$\sin ^6\alpha +\cos ^6\alpha +3\sin ^2\alpha \cos ^2\alpha =$\blank{50}.
@@ -3256,7 +3251,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -3289,7 +3284,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005344
+005933
 <EID>
 <B题目>
 若$\theta$是第二象限角, 且$\sin \theta =\dfrac{m-3}{m+5}$, $\cos \theta =\dfrac{1-2m}{m+5}$, 则$m=$\blank{50}.
@@ -3301,7 +3296,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -3334,7 +3329,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005345
+005934
 <EID>
 <B题目>
 计算: $\tan \alpha (1-\cot ^2\alpha)+\cot \alpha (1-\tan ^2\alpha)=$\blank{50}.
@@ -3346,7 +3341,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -3379,7 +3374,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005346
+005935
 <EID>
 <B题目>
 计算: $(\sec ^2\beta -1)(1-\csc ^2\beta)+\tan \beta \cot \beta =$\blank{50}.
@@ -3391,7 +3386,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -3424,7 +3419,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005347
+005936
 <EID>
 <B题目>
 计算: $(\sec \alpha -\cos \alpha)(\csc \alpha -\sin \alpha)(\tan \alpha +\cot \alpha)\text=$\blank{50}.
@@ -3436,7 +3431,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -3469,7 +3464,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005348
+005937
 <EID>
 <B题目>
 若$\alpha \in (-\dfrac 43\pi -\dfrac 54\pi)$, 则$\dfrac{\sin \alpha}{|\sin \alpha|}+\dfrac{|\cos \alpha|}{\cos \alpha}+\tan \alpha|\cot \alpha|=$\blank{50}.
@@ -3481,7 +3476,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -3514,7 +3509,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005349
+005938
 <EID>
 <B题目>
 若$\theta$是第四象限的角, 则$\dfrac 1{\cos \theta \sqrt {1+\tan ^2\theta}}+\dfrac{2\cot \theta}{\sqrt {\dfrac 1{\sin ^2\theta}-1}}=$\blank{50}.
@@ -3526,7 +3521,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -3559,7 +3554,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005350
+005939
 <EID>
 <B题目>
 若$\cot \theta +\csc \theta =5$, 则$\sin \theta =$\blank{50}.
@@ -3571,7 +3566,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -3604,7 +3599,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005351
+005940
 <EID>
 <B题目>
 若$\sin \alpha +\cos \alpha =\dfrac{\sqrt 3}3$, 则$\tan \alpha +\cot \alpha =$\blank{50}.
@@ -3616,7 +3611,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -3649,7 +3644,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005352
+005941
 <EID>
 <B题目>
 若$\cot \alpha +\tan \alpha =\dfrac{25}{12}$, 则$\tan \alpha -\cot \alpha =$\blank{50}.
@@ -3661,7 +3656,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -3694,7 +3689,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005353
+005942
 <EID>
 <B题目>
 若$\tan x=2$, 则$\dfrac 1{1-\sin x}+\dfrac 1{1+\sin x}=$\blank{50}; $\dfrac 1{(\sin x-3\cos x)(\cos x-\sin x)}=$\blank{50}; $\dfrac 14\sin ^2x+\dfrac 23\cos ^2x=$\blank{50}.
@@ -3706,7 +3701,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -3739,7 +3734,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005354
+005943
 <EID>
 <B题目>
 若$\dfrac{2\sin ^2\alpha -3\cos ^2\alpha}{\cos ^2\alpha -\sin ^2\alpha}=-4$, 则$\tan \alpha =$\blank{50}.
@@ -3751,7 +3746,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -3784,7 +3779,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005355
+005944
 <EID>
 <B题目>
 若$(\sin \alpha +\cos \alpha)^2=\dfrac 85$, 则$\tan \alpha =$\blank{50}.
@@ -3796,7 +3791,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -3829,7 +3824,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005356
+005945
 <EID>
 <B题目>
 若$\tan \alpha$和$\tan \beta$是关于$x$的方程$x^2-px+q=0$的两根, $\cot \alpha$和$\cot \beta$是关于$x$的方程$x^2-rx+s=0$的两根, 则$rs$等于\bracket{20}.
@@ -3842,7 +3837,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -3875,7 +3870,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005357
+005946
 <EID>
 <B题目>
 若$\sin x=\dfrac{a-b}{a+b}$($0<a<b$), 则$\sqrt {\cot ^2x-\cos ^2x}$的结果是\bracket{20}.
@@ -3888,7 +3883,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -3921,7 +3916,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005358
+005947
 <EID>
 <B题目>
 若$\alpha$在第一象限, 且$\dfrac{1+\tan \alpha}{1-\tan \alpha}=3+2\sqrt 2$, 则$\cos \alpha$的值是\bracket{20}.
@@ -3934,7 +3929,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -3967,7 +3962,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005359
+005948
 <EID>
 <B题目>
 求$(1+\cot \alpha -\csc \alpha)(1+\tan \alpha +\sec \alpha)$的值.
@@ -3979,7 +3974,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -4012,7 +4007,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005360
+005949
 <EID>
 <B题目>
 求$\dfrac{1-\sin ^6\alpha -\cos ^6\alpha}{\sin ^2\alpha -\sin ^4\alpha}$的值.
@@ -4024,7 +4019,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -4057,7 +4052,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005361
+005950
 <EID>
 <B题目>
 求$\dfrac{1-\sin ^4\alpha -\cos ^4\alpha}{1-\sin ^6\alpha -\cos ^6\alpha}$的值.
@@ -4069,7 +4064,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -4102,7 +4097,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005362
+005951
 <EID>
 <B题目>
 求证: $\dfrac{\tan \alpha -\cot \alpha}{\sec \alpha -\csc \alpha}=\sin \alpha +\cos \alpha$.
@@ -4114,7 +4109,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -4147,7 +4142,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005363
+005952
 <EID>
 <B题目>
 求证: $\dfrac{\sin ^2\alpha}{1+\cot \alpha}+\dfrac{\cos ^2\alpha}{1+\tan \alpha}=1-\sin \alpha \cos \alpha$.
@@ -4159,7 +4154,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -4192,7 +4187,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005364
+005953
 <EID>
 <B题目>
 求证: $(\dfrac{\sin \theta +\tan \theta}{\csc \theta +\cot \theta})^2=\dfrac{\sin ^2\theta +\tan ^2\theta}{\csc ^2+\cot ^2\theta}$.
@@ -4204,7 +4199,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -4237,7 +4232,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005365
+005954
 <EID>
 <B题目>
 利用``$1$''的代换证明: $\dfrac{1-2\cos ^2\alpha}{\sin \alpha \cos \alpha}=\tan \alpha -\cot \alpha$.
@@ -4249,7 +4244,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -4282,7 +4277,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005366
+005955
 <EID>
 <B题目>
 利用``$1$''的代换证明: $\dfrac{\cot \alpha +\csc \alpha -1}{\cot \alpha -\csc \alpha +1}=\cot \alpha +\csc \alpha$.
@@ -4294,7 +4289,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -4327,7 +4322,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005367
+005956
 <EID>
 <B题目>
 利用``$1$''的代换证明: $\tan \alpha \cdot \dfrac{1-\sin \alpha}{1+\cos \alpha}=\cot \alpha \cdot \dfrac{1-\cos \alpha}{1+\sin \alpha}$.
@@ -4339,7 +4334,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -4372,7 +4367,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005368
+005957
 <EID>
 <B题目>
 已知$\sin \theta +\cos \theta =\sqrt 2$, 求$\sin \theta -\cos \theta$的值.
@@ -4384,7 +4379,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -4417,7 +4412,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005369
+005958
 <EID>
 <B题目>
 已知$\sin \theta -\cos \theta =\dfrac{\sqrt 2}3$($0<\theta <\dfrac{\pi}2$), 求$\sin \theta +\cos \theta$的值.
@@ -4429,7 +4424,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -4462,7 +4457,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005370
+005959
 <EID>
 <B题目>
 已知$\sin \theta +m\cos \theta =n$, 求$m\sin \theta -\cos \theta$的值.
@@ -4474,7 +4469,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -4507,7 +4502,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005371
+005960
 <EID>
 <B题目>
 已知$\sin \theta +\sin ^2\theta =1$, 求$\cos ^2\theta +\cos ^4\theta =1$的值.
@@ -4519,7 +4514,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -4552,7 +4547,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005372
+005961
 <EID>
 <B题目>
 已知$\cos A=\cos \theta \cdot \sin C$, $\cos B=\sin \theta \cdot \sin C$($C\ne k\pi$, $k\in \mathbf{Z}$), 求$\sin ^2A+\sin ^2B+\sin ^2C$的值.
@@ -4564,7 +4559,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -4597,7 +4592,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005373
+005962
 <EID>
 <B题目>
 已知$\tan \theta =\sqrt {\dfrac{1-a}a}$($0<a<1$), 求$\dfrac{\sin ^2\theta}{a+\cos \theta}+\dfrac{\sin ^2\theta}{a-\cos \theta}$的值.
@@ -4609,7 +4604,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -4642,7 +4637,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005374
+005963
 <EID>
 <B题目>
 已知锐角$\theta$满足$\log _{(\tan \theta +\cot \theta)}\sin \theta =-\dfrac 34$, 求$\log _{\tan \theta}\cos \theta$的值.
@@ -4654,7 +4649,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -4687,7 +4682,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005375
+005964
 <EID>
 <B题目>
 若$\sin (\pi +\alpha)=-\dfrac 35$, 则\bracket{20}.
@@ -4700,7 +4695,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -4733,7 +4728,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005376
+005965
 <EID>
 <B题目>
 若$4\pi <\alpha <5\pi$, $\cos \alpha =-\dfrac 13$, 则$\tan \alpha$的值为\bracket{20}.
@@ -4746,7 +4741,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -4779,7 +4774,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005377
+005966
 <EID>
 <B题目>
 下列各式正确的是\bracket{20}.
@@ -4792,7 +4787,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -4825,7 +4820,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005378
+005967
 <EID>
 <B题目>
 若$\alpha ,\beta ,\gamma$是一个三角形的三个内角, 则在\textcircled{1} $\sin (\alpha +\beta)-\sin \gamma$, \textcircled{2} $\cos (\alpha +\beta)+\cos \gamma$, \textcircled{3} $\tan \dfrac{\alpha +\beta}2\cdot \tan \dfrac{\gamma}2$, \textcircled{4} $\tan (\alpha +\beta)-\tan \gamma$这四个式子中, 其值为常数的有\bracket{20}.
@@ -4838,7 +4833,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -4871,7 +4866,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005379
+005968
 <EID>
 <B题目>
 函数$y=\cos (\tan x)$\bracket{20}.
@@ -4884,7 +4879,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -4917,7 +4912,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005380
+005969
 <EID>
 <B题目>
 若函数$f(x)=a\sin x+b\tan x+1$满足$f(5)=7$, 则$f(-5)$的值等于\bracket{20}.
@@ -4930,7 +4925,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -4963,7 +4958,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005381
+005970
 <EID>
 <B题目>
 化简$\tan (\dfrac{k\pi}2+\alpha)$($k\in \mathbf{Z}$)的结果是\bracket{20}.
@@ -4976,7 +4971,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -5009,7 +5004,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005382
+005971
 <EID>
 <B题目>
 计算: $\sin ^220^\circ +\sin ^270^\circ -\cos ^220^\circ \cdot \cot ^270^\circ \cdot \csc ^220^\circ =$\blank{50}.
@@ -5021,7 +5016,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -5054,7 +5049,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005383
+005972
 <EID>
 <B题目>
 计算: $\tan 1^\circ \cdot \tan 2^\circ \cdot \tan 3^\circ \cdot \cdots \cdot \tan 87^\circ \cdot \tan 88^\circ \cdot \tan 89^\circ =$\blank{50}.
@@ -5066,7 +5061,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -5099,7 +5094,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005384
+005973
 <EID>
 <B题目>
 计算: $\sin ^2(42^\circ +\alpha)+\cot (25^\circ +\beta)\cdot \cot (\beta -65^\circ)+\sin ^2(48^\circ -\alpha)=$\blank{50}.
@@ -5111,7 +5106,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -5144,7 +5139,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005385
+005974
 <EID>
 <B题目>
 计算: $\log _4\sin \dfrac 34\pi +\log _9\tan (-\dfrac{5\pi}6)=$\blank{50}.
@@ -5156,7 +5151,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -5189,7 +5184,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005386
+005975
 <EID>
 <B题目>
 计算: $\tan \dfrac{\pi}5+\tan \dfrac{2\pi}5+\tan \dfrac{3\pi}5+\tan \dfrac{4\pi}5=$\blank{50}.
@@ -5201,7 +5196,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -5234,7 +5229,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005387
+005976
 <EID>
 <B题目>
 若锐角$\alpha$终边上一点$A$的坐标为$(2\sin 3,-2\cos 3)$, 则角$\alpha$的弧度数为\blank{50}.
@@ -5246,7 +5241,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -5279,7 +5274,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005388
+005977
 <EID>
 <B题目>
 化简: $\dfrac{\sin (\pi +\alpha)\cos (\pi -\alpha)\tan (-\alpha +3\pi)}{\sin (5\pi -\alpha)\tan (8\pi -\alpha)\cot (\alpha -3\pi)}$\blank{50}.
@@ -5291,7 +5286,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -5324,7 +5319,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005389
+005978
 <EID>
 <B题目>
 化简: $\dfrac{\sin (\theta -\pi)\cos (\theta -\dfrac 32\pi)\cot (-\theta -\pi)}{\tan (\theta +3\pi)\sec (-\theta -2\pi)\csc (\dfrac{\pi}2-\theta)}$\blank{50}.
@@ -5336,7 +5331,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -5369,7 +5364,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005390
+005979
 <EID>
 <B题目>
 若三角形中的两内角$\alpha ,\beta$满足$\sin 2\alpha =\sin 2\beta$, 则这个三角形的形状\bracket{20}.
@@ -5382,7 +5377,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -5415,7 +5410,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005391
+005980
 <EID>
 <B题目>
 若函数$f(x)$满足, $f(\cos x)=\dfrac x2$($0\le x\le \pi$), 则$f(-\dfrac 12)$等于\bracket{20}.
@@ -5428,7 +5423,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -5461,7 +5456,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005392
+005981
 <EID>
 <B题目>
 若函数$f(x)=a\sin (\pi x+\alpha)+b\cos (\pi x+\beta)$, 其中$a,b,\alpha ,\beta$都是非零实数, 且满足$f(1997)=-1$, 则$f(1998)$等于\bracket{20}.
@@ -5474,7 +5469,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -5507,7 +5502,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005393
+005982
 <EID>
 <B题目>
 已知$\cos (\dfrac{\pi}6-\theta)=a$($|a|\le 1$), 求$\cos (\dfrac{5\pi}6+\theta)$和$\sin (\dfrac{2\pi}3-\theta)$的值.
@@ -5519,7 +5514,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -5552,7 +5547,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005394
+005983
 <EID>
 <B题目>
 已知$\tan (\pi -\alpha)=a^2$, $|\cos (\pi -\alpha)|=-\cos \alpha$, 求$\sec (\pi +\alpha)$的值.
@@ -5564,7 +5559,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -5597,7 +5592,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005395
+005984
 <EID>
 <B题目>
 求满足$\sin (\dfrac{\pi}4-\alpha)=\dfrac{\sqrt 2}2$, $\alpha \in (0,2\pi)$的角$\alpha$.
@@ -5609,7 +5604,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -5642,7 +5637,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005396
+005985
 <EID>
 <B题目>
 求$\dfrac{\sin (k\pi -x)}{\sin x}-\dfrac{\cos x}{\cos (k\pi -x)}+\dfrac{\tan (k\pi -x)}{\tan x}-\dfrac{\cot x}{\cot (k\pi -x)}$($k\in \mathbf{Z}$)的取值范围.
@@ -5654,7 +5649,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -5687,11 +5682,25 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005397
+005986
 <EID>
 <B题目>
-求函数$y=-2\sin ^2x+2\sin x+1$的值域.\\
-解答在这里  $y=-2(\sin x-\dfrac 12)^2+\dfrac 32$.
+求函数$y=-2\sin ^2x+2\sin x+1$的值域.
+<E题目>
+<B目标>
+
+<E目标>
+<B标签>
+
+<E标签>
+<B类型>
+解答题
+<E类型>
+<B答案>
+
+<E答案>
+<B解答或提示>
+$y=-2(\sin x-\dfrac 12)^2+\dfrac 32$.
 考虑到$-1\le \sin x\le 1$, 因此, 若以$\sin x$为横轴, 则函数图像应足拋物线夹在两直线$\sin x=\pm 1$之间的一段(如图).观察图像易知$y_{\max}=\dfrac 32$, $y_{\min}=-3$
 所以函数的值域是$-3\le y\le \dfrac 32$.
 \begin{center}
@@ -5708,21 +5717,6 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
         \draw (0.1,1.5) -- (0,1.5);
     \end{tikzpicture}
 \end{center}
-<E题目>
-<B目标>
-
-<E目标>
-<B标签>
-
-<E标签>
-<B类型>
-
-<E类型>
-<B答案>
-
-<E答案>
-<B解答或提示>
-
 <E解答或提示>
 <B预计耗时>
 
@@ -5749,11 +5743,25 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005398
+005987
 <EID>
 <B题目>
-已知$0\le x\le \dfrac{\pi}2$, 求函数$y=\cos ^2x-2a\cos x$的最大值$M(a)$与最小值$m(a)$.\\
-解答在这里  函数$y=f(\cos x)=(\cos x-a)^2-a^2$, 又$0\le x\le \dfrac{\pi}2$,
+已知$0\le x\le \dfrac{\pi}2$, 求函数$y=\cos ^2x-2a\cos x$的最大值$M(a)$与最小值$m(a)$.
+<E题目>
+<B目标>
+
+<E目标>
+<B标签>
+
+<E标签>
+<B类型>
+解答题
+<E类型>
+<B答案>
+
+<E答案>
+<B解答或提示>
+函数$y=f(\cos x)=(\cos x-a)^2-a^2$, 又$0\le x\le \dfrac{\pi}2$,
 所以$ 0\le \cos x\le 1$, 画出函数的图像如下:
 \begin{center}
     \begin{tikzpicture}[>=stealth]
@@ -5813,21 +5821,6 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 综上所述, 可得$M(a)=\begin{cases}
     1-2a, & a<\dfrac 12,  \\ 0,  & a\ge \dfrac 12,  \end{cases}$ $m(a)=\begin{cases}
     0, & a<0,  \\-a^2, & 0\le a<1,  \\1-2a, & a\ge 1.  \end{cases}$
-<E题目>
-<B目标>
-
-<E目标>
-<B标签>
-
-<E标签>
-<B类型>
-
-<E类型>
-<B答案>
-
-<E答案>
-<B解答或提示>
-
 <E解答或提示>
 <B预计耗时>
 
@@ -5854,27 +5847,26 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005399
+005988
 <EID>
 <B题目>
-求函数$y=\dfrac{2\sin x-1}{\sin x+3}$的值域.\\
-解答在这里  由已知, 得$\sin x=\dfrac{3y+1}{2-y}$, 而$|\sin x|\le 1$, 故$|\dfrac{3y+1}{2-y}|\le 1$,
+求函数$y=\dfrac{2\sin x-1}{\sin x+3}$的值域.
+<E题目>
+<B目标>
+
+<E目标>
+<B标签>
+
+<E标签>
+<B类型>
+解答题
+<E类型>
+<B答案>
+
+<E答案>
+<B解答或提示>
+由已知, 得$\sin x=\dfrac{3y+1}{2-y}$, 而$|\sin x|\le 1$, 故$|\dfrac{3y+1}{2-y}|\le 1$,
 即$8y^2+10y-3\le 0$, $(4y-1)(2y+3)\le 0$.  所以函数的值域是$[-\dfrac 32,\dfrac 14]$.
-<E题目>
-<B目标>
-
-<E目标>
-<B标签>
-
-<E标签>
-<B类型>
-
-<E类型>
-<B答案>
-
-<E答案>
-<B解答或提示>
-
 <E解答或提示>
 <B预计耗时>
 
@@ -5901,29 +5893,28 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005400
+005989
 <EID>
 <B题目>
-求函数$y=\dfrac{\sec ^2x-\tan x}{\sec ^2x+\tan x}$的值域.\\
-解答在这里  因为$\sec ^2x=\tan ^2x+1$, 故原式时变形为$(y-1)\tan ^2x+(y+1)\tan x+(y-1)=0$.\\
+求函数$y=\dfrac{\sec ^2x-\tan x}{\sec ^2x+\tan x}$的值域.
+<E题目>
+<B目标>
+
+<E目标>
+<B标签>
+
+<E标签>
+<B类型>
+解答题
+<E类型>
+<B答案>
+
+<E答案>
+<B解答或提示>
+因为$\sec ^2x=\tan ^2x+1$, 故原式时变形为$(y-1)\tan ^2x+(y+1)\tan x+(y-1)=0$.\\
 (1) 若$y=1$, 则$\tan x=0$.\\
 (2) 若$y\ne 1$, 则$\tan x\in \mathbf{R}$, 得$\triangle =(y+1)^2-4(y-1)^2\ge 0$, 于是$\dfrac 13\le y\le 3$且$y\ne 1$.\\
 综含(1), (2)知, 函数的值域是$[\dfrac 13,3]$.
-<E题目>
-<B目标>
-
-<E目标>
-<B标签>
-
-<E标签>
-<B类型>
-
-<E类型>
-<B答案>
-
-<E答案>
-<B解答或提示>
-
 <E解答或提示>
 <B预计耗时>
 
@@ -5941,7 +5932,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E相同题目>
 <B关联题目>
-
+006078
 <E关联题目>
 <B备注>
 
@@ -5950,11 +5941,25 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005401
+005990
 <EID>
 <B题目>
-解不等式$\sin x\le \dfrac 12$.\\
-解答在这里  在单位圆内绘出$\sin x=\dfrac 12$的正弦线(如图), 并结合$y=\sin x$的单调性, 可得$2k\pi -\dfrac{7\pi}6\le x\le 2k\pi +\dfrac{\pi}6$($k\in \mathbf{Z}$).
+解不等式$\sin x\le \dfrac 12$.
+<E题目>
+<B目标>
+
+<E目标>
+<B标签>
+
+<E标签>
+<B类型>
+解答题
+<E类型>
+<B答案>
+
+<E答案>
+<B解答或提示>
+在单位圆内绘出$\sin x=\dfrac 12$的正弦线(如图), 并结合$y=\sin x$的单调性, 可得$2k\pi -\dfrac{7\pi}6\le x\le 2k\pi +\dfrac{\pi}6$($k\in \mathbf{Z}$).
 \begin{center}
     \begin{tikzpicture}[>=stealth,scale = 2]
         \filldraw [gray!20] (0,0) -- (150:1) arc (150:390:1) -- cycle;
@@ -5968,21 +5973,6 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
         \draw (0,0.5) node [above right] {$\dfrac 12$};
     \end{tikzpicture}
 \end{center}
-<E题目>
-<B目标>
-
-<E目标>
-<B标签>
-
-<E标签>
-<B类型>
-
-<E类型>
-<B答案>
-
-<E答案>
-<B解答或提示>
-
 <E解答或提示>
 <B预计耗时>
 
@@ -6009,11 +5999,25 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005402
+005991
 <EID>
 <B题目>
-解不等式$|\cos 2x|\le \dfrac 12$.\\
-解答在这里  原不等式为$-\dfrac 12\le \cos 2x\le \dfrac 12$.如图, 可得$k\pi +\dfrac{\pi}3\le 2x\le k\pi +\dfrac{2\pi}3$, 于是$\dfrac{k\pi}2+\dfrac{\pi}6\le x\le \dfrac{k\pi}2+\dfrac{\pi}3$($k\in \mathbf{Z}$).
+解不等式$|\cos 2x|\le \dfrac 12$.
+<E题目>
+<B目标>
+
+<E目标>
+<B标签>
+
+<E标签>
+<B类型>
+解答题
+<E类型>
+<B答案>
+
+<E答案>
+<B解答或提示>
+原不等式为$-\dfrac 12\le \cos 2x\le \dfrac 12$.如图, 可得$k\pi +\dfrac{\pi}3\le 2x\le k\pi +\dfrac{2\pi}3$, 于是$\dfrac{k\pi}2+\dfrac{\pi}6\le x\le \dfrac{k\pi}2+\dfrac{\pi}3$($k\in \mathbf{Z}$).
 \begin{center}
     \begin{tikzpicture}[>=stealth,scale = 2]
         \filldraw [gray!20] (0,0) -- (60:1) arc (60:120:1) -- cycle;
@@ -6028,21 +6032,6 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
         \draw (-0.5,0) node [below left] {$-\dfrac 12$};
     \end{tikzpicture}
 \end{center}
-<E题目>
-<B目标>
-
-<E目标>
-<B标签>
-
-<E标签>
-<B类型>
-
-<E类型>
-<B答案>
-
-<E答案>
-<B解答或提示>
-
 <E解答或提示>
 <B预计耗时>
 
@@ -6069,11 +6058,25 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005403
+005992
 <EID>
 <B题目>
-解不等式$\tan \dfrac x2\ge \sqrt 3$.\\
-解答在这里  如图, 可得$k\pi +\dfrac{\pi}3\le \dfrac x2\le k\pi +\dfrac{\pi}2$,
+解不等式$\tan \dfrac x2\ge \sqrt 3$.
+<E题目>
+<B目标>
+
+<E目标>
+<B标签>
+
+<E标签>
+<B类型>
+解答题
+<E类型>
+<B答案>
+
+<E答案>
+<B解答或提示>
+如图, 可得$k\pi +\dfrac{\pi}3\le \dfrac x2\le k\pi +\dfrac{\pi}2$,
 所以$ 2k\pi +\dfrac{2\pi}3\le x<2k\pi +\pi$($k\in \mathbf{Z}$).
 \begin{center}
     \begin{tikzpicture}[>=latex, scale = 2]
@@ -6087,21 +6090,6 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
         \draw (60:1) node [above] {$\dfrac \pi 3$};         
     \end{tikzpicture}
 \end{center}
-<E题目>
-<B目标>
-
-<E目标>
-<B标签>
-
-<E标签>
-<B类型>
-
-<E类型>
-<B答案>
-
-<E答案>
-<B解答或提示>
-
 <E解答或提示>
 <B预计耗时>
 
@@ -6128,7 +6116,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005404
+005993
 <EID>
 <B题目>
 在同一个坐标系内, 为了得到$y=3\sin (2x+\dfrac{\pi}4)$的图像, 只需将$y=3\cos 2x$的图像\bracket{20}.
@@ -6149,7 +6137,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -6182,7 +6170,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005405
+005994
 <EID>
 <B题目>
 将函数$y=\cos x$图像上每一点的纵坐标保持不变, 横坐标缩小为原来的一半, 再将所得图像沿$x$轴向左平移$\dfrac{\pi}4$个单位长度, 则与所得新图像对应的函数的解析式为\bracket{20}.
@@ -6196,7 +6184,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -6229,7 +6217,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005406
+005995
 <EID>
 <B题目>
 函数$y=3\sin x$的图像经过怎样的变换后, 可得到$y=3\sin (\dfrac x2-\dfrac{\pi}4)$的图像?\\
@@ -6247,7 +6235,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -6280,7 +6268,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005407
+005996
 <EID>
 <B题目>
 函数$y=\sin (2x+\dfrac{\pi}4)$图像的一条对称轴是直线\bracket{20}.
@@ -6294,7 +6282,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -6327,7 +6315,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005408
+005997
 <EID>
 <B题目>
 若$MP,OM,AT$分别是$60^\circ$角的正弦线、余弦线和正切线, 则\bracket{20}.
@@ -6340,7 +6328,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -6373,7 +6361,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005409
+005998
 <EID>
 <B题目>
 在同一坐标系内, 曲线$y=\sin x$与$y=\cos x$的交点坐标是\bracket{20}.
@@ -6386,7 +6374,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -6419,7 +6407,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005410
+005999
 <EID>
 <B题目>
 函数$y=\log _{\frac 12}(\sin 2x)$为减函数的区间是\bracket{20}.
@@ -6432,7 +6420,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -6465,7 +6453,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005411
+006000
 <EID>
 <B题目>
 函数$y=\lg (1-\sin x)-\lg (1+\sin x)$(.)
@@ -6478,7 +6466,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -6511,7 +6499,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005412
+006001
 <EID>
 <B题目>
 若$0<x<\dfrac 12$, 则下列各式不成立的是\bracket{20}.
@@ -6524,7 +6512,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -6557,7 +6545,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005413
+006002
 <EID>
 <B题目>
 若函数$y=\cos (\sin x)$, 则下列结论正确的是\bracket{20}.
@@ -6570,7 +6558,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -6603,7 +6591,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005414
+006003
 <EID>
 <B题目>
 下列四个函数中, 是偶函数且在$[0,\dfrac{\pi}2]$上为增函数, 但不是周期函数的函数是\bracket{20}.
@@ -6616,7 +6604,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -6649,7 +6637,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005415
+006004
 <EID>
 <B题目>
 下列函数中, 既在$(0,\dfrac{\pi}2)$上是增函数, 又是以$\pi$为最小正周期的偶函数是\bracket{20}.
@@ -6662,7 +6650,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -6695,7 +6683,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005416
+006005
 <EID>
 <B题目>
 要使$\sqrt {(1+2\sin \theta)^2}=-(1+2\sin \theta)$, 则$\theta$的取值范围是\bracket{20}.
@@ -6708,7 +6696,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -6741,7 +6729,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005417
+006006
 <EID>
 <B题目>
 设$\cos ^2x+4\sin x-a=0$($a,x\in \mathbf{R}$), 则$a$的取值范围是\blank{50}.
@@ -6753,7 +6741,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -6786,7 +6774,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005418
+006007
 <EID>
 <B题目>
 函数$y=1-2\sin x+3\cos ^2x$的值域是\blank{50}.
@@ -6798,7 +6786,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -6831,7 +6819,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005419
+006008
 <EID>
 <B题目>
 函数$y=\sin ^2x+2\cos x(-\dfrac{\pi}3\le x\le \dfrac 23\pi)$的值域是\blank{50}.
@@ -6843,7 +6831,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -6876,7 +6864,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005420
+006009
 <EID>
 <B题目>
 函数$y=\dfrac{3\cos x+1}{\cos x+2}$的值域是\blank{50}.
@@ -6888,7 +6876,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -6921,7 +6909,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005421
+006010
 <EID>
 <B题目>
 函数$f(x)=\log _{\frac 12}(2\sin x)$的最小值是\blank{50}.
@@ -6933,7 +6921,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -6954,7 +6942,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+001506
 <E相同题目>
 <B关联题目>
 
@@ -6966,7 +6954,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005422
+006011
 <EID>
 <B题目>
 将下列各数由小到大排列: $\sin 46^\circ ,\cos 46^\circ ,\cos 36^\circ$:\blank{50}.
@@ -6978,7 +6966,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -7011,7 +6999,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005423
+006012
 <EID>
 <B题目>
 将下列各数由小到大排列: $\sin 2,\cos 2,\tan 2$:\blank{50}.
@@ -7023,7 +7011,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -7056,7 +7044,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005424
+006013
 <EID>
 <B题目>
 将下列各数由小到大排列: $\log _x\sin \dfrac x2,\log _x\cos \dfrac x2$($0<x<1$):\blank{50}.
@@ -7068,7 +7056,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -7101,7 +7089,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005425
+006014
 <EID>
 <B题目>
 将下列各数由小到大排列: $\cos 1^\circ ,\sin 1^\circ ,\cos 1,\sin 1$:\blank{50}.
@@ -7113,7 +7101,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -7146,7 +7134,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005426
+006015
 <EID>
 <B题目>
 在$[0,2\pi]$中, 满足$\sin x\ge \dfrac 12$的$x$的取值范围是\blank{50}.
@@ -7158,7 +7146,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -7191,7 +7179,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005427
+006016
 <EID>
 <B题目>
 不等式$\sin x\le \dfrac 12$的解为\blank{50}.
@@ -7203,7 +7191,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -7236,7 +7224,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005428
+006017
 <EID>
 <B题目>
 不等式$|\cos 2x|\le \dfrac 12$的解为\blank{50}.
@@ -7248,7 +7236,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -7281,7 +7269,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005429
+006018
 <EID>
 <B题目>
 若集合$M=\{\theta|\sin \theta \ge \dfrac 12,0\le \theta \le \pi\}$, $P=\{\theta|\cos \theta \le \dfrac 12,0<\theta \le \pi\}$, 则$M\cap P=$\blank{50}.
@@ -7293,7 +7281,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -7326,7 +7314,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005430
+006019
 <EID>
 <B题目>
 若$-\pi \le x\le \pi$, 则不等式$\log _2(1+2\cos x)<1$的解为\blank{50}.
@@ -7338,7 +7326,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -7371,7 +7359,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005431
+006020
 <EID>
 <B题目>
 若锐角$\alpha ,\beta$满足$\sin \alpha <\cos \beta$则\bracket{20}.
@@ -7384,7 +7372,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -7417,7 +7405,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005432
+006021
 <EID>
 <B题目>
 方程$2^x=\cos x$的解有\bracket{20}.
@@ -7430,7 +7418,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -7463,7 +7451,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005433
+006022
 <EID>
 <B题目>
 函数$f(x)=(\sin \alpha)^{|\log _{\sin \alpha}x|}$($2k\pi <\alpha <2k\pi +\pi$且$\alpha \ne 2k\pi +\dfrac{\pi}2$, $k\in \mathbf{Z}$)的图像是\bracket{20}.
@@ -7520,7 +7508,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -7553,7 +7541,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005434
+006023
 <EID>
 <B题目>
 设$x\in (0,\dfrac{\pi}2)$, 则下列各式中正确的是\bracket{20}.
@@ -7566,7 +7554,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -7599,7 +7587,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005435
+006024
 <EID>
 <B题目>
 求函数$y=\log _{\sin x}(2\cos x+1)$的定义域.
@@ -7611,7 +7599,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -7644,7 +7632,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005436
+006025
 <EID>
 <B题目>
 求函数$y=\sqrt {1-2\cos x}+\lg (2\sin x-\sqrt 2)$的定义域.
@@ -7656,7 +7644,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -7689,7 +7677,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005437
+006026
 <EID>
 <B题目>
 求函数$y=\sqrt {\sin x}+\dfrac 1{\sqrt {16-x^2}}$的定义域.
@@ -7701,7 +7689,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -7734,7 +7722,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005438
+006027
 <EID>
 <B题目>
 作出函数$y=|\sin x|$的图像.
@@ -7746,7 +7734,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -7779,7 +7767,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005439
+006028
 <EID>
 <B题目>
 作出函数$y=|\cos x|+\cos x$的图像.
@@ -7791,7 +7779,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -7824,7 +7812,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005440
+006029
 <EID>
 <B题目>
 作出函数$y=(\sin \alpha)^{|\log _{\sin \alpha}x|}$的图像, 其中$\alpha$为锐角.
@@ -7836,7 +7824,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -7869,7 +7857,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005441
+006030
 <EID>
 <B题目>
 作出函数$y=\dfrac{|\sin x|}{\sin x}$的图像.
@@ -7881,7 +7869,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -7914,7 +7902,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005442
+006031
 <EID>
 <B题目>
 作出函数$y=f(\sin x)$的图像, 其中$f(x)=\begin{cases}
@@ -7927,7 +7915,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -7960,7 +7948,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005443
+006032
 <EID>
 <B题目>
 若$0<\alpha <\dfrac{\pi}4$, 且$\lg \sin \alpha +\log \cos \alpha +\lg 9=\lg \tan \alpha +\lg \cot \alpha +\dfrac 12\lg 8$, 求$\sin \alpha -\cos \alpha$的值.
@@ -7972,7 +7960,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -8005,7 +7993,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005444
+006033
 <EID>
 <B题目>
 设$x$是第二象限角, 且满足$\cos \dfrac x2+\sin \dfrac x2=-\dfrac{\sqrt 5}2$, 求$\sin \dfrac x2-\cos \dfrac x2$的值.
@@ -8017,7 +8005,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -8050,7 +8038,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005445
+006034
 <EID>
 <B题目>
 若$0<\theta <\dfrac{\pi}2$, 比较$M=\log _{\sin \theta}\cos \theta$与$N=\log _{\cos \theta}\sin \theta$的大小.
@@ -8062,7 +8050,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -8095,7 +8083,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005446
+006035
 <EID>
 <B题目>
 若$\alpha ,\beta$是关于$x$的二次方程$x^2+2(\cos \theta +1)x+\cos ^2\theta =0$的两实根, 且$|\alpha -\beta|\le 2\sqrt 2$, 求$\theta$的范围.
@@ -8107,7 +8095,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -8140,7 +8128,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005447
+006036
 <EID>
 <B题目>
 求函数$f(x)=a\sin x-\sin ^2x$的最大值$g(a)$, 并画出$g(a)$的图像.
@@ -8152,7 +8140,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -8185,7 +8173,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005448
+006037
 <EID>
 <B题目>
 若函数$f(x)=\cos ^2x-a\sin x+b$的最大值为$0$, 最小值为$-4$, 实数$a>0$, 求$a,b$的值.
@@ -8197,7 +8185,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -8230,7 +8218,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005449
+006038
 <EID>
 <B题目>
 函数$y=3\sin (2x+\dfrac{\pi}6)$的图像的一条对称轴是直线\bracket{20}.
@@ -8243,7 +8231,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -8276,7 +8264,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005450
+006039
 <EID>
 <B题目>
 先将函数$y=\sin 2x$的图像向右平移$\dfrac{\pi}3$个单位长度, 再将所得图像作关于$y$轴的对称变换, 则与最后所得图像对应的函数的解析式是\bracket{20}.
@@ -8289,7 +8277,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -8322,7 +8310,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005451
+006040
 <EID>
 <B题目>
 将函数$y=\sin x$的图像上所有点向左平移$\dfrac{\pi}3$个单位长度, 再把所得图像上各点横坐标伸长到原来的2倍, 则与最后得到的图像对应的函数的解析式为\bracket{20}.
@@ -8335,7 +8323,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -8368,7 +8356,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005452
+006041
 <EID>
 <B题目>
 函数$y=A\sin (\omega x+\varphi)$($A>0$, $\omega >0$, $|\varphi|<\dfrac{\pi}2$)的图像如图所示, 则$y$的表达式是\bracket{20}.
@@ -8392,7 +8380,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -8425,7 +8413,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005453
+006042
 <EID>
 <B题目>
 函数$y=2\sin (\dfrac 12x+\dfrac{\pi}3)$在一个周期内的简图是\bracket{20}.
@@ -8487,7 +8475,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -8520,7 +8508,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005454
+006043
 <EID>
 <B题目>
 要得到函数$y=\sin (\dfrac x2-\dfrac{\pi}6)$的图像, 只需将函数$y=\sin \dfrac x2$的图像\bracket{20}.
@@ -8533,7 +8521,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -8566,7 +8554,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 [B题目]
 <BID>
-005455
+006044
 <EID>
 <B题目>
 $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{50}.
@@ -8578,7 +8566,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -8611,7 +8599,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005456
+006045
 <EID>
 <B题目>
 函数$f(x)=2\sin (3-2x)$为增喊数的区间是\blank{50}.
@@ -8623,7 +8611,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -8656,7 +8644,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005457
+006046
 <EID>
 <B题目>
 函数$y=\cos (2x-\dfrac{\pi}5)$为减函数的区间是\blank{50}.
@@ -8668,7 +8656,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -8701,7 +8689,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005458
+006047
 <EID>
 <B题目>
 函数$y=\sin (2x+\dfrac{\pi}3)$的图像可由$y=\sin 2x$的图像向\blank{50}平移\blank{50}个单位长度得到.
@@ -8713,7 +8701,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -8746,7 +8734,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005459
+006048
 <EID>
 <B题目>
 将奇函数$y=f(x)$($x\in \mathbf{R}$)的图像沿$x$轴正向平移$1$个单位长度后, 所得的图像为$C'$, 而图像$C'$与$C$关于原点对称, 那么$C$所对应的函数应为\blank{50}.
@@ -8758,7 +8746,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -8791,7 +8779,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005460
+006049
 <EID>
 <B题目>
 先将函数$f(x)=\sin x$的图像向右平移$\dfrac{\pi}5$个单位长度, 再改变各点的横坐标(纵坐标不变), 得到最小正周期为$\dfrac{2\pi}3$的函数$y=\sin (\omega x+\varphi)$($\omega >0$)的图像, 则$\omega =$\blank{50}, $\varphi =$\blank{50}.
@@ -8803,7 +8791,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -8836,7 +8824,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005461
+006050
 <EID>
 <B题目>
 若函数$f(x)=2\cos (\dfrac k4x+\dfrac{\pi}3)-5$的最小正周期不大于$2$, 则正整数$k$的最小值为\bracket{20}.
@@ -8849,7 +8837,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -8882,7 +8870,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005462
+006051
 <EID>
 <B题目>
 若函数$f(x)=\sin (2x+\varphi)$($-\pi <\varphi <0$)是偶函数, 则$\varphi =$\blank{50}.
@@ -8894,7 +8882,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -8927,7 +8915,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005463
+006052
 <EID>
 <B题目>
 若函数$f(x)=\cos (x+\varphi)$的图像关于坐标原点对称, 则$\varphi =$\blank{50}.
@@ -8939,7 +8927,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -8972,7 +8960,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005464
+006053
 <EID>
 <B题目>
 根据周期函数的定义, 求函数$y=2\cos (4x-\dfrac{\pi}3)$的最小正周期.
@@ -8984,7 +8972,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -9017,7 +9005,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005465
+006054
 <EID>
 <B题目>
 若奇函数$f(x)$是最小正周期为$3$的周期函数, 且$f(1)=-1$, 则$f(101)=$\blank{50}.
@@ -9029,7 +9017,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -9062,7 +9050,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005466
+006055
 <EID>
 <B题目>
 若偶函数$y=f(x)$是最小正周期为$2$的周期函数.且$2\le x\le 3$时, $f(x)=x$, 则当$-2\le x\le 0$时, $f(x)$的表达式为\blank{50}.
@@ -9074,7 +9062,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -9107,7 +9095,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005467
+006056
 <EID>
 <B题目>
 已知函数$f(x)=A\sin (\omega x+\varphi)$($A>0$, $\omega >0$)在同一周期内, 当$x=\dfrac{\pi}9$时取得最大值$\dfrac 12$, 当$x=\dfrac{4\pi}9$时取得最小值$-\dfrac 12$, 求此函数的解析式.
@@ -9119,7 +9107,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -9152,7 +9140,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005468
+006057
 <EID>
 <B题目>
 已知函数$f(x)=A\sin (\omega x+\varphi)$($A>0$, $\omega >0$)的图像上一个最高点的坐标为$(2,\sqrt 2)$, 由这个最高点到其相邻的最低点间, 图像与$x$轴交于点$(6, 0)$, 求此函数的解析式.
@@ -9164,7 +9152,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -9197,7 +9185,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005469
+006058
 <EID>
 <B题目>
 函数$y=\tan 3\pi x$的最小正周期为\bracket{20}.
@@ -9210,7 +9198,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -9243,7 +9231,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005470
+006059
 <EID>
 <B题目>
 下列函数中, 以$\pi$为最小正周期的偶函数是\bracket{20}.
@@ -9256,7 +9244,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -9289,7 +9277,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005471
+006060
 <EID>
 <B题目>
 若$a=\sin \dfrac 34$, $b=\cos \dfrac 34$, $c=\cot \dfrac 34$, 则$a,b,c$之间的大小关系是\bracket{20}.
@@ -9302,7 +9290,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -9335,7 +9323,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005472
+006061
 <EID>
 <B题目>
 若$\tan (2x-\dfrac{\pi}3)\le 1$, 则$x$的取值范围是\bracket{20}.
@@ -9348,7 +9336,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -9381,7 +9369,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005473
+006062
 <EID>
 <B题目>
 下列函数中, 同时满足条件\textcircled{1} 在$(0,\dfrac{\pi}2)$为增函数, \textcircled{2} 为奇函数, \textcircled{3} 以$\pi$为最小正周期的函数是\bracket{20}.
@@ -9394,7 +9382,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -9427,7 +9415,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005474
+006063
 <EID>
 <B题目>
 函数$y=\cot x(-\dfrac{\pi}4\le x\le \dfrac{\pi}4)$的值域是\bracket{20}.
@@ -9440,7 +9428,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -9473,7 +9461,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005475
+006064
 <EID>
 <B题目>
 已知$x$满足$x$, 则$x$的取值范围为\blank{50}.
@@ -9485,7 +9473,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -9518,7 +9506,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005476
+006065
 <EID>
 <B题目>
 已知$x$满足$\tan \dfrac x2\ge \sqrt 3$, 则$x$的取值范围为\blank{50}.
@@ -9530,7 +9518,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -9563,7 +9551,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005477
+006066
 <EID>
 <B题目>
 已知$x$满足$\cot 2x\le -\sqrt 3$, 则$x$的取值范围为\blank{50}.
@@ -9575,7 +9563,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -9608,7 +9596,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005478
+006067
 <EID>
 <B题目>
 已知$x$满足$|\sin x|\le|\cos x|$, 则$x$的取值范围为\blank{50}.
@@ -9620,7 +9608,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -9653,7 +9641,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005479
+006068
 <EID>
 <B题目>
 已知$x$满足$\log _x\tan x>0$, 则$x$的取值范围为\blank{50}.
@@ -9665,7 +9653,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -9698,7 +9686,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005480
+006069
 <EID>
 <B题目>
 已知$x$满足$\log _{\sqrt 3}\sin \dfrac x2-\log _{\sqrt 3}\cos \dfrac x2>-1$, 且$-2\pi <x<2\pi$, 则$x$的取值范围为\blank{50}.
@@ -9710,7 +9698,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -9743,7 +9731,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005481
+006070
 <EID>
 <B题目>
 将下列各数按从小到大的顺序排列$\tan 1,\tan 2,\tan 3$:\blank{50}.
@@ -9755,7 +9743,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -9788,7 +9776,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005482
+006071
 <EID>
 <B题目>
 将下列各数按从小到大的顺序排列$1,\sin 1,\cos 1,\tan 1$:\blank{50}.
@@ -9800,7 +9788,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+填空题
 <E类型>
 <B答案>
 
@@ -9833,7 +9821,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005483
+006072
 <EID>
 <B题目>
 在\textcircled{1} $y=|\sin 2x|$, \textcircled{2} $y=|\cos x|$, \textcircled{3} $y=|\tan 2x|$, \textcircled{4} $y=|\tan x|+|\cot x|$这四个函数中, 最小正周期为$\dfrac{\pi}2$的偶函数有\bracket{20}.
@@ -9846,7 +9834,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -9879,7 +9867,7 @@ $f(x)=\log _{\frac{\pi}4}\cos (2x+\dfrac{\pi}4)$为增函数的区间是\blank{5
 
 [B题目]
 <BID>
-005484
+006073
 <EID>
 <B题目>
 $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
@@ -9892,7 +9880,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -9925,7 +9913,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005485
+006074
 <EID>
 <B题目>
 若$0<\alpha <2\pi$, 且满足$\sin \alpha <\cos \alpha <\cot \alpha <\tan \alpha$, 则有\bracket{20}.
@@ -9938,7 +9926,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+选择题
 <E类型>
 <B答案>
 
@@ -9971,7 +9959,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005486
+006075
 <EID>
 <B题目>
 求函数$y=\sqrt {\sqrt 3-\cot \dfrac x2}$的定义域.
@@ -9983,7 +9971,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10016,7 +10004,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005487
+006076
 <EID>
 <B题目>
 求函数$y=\dfrac{\lg (\tan x-1)}{\sqrt {1-2\sin x}}$的定义域.
@@ -10028,7 +10016,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10061,7 +10049,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005488
+006077
 <EID>
 <B题目>
 求函数$y=\lg (\tan x-1)+\sqrt {\sin 2x}$的定义域.
@@ -10073,7 +10061,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10106,7 +10094,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005489
+006078
 <EID>
 <B题目>
 求函数$y=\dfrac{\sec ^2x+\tan x}{\sec ^2x-\tan x}$的值域.
@@ -10118,7 +10106,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10142,7 +10130,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E相同题目>
 <B关联题目>
-
+005989
 <E关联题目>
 <B备注>
 
@@ -10151,7 +10139,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005490
+006079
 <EID>
 <B题目>
 已知$\theta \in [-\dfrac{\pi}3,\dfrac{\pi}4]$, 求函数$y=\sec ^2\theta +2\tan \theta +1$的最大值与最小值.
@@ -10163,7 +10151,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10196,7 +10184,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005491
+006080
 <EID>
 <B题目>
 已知$\dfrac{\pi}3<\theta <\dfrac{\pi}2$, 比较$\sin \theta ,\cot \theta ,\cos \theta$的大小.
@@ -10208,7 +10196,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10241,7 +10229,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005492
+006081
 <EID>
 <B题目>
 已知$0<\alpha <\dfrac{\pi}4$, 比较$\sin \alpha ,\sin (\sin \alpha),\sin (\tan \alpha)$的大小.
@@ -10253,7 +10241,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10286,7 +10274,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005493
+006082
 <EID>
 <B题目>
 已知$0<\theta <\dfrac{\pi}2$, 比较$\cos \theta ,\sin (\cos \theta),\cos (\sin \theta)$的大小.
@@ -10298,7 +10286,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10331,7 +10319,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005494
+006083
 <EID>
 <B题目>
 利用锐角三角函数的定义解决问题``若$\alpha ,\beta \in (0,\dfrac{\pi}2)$, 且$17\cos \alpha +13\cos \beta =17$, $17\sin \alpha =13\sin \beta$, 求$\dfrac{\alpha}2+\beta$''.
@@ -10343,7 +10331,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10376,7 +10364,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005495
+006084
 <EID>
 <B题目>
 利用锐角三角函数的定义解决问题``设$x\in [\dfrac{\pi}4,\dfrac{\pi}2]$, 求证: $\csc x-\cot x\ge \sqrt 2-1$''.
@@ -10388,7 +10376,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10421,7 +10409,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005496
+006085
 <EID>
 <B题目>
 已知$a\cos \alpha +b\sin \alpha =c$, $a\cos \beta +b\sin \beta =c$($0<\alpha ,\beta <\pi$, $\alpha \ne \beta$), 且$\cos \alpha +\cos \beta =\cos \alpha \cdot \cos \beta$, 求证: $c^2-b^2=2ac$.
@@ -10433,7 +10421,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10466,7 +10454,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005497
+006086
 <EID>
 <B题目>
 已知函数$f(x)$满足$af(\sin x)+bf(-\sin x)=c\sin x\cos x(-\dfrac{\pi}2\le x\le \dfrac{\pi}2,a^2-b^2\ne 0)$, 求$f(x)$的解析式.
@@ -10478,7 +10466,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10511,7 +10499,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005498
+006087
 <EID>
 <B题目>
 设$\dfrac{\sin \alpha}{a^2-1}=\dfrac{\cos \alpha}{2a\sin 2\beta}=\dfrac 1{1+2a\cos 2\beta +a^2}$, 求证: $\sin \alpha =\dfrac{a^2-1}{a^2+1}$.
@@ -10523,7 +10511,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10556,7 +10544,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005499
+006088
 <EID>
 <B题目>
 已知$a\sec ^2\alpha -b\cos \alpha =2a$, $b\cos ^2\alpha -a\sec \alpha =2b$, 求$a,b$的关系式.
@@ -10568,7 +10556,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10601,7 +10589,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005500
+006089
 <EID>
 <B题目>
 已知$a\sin ^2\theta +b\cos ^2\theta =m$, $b\sin ^2\varphi +a\cos ^2\varphi =n$, $a\tan \theta =b\tan \varphi$($a,b,m,n$互不相等), 求证: $\dfrac 1m+\dfrac 1n=\dfrac 1a+\dfrac 1b$.
@@ -10613,7 +10601,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10646,7 +10634,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005501
+006090
 <EID>
 <B题目>
 利用单位圆和三角函数线证明:``若$\alpha$为锐角, 则$\sin \alpha +\cos \alpha >1$''.
@@ -10658,7 +10646,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10691,7 +10679,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005502
+006091
 <EID>
 <B题目>
 利用单位圆和三角函数线证明:``若$\alpha$为锐角, 则$\sin \alpha <\alpha <\tan \alpha$''.
@@ -10703,7 +10691,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10736,7 +10724,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005503
+006092
 <EID>
 <B题目>
 利用单位圆和三角函数线证明:``若$\alpha$为锐角, 则$\alpha \cdot \sin \alpha +\cos \alpha >1$''.
@@ -10748,7 +10736,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10781,7 +10769,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005504
+006093
 <EID>
 <B题目>
 利用单位圆和三角函数线证明:``若$0<\beta <\alpha <\dfrac{\pi}2$, 则$\sin \alpha -\sin \beta <\alpha -\beta <\tan \alpha -\tan \beta$''.
@@ -10793,7 +10781,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10826,7 +10814,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005505
+006094
 <EID>
 <B题目>
 若$\alpha$是锐角, 求证: $\cos (\sin \alpha)>\sin (\cos \alpha)$.
@@ -10838,7 +10826,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10871,7 +10859,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005506
+006095
 <EID>
 <B题目>
 已知函数$f(x)$满足$f(x+a)=\dfrac{1-f(x)}{1+f(x)}$($a$为常数, 且$a\ne 0$), 求证: $f(x)$是一个以$2a$为周期的周期函数.
@@ -10883,7 +10871,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10916,7 +10904,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005507
+006096
 <EID>
 <B题目>
 已知$f(x)$为偶函数, 其图像关于直线$x=a$($a\ne 0$)对称, 求证: $f(x)$是一个以$2a$为周期的周期函数.
@@ -10928,7 +10916,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -10961,7 +10949,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005508
+006097
 <EID>
 <B题目>
 已知$f(x)$, $g(x)$是定义在$\mathbf{R}$上的两个函数, 且$g(x)$为奇函数.并满足: \textcircled{1} $f(0)=1$; \textcircled{2} 对任何$x,y\in \mathbf{R}$都有$f(x-y)=f(x)f(y)+g(x)g(y)$. 求证:\\
@@ -10976,7 +10964,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -11009,7 +10997,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005509
+006098
 <EID>
 <B题目>
 利用图像求方程$\sin x=\tan \dfrac x2$在区间$[0,8\pi]$上解的个数.
@@ -11021,7 +11009,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
@@ -11054,7 +11042,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 [B题目]
 <BID>
-005510
+006099
 <EID>
 <B题目>
 设$0\le x\le \pi$, $f_1(x)=\sin (\cos x)$, $f_2(x)=\cos (\sin x)$.\\
@@ -11068,7 +11056,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E标签>
 <B类型>
-
+解答题
 <E类型>
 <B答案>
 
