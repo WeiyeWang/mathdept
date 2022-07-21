@@ -1,822 +1,768 @@
-例1  求\[\theta \]，使复数\[z=\cos 2\theta +\left( {{\tan }^{2}}\theta -\tan \theta -2 \right)i\]是：
-（1）实数.			（2）纯虚数.			（3）零.
-解  （1）由\[{{\tan }^{2}}\theta -\tan \theta -2=0\]，得\[\tan \theta =-1\]，\[\tan \theta =2\]，
-∴\[\theta =k\pi -\frac{\pi }{4}\]，\[\theta =k\pi +\arctan 2\]（\[k\in Z\]）.
-（2）由\[\left\{ \begin{align}
-  & \cos 2\theta =0, \\ 
- & \left( \tan \theta -2 \right)\left( \tan \theta +1 \right)\ne 0, \\ 
-\end{align} \right.\]得\[\left\{ \begin{align}
-  & {{\cos }^{2}}\theta -{{\sin }^{2}}\theta =0, \\ 
- & \left( \tan \theta -2 \right)\left( \tan \theta +1 \right)\ne 0, \\ 
-\end{align} \right.\]
-即\[\left\{ \begin{align}
-  & \tan \theta =\pm 1, \\ 
- & \left( \tan \theta -2 \right)\left( \tan \theta +1 \right)\ne 0, \\ 
-\end{align} \right.\]则\[\tan \theta =1\]，∴\[\theta =k\pi +\frac{\pi }{4}\]（\[k\in Z\]）.
-（3）由\[\left\{ \begin{align}
-  & \cos 2\theta =0, \\ 
- & \left( \tan \theta -2 \right)\left( \tan \theta +1 \right)=0, \\ 
-\end{align} \right.\]得\[\left\{ \begin{align}
-  & \tan \theta =\pm 1, \\ 
- & \left( \tan \theta -2 \right)\left( \tan \theta +1 \right)=0, \\ 
-\end{align} \right.\]
-则\[\tan \theta =-1\]，∴\[\theta =k\pi -\frac{\pi }{4}\]（\[k\in Z\]）.
-2.复数和几何意义.
-引进了“复平面”的概念以后，复数\[z=a+bi\]（\[a,b\in R\]）有两个几何意义：
-（1）复数\[z=a+bi\]（\[a,b\in R\]）与复平面上的点（\[a,b\]）以一一对应.
-（2）非零复数\[z=a+bi\]（\[a,b\in R\]，\[{{a}^{2}}+{{b}^{2}}\ne 0\]）与复平面上自原点出发，以点\[Z\left( a,b \right)\]为终点的向量\[\overrightarrow{OZ}\]一一对应.
-需要特别说明的是，非零复数和复平面上的向量并不是一一对应的，这是因为向量具有“可平移性”，这就是说，两个方向一致、长度相等的向量是相等的.
-3.两个复数相等的条件.
-两个复数\[{{z}_{1}}=a+bi\]（\[a,b\in R\]）和\[{{z}_{2}}=c+di\]（\[c,d\in R\]），我们规定：
-\[{{z}_{1}}={{z}_{2}}\Leftrightarrow \left\{ \begin{align}
-  & a=c, \\ 
- & b=d. \\ 
-\end{align} \right.\]
-特别地，有\[a+bi=0\Leftrightarrow \left\{ \begin{align}
-  & a=0, \\ 
- & b=0, \\ 
-\end{align} \right.\]（\[a,b\in R\]）.
-例2  已知实数\[a,x,y\]满足\[{{a}^{2}}+\left( 2+i \right)a+2xy+\left( x-y \right)i=0\]，则点\[\left( x,y \right)\]的轨迹是（）
-（A）直线.		（B）圆心在原点的圆.		（C）圆心不在原点的圆.	（D）椭圆.
-解  将题设之式整理得\[{{a}^{2}}+2a+2xy+\left( a+x-y \right)i=0\].
-∴\[\left\{ \begin{align}
-  & {{a}^{2}}+2a+2xy=0,\ \ \ \ \ \ \ \ \ \  \\ 
- & a+x-y=0.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \\ 
-\end{align} \right.\]
-由②，得\[a=y-x\]，代入①，得\[{{\left( y-x \right)}^{2}}+2\left( y-x \right)+2xy=0\]
-即\[{{x}^{2}}+{{y}^{2}}-2x+2y=0\]，\[{{\left( x-1 \right)}^{2}}+{{\left( y+1 \right)}^{2}}=2\].
-故应选（C）.
-【训练题】
-1.若\[x,y\in R\]，则“\[x=0\]”是“\[x+yi\]为纯虚数”的（）
-（A）充分不必要条件.						（B）必要不充分条件.
-（C）充要条件.							（D）既不充分也不必要条件.
-2.复数\[a+bi\]（\[a,b\in R\]）在复平面内的对应点在虚轴上的一个充要条件是（）
-（A）\[a=0\].			（B）\[b\ne 0\].			（C）\[ab=0\].	（D）\[\frac{a}{b}=0\].
-3.下列结论中，正确的是（）
-（A）复平面内，原点是实轴与虚轴的公共点.
-（B）实数的共轭复数一定是实数，虚数的共轭复数一定是虚数.
-（C）复数集\[C\]与复平面内所有向量所组成的集合是一一对应的.
-（1））若使得实数\[x\]对应于纯虚数\[xi\]，则实数集\[R\]与纯虚数集是一一对应的.
-4.复平面内，若复数\[z={{m}^{2}}\left( 1+i \right)-m\left( 4+i \right)-6i\]所对应的点在第二象限，则实数\[m\]的取值范围是（）
-（A）（0，3）.	（B）（－2.0）.		（C）（3，4）.		（D）\[\left( -\infty ,-2 \right)\].
-5.由方程\[{{\left| z \right|}^{2}}-8\left| z \right|+15=0\]所确定的复数在复平面内对应点的轨迹是（）
-（A）四个点.		（B）四条直线.		（C）一个圆.			（D）两个圆.
-6.已知集合\[M=\left\{ 1,2,\left( {{m}^{2}}-3m-1 \right)+\left( {{m}^{2}}-5m+6 \right)i,m\in R \right\}\]，\[N=\left\{ -1,3 \right\}\]满足\[M\bigcap N\ne \varnothing \]，则\[m\]等于（）
-（A）0或3.		（B）－1或3.		（C）－1或6.		（D）3.
-7.若复数\[z=2{{m}^{2}}-3m-2+\left( {{m}^{2}}-3m+2 \right)i\]是纯虚数，则实数\[m\]的值为（）
-（A）1或2.		（B）\[-\frac{1}{2}\]或2.		（C）\[-\frac{1}{2}\].			（D）2.
-8.复平面内，正方形的三个顶点对应的复数分别是\[1+2i\]，0，\[-2+i\]，则第四个顶点所对应的复数为（）
-（A）\[3+i\].		（B）\[3-i\].			（C）\[1-3i\].			（D）\[-1+3i\].
-9.判断下列命题的真假：
-（1）\[{{x}_{1}}+{{y}_{1}}i={{x}_{2}}+{{y}_{2}}i\]的充要条件是\[{{x}_{1}}={{x}_{2}}\]，且\[{{y}_{1}}={{y}_{2}}\].（）
-（2）任意两个复数都不能比较大小.（）
-（3）若\[x,y\in R\]，且\[x=y\]，则\[\left( x-y \right)+\left( x+y \right)i\]是纯虚数.（）
-10.（1）已知复数\[z=\frac{{{a}^{2}}+a-2}{a-3}+\left( {{a}^{2}}-4a+3 \right)i\]（\[a\in R\]）.
-①若\[z\in R\]，则\[a=\]          ；②若\[z\]是纯虚数，则\[a=\]         .
-（2）已知\[z=\left( 2\cos \theta -\sqrt{3} \right)+i\left( 2\sin \theta -1 \right)\].
-①若\[z\in R\]，则\[\theta =\]          ；②若\[z\]是纯虚数，则\[\theta =\]          .
-（3）已知复数\[z=\left( {{\tan }^{2}}\theta +\tan \theta -2 \right)+i\left( {{\cos }^{2}}\theta -{{\sin }^{2}}\theta  \right)\].
-①当\[\theta =\]          时，\[z\]为实数；②当\[\theta =\]          时，\[z\]为纯虚数；③当\[\theta =\]          时，\[z=0\].
-（4）复平面内，若复数\[z=\left( {{m}^{2}}-m-2 \right)+\left( {{m}^{2}}-3m+2 \right)i\]所对应的点在虚轴上，则实数\[m\]的值等于          .
-（5）复平面内，若复数\[\left( {{m}^{2}}-8m+15 \right)+\left( {{m}^{2}}-5m-14 \right)i\]所对应的点位于第四象限，则实数\[m\]的取值范围是          .
-11.（1）满足\[\left| {{\log }_{3}}x+4i \right|=5\]的实数\[x\]的值是          .
-（2）复平面内，已知复数\[z=x-\frac{1}{3}i\]所对应的点都在单位圆内，则实数\[x\]的取值范围是          .
-（3）不等式\[\left| 4+i{{\log }_{\frac{1}{2}}}\left( x-1 \right) \right|\ge \left| -3+4i \right|\]的解集是          .
-（4）若复数\[z=\left( x-1 \right)+\left( 2x-1 \right)i\]的模小于\[\sqrt{10}\]可，则实数\[x\]的取值范围是          .
-（5）若复数\[z=\cos \alpha +i\left( 1-\sin \alpha  \right)\]，则\[\left| z \right|\]的取值范围是          .
-12.（1）若复数\[{{z}_{1}}=1-ir\sin \alpha \]与\[{{z}_{2}}=r\cos \alpha -\sqrt{3}i\]（\[r>0\]）相等，则\[{{z}_{1}}=\]          .
-（2）已知\[{{z}_{1}}=\sin 2\theta +i\cos \theta \]，\[{{z}_{2}}=\cos \theta -\sqrt{3}\sin \theta \]（\[0\le \theta <\pi \]）.
-①若\[{{z}_{1}}={{z}_{2}}\]，则\[\theta =\]          ；②若\[{{z}_{1}}=\overline{{{z}_{2}}}\]，则\[\theta =\]          .
-13.根据下列条件，求复数\[z\]：
-（1）\[z+\left| {\bar{z}} \right|=2+i\].
-（2）\[z-2\left| z \right|=-7+4i\].
-14.已知复数\[z=\frac{{{x}^{2}}-3x+2}{x+3}+\left( {{x}^{2}}+2x-3 \right)i\]，求实数\[x\]，使：
-（1）\[z\]是实数.					（2）\[z\]是虚数.				（3）\[z\]是纯虚数.
-15.若\[\cos 2\theta +i\left( 1-\tan \theta  \right)\]是纯虚数，则\[\theta \]的值取（）
-（A）\[k\pi -\frac{\pi }{4}\]（\[k\in Z\]）.				（B）\[k\pi +\frac{\pi }{4}\]（\[k\in Z\]）.
-（C）\[k\pi \pm \frac{\pi }{4}\]（\[k\in Z\]）.				（D）\[\frac{k\pi }{2}+\frac{\pi }{4}\]（\[k\in Z\]）.
-16.方程\[3z+\left| z \right|=1-3i\]的解是（）
-（A）\[i\].			（B）\[-i\].			（C）\[\frac{3}{4}-i\].		（D）\[-i\]和\[\frac{3}{4}-i\].
-17.若虚数\[\left( x-2 \right)+yi\]（\[x,y\in R\]）的模为\[\sqrt{3}\]，则\[\frac{y}{x}\]的最大值是（）
-（A）\[\frac{\sqrt{3}}{2}\].		（B）\[\frac{\sqrt{3}}{3}\].			（C）\[\frac{1}{2}\].		（D）\[\sqrt{3}\].
-18.设复数\[z={{\log }_{2}}\left( \cos \alpha +\frac{1}{2} \right)+i{{\log }_{2}}\left( \sin \alpha +\frac{1}{2} \right)\]，求\[\alpha \]，使：
-（1）\[z\]为实数.	（2）\[z\]为纯虚数.		（3）\[z\]在复平面内的对应点在第二象限.
-（4）\[z\]的实部与虚部相等.
-19.根据条件，在复平面内画出复数对应点的集合所表示的图形：
-（1）\[1\le \left| R\left( z \right) \right|\le 2\]（\[R\left( z \right)\]表示\[Z\]的实部）.
-（2）\[1\le \left| z \right|\le 2\]且\[I\left( z \right)<0\]（\[I\left( z \right)\]表示\[z\]的虚部）.
-20.已知两个复数集\[M=\left\{ z\left| z=t+\left( 1-{{t}^{2}} \right)i,t\in R \right. \right\}\]及\[N=\left\{ z\left| z=2\cos \theta +\left( \lambda +3\sin \theta  \right)i,\lambda \in R,\theta \in R \right. \right\}\]的交集为非空集合，求\[\lambda \]的取值范围.
-二、复数的运算
-【典型题型和解题技巧】
-高中数学中，复数的综合性特别强，它把代数、三角和几何自然地揉合在一起.本单元中，解有关的复数问题主要有以下几类：
-1.应用复数的代数形式解题.
-复数\[z=x+yi\]（\[x,y\in R\]）称为复数的代数形式，利用复数的代数形式是解复数问题最基本的方法，因此也是最重要的方法.
-例1  已知\[\frac{z}{z-1}\]是纯虚数，求复数\[z\]在复平面内对应点的轨迹的普通方程.
-解  设\[z=x+yi\]（\[x,y\in R\]），
-则\[\frac{z}{z-1}=\frac{x+yi}{\left( x-1 \right)+yi}=\frac{\left( x+yi \right)\left[ \left( x-1 \right)-yi \right]}{{{\left( x-1 \right)}^{2}}+{{y}^{2}}}=\frac{x\left( x-1 \right)+{{y}^{2}}+\left[ y\left( x-1 \right)-xy \right]i}{{{\left( x-1 \right)}^{2}}+{{y}^{2}}}\]
-      \[=\frac{x\left( x-1 \right)+{{y}^{2}}-yi}{{{\left( x-1 \right)}^{2}}+{{y}^{2}}}\].
-∵\[\frac{z}{z-1}\]是纯虚数，∴\[\left\{ \begin{align}
-  & x\left( x-1 \right)+{{y}^{2}}=0, \\ 
- & y\ne 0. \\ 
-\end{align} \right.\]
-即复数\[z\]在复平面内对应点的轨迹方程是圆（除两点），\[{{\left( x-\frac{1}{2} \right)}^{2}}+{{y}^{2}}=\frac{1}{4}\]（\[y\ne 0\]）.
-2.应用复数运算的几何意义解题.
-（1）应用\[\left| {{z}_{1}}-{{z}_{2}} \right|\]的几何意义.
-设复数\[z\]，\[{{z}_{1}}\]，\[{{z}_{2}}\]在复平面内的对应点分别为\[P\]，\[{{P}_{1}}\]，\[{{P}_{2}}\]，则\[\left| {{z}_{1}}-{{z}_{2}} \right|\]表示两点\[{{P}_{1}}\]，\[{{P}_{2}}\]间的距离，特别地，\[\left| z \right|\]表示点\[P\]和原点的距离.
-例2  若\[\left| z+1-i \right|=1\]，求\[\left| z-3+4i \right|\]的最大值和最小值.
-解  由条件\[\left| z-\left( -1+i \right) \right|=1\]，知复数\[Z\]的对应点\[A\]在以（－1，1）为圆心、1为半径的圆上运动，而\[\left| z-3+4i \right|=\left| z-\left( 3-4i \right) \right|\]，它表示点\[A\]和点\[B\]（3，－4）的距离（如图1），显然，\[\left| BE \right|\le \left| AB \right|\le \left| BD \right|\]，
-∴\[\left| z-3+4i \right|\]的最大值和最小值分别是\[\sqrt{41}+1\]和\[\sqrt{41}-1\].
+第十四章  空间直线与平面
+14.1 平面及其基本性质
+习题14.1 A组
+1.用集合语言表示下列语句并画图表示：
+（1）点\[M\]是平面\[\alpha \]与平面\[\beta \]的公共点。
+（2）平面\[\alpha \]与平面\[\beta \]没有公共点，且直线\[l\]与平面\[\alpha \]和平面\[\beta \]分别交于点\[A\]和点\[B\]。
+（3）平面\[\alpha \]与平面\[\beta \]交于直线\[l\]，且直线\[l\]与平面\[\gamma \]没有公共点。
+2.已知\[A\in l,B\in l,Q\notin l\]，求证：直线\[OA\]、\[OB\]、\[OC\]在同一平面上。
  
-（图1）
-注意  设复数\[{{z}_{0}}\]，\[{{z}_{1}}\]，\[{{z}_{2}}\]在复平面内的对应点分别为\[{{Z}_{0}}\]，\[{{Z}_{1}}\]，\[{{Z}_{2}}\]，则：
-①\[\left| z-{{z}_{1}} \right|=\left| z-{{z}_{2}} \right|\]表示线段\[{{Z}_{1}}{{Z}_{2}}\]的中垂线；
-②\[\left| z-{{z}_{0}} \right|=R\]（\[R>0\]）表示以\[{{Z}_{0}}\]为圆心，\[R\]为半径的圆；
-③\[\left| z-{{z}_{1}} \right|+\left| z-{{z}_{2}} \right|=2a\]（\[2a>\left| {{Z}_{1}}{{Z}_{2}} \right|\]）表示以\[{{Z}_{1}}\]，\[{{Z}_{2}}\]为焦点，\[a\]为半长轴的椭圆；
-④\[\left| \left| z-{{z}_{1}} \right|-\left| z-{{z}_{2}} \right| \right|=2a\]（\[0<2a<\left| {{Z}_{1}}{{Z}_{2}} \right|\]）表示以\[{{Z}_{1}}\]，\[{{Z}_{2}}\]为焦点，\[a\]为半实轴长的双曲线.
-（2）应用复数加、减法的几何意义.
-设复数\[{{z}_{1}}\]，\[{{z}_{2}}\]和复平面上的点\[A\]，\[B\]对应，以\[OA\]，\[OB\]为邻边作\[ABCD\]（\[O\]为原点），并连接\[AB\]（如图2），则复数\[{{z}_{1}}+{{z}_{2}}\]和向量\[\overrightarrow{OC}\]对应，复数\[{{z}_{1}}-{{z}_{2}}\]和向量\[\overrightarrow{BA}\]对应.
+（第2题）
+3.判断题：（下列语句中，正确的在括号内填入“√”；错误的在括号内填入“×”）
+（1）如果一条直线与另两条直线都相交，那么这三条直线必共面．（    ）
+（2）如果三条直线两两都相交，那么它们能确定一个平面．（    ）
+（3）如果三条直线相互平行，那么这三条直线在同一个平面上．（    ）
+（4）如果两个平面都有无数个公共点，那么这两个平面重合.   （    ）
+4．过空间任意一点引四条直线，最多可以确定几个平面？为什么？
+5．（操作探究）试用两根细绳检验一把椅子的四条腿的底端是否在同一平面内，并说明理由．
+习题14.1 B组
+1．用集合语言表示下列语句并画图：
+如果平面\[\alpha \]与平面\[\beta \]交于直线\[l\]，平面\[\alpha \]与平面\[\gamma \]交于直线\[n\],平面\[\beta \]与平面\[\gamma \]交于直线\[n\]，且直线\[l\]与直线\[m\]平行，那么直线\[l\]、\[m\]、\[n\]两两平行．
+2．三个平面最多把空间分割成几个部分？并画图表示．
+3．已知\[A\]、\[B\]、\[C\]、\[D\]、\[E\]是空间的五个点，且线段\[CE\]、\[AC\]和\[BD\]两两相交，求证：\[A\]、\[B\]、\[C\]、\[D\]、\[E\]这五个点在同一平面上．
+14.2空间直技与直线的位置关系
+习题14.2 A组
+1．在长方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]中,\[P\]为\[C{{C}_{1}}\]上一点，试过点\[P\]画棱\[AD\]的平行线，并说明画法和理由。
  
-（图2）
-例3  已知\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|=1\]，\[{{z}_{1}}+{{z}_{2}}=\frac{1}{2}+\frac{\sqrt{3}}{2}i\]，求复数\[{{z}_{1}}\]，\[{{z}_{2}}\].
-解  如图3，
+（第1题）
+2．在空间四边形\[ABCD\]中，\[EFGH\]分别是\[ABBCCDDA\]的中点，且\[AC=BD\],试证明\[EFGH\]是平面图形，并分析四边形\[EFGH\]的性质．
  
-（图3）
-∵\[{{z}_{1}}+{{z}_{2}}=\frac{1}{2}+\frac{\sqrt{3}}{2}i\]，
-∴\[{{z}_{1}}+{{z}_{2}}\]对应于向量\[\overrightarrow{OC}\]，其中\[\angle COA={{60}^{\circ }}\].
-设\[\overrightarrow{OA}\]对应于复数\[{{z}_{1}}\]，\[\overrightarrow{OB}\]对应于复数\[{{z}_{2}}\]，则四边形\[AOBC\]是菱形，且\[\Delta AOC\]和\[\Delta BOC\]都是等边三角形，于是\[{{z}_{1}}=1\]，\[{{z}_{2}}=-\frac{1}{2}+\frac{\sqrt{3}}{3}i\]或\[{{z}_{1}}=-\frac{1}{2}+\frac{\sqrt{3}}{3}i\]，\[{{z}_{2}}=1\].
-注意  复平面内，若非零复数\[{{z}_{1}}\]，\[{{z}_{2}}\]分别对应于点\[A\]，\[B\]，\[{{z}_{1}}+{{z}_{2}}\]对应于点\[C\]，\[O\]为原点，则：
-①\[OACB\]是平行四边形；
-②若\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|\]，则\[OACB\]是菱形；
-③若\[\left| {{z}_{1}}+{{z}_{2}} \right|=\left| {{z}_{1}}-{{z}_{2}} \right|\]，则\[OACB\]是矩形；
-④若\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|\]且\[\left| {{z}_{1}}+{{z}_{2}} \right|=\left| {{z}_{1}}-{{z}_{2}} \right|\]，则\[OACB\]是正方形.
-3.应用乘法公式解题.
-应用下列两组乘法公式，将会给计算带来便利：
-（1）\[{{\left( 1+i \right)}^{2}}=2i\]，\[{{\left( 1-i \right)}^{2}}=-2i\].
-（2）记\[\omega =-\frac{1}{2}\pm \frac{\sqrt{3}}{2}i\]，\[{{\omega }_{1}}=-\frac{1}{2}+\frac{\sqrt{3}}{2}i\]，\[{{\omega }_{2}}=-\frac{1}{2}-\frac{\sqrt{3}}{2}i\]，
-则\[{{\omega }^{3}}=1\]，\[{{\omega }^{2}}+\omega +1=0\]，\[\omega +\frac{1}{\omega }=-1\]，\[{{\omega }_{1}}{{\omega }_{2}}=1\]，\[\omega _{1}^{2}={{\omega }_{2}}\]，\[\omega _{2}^{2}={{\omega }_{1}}\].
-例4  求值：
-（1）\[{{\left( 1+i \right)}^{10}}-{{\left( 1-i \right)}^{10}}\].
-（1）\[\frac{{{\left( 2+2i \right)}^{5}}}{{{\left( -1+\sqrt{3}i \right)}^{4}}}\].
-解  （1）原式\[={{\left[ {{\left( 1+i \right)}^{2}} \right]}^{5}}-{{\left[ {{\left( 1-i \right)}^{2}} \right]}^{5}}={{\left( 2i \right)}^{5}}-{{\left( -2i \right)}^{5}}={{2}^{5}}i+{{2}^{5}}i=64i\].
-（2）原式\[=\frac{\left( 2+2i \right){{\left( 1+i \right)}^{4}}}{{{\left( -\frac{1}{2}+\frac{\sqrt{3}}{2}i \right)}^{4}}}=\frac{\left( 2+2i \right){{\left( 2i \right)}^{2}}}{-\frac{1}{2}+\frac{\sqrt{3}}{2}i}=\frac{-8\left( 1+i \right)\left( -\frac{1}{2}-\frac{\sqrt{3}}{2}i \right)}{\left( -\frac{1}{2}+\frac{\sqrt{3}}{2}i \right)\left( -\frac{1}{2}-\frac{\sqrt{3}}{2}i \right)}\]
-        \[=4\left( 1+i \right)\left( 1+\sqrt{3}i \right)=4\left( 1-\sqrt{3} \right)+4\left( 1+\sqrt{3} \right)i\].
-4.应用复数模的运算法则解题.
-容易证明，复数模的运算有以下法则：
-（1）\[\left| z \right|=\left| {\bar{z}} \right|\]，\[\left| {{z}_{1}}\centerdot {{z}_{2}} \right|=\left| {{z}_{1}} \right|\centerdot \left| {{z}_{2}} \right|\]，\[\left| \frac{{{z}_{1}}}{{{z}_{2}}} \right|=\left| \frac{{{z}_{1}}}{{{z}_{2}}} \right|\]（\[{{z}_{2}}\ne 0\]），\[\left| {{z}^{n}} \right|={{\left| z \right|}^{n}}\].
-（2）\[{{\left| z \right|}^{2}}=z\centerdot \bar{z}\].
-例5  求复数\[z=\frac{{{\left( 3-4i \right)}^{3}}}{\left( \frac{\sqrt{3}}{2}-\frac{1}{2}i \right)\centerdot {{\left( \sqrt{3}+\sqrt{2}i \right)}^{4}}}\]的模.
-解  \[\left| z \right|=\frac{{{\left| 3-4i \right|}^{3}}}{{{\left| \frac{\sqrt{3}}{2}-\frac{1}{2}i \right|}^{2}}\centerdot {{\left| \sqrt{3}+\sqrt{2}i \right|}^{4}}}=\frac{{{5}^{3}}}{{{\left( \sqrt{5} \right)}^{4}}}=5\].
-例6  已知\[\left| z \right|\le 1\]，\[\left| \omega  \right|\le 1\]，求证：\[\left| z+\omega  \right|\le \left| 1+\bar{z}\omega  \right|\].
-证明  ∵\[{{\left| z+\omega  \right|}^{2}}-{{\left| 1+\bar{z}\omega  \right|}^{2}}=\left( z+\omega  \right)\left( \bar{z}+\bar{\omega } \right)-\left( 1+\bar{z}\omega  \right)\left( 1+z\bar{\omega } \right)\]
-\[=z\bar{z}+\omega \bar{\omega }-1-z\bar{z}\omega \bar{\omega }={{\left| z \right|}^{2}}+{{\left| \omega  \right|}^{2}}-1-{{\left| z \right|}^{2}}\centerdot {{\left| \omega  \right|}^{2}}=\left( {{\left| z \right|}^{2}}-1 \right)\left( 1-{{\left| \omega  \right|}^{2}} \right)\le 0\].
-∴\[{{\left| z+\omega  \right|}^{2}}\le {{\left| 1+\bar{z}\omega  \right|}^{2}}\]，于是\[\left| z+\omega  \right|\le \left| 1+\bar{z}\omega  \right|\].
-5.应用\[z\in R\]的充要条件解题.
-复数\[z\in R\]的充要条件是\[z=\bar{z}\].
-例7  若复数\[z\]满足\[z+\frac{4}{z}\in R\]，且\[\left| z-2 \right|=2\]，求\[z\].
-解  ∵\[z+\frac{4}{z}\in R\]，∴\[z+\frac{4}{z}=\bar{z}+\frac{4}{{\bar{z}}}\]，整理得\[{{z}^{2}}\bar{z}+4\bar{z}=z\overline{{{z}^{2}}}+4z\]，
-即\[z{{\left| z \right|}^{2}}-{{\left| z \right|}^{2}}\centerdot \bar{z}-4\left( z-\bar{z} \right)=0\]，即\[\left( z-\bar{z} \right)\left( {{\left| z \right|}^{2}}-4 \right)=0\].
-（1）若\[\left| z \right|=2\]，结合已知条件，\[\left| z-2 \right|=2\]，得\[z=1\pm \sqrt{3}i\].
-（2）若\[z-\bar{z}=0\]，结合\[\left| z-2 \right|=2\]，得\[z=0\]（舍去）和\[z=4\].
-综合（1）与（2），得\[z=1\pm \sqrt{3}i\]或\[z=4\].
-6.应用不等式\[\left| \left| {{z}_{1}} \right|-\left| {{z}_{2}} \right| \right|\le \left| {{z}_{1}}+{{z}_{2}} \right|\le \left| {{z}_{1}} \right|+\left| {{z}_{2}} \right|\]解题.
-例8  求函数\[y=\sqrt{4{{a}^{2}}+{{x}^{2}}}+\sqrt{{{\left( x-a \right)}^{2}}+{{a}^{2}}}\]（\[a>0\]）的最值.
-解  令\[{{z}_{1}}=x+2ai\]，\[{{z}_{2}}=a-x+ai\]，
-则\[y=\left| {{z}_{1}} \right|+\left| {{z}_{2}} \right|\ge \left| {{z}_{1}}+{{z}_{2}} \right|=\left| a+3ai \right|=\sqrt{10}a\].
-∴当\[\frac{a-x}{x}=\frac{a}{2a}\]，即\[x=\frac{2a}{3}\]时，函数\[y\]有最小值\[\sqrt{10}a\].
-例9  若\[\left| z+\frac{1}{z} \right|=1\]，求\[\left| z \right|\]的取值范围.
-解  由\[\left| \left| z \right|-\left| \frac{1}{z} \right| \right|\le \left| z+\frac{1}{z} \right|\]，得\[-1\le \left| z \right|-\frac{1}{\left| z \right|}\le 1\]，
-即\[\left\{ \begin{align}
-  & {{\left| z \right|}^{2}}+\left| z \right|-1\ge 0, \\ 
- & {{\left| z \right|}^{2}}-\left| z \right|-1\le 0, \\ 
-\end{align} \right.\]∴\[\frac{\sqrt{5}-1}{2}\le \left| z \right|\le \frac{\sqrt{5}+1}{2}\].
-注意  在应用不等式\[\left| \left| {{z}_{1}} \right|-\left| {{z}_{2}} \right| \right|\le \left| {{z}_{1}}+{{z}_{2}} \right|\le \left| {{z}_{1}} \right|+\left| {{z}_{2}} \right|\]求函数的最大值、最小值时，需留意取“\[=\]”的条件.当\[\overrightarrow{O{{Z}_{1}}}\]与\[\overrightarrow{O{{Z}_{2}}}\]同向时，\[\left| {{z}_{1}}+{{z}_{2}} \right|=\left| {{z}_{1}} \right|+\left| {{z}_{2}} \right|\]；当\[\overrightarrow{O{{Z}_{1}}}\]与\[\overrightarrow{O{{Z}_{2}}}\]异向时，\[\left| {{z}_{1}}+{{z}_{2}} \right|=\left| \left| {{z}_{1}} \right|-\left| {{z}_{2}} \right| \right|\].
-【训练题】
-（一）复数的加法与减法
-21.两个共轭虚数的差一定是（）.，
-（A）非零实数.		（B）零.			（C）纯虚数.			（D）非纯虚数.
-22.复平面内，已知复数\[2-i\]和\[3+4i\]分別对于点\[M,N\]，则向量\[\overrightarrow{MN}\]对应的复数是（）
-（A）\[5+3i\].			（B）\[-1-5i\].	（C）\[1+5i\].			（D）\[1-5i\]
-23.若复数\[z=3+ai\]满足条件\[\left| z-2 \right|<2\]，则实数\[a\]的取值范围是（）
-（A）\[\left( -2\sqrt{2},2\sqrt{2} \right)\].	（B）（－2，2）.	（C）（－1，1）.		（D）\[\left( -\sqrt{3},\sqrt{3} \right)\].
-24.若复数\[z\]满足\[\left| z+3-4i \right|=2\]，则\[\left| z \right|\]的最小值和最大值分别是（）
-（A）1和9.			（B）4和10.		（C）5和11.			（D）3和7.
-25.（1）若\[\left| z-25i \right|\le 15\]，\[z\in C\]，则\[\left| z \right|\]最小时的\[z=\]          ，\[\left| z \right|\]最大时的\[z=\]         .
-（2）若复数\[z\]满足\[\left| z \right|=3\]，则\[\left| z-1+\sqrt{3}i \right|\]的最小值是          .
-（3）若如数\[z\]满足\[\left| z-3 \right|=5\]，则\[\left| z-\left( 1+4i \right) \right|\]的最大值是          ，最小值是          .
-（4）若\[\left| z-1-2i \right|=1\]，则\[\left| z-3-i \right|\]的取值范围是          .
-26.复平面内，已知点\[A,B,C\]分别对应于复数\[{{z}_{1}}=1+i\]，\[{{z}_{2}}=5+i\]，\[{{z}_{3}}=3+3i\]，以\[AB,AC\]为邻边作一平行四边形\[ABDC\]，求点\[D\]对应的复数\[{{z}_{4}}\]及\[AD\]的长.
-27.若\[f\left( \overline{z+i} \right)=2z+\bar{z}+i\]，则\[f\left( i \right)\]等于（）
-（A）1.				（B）－1.			（C）\[i\].			（D）\[-i\].
-28.若复数\[z\]满足\[{{\left| z+1 \right|}^{2}}-{{\left| z+i \right|}^{2}}=1\]，则\[z\]在复平面内的对应点所表示的图形是（）
-（A）直线.			（B）圆.				（C）椭圆.		（D）双曲线.
-29.若复数\[z\]满足\[\left| z-1 \right|+\left| z+1 \right|=2\]，则\[z\]在复平面内的对应点所表示的图形是（）
-（A）圆.				（B）椭圆.			（C）双曲线.		（D）线段.
-30.若\[{{z}_{1}},{{z}_{2}}\]都是虚数，则“\[{{z}_{1}}={{\bar{z}}_{2}}\]”的一个必要不充分条件是（）
-（A）\[\left| {{z}_{1}}-{{{\bar{z}}}_{2}} \right|=0\].	（B）\[{{\bar{z}}_{1}}={{z}_{2}}\].		（C）\[{{z}_{1}}={{z}_{2}}\].	（D）\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|\].
-31.复平面内，曲线\[\left| z-1+i \right|=1\]关于直线\[y=x\]的对称曲线方程为（）
-（A）\[\left| z-1-i \right|=1\].	（B）\[\left| \bar{z}-1-i \right|=1\].	（C）\[\left| z+1+i \right|=1\].（D）\[\left| \bar{z}+1+i \right|=1\].
-32.若\[\left| z \right|=1\]，则\[\left| z+i \right|+\left| z-6 \right|\]的最小值等于（）
-（A）7.				（B）\[\sqrt{37}\].			（C）6.			（D）5.
-33.（1）若复平面内的点\[A,B\]分别对应于复数\[2+i\]和\[1-i\]，则线段\[AB\]的中垂线方程的复数形式是          .
-（2）设\[z\in C\]，则方程\[\left| z+2 \right|+\left| z-2 \right|=6\]对应的曲线的普通方程是          .
-（3）以\[\left( \pm 3,0 \right)\]为两焦点，且长半轴长为5的椭圆方程的复数形式是          .
-（4）已知复数\[z\]满足\[\left| z-\left( 1+i \right) \right|-\left| z-\left( 1-i \right) \right|=2\]，则复平面内\[z\]的对应点的轨迹是          .
-（5）若\[\left| z-3 \right|+\left| z+3 \right|=10\]，且\[\left| z-5i \right|-\left| z+5i \right|=8\]，则复数\[z=\]          .
-（6）若\[\left| z-2 \right|=\sqrt{17}\]，\[\left| z-3 \right|=4\]，则复数\[z=\]          .
-34.（1）设\[\left| {{z}_{1}} \right|=3\]，\[\left| {{z}_{2}} \right|=5\]，\[\left| {{z}_{1}}+{{z}_{2}} \right|=6\]，求\[\left| {{z}_{1}}-{{z}_{2}} \right|\].
-（2）若\[\left| {{z}_{1}} \right|=3\]，\[\left| {{z}_{1}}+{{z}_{2}} \right|=5\]，\[\left| {{z}_{1}}-{{z}_{2}} \right|=7\]，求\[\left| {{z}_{2}} \right|\].
-35.（1）已知两个复数集合\[A=\left\{ z\left| \left| z-2 \right|\le 2 \right. \right\}\]，\[B=\left\{ z\left| z=\frac{{{z}_{1}}}{2}i+b,{{z}_{1}}\in A,b\in R \right. \right\}\].
-①当\[b=0\]时，求集合\[B\]所对应的区域；
-②当\[A\bigcap B=\varnothing \]时，求\[b\]的取值范围.
-（2）若复数\[{{z}_{1}}=1+2ai\]，\[{{z}_{2}}=a+i\]（\[a\in R\]），集合\[A=\left\{ z\left| \left| z-{{z}_{1}} \right|\le \sqrt{2} \right. \right\}\]，\[B=\left\{ z\left| \left| z-{{z}_{2}} \right|\le 2\sqrt{2} \right. \right\}\]满足\[A\bigcap B=\varnothing \]，求\[a\]的取值范围.
-36.（1）已知复数\[{{z}_{1}},{{z}_{2}}\]满足\[\left| {{z}_{1}} \right|=1\]，\[\left| {{z}_{2}} \right|=1\]，且\[{{z}_{1}}+{{z}_{2}}=\frac{1}{2}+\frac{\sqrt{3}}{2}i\]，求\[{{z}_{1}},{{z}_{2}}\].
-（2）复平面内三点\[A,B,C\]依次对应于复数\[1+z\]，\[1+2z\]，\[1+3z\]，其中\[\left| z \right|=2\]，\[O\]为原点，若\[{{S}_{\Delta AOB}}+{{S}_{\Delta BOC}}=2\]，求复数\[z\].
-（二）复数的乘法与除法
-37.若复数\[z={{\left( 1+i \right)}^{2}}\]，则\[z\centerdot \bar{z}\]的值为（）
-（A）\[-4i\].		（B）\[4i\].			（C）4.				（D）8.
-38.计算\[{{\left( \frac{\sqrt{2}i}{1+i} \right)}^{100}}\]的结果是（）
-（A）\[i\].			（B）\[-i\].			（C）1.				（D）－1.
-39.当\[n\]取遍正整数时，\[{{i}^{n}}+{{i}^{-n}}\]表示不同值的个数是（）
-（A）1.			（B）2.				（C）3.				（D）4.
-40.使\[{{\left( \frac{1+i}{1-i} \right)}^{n}}\]为实数的最小自然数\[n\]是（）
-（A）2.			（B）4.				（C）6.				（D）8.
-41.“\[{{z}_{1}}\]和\[{{z}_{2}}\]为共轭复数”是“\[{{z}_{1}}+{{z}_{2}}\in R\]且\[{{z}_{1}}\centerdot {{z}_{2}}\in R\]”的（）
-（A）充分不必要条件.					（B）必要不充分条件.
-（C）充要条件.						（D）既不充分也不必要条件.
-42.若\[{{\left( z-1 \right)}^{2}}={{\left| z-1 \right|}^{2}}\]，则\[z\]一定是（）
-（A）纯虚数.		（B）实数.			（C）虚数.			（D）零.
-43.设\[z=1+ki\]（\[k\in R\]），则\[{{z}^{2}}\]对应点的轨迹是（）
-（A）圆.			（B）椭圆.			（C）抛物线.			（D）双曲线.
-44.若都是\[z\]，\[{{z}_{1}}\]，\[{{z}_{2}}\]复数，判断下列命题的真假：
-（1）\[{{\left| z \right|}^{2}}={{z}^{2}}\].（）					（2）\[{{\left| z \right|}^{2}}\ne {{z}^{2}}\].（）
-（3）\[\left| {{z}^{2}} \right|={{\left| z \right|}^{2}}\].（）					（4）\[\left| z \right|\le 1\Leftrightarrow -1\le z\le 1\].（）
-（5）\[\sqrt{{{\left| z \right|}^{2}}}=\left| z \right|\].（）					（6）若\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|\]，则\[{{z}_{1}}=\pm {{z}_{2}}\].（）
-（7）\[z+\bar{z}\]是实数.（）				（8）\[z-\bar{z}\]是纯虚数.（）
-（9）\[{{z}^{2}}\ge 0\].（）						（l0）若\[\left| z \right|=1\]，则\[\bar{z}=\frac{1}{z}\].（）
-（11）\[z=\bar{z}\Leftrightarrow z\in R\].（）			（12）若\[z_{1}^{2}+z_{2}^{2}=0\]，则\[{{z}_{1}}={{z}_{2}}=0\].（）
-45.（1）\[{{\left( i-\frac{1}{i} \right)}^{6}}\]的虚部是          .
-（2）计算\[{{\left( 1+i \right)}^{20}}-{{\left( 1-i \right)}^{20}}=\]          .
-（3）计算\[\frac{{{\left( 1+i \right)}^{5}}}{1-i}+\frac{{{\left( 1-i \right)}^{5}}}{1+i}=\]          .
-（4）若\[z=1+i\]，则\[\frac{5}{1+{{z}^{2}}}=\]          .
-（5）计算\[\frac{-2\sqrt{3}+i}{1+2\sqrt{3}i}+{{\left( \frac{\sqrt{2}}{1+i} \right)}^{3996}}=\]          .
-（6）若\[a\in R\]，且\[\frac{a+2i}{3+i}\in R\]，则\[\frac{a+2i}{3+i}=\]          .
-46.（1）已知\[\omega =-\frac{1}{2}+\frac{\sqrt{3}}{2}i\]，则：①\[{{\omega }^{2}}+\frac{1}{{{\omega }^{2}}}=\]          ；②\[{{\omega }^{3}}+\frac{1}{{{\omega }^{3}}}=\]          .
-③\[{{\omega }^{14}}+\frac{1}{{{\omega }^{14}}}=\]          ；④\[1+\omega +{{\omega }^{2}}+{{\omega }^{3}}+\cdots +{{\omega }^{10}}=\]          .
-（2）若\[f\left( x \right)=2{{x}^{4}}-11{{x}^{3}}-7{{x}^{2}}-9x+4\]，则\[f\left( -\frac{1}{2}+\frac{\sqrt{3}}{2}i \right)=\]          .
-47.计算下列各题：
-（1）\[{{\left( i-\frac{1}{i} \right)}^{10}}=\]          .
-（2）\[\frac{{{\left( 1+i \right)}^{3}}-{{\left( 1-i \right)}^{3}}}{{{\left( 1+i \right)}^{2}}-{{\left( 1-i \right)}^{2}}}=\]          .
-（3）\[i\centerdot {{i}^{2}}\centerdot {{i}^{3}}\centerdot \cdots \centerdot {{i}^{1997}}=\]          .
-（4）\[i+{{i}^{2}}+{{i}^{3}}+\cdots +{{i}^{1997}}=\]          .
-（5）\[{{\left( \frac{1+i}{\sqrt{2}} \right)}^{1997}}+{{\left( \frac{1-i}{\sqrt{2}} \right)}^{1997}}=\]          .
-48.已知\[{{i}^{3m}}={{i}^{n}}\]（\[m,n\in Z\]），则\[{{i}^{m+n}}\]的值为（）
-（A）1.			（B）\[i\].				（C）\[-i\].			（D）－1.
-49.若\[x+\frac{1}{x}=-1\]，则\[{{x}^{17}}+{{x}^{-17}}\]的值等于（）
-（A）0.			（B）－1.			（C）1.				（D）2.
-50.（1）计算：\[1+2i+3{{i}^{2}}+4{{i}^{3}}+\cdots +10{{i}^{9}}\].
-（2）计算： \[i+2{{i}^{2}}+3{{i}^{3}}+\cdots +359{{i}^{359}}\].
-（3）求首项为\[i\]，公比为\[1+\frac{1}{i}\]的等比数列的第七项.
-51.（1）计算：
-①\[{{\left( \frac{-1+i}{1+\sqrt{3}i} \right)}^{3}}\]；							②\[\frac{{{\left( \sqrt{3}+i \right)}^{5}}}{-1+\sqrt{3}i}\].
-（2）求下列复数的模：
-①\[\left( 3+4i \right)\left( -\frac{1}{2}+\frac{\sqrt{3}}{2}i \right)\]；					②\[\frac{5-12i}{-8+15i}\]；
-③\[\frac{{{\left( 1+i \right)}^{3}}}{{{\left( 1-i \right)}^{2}}\left( 9+40i \right)}\]；						④\[\frac{1-{{t}^{2}}}{1+{{t}^{2}}}+\frac{2t}{1+{{t}^{2}}}i\]（\[t\in R\]）；
-⑤\[\frac{{{\left( 1-i \right)}^{10}}{{\left( 3-4i \right)}^{4}}}{{{\left( -\sqrt{3}+i \right)}^{8}}}\]；						⑥\[\frac{\left( \sqrt{6}+i \right){{\left( 1+i \right)}^{2}}}{\left( -1+\sqrt{6}i \right)\left( -\frac{1}{3}+\frac{2\sqrt{2}}{3}i \right)\left( \sqrt{3}i \right)}\].
-52.已知\[z=1+i\]，且\[\frac{{{z}^{2}}+az+b}{{{z}^{2}}-z+1}=1-i\]，求实数\[a,b\]的值.
-53.已知\[a>0\]，且\[a\ne 1\]，若\[\left( {{\log }_{a}}x+i \right)z=1+i{{\log }_{a}}x\]，问：\[x\]为何值时，\[z\]为：
-（1）实数.		（2）虚数.			（3）纯虚数.			（4）模等于1的复数.
-54.（1）已知\[z=\left| \frac{\sqrt{2}i{{\left( 3+i \right)}^{2}}}{{{\left( \sqrt{3}+\sqrt{7}i \right)}^{2}}} \right|+2i\]，求\[\left| z \right|\].
-（2）已知复数\[z=\frac{{{\left( 1+i \right)}^{3}}{{\left( a-1 \right)}^{2}}}{\sqrt{2}{{\left( a-3i \right)}^{2}}}\]满足\[\left| z \right|=\frac{2}{3}\]，求实数\[a\]的值.
-（3）已知复数\[z\]满足\[\left| z \right|=5\]，且\[\left( 3+4i \right)z\]是纯虚数，求\[z\].
-（4）已知\[z=\frac{\sqrt{3}\sin \theta +i\cos \theta }{\sin \theta -i\sqrt{3}\cos \theta }\]，求\[z\]的最大值.
-（5）已知复数\[z\]满足\[\left| z+\frac{1}{z} \right|=1\]，求\[\left| z \right|\]的取值范围.
-55.（1）已知复数\[z\]满足\[z+\frac{4}{z}\in R\]，\[\left| z-2 \right|=2\]，求\[z\].
-（2）已知复数\[z\]满足\[\left| z-4 \right|=\left| z-4i \right|\]，\[z+\frac{14-z}{z-1}\in R\]，求\[z\].
-（3）已知\[\left| \frac{z-12}{z-8i} \right|=\frac{5}{3}\]，\[\left| \frac{z-4}{z-8} \right|=1\]，求复数\[z\].
-56.根据条件，求复数\[z\]在复平面内的对应点轨迹的普通方程：
-（1）\[{{z}^{2}}+\frac{9}{{{z}^{2}}}\in R\].	（2）\[\frac{z}{z-1}\]为纯虚数.		（3）\[z\centerdot \bar{z}+az+\bar{z}=0\]（\[a\in R\]）.
-57.已知非零夏数\[{{z}_{1}},{{z}_{2}}\]满足\[\left| {{z}_{1}}+{{z}_{2}} \right|=\left| {{z}_{1}}-{{z}_{2}} \right|\]，求证：\[{{\left( \frac{{{z}_{1}}}{{{z}_{2}}} \right)}^{2}}\]一定是负数.
-58.（1）已知\[P,Q\]两点分别对应于复数\[{{z}_{1}}\]和\[2{{z}_{1}}+3-4i\]，若点\[P\]在曲线\[\left| z \right|=2\]上移动，求点\[Q\]的轨迹.
-（2）已知复数\[z\]满足\[\left| z \right|=2\]，求复数\[\omega =\frac{z+1}{z}\]在复平面内的对应点的轨迹.
-（3）复平面内两动点\[{{P}_{1}},{{P}_{2}}\]所对应的复数\[{{z}_{1}},{{z}_{2}}\]满足\[{{z}_{1}}={{z}_{2}}i+3\]，又点\[{{P}_{2}}\]沿着曲线\[\left| z-5 \right|-\left| z+5 \right|=6\]运动，试求点\[{{P}_{1}}\]的轨迹方程，并指出它表示何种曲线.
-（4）复平面内，线段\[AB\]上的点\[P\]对应的复数为\[z\]，其中\[A,B\]点分别对应于复数\[{{z}_{A}}=1\]，\[{{z}_{B}}=i\]，求\[{{z}^{2}}\]的对应点轨迹的普通方程，并画出图形.
-（5）已知点\[Q\left( u,v \right)\]在\[O\left( 0,0 \right)\]，\[A\left( 1,0 \right)\]，\[B\left( 1,1 \right)\]为顶点的\[\Delta OAB\]的边界上移动，求\[z={{\left( u+2vi \right)}^{2}}+2+3i\]所对应的点\[P\]的轨迹，并画出草图.
-59.求证：
-（1）复数\[z\]可以表示为\[\frac{1+ti}{1-ti}\]（\[t\in R\]）的充要条件是\[\left| z \right|=1\]且\[z\ne -1\].
-（2）\[\frac{z-1}{z+1}\]为纯虚数的充要条件是\[\left| z \right|=1\]且\[z\ne \pm 1\].
-60.利用\[\left| \left| {{z}_{1}} \right|-\left| {{z}_{2}} \right| \right|\le \left| {{z}_{1}}+{{z}_{2}} \right|\le \left| {{z}_{2}} \right|+\left| {{z}_{2}} \right|\]解下列各题：
-（1）求函数\[y=\sqrt{{{x}^{2}}+4}+\sqrt{{{x}^{2}}-8x+17}\]的最小值及相应的\[x\].
-（2）求函数\[y=\sqrt{{{x}^{2}}+9}-\sqrt{{{x}^{2}}-2x+5}\]的最大值及相应的\[x\].
-（3）求证：\[\sqrt{{{x}^{2}}+{{y}^{2}}}+\sqrt{{{\left( x-2 \right)}^{2}}+{{y}^{2}}}+\sqrt{{{x}^{2}}+{{\left( y-2 \right)}^{2}}}+\sqrt{{{\left( x-2 \right)}^{2}}+{{\left( y-2 \right)}^{2}}}\ge 4\sqrt{2}\].
-61.利用\[{{\left| z \right|}^{2}}=z\centerdot \bar{z}\]解下列各题：.
-（1）若\[\left| z \right|=1\]，求证\[\left| \frac{a-z}{1-a\bar{z}} \right|=1\].
-（2）若\[\left| 1-{{z}_{1}}{{z}_{2}} \right|=\left| {{z}_{1}}-{{{\bar{z}}}_{2}} \right|\]，求证：\[\left| {{z}_{1}} \right|\]，\[\left| {{z}_{2}} \right|\]中至少有一个为1.
-（3）若\[\left| {{z}_{1}} \right|\le 1\]，\[\left| {{z}_{2}} \right|\le 1\]，求证：\[\left| \frac{{{z}_{1}}-{{z}_{2}}}{1-{{{\bar{z}}}_{1}}{{z}_{2}}} \right|\le 1\].
-（4）若复数\[{{z}_{i}}\]满足\[\left| {{z}_{i}} \right|=1\]（\[i=1,2,3\]），求\[\left| \frac{{{z}_{1}}{{z}_{2}}+{{z}_{2}}{{z}_{3}}+{{z}_{3}}{{z}_{1}}}{{{z}_{1}}+{{z}_{2}}+{{z}_{3}}} \right|\]的值.
-（5）已知复数\[A={{z}_{1}}{{\bar{z}}_{2}}+{{z}_{2}}{{\bar{z}}_{1}}\]，\[B={{z}_{1}}{{\bar{z}}_{1}}+{{z}_{2}}{{\bar{z}}_{2}}\]，其中\[{{z}_{1}},{{z}_{2}}\]是非零复数，问：\[A,B\]可不可以比较大小？并证明之.
-62.（1）已知\[\left| z \right|=1\]，\[\left| {{z}_{2}} \right|=\sqrt{2}\]，求证：\[\left| \frac{2{{z}_{1}}+\left( 1+3i \right)z_{2}^{2}}{3+4i} \right|\le \frac{12}{5}\].
-（2）已知\[z=\frac{\sin \alpha +i\sqrt{2}\cos \alpha }{\sqrt{2}\sin \alpha -i\cos \alpha }\]，求证：\[\frac{\sqrt{2}}{2}\le \left| z \right|\le \sqrt{2}\].
-（3）复平面内三点\[A,B,C\]分别对应于复数\[{{z}_{1}},{{z}_{2}},{{z}_{3}}\]，若\[\frac{{{z}_{2}}-{{z}_{1}}}{{{z}_{3}}-{{z}_{1}}}=1+\frac{4}{3}i\]，试求\[\Delta ABC\]的三边之比.
-63.已知\[\left| z \right|=1\]，求下列各式的最大值和最小值：
-（1）\[\left| {{z}^{2}}-z+1 \right|\].		（2）\[\left| {{z}^{2}}-z+2 \right|\].		（3）\[\left| {{z}^{3}}-3z-2 \right|\].
-三、复数的三角形式
-【典型题型和解题技巧】
-1.复数的三角形式.
-（1）“伪三角形式”化为三角形式.
-复数的三角形式是\[r\left( \cos \theta +i\sin \theta  \right)\]（\[r\ge 0\]），读者需能熟练地将下列各“伪三角形式，，化为三角形式（\[r>0\]）：
-\[r\left( \cos \theta -i\sin \theta  \right)=\left[ \cos \left( -\theta  \right)+i\sin \left( -\theta  \right) \right]\]，\[r\left( -\cos \theta +i\sin \theta  \right)=\left[ \cos \left( \pi -\theta  \right)+i\sin \left( \pi -\theta  \right) \right]\]，\[-r\left( \cos \theta +i\sin \theta  \right)=r\left[ \cos \left( \pi +\theta  \right)+i\sin \left( \pi +\theta  \right) \right]\]，
-\[r\left( \sin \theta +i\cos \theta  \right)=r\left[ \cos \left( \frac{\pi }{2}-\theta  \right)+i\sin \left( \frac{\pi }{2}-\theta  \right) \right]\].
-例1  将下列复数化为三角形式：
-（1）\[2\left( \cos \frac{\pi }{5}-i\sin \frac{\pi }{5} \right)\].					（2）\[2\left( -\cos \frac{\pi }{5}+i\sin \frac{\pi }{5} \right)\].
-（3）\[-2\left( \cos \frac{\pi }{5}+i\sin \frac{\pi }{5} \right)\].					（4）\[2\left( \sin \frac{\pi }{5}+i\cos \frac{\pi }{5} \right)\].
-解  （1）\[2\left( \cos \frac{\pi }{5}-i\sin \frac{\pi }{5} \right)=2\left[ \cos \left( -\frac{\pi }{5} \right)+i\sin \left( -\frac{\pi }{5} \right) \right]\].
-（2）\[2\left( -\cos \frac{\pi }{5}+i\sin \frac{\pi }{5} \right)=2\left( \cos \frac{4\pi }{5}+i\sin \frac{4\pi }{5} \right)\].
-（3）\[-2\left( \cos \frac{\pi }{5}+i\sin \frac{\pi }{5} \right)=2\left( \cos \frac{6\pi }{5}+i\sin \frac{6\pi }{5} \right)\].
-（4）\[2\left( \sin \frac{\pi }{5}+i\cos \frac{\pi }{5} \right)=2\left( \cos \frac{3\pi }{10}+i\sin \frac{3\pi }{10} \right)\].
-（2）代数形式化为三角形式.
-将复数的代数形式\[z=a+bi\]（\[a,b\in R\]）化为三角形式\[z=r\left( \cos \theta +i\sin \theta  \right)\]（\[r>0\]），可按如下步骤进行：
-①画图，并标出\[r\]和\[\theta \]；
-②求\[\theta \]和\[r\]，其中\[r=\sqrt{{{a}^{2}}+{{b}^{2}}}\]，\[\cos \theta =\frac{a}{r}\]，\[\sin \theta =\frac{b}{r}\]；
-③写出\[z\]的三角形式.
-例2  将下列复数化成三角形式：
-（1）\[z=-\sqrt{3}+i\].					（2）\[5-12i\].
-解  （1）如图4（1），
-∵\[r=2\]，\[\cos \theta =-\frac{\sqrt{3}}{2}\]，\[\theta =\frac{5\pi }{6}\]，∴\[-\sqrt{3}+i=2\left( \cos \frac{5\pi }{6}+i\sin \frac{5\pi }{6} \right)\].
-（2）如图4（2），
-∵\[r=13\]，\[\cos \theta =\frac{5}{13}\]，\[\theta =-\arccos \frac{5}{13}\]，
-∴\[5-12i=13\left[ \cos \left( -\arccos \frac{5}{13} \right)+i\sin \left( -\arccos \frac{5}{13} \right) \right]\].
+（第2题）
+3．如图，在正方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]中\[{{O}_{1}}\]、\[{{O}_{2}}\]分别是正方形\[AB{{B}_{1}}{{A}_{1}}\]，和正方形\[DC{{C}_{1}}{{D}_{1}}\]的对角线的交点，求证：\[\angle {{A}_{1}}{{O}_{1}}{{D}_{1}}=\angle C{{O}_{2}}B\]．
  
-                         （1）                （2）
-（图4）
-（3）复数的辐角、辐角主值\[\arg z\].
-需要时时记住的是复数\[z\]的辐角主值的取值范围是\[\left[ 0,2\pi  \right)\]，\[\arg z\in \left[ 0,2\pi  \right)\].
-例3  若复数\[z=\frac{1}{2}+i\sin \alpha \]（\[\alpha \in R\]），且\[\left| z \right|\le 1\]，求\[\arg z\]和\[\alpha \]的取值范围_
-解  ∵\[\left| z \right|\le 1\]，∴\[\frac{1}{4}+{{\sin }^{2}}\alpha \le 1\]，∴\[-\frac{\sqrt{3}}{2}\le \sin \alpha \le \frac{\sqrt{3}}{2}\]
-如图5，\[z\]的对应点\[P\]应在线段\[AB\]上运动，当点\[P\]在\[MA\]上时，\[\arg z\in \left[ 0,\frac{\pi }{3} \right]\]，当点\[P\]在\[BM\]上时，\[\arg z\in \left[ \frac{5\pi }{3},2\pi  \right)\].
+（第3题）
+4．在长方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]中，\[PQ\]分别为\[C{{C}_{1}}A{{A}_{1}}\]的中点,求证：\[BP//{{D}_{1}}Q\].
  
-（图5）
-∴\[\arg z\in \left[ 0,\frac{\pi }{3} \right]\bigcup \left[ \frac{5\pi }{3},2\pi  \right)\].
-∴\[a\in \left[ k\pi -\frac{\pi }{3},k\pi +\frac{\pi }{3} \right]\]（\[k\in Z\]）.
-2.复数\[z\]，\[\bar{z}\]，\[\frac{1}{z}\]之间的关系.
-在很多复数问题中会出现有关\[z\]，\[\bar{z}\]和\[\frac{1}{z}\]的式子.读者务必对它们的关系及与之相对应的
-点的位置十分熟悉.
-设\[z=r\left( \cos \theta +i\sin \theta  \right)\]（\[r>0\]），则\[\bar{z}=r\left[ \cos \left( -\theta  \right)+i\sin \left( -\theta  \right) \right]\]，
-\[\frac{1}{z}=\frac{1}{r}\left[ \cos \left( -\theta  \right)+i\sin \left( -\theta  \right) \right]\].
-它们的对应点如图6所示.
+（第4题）
+5．证明公理3的推论3．
+6．已知直线\[l\]上有\[ABC\]三点，过这三点分别作三条互相平行\[abc\]直线。求证：\[labc\]四条直线都在同一平面内．
  
-            （\[r>1\]）              （\[r=1\]）              （\[r<1\]）
-（图6）
-例4  已知\[z+\frac{1}{z}=\cos x\]（\[x\in R\]），且\[\left| z \right|\le 1\]，求\[\arg z\]的取值范围.
-解  先设\[\left| z \right|<1\]，则如图7所示，此时\[z+\frac{1}{z}\]所对应的向量不在\[x\]轴上，
+（第6题）
+7．已知\[ABCD\]是不共面的四个点，证明：直线\[AB\]与\[CD\]是异面直线．
  
-（图7）
-∴\[z+\frac{1}{z}\ne \cos x\]，
-故\[\left| z \right|<1\]不可能，于是\[\left| z \right|=1\].
-令\[z=\cos \theta +i\sin \theta \]（\[0\le \theta <2\pi \]），
-则由\[z+\frac{1}{z}=z+\bar{z}=2\cos \theta =\cos x\]，
-得\[\cos \theta =\frac{1}{2}\cos x\in \left[ -\frac{1}{2},\frac{1}{2} \right]\].
-∴\[\theta \in \left[ \frac{\pi }{3},\frac{2\pi }{3} \right]\bigcup \left[ \frac{4\pi }{3},\frac{5\pi }{3} \right]\]，即\[\arg z\in \left[ \frac{\pi }{3},\frac{2\pi }{3} \right]\bigcup \left[ \frac{4\pi }{3},\frac{5\pi }{3} \right]\].
-3.应用复数的三角形式解题.
-若题目给出了\[\left| z \right|=r\]（\[r>0\]）的条件，一般来说，复数的三角形式当是解题的最佳选择了，即可令\[z=r\left( \cos \theta +i\sin \theta  \right)\].特别地，若\[\left| z \right|=1\]，则可令\[z=\cos \theta +i\sin \theta \].
-例5  已知非零复数\[z\]满足\[\left| z-i \right|=1\]，且\[\arg z=\theta \]，求：
-（1）\[\theta \]的取值范围.	（2）复数\[z\]的模.	（3）复数\[{{z}^{2}}-zi\]的辐角.
-解  （1）∵\[\left| z-i \right|=1\]，∴\[z\]的对应点\[P\]在以（0，1）为圆心，半径为1的圆上（如图8），\[\theta \]的取值范围是\[0<\theta <\pi \].
-（2）如图9，在Rt\[\Delta AOP\]中，
-∵\[\left| OP \right|=2\sin \theta \]，故\[\left| z \right|=2\sin \theta \].
-（3）由\[\left| z-i \right|=1\]，故可令\[z-i=\cos \varphi +i\sin \varphi \]（\[\varphi \in R\]），
-于是\[{{z}^{2}}-zi=z\left( z-i \right)=2\sin \theta \left( \cos \theta +i\sin \theta  \right)\centerdot \left( \cos \varphi +i\sin \varphi  \right)=2\sin \theta \left[ \cos \left( \theta +\varphi  \right)+i2\sin \left( \theta +\varphi  \right) \right]\].又\[\cos \varphi +i\sin \varphi =z-i=2\sin \theta \left( \cos \theta +i\sin \theta  \right)-i=2\sin \theta \cos \theta +i\left( 2{{\sin }^{2}}\theta -1 \right)\]
-\[=\sin 2\theta -i\cos 2\theta =\cos \left( 2\theta -\frac{\pi }{2} \right)+i\sin \left( 2\theta -\frac{\pi }{2} \right)\]，
-∴\[\varphi =2k\pi +2\theta -\frac{\pi }{2}\]（\[k\in Z\]），\[\theta +\varphi =2k\pi +3\theta -\frac{\pi }{2}\]（\[k\in Z\]）.
-即\[\arg \left( {{z}^{2}}-zi \right)=2k\pi +3\theta -\frac{\pi }{2}\]（\[k\in Z\]）.
+（第7题）
+8．在正方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]中，\[AC\]与\[DB\]交于点\[O\],\[{{B}_{1}}O\]与\[A{{A}_{1}}\]是不是异面直线？为什么？
  
-      （图8）                       （图9）                    （图10）
-第（3）题有另一种解法：如图10，\[z-i\]和向量\[\overrightarrow{MP}\]对应，而\[\angle OMP=2\theta \]，则\[z-i\]的一个辐角为\[2\theta -\frac{\pi }{2}\]，由\[{{z}^{2}}-zi=z\left( z-i \right)\]知，\[{{z}^{2}}-zi\]的辐角等于\[z\]的辐角和\[z-i\]的辅角之和，即\[2k\pi +3\theta -\frac{\pi }{2}\]（\[k\in Z\]）.
-注意  需要掌握的是对于已知\[\left| z \right|=r\]（\[r>0\]）的有关问题，可以从以下四个方面去思考；
-（1）令\[z=r\left( \cos \theta +i\sin \theta  \right)\].
-（2）令\[z=a+bi\]（\[a,b\in R\]），且\[{{a}^{2}}+{{b}^{2}}={{r}^{2}}\].
-（3）由\[{{\left| z \right|}^{2}}={{r}^{2}}\]，得\[z\bar{z}={{r}^{2}}\]，\[z=\frac{{{r}^{2}}}{{\bar{z}}}\]，\[\bar{z}=\frac{{{r}^{2}}}{z}\].
-（4）\[z\]在复平面内的对应点在以原点为圆心，\[r\]为半径的圆上.有时候，并不一定以三角形式为最佳.
-4.运用复数乘法、除法的几何意义解题.
-若\[u=z\centerdot r\left( \cos \theta +i\sin \theta  \right)\]，则只需将\[\overrightarrow{OP}\]（\[P\]为\[z\]在复平面内的对应点）绕原点逆转\[\theta \]角，并将\[\left| \overrightarrow{OP} \right|\]扩大到原来的\[r\]倍，即得复数\[u\]的对应向量\[\overrightarrow{OU}\].
-若\[u=\frac{z}{r\left( \cos \theta +i\sin \theta  \right)}\]，则只需将\[\overrightarrow{OP}\]前绕原点顺转\[\theta \]角，并将\[\overrightarrow{OP}\]缩小到原来的\[r\]倍，即得\[u\]的对应向量\[\overrightarrow{OU}\].
-例6  已知等边\[\Delta ABC\]的两个顶点坐标是\[A\]（2，1），\[B\]（3，2），求顶点\[C\]的对应坐标.
-解  记\[A,B,C\]的对应复数为\[{{z}_{A}}=2+i\]，\[{{z}_{B}}=3+2i\]，\[{{z}_{C}}\].
-由\[{{z}_{C}}={{z}_{A}}+\left( {{z}_{B}}-{{z}_{A}} \right)\left[ \cos {{60}^{\circ }}\pm i\sin {{60}^{\circ }} \right]\]，
-得\[{{z}_{C}}=\left( 2+i \right)+\left( 1+i \right)\left( \frac{1}{2}\pm \frac{\sqrt{3}}{2}i \right)=\frac{5\mp \sqrt{3}}{2}+\frac{3\pm \sqrt{3}}{2}i\]，
-即点\[C\]坐标是\[\left( \frac{5-\sqrt{3}}{2}+\frac{3+\sqrt{3}}{2} \right)\]或\[\left( \frac{5+\sqrt{3}}{2}+\frac{3-\sqrt{3}}{2} \right)\].
-例7  复平面内，两点\[A,B\]分別对应于复数\[\alpha ,\beta \]，且\[\beta +\left( 1+i \right)\alpha =0\]，\[\left| \alpha -2+i \right|=1\]，求\[\Delta AOB\]面积的最大值和最小值.
-解  ∵\[\left| \alpha -\left( 2-i \right) \right|=1\]，
-∴\[A\]是以\[C\left( 2,-1 \right)\]为圆心，1为半径的圆上的动点.
-而\[\beta =\left( -1-i \right)\alpha =\sqrt{2}\left( \cos \frac{5\pi }{4}+i\sin \frac{5\pi }{4} \right)\alpha \]，
-故线段\[OB\]的长是\[OA\]长的\[\sqrt{2}\]倍，且由\[OA\]绕原点按逆时针方向旋转\[\frac{5\pi }{4}\]而得（如图11）.
+（第8题）
+9．在正方体\[ABCD-{A}'{B}'{C}'{D}'\]中，\[PQ\]分别为\[{A}'{B}'B{B}'\]的中点．
  
-（图11）
-故\[{{S}_{\Delta AOB}}=\frac{1}{2}\left| OA \right|\centerdot \left| OB \right|\centerdot \sin \frac{3\pi }{4}=\frac{1}{2}\sqrt{2}\centerdot {{\left| OA \right|}^{2}}\centerdot \frac{\sqrt{2}}{2}=\frac{1}{2}{{\left| OA \right|}^{2}}\].
-连接\[OC\]并延长，与圆交于点\[{{A}_{1}}\]，\[{{A}_{2}}\]，则\[\left| O{{A}_{1}} \right|=\sqrt{5}-1\]，\[\left| O{{A}_{2}} \right|=\sqrt{5}+1\]，因此\[\Delta AOB\]面积的最大值和最小值分别为\[\frac{1}{2}{{\left( \sqrt{5}+1 \right)}^{2}}\]和\[\frac{1}{2}{{\left( \sqrt{5}-1 \right)}^{2}}\]，即\[3+\sqrt{5}\]和\[3-\sqrt{5}\].
-例8  已知定点\[A\left( -2,0 \right)\]和圆\[{{x}^{2}}+{{y}^{2}}=1\]的动点\[B\]，点\[A,B,C\]按逆时针方向排列，且\[\left| AB \right|:\left| BC \right|:\left| CA \right|=3:4:5\]（如图12），求点\[C\]的轨迹方程.
-解  设点\[C,B\]分别对应复数\[z,{{z}_{0}}\]，
-则\[z={{z}_{0}}+\left( -2-{{z}_{0}} \right)\left( -\frac{4}{3}i \right)={{z}_{0}}+\frac{4}{3}i{{z}_{0}}+\frac{8}{3}i\]，
-于是\[\left( 1+\frac{4}{3}i \right){{z}_{0}}=z-\frac{8}{3}i\]，两边取模得\[\left| 1+\frac{4}{3}i \right|\centerdot \left| {{z}_{0}} \right|=\left| z-\frac{8}{3}i \right|\].
-又∵\[\left| {{z}_{0}} \right|=1\]，∴\[\left| z-\frac{8}{3}i \right|=\frac{5}{3}\]，
-即点\[C\]的轨迹是以\[\left( 0,\frac{8}{3} \right)\]为圆心，\[\frac{5}{3}\]为半径的圆.
+（第9题）
+（1）求直线\[AP\]与\[CQ\]所成的角的大小．
+（2）求直线\[AP\]与\[BD\]所成的角的大小．
+10.已知点\[P\]在四边形\[ABCD\]所在乎面外，如果把两条异面直线看成一对．那么\[P\]与四边形\[ABCD\]的四个顶点的连线以及此四边形的四条边所在的直线共8条直线中，异面直线共有多少对？
  
-（图12）
-注意  （1）用复数知识求点的轨迹，主要用于求从动点的轨迹问题，常用“转移法”.
-（2）本例解法中，设主动点对应于复数\[{{z}_{0}}\]，从动点对应于复数\[z\]，有时，则需设主动点对应于复数\[{{x}_{0}}+{{y}_{0}}i\]，从动点对应于复数\[x+yi\]（\[{{x}_{0}},{{y}_{0}},x,y\in R\]）.
-5.复数在三角中的应用.
-例9  求值：\[arc\cot \frac{1}{3}+\arcsin \frac{1}{\sqrt{26}}+\arccos \frac{7}{\sqrt{50}}+arc\cot 8\].
-解  ∵\[\arcsin \frac{1}{\sqrt{26}}=\arccot \frac{1}{5}\]，\[\arccos \frac{1}{\sqrt{50}}=\arccot \frac{1}{7}\]，\[\arccot 8=\arccot \frac{1}{8}\]，
-令\[{{z}_{1}}=3+i={{r}_{1}}\left( \cos \alpha +i\sin \alpha  \right)\]，\[{{z}_{2}}=5+i={{r}_{2}}\left( \cos \beta +i\sin \beta  \right)\]，
-\[{{z}_{3}}=7+i={{r}_{3}}\left( \cos \gamma +i\sin \gamma  \right)\]，\[{{z}_{4}}=8+i={{r}_{4}}\left( \cos \delta +i\sin \delta  \right)\]，其中\[0<\alpha \]，\[\beta \]，\[\gamma \]，\[\delta \]\[<\frac{\pi }{4}\]，
-∴\[{{z}_{1}}\centerdot {{z}_{2}}\centerdot {{z}_{3}}\centerdot {{z}_{4}}=\left( 3+i \right)\left( 5+i \right)\left( 7+i \right)\left( 8+i \right)=650\left( 1+i \right)=650\sqrt{2}\left( \cos \frac{\pi }{4}+i\sin \frac{\pi }{4} \right)\].
-又∵\[{{z}_{1}}\centerdot {{z}_{2}}\centerdot {{z}_{3}}\centerdot {{z}_{4}}={{r}_{1}}{{r}_{2}}{{r}_{3}}{{r}_{4}}\left[ \cos \left( \alpha +\beta +\gamma +\delta  \right)+i\sin \left( \alpha +\beta +\gamma +\delta  \right) \right]\]，
-而\[0<\alpha +\beta +\gamma +\delta <\pi \]，∴\[\alpha +\beta +\gamma +\delta =\frac{\pi }{4}\]，即所求之值为\[\frac{\pi }{4}\].
-例10  记\[A=\cos \frac{\pi }{11}+\cos \frac{3\pi }{11}+\cos \frac{5\pi }{11}+\cos \frac{7\pi }{11}+\cos \frac{9\pi }{11}\]，\[B=\sin \frac{\pi }{11}+\]\[\sin \frac{3\pi }{11}+\]\[\sin \frac{5\pi }{11}\]\[+\]\[\sin \frac{7\pi }{11}+\sin \frac{9\pi }{11}\]，求证：\[A=\frac{1}{2}\]，\[B=\frac{1}{2}\cot \frac{\pi }{22}\].
-证明  设\[z=\cos \frac{\pi }{11}+i\sin \frac{\pi }{11}\]，则
-\[\begin{align}
-  & A+Bi=z+{{z}^{3}}+{{z}^{5}}+{{z}^{7}}+{{z}^{9}}=\frac{z\left( 1-{{z}^{10}} \right)}{1-{{z}^{2}}}=\frac{z-{{z}^{11}}}{1-{{z}^{2}}}=\frac{z-\left( \cos \pi +i\sin \pi  \right)}{1-{{z}^{2}}}=\frac{z+1}{1-{{z}^{2}}}=\frac{1}{1-z} \\ 
- & =\frac{1-\bar{z}}{\left( 1-z \right)\left( 1-\bar{z} \right)}=\frac{1-\cos \frac{\pi }{11}+i\sin \frac{\pi }{11}}{2-\left( z+\bar{z} \right)}=\frac{1-\cos \frac{\pi }{11}+i\sin \frac{\pi }{11}}{2\left( 1-\cos \frac{\pi }{11} \right)} \\ 
- & =\frac{1}{2}+\frac{1}{2}\centerdot \frac{\sin \frac{\pi }{11}}{1-\cos \frac{\pi }{11}}i=\frac{1}{2}+i\centerdot \frac{1}{2}\centerdot \cot \frac{\pi }{22},  
-\end{align}\]
-∴\[A=\frac{1}{2}\]，\[B=\frac{1}{2}\cot \frac{\pi }{22}\].
-【训练题】
-（一）复数的三角形式
-64.复数\[z=-\sin 100{}^\circ +i\cos 100{}^\circ \]的轴角主值是（）
-（A）80°.		（B）100°.			（C）190°.			（D）260°.
-65.复数\[z=-2\left( \sin 220{}^\circ -i\cos 220{}^\circ  \right)\]在复平面内的对应点所在的象限是（）
-（A）第一象限.	（B）第二象限.		（C）第三角限.		（D）第四象限.
-66.若\[\frac{3\pi }{2}<\theta <2\pi \]，则\[-\sin \theta +i\cos \theta \]的辐角主值等于（）
-（A）\[2\pi -\theta \].	（B）\[\theta -\frac{3\pi }{2}\].		（C）\[\theta -\pi \].			（D）\[\theta -\frac{\pi }{2}\].
-67.复数\[z=1+\sin \theta +i\cos \theta \]（\[0<\theta <\frac{\pi }{2}\]）的辐角主值是（）
-（A）\[\theta \].			（B）\[\frac{\theta }{2}\].			（C）\[\frac{\pi }{2}-\theta \].			（D）\[\frac{\pi }{4}-\frac{\theta }{2}\].
-68.若复数\[z=a+bi\]（\[a,b\in R\]）所对应的点在第四象限，则\[\arg z\]等于（）
-（A）\[\arcsin \frac{b}{\sqrt{{{a}^{2}}+{{b}^{2}}}}\].				（B）\[\arcsin \frac{a}{\sqrt{{{a}^{2}}+{{b}^{2}}}}\].
-（C）\[arc\cot \frac{b}{a}\].						（D）\[2\pi +\arctan \frac{b}{a}\].
-69.若复数\[z\]满足\[\left| z+3i \right|\le 2\]，则\[\arg z\]的最大值为（）
-（A）\[\arcsin \frac{2}{3}\].						（B）\[\arccos \frac{2}{3}\].
-（C）\[\pi -\arcsin \frac{2}{3}\].					（D）\[2\pi -\arccos \frac{2}{3}\].
-70.复数\[z=1+\cos \theta +i\sin \theta \]（\[\pi <\theta <2\pi \]）的模是（）
-（A）1.			（B）\[1+\cos \theta \].		（C）\[2\cos \frac{\theta }{2}\].		（D）\[-2\cos \frac{\theta }{2}\].
-71.若复数\[z\]的辐角主值是\[\frac{5\pi }{6}\]，实部是\[-2\sqrt{3}\]，则\[z\]的代数形式是（）
-（A）\[-2\sqrt{3}-2i\].						（B）\[-2\sqrt{3}+2i\].
-（C）\[-2\sqrt{3}+2\sqrt{3}i\].					（D）\[-2\sqrt{3}-2\sqrt{3}i\]
-72.若\[\arg z=\alpha \]（\[0<\alpha <\frac{\pi }{2}\]），则\[\arg \bar{z}\]等于（）
-（A）\[-\alpha \].		（B）\[\pi -\alpha \].			（C）\[\pi +\alpha \].			（D）\[2\pi -\alpha \].
-73.满足\[\left| z-2+2i \right|=\sqrt{2}\]的复数\[z\]的辐角主值的最小值是（）
-（A）105°.		（B）265°.			（C）285°.			（D）315°.
-74.复数\[z=-1-2i\]的辐角主值是（）
-（A）\[\arctan 2\].						（B）\[\pi +\arctan 2\].
-（C）\[-\arctan 2\].						（D）\[\left( 2k+1 \right)\pi +\arctan 2\]（\[k\in Z\]）.
-75.若复数\[z\]满足\[z={{\left( a+i \right)}^{2}}\]，且\[\arg z=\frac{7}{4}\pi \]，则实数\[a\]的值为（）
-（A）1.			（B）－1.			（C）\[-1\pm \sqrt{2}\].			（D）\[-1-\sqrt{2}\].
-76.将下列复数化为三角形式：
-（1）\[2\left( \cos \frac{\pi }{5}-i\sin \frac{\pi }{5} \right)=\]          .
-（2）\[2\left( \sin \frac{\pi }{5}+i\cos \frac{\pi }{5} \right)=\]          .
-（3）\[2\left( -\cos \frac{\pi }{5}+i\sin \frac{\pi }{5} \right)=\]          .
-（4）\[-2\left( \cos \frac{\pi }{5}+i\sin \frac{\pi }{5} \right)=\]          .
-（5）\[\left| \cos \theta  \right|+i\left| \sin \theta  \right|=\]          （\[\frac{\pi }{2}<\theta <\pi \]）.
-77.若复数\[z\]满足\[\arg \left( z+4 \right)=\frac{\pi }{6}\]，则\[\left| z \right|\]的最小值为（）
-（A）1.			（B）2.				（C）\[2\sqrt{3}\].			（D）\[3\sqrt{2}\].
-78.若复数\[z\]满足\[\left| z \right|\le \frac{1}{2}\]，则\[\arg \left( z+1 \right)\]的取值范围是（）
-（A）\[\left[ 0,\frac{\pi }{6} \right]\].						（B）\[\left[ -\frac{\pi }{6},\frac{\pi }{6} \right]\].
-（C）\[\left[ 0,\frac{\pi }{6} \right]\bigcup \left[ \frac{11\pi }{6},2\pi  \right)\].			（D）\[\left[ \frac{\pi }{6},\frac{11\pi }{6} \right]\].
-79.若非零复数\[z\]的辐角主值为\[\frac{7\pi }{4}\]，则复数\[z+i\]的辐角主值的取值范围是（）
-（A）\[\left( -\frac{\pi }{4},\frac{\pi }{2} \right)\].						（B）\[\left( \frac{7\pi }{4},2\pi  \right)\].
-（C）\[\left[ 0,\frac{\pi }{2} \right)\].						（D）\[\left[ 0,\frac{\pi }{2} \right)\bigcup \left( \frac{7\pi }{4},2\pi  \right)\].
-80.若\[7+3i\]的辐角主值为\[\theta \]，则\[6-14i\]的辐角主值为（）
-（A）\[\frac{\pi }{2}+\theta \].		（B）\[\frac{\pi }{2}-\theta \].			（C）\[\frac{3\pi }{2}-\theta \].		（D）\[\frac{3\pi }{2}+\theta \].
-81.（1）复数\[\cot 20{}^\circ -i\]的模是          ，辐角的主值是          .
-（2）若\[a,b\in \left\{ -2,-1,1,2 \right\}\]，且\[a\ne b\]，则\[\arg \left( a+bi \right)\]的最大值是          .
-（3）若复数\[z=a+bi\]（\[a,b\in R\]）的对应点在第四象限，则\[\arg z=\]          .
-（4）若\[{{z}_{1}}=1+\cos \theta +i\sin \theta \]，\[{{z}_{2}}=1-\cos \theta +i\sin \theta \]（\[\pi <\theta <2\pi \]），则\[{{z}_{1}},{{z}_{2}}\]的辐角主值之和等于          .
-（5）若\[\pi <\theta <\frac{3\pi }{2}\]，则\[\arg \left( \left| \cos \theta  \right|+i\left| \sin \theta  \right| \right)=\]          .
-（6）若\[\left| z \right|\le 1\]，则\[\arg \left( z-2 \right)\]的最大值为          ，最小值为         .
-82.（1）已知\[\left| z+1 \right|=\sqrt{10}\]，\[\arg \left( z-3\bar{z} \right)=\frac{5\pi }{4}\]，求复数\[z\].
-（2）已知复数\[z\]满足\[\left| \frac{1}{z}-1 \right|=\frac{1}{2}\]，\[\arg \frac{z-1}{z}=\frac{\pi }{3}\]，求\[z\]的值.
-（3）已知复数\[z\]满足\[\left| \frac{z-i}{2z} \right|=2\]，\[\arg \frac{1+iz}{z}=\frac{\pi }{2}\]，求\[z\].
-83.（1）已知\[\omega =z+ai\]，其中\[a\in R\]，\[z=\frac{\left( 1+4i \right)\left( 1+i \right)+2+4i}{3+4i}\].且\[\left| \omega  \right|\le \sqrt{2}\]，求\[\omega \]的辐角主值\[\theta \]的取值范围.
-（2）已知\[f\left( z \right)=\left| 1+z \right|-\bar{z}\]，\[f\left( -\bar{z}i \right)=10+3i\]，求\[\frac{z+3}{z-2}\]的模及辐角主值.
-（3）已知复数\[1-\cos \theta +i\sin \theta \]（\[-\pi <\theta <\pi \]）.①求\[\left| z \right|\]及\[\arg z\]；②要使\[1\le \left| z \right|\le \sqrt{2}\]，求\[\theta \]的取值范围.
-（4）求复数\[z=\frac{1+i}{1+\cos \theta +i\sin \theta }\]的模和辐角，其中\[\theta \in \left[ 0,2\pi  \right)\]，\[\theta \ne \pi \].
-84.已知复数\[z=\sqrt{\left| \cos t \right|}+i\sqrt{\left| \sin t \right|}\].求：
-（1）\[\left| z \right|\]的取值范围.
-（2）\[t\]的范围，使\[0\le \arg z\le \frac{\pi }{4}\].
-85.（1）复平面内，根据要求作出复数\[z\]的对应点所构成的图形：
-①\[\left\{ \begin{align}
-  & \left| z \right|\le 1, \\ 
- & \arg z\in \left[ \frac{\pi }{6},\frac{2\pi }{3} \right]; \\ 
-\end{align} \right.\]					②\[\arg \left( z+2 \right)=\frac{\pi }{4}\]；
-③\[\left\{ \begin{align}
-  & 0\le \arg \left( z-1 \right)\le \frac{\pi }{4}, \\ 
- & R\left( z \right)\le 2; \\ 
-\end{align} \right.\]				④\[\left\{ \begin{align}
-  & \left| z \right|=1, \\ 
- & \frac{\pi }{4}<\arg \left( z+i \right)<\frac{\pi }{2}. \\ 
-\end{align} \right.\]
-（2）已知\[A=\left\{ z\left| \left| z-1 \right|\le 1,z\in C \right. \right\}\]，\[B=\left\{ z\left| \arg z\ge \frac{\pi }{6},z\in C \right. \right\}\]在复平面内，求\[A\bigcap B\]所表示的图形的面积.
-（3）已知复数\[z\]满足\[\left| z-\left( 1+\sqrt{3}i \right) \right|\le 2\]，\[\arg z\le \frac{\pi }{3}\]，求\[z\]所对应区域的面积.
-（二）复数三角形式的运算
-86.若复数\[{{z}_{1}}=\cos \frac{2\pi }{3}+i\sin \frac{2\pi }{3}\]，\[{{z}_{2}}=\cos \frac{11\pi }{6}+i\sin \frac{11\pi }{6}\]，则\[\frac{2z_{1}^{2}}{{{z}_{2}}}\]的辐角主值是（）
-（A）\[\frac{\pi }{6}\].								（B）\[\frac{5\pi }{6}\].
-（C）\[\frac{3\pi }{2}\].								（D）\[-\frac{\pi }{2}\].
+（第10题）
+习题14.2 B组
+1．已知正方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]中，\[EFGH\]分别是棱\[ABBC{{C}_{1}}{{D}_{1}}{{A}_{1}}{{D}_{1}}\]点，求证：点\[EFGH\]在同一平面内．
  
-（第87题）
-87.复平面内有\[A,B,C,D,E\]五点分别在单位圆内部和外部（如图），其中有一点对应的复数是点\[A\]对应复数的倒数，则此点是（）
-（A）点\[B\].		（C）点\[C\].			（C）点\[D\].			（D）点\[E\].
-88.把复数\[a+bi\]（\[a,b\in R\]）在复平间内的对应向量绕原点\[O\]顺时针方向旋转90°后，所得向量对应的复数为（）
-（A）\[a-bi\].		（B）\[-a+bi\].		（C）\[b-ai\].			（D）\[-b+ai\].
-89.复平面内，向量\[\overrightarrow{OA}\]，\[\overrightarrow{OB}\]分别对应于非零复数\[{{z}_{1}}\]，\[{{z}_{2}}\]，若\[\overrightarrow{OA}\bot \overrightarrow{OB}\]，则\[\frac{{{z}_{2}}}{{{z}_{1}}}\]一定是（）
-（A）非负数.		（B）纯虚数.			（C）正实数.			（D）非纯虚数.
-90.复数\[z={{\left( \sin 25{}^\circ +i\cos 25{}^\circ  \right)}^{3}}\]的三角形式为（）
-（A）\[\sin 75{}^\circ +i\cos 75{}^\circ \].				（B）\[\cos 15{}^\circ +i\sin 15{}^\circ \].
-（C）\[\cos 75{}^\circ +i\sin 75{}^\circ \].				（D）\[\cos 195{}^\circ +i\sin 195{}^\circ \].
-91. \[{{\left( 1-\sqrt{3}i \right)}^{2}}\]的辐角主值为（）
-（A）\[\frac{10\pi }{3}\].		（B）\[\frac{7\pi }{3}\].			（C）\[\frac{4}{3}\pi \].			（D）\[\frac{\pi }{3}\].
-92.（1）若\[\alpha ,\beta ,\gamma \]是一个三角形的三个内角，则\[\left( \cos \alpha +i\sin \alpha  \right)\left( \cos \beta +i\sin \beta  \right)\left( \cos \gamma +i\sin \gamma  \right)=\]          .
-（2）\[\left( \cos 1{}^\circ +i\sin 1{}^\circ  \right)\left( \cos 2{}^\circ +i\sin 2{}^\circ  \right)\left( \cos 3{}^\circ +i\sin 3{}^\circ  \right)\cdots \left( \cos 359{}^\circ +i\sin 359{}^\circ  \right)=\]     .
-（3）若\[\frac{\sin A+i\cos A}{\left( \sin B+i\cos B \right)\left( \sin C+i\cos C \right)}\]是纯虚数，则\[\Delta ABC\]是          三角形.
-93.计算下列各题：
-（1）\[\frac{{{\left[ 2\left( \cos 45{}^\circ +i\sin 45{}^\circ  \right) \right]}^{4}}}{\left( \sin 80{}^\circ +i\cos 80{}^\circ  \right)}=\]          .
-（2）\[\frac{{{\left( \sqrt{3}+i \right)}^{5}}}{-1+\sqrt{3}i}=\]          .
-（3）\[\left( 1-\cos {{60}^{\circ }}+i\sin {{60}^{\circ }} \right)=\]          .
-（4）\[{{\left( \cos 15{}^\circ -i\sin 15{}^\circ  \right)}^{3}}+{{\left( \cos 15{}^\circ -i\sin 15{}^\circ  \right)}^{-3}}=\]          .
-94.（1）若\[z={{\left( \sqrt{3}-i \right)}^{5}}\]，则\[\arg z=\]          .
-（2）若复数\[z=7\left( \sin 140{}^\circ -i\cos 140{}^\circ  \right)\]，则\[\arg \left( -\frac{1}{{{z}^{2}}} \right)=\]          .
-（3）若\[\arg z=\theta \]，则\[\arg {{z}^{2}}=\]          .
-（4）若\[\arg z=\theta \]，\[\frac{4}{3}\pi \le \theta <2\pi \]，则\[\arg {{z}^{3}}=\]          .
-95.（1）复平面内，将\[1+\sqrt{3}i\]所对应的向量绕原点按逆时针方向旋转\[\theta \]角，所得向量对应的复数是\[-2i\]，则\[\theta \]的最小正值为          .
-（2）复平面内，向量\[\overrightarrow{AB}\]对应的复数为\[2+i\]，点\[A\]对应的复数为\[-1\]，将\[\overrightarrow{AB}\]绕点\[A\]顺时针方向旋转90°后得到向量\[\overrightarrow{AC}\]，则点\[C\]对应的复数为          .
-（3）若复数\[{{z}_{1}}=\tan \theta -i\]，\[{{z}_{2}}=\tan \theta +i\]（\[0<\theta <\frac{\pi }{2}\]），将\[{{z}_{1}}\]的对应向量顺时针旋转到\[{{z}_{2}}\]所对应的向量，则所转过的最小正角等于          .
-（4）若复数\[{{z}_{1}}\centerdot {{z}_{2}}\]满足\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|=1\]，\[{{z}_{2}}-{{z}_{1}}=-1\]，则\[\arg \frac{{{z}_{1}}}{{{z}_{2}}}=\]          .
-（5）若\[\arg \left( zi \right)=\theta \]，\[\theta \in \left( \frac{\pi }{2},\pi  \right)\]，则\[\arg \bar{z}=\]          .
-96.若\[\arg {{z}_{1}}=\alpha \]，\[\arg {{z}_{2}}=\beta \]，且\[\alpha <\beta \]，则\[\arg \frac{{{z}_{1}}}{{{z}_{2}}}\]等于（）
-（A）\[\beta -\alpha \].		（B）\[\alpha -\beta \].			（C）\[2\pi +\alpha -\beta \].	（D）\[\pi +\beta -\alpha \].
-97.若\[\left| z \right|=1\]，\[\arg z=\theta \]（\[\theta \ne 0\]），则\[\frac{z+\bar{z}}{1+{{z}^{2}}}\]的辐角主值为（）
-（A）\[\frac{\theta }{2}\].		（B）\[\theta \].				（C）\[\pi -\theta \].			（D）\[2\pi -\theta \].
-98.若\[{{z}_{1}}=1+\cos 2\theta +i\sin 2\theta \]，\[{{z}_{2}}=1-\cos 2\theta +i\sin \theta \]，则下列各式中必为定值的是（）
-（A）\[{{z}_{1}}\centerdot {{z}_{2}}\].		（B）\[\frac{{{z}_{1}}}{{{z}_{2}}}\]			（C）\[\left| {{z}_{1}} \right|+\left| {{z}_{2}} \right|\].		（D）\[{{\left| {{z}_{1}} \right|}^{2}}+{{\left| {{z}_{2}} \right|}^{2}}\].
-99.若复数\[-2+i\]和\[3-i\]的辐角主值分别为\[\alpha \]和\[\beta \]，则\[\alpha +\beta \]等于（）
-（A）\[\frac{3\pi }{4}\].		（B）\[\frac{5\pi }{4}\].			（C）\[\frac{7\pi }{4}\].			（D）\[\frac{11\pi }{4}\].
-l00.复平面内，已知点\[{{P}_{1}}\]，\[{{P}_{2}}\]分别对应于复数\[3-2i\]，\[7+4i\]，线段\[{{P}_{1}}{{P}_{2}}\]绕点\[{{P}_{1}}\]按逆时针方向旋转\[\frac{5}{6}\pi \]到\[{{P}_{1}}{{P}_{3}}\]的位置，则点\[{{P}_{3}}\]对应的复数为（）
-（A）\[2\sqrt{3}+3\sqrt{3}i\].					（B）\[2\sqrt{3}-3\sqrt{3}i\].
-（C）\[-2\sqrt{3}+3\sqrt{3}i\].					（D）\[-2\sqrt{3}-3\sqrt{3}i\].
-101.复平面内，点\[{{P}_{1}}\]的对应复数是\[{{z}_{1}}=-2\sqrt{3}+4i\]，将向量\[\overrightarrow{O{{P}_{1}}}\]（\[O\]为原点）旋转一个锐角\[\theta \]后得到新向量\[\overrightarrow{O{{P}_{2}}}\]，且点\[{{P}_{2}}\]的对应复数是\[{{z}_{2}}=\sqrt{3}+5i\]，则（）
-（A）\[\theta ={{60}^{\circ }}\]，且按逆时针旋转.		（B）\[\theta ={{60}^{\circ }}\]，且按顺时针旋转.
-（C）\[\theta ={{30}^{\circ }}\]，且按逆时针旋转.		（D）\[\theta ={{30}^{\circ }}\]，且按顺时针旋转.
-102.已知\[{{z}_{A}}=a+bi\]（\[a,b\in R\]，且\[ab\ne 0\]），复平面内，把\[{{z}_{A}}\]对应的向量\[\overrightarrow{OA}\]绕原点分别按逆、顺时针方向旋转\[\frac{2\pi }{3}\]，得向量\[\overrightarrow{OB}\]，\[\overrightarrow{OC}\]，则\[\overrightarrow{OA}\]，\[\overrightarrow{OB}\]，\[\overrightarrow{OC}\]所对应的复数之和等于（）
-（A）\[-a-bi\].	（B）\[-\frac{1}{2}+\frac{\sqrt{3}}{2}i\].		（C）\[a-bi\].			（D）0.
-l03.若\[\arg z\in \left[ \frac{\pi }{4},\frac{3\pi }{4} \right]\]，则\[\arg \left( -\frac{1}{zi} \right)\]的取值范围是（）
-（4）\[\left[ \frac{3\pi }{4},\frac{5\pi }{4} \right]\].						（B）\[\left[ \frac{5\pi }{4},\frac{7\pi }{4} \right]\].
-（C）\[\left[ \frac{\pi }{4},\frac{7\pi }{4} \right]\].						（D）\[\left[ 0,\frac{\pi }{4} \right]\bigcup \left[ \frac{7\pi }{4},2\pi  \right)\].
-104.若数列\[\left\{ {{a}_{n}} \right\}\]的通项公式为\[{{a}_{n}}={{\left( \cos \theta +i\sin \theta  \right)}^{n}}\]（\[\theta \ne 2k\pi \]，\[k\in Z\]），则\[\left\{ {{a}_{n}} \right\}\]（）
-（A）成等差数列，但不成等比数列.		（B）成等比数列，但不成等差数列.
-（C）成等差数列又成等比数列.			（D）既不成等差数列也不成等比数列.
-105.若\[{{\left( -\sqrt{3}+i \right)}^{n}}\in {{R}^{+}}\]，则最小的自然数\[n\]的值是（）
-（A）6.			（B）8.				（C）10.				（D）12.
-106.已知非纯虚数\[z\]满足\[\arg z=\arg \left[ \left( z+1 \right)i \right]\]，则\[z\]在复平面内的对应点所表示的图形为（）
+（第1题）
+2．在长方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]中,\[EF\]分别是棱\[{{A}_{1}}{{B}_{1}}DC\]的点，且\[E{{B}_{1}}=DF\],求证：\[\Delta AE{{D}_{1}}\cong \Delta {{C}_{1}}FB\]．
  
-          （A）           （B）             （C)               （D）
-107.复平面内，已知\[\Delta ABC\]的三个顶点分别对应于复数\[z\]，\[\bar{z}\]，\[\frac{1}{z}\]，且\[\left| z \right|=3\]，点\[A\]的位置如图24所示.
-（1）试在图上画出点\[B,C\]的大概位置.
-（2）求\[\Delta ABC\]面积的最大值.
+（第2题）
+3．已知直线\[cd\]分别与异面直线\[ab\]相交于\[EF\]和\[GH\]四点，求证：直线\[cd\]是异面直线．
  
-（第107题）
-108.（1）已知\[\left| {{z}_{1}} \right|=3\]，\[\left| {{z}_{2}} \right|=5\]，\[\left| {{z}_{1}}-{{z}_{2}} \right|=7\]，求\[\frac{{{z}_{1}}}{{{z}_{2}}}\].
-（2）已知复数\[z\]满足\[\left| z \right|=5\]，且\[\left( 3+4i \right)z\]为纯虚数，求\[z\].
-（3）若\[\left| z \right|=1\]，求\[\left| {{z}^{2}}-z+1 \right|\]的最大值和最小值.
-（4）已知\[{{z}_{1}},{{z}_{2}}\in C\]，且\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|=1\]，\[{{z}_{1}}+{{z}_{2}}=\frac{4}{5}+\frac{3}{5}i\]，求\[\tan \left( \arg {{z}_{1}}+\arg {{z}_{2}} \right)\].
-（5）已知复数\[{{z}_{1}}\]和\[{{z}_{2}}\]满足\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|=1\]，且\[{{z}_{1}}-{{z}_{2}}=\frac{1}{2}-\frac{1}{3}i\]，设\[\theta \]是\[{{z}_{1}}\centerdot {{z}_{2}}\]的辐角，求\[\sin \theta \]的值.
-109.（1）已知复数\[{{z}_{1}},{{z}_{2}},{{z}_{3}}\]的辐角主值依次成公差为\[\frac{2\pi }{3}\]的等差数列，且\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|=\left| {{z}_{3}} \right|=1\]，求证：\[{{z}_{1}}+{{z}_{2}}+{{z}_{3}}=0\].
-（2）若复数\[{{z}_{1}},{{z}_{2}},{{z}_{3}}\]满足\[{{z}_{1}}+{{z}_{2}}+{{z}_{3}}=0\]，且\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|=\left| {{z}_{3}} \right|=1\]，求证：复平面内以\[{{z}_{1}},{{z}_{2}},{{z}_{3}}\]所对应的点为顶点的三角形是内接于单位圆的正三角形.
-（3）已知非零实数\[x,y,z\]满足了\[x+y+z=0\]，复数\[\alpha ,\beta ,\gamma \]满足\[\left| \alpha  \right|=\left| \beta  \right|=\left| \gamma  \right|\ne 0\]，且\[x\alpha +y\beta +z\gamma =0\]，求证：\[\alpha =\beta =\gamma \].
-110.（1）计算：\[\arg \left( i+2 \right)+\arg \left( i+3 \right)\].
-（2）若\[\arg \left( -2-i \right)=\alpha \]，\[\arg \left( -3-i \right)=\beta \]，求\[\alpha +\beta \].
-111.复平面内，两点\[A,B\]分别对应于非零复数\[\alpha ,\beta \]，试根据下列条件判断\[\Delta OAB\]的形状（\[O\]为原点）：
-（1）\[\alpha =\beta \left( \cos \theta +i\sin \theta  \right)\]（\[0<\theta <\pi \]）.	（2）\[\alpha =\pm \beta i\].
-（3）\[\frac{\alpha }{\beta }=\pm \sqrt{3}i\].							（4）\[\frac{\alpha }{\beta }=\frac{1+\sqrt{3}i}{2}\].
-（5）\[\frac{\alpha }{\beta }=1+i\].
-112.（1）已知复数\[{{z}_{1}},{{z}_{2}}\]满足\[4z_{1}^{2}-2{{z}_{1}}{{z}_{2}}+z_{2}^{2}=0\]，且\[\left| {{z}_{2}} \right|=4\]，\[{{z}_{1}}\]，\[{{z}_{2}}\]，0所对应的点分别为\[A\]，\[B\]，\[O\]，求\[\Delta AOB\]的面积.
-（2）复平面内，点\[A\]，\[B\]分别对应于复数\[\omega -z\]和\[\omega +z\]，其中\[\omega =-\frac{1}{2}+\frac{\sqrt{3}}{2}i\]，若\[\Delta AOB\]是以原点\[O\]为直角顶点的等腰直角三角形.求：
-①复数\[z\].							②\[\Delta AOB\]的面积.
-113.（1）已知等边三角形的两个顶点\[A\]，\[B\]对应的复数分别为\[{{z}_{A}}=2+i\]，\[{{z}_{B}}=3+2i\]，求第三个顶点\[C\]所对应的复数.
-（2）复平面内，等边三角形的一个顶点在原点，中心\[P\]所对应的复数是\[1+i\]，求其他两个顶点所对应的复数.
-（3）复平而内，矩形\[OMNP\]的相邻两边之比是\[\left| OM \right|:\left| OP \right|=1:\sqrt{3}\]，且点\[O\]，\[M\]的对应复数分别是0，\[-1+2i\]，求点\[N\]对应的复数.
-（4）已知等腰Rt\[\Delta ABC\]的斜边\[AB\]的两个端点的坐标分别为\[A\left( -1,2 \right)\]，\[B\left( 2,3 \right)\]，求顶点\[C\]的坐标.
-（5）若等边\[\Delta ABC\]的一个顶点为\[A\left( 0,5 \right)\]，中心\[M\]的坐标是\[M\left( 2,3 \right)\]，求其他两个顶点\[B\]，\[C\]的坐标.
-114.已知复数\[{{z}_{1}}=1+\left( 2-\sqrt{3} \right)i\]，\[{{z}_{3}}=\left( 2+\sqrt{3} \right)+i\]，又复数\[{{z}_{1}}\]，\[{{z}_{2}}\]，\[{{z}_{3}}\]，\[{{z}_{4}}\]在复平面内的对应点依逆时针方向排列足一个正方形的四个顶点.
-（1）求\[{{z}_{2}}\]，\[{{z}_{4}}\].
-（2）求证：\[{{z}_{2}}\]，\[{{z}_{4}}\]，0的对应点是一个等边三角形的三个顶点.
-115.复平面内，已知\[\Delta AOB\]的顶点\[A\]，\[B\]所对应的复数\[\alpha \]，\[\beta \]满足\[\beta +\left( 1-i \right)\alpha =0\]，且\[\Delta AOB\]（\[O\]为原点）面积的最大值和最小值分别是8和2，求\[\left| \alpha  \right|\]与\[\left| \beta  \right|\]的取值范围.
-116.（1）已知复数\[{{z}_{1}}\]，\[{{z}_{2}}\]，\[{{z}_{3}}\]满足\[\frac{{{z}_{2}}-{{z}_{1}}}{{{z}_{3}}-{{z}_{1}}}=1+\sqrt{3}i\]，试判断复平面内的\[{{z}_{1}}\]，\[{{z}_{2}}\]，\[{{z}_{3}}\]的对应点为顶点的三角形的形状，并求其各内角的值.
-（2）复平面内，已知\[A\]，\[B\]，\[C\]三点对应的复数\[{{z}_{1}}\]，\[{{z}_{2}}\]，\[{{z}_{3}}\]满足\[\frac{{{z}_{2}}-{{z}_{1}}}{{{z}_{3}}-{{z}_{1}}}=1+\frac{3}{4}i\]，试求这个三角形三边长之比.
-117.（1）—个三角形的底边\[BC\]的两端所表水的复数是\[{{z}_{B}}=a\]，\[{{z}_{C}}=-a\]，顶点\[A\]的位置不定，以两边\[AB\]，\[AC\]为腰，分别以\[B\]，\[C\]为直角的顶点，在\[\Delta ABC\]外作等腰直角三角形\[ABD\]，\[ACE\]，求证：\[DE\]的中点\[M\]为定点，
-（2）已知\[B\]是半圆\[{{x}^{2}}+{{y}^{2}}=1\]（\[y\ge 0\]）上的动点，\[A\left( 2,0 \right)\]是\[x\]轴上的一个定点，以\[A\]为直角顶点作等腰直角\[\Delta ABC\]（字母按顺时针排列），求\[\left| OC \right|\]的最大值及其相应的点\[B\]的坐标（\[O\]为坐标原点）.
-118.（1）复平面内，已知Rt\[\Delta ABC\]的三个顶点\[A\]，\[B\]，\[C\]分别对应于复数\[z\]，\[{{z}^{2}}\]，\[{{z}^{3}}\]，且\[\left| z \right|=2\]，\[\angle BAC={{90}^{\circ }}\]，求复数\[z\].
-（2）已知复数\[{{z}_{1}}\]满足\[\arg {{z}_{1}}=\frac{5\pi }{12}\]，\[\left| {{z}_{1}}-{{z}_{0}} \right|=\sqrt{2}\]，\[{{z}_{0}}-\left( 1+i \right){{z}_{1}}=0\].
-①求\[{{z}_{1}}\]和\[{{z}_{0}}\]；
-②求证：在满足\[\left| {{z}_{1}}-{{z}_{0}} \right|=\sqrt{2}\]条件的所有复数\[z\]中，\[{{z}_{1}}\]的辐角主值最小.
-119.已知复数\[z=\left[ \cos \left( \pi +\alpha  \right)+i\sin \left( \pi +\alpha  \right) \right]\centerdot \left[ \sin \left( \frac{3}{2}\pi +\beta  \right)+i\cos \left( \frac{3}{2}\pi +\beta  \right) \right]\]，\[0<\beta <\alpha <\frac{\pi }{2}\]，且\[\sin \left( \alpha +\beta  \right)=4\cos \alpha \sin \beta \]，求\[\arg z\]的最大值.
-120.已知\[\left| z-1-i \right|=2\]，求复数\[{{z}^{2}}\]虚部的取值范围.
-121.已知复数\[z=x+yi\]满足\[\left| z+\frac{1}{z} \right|=1\]（\[x,y\in R\]）.求证：
-（1）\[{{\left( {{x}^{2}}+{{y}^{2}} \right)}^{2}}+{{x}^{2}}-3{{y}^{2}}+1=0\].
-（2）\[k\pi +\frac{\pi }{3}\le \arg z\le k\pi +\frac{2\pi }{3}\]（\[k\in Z\]）.
-（3）\[\frac{\sqrt{5}-1}{2}\le \left| z \right|\le \frac{\sqrt{5}+1}{2}\].
-122.对\[n\in N\]，\[k\in N\]，求证：
-（1）\[{{\left( \frac{1+i}{\sqrt{2}} \right)}^{n}}+{{\left( \frac{1-i}{\sqrt{2}} \right)}^{n}}=2\cos \frac{n\pi }{4}\].
-（2）\[{{\left( 1+\cos \alpha +i\sin \alpha  \right)}^{n}}={{2}^{n}}{{\cos }^{n}}\left( \frac{\alpha }{2} \right)\left( \cos \frac{n\alpha }{2}+i\sin \frac{n\alpha }{2} \right)\].
-（3）\[{{\left( \frac{1+i\tan \alpha }{1-i\tan \alpha } \right)}^{n}}=\frac{1+i\tan n\alpha }{1-i\tan n\alpha }\].
-（4）\[{{\left( \frac{1-\cos \theta +i\sin \theta }{1-\cos \theta -i\sin \theta } \right)}^{n}}=\cos n\left( \pi +\theta  \right)-i\sin n\left( \pi +\theta  \right)\]（\[\theta \ne 2k\pi \]）.
-123.（1）若\[{{\left( 1+\sqrt{3}i \right)}^{n}}\]是—个实数，求自然数\[n\]的值.
-（2）已知复数\[z=\frac{{{\left( 1+i \right)}^{3}}}{\sqrt{2}{{\left( a+i \right)}^{2}}}\]（\[a>0\]）满足\[\left| z \right|=\frac{1}{2}\].求：
-①\[a\]的值；								②使\[{{z}^{n}}\]为实数的最小自然数\[n\].
-124.已知数列\[\left\{ {{a}_{n}} \right\}\]的通项\[{{a}_{n}}=\frac{1}{{{\left( 1+\sqrt{3}i \right)}^{n}}}\]，当\[n\]取1，2，3，…时，依次得到的实数记为\[{{b}_{1}}\]，\[{{b}_{2}}\]，\[{{b}_{3}}\]，…，求数列\[\left\{ {{b}_{n}} \right\}\]的所有项之和.
-125.（1）已知复数\[z=\cos 20{}^\circ +i\sin 20{}^\circ \]，求\[\left| z-{{z}^{2}}+{{z}^{3}}-{{z}^{4}}+{{z}^{5}}-{{z}^{6}}+{{z}^{7}}-{{z}^{8}}+{{z}^{9}}-{{z}^{10}} \right|\].
-（2）设\[z=\cos 40{}^\circ +i\sin 40{}^\circ \]，求\[\left| z+{{z}^{2}}+\cdots +{{z}^{100}} \right|\].
-（3）已知\[z=\cos \frac{2\pi }{5}+i\sin \frac{2\pi }{5}\]，求\[\left( 1+{{z}^{8}} \right)\left( 1+{{z}^{4}} \right)\left( 1+{{z}^{2}} \right)\left( 1+z \right)\].
-（4）已知\[z=\cos \frac{\pi }{3}+i\sin \frac{\pi }{3}\]，求\[\left| z+2{{z}^{2}}+3{{z}^{3}}+\cdots +12{{z}^{12}} \right|\].
-126.已知\[{{z}_{n}}={{\left( \frac{1+i}{2} \right)}^{n}}\]（\[n\in N\]）.
-（1）记\[{{a}_{n}}=\left| {{z}_{n+1}} \right|-\left| {{z}_{n}} \right|\]（\[n\in N\]），求数列\[\left\{ {{a}_{n}} \right\}\]所有项之和.
-（2）记\[{{b}_{n}}=\left| {{z}_{n+2}}-{{z}_{n}} \right|\]（\[n\in N\]），求数列\[\left\{ {{b}_{n}} \right\}\]所有项之和.
-127.设复数\[z=\cos \theta +i\sin \theta \]（\[0<\theta <\pi \]），\[\omega =\frac{1-{{\left( {\bar{z}} \right)}^{4}}}{1+{{z}^{4}}}\]，且\[\left| \omega  \right|=\frac{\sqrt{3}}{3}\]，\[\arg \omega <\frac{\pi }{2}\]，求\[\theta \].
-128.已知复数\[z=\cos \theta +i\sin \theta \]（\[0<\theta <2\pi \]），\[\omega =\frac{1-{{z}^{3}}}{1-z}\].求：
-（1）满足\[\left| \omega  \right|=1\]的复数\[z\].
-（2）\[\omega \]的辐角（用\[\theta \]表示）.
-四、复数方程
-【典型题型和解题技巧】
-复数方程主要有以下几种类型：
-1，—次方程\[az=b\]（\[a,b\in C\]，\[a\ne 0\]）.
-此类方程的解是\[z=\frac{b}{a}\].
-例1  解方程\[3z+i=2iz+1\].
-解  由已知，得\[\left( 3-2i \right)z=1-i\]，∴\[z=\frac{1-i}{3-2i}=\frac{\left( 1-i \right)\left( 3+2i \right)}{13}=\frac{5}{13}-\frac{1}{13}i\].
-注意  关于\[z\]的一次方程，若令\[z=a+bi\]（\[a,b\in R\]）也可获解，但显然不妥.
-2.二次方程\[a{{z}^{2}}+bz+c=0\]（\[a,b,c\in C\]，\[a\ne 0\]）.
-对于这类方程需强调两点：
-韦达定理仍可沿用——若\[\alpha \]，\[\beta \]是上述方程的两根，则\[\left\{ \begin{align}
-  & \alpha +\beta =-\frac{b}{a}, \\ 
- & \alpha \beta =\frac{c}{a}, \\ 
-\end{align} \right.\]反之亦真；
-若\[a\]，\[b\]，\[c\]不全是实数，则\[\Delta ={{b}^{2}}-4ac\]不能用来判断方程有无实根.
-（1）二次方程\[a{{z}^{2}}+bz+c=0\]（\[a,b,c\in C\]，\[a\ne 0\]），这就是通常所说的“实系数—元二次方程.
-解此类方程可分为两步：
-第一步，先算\[\Delta ={{b}^{2}}-4ac\]；
-第二步，若\[\Delta \ge 0\]，则方程的解是\[z=\frac{-b\pm \sqrt{\Delta }}{2a}\]；
-若\[\Delta <0\]，则方程的解是\[z=\frac{-b\pm \sqrt{-\Delta }i}{2a}\].
-显然，此类方程的\[\Delta ={{b}^{2}}-4ac\]可以用来判断此方程有无实根，若方程有虚根，则虚根一定“成对出现”，即若\[p+qi\]（\[p\centerdot q\in R\]）是上述方程的根，则\[p-qi\]也是此方程的根.
-例2  设\[x\]是模不为1的虚数，记\[y=x+\frac{1}{x}\]，求满足\[{{y}^{2}}+ay+1=0\]的实数\[a\]的取值范围.
-解  由题意可设\[x=r\left( \cos \theta +i\sin \theta  \right)\]（\[r>0\]，\[r\ne 1\]，\[\theta \ne k\pi \]），
-则\[y=x+\frac{1}{x}=r\left( \cos \theta +i\sin \theta  \right)+\frac{1}{r}\left( \cos \theta -i\sin \theta  \right)=\left( r+\frac{1}{r} \right)\cos \theta +i\left( r-\frac{1}{r} \right)\sin \theta \].
-∵\[\theta \ne k\pi \]，\[r>0\]，且\[r\ne 1\]，∴\[\left( r-\frac{1}{r} \right)\sin \theta \ne 0\].
-故\[y\]是虚数，即方程\[{{y}^{2}}+ay+1=0\]有虚数根，∴\[\Delta ={{a}^{2}}-a<0\]，
-故实数\[a\]的取值范围是\[-2<a<2\].
-例3  已知关于\[x\]的实系数方程\[{{z}^{2}}-2pz+q=0\]（\[p\ne 0\]）的两虚根\[{{z}_{1}}\]，\[{{z}_{2}}\]在复平面内的对应点为\[{{F}_{1}}\]，\[{{F}_{2}}\]，求以\[{{F}_{1}}\]，\[{{F}_{2}}\]为两焦点，且经过原点的椭圆的普通方程.
-解  设\[{{z}_{1}}=a+bi\]（\[a,b\in R\]），则\[{{z}_{2}}=a-bi\].
-由韦达定理，得\[\left\{ \begin{align}
-  & {{z}_{1}}+{{z}_{2}}=2a=2p, \\ 
- & {{z}_{1}}{{z}_{2}}={{a}^{2}}+{{b}^{2}}=q. \\ 
-\end{align} \right.\]
-于是\[a=p\]，\[\left| O{{F}_{1}} \right|=\left| O{{F}_{2}} \right|=\sqrt{{{a}^{2}}+{{b}^{2}}}=\sqrt{q}\]（如图13）.显然，椭圆的半短轴长\[=\left| OM \right|=\left| a \right|=\left| p \right|\]，半焦距\[=\left| b \right|\]，半长轴\[=\sqrt{{{a}^{2}}+{{b}^{2}}}=\sqrt{q}\]，而椭圆的中心为\[\left( a,0 \right)\]，即\[\left( p,0 \right)\]，所以椭圆的普通方程为\[\frac{{{\left( x-p \right)}^{2}}}{{{p}^{2}}}+\frac{{{y}^{2}}}{q}=1\].
+（第3题）
+4．在正方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]中，\[EF\]分别是\[BD{{B}_{1}}C\]上的点，且\[BE={{B}_{1}}F=\frac{2}{3}{{B}_{1}}C\],求直线\[EF\]与\[CD\]所成的角的大小．
  
-（图13）
-（2）齐二次方程\[az_{1}^{2}+b{{z}_{1}}{{z}_{2}}+cz_{2}^{2}=0\]（\[a,b,c\in R\]，\[a\ne 0\]）.此类方程称为关于\[{{z}_{1}}\]，\[{{z}_{2}}\]的齐二次方程，在\[{{z}_{2}}\ne 0\]的前提下，方程可变形为\[a{{\left( \frac{{{z}_{1}}}{{{z}_{2}}} \right)}^{2}}+b\centerdot \frac{{{z}_{1}}}{{{z}_{2}}}+c=0\].若令\[t=\frac{{{z}_{1}}}{{{z}_{2}}}\]，则有\[a{{t}^{2}}+bt+c=0\].
-因此，就实质而言，它也是实系数的二次方程.
-例4  若非零复数\[{{z}_{1}}\]，\[{{z}_{2}}\]在复平面内的对应点分别为\[A\]，\[B\]，且满足\[\left| {{z}_{2}} \right|=2\]，\[z_{1}^{2}-2{{z}_{1}}{{z}_{2}}+4z_{2}^{2}=0\].
-（1）试判断\[\Delta AOB\]（\[O\]为原点）的形状.	（2）求\[\Delta AOB\]的面积.
-解  （1）由\[z_{1}^{2}-2{{z}_{1}}{{z}_{2}}+4z_{2}^{2}=0\]，得\[{{z}_{1}}=\frac{2{{z}_{2}}\pm 2\sqrt{3}i{{z}_{2}}}{2}\]，即\[{{z}_{1}}=\left( 1\pm \sqrt{3}i \right){{z}_{2}}\]，
-即\[{{z}_{1}}\text{=}2\left( \cos \frac{\pi }{3}\pm i\sin \frac{\pi }{3} \right){{z}_{2}}\].由此得\[\Delta AOB\]是直角三舟形，且\[\angle AOB={{60}^{\circ }}\].
-（2）\[{{S}_{\Delta AOB}}=\frac{1}{2}\left| AO \right|\centerdot \left| BO \right|\sin \frac{\pi }{3}=\frac{\sqrt{3}}{4}\centerdot 2\centerdot {{\left| BO \right|}^{2}}=2\sqrt{3}\].
-（3）二次方程\[a{{z}^{2}}+bz+c=0\]（\[a\]，\[b\]，\[c\]不全为实数，\[a\ne 0\]）.
-此类方程布些超过教科书的要求，它的解法可按以下步骤进行：
-先计算\[\Delta ={{b}^{2}}-4ac\]，再把\[\Delta \]化成一个复数\[u\]的平方，即\[\Delta ={{u}^{2}}\]，
-然后用公式\[z=\frac{-b\pm u}{2a}\].
-例5  解方程\[{{x}^{2}}-\left( 3-2i \right)x+5-5i=0\].
-解  ∵\[\Delta ={{\left( 3-2i \right)}^{2}}-4\left( 5-5i \right)=-15+8i={{\left( 1+4i \right)}^{2}}\]，
-∴\[x=\frac{3-2i\pm \left( 1+4i \right)}{2}\].故\[{{x}_{1}}=2+i\]，\[{{x}_{2}}=1-3i\].
-3.—元高次方程.
-本单元出现的一元高次方程的系数均为实数，即\[{{a}_{n}}{{x}^{n}}+{{a}_{n-1}}{{x}^{n-1}}+\cdots +{{a}_{1}}x+{{a}_{0}}=0\]，其中\[{{a}_{k}}\in R\]（\[k=0,1,2,3,\cdots n\]）.
-解实系数的高次方程主要有下面两种方法.
-（1）分解因式法.
-例6  解方程\[{{x}^{3}}+8=0\].
-解  原方程即为\[\left( x+2 \right)\left( {{x}^{2}}-2x+4 \right)=0\].
-由\[x+2=0\]，得\[x=-2\].由\[{{x}^{2}}-2x+4=0\]，得\[x=1\pm \sqrt{3}i\].
-∴原方程的解为\[{{x}_{1}}=-2\]，\[{{x}_{2}}=1+\sqrt{3}i\]，\[{{x}_{3}}=1-\sqrt{3}i\].
-（2）公式法.
-所谓公式法，即对于“\[n\]次方程”\[{{z}^{n}}=a\]（常数\[a\in C\]），可利用公式求解.
-先将\[a\]化成三角形式，即\[a=r\left( \cos \theta +i\sin \theta  \right)\]（\[r>0\]）.
-再用公式\[z=\sqrt[n]{r}\left( \cos \frac{2k\pi +\theta }{n}+i\sin \frac{2k\pi +\theta }{n} \right)\]（\[k=0,1,2,\cdots n-1\]）.
-例7  解方程\[{{\left( 1+z \right)}^{n}}-{{\left( 1-z \right)}^{n}}=0\].
-解  由已知，得\[{{\left( 1+z \right)}^{n}}={{\left( 1-z \right)}^{n}}\]，显然\[{{\left( 1-z \right)}^{n}}\ne 0\]，故有\[{{\left( \frac{1+z}{1-z} \right)}^{n}}=1\].
-∴\[\frac{1+z}{1-z}=\cos \frac{2k\pi }{n}+i\sin \frac{2k\pi }{n}\]（\[k=0,1,2,\cdots n-1\]）.由合分比定理得
-\[z=\frac{\cos \frac{2k\pi }{n}+i\sin \frac{2k\pi }{n}-1}{\cos \frac{2k\pi }{n}+i\sin \frac{2k\pi }{n}+1}=\frac{\sin \frac{k\pi }{n}\left( -\sin \frac{k\pi }{n}+i\cos \frac{k\pi }{n} \right)}{\cos \frac{k\pi }{n}\left( \cos \frac{k\pi }{n}+i\sin \frac{k\pi }{n} \right)}=\tan \frac{k\pi }{n}\centerdot \frac{\left( \cos \frac{k\pi }{n}+i\sin \frac{k\pi }{n} \right)i}{\left( \cos \frac{k\pi }{n}+i\sin \frac{k\pi }{n} \right)}\]
- \[=-i\tan \frac{k\pi }{n}\]（\[n=0,1,2,\cdots ,n-1\]）.
-4.方程\[f\left( z,\bar{z},\left| z \right| \right)=0\].
-这是一类比较特殊的方程，方程中含有\[z\]，\[\bar{z}\]和\[\left| z \right|\].解此类方程通常有以下两种方法.
-（1）代数式法.
-所谓代数式法，即令\[z=x+yi\]（\[x,y\in R\]）代入方程求解.
-例8  解方程\[{{\left( {\bar{z}} \right)}^{2}}=z\].
-解  令\[z=x+yi\]（\[x,y\in R\]），则有\[{{\left( x-yi \right)}^{2}}=x+yi\]，
-即\[{{x}^{2}}-{{y}^{2}}-2xyi=x+yi\]，于是\[\left\{ \begin{align}
-  & {{x}^{2}}-{{y}^{2}}=x, \\ 
- & -2xy=y. \\ 
-\end{align} \right.\]
-若\[y=0\]，则\[{{x}^{2}}=x\]，得\[x=0\]或\[x=1\]，∴\[{{z}_{1}}=0\]，\[{{z}_{2}}=1\].
-若\[y\ne 0\]，则\[x=-\frac{1}{2}\]，\[y=\pm \frac{\sqrt{3}}{2}\]，∴\[{{z}_{3}}=-\frac{1}{2}+\frac{\sqrt{3}}{2}i\]，\[{{z}_{4}}=-\frac{1}{2}-\frac{\sqrt{3}}{2}i\].
-∴方程的解为0，1，\[-\frac{1}{2}\pm \frac{\sqrt{3}}{2}i\].
-（2）定性法.
-有一类方程，可以通过初步观察，对方程的根先“定性”，从而为求解带来一定的方便.
-例9  解方程\[{{z}^{2}}-4\left| z \right|+3=0\].
-解  由已知，\[{{z}^{2}}=-3+4\left| z \right|\]，故\[{{z}^{2}}\]必是实数，因此，\[z\]是实数或纯虚数.
-（1）\[z\]是实数时，原方程即为\[{{\left| z \right|}^{2}}-4\left| z \right|+3=0\]，∴\[\left( \left| z \right|-1 \right)\left( \left| z \right|-3 \right)=0\]，
-于是得\[z=\pm 1\]或\[z=\pm 3\].
-（2）\[z\]是纯虚数时，可令\[z=ti\]（\[t\in R\]，\[t\ne 0\]），则原方程即为\[{{\left( ti \right)}^{2}}-4\left| ti \right|+3=0\]，即\[-{{t}^{2}}-4\left| t \right|+3=0\]，即\[{{\left| t \right|}^{2}}+4\left| t \right|-3=0\]，∴\[\left| t \right|=-2+\sqrt{7}\]，
-故\[z=\pm \left( -2+\sqrt{7} \right)i\].方程的解为\[\pm 1\]，\[\pm 3\]，\[\pm \left( 2-\sqrt{7} \right)i\]
-【训练题】
-129.若\[z\in C\]，则方程\[{{\left| z \right|}^{2}}-\left| z \right|=0\]解的个数是（）
-（A）2.			（B）3.				（C）5.				（D）无穷多.
-130.方程\[{{z}^{2}}=\bar{z}\]的解的个数是（）
-（A）2.			（B）3.				（C）4.				（D）5.
-131.二次方程\[{{x}^{2}}-2xi-5=0\]的根的情况是（）
-（A）有两个不等的实根.				（B）有一个实根和一个虚根.
-（C）有一对共轭的虚根.				（D）有两个不共轭的虚根.
-132.满足\[z+\left| {\bar{z}} \right|=2+i\]的复数\[z\]等于（）
-（A）\[-\frac{3}{4}+i\].	（B）\[\frac{3}{4}-i\].			（C）\[-\frac{3}{4}-i\].		（D）\[\frac{3}{4}+i\].
-133.若关于\[x\]的方程\[{{x}^{2}}+x+p=0\]的两个虚根\[\alpha \]，\[\beta \]满足\[\left| \alpha -\beta  \right|=3\]，则实数\[p\]的值为（）
-（A）－2.		（B）\[-\frac{1}{2}\].			（C）\[\frac{5}{2}\].			（D）1.
-134.若\[a>1\]，\[\alpha \]，\[\beta \]是关于\[x\]的方程\[{{x}^{2}}+2x+a=0\]的两根，则\[\left| \alpha  \right|+\left| \beta  \right|\]的值为（）
-（A）2.			（B）\[2\sqrt{a}\].			（C）\[2\sqrt{a-1}\].		（D）\[2\sqrt{1-a}\].
-135.（1）若关于\[x\]的实系数二次方程\[{{x}^{2}}+ax+b=0\]的一个根是\[2+i\]，则\[a=\]          ，\[b=\]          .
-（2）若实系数的一元二次方程的一个根是\[\frac{1}{3}-\frac{4\sqrt{5}}{3}i\]，则这个方程为          .
-136.1的5次方根的五个复数的辐角主值之和是（）
-（A）\[2\pi \].		（B）\[4\pi \].			（C）\[6\pi \].			（D）\[8\pi \].
-137.若\[\omega \]是\[{{x}^{5}}-1=0\]的一个虚根，则\[\omega \left( 1+\omega  \right)\left( 1+{{\omega }^{2}} \right)\]的值是（）
-（A）1.			（B）－1.			（C）\[i\].				（D）\[-\frac{1}{2}+\frac{\sqrt{3}}{2}i\].
-138.复平面内，两点\[M\]，\[N\]所对应的非零复数是\[\alpha \]，\[\beta \]（\[O\]是原点）.
-（1）若\[{{\alpha }^{2}}+{{\beta }^{2}}=0\]，则\[\Delta OMN\]是          三角形.
-（2）若\[2{{\alpha }^{2}}-2\alpha \beta +{{\beta }^{2}}=0\]，则\[\Delta OMN\]是          三角形.
-139.在复数范围内解方程：
-（1）\[z\centerdot \bar{z}-3i\bar{z}=1+3i\].				（2）\[{{z}^{2}}-5\left| z \right|+6=0\].
-（3）\[2z+\left| z \right|=2+6i\].					（4）\[z\left| z \right|+az+i=0\]（\[a\ge 0\]）.
-（5）\[{{\left| z \right|}^{2}}-2zi+2a\left( 1+i \right)=0\]（\[a\in R\]）.
-140.（1）已知关于\[x\]的方程\[{{x}^{2}}+\left( k+2i \right)x+2+ki=0\]有一个实根，求实数\[k\]的值.
-（2）已知关于\[x\]的方程\[{{x}^{2}}-ix-m+4ni=0\]有实根，求点\[\left( m,n \right)\]应满足的方程.
-（3）已知关于\[x\]的方程\[{{x}^{2}}-zx+4+3i=0\]有实根，求复数\[z\]的模的最小值和此时的\[z\]值.
-141.（1）已知方程\[{{x}^{2}}+ix+6=2i+5x\]有一个实数解，试在复数范围内解此方程.
-（2）已知关于\[x\]的方程\[{{x}^{2}}+2px+1=0\]的两根\[\alpha \]，\[\beta \]在复平面内的对应点和原点恰是一个等边三角形的三个顶点，求实数\[p\]的值.
-（3）已知\[p,q\in R\]，方程\[{{x}^{2}}+px+q=0\]有两虚根\[\alpha \]，\[\beta \]，方程\[{{x}^{2}}-px+q=0\]有两虚根\[{{\alpha }^{2}}\]，\[{{\beta }^{2}}\]，求\[\alpha \]，\[\beta \]，\[p\]，\[q\]的值.
-（4）已知\[a\]，\[b\]是实数，关于\[x\]的方程\[{{x}^{2}}+\left( 2a-bi \right)x+a-bi=0\]的两个非零复数根的辐角分別为\[\frac{2\pi }{3}\]及\[\pi \]，求\[a\]，\[b\]的值.
-142.（1）求\[5+12i\]的平方根.
-（2）解方程：①\[{{z}^{2}}-i=0\].				②\[{{z}^{2}}-2zi-5=0\].
-143.复平面内，已知非零复数\[{{z}_{1}}\]，\[{{z}_{2}}\]对应于点\[A\]和\[B\]，复数\[{{z}_{1}}-a\]与\[{{z}_{1}}+a\]所对应的两个向量相互垂直且模不相等，又\[z_{1}^{2}-4{{z}_{1}}{{z}_{2}}+6z_{2}^{2}=0\].
-（1）求\[{{z}_{1}}\]与\[{{z}_{2}}\]的模.
-（2）\[O\]为复平面上的坐标原点，求\[\Delta AOB\]的面积_
-144.非零复数\[\alpha \]，\[\beta \]分别对应于点\[A\]，\[B\]（\[O\]是原点），已知\[4{{\alpha }^{2}}-2\alpha \beta +{{\beta }^{2}}=0\].
-（1）求证：\[\Delta AOB\]是直角三角形.
-（2）若\[\left| \alpha  \right|=1\]，求\[\Delta AOB\]的面积.
-（3）若\[\left| \alpha  \right|=t>0\]，求\[{{\left| \beta  \right|}^{2}}-\alpha \bar{\beta }-\bar{\alpha }\beta \]的值.
-145.设\[\alpha \]，\[\beta \]是实系数一元二次方程\[a{{x}^{2}}+bx+c=0\]的两根，\[\alpha \]为虚数，而\[\frac{{{\alpha }^{2}}}{\beta }\]为实数，求复数\[\frac{\alpha }{\beta }\]的值.
-146.已知：\[x+\frac{1}{x}=2\cos \varphi \].求证：
-（1）\[x=\cos \varphi \pm i\sin \varphi \].
-（2）\[{{x}^{n}}+\frac{1}{{{x}^{n}}}=2\cos n\varphi \]（\[n\in N\]）.
-147.（1）要使关于\[x\]的方程\[\left( 1-i \right){{x}^{2}}+2mix-\left( 1+i \right)=0\]有实根，求实数\[m\]的值.
-（2）若关于\[x\]的实系数方程\[2{{x}^{2}}+3ax+{{a}^{2}}-a=0\]至少布一个模为1的根，求实数\[a\]的值.
-（3）若关于\[x\]的方程\[{{x}^{2}}+\left( 2+i \right)x+4mn+\left( 2m-n \right)i=0\]（\[m,n\in R\]）有实根，求点\[\left( m,n \right)\]的轨迹方程.
-（4）已知\[\alpha \]，\[\beta \]是方程\[{{x}^{2}}-2x+2=0\]的两根，\[p\]，\[q\]是关于\[x\]的方程\[{{x}^{2}}+2mx-1=0\]（\[m\in R\]）的两根，且\[\alpha \]，\[\beta \]，\[p\]，\[q\]在复平面内的对应点共圆，求\[m\]的值.
-（5）已知关于\[x\]的方程\[3{{x}^{2}}-6\left( m-1 \right)x+{{m}^{2}}+1=0\]的两根\[{{x}_{1}}\]，\[{{x}_{2}}\]满足\[\left| {{x}_{1}} \right|+\left| {{x}_{2}} \right|=2\]，求实数\[m\]的值.
-148.（1）实系数方程\[{{x}^{4}}-4{{x}^{3}}+9{{x}^{2}}-ax+b=0\]的一个根是\[1+i\]，求\[a\]，\[b\]的值，并解此方程.
-（2）已知关于\[x\]的实系数方程\[{{x}^{4}}+a{{x}^{3}}+b{{x}^{2}}+cx+d=0\]有一个纯虚根，求证：\[{{a}^{2}}d+{{c}^{2}}-abc=0\].
-（3）已知模为2，辐角为\[\frac{\pi }{6}\]的复数是方程\[{{x}^{5}}+a=0\]的一个根，求\[a\].
-（4）已知复数\[z=\frac{1}{2}+\frac{\sqrt{3}}{2}i\]满足\[{{z}^{n}}=\bar{z}\]，求整数\[n\]的一般形式.
-149.利用复数乘法、除法的几何意义，求证：
-（1）\[\arctan 1+\arctan 2+\arctan 3=\pi \].
-（2）\[\arcsin \frac{\sqrt{10}}{10}+\arccos \frac{7\sqrt{2}}{10}+\arctan \frac{7}{31}+arc\cot 10=\frac{\pi }{4}\].
-（3）\[\arctan \left( 3+2\sqrt{2} \right)-\arctan \frac{\sqrt{2}}{2}=\frac{\pi }{4}\].
-（4）\[\arctan \frac{1}{7}+2\arcsin \frac{1}{\sqrt{10}}=\frac{\pi }{4}\].
-150.（1）复平面内，已知动点\[A\]，\[B\]所对应的复数\[{{z}_{1}}\]，\[{{z}_{2}}\]的一个辐角为定值\[\theta \]和\[-\theta \]（\[0<\theta <\frac{\pi }{2}\]），且\[\Delta AOB\]的面积为定值\[S\]（\[O\]为坐标原点〉，求\[\Delta AOB\]的重心\[M\]所对应复数\[z\]的模的最小值.
-（2）复数\[{{z}_{1}}\]，\[{{z}_{2}}\]，\[{{z}_{3}}\]的辐角主值分别为\[\alpha \]，\[\beta \]，\[\gamma \]，模分别为1，\[k\]和\[2-k\]，且\[{{z}_{1}}+{{z}_{2}}+{{z}_{3}}=0\]，求\[k\]，使\[\cos \left( \beta -\alpha  \right)\]分别取到最大值和最小值，并求出大值和最小值.
-151.已知复数\[z=\cos \theta +i\sin \theta \].
-（1）当实数\[k\]和\[\theta \]分别为何值时，\[{{z}^{3}}+k{{\bar{z}}^{3}}\]是纯虚数？
-（2）求\[\left| {{z}^{3}}+k{{{\bar{z}}}^{3}} \right|\]的最大值与最小值.
-152.（1）已知复数\[{{z}_{1}}\]，\[{{z}_{2}}\]，\[{{z}_{3}}\]满足\[\left| {{z}_{1}} \right|=\left| {{z}_{2}} \right|=\left| {{z}_{3}} \right|=1\]，求证：\[\left| {{z}_{1}}{{z}_{2}}+{{z}_{2}}{{z}_{3}}+{{z}_{3}}{{z}_{1}} \right|=\left| {{z}_{1}}+{{z}_{2}}+{{z}_{3}} \right|\].
-（2）已知复数\[\alpha \]，\[\beta \]，\[\gamma \]满足\[\left| \alpha  \right|=\left| \beta  \right|=\left| \gamma  \right|\ne 0\]，求证：\[\frac{\left( \alpha +\beta  \right)\left( \beta +\gamma  \right)\left( \gamma +\alpha  \right)}{\alpha \beta \gamma }\]是实数.
-153.设\[A\]，\[B\]，\[C\]分别是复数\[{{z}_{1}}\]，\[{{z}_{2}}\]，\[{{z}_{3}}\]（\[{{z}_{1}}\]，\[{{z}_{2}}\]，\[{{z}_{3}}\]互不相等）在复平面内所对应的点，求证：\[\Delta ABC\]为等边三角形的充要条件是\[z_{1}^{2}+z_{2}^{2}+z_{3}^{2}={{z}_{1}}{{z}_{2}}+{{z}_{2}}{{z}_{3}}+{{z}_{3}}{{z}_{1}}\].
-154.利用复数知识证明：\[\cos 3\alpha =4{{\cos }^{3}}\alpha -3\cos \alpha \]，\[\sin 3\alpha =3\sin \alpha -4{{\sin }^{3}}\alpha \].
-155.（1）求证：\[\cos \frac{\pi }{2n+1}+\cos \frac{3\pi }{2n+1}+\cos \frac{5\pi }{2n+1}+\cdots +\cos \frac{2n-1}{2n+1}\pi =\frac{1}{2}\]（\[n\in N\]）.
-（2）已知\[\cos \alpha +\cos \beta +\cos \gamma =0\]，\[\sin \alpha +\sin \beta +\sin \gamma =0\].求证：
-①\[\cos 3\alpha +\cos 3\beta +\cos 3\gamma =3\cos \left( \alpha +\beta +\gamma  \right)\]，\[\sin 3\alpha +\sin 3\beta +\sin 3\gamma =3\sin \left( \alpha +\beta +\gamma  \right)\]；
-②\[\cos 3k\alpha =\cos 3k\beta =\cos 3k\gamma =\cos k\left( \alpha +\beta +\gamma  \right)\]，
-\[\sin 3k\alpha =\sin 3k\beta =\sin 3k\gamma =\sin k\left( \alpha +\beta +\gamma  \right)\]（\[k\in N\]）.
-156.（1）若\[\left| z \right|=1\]，求复数\[u=3{{z}^{2}}+\frac{1}{{{z}^{2}}}\]在复平面内的对应点的轨迹.
-（2）求复数\[z=\frac{1}{1-bi}\]（\[b\in R\]且\[b\ne 0\]）在复平面内对应点的轨迹方程.
-（3）复平面内，若复数\[z\]对应的点在连接复数\[2+i\]和\[2-i\]对应点的线段上移动，求\[{{z}^{2}}\]对应点的轨迹方程.
-157.根据条件，求复数\[z+\frac{1}{z}\]在复平面内的对应点轨迹的普通方程：
-（1）\[\left| z \right|=1\].
-（2）\[\left| z \right|=r\]（\[r>0\]，\[r\ne 1\]）.
-（3）\[\left| z \right|\ne 0\]，且\[\arg z=\theta \].
-158.（1）在等腰Rt\[\Delta ABC\]中，已知\[\angle C={{90}^{\circ }}\]，\[\left| AC \right|=a\].若点\[A\]在\[x\]轴上移动，点\[B\]在抛物线上移动，且点\[A\]，\[B\]，\[C\]按逆时针方向排列，求顶点\[C\]的轨迹方程.
-（2）设\[P\]是抛物线\[y={{x}^{2}}\]上任意一点，以线段\[OP\]为边，按逆时针方向作正方形\[OPQR\]（如图），利用复数知识求点\[R\]的轨迹方程.
+（第4题）
+14.3空间直线与平面的位置关系
+习题14.3A组
+1．填空：
+“直线\[l\]垂直于平面\[\alpha \]内的无数条直线”是“\[l\bot \alpha \]”的        条件．（填“充分”或“必要“或“充要”或“既非充分又非必要”）
+2．在正方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]中找出表示下列距离的线段：
+（1）点\[A\],到直线\[BC\]的距离为               ．
+（2）点\[A\]到平面\[{{B}_{1}}BC{{C}_{1}}\]的距离为            .
+（3）\[{{B}_{1}}{{D}_{1}}\]和平面\[ABCD\]的距离为             .
  
-（第158题）
-159.一动点从原点出发，开始沿\[x\]轴的正半轴运动，每运动一个长度单位，就向左转\[\theta \]角，求此动点运动\[n\]个长度单位时与原点的距离.
-160.（1）复平面内，复数\[\alpha \]的对应点在连接\[1+i\]和\[1-i\]的对应两点的线段上运动，复数\[\beta \]的对应点在以原点为圆心，半径为1的圆周上运动，试求：
-①复数\[\alpha +\beta \]的对应点运动范围的面积；		②复数\[\alpha \beta \]的对应点运动范围的面积.
-（2）已知半径为1的定圆\[O\]的内接正\[n\]边形的顶点为\[{{P}_{k}}\]（\[k=1,2,\cdots n\]），\[P\]为该圆周上任意一点，求证：\[{{\left| P{{P}_{1}} \right|}^{2}}+{{\left| P{{P}_{2}} \right|}^{2}}+\cdots +{{\left| P{{P}_{n}} \right|}^{2}}\]为一定值.
+（第2题）
+3.在长方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]中，找出下列异面直线的公垂线段。
+（1）\[AB\]和\[D{{D}_{1}}\].
+ 
+（第3题）
+（2）\[A{{A}_{1}}\]和\[B{{C}_{1}}\].
+4．有一根旗杆\[AB\]高8米,它的顶端挂一条长10米的绳子，拉紧绳子并把它的下端放在地面上的两点（和旗杆脚不在同一直线上）C、D．如果这两个点和旗杆脚B的距离都是6米，那么旗杆就和地面垂直，为什么？
+5．判断题：（下列命题中，是真命题的在括号内填入“v”；是假命题的在括号内填入“×”）
+（1）一条直线在平面内的射影是一条直线.     （    ） 
+（2）在平面内射影是直线的图形一定是直线.   （    ）
+（3）如果两条线段在同一平面内的射影长相等，那么这两条线段的长相等．（    ）
+（4）如果两条斜线与平面所成的角相等，那么这两条斜线互相平行．（    ）
+6．过平面\[\alpha \]外一点\[P\]的斜线段\[PA\]的长是过这点的垂线段\[PB\]的\[\frac{2\sqrt{3}}{3}\]倍\[(AB\in \alpha )\],求斜线\[PA\]与平面\[\alpha \]所成的角的大小．
+7．填空：
+已知\[\Delta ABC\]，点\[P\]是平面\[ABC\]外一点，点\[O\]是点\[P\]在平面\[ABC\]上的射影，且点\[O\]在\[\Delta ABC\]内．
+（1）若点\[P\]到\[\Delta ABC\]的三个顶点的距离相等，则点\[O\]一定是\[\Delta ABC\]       心．
+（2）若点\[P\]到\[\Delta ABC\]的三边所在直线的距离相等，则点\[O\]一定是\[\Delta ABC\]的       心．
+8．在长方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]中，\[AB=BC=4\]，\[{{A}_{1}}A=5\]，\[M\]是\[AB\]的中点．求直线\[{{C}_{1}}M\]与平面\[ABCD\]所成的角的大小．
+ 
+（第8题）
+9．如果三个平面两两相交于三条直线，请指出这三条直线的位置关系，并说明理由．
+10．如图，\[EF\]分别是空间四边形\[ABCD\]的边\[BCAD\]的中点，过\[EF\]且平行于\[AB\]的平面与\[AC\]交于点\[G\],求证：\[G\]是\[AC\]的中点.
+ 
+（第10题）
+11.在长方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]中，矩形\[A{{A}_{1}}{{D}_{1}}D\]和\[{{D}_{1}}{{C}_{1}}CD\]的中心分别为\[MN\]，求证：\[MN//\]平面\[ABCD\].
+ 
+（第11题）
+习题14.3 B组
+1．在空间四边形\[ABCD\]中，\[AB=DC=4\]，\[BC=AD=3\]，\[AD\bot BC\],\[AB\bot BC\].
+ 
+（第1题）
+（1）求证：\[BD\]是\[AD\]、\[BC\]的公垂线. 
+（2）求\[BD\]的长．
+2．填空：
+已知正方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]，的棱长为1．
+（1）点\[A\]到\[C{{D}_{1}}\]．的距离为               . 
+（2）点\[A\]到\[B{{D}_{1}}\]，的距离为               .
+（3）点\[A\]到面\[B{{B}_{1}}{{D}_{1}}D\]的距离为           .
+（4） \[A{{A}_{1}}\]和面\[B{{B}_{1}}{{D}_{1}}D\]的距离为          .
+ 
+（第2题）
+3．已知\[P\]是等边三角形ABC所在平面外一点，\[PA=PB=PC=\frac{2}{3}\]，\[\Delta ABC\]的边长为1．求\[PC\]和平面\[ABC\]所成的角的大小．
+4．\[PAPB\]是平面\[\alpha \]的斜线，已知\[\angle APB=90{}^\circ \],\[AB=10\]，点\[P\]到平面\[\alpha \]的距离为3，\[PA\]和平面\[\alpha \]所成的角为30°．求平面\[\alpha \]所成的角的大小.
+ 
+（第4题）
+5．已知\[ABCD\]是不共面的四个点，\[MN\]分别是\[\Delta ACD\Delta BCD\]的重心．试判断平面\[ABC\],平面\[ACD\]、平面\[BCD\]中，哪些平面与\[MN\]平行,并说明理由.
+ 
+（第5题）
+14.4  空间平面与平面的位置关系
+习题14.4 A组
+1．判断题：（下列命题中，是真命题的在括号内填入“√”；是假命题的在括号内填入“×”）
+（1）二面角指的是两个平面相交所组成的图形．               （    ）
+（2）二面角指的是一个平面绕这个平面内的一条直线旋转所组成的图形．                                                        （    ）
+（3）二面角指的是以一个平面内的一条直线为边界的一个半平面与这个平面所组成的图形．                                              （    ） 
+（4）二面角指的是从一条直线出发的两个半平面所组成的图形．                                                          （    ）
+2．已知二面角\[\alpha -AB-\beta \]为30°，\[P\]是面\[\alpha \]内一点，点\[P\]到面\[\beta \]的距离是1，求点\[P\]在面\[\beta \]内的射影到\[AB\]的距离。
+3．已知\[P\]是二面角\[\alpha -AB-\beta \]内一点，\[PC\bot \alpha \]，垂足为\[C\]，\[PD\bot \beta \]，垂足为\[D\]，且\[PC=3\]，\[PD=4\]，\[\angle CPD=60{}^\circ \].
+（1）求二面角\[\alpha -AB-\beta \]的大小．
+（2）求\[CD\]的长．
+4．在正方体中\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]中，\[{{E}_{1}}\]为\[{{A}_{1}}{{D}_{1}}\]的中点．
+ 
+（第4题）
+（1）求二面角\[{{E}_{1}}-AB-C\]的大小．
+（2）求二面角\[{{C}_{1}}-{{B}_{1}}{{D}_{1}}-A\]的大小．
+5．简答题：
+（1）平行于同一直线的两个平面是否平行？
+（2）两个平面分别经过两条平行直线，这两个平面是否平行？
+（3）分别在两个平行平面内的两条直线是否平行？
+6．选择题：
+（1）\[\alpha \beta \]是两个不重合的平面，\[ab\]是两条不同的直线，在下列条件中可判定\[\alpha //\beta \]的是                                          （    ）
+（A）平面\[\alpha \beta \]都平行于直线\[ab\]；
+（B）平面内有三个不共线的点到平面\[\beta \]的距离相等；
+（C）\[ab\]是平面\[\alpha \]内的两条直线，且\[\alpha //\beta \]，\[b//\beta \];
+（D）\[ab\]是两条异面直线，且\[a//\alpha \]，\[b//\alpha \]，\[\alpha //\beta \]，\[b//\beta \].
+（2）下列命题中不正确的是                            （    ）
+（A）如果平面\[\alpha \]与平面\[\beta \]平行，那么平面\[\alpha \]内任一直线平行于平面\[\beta \]；
+（B）如果一个平面内任何一条直线都平行于另一个平面，那么这两个平面平行；
+（C）如果一条直线\[m\]与两个平面\[\alpha \]、\[\beta \]所成的角相等，那么\[\alpha //\beta \]；
+（D）分别在两个平行平面内的两条直线只能是平行直线或异面直线。
+7．在正方体\[ABCD-{A}'{B}'{C}'{D}'\]中，\[EFG\]分别是\[ADD{D}'DC\]的中点，求证：平面\[EFG\]平行于平面\[{A}'B{C}'\].
+ 
+（第7题）
+习题14.4 B组
+1.某人在山坡上沿着与山坡脚线（山坡面与水平地面的交线）垂直的方向上坡，如果每前进200米，上升的高度为\[50\sqrt{3}\]米，求坡面与水平面所成的二面角的大小.
+ 
+（第1题）
+2．已知边长为\[\alpha \]的正方形\[ABCD\]外有一点\[P\].使\[PA\bot \]平面\[ABCD\]. \[PA=\alpha \]．求二面角\[A-PB-C\]和\[B-PC-D\]的大小．
+3．设\[ab\]是异面直线，直线\[a\]在平面\[a\]内，直线\[b\]在平面\[\beta \]内，且\[a//\beta \]，\[b//a\]，求证：\[a//\beta \]。
+4．已知不共面的三条直线\[abc\]相交于点\[P\]，平面\[\alpha \beta \]与直线\[abc\]分别相交于\[ABC\]和\[{{A}_{1}}{{B}_{1}}{{C}_{1}}\]，且\[\frac{PA}{P{{A}_{1}}}=\frac{PB}{P{{B}_{1}}}=\frac{PC}{P{{C}_{1}}}\],求证：\[\alpha //\beta \]。
+复习题
+A组
+1．画出下列点、直线和平面之间的位置关系图，并用集合符号表示．
+（1）直线\[l\]在平面\[\alpha \]上，点\[M\]在平面\[\alpha \]上，但不在直线\[l\]上．
+（2）平面\[\alpha \]与平面\[\beta \]交于直线\[l\]．直线\[a\]与平面\[\alpha \]、平面\[\beta \]都没有公共点．
+2．将下列集合符号表述改为自然语言表述，并判断它们是否正确．
+（l\[A\in \beta \]，\[B\in \beta \Rightarrow AB\underset{\ne }{\mathop \in }\,\beta \].
+（2） \[A\in \alpha \]，\[B\in \alpha \]，\[C\in AB\Rightarrow C\in \alpha \].
+3．已知直线\[AB//CD\]，平面\[\alpha \]满足：\[AB\bigcap \alpha =E,CD\bigcap \alpha \text{=}F\]，求作直线\[BC\]与平面\[\alpha \]的交点．
+4．在长方体\[ABCD-{A}'{B}'{C}'{D}'\]的面\[{A}'{C}'\]上有一点\[P\]，过点\[P\]在面\[{A}'{C}'\]上画一条直线和\[BD\]平行，应当如何画？并说明理由．
+ 
+（第4题）
+5．回答下列问题：
+（l）垂直于同一直线的两个平面是否平行？
+（2）平行于同一平面的两条直线是否平行？
+（3）垂直于同一平面的两条直线是否平行？
+6．判断下列说法是否正确，如果正确，请说明理由；如果不正确，请举出反例．
+（l）三角形一定是平面图形．
+（2） 一组对边平行的四边形一定是平面图形．
+（3）两组对边相等的四边形一定是平面图形．
+（4）两条不平行的直线一定是相交直线．
+7．已知\[EFGH\]分别是空间四边形\[ABCD\]的各边\[ABDABCCD\]上的点，且直线\[EF\]交于点\[P\]．求证：点\[BDP\]在同一条直线上.
+8．在正方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]中,\[PQ\]分别为\[ABBC\]的中点．求\[PQ\]与下列各直线所成的角的大小：
+（l） \[C{{C}_{1}}\]； （2） \[A{{C}_{1}}\] ；（3）\[{{B}_{1}}C\].
+9．已知\[AB\]是平面\[\alpha \]外两点，\[AB\]到平面\[\alpha \]的距离分别为2cm、4 cm．且\[AB\]在平向\[\alpha \]上的射影间的距离为6cm，求线段\[AB\]的长．
+10.在长方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]中，\[O{{O}_{1}}\]分别为四边形\[ABCD\]、\[{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]中心，\[EF\]分别为四边形\[A{{A}_{1}}{{D}_{1}}DB{{B}_{1}}{{C}_{1}}C\]的中心，\[GH\]分别为四边形\[{{A}_{1}}AB{{B}_{1}}\]、\[{{C}_{1}}CD{{D}_{1}}\]的中心，求证：\[\vartriangle OGE\cong {{O}_{1}}FH\]．
+11.在长方体\[ABCD-{{A}_{1}}{{B}_{1}}C{}_{1}{{D}_{1}}\]中，\[AB=4\],\[BC=AA=3\],分别求直线\[B{{D}_{1}}\]与平面\[ABCD\]、直线\[B{{D}_{1}}\]与平面\[B{{B}_{1}}{{C}_{1}}C\]所成的角的大小．
+12.在\[Rt\vartriangle ABC\]中，两直角边\[ACBC\]的长分别为9、12，\[PC\]垂直于平面\[ABC\]，\[PC=6\],求点\[P\]到斜边\[AB\]的距离．
+ 
+（第13题）
+13．在空间四边形\[ABCD\],\[AC=BC,AD=BD\],求证：\[AB\bot CD\]．
+14.在120°的二面角的蝰上有\[AB\]两点,\[ACBD\]分别是这个二面角的两个面内垂直于\[AB\]的线段，已知：\[AB=4\],\[AC=6\],\[BD=8\],求\[CD\]的长.
+复习题
+B组
+1.选择题：
+（1）在正方体\[ABCD-{A}'{B}'{C}'{D}'\]中，\[A{B}'\]和\[B{C}'\]所成的角的大小是    （    ）
+（A）30°；   （B）45°；（C）60°；  （D）  90° 
+（2）若\[{{O}_{1}}\]为正方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]的面\[{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]的中心，则直线\[B{{C}_{1}}\]与对角面\[B{{B}_{1}}{{D}_{1}}D\]所成的角等于
+（A）\[\angle {{C}_{1}}B{{D}_{1}}\]；  （B）\[\angle {{C}_{1}}B{{O}_{1}}\] ； （C）\[\angle {{C}_{1}}B{{B}_{1}}\] ；  （D）\[\angle {{C}_{1}}BD\].
+2.填空：
+（1）如果长方体的一条对角线与过同一个顶点的三个面所成的角分别是\[\alpha \beta \gamma \]那么\[{{\sin }^{2}}\alpha +{{\sin }^{2}}\beta +{{\sin }^{2}}\gamma \text{=}\]                   .
+（2）三个平面可将空间分成              个部分．
+3．在空间四边形\[ABCD\]中，\[AB=BC=CD=DA=AC=BD=a\]，是\[BC\]的中点，求异面直线\[AC\]与\[DF\]所成的角的大小．
+4．已知\[CD\]是\[\alpha \]、\[\beta \]的交线，\[EA\bot \alpha \]垂足为\[A\]，\[EB\bot \beta \]，垂足为\[B\]．求证：\[CD\bot AB\].
+5．已知\[PA\]垂直于\[\vartriangle ABC\]所在的平面\[\alpha \]，\[D\]为\[BC\]的中点，又\[PBPDPC\]与平面\[\alpha \]所成的角分别为60°、45°、30°，且\[BC=6cm\]，求\[PA\]的长．
+6．已知\[P\]为平行四边形\[ABCD\]所在平面外一点，\[M\]为\[PB\]的中点，求证：\[PD//\]平面\[MAC\]．
+7.已知空间四边形\[OABC\]各边及对角线的长都是1,\[DE\]分别是边\[OABC\]的中点，联结\[DE\].
+（1）求证：\[DE\]是异面直线\[OA\]和\[BC\]的公垂线段．
+（2）求\[DE\]的长．
+（3）求点\[O\]到平面\[ABC\]的距离.
+8．如图，已知二面角\[\alpha -l-\beta \]的两个面内各有一点\[AB\]，\[AB\]在直线\[l\]的射影分别为点\[CD\]，\[AC=3\],\[BD=3\]，而\[CD=4\],\[AB=5\]．求二面角\[\alpha -l-\beta \]的大小。
+ 
+（第8题）
+第十五章  简单几何体
+15.1  多面体的概念
+习题15.1   A组
+1．分别写出下列多面体的名称：
+ 
+（第1题）
+2.斜棱柱、直棱柱和正棱柱的底面、侧面各有什么特点？
+3．判断下列说法是否正确．如果正确，请说明理由；如果不正确，请举一个反例．
+（1）有两个相邻的侧面是矩形的棱柱是直棱柱．
+（2）正四棱柱是正方体．
+（3）底面是正多边形的棱锥是正棱锥．
+习题15.1 B组
+1．用较厚的纸按照下图的样子画好并剪下．再把它折起来粘好，做成棱柱的模型（选做其中一个）。
+ 
+（第1题）
+2．四棱柱集合\[A\]、平行六面体集合\[B\]、长方体集合\[C\]、正方体集合\[D\]之间有怎样的包含关系？用文氏图表示出来。
+15．2  多面体的直观图
+习题15.2  A组
+1．画如图所示的水平放置的正方形的直观图．
+ 
+（第1题）
+2．在一个水平放置的平面\[\alpha \]上，画如图所示的正五边形的直观图．
+ 
+（第2题）
+3．画一个底面边长是\[3cm\]、高是\[\text{4}.\text{5}cm\]的正三棱柱的直观图．
+4．已知正六棱锥的底面边长为\[6cm\]，高为\[15cm\]．画它的直观图，比例尺为1：3．
+5．如图，点\[A\]在平面\[\alpha \]上，点\[BC\]在平面\[\beta \]上，平面\[\alpha \]与平面\[\beta \]相交于直线\[l\]，画出过点\[ABC\]的平面与平面\[\alpha \beta \]的交线.
+ 
+（第5题）
+6．如图，已知正方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]，点\[E\]是棱\[DC\]的中点。
+（1）画出由点\[EA{{B}_{1}}\]确定的平面\[\alpha \]截正方体所得的截面。
+（2）平面\[\alpha \]将正方体分割成两个多面体，画出这两个多面体的直观图。
+ 
+（第6题）
+习题15.2 B组
+1．用厚纸做一个正四棱锥的模型．
+2．将一个直三棱柱分割成三个三棱锥，试将这三个三棱锥分离，并画出这些三棱锥的直观图．
+15.3  旋转体的概念
+习题15.3   A组
+1．圆柱体、圆锥体的母线和旋转轴的位置关系如何？
+2．从一个底面半径和高都是\[R\]的圆柱中，挖去一个以圆柱的上底为底、下底面的中心为顶点的圆锥，得到一个如图所示的几何体。如果用一个与圆柱下底面距离等于\[d\]并且平行于底面的平面去截这个几何体．求截面面积．
+ 
+（第2题）
+3．如果球的大圆面积增为原来的100倍，那么球的半径有什么变化？
+4．已知\[OA\]是球\[O\]的半径,\[OA=5\]，\[{{O}_{2}}\]是\[OA\]上的两点，平面\[\alpha \]、\[\beta \]分别通过点\[{{O}_{2}}\]，且垂直于\[OA\]，截得圆\[{{O}_{1}}\]和圆\[{{O}_{2}}\]，当圆\[{{O}_{1}}\]、圆\[{{O}_{2}}\]的面积分别为9\[\pi \]、21\[\pi \]时，求\[{{O}_{1}}{{O}_{2}}\]的长。
+ 
+（第5题）
+习题15．3   B组
+1．用一块正方形的厚纸板，以它的一个顶点为圆心、边长为半径画弧，沿弧剪下一个扇形，试用这块扇形厚纸板制作一个圆锥筒。
+2．经过球面上不同两点的大圆有多少个？并说明理由。
+15.4  几何体的表面积
+习题1 5.4 A组
+1．已知正三棱锥的底面边长是2，高是4，求该正三棱锥的表面积。
+2．已知直四棱柱的底面是边长分别为\[5cm\]、\[6cm\].且有一条对角线长为\[8cm\]的平行四边形，该四陵柱最长的对角线为\[10cm\]，求该四棱柱的侧面积。
+3．已知侧面积为27的正三棱柱的侧棱恰好是某个圆柱的三条母线，且这个圆柱的底面半径为2，求这个圆柱的表面积。
+习题l5.4   B组
+1．如图，已知一个圆锥的底面半径为2，高为2，且在这个圆锥中有一个高为\[x\]的圆柱。
+（1）写出此圆柱的侧面积表达式。
+（2）当\[x\]为何值时，此圆柱的侧面积最大？
+15.5几何体的体积
+习题15.5 A组
+1．已知三棱柱的底面是\[\Delta ABC\]，\[AB=13cm\]，\[BC=5cm\]，\[CA=12cm\]，侧棱\[A{A}'\]的长是\[20cm\]，且侧棱\[A{A}'\]与底面所成的角为\[60{}^\circ \]，求这个三棱柱的体积。
+2．在万吨水压机上，有四根圆柱形钢柱，高l8米，内径0.4米，外径1米，求这四根钢柱的质量．（结果精确到1吨，钢的密度为7.9克/立方厘米）
+3．已知正三棱锥的侧棱长为10厘米，侧棱与底面所成的角等于\[\arcsin \frac{3}{5}\]，求这个三棱锥的体积。
+4．一块正方形薄铁板的边长是22厘米，以它的一个顶点为圆心、边长为半径画弧，沿弧剪下一个扇形，用这块扇形铁板围成一个圆锥筒，求它的容积。（结果精确到1立方厘米）
+5．已知三个球的表面积之比是1:2:3，求这三个球的体积之比。
+习题15.5 B组
+1．有一堆相同规格的六角螺帽毛坯共重5.8千克，已知每个六角螺帽毛坯的底面六边形的边长是12毫米，高l0毫米，内孔直径是10毫米，共有毛坯多少个？（铁的密度为7.8克/立方厘米）
+2．已知正六棱柱最长的一条对角线长为13厘米，侧面积为180平方厘米，求这个棱柱的体积。
+3．有一个铜制工件，它的下部分呈正四棱柱形，上部分呈正四棱锥形，且这个正四棱锥以正四棱柱的上底为底，已知正四棱柱的底面边长是50毫米，高是l0毫米，正四棱锥的侧面呈正三角形，这个工件的质量是多少千克？（结果精确到O.1千克，铜的密度是8.9克/立方厘米）
+4．有一个空心钢球，重142克，测得外径等于5厘米，求它的内径。（结果精确到0.1厘米，钢的密度为7.9克/立方厘米）
+15.6球面距离
+习题15.6  A组
+1．已知香港的位置为东经\[114{}^\circ 1{0}'\]，北纬\[22{}^\circ 1{8}'\]，江西井冈山的位置为东经\[114{}^\circ 1{0}'\]，北纬\[26{}^\circ 3{4}'\]，求这两个城市之间的距离。（地球半径约为6371千米，结果精确到1千米）
+2．在北纬60°圈上有甲乙两地，它们的纬度圈上的弧长等于\[\frac{\pi R}{2}\]（\[R\]是地球的半径），求甲乙两地的球面距离。
+3.在北纬\[45{}^\circ \]圈上有甲乙两地．经度相差\[90{}^\circ \]，求甲乙两地的球面距离与地球半径的比。
+习题15.6 B组
+1.纬度为\[\alpha \]的纬度圈上有甲乙两地，它们的纬度圈上的弧长等于\[\pi R\cos \alpha \]（\[R\]是地球的半径），求甲乙两地的球面距离。
+2．地球上有甲乙两个城市，甲在北纬\[30{}^\circ \]，东经\[83{}^\circ \]，乙在北纬\[30{}^\circ \]，西经\[97{}^\circ \]，求过这两个城市在纬度圈上的距离与它们在地球表面上的球面距离的比。
+复习题
+A组
+1．判断下列说法是否正确，如果正确，请说明理由；如果不正确，请举一个反例。
+（1）直四棱柱是长方体。
+（2）侧棱长相等，且底面是正多边形的棱锥是正棱锥。
+（3）各侧面都是正三角形的四棱锥是正四棱锥。
+（4）“三条侧棱两两互相垂直，且侧棱与底面所成角都相等”是“棱锥为正三棱锥”的充要条件。
+2．填空：
+现有以下三个命题：①底面是平行四边形的四棱柱是平行六面体；②底面是矩形的平行六面体是长方体；③直四棱柱是直平行六面体．其中真命题的序号是　　　　　　　　　。
+3．选择题：
+如果一个三棱锥的底面是直角三角形，那么这个三棱锥的三个侧面（　）   
+（A）都不是直角三角形；          （B）至多只能有一个是直角三角形；
+（C）至多只能有两个是直角三角形；（D）可能都是直角三角形。
+4．（1）已知棱锥的侧棱与底面所成的角都相等，试说出陵锥的顶点在底面内的射影所在的位置，并证明你的结论。
+（2）已知棱锥的顶点在底面内的射影在底面的内部，其侧面与底面所成的角都相等，试说出棱锥的顶点在底面内的射影所在的位置，并证明你的结论。
+5．已知正方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]的棱长为2．
+ 
+（第5题）
+（1）平面\[DC{{B}_{1}}{{A}_{1}}\]，将正方体分割成两个多面体，作出这两个多面体，并说出它们的几何体。
+（2）平面\[A{{B}_{1}}{{C}_{1}}\]将直三棱柱\[ABC-{{A}_{1}}{{B}_{1}}{{C}_{1}}\]分制成两个多面体,作出这两个多面体，并说出它们是怎样的几何体。
+6．已知长方体的长为\[\sqrt{29}\]，长、宽、高之和为9，求这个长方体的表面积。
+7．已知一个长方体的长、宽、高的比为1：2：3，对角线长是\[2\sqrt{14}\]，求这个长方体的体积。
+8．已知正方体\[ABCD-{A}'{B}'{C}'{D}'\]的边长为\[a\]，点\[EF\]分别是棱\[ADAB\]的中点。
+（1）求证：四边形\[EF{B}'{D}'\]是等腰梯形。
+（2）求等腰梯形\[EF{B}'{D}'\]的面积。
+9．已知一个圆锥的高是\[10cm\],侧面展开图是半圆,求这个圆锥的侧面积。
+ 
+（第10题）
+10.已知电镀螺杆的尺寸如图所示（图中单位：毫米）。如果每平方米用锌0.11千克，那么要电镀100个这样的螺杆需要多少锌？
+11．已知一个球的大圆的周长是80厘米，求这个球的表面积。
+12．已知地球的半径约是6371米，火星直径约是地球直径的一半，地球和火星的体积各是多少？
+13．已知一个直角三角形的两条直角边分别为15厘米、20厘米，以它的斜边为旋转轴旋转一周，得旋转体，求旋转体的体积。
+14．海面上地球球心角\[{1}'\]所对的大圆弧长约为1海里，1海里约是多少千米？（地球的半径约是6371 千米）
+15．在半径是\[r\]的球面上，有两点\[AB\]，半径\[OA\]和\[OB\]的夹角是\[n{}^\circ \left( n<180 \right)\]求\[AB\]的两点的球面距离。
+复习题
+B组
+1.已知长方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]的高为\[h\]，底面积为\[P\]，对角面\[B{{B}_{1}}{{D}_{1}}D\]的面积为\[Q\]。
+求它的侧面积。
+2．已知圆柱A和圆锥B的底面直径和高都与球\[C\]的直径相等，求证：圆柱\[A\]、球\[C\]、圆锥\[B\]的体积的比是3：2：1。
+3．在赤道上，东经140°上有点\[A\]西经130°上有点\[B\]，求\[AB\]两点的球面距离。（地球半径约为6371千米）
+4．设\[AB\]是球\[O\]的直径，\[AB=50\],\[{{O}_{1}}{{O}_{2}}\]是\[AB\]上的两点，平面\[\alpha \beta \]分别通过点\[{{O}_{1}}{{O}_{2}}\]，且垂直于\[AB\]截得圆\[{{O}_{1}}\]圆\[{{O}_{2}}\]，当圆\[{{O}_{1}}\]圆\[{{O}_{2}}\]的面积分别为\[49\pi \]、\[400\pi \]时，求\[{{O}_{1}}{{O}_{2}}\]两点的距离。
+5．有一块长为\[a\]、宽为\[b(a>b\]的矩形木板，将木板的一边着地，另外相对的两边紧贴在垂直于地面且二面为直角的墙角的两面上，围出一个三棱柱的谷仓，应怎样围才能使谷仓的面积最大？
+第十六章  排列组合与二项式定理
+16.1  计数原理I——乘法原理
+习题16.1  A组
+1.一种旅行包上的号码锁有三个拨号盘，每个拨号盘上有从0到9的10个数字，这三个拨号盘可组成多少种不同的三位数号码？
+2．一个商场共有9个出入口，若某人在进出商场时不要走同一个出入口，则他一次进出商场共有多少种不同的进出法？
+3．已知\[a\in \left\{ 1,3,5,7 \right\},b\in \left\{ 2,4,6,8 \right\}\]，在平面直角坐标系中，直线方程\[ax+by+1=0\]可以表示多少条直线？
+4．为了提高产品质量控制生产过程的温度、材料处理的时间和添加剂的剂量，为此工厂进行生产试验．试验控制温度有\[150{}^\circ C\]、\[160{}^\circ C\]和\[170{}^\circ C\]三种，材料处理的时间有10分钟、12分钟两种，添加剂的剂量有2克，4克和6克三种，共需要做多少次试验？
+5．\[\left( {{a}_{1}}+{{a}_{2}}+{{a}_{3}} \right)\left( {{b}_{1}}+{{b}_{2}}+{{b}_{3}}+{{b}_{4}} \right)\left( {{c}_{1}}+{{c}_{2}} \right)\]展开后共有多少项？
+6．某个学校食堂准备了5种素菜、3种荤菜和3种汤，取一种素菜、一种
+荤菜、一种汤配成一套菜，这个学校食堂可以有多少套不同的菜？
+习题16. l B组
+1．用1、2、3、4、5这五个数字可以组成多少个无重复数字的三位数的奇数？
+2．要把4封信投入3个信箱，共有多少种不同的投法？（允许将信全部或部分投入某一个信箱）
+3．（l）用0、l、2.3、4、5这六个数字可以组成多少个数字不重复的三位数？
+（2）用0、l、2、3、4、5这六个数字可以组成多少个三位数？
+4．已知集合\[M=\left\{ -3,-2,-1,0,1,2 \right\}\]，点\[P\left( a,b \right)\]在直角坐标平面上，且\[ab\in M\]。
+（1）平面上共有多少个满足条件的点\[P\]？
+（2）有多少个点\[P\]在第二象限内？
+（3）有多少个点\[P\]不在直线\[y=x\]上？
+16.2   排列
+习题16.2  A组
+1．从15件下同的礼品中取出4件分送给4个学生，共有多少种不同的送法?
+2．从5名运动员中选出3名参加乒乓球团体比赛，并排定他们的出场顺序，有多少种不同的方法？
+3．从若干种不同的盆景中选出2种摆放在阳台的左右两侧，如果想要有30种不同的选法，那么最少要准备多少种不同的盆景？
+4．从2.3.4.5.7.11这六个数字中选出2个数字作为分子和分母，共能组成多少个大小不同的分数？
+5．从6名志愿者中选出4人分别从事翻译、导游、导购、保洁工作，其中甲、乙两人不能从事翻译工作，选派志愿者的方案共有多少种？
+6．求下列各式中\[n\left( n\in {{N}^{\centerdot }} \right)\]的值：
+（1）\[P_{2n}^{3}=11P_{n}^{3}\]           （2）\[P_{n}^{5}+P_{n}^{4}=4P_{n}^{3}\]
+（3）\[P_{n}^{3}=nP_{3}^{3}\]
+7．（1）用1、2、3、4、5、6能组成多少个没有重复数字且大于500的三位数？
+（2）用1、2、3、4、5、6能组成多少个没有重复数字且小于500的三位数？
+8．已知\[P_{10}^{m}=10\times 9\times \cdot \cdot \cdot \times 5\]，求正整数\[m\]的值。
+9．从6名学生中任选3人分别担任语文、数学、英语课代表，其中学生甲不能担任数学课代表，共有多少种不同的选法？
+10．5名学生站成一排，其中甲学生不能站在排头的不同站法有多少种？
+11．4名教师、3名男生、2名女生排成一排，要求3名男生排在一起，2名女生排在一起，共有多少种不同的排队方法？
+12．用0、1、2、3、4、5这六个数字可以组成多少个没有重复数字的四位数的奇数？
+习题16.2   B组
+1．用0到9这十个数可以组成多少个没有重复数字的四位数？
+2．已知甲、乙、丙等7人站成一排，求分别按下列要求排队各有多少种不同的排法。
+（1）甲乙都与丙相邻。
+（2）甲乙之间有且只有1人。
+3.化简：\[\frac{1}{2!}+\frac{2}{3!}+\frac{3}{4!}+\cdot \cdot \cdot +\frac{n-1}{n}\].\[\left( n\in {{N}^{\centerdot }},n\ge 2 \right)\]
+4．已知抛物线方程为\[y=a{{x}^{2}}+bx+c\]，集合\[M=\left\{ -2,-1,0,1,2,3,4 \right\}\]，\[abc\in M\]，且\[abc\]两两不相等，满足条件的抛物线中，过原点的抛物线有多少条？
+5.求证：\[P_{1}^{1}+2P_{2}^{2}+3P_{3}^{3}+\cdot \cdot \cdot +nP_{n}^{n}=P_{n+1}^{n+1}-1\]。\[\left( n\in {{N}^{\centerdot }} \right)\]
+6．乒乓球队的10名队员中有3名主力队员，派5名队员参加比赛，其中，3名主力队员要安排在第一、三、五位置，其余7名队员中的2名要安排在第二、四位置，共有多少种不同的安排方法？
+16.3计数原理Ⅱ——加法原理
+习题16.3  A组
+1．用0、6、8这三个数字可组成多少个没有重复数字的整数？
+2．用O到9这十个数字可组成多少个能放5整除的无重复数字的二位数？
+3．某班的新年联欢会原定的5个节目已排成节目单，开始演出前又增加了2个新节目，如果将这两个新节目插入原节目单中，那么有多少种不同的插法？
+4．用0到9这十个数字，可组成多少个没有重复数字的四位数的偶数？
+5．有\[ABCDE\]五列火车停在某车站并行的5条火车轨道上，如果快车\[A\]不能停在第3道上，慢车\[B\]不能停在第1道上，那么这五列火车的停车方法有多少种？
+习题16.3 B组
+1.某班级周一的课表要排入政治、语文、数学、物理、化学、体育共6门学科，如果第一节课不排体育课，最后一节课不排数学课，那么共有多少种不同的排法？
+2.用0到5这六个数字可组成无重复数字的四位数的偶数，且这个偶数的百位、十位上都是奇数，满足条件的数共有多少个？
+3．将8个相同的小球放入编号为1、2、3的三个盒内，要求每个盒子的球数不小于它的编号数，共有多少种不同的放法？
+4.用1、2、3、4、5可组成多少个无重复数字且比13245大的五位数？
+16.4  组合
+习题16.4  A组
+1.试确定下列问题是排列问题还是组合问题。
+（1）3本不同的书借给甲、乙、丙3名学生，每人1本，有多少种不同的借法？
+（2）从10本书中任意取5本赠送给1名学生，有多少种不同的送法？
+（3）从15人中选3人去参加数学竞赛，有多少种不同的选法？
+（4）从l5人中选3人分别参加数学、物理、化学竞赛，有多少种不同的选法？
+2．某项测试共有两组试题．要求从第一组10个问题中选择8个，从第二组5个问题中选择4个，要完成这项测试有多少种不同的选择试题的方法？
+3．已知100件产品中有2件次品如果从这些产品中任取5件，那么其中恰好有2件次品的取法有多少种？
+4.某班级共有25名团员，其中10名男团员，15名女团员。
+（1）如果从中推选2名男团员和3名女团员参加团代会，那么有多少种不同的推选方法？
+（2）如果从中推选2名男团员和3名女团员组成团支部分别担任不同职务，那么有多少种不同的推选方法？
+5.以某个圆周上的10个点为顶点，可以作多少个三角形？
+6.求下列各式中\[n\left( n\in {{N}^{*}} \right)\]的值：
+（1）\[C_{n}^{5}+C_{n}^{6}=C_{n+1}^{3}\]            （2）\[C_{n+1}^{n-1}=\frac{7}{15}P_{n+1}^{3}\]
+7.求证：\[C_{n}^{m}=\frac{m+1}{n+1}C_{n+1}^{m+1}\]。\[\left( nm\in {{N}^{*}},n\ge m \right)\]
+8.计算：\[C_{3}^{0}+C_{4}^{1}+C_{5}^{2}+\cdot \cdot \cdot +C_{20}^{7}\]。
+9．从8名男运动员与7名女运动员中选出5名男运动员与5名女运动员组成一个运动队，不同的选法共有多少种？
+1O．要从6名男学生与6名女学生中选出2名男学生与2名女学生组成一个学习小组，共有多少种不同的选法？
+11.已知平面上共有l0个点，其中有4个点在一条直线上，除此之外再没有三点共线，以这10个点为顶点能组成多少不同的三角形？
+12.（1）计算\[C_{2}^{0}+C_{2}^{1}+C_{2}^{2}\]。
+（2）计算：\[C_{3}^{0}+C_{3}^{1}+C_{3}^{2}+C_{3}^{3}\]。
+（3）猜想\[C_{n}^{0}+C_{n}^{1}+C_{n}^{2}+\cdot \cdot \cdot +C_{n}^{n-1}+C_{n}^{n}\left( n\in {{N}^{*}} \right)\]的值，并证明你的结果。
+（4）你能否利用第（3）题来求一个集合的子集的个数？为什么？
+习题16.1   B组
+1．用一组5条平行线与另一组4条平行线共可围成多少个平行四边形？
+2.已知\[\frac{C_{2n}^{n-1}}{C_{2}^{n}\left( n-1 \right)}=\frac{56}{15}\]，求正整数\[n\]的值。
+3．从3本不同的语文书、4本不同的数学书和3本不同的物理书中取出4本书，且要求三种书都有共有多少种不同的取法？
+4．从5名女学生和4名男学生中选出4人担任4种不同的工作，且要求选出的4人中男女学生都有，共有多少种不同的选法？
+5．已知集合\[AB\]都含有12个元素，\[A\bigcap B\]含有4个元素，集合\[C\]含有3个元素，且\[C\underset{\ne }{\mathop{\subset }}\,A\bigcup B,C\bigcap B\ne \varnothing \],求满足条件的集合\[C\]的个数。
+6．某旅游团要从8个风景点中选2个风景点作为当天的旅游地，求分别满足以下条件的选法的种数。
+（l）甲乙风景中至少选一个。
+（2）甲乙风景点中至多选一个。
+（3）甲乙风景点中必须选一个，而且只能选一个。
+16.5二项式定理
+习题16.5  A组
 
+1．用二项式定理展开下列两式：
+（1）\[{{\left( a+2b \right)}^{6}}\].                 （2）\[{{\left( 1-\frac{1}{x} \right)}^{5}}\].
+2．化简：
+（1）\[{{\left( 1+\sqrt{x} \right)}^{5}}+{{\left( 1-\sqrt{x} \right)}^{5}}\]           （2）\[{{\left( 2x+y \right)}^{4}}-{{\left( 2x-y \right)}^{4}}\]
+3．（1）求\[{{\left( x-1 \right)}^{15}}\]的二项展开式中的前4项.
+（2）求\[{{\left( 2{{a}^{3}}-3{{b}^{2}} \right)}^{10}}\]的二项展开式中的第8项。
+4．求下列各式的二项展开式中指定的项的系数：
+（l）\[{{\left( 1-\frac{1}{2x} \right)}^{10}}\]二项展开式中含\[\frac{1}{{{x}^{4}}}\]的项。
+（2）\[{{\left( 3{{x}^{3}}-\frac{1}{3{{x}^{3}}} \right)}^{10}}\]的二项展开式中的常数项。
+5．在\[{{\left( 3x-2y \right)}^{9}}\]的展开式中，求二项式系数的和以及各项系数的和。
+6．（1）用二项式定理证明：\[{{\left( n+1 \right)}^{n}}-1\]能被\[{{n}^{2}}\]整除。
+（2）用二项式定理证明：\[{{99}^{10}}-1\]能被l000整除。
+7．已知\[{{\left( 1+x \right)}^{n}}\]的二项展开式中第4项与第8项的二项系数相等，求这两项的二项式系数。
+8.求证：\[{{2}^{n}}-C_{n}^{1}\cdot {{2}^{n-1}}+C_{n}^{2}\cdot {{2}^{n-2}}+\cdot \cdot \cdot +C_{n}^{n-1}\cdot 2+{{\left( -1 \right)}^{n}}=1\]
+9．选择题：
+\[C_{n}^{1}+3C_{n}^{2}+9C_{n}^{3}+\cdot \cdot \cdot +{{3}^{n-1}}C_{n}^{n}\]等于                      （   ）
+（A）\[{{4}^{n}}\]；      （B）\[\frac{{{4}^{n}}}{3}\]；         （C）\[\frac{{{4}^{n}}}{3}-1\]       （D）\[\frac{{{4}^{n}}-1}{3}\]
+1O．已知\[n\]为大于1的自然数，证明：\[{{\left( 1+\frac{1}{n} \right)}^{n}}>2\]。
+11．在\[{{\left( {{x}^{2}}-\frac{3}{x} \right)}^{n}}\]的二项展开式中，有且只有第五项的二项式系数最大，求\[C_{n}^{0}-\frac{1}{2}C_{n}^{1}+\frac{1}{4}C_{n}^{2}-\cdot \cdot \cdot +{{\left( -1 \right)}^{n}}\cdot \frac{1}{2}C_{n}^{n}\]。
+习题16.5   B组
+1．选择题：
+\[C_{100}^{0}-C_{100}^{2}+C_{100}^{4}-\cdot \cdot \cdot +C_{100}^{98}+C_{100}^{100}\]等于                         （   ）
+（A）\[-{{2}^{50}}\]；			（B）0；         （C）1；		（D）\[{{2}^{50}}\].
+2．（l）求\[{{\left( \frac{\sqrt{x}}{2}-\frac{2}{\sqrt{x}} \right)}^{10}}\]的二项展开式的中间一项。
+3.求\[{{\left( x\sqrt{y}-y\sqrt{x} \right)}^{11}}\]的二项展开式的中间两项。
+3．在\[{{\left( 1+3x \right)}^{n}}\]的二项展开式中，末三项的二项式系数之和等于631。
+（1）求二项展开式中二项式系数最大的项是第几项。
+（2）求二项展开式中系数最大的项。
+4．求\[{{77}^{77}}-15\]除以19的余数。
+5．求证：\[{{2}^{6n-3}}+{{3}^{2n-1}}\]能被ll整除。
+6.已知\[{{\left( x+1 \right)}^{n}}={{x}^{n}}+\cdot \cdot \cdot +a{{x}^{3}}+b{{x}^{2}}+cx+1\left( n\in {{N}^{*}} \right)\]，且\[a:b=3:1\]，求\[c\]的值。
+复习题
+A组
+1．填空：
+（1）某学生要从2本科技书、2本政治书和3本文艺书中任取一本书，共有     种不同的取法。  
+（2）如果将3名男学生与2名女学生排成一排，且2名女生不排在相邻位置上，那么不同排法的种数是            。
+（3）计划在某画廊展出10幅不同的画，其中l幅为水彩画，4幅为油画，5幅为国画，排成一行陈列，如果同一品种的画必须排在一起，并且水彩不能排在两端，那么陈列方式有	      种。
+（4）用数字0、1、2、3、4、5可组成没有重复数字的六位数，其中数字2、4排在相邻数位上，满足条件的六位数共有        个。
+（5）\[{{\left( {{x}^{2}}-\frac{1}{2\sqrt{x}} \right)}^{3}}\]的二项展开式的第3项是        。
+2．选择题：
+（1）若把4只不同颜色的球放人3个不同的袋内，则不同的放法的种数是      （   ）
+（A）\[{{4}^{3}}\]；     （B）\[{{3}^{4}}\]；    （C）\[P_{4}^{3}\]；    （D）\[C_{4}^{3}\]。
+（2）若\[C_{n}^{3}=12P_{n}^{1}\]，则\[n\]的值为                            （     ）
+A）3；   （B）j；    （C）7；    （D）10.    
+（3）语文兴趣小组有学生10人，从中选派3人参加诗歌朗诵会，不同的选派方法的种数是                                             （     ）
+（4）用1、2、3、4、5这五个数字可以组成比20000大，且百位数不是3的没有重复数字的五位数，满足条件的五位数共有               （     ）
+  （A）96个；   （B）78个；   （C）77个；    （D） 64个．
+（5）某市工商局会同商检局对35种商品进行抽样检查，鉴定结果为其中有5种是不合格商品，现从这35种商品中任取3种，至少有2种不合格商品的取法种数是（      ）
+（A）\[C_{5}^{3}+C_{5}^{2}C_{30}^{1}\]；                      （B）\[P_{5}^{3}+P_{5}^{2}P_{30}^{1}\]；
+（C）\[C_{5}^{2}C_{30}^{1}\]；                          （D）\[P_{5}^{2}P_{30}^{1}\]。
+（6）\[{{\left( x-1 \right)}^{n}}\]的二项展开式中第\[m\]项\[\left( m\le n,n\in {{N}^{*}} \right)\]的二项式的系数是（   ）
+（A）\[C_{n}^{m-1}\]；                            （B）\[{{\left( -1 \right)}^{m-1}}C_{n}^{m}\]；
+（C）\[C_{n}^{m}\]；								 （D）\[{{\left( -1 \right)}^{m}}C_{n}^{m}\]。
+3．某学生邀请10位同学中的6位参加一个生日聚会，其中2位同学要么都邀请，要么都不邀请，共有多少种邀请方法？
+4．某次篮球赛预赛分成3个赛区进行，第一赛区男队、女队各9队，第二赛区男队、女队各10队，第三赛区男队9队，女队10队，各赛区男队、女队各取前4名参加决赛。预赛、决赛都采用单循环制比赛，一共需要进行多少场比赛？
+5.已知\[{{\left( x\sin \theta +1 \right)}^{6}}\]的二项展开式\[{{x}^{2}}\]项的系数与\[{{\left( x-\frac{15}{2}\cos \theta  \right)}^{4}}\]的二项展开式中\[{{x}^{3}}\]项的系数相等，求\[\cos \theta \]的值。
+复习题
+B组
+1．填空：
+（1）关于\[x\]的方程\[C_{34}^{{{x}^{2}}-2x}=C_{34}^{5x-6}\]的解集是_________．
+（2）6个人排成一列，其中甲乙两人之间至少有两个人的不同排法种数是_____。
+（3）由数字1、2、3、4组成没有重复数字的不同自然数的个数是_____。
+（4）若\[m\in \left\{ 2,5,7,8 \right\}\]，\[n\left\{ 1,3,4,6 \right\}\]，则方程\[\frac{{{x}^{2}}}{m}+\frac{{{y}^{2}}}{n}=1\]表示焦点在\[x\]轴上的椭圆有______个。
+（5）若\[{{\left( 1+\sqrt{x} \right)}^{n}}\]的展开式的系数和大于8且小于32，则系数最大的项是____。
+2.选择题： 
+（l）已知在100件产品中有3件是次品，如果从中任意抽取5件，那么其中至多有2件次品的抽法的种数是 （  ）
+（A）\[C_{3}^{2}C_{97}^{3}\]；   （B） \[C_{100}^{5}C_{3}^{2}\]；    （C）\[C_{100}^{5}C_{3}^{2}C_{97}^{2}\]  （D）\[C_{3}^{2}C_{97}^{2}+C_{3}^{1}C_{97}^{4}\]。
+（2）从10名男学生和12名女学生中各选3名排成一列，其中男、女相间排成一列的不同排法的种数是                               （     ）
+（A） \[2P_{10}^{3}P_{12}^{3}\]；    （B）\[P_{10}^{3}P_{12}^{3}\]；   （C）\[C_{4}^{3}P_{10}^{3}P_{12}^{3}\] ；   （D）\[P_{4}^{3}P_{10}^{3}P_{12}^{3}\]。
+3.100件产品中有97件合格品与3件次品，从中任意抽取7件进行检查。
+（1）抽出的7件都是合格品的抽法有多少种？
+（2）抽出的7件恰好有2件是次品的抽法有多少种？
+（3）抽出的7件至少有2件是次品的抽法有多少种？
+4．求\[C_{10}^{1}+2C_{10}^{2}+4C_{10}^{3}+\cdot \cdot \cdot +{{2}^{9}}C_{10}^{10}\]的值。
+5．已知\[{{\left( {{2}^{\lg x}}-1 \right)}^{n}}\]的二项展开式中，最后三项的二项式系数和等于22，中间项为-1280，求\[x\]的值。
+第十七章  概率论初步
+17.1  古典概型
+习题17.1  A组
+1．判断下列现象哪些是随机现象，哪些不是随机现象。
+（l）月球绕着地球转，地球绕着太阳转。
+（2）气压低的地方，水的沸点低。
+（3）黄浦江水位超出警戒线l米。
+2．袋中有10个球，记有号码0、l、2、3、4、5、6、7、8、9。求下列事件的概率：
+（l）任意取出2个球，号码为l、2。
+（2）任意取出3个球，没有号码3。
+3．掷两颗骰子，求出现下列事件的概率。
+（l）两颗骰子的点数之和等于2。
+（2）两颗骰子的点数之和等于3。
+（3）两颗骰子的点数之和等于5。
+（4）两颗骰子的点数之和等于7。
+4．已知某班有38名学生，小李、小王、小张是该班的3名学生，某次班会决定随机地挑选这3名学生在会上发言，求下列事件出现的概率。
+（1）小李、小王、小张按此次序被选中。
+（2）小李、小王、小张按任意次序被选中。
+5．某剧场将举办8场音乐会．其中2场演奏莫扎特的作品，小方对 8场音乐会都很感兴趣，难于选择，最后决定用抽签的方法决定参加哪两场音乐会。小方抽到两场都是莫扎特音乐会的概率是多少？两场中1场是莫扎特音乐会的概率是多少？
+6．一部4卷的文集，按任意次序放到书架上，求各卷自左向右或自右向左的卷号为l、2、3、4的概率。
+7．已知10个产品中有3个次品，从中任取5个，求至少有一个次品的概率。
+习题17.1   B组
+1．某种密码由8个数字组成，且每个数字可以是0、1、2、…、9中的任意一个数，求这种密码由完全不同的数字组成的概率。
+2．一工厂生产的10个产品中有9个一等品、1个二等品，现从这批产品中抽取4个，求其中恰好有一个二等品的概率。
+3．掷一颗骰子，求出现点数不小于2的概率。
+4．某城镇共有10000辆自行车，牌照编号从0000l到10000，求在此城镇中偶然遇到的一辆自行车，其牌照号码中有数字8概率。
+17.2  频率与概率
+习题l7.2 A组
+1.近代数学家掷硬币试验的一些结果列于下表：
+试验者	掷硬币次数\[n\]	正面出现次数\[m\]
+德·摩尔根	2048	1061
+蒲丰	4040	2048
+皮尔逊	12000	6019
+皮尔逊	24000	12012
+维尼	30000	14994
+分别求正面出现的频率，并根据这些结果说一说前人所做掷硬币试验反映了怎样的规律。
+2．两台机床加工同样的零件，第一台出现废品的经验概率是0.03，第二台出现废品的经验概率是0.02，加工出来的零件放在一起，并且已知第一台加工的零件比第二台加工的零件多一倍，求任意取出的零件是合格品的经验概率。
+习题17.2 B组
+1．在某城市中共发行甲、乙、丙三种报纸，在这个城市的居民中，订甲报的人占总人数的45%，订乙报的人占35%，订丙报的人占30%，同时订甲乙两报的人占10%，同时订甲丙两报的人占8%，同时订乙丙两报的人占5%，同时订三种报纸的人占3%，求：
+（l）只订甲报的人所占百分比。
+（2）只订甲报或乙报的人所占百分比。
+（3）只订一种报纸的人所占百分比。
+（4）正好订两种报纸的人所占百分比。
+（5）至少订一种报纸的人所占百分比。
+（6）不订任何报纸的人所占百分比。
+复习题
+A组
+1.将\[n\]间房间分给\[n\]个人，每个人都以相等的可能性进入每一间房间．而且每间房间里的人数没有限制，求不出现空房的概率。
+2.把10本书随机地排在书架上，求其中指定的3本书排在一起的概率。
+3．某人有5把钥匙，但只有一把能打开门，他每次取一把钥匙尝试开门，求试到第3把钥匙时才打开门的概率。
+4．某次测验有10道备用试题，甲同学在这10道题中能够答对6题，现在备用试题中随机抽考5题，规定答对4题或5题为优秀，答对3题为及格。
+（1）求甲同学获优秀的概率。
+（2）求甲同学至少能够及格的概率。
+5．某中学有十八个班级，每班选出三个代表出席学生代表会议，从54名代表中任选18名组成工作委员会，分别求下列事件的概率：
+（l）高一（1）班在工作委员会中有代表。
+（2）每个班级在工作委员会中都有代表。
+复习题
+B组
+1．4个人每人带一件礼品参加聚会，聚会开始后，先把4件礼品编号，然后每个人任抽一个号码，按号领取礼品，求这4个人都没拿到自己带去的礼品的概率。
+2．一批零件中有9个合格品和3个废品，安装机器时，从这批零件中随机取出一个，如果每次取出的成品不放回去，分别求在取得第1件合格品以前已取出\[x\]件废品数的概率，\[x=0,1,2,3\]。
+3．已知血型为\[OABAB\]型的概率分别为0.46、0.40、0. 11、0. 03。任意抽取一人，求下列事件的概率：
+（1）抽出人为\[O\]型血的概率。
+（2）抽出人为\[A\]或\[B\]型血的概率。
+（3）抽出人不是\[AB\]型血的概率。
+第十八章  基本统计方法
+18.1  总体和样本
+习题18.1   A组
+1．从一个有800户居民的小区中抽取一个30户的样本，样本中每户的人数如下所示：5、6、3、3、2、3、3、3、4、4、3、2、7、4、3、5、4、4、3、3、4、3、3、1、2、4、3、4、2、4.
+（1）估计该小区平均每户的人数。
+（2）估计该小区居民总数。
+2．人们常认为l6℃是宜人的年平均温度，单纯根据平均气温的报告来选择野营地点是否恰当？为什么？
+习题18.1   B组
+1．某校教师进行体格检查，测得他们的收缩压（血压，单位：毫水汞柱）的值如下表所示：
+收缩压范围	89.5～104.4	104.5～119.4	119.5～134.4	134.5～149.4	149.5～164.4	164.5～179.4
+人数	24	62	72	26	12	4
+（1）求该校教师收缩压的平均数和中位数。（用各收缩压范围的中点的值代表该范围的取值，结果精确到0.1）
+（2）做出收缩压分布频率直方图。
+2．某计算机操作培训班各学员的考试成绩如下表所示：
+得分	100	90	80	70	67	65	63	55
+人数	2	3	10	25	13	3	2	2
+求学员考试成绩的平均数、中位数和得分的方差。
+18.2抽样技术
+习题18.2 A组
+1．利用本书附录“随机数表”，从l到100的数字中，随机抽取10个数字作样本。
+2．从2开始的200个偶数，即2、4、6、8、…400中，用系统抽样的办法抽取20个偶数作样本。
+3．填空：
+如果采用分层抽样，从个体数为\[N\]的总体中抽取一个容量为\[n\]的样本，那么每个个体的样本，被抽到的概率等于______。
+4．在下列问题中，各采用怎样的抽样方法抽取样本较为合适？
+（1）从20台手提电脑中抽取4台进行质量检查。
+（2）某大剧院共有80排座位，每排共有120个座位，座位号为1～120，有一次音乐会坐满了观众，音乐会结束后为听取观众意见需留下80名观众进行座座谈。
+（3）某学校共有七个年级1600名学生，其中，六年级学生160名，七年级学生160名，八年级学生240名，九年级学生240名，高中一年级学生200名，高中二年级学生280名，高中三年级学生320名，从中抽取一个容量为160的样本。
+习题18.2  B组
+1.某学校共有2000名学生，从中选取20名学生参加学生代表大会，试采用随机抽样和分层抽样两种方法进行具体实施。
+2．某学校学生志愿者协会共有250名成员，其中高中一年级学生88名，高中二年级学生112名，高中三年级学生50名，为了了解志愿者活动与学校学习之间的关系，需要抽取50名学生进行调查，试确定抽取方法并写出过程。
+18.3  统计估计
+习题18.3   A组
+1．从某中学200名新生中随机抽取10名进行身高测量，得数据为：168、 159、166、163、170、161、167、155、162、169（单位：\[cm\]）。试估计该中学200名新生的平均身和高于165\[cm\]的概率估计值。
+2．某班级有40名同学参加打靶训练，他们的成绩如下表所示（单位：环）：
+检验成绩	频数
+4、5	2
+5、6	3
+6、7	10
+7、8	15
+8、9	8
+9、10	2
+求该班同学的成绩和\[2\sigma \]区间估计。
+习题18.3   B组
+1.某校一年级共有学生220名，为了解该校高一学生的生长情况，决定做一次抽样调查，按随机抽样方法抽22名学生，测量他们的身高体重记录在下表中，表中\[h\]（单位：米）表示学生的身高，\[g\]（单位：千克）是学生的体重。
+\[h\]	1.57	1.65	1.56	1.67	1.55	1.71	1.77	1.77
+\[g\]	44	53	46	50	43	57	60	66
+\[h\]	1.60	1.65	1.62	1.70	1.58	1.73	1.80	1.80
+\[g\]	47	55	49	59	52	61	67	72
+\[h\]	1.50	1.55	1.62	1.64	1.59	1.60		
+\[g\]	41	42	51	51	54	57		
+求该校高中一学生总体体重均值的点估计值，总体身高均值的点估计值及总体体重均值的\[2\sigma \]区间估计。
+2．为了检测某种产品的质量，抽取了一个容量为100的样本，测得它们的质量如下表所示：
+质量区间	频数
+（10.75，10.85）	3
+（10.85，10.95）	9
+（10.95，11.05）	13
+（11.05，11.15）	16
+（11.15，11.25）	26
+（11.25，11.35）	20
+（11.35，11.45）	7
+（11.45，11.55）	4
+（11.55，11.65）	2
+求该种产品的质量\[2\sigma \]区间估计。
+18.4实例分析
+习题18.4   A组
+1.某公司为了解员工的年收入情况，随机抽取10名员工，调查他们的年收入如下：81000、77000、69000、77000、83000、100000、62000、77000、58000、91000（单位：元），请据此估计该公司员工年平均收入、年中等收入和年收入众数。
+2．为考察某校高中三年级男学生的身高，随机地抽取50名男学生，测得他们的身高（单位：\[cm\]）如下表所示：
+170	170	165	169	167	167	170	161	164	167
+171	163	163	169	166	168	168	165	160	168
+158	160	163	167	173	168	169	170	160	164
+171	169	167	159	151	168	170	174	160	168
+176	157	162	166	158	164	180	179	169	169
+（l）填写下表：
+身高	频数	频率\[f\]
+\[\left[ 150.5,153.5 \right)\]		
+\[\left[ 153.5,156.5 \right)\]		
+\[\left[ 156.5,159.5 \right)\]		
+\[\left[ 159.5,162.5 \right)\]		
+\[\left[ 162.5,165.5 \right)\]		
+\[\left[ 165.5,168.5 \right)\]		
+\[\left[ 168.5,171.5 \right)\]		
+\[\left[ 171.5,174.5 \right)\]		
+\[\left[ 174.5,177.5 \right)\]		
+\[\left[ 177.5,180.5 \right)\]		
+（2）估计该校高中三年级学生的平均身高。
+（3）画出该校高中三年级学生身高的频率直方图，分析该校高中三年级学生身高的分布情况。
+习题18.4 B组
+1.某区教育局为了了解初中学生的作业负担，随机抽查了25个初中学生，调查他们平均每天在家庭作业上所花的时间，结果如下表所示（单位：分）：
+40	80	80	90	90
+50	90	90	100	110
+70	70	80	70	80
+40	80	70	50	70
+60	50	100	80	90
+求出该区初中学生家庭作业时间的平均数、中位数，并画出频率直方图来描述这些数据。
+2．研究40个妇女的血液中含钾的数据（单位：毫克/升），记录如下：
+3.2	4.9	3.8	3.6	3.4
+5.8	5.3	4.6	5.1	3.6
+6.0	4.7	4.3	4.2	4.4
+4.5	5.0	4.4	5.8	3.9
+4.2	3.9	3.8	3.7	4.2
+4.3	4.9	5.6	3.7	4.1
+2.7	4.0	4.2	4.3	4.3
+5.1	5.2	4.7	4.5	4.9
+求含钾量的平均数、中位数、标准差，并画出分成7个组的含钾量的频率直方图。
+3．抽烟对健康有害．调查20个肺部患病的病人每天抽烟的数量（单位：支），如下表所示：
+10	22	11	13	0
+8	13	9	12	11
+0	17	18	15	16
+14	19	14	0	11
+分6组画出抽烟分布频率直方图。
+复习题
+A组
+1．什么是样本的代表性？
+2．从某批灯泡中随机抽取10只作寿命实验，其寿命（单位：时）如下：1050、1100、1120、1280、1250、1040、1030、1110、1240、1300，求该批灯泡寿命的平均数和标准差。
+3．某学校共有l 000名学生，其中高中一年级有学生300名，高中二年级有学生300名，高中三年级有学生400名，为调查学生日均上网时间，需要100名学生参加调查，试选取合适的抽样方法并实施。
+4．仓库内有36个货架，随机抽取10个货架，这10个货架上的货物的价值（单位：元）分别为540、290、610、380、510、580、610、560、770、600。库内货物的总价值。
+5．某校有200名学生参与研究性学习，每人参加一个课题组的研究，其中参加文学类的有33人，参加理化类的有30人，数学类的有62人，参加社会科学类的有47人，参加信息类的有28人。
+（1）列出学生参加各类课题组的分布表。
+（2）画出学生参加各类课题组的频率直方图。
+\[*\]6．利用随机投点法求抛物线\[y={{x}^{2}}-4\]与\[x\]轴组成的封闭图形的面积。
+总复习题
+A组
+1.用集合语言表示下列语句，并画图表示。
+（1）点\[P\]在直线\[l\]上，点\[P\]不在平面\[\alpha \]上，直线\[l\]与平面\[\alpha \]相交于\[O\]。
+（2）用集合语言表述下图中空间的点、直线和平面的关系。
+ 
+（第1题）
+2．判断下列说法是否正确，如果正确，请说明依据；如果不正确，请举反例。
+（1）梯形是平面图形。
+（2）三点可确定一个平面。
+（3）四边相等的四边形是菱形。
+3．如图所示，正方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]，的棱长为\[\alpha EF{{E}_{1}}{{F}_{1}}\]分别为棱的中点。
+ 
+（第3题）
+（1）求证：\[\angle AFE=\angle {{A}_{1}}{{F}_{1}}{{E}_{1}}\]。
+（2）求异面直线\[EF\]与\[CD\]所成的角的大小。
+4．已知直线\[ab\]和平面\[\alpha \]所成的角均为\[30{}^\circ \]，能否判断\[a//b\]？为什么？
+5．已知\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]为正方体。
+ 
+（第5题）
+（l）求二面角\[{{A}_{1}}-{{D}_{1}}D-{{B}_{1}}\]的大小。
+（2）求二面角\[A-{{B}_{1}}{{D}_{1}}-C\]的大小。
+6．作正三棱锥\[P-ABC\]的直观图，使它的高为\[3cm\]．底边长为\[4cm\]。
+7．在球内有相距\[9cm\]的两个平行的截面．若两截面圆为球的小圆时，其面积分别为\[49\pi c{{m}^{2}}\]、\[400\pi c{{m}^{2}}\]，求此球的表面积及体积。
+8.已知圆锥的母线\[l\]与底面成\[45{}^\circ \]角，这个圆锥的体积为\[9\pi c{{m}^{3}}\]，求这个圆锥的高\[h\]及侧面积。
+9．已知正三棱锥的底边长为l，侧棱长为2，求这个正三棱锥的体积。
+10.设地球半径为\[R\]，城市\[A\]位于东经\[90{}^\circ \],北纬\[60{}^\circ \],城市\[B\]位于东经\[150{}^\circ \]、北纬\[60{}^\circ \]，求城市\[AB\]之间的距离。
+ 
+（第10题）
+11.有4名同学选报铅球、跳高、跳远三个体育项目，如果每三个报一项，那么共有多少种报名方法？
+12．从6种菜品种中选出3种，分别种植在不同的3块地上进行试验，有多少种不同的种植方法？
+13.（1）已知\[\frac{1}{C_{5}^{n}}-\frac{1}{C_{6}^{n}}=\frac{7}{10C_{7}^{n}}\]，\[n\in {{N}^{*}}\]，求\[C_{8}^{n}\]。
+（2）已知\[P_{m}^{2}=7P_{m-4}^{2},m\in {{N}^{*}}\]，求\[m\]的值。
+14.已知\[{{\left( x\sqrt{x}-\frac{1}{x} \right)}^{4}}\]的二项展开式的第5项为\[\frac{15}{2}\]，求\[\underset{n\to \infty }{\mathop{\lim }}\,\left( {{x}^{-1}}+{{x}^{-2}}+\cdot \cdot \cdot +{{x}^{-n}} \right)\]的值。
+15.设\[n\in {{N}^{*}}\]，求证：\[C_{n}^{1}+C_{n}^{2}+\cdot \cdot \cdot +C_{n}^{n}=1+2+{{2}^{2}}+\cdot \cdot \cdot +{{2}^{n-1}}\]。
+16.某人参加某抽奖活动，现有300张抽奖劵，其中有1个一等奖，2个二等奖，3个三等奖，求这个人抽一次奖就中奖的概率。
+17．在一个袋内装有同样大小、同样质地的红球5只，黑球4只，白球2只，绿球1只，今从袋中任意摸取一个球。
+（1）摸出红球或黑球的概率。
+（2）摸出红球或黑球或白球的概率。
+总复习题
+B组
+1．填空：
+（1）求\[{{\left( 1.009 \right)}^{5}}\]的近似值_______。（结果精确到0.001）
+（2）设球的半径为4，用一个平面截球，使截面圆的半径为2，则截面与球心的距离_________。
+（3）4名男生、4名女生站站成一排，男女间隔排列，则不同的排法有___种。
+2.已知长方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]中,\[AB=BC=4\]，\[A{{A}_{1}}=2\]。
+ 
+（第2题）
+（l）求异面直线\[{{B}_{1}}{{C}_{1}}\]与\[AC\]所成的角的大小及距离。
+（2）求异面直线\[A{{A}_{1}}\]所\[{{B}_{1}}D\]所成角的大小及距离。
+3．在正方体\[ABCD-{{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}\]中，\[AB=2\sqrt{2}\],\[BD\]与\[AC\]交于点\[O\]。
+ 
+（第3题）
+（1）求直线\[{{D}_{1}}O\]与平面\[ABCD\]所成角的正弦值。
+（2）求点\[D\]到平面\[AC{{D}_{1}}\]的距离。
+4．已知圆柱的轴截面\[ABCD\]是正方形，点\[E\]在底面圆周上，\[AF\bot DE\]，\[F\]是垂足。
+（1）求证：\[AF\bot DB\]。
+（2）如果圆柱与三棱锥\[D-ABE\]的体积比等于\[3\pi \]，求直线\[DE\]与平面\[ABCD\]所成的角的正切值。
+ 
+（第4题）
+5．一个球受热膨胀，如果它的表面积增加21%．那么这个球的半径增加多少？
+6.求\[C_{3\pi }^{38-n}+C_{21+n}^{3\pi }\left( n\in {{N}^{*}} \right)\]的值。
+7．利用二项式定理证明：\[{{3}^{n}}>{{2}^{n-1}}\left( n+2 \right)\left( n\in {{N}^{*}},n\ge 2 \right)\]。
+8．以一个正方体的顶点为顶点能组成多少个三棱锥？
+9.已知\[{{\left( \sqrt[3]{x}-\frac{1}{\sqrt{x}} \right)}^{n}}\]的二项展开式中，第三项与第二项的二项式系数之比为11：2 ，求正整数\[n\]及二项展开式中的所有的有理项。
+10．已知\[{{\left( {{x}^{\lg x}}+1 \right)}^{n}}\]的二项展开式中，求三项的二项式系数的和为22．二项式系数最大的项为20000，求实数\[x\]的值。
+11.从3名男生和\[n\]名女生中，任意选3人参加会议，已知选出的3人中至少有一名女生的概率是\[\frac{34}{35}\]，求\[n\]的值。
+12．某造于为了估计自己的射击技术，一天内连续进行50次射击，命中环数记录如下：
+10	5	5	8	7	8	6	9	7	8
+6	6	5	6	7	8	10	9	7	8
+8	7	6	5	9	9	7	8	8	5
+8	6	7	6	9	6	9	8	8	6
+7	6	8	10	7	10	8	7	7	9
+（l）求该选手这一天平均一次命中的环数及标准差。
+（2）求该选手均值的\[\sigma \]区间估计。
+*13.用随机投点法，求\[y=\sin x\left( 0\le x\le \pi  \right)\]与\[x\]轴组成的封闭图形的面积。

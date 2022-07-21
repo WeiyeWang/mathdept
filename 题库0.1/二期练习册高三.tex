@@ -1,4 +1,49 @@
-第十四章  空间直线与平面
+\documentclass[10pt,a4paper]{article}
+\usepackage[UTF8,fontset = windows]{ctex}
+\setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{华文中宋}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
+\usepackage{ifthen,indentfirst,enumerate,color,titletoc}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{longtable}
+\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing,3d,angles}
+\usepackage[bf,small,indentafter,pagestyles]{titlesec}
+\usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
+\renewcommand{\baselinestretch}{1.65}
+\newtheorem{defi}{定义~}
+\newtheorem{eg}{例~}
+\newtheorem{ex}{~}
+\newtheorem{rem}{注~}
+\newtheorem{thm}{定理~}
+\newtheorem{coro}{推论~}
+\newtheorem{axiom}{公理~}
+\newtheorem{prop}{性质~}
+\newcommand{\blank}[1]{\underline{\hbox to #1pt{}}}
+\newcommand{\bracket}[1]{(\hbox to #1pt{})}
+\newcommand{\onech}[4]{\par\begin{tabular}{p{.9\textwidth}}
+A.~#1\\
+B.~#2\\
+C.~#3\\
+D.~#4
+\end{tabular}}
+\newcommand{\twoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+A.~#1& B.~#2\\
+C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\vartwoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+(1)~#1& (2)~#2\\
+(3)~#3& (4)~#4
+\end{tabular}}
+\newcommand{\fourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+A.~#1 &B.~#2& C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\varfourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+(1)~#1 &(2)~#2& (3)~#3& (4)~#4
+\end{tabular}}
+\begin{document}
+\begin{enumerate}[1.]
+
 \item 1 平面及其基本性质
 习题14.1 A组
 \item 用集合语言表示下列语句并画图表示:
@@ -137,7 +182,7 @@ A组
 (1)直线$l$在平面$\alpha$上, 点$M$在平面$\alpha$上, 但不在直线$l$上.
 (2)平面$\alpha$与平面$\beta$交于直线$l$. 直线$a$与平面$\alpha$、平面$\beta$都没有公共点.
 \item 将下列集合符号表述改为自然语言表述, 并判断它们是否正确.
-(l$A\in \beta$, $B\in \beta \Rightarrow AB\underset\ne \mathop \in \beta$.
+(l$A\in \beta$, $B\in \beta \Rightarrow AB\not\in \beta$.
 (2) $A\in \alpha$, $B\in \alpha$, $C\in AB\Rightarrow C\in \alpha$.
 \item 已知直线$AB//CD$, 平面$\alpha$满足: $AB\cap \alpha =E,CD\cap \alpha \text=F$, 求作直线$BC$与平面$\alpha$的交点.
 \item 在长方体$ABCD-A'B'C'D'$的面$A'C'$上有一点$P$, 过点$P$在面$A'C'$上画一条直线和$BD$平行, 应当如何画? 并说明理由.
@@ -377,7 +422,7 @@ B组
 \item 已知$\dfrac{C_{2n}^{n-1}}{C_2^n(n-1)}=\dfrac{56}{15}$, 求正整数$n$的值.
 \item 从3本不同的语文书、4本不同的数学书和3本不同的物理书中取出4本书, 且要求三种书都有共有多少种不同的取法?
 \item 从5名女学生和4名男学生中选出4人担任4种不同的工作, 且要求选出的4人中男女学生都有, 共有多少种不同的选法?
-\item 已知集合$AB$都含有12个元素, $A\cap B$含有4个元素, 集合$C$含有3个元素, 且$C\underset\ne \mathop\subset A\cup B,C\cap B\ne \varnothing$, 求满足条件的集合$C$的个数.
+\item 已知集合$AB$都含有12个元素, $A\cap B$含有4个元素, 集合$C$含有3个元素, 且$C\not \subset A\cup B,C\cap B\ne \varnothing$, 求满足条件的集合$C$的个数.
 \item 某旅游团要从8个风景点中选2个风景点作为当天的旅游地, 求分别满足以下条件的选法的种数.
 (l)甲乙风景中至少选一个.
 (2)甲乙风景点中至多选一个.
@@ -430,7 +475,7 @@ A组
 A)3;    (B)j;\blank{50}(C)7;\blank{50}(D)10.
 (3)语文兴趣小组有学生10人, 从中选派3人参加诗歌朗诵会, 不同的选派方法的种数是\blank{50}\bracket{20}.
 (4)用1、2、3、4、5这五个数字可以组成比20000大, 且百位数不是3的没有重复数字的五位数, 满足条件的五位数共有\blank{50}\bracket{20}.
-  \fourch{96个;}{78个;}{77个;}{64个}
+    \fourch{96个;}{78个;}{77个;}{64个}
 (5)某市工商局会同商检局对35种商品进行抽样检查, 鉴定结果为其中有5种是不合格商品, 现从这35种商品中任取3种, 至少有2种不合格商品的取法种数是\bracket{20}.
 \fourch{$C_5^3+C_5^2C_{30}^1$;}{$P_5^3+P_5^2P_{30}^1$;}{$C_5^2C_{30}^1$;}{$P_5^2P_{30}^1$}
 (6)$(x-1)^n$的二项展开式中第$m$项$(m\le n,n\in \mathbf{N}^*)$的二项式的系数是\bracket{20}.
@@ -445,7 +490,7 @@ B组
 (2)6个人排成一列, 其中甲乙两人之间至少有两个人的不同排法种数是\blank{50}.
 (3)由数字1、2、3、4组成没有重复数字的不同自然数的个数是\blank{50}.
 (4)若$m\in \{2,5,7,8\}$, $n\{1,3,4,6\}$, 则方程$\dfrac{x^2}m+\dfrac{y^2}n=1$表示焦点在$x$轴上的椭圆有\blank{50}个.
-(5)若$(1+\sqrt x)^n$的展开式的系数和大于8且小于32, 则系数最大的项是____.
+(5)若$(1+\sqrt x)^n$的展开式的系数和大于$8$且小于$32$, 则系数最大的项是\blank{50}.
 \item 选择题:
 (l)已知在100件产品中有3件是次品, 如果从中任意抽取5件, 那么其中至多有2件次品的抽法的种数是 \bracket{20}.
 \fourch{$C_3^2C_{97}^3$;}{$C_{100}^5C_3^2$;}{$C_{100}^5C_3^2C_{97}^2$}{$C_3^2C_{97}^2+C_3^1C_{97}^4$}
@@ -668,9 +713,9 @@ A组
 (第10题)
 \item 有4名同学选报铅球、跳高、跳远三个体育项目, 如果每三个报一项, 那么共有多少种报名方法?
 \item 从6种菜品种中选出3种, 分别种植在不同的3块地上进行试验, 有多少种不同的种植方法?
-\item (1)已知$\dfrac 1{C_5^n}-\dfrac 1{C_6^n}=\dfrac 7{10C_7^n}$, $n\in \mathbf{N}^*$, 求$C_8^n$.
+\item (1)已知$\dfrac 1{C_5^n}-\dfrac 1{C_6^n}=\dfrac 7{10C_7^n}$, $n\in \mathbf{N}^*$, 求$\mathrm{C}_8^n$.
 (2)已知$P_m^2=7P_{m-4}^2,m\in \mathbf{N}^*$, 求$m$的值.
-\item 已知$(x\sqrt x-\dfrac 1x)^4$的二项展开式的第5项为$\dfrac{15}2$, 求$\undersetn\to \infty \mathop\lim (x^{-1}+x^{-2}+\cdots +x^{-n})$的值.
+\item 已知$(x\sqrt x-\dfrac 1x)^4$的二项展开式的第5项为$\dfrac{15}2$, 求$\displaystyle\lim_{n\to\infty}(x^{-1}+x^{-2}+\cdots +x^{-n})$的值.
 \item 设$n\in \mathbf{N}^*$, 求证: $C_n^1+C_n^2+\cdots +C_n^n=1+2+2^2+\cdots +2^{n-1}$.
 \item 某人参加某抽奖活动, 现有300张抽奖劵, 其中有1个一等奖, 2个二等奖, 3个三等奖, 求这个人抽一次奖就中奖的概率.
 \item 在一个袋内装有同样大小、同样质地的红球5只, 黑球4只, 白球2只, 绿球1只, 今从袋中任意摸取一个球.
@@ -681,7 +726,7 @@ B组
 \item 填空:
 (1)求$(1.009)^5$的近似值\blank{50}. (结果精确到0.001)
 (2)设球的半径为4, 用一个平面截球, 使截面圆的半径为2, 则截面与球心的距离\blank{50}.
-(3)4名男生、4名女生站站成一排, 男女间隔排列, 则不同的排法有___种.
+(3)4名男生、4名女生站站成一排, 男女间隔排列, 则不同的排法有\blank{50}种.
 \item 已知长方体$ABCD-A_1B_1C_1D_1$中, $AB=BC=4$, $AA_1=2$.
 (第2题)
 (l)求异面直线$B_1C_1$与$AC$所成的角的大小及距离.
@@ -710,3 +755,9 @@ B组
 (l)求该选手这一天平均一次命中的环数及标准差.
 (2)求该选手均值的$\sigma$区间估计.
 *13.用随机投点法, 求$y=\sin x(0\le x\le \pi)$与$x$轴组成的封闭图形的面积.
+    
+
+
+\end{enumerate}
+
+\end{document}
