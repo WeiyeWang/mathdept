@@ -897,7 +897,7 @@ D08003X
 <目标编码>
 K0820002X
 <目标内容>
-了解$\mathrm{C}_n^0+\mathrm{C}_n^1+\mathrm{C}_n^2+\cdots+\mathrm{C}_n^n=2^n$及$$\mathrm{C}_n^0-\mathrm{C}_n^1+\mathrm{C}_n^2-\cdots+(-1)^n\mathrm{C}_n^n=0$.
+了解$\mathrm{C}_n^0+\mathrm{C}_n^1+\mathrm{C}_n^2+\cdots+\mathrm{C}_n^n=2^n$及$\mathrm{C}_n^0-\mathrm{C}_n^1+\mathrm{C}_n^2-\cdots+(-1)^n\mathrm{C}_n^n=0$.
 <对应单元目标编码>
 D08003X
 <叙写人员>
