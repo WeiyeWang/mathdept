@@ -80,53 +80,55 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 \item 已知集合$A=\{x|x\le 1\}$, 集合 $B=\{x|x\ge a\}$, 且$A\cup B=\mathbf{R}$, 求$a$的取值范围.
 \item 已知集合$A=\{x|x\text{是平行四边形}\}$, 集合$U=\{x|x\text{是至少有一组对边平行的四边形}\}$, 求$\complement _UA$.
 \item 设$U=\mathbf{R}$, 集合$A=\{x|4-x>2x+1\}$, 求$\complement _UA$.
-\item 已知集合$U=\{x|0<x\le 10,x\in \mathbf{N}\}$, 集合$A=\{1,2,4,5,9\}$, 集合$B=\{4,6,7,8,10\}$, 求$\complement _UA$, $\complement _UB$, $\complement _UA\cup \complement _UB$, $\complement _UA\cap \complement _UB$, $\complement _U(A\cap B)$, $\complement _U(A\cup B)$, 并指出其中相等的集合.
-习题1. 3  B组
-\item 用$A$、$B$的运算式表示图中的阴影部分:
-(1) (2)
-(第1题)
+\item 已知集合$U=\{x|0<x\le 10, \ x\in \mathbf{N}\}$, 集合$A=\{1,2,4,5,9\}$, 集合$B=\{4,6,7,8,10\}$, 求$\complement _UA$, $\complement _UB$, $\complement _UA\cup \complement _UB$, $\complement _UA\cap \complement _UB$, $\complement _U(A\cap B)$, $\complement _U(A\cup B)$, 并指出其中相等的集合.
+\item 用$A$、$B$的运算式表示图中的阴影部分:\\
+(1) \begin{tikzpicture}
+    \filldraw [gray!30] (0,0) circle (1.5);
+    \filldraw [white] (2,0) circle (1.2);
+    \draw (0,0) circle (1.5) node {$A$} (2,0) circle (1.2) node {$B$};
+    \draw (-2,-2) rectangle (3.8,2) node [below left] {$U$};    
+\end{tikzpicture} (2) \begin{tikzpicture}
+    \filldraw [gray!30] (-2,-2) rectangle (3.8,2);
+    \filldraw [even odd rule, white] (0,0) circle (1.5) (2,0) circle (1.2);
+    \draw (0,0) circle (1.5) node {$A$} (2,0) circle (1.2) node {$B$};
+    \draw (-2,-2) rectangle (3.8,2) node [below left] {$U$};    
+\end{tikzpicture}
 \item 已知集合$A=\{1,4,x\}$, 集合$B=\{1,x^2\}$, 且$A\cup B=A$, 求$x$的值及集合$A$、$B$.
 \item 已知集合$A=\{x|-2\le x\le 4\}$, 集合$B=\{x|-3<x<2\}$, 集合$C=\{x|-3\le x<0\}$, 求$A\cup B$, $(A\cap B)\cup C$, $(A\cup C)\cap (B\cup C)$.
 \item 已知集合$U=\{x|x\ge 2\}$, 集合$A=\{y|3\le y<4\}$, 集合$B=\{z|2\le z<5\}$, 求$\complement _UA\cap B$, $\complement _UB\cup A$.
 \item 已知集合$U=\{a,b,c,d,e,f\}$, 集合$A=\{a,b,c,d\}$, $A\cap B=\{a\}$, $\complement _U(A\cup B)=\{f\}$, 求集合$B$.
-\item 4  命题的形式及等价关系
-习题1.4  A组
-\item 判断下列语句是否为命题, 并在相应的括号内填入``是''或``否''.
-(1)正方形是四边形.\bracket{20}.
-(2)0是自然数吗? \bracket{20}.
-(3)交集和并集.\bracket{20}.
-(4)$3<\pi$.\bracket{20}.
-\item 判断下列命题的真假, 并在相应的括号内填入``真命题''或``假命题''.
-(1)如果$a$、$b$都是奇数, 那么$a+b$是偶数.\bracket{20}.
-(2)一组对边平行且两对角线相等的四边形是平行四边形.\bracket{20}.
-(3)如果$|a|<2$, 那么$a<2$.\bracket{20}.
-(4)如果$A\cap B=A$, 那么$A\cup B=B$.\bracket{20}.
+\item 判断下列语句是否为命题, 并在相应的括号内填入``是''或``否''.\\
+(1) 正方形是四边形; \blank{20}\\
+(2) $0$是自然数吗; \blank{20}\\
+(3) 交集和并集; \blank{20}\\
+(4) $3<\pi$. \blank{20}
+\item 判断下列命题的真假, 并在相应的括号内填入``真命题''或``假命题''.\\
+(1) 如果$a$、$b$都是奇数, 那么$a+b$是偶数; \blank{20}\\
+(2) 一组对边平行且两对角线相等的四边形是平行四边形; \blank{20}\\
+(3) 如果$|a|<2$, 那么$a<2$; \blank{20}\\
+(4) 如果$A\cap B=A$, 那么$A\cup B=B$. \blank{20}
 \item 如果$a$、$b$、$c$为实数, 设
-A: $a=b=c=0$; B: $a$、$b$、$c$至少有一个为0; C: $a^2+\sqrt b+|c|=0$,
-那么$A$   $B$; $A$   $C$; $B$ $C$.(用符号``$\Rightarrow$''、``$\Leftarrow$''或``$\Leftrightarrow$''填空)
-\item 已知命题A: 如果$x<3$, 那么$x<5$; 命题B: 如果$x\ge 3$, 那么$x\ge 5$; 命题C: 如果$x\ge 5$, 那么$x\ge 3$.填写各命题之间的关系:
-A与B互为命题, B与C互为 命题, C与A互为命题.
-\item (1)写出命题``在$\triangle ABC$中, 如果$\angle C>\angle B$, 那么$AB>AC$''的逆命题、否命题和逆否命题, 并判断其真假.
-(2)写出命题``如果$\alpha$, 那么$\beta$''的逆命题、否命题和逆否命题.
-(3)写出命题``已知$a$、$b$、$c$是实数, 如果$ac<0$, 那么$ax^2+bx+c=0(a\ne 0)$有实数根''的逆命题.否命题和逆否命题, 并判断其真假.
-\item 选择题:
-(1)命题``若$x\ne 3$且$x\ne 4$, 则$x^2-7x+12\ne 0$''的逆否命题是\bracket{20}.
-\fourch{若$x^2-7x+12=0$, 则$x=3$或$x=4$}{若$x^2-7x+12=0$, 则$x\ne 3$或$x\ne 4$}{若$x^2-7x+12\ne 0$, 则$x\ne 3$且$x\ne 4$}{若$x^2-7x+12=0$, 则$x=3$且$x=4$}
-(2)如果命题$A$的逆命题是$B$, 命题$A$的否命题是$C$, 那么命题$B$是命题$C$的\bracket{20}.
+$A:a=b=c=0$; $B:a,b,c$至少有一个为$0$; $C:a^2+\sqrt b+|c|=0$, 那么$A$\blank{20}$B$; $A$\blank{20}$C$; $B$\blank{20}$C$.(用符号``$\Rightarrow$''、``$\Leftarrow$''或``$\Leftrightarrow$''填空)
+\item 已知命题$A$: 如果$x<3$, 那么$x<5$; 命题$B$: 如果$x\ge 3$, 那么$x\ge 5$; 命题$C$: 如果$x\ge 5$, 那么$x\ge 3$.填写各命题之间的关系:
+$A$与$B$互为\blank{20}命题, $B$与$C$互为\blank{20}命题, $C$与$A$互为\blank{20}命题.
+\item 写出命题``在$\triangle ABC$中, 如果$\angle C>\angle B$, 那么$AB>AC$''的逆命题、否命题和逆否命题, 并判断其真假.
+\item 写出命题``如果$\alpha$, 那么$\beta$''的逆命题、否命题和逆否命题.
+\item 写出命题``已知$a$、$b$、$c$是实数, 如果$ac<0$, 那么$ax^2+bx+c=0(a\ne 0)$有实数根''的逆命题.否命题和逆否命题, 并判断其真假.
+\item 命题``若$x\ne 3$且$x\ne 4$, 则$x^2-7x+12\ne 0$''的逆否命题是\bracket{20}.
+\twoch{若$x^2-7x+12=0$, 则$x=3$或$x=4$}{若$x^2-7x+12=0$, 则$x\ne 3$或$x\ne 4$}{若$x^2-7x+12\ne 0$, 则$x\ne 3$且$x\ne 4$}{若$x^2-7x+12=0$, 则$x=3$且$x=4$}
+\item 如果命题$A$的逆命题是$B$, 命题$A$的否命题是$C$, 那么命题$B$是命题$C$的\bracket{20}.
 \fourch{逆命题}{否命题}{逆否命题}{以上都不正确}
 \item 试判断命题$A$: ``在$\triangle ABC$中, $BC^2=AC^2+AB^2$''与命题$B$: ``$\triangle ABC$是直角三角形''是否为等价命题, 并说明理由.
 \item 试判断命题$A$: ``三角形任意两边之和大于第三边''与命题$B$: ``三角形任意两边之差小于第三边''是否为等价命题, 并说明理由.
 \item 求证: 对角线不互相平分的四边形不是平行四边形.
-习题1.4  B组
-\item 判断下列命题的真假, 并在相应的括号内填入``真命题''或``假命题''.
-(1)若$A\cap B\ne \varnothing$, $B\subsetneqq C$, 则$A\cap C\ne \varnothing$.\bracket{20}.
-(2)方程$(a+1)x+b=0$($a$、$b\in \mathbf{R}$)的解为$x=-\dfrac b{a+1}$.\bracket{20}.
-(3)若命题$\alpha$、$\beta$、$\gamma$满足$\alpha \Rightarrow \beta$, $\beta \Rightarrow \gamma$, $\gamma \Rightarrow \alpha$, 则$\alpha \Leftrightarrow \gamma$.\bracket{20}.
-\item 选择题:
-(1)若$\alpha$: $\{2\}\subsetneqq B\subseteq \{2,3,4\}$, $\beta :B=\{2,4\}$, 则$\alpha$与$\beta$的推出关系是\bracket{20}.
+\item 判断下列命题的真假, 并在相应的横线上填入``真命题''或``假命题''.\\
+(1) 若$A\cap B\ne \varnothing$, $B\subsetneqq C$, 则$A\cap C\ne \varnothing$\blank{20};\\
+(2) 方程$(a+1)x+b=0$($a$、$b\in \mathbf{R}$)的解为$x=-\dfrac b{a+1}$\blank{20};\\
+(3)若命题$\alpha$、$\beta$、$\gamma$满足$\alpha \Rightarrow \beta$, $\beta \Rightarrow \gamma$, $\gamma \Rightarrow \alpha$, 则$\alpha \Leftrightarrow \gamma$\blank{20}.
+\item 若$\alpha$: $\{2\}\subsetneqq B\subseteq \{2,3,4\}$, $\beta :B=\{2,4\}$, 则$\alpha$与$\beta$的推出关系是\bracket{20}.
 \fourch{$\alpha \Rightarrow \beta$}{$\beta \Rightarrow \alpha$}{$\alpha \Leftrightarrow \beta$}{$\alpha \not\Rightarrow \beta$且$\beta \not\Rightarrow \alpha$}
 (2)由命题甲成立, 可推出命题乙不成立, 下列说法一定正确的是\bracket{20}.
-\fourch{命题甲不成立, 可推出命题乙成立}{命题甲不成立, 可推出命题乙不成立}{命题乙成立, 可推出命题甲成立}{命题乙成立, 可推出命题甲不成立}
+\twoch{命题甲不成立, 可推出命题乙成立}{命题甲不成立, 可推出命题乙不成立}{命题乙成立, 可推出命题甲成立}{命题乙成立, 可推出命题甲不成立}
 \item (1)已知一个命题的否命题是``两组对边分别相等的四边形是平行四边形'', 试写出原命题的逆命题, 并判断原命题的真假.
 (2)已知一个命题的逆命题是``若实数$a$、$b$满足$a=1$且$b=2$, 则$a+b<4$'', 试写出原命题的否命题, 并判断原命题的真假.
 \item 类比, $A\subseteq B\Leftrightarrow A\cap B=A$, 试再写出两个等价命题:
