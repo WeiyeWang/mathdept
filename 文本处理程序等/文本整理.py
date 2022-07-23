@@ -124,14 +124,16 @@ def refine_frac(string):
         if initial_bracket_search(eq_right)>0:
             pos = initial_brackets_pair_search(eq_right,eq_right[initial_bracket_search(eq_right)-1])
             first_bracket = eq_right[:pos]
+            first_layer = first_bracket[-1]
             eq_remain = eq_right[pos:]
             if initial_bracket_search(eq_remain)>0:
                 pos = initial_brackets_pair_search(eq_remain,eq_remain[initial_bracket_search(eq_remain)-1])
                 second_bracket = eq_remain[:pos]
-                first_bracket = re.sub("leftbracket\d","{",first_bracket)
-                second_bracket = re.sub("leftbracket\d","{",second_bracket)
-                first_bracket = re.sub("rightbracket\d","}",first_bracket)
-                second_bracket = re.sub("rightbracket\d","}",second_bracket)
+                second_layer = second_bracket[-1]
+                first_bracket = re.sub(r"leftbracket"+first_layer,"{",first_bracket)
+                second_bracket = re.sub(r"leftbracket"+second_layer,"{",second_bracket)
+                first_bracket = re.sub(r"rightbracket"+first_layer,"}",first_bracket)
+                second_bracket = re.sub(r"rightbracket"+second_layer,"}",second_bracket)
                 eq_right = first_bracket+second_bracket+eq_remain[pos:]
     return eq_left+eq_right
 #以上是20220718修改的大括号处理机制, 修复了一个bug

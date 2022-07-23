@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  23 JUL 2022 13:09
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  24 JUL 2022 00:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -597,7 +597,9 @@ File: pgflibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfdecorationsegmentlength=\dimen303
 )
 \tikz@lib@dec@box=\box69
-) (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary3d.code.tex
+File: tikzlibrary3d.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box70
 \beforetitleunit=\skip69
@@ -863,79 +865,69 @@ Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
- [12] [13]
-Underfull \hbox (badness 1817) in paragraph at lines 521--521
-[]|\TU/lmr/m/n/10 D. \TU/华文中宋(0)/m/n/10 对 任 意 的 $\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 2 []$\TU/lmr/m/n/10 ,
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 521--522
+ [12] [13] [14] [15] [16] [17] [18]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 679--680
 [][] 
  []
 
-[14] [15] [16] [17]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 623--625
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 681--682
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 690--693
+[][]
+ []
+
+[19]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 718--720
 [][]
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 625--626
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 720--721
+[][] 
+ []
+
+[20] [21]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 806--807
 [][] 
  []
 
 
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 635--638
-[][]
- []
-
-[18]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 663--665
-[][]
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 665--666
-[][] 
- []
-
-[19] [20]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 751--752
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 753--754
-[][] 
- []
-
-[21]
-Overfull \hbox (5.86806pt too wide) in paragraph at lines 806--813
-[]\TU/华文中宋(0)/m/n/10 填 空\TU/lmr/m/n/10 : (1) \TU/华文中宋(0)/m/n/10 若 $\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 = 3$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 $\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 ; \TU/华文中宋(0)/m/n/10 若 $\OT1/cmr/m/n/10 5[] = 3$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 $\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . (2) \TU/华文中宋(0)/m/n/10 计 算\TU/lmr/m/n/10 : $[][] \OT1/cmr/m/n/10 36 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 2 [][] 3 =$$[]$\TU/lmr/m/n/10 .
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 815--817
-[][]
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 817--818
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 808--809
 [][] 
  []
 
 [22]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 838--839
+Overfull \hbox (5.86806pt too wide) in paragraph at lines 861--868
+[]\TU/华文中宋(0)/m/n/10 填 空\TU/lmr/m/n/10 : (1) \TU/华文中宋(0)/m/n/10 若 $\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 = 3$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 $\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 ; \TU/华文中宋(0)/m/n/10 若 $\OT1/cmr/m/n/10 5[] = 3$\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 $\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 =$$[]$\TU/lmr/m/n/10 . (2) \TU/华文中宋(0)/m/n/10 计 算\TU/lmr/m/n/10 : $[][] \OT1/cmr/m/n/10 36 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 2 [][] 3 =$$[]$\TU/lmr/m/n/10 .
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 870--872
+[][]
+ []
+
+[23]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 872--873
 [][] 
  []
 
-[23] (./二期练习册高一上.aux) ) 
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 893--894
+[][] 
+ []
+
+[24] (./二期练习册高一上.aux) ) 
 Here is how much of TeX's memory you used:
- 21185 strings out of 476919
- 484747 string characters out of 5825424
- 858295 words of memory out of 5000000
- 40762 multiletter control sequences out of 15000+600000
+ 21260 strings out of 476919
+ 487152 string characters out of 5825424
+ 859325 words of memory out of 5000000
+ 40834 multiletter control sequences out of 15000+600000
  406111 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,15n,104p,415b,777s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,15n,104p,415b,775s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 二期练习册高一上.pdf (23 pages).
+Output written on 二期练习册高一上.pdf (24 pages).
