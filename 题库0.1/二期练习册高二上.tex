@@ -8,7 +8,7 @@
 \usepackage{longtable}
 %\usepackage{mathptmx}
 
-\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing}
+\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing,angles,quotes}
 \usepackage[bf,small,indentafter,pagestyles]{titlesec}
 \usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
 \renewcommand{\baselinestretch}{1.65}
@@ -460,71 +460,139 @@ $1-\dfrac 12+\dfrac 13-\dfrac 14+\cdots +\dfrac 1{2n-1}-\dfrac 1{2n}=\dfrac 1{n+
 (2) 求$3\overrightarrow a-\overrightarrow b$的单位向量的坐标.
 \item 已知$\overrightarrow a=(x,3)$, $\overrightarrow b=(1,y)$, $\overrightarrow a-2\overrightarrow b=(2,5)$, 求实数$x,y$的值.
 \item 已知向量$\overrightarrow a=(2,3)$与$\overrightarrow b=(4,-1+y)$, 且$\overrightarrow a\parallel \overrightarrow b$, 求实数$y$的值.
-\item 已知$ABC$三点的坐标分别是$(0,1)(1,2)(3,4)$, 求证: $ABC$三点共线.
-\item 已知$AB$两点的坐标分别是$(3,-1)(-4,-2)$, $P$是直线$AB$上的点, 根据下列条件求点$P$的坐标:
-(1)$\overrightarrow{AP}=2\overrightarrow{PB}$. (2)$2\overrightarrow{AP}=3\overrightarrow{BP}$.
-\item 在$\triangle ABC$中, 已知$AB$两点的坐标分别为$(2,1)(-3,4)$, $\triangle ABC$的重心坐标为$(-\dfrac 23,\dfrac 43)$, 求点$C$的坐标.
-\item 已知平面上$ABC$三点的坐标分别为$(-2,1)(-1,3)(3,4)$, 且$ABCD$这四点构成平行四边形的四个顶点, 求点$D$的坐标.
-\item 已知$AB$两点的坐标分别是$(1,2)(-1,4)$, $\overrightarrow{AC}=\dfrac 12\overrightarrow{AB}$, $\overrightarrow{AD}\text=2\overrightarrow{CB}$.
-(1)求$CD$的坐标.
-(2)求向量$\overrightarrow{BD}$的坐标.
-\item 已知$AB$两点的坐标分别是$(-2,-3)(4,1)$, 延长$AB$到$P$, 使$|\overrightarrow{AP}|=3|\overrightarrow{PB}|$, 求点$P$的坐标.
+\item 已知$A,B,C$三点的坐标分别是$(0,1),(1,2),(3,4)$, 求证: $A,B,C$三点共线.
+\item 已知$A,B$两点的坐标分别是$(3,-1),(-4,-2)$, $P$是直线$AB$上的点, 根据下列条件求点$P$的坐标:\\
+(1) $\overrightarrow{AP}=2\overrightarrow{PB}$;\\
+(2) $2\overrightarrow{AP}=3\overrightarrow{BP}$.
+\item 在$\triangle ABC$中, 已知$A,B$两点的坐标分别为$(2,1),(-3,4)$, $\triangle ABC$的重心坐标为$(-\dfrac 23,\dfrac 43)$, 求点$C$的坐标.
+\item 已知平面上$A,B,C$三点的坐标分别为$(-2,1),(-1,3),(3,4)$, 且$A,B,C,D$这四点构成平行四边形的四个顶点, 求点$D$的坐标.
+\item 已知$A,B$两点的坐标分别是$(1,2),(-1,4)$, $\overrightarrow{AC}=\dfrac 12\overrightarrow{AB}$, $\overrightarrow{AD}=2\overrightarrow{CB}$.\\
+(1) 求$C,D$的坐标;\\
+(2) 求向量$\overrightarrow{BD}$的坐标.
+\item 已知$A,B$两点的坐标分别是$(-2,-3),(4,1)$, 延长$AB$到$P$, 使$|\overrightarrow{AP}|=3|\overrightarrow{PB}|$, 求点$P$的坐标.
 \item 已知向量$\overrightarrow a=(-2,3)$, 点$A$的坐标是$(2,-1)$, 向量$\overrightarrow{AB}$与$\overrightarrow a$平行, 且$|\overrightarrow{AB}|=2\sqrt {13}$, 求向量$\overrightarrow{OB}$的坐标.
-\item 选择题:
-(1)如果$|\overrightarrow a|=2$, $|\overrightarrow b|=\dfrac 12$, $\overrightarrow a$与$\overrightarrow b$的夹角为$60^{\circ }$, 那么$\overrightarrow a$与$\overrightarrow b$的数量积等于\bracket{20}.
-\fourch{$\dfrac 12$}{$\dfrac 14$}{1}{2}
-(2)已知$|\overrightarrow b|=3$.如果$\overrightarrow a$在$\overrightarrow b$的方向上的投影是$\dfrac 32$, 那么$\overrightarrow a\cdot \overrightarrow b$为\bracket{20}.
-\fourch{3}{$\dfrac 92$}{2}{$\dfrac 12$}
-(3)如果$\overrightarrow a\overrightarrow b$是两个非零向量, 那么``$(\overrightarrow a+\overrightarrow b)^2=\overrightarrow a^2+\overrightarrow b^2$''是``$\overrightarrow a\perp \overrightarrow b$''的\bracket{20}.
-\fourch{充分非必要条件}{必要非充分条件}{充要条件}{既非充分又非必要条件}
-\item 填空:
-(1)已知$|\overrightarrow a|=2$, $|\overrightarrow b|=1$.若$\overrightarrow a$与$\overrightarrow b$之间的夹角为$\dfrac{\pi }3$, 则向量$\overrightarrow m=\overrightarrow a-\overrightarrow b$的模为\blank{50}.
-(2)在$\triangle ABC$中, 已知$\angle A\angle B\angle C$的对边长分别为$abc$.若$a=3$, $b=1$, $\angle C=30^{\circ }$, 则$\overrightarrow{BC}\cdot \overrightarrow{CA}=$\blank{50}.
-(3)若$|\overrightarrow{AB}|=|\overrightarrow{AC}|=6$, $\overrightarrow{AB}\cdot \overrightarrow{AC}=18$, 则$\triangle ABC$的形状是\blank{50}.
+\item 如果$|\overrightarrow a|=2$, $|\overrightarrow b|=\dfrac 12$, $\overrightarrow a$与$\overrightarrow b$的夹角为$60^{\circ }$, 那么$\overrightarrow a$与$\overrightarrow b$的数量积等于\bracket{20}.
+\fourch{$\dfrac 12$}{$\dfrac 14$}{$1$}{$2$}
+\item 已知$|\overrightarrow b|=3$.如果$\overrightarrow a$在$\overrightarrow b$的方向上的投影是$\dfrac 32$, 那么$\overrightarrow a\cdot \overrightarrow b$为\bracket{20}.
+\fourch{$3$}{$\dfrac 92$}{$2$}{$\dfrac 12$}
+\item 如果$\overrightarrow a\overrightarrow b$是两个非零向量, 那么``$(\overrightarrow a+\overrightarrow b)^2=\overrightarrow a^2+\overrightarrow b^2$''是``$\overrightarrow a\perp \overrightarrow b$''的\bracket{20}.
+\twoch{充分非必要条件}{必要非充分条件}{充要条件}{既非充分又非必要条件}
+\item 已知$|\overrightarrow a|=2$, $|\overrightarrow b|=1$.若$\overrightarrow a$与$\overrightarrow b$之间的夹角为$\dfrac{\pi }3$, 则向量$\overrightarrow m=\overrightarrow a-\overrightarrow b$的模为\blank{50}.
+\item 在$\triangle ABC$中, 已知$\angle A,\angle B,\angle C$的对边长分别为$a,b,c$. 若$a=3$, $b=1$, $\angle C=30^{\circ}$, 则$\overrightarrow{BC}\cdot \overrightarrow{CA}=$\blank{50}.
+\item 若$|\overrightarrow{AB}|=|\overrightarrow{AC}|=6$, $\overrightarrow{AB}\cdot \overrightarrow{AC}=18$, 则$\triangle ABC$的形状是\blank{50}.
 \item 已知$|\overrightarrow a|=1$, $|\overrightarrow b|=\sqrt 2$.若$\overrightarrow a-\overrightarrow b$与$\overrightarrow a$垂直, 求$\overrightarrow a$与$\overrightarrow b$的夹角.
 \item 已知$|\overrightarrow a|=1$, $|\overrightarrow b|=3$, $|2\overrightarrow a+\overrightarrow b|=\sqrt 7$, 求$\overrightarrow a$与$\overrightarrow b$的夹角.
-\item 已知$\overrightarrow a$为非零向量, $\overrightarrow b=(3,4)$, 且$\overrightarrow a\perp \overrightarrow b$, 求$\overrightarrow a$的单位向量$\overrightarrow a_0$.
+\item 已知$\overrightarrow a$为非零向量, $\overrightarrow b=(3,4)$, 且$\overrightarrow a\perp \overrightarrow b$, 求$\overrightarrow a$的单位向量$\overrightarrow {a_0}$.
 \item 已知向量$\overrightarrow a=(3,4)$与$\overrightarrow b=(5,-12)$, 求$\overrightarrow a\cdot \overrightarrow b$、$|\overrightarrow a-\overrightarrow b|$、$\overrightarrow a$与$\overrightarrow b$的夹角.
-\item 已知向量$\overrightarrow a=(3k,3)$与$\overrightarrow b=(-6,k-7)$.
-(1)若$\overrightarrow a\perp \overrightarrow b$, 求实数$k$的值.
-(2)若$\overrightarrow a\parallel \overrightarrow b$, 求实数$k$的值.
+\item 已知向量$\overrightarrow a=(3k,3)$与$\overrightarrow b=(-6,k-7)$.\\
+(1) 若$\overrightarrow a\perp \overrightarrow b$, 求实数$k$的值;\\
+(2) 若$\overrightarrow a\parallel \overrightarrow b$, 求实数$k$的值.
 \item 已知向量$\overrightarrow a=(5,12)$与$\overrightarrow b=(4,6)$, 求$\overrightarrow a+\overrightarrow b$与$2\overrightarrow a-3\overrightarrow b$的夹角.
-\item 已知$\overrightarrow a+\overrightarrow b+\overrightarrow c=\overrightarrow 0$, 且$|\overrightarrow a|=4$, $|\overrightarrow b|=3$, $|\overrightarrow c|=5$.
-(1)求$\overrightarrow a\cdot \overrightarrow c$.
-(2)求$\overrightarrow a\cdot \overrightarrow b+\overrightarrow b\cdot \overrightarrow c+\overrightarrow c\cdot \overrightarrow a$.
+\item 已知$\overrightarrow a+\overrightarrow b+\overrightarrow c=\overrightarrow 0$, 且$|\overrightarrow a|=4$, $|\overrightarrow b|=3$, $|\overrightarrow c|=5$.\\
+(1) 求$\overrightarrow a\cdot \overrightarrow c$;\\
+(2) 求$\overrightarrow a\cdot \overrightarrow b+\overrightarrow b\cdot \overrightarrow c+\overrightarrow c\cdot \overrightarrow a$.
 \item 已知$\overrightarrow a\overrightarrow b$都是非零向量, 且$(\overrightarrow a+3\overrightarrow b)\perp (7\overrightarrow a-5\overrightarrow b)$, $(\overrightarrow a-4\overrightarrow b)\perp (7\overrightarrow a-2\overrightarrow b)$, 求$\overrightarrow a$与$\overrightarrow b$的夹角.
-\item 已知位置向量$\overrightarrow a=(2,2)$、$\overrightarrow b=(-3,3)$、$\overrightarrow c=(-1,0)$的终点分别为$ABC$, 试判断$\triangle ABC$的形状.
+\item 已知位置向量$\overrightarrow a=(2,2)$、$\overrightarrow b=(-3,3)$、$\overrightarrow c=(-1,0)$的终点分别为$A,B,C$, 试判断$\triangle ABC$的形状.
 \item 已知向量$\overrightarrow a=(x,2)$与$\overrightarrow b=(-3,-5)$, $\overrightarrow a$与$\overrightarrow b$的夹角为钝角, 求$x$的取值范围.
-\item 已知$AB$两点的坐标分别是$(1,2)$、$(4,-1)$.能否在$y$轴上找到一点$C$, 使$\angle ACB=90^{\circ }$? 若不能, 说明理由; 若能, 求点$C$的坐标.
-\item 已知向量$\overrightarrow{OA}\overrightarrow{OB}$, 且点$OAB$不共线.
-(第1题)
-(1)求作向量$\overrightarrow{OM}$, 且$\overrightarrow{OM}=\dfrac 12(\overrightarrow{OA}-\overrightarrow{OB})$.
+\item 已知$A,B$两点的坐标分别是$(1,2)$、$(4,-1)$.能否在$y$轴上找到一点$C$, 使$\angle ACB=90^{\circ}$? 若不能, 说明理由; 若能, 求点$C$的坐标.
+\item 已知向量$\overrightarrow{OA},\overrightarrow{OB}$, 且点$O,A,B$不共线.
+\begin{center}
+    \begin{tikzpicture}[>=latex]
+        \draw [->] (0,0) node [below] {$O$} -- (135:1) node [left] {$A$};
+        \draw [->] (0,0) -- (2,0) node [below] {$B$};
+    \end{tikzpicture}
+\end{center}
+(1)求作向量$\overrightarrow{OM}$, 且$\overrightarrow{OM}=\dfrac 12(\overrightarrow{OA}-\overrightarrow{OB})$;\\
 (2)求作向量$\overrightarrow{ON}$, 且$\overrightarrow{ON}=3\overrightarrow{OA}+2\overrightarrow{OB}$.
-\item 填空:
-已知$\overrightarrow a=-\overrightarrow e_1+3\overrightarrow e_2$, $\overrightarrow b=4\overrightarrow e_1+2\overrightarrow e_2$, $\overrightarrow c=-3\overrightarrow e_1+12\overrightarrow e_2$.若以$\overrightarrow b\overrightarrow c$为一组基, 则$\overrightarrow a$可用$\overrightarrow b\overrightarrow c$表示为\blank{50}.
-\item 如图, 已知$\overrightarrow{OA}\overrightarrow{OB}$不共线, 且$\overrightarrow{AP}=\lambda \overrightarrow{PB}$, 用$\overrightarrow{OA}\overrightarrow{OB}$表示$\overrightarrow{OP}$.
-(第3题)
+\item 已知$\overrightarrow a=-\overrightarrow e_1+3\overrightarrow e_2$, $\overrightarrow b=4\overrightarrow e_1+2\overrightarrow e_2$, $\overrightarrow c=-3\overrightarrow e_1+12\overrightarrow e_2$.若以$\overrightarrow b, \overrightarrow c$为一组基, 则$\overrightarrow a$可用$\overrightarrow b,\overrightarrow c$表示为\blank{50}.
+\item 如图, 已知$\overrightarrow{OA},\overrightarrow{OB}$不共线, 且$\overrightarrow{AP}=\lambda \overrightarrow{PB}$, 用$\overrightarrow{OA},\overrightarrow{OB}$表示$\overrightarrow{OP}$.
+\begin{center}
+    \begin{tikzpicture}[>=latex]
+        \draw (0,0) node [left] {$O$} coordinate (O);
+        \draw (2,-1) node [right] {$P$} coordinate (P);
+        \draw (1,2) node [above] {$B$} coordinate (B);
+        \draw ({5/3},0) node [right] {$A$} coordinate (A);
+        \draw (B) -- (P);
+        \draw [->] (O) -- (A);
+        \draw [->] (O) -- (B);
+        \draw [->] (O) -- (P);
+    \end{tikzpicture}
+\end{center}
 \item 在$\triangle ABC$中, 已知$\overrightarrow{AB}=\overrightarrow a$, $\overrightarrow{AC}=\overrightarrow b$, 且$\overrightarrow{AD}=\dfrac 12\overrightarrow{AB}$, $\overrightarrow{AE}=\dfrac 12\overrightarrow{AC}$.求证: $\overrightarrow{DE}=\dfrac 12\overrightarrow{BC}$.
-\item 在矩形$ABCD$中, $\overrightarrow{AB}=\overrightarrow a$, $\overrightarrow{AD}=\overrightarrow b$, $EFGH$分别是边$ABBCCDDA$的中点, 用$\overrightarrow a\overrightarrow b$分别表示$\overrightarrow{EF}\overrightarrow{EH}\overrightarrow{FG}$, 并指出$\overrightarrow{EH}$与$\overrightarrow{FG}$的关系.
-\item 如图, 已知$|\overrightarrow{OA}|=|\overrightarrow{OB}|=1$, $\overrightarrow{OA}$与$\overrightarrow{OB}$的夹角为$120^{\circ }$, $\overrightarrow{OC}$与$\overrightarrow{OA}$的夹角为$25^{\circ }$, $|\overrightarrow{OC}|=2\sqrt 3$, 用$\overrightarrow{OA}\overrightarrow{OB}$表示$\overrightarrow{OC}$.
-(第1题)
-\item 如图, 已知$ED$分别是$\triangle ABC$中$ACBC$边上的点, 且$AE=2EC$, $BD=\dfrac 13BC$.若$\overrightarrow{AB}=\overrightarrow a$, $\overrightarrow{BC}=\overrightarrow b$, 试用$\overrightarrow a\overrightarrow b$表示$\overrightarrow{ED}$.
-(第2题)
-\item 如图, 已知四边形$OACB$是平行四边形, 向量$\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$, $BM=MN=\dfrac 13BA$, 试用$\overrightarrow a\overrightarrow b$表示$\overrightarrow{MC}\overrightarrow{ON}$.
-(第3题)
+\item 在矩形$ABCD$中, $\overrightarrow{AB}=\overrightarrow a$, $\overrightarrow{AD}=\overrightarrow b$, $E,F,G,H$分别是边$AB,BC,CD,DA$的中点, 用$\overrightarrow a,\overrightarrow b$分别表示$\overrightarrow{EF},\overrightarrow{EH},\overrightarrow{FG}$, 并指出$\overrightarrow{EH}$与$\overrightarrow{FG}$的关系.
+\item 如图, 已知$|\overrightarrow{OA}|=|\overrightarrow{OB}|=1$, $\overrightarrow{OA}$与$\overrightarrow{OB}$的夹角为$120^{\circ }$, $\overrightarrow{OC}$与$\overrightarrow{OA}$的夹角为$25^{\circ }$, $|\overrightarrow{OC}|=2\sqrt 3$, 用$\overrightarrow{OA},\overrightarrow{OB}$表示$\overrightarrow{OC}$.
+\begin{center}
+    \begin{tikzpicture}[>=latex]
+        \draw (0,0) node [below] {$O$} coordinate (O);
+        \draw (1,0) node [below] {$A$} coordinate (A);
+        \draw (120:1) node [left] {$B$} coordinate (B);
+        \draw (25:{2*sqrt(3)}) node [above] {$C$} coordinate (C);
+        \draw [->] (O) -- (A);
+        \draw [->] (O) -- (B);
+        \draw [->] (O) -- (C);
+    \end{tikzpicture}
+\end{center}
+\item 如图, 已知$ED$分别是$\triangle ABC$中$AC, BC$边上的点, 且$AE=2EC$, $BD=\dfrac 13BC$.若$\overrightarrow{AB}=\overrightarrow a$, $\overrightarrow{BC}=\overrightarrow b$, 试用$\overrightarrow a, \overrightarrow b$表示$\overrightarrow{ED}$.
+\begin{center}
+    \begin{tikzpicture}[>=latex]
+        \draw (0,0) node [left] {$A$} coordinate (A);
+        \draw (2,0) node [below] {$E$} coordinate (E);
+        \draw (3,0) node [right] {$C$} coordinate (C);
+        \draw (2.2,1) node [above right] {$D$} coordinate (D);
+        \draw (1.8,1.5) node [above] {$B$} coordinate (B);
+        \draw (A) -- (C);
+        \draw [->] (E) -- (D);
+        \draw [->] (A) -- (B);
+        \draw [->] (B) -- (C);
+    \end{tikzpicture}
+\end{center}
+\item 如图, 已知四边形$OACB$是平行四边形, 向量$\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$, $BM=MN=\dfrac 13BA$, 试用$\overrightarrow a,\overrightarrow b$表示$\overrightarrow{MC},\overrightarrow{ON}$.
+\begin{center}
+    \begin{tikzpicture}[>=latex]
+        \draw (0,0) node [left] {$O$} coordinate (O);
+        \draw (2,0) node [right] {$A$} coordinate (A);
+        \draw (1,2) node [left] {$B$} coordinate (B);
+        \draw (3,2) node [right] {$C$} coordinate (C);
+        \draw ($(A)!{1/3}!(B)$) node [right] {$N$} coordinate (N);
+        \draw ($(A)!{2/3}!(B)$) node [left] {$M$} coordinate (M);
+        \draw (A) -- (B) (A) -- (C) (B) -- (C);
+        \draw [->] (O) -- (A);
+        \draw [->] (O) -- (N);
+        \draw [->] (O) -- (B);
+        \draw [->] (M) -- (C);
+
+    \end{tikzpicture}
+\end{center}
 \item 用向量法证明: 对角线相等的平行四边形是矩形.
 \item 在直角三角形$ACB$中, $AD$是斜边$BC$上的高, 用向量法证明: $AD^2=BD\cdot DC$.
 \item 已知$xy\in \mathbf{R}$, 用向量法证明$x^2+y^2\ge 2xy$.
-\item 如果某超市的商品甲乙两种商品的单价分别为$ab$, 那么$(a,b)$叫做该两种商品的价格向量; 如果某一天超市卖出甲乙两种商品数量分别为$xy$, 那么$(x,y)$叫做这两种商品的销售向量.试解释价格向量与销售向量的数量积的意义.
+\item 如果某超市的商品甲乙两种商品的单价分别为$a,b$, 那么$(a,b)$叫做该两种商品的价格向量; 如果某一天超市卖出甲乙两种商品数量分别为$x,y$, 那么$(x,y)$叫做这两种商品的销售向量.试解释价格向量与销售向量的数量积的意义.
 \item 已知三个力$\overrightarrow{f_1}$、$\overrightarrow{f_2}$和$\overrightarrow{f_3}$作用于同一质点, 且$|\overrightarrow{f_1}|=20$, $|\overrightarrow{f_2}|=30$, $|\overrightarrow{f_3}|=40$(单位: 牛).若三个力的夹角都为$120^{\circ }$, 求合力的大小和方向.
-(第5题)
+\begin{center}
+    \begin{tikzpicture}[>=latex,scale = 0.4]
+        \draw [->] (0,0) -- (240:2) node [below] {$\overrightarrow {f_1}$};
+        \draw [->] (0,0) -- (120:3) node [above] {$\overrightarrow {f_2}$};
+        \draw [->] (0,0) -- (0:4) node [right] {$\overrightarrow {f_3}$};
+    \end{tikzpicture}
+\end{center}
 \item 在直角三角形$CAB$中, $AD$是斜边$BC$上的中线, 用向量法证明: $|\overrightarrow{AD}|=\dfrac 12|\overrightarrow{BC}|$.
-\item 已知$\overrightarrow{OA}\overrightarrow{OB}$不共线, 点$P$在$OAB$所在平面内, 且$\overrightarrow{OP}=(1-t)\overrightarrow{OA}+t\overrightarrow{OB}(t\in \mathbf{R})$.求证: $ABP$三点共线.
+\item 已知$\overrightarrow{OA},\overrightarrow{OB}$不共线, 点$P$在$OAB$所在平面内, 且$\overrightarrow{OP}=(1-t)\overrightarrow{OA}+t\overrightarrow{OB}$($t\in \mathbf{R}$).求证: $A,B,P$三点共线.
 \item 如图, 有一个质量为$4$千克的匀质球, 它的半径$R$为$6$厘米.将这个球放在墙与均匀的木板$AB$之间, $A$端固定在墙上, $B$端用水平绳索$BC$拉住, 板长$AB$为$40$厘米.如果木板的质量忽略不计, 当$\alpha$为$60^{\circ }$时, 求绳的拉力.(精确到$1$牛)
-(第3题)
+\begin{center}
+    \begin{tikzpicture}[scale = 0.1]
+        \draw (0,0) node [below left] {$A$} coordinate (A);
+        \draw (150:40) node [left] {$B$} coordinate (B);
+        \draw (0,20) node [above left] {$C$} coordinate (C);
+        \draw (A) -- (B) -- (C);
+        \draw (120:12) circle (6);
+        \draw (150:{6*sqrt(3)}) node [below left] {$D$};
+        \draw (A) pic ["$\alpha$", draw, scale = 0.5, angle eccentricity = 1.5] {angle = C--A--B};
+        \filldraw [gray!30] (0,-5) rectangle (2,25);
+        \draw (0,-5) -- (0,25);
+    \end{tikzpicture}
+\end{center}
 \item 在平行四边形$ABCD$中, $AB=1$, $AD=2$, $\angle DAB=60^{\circ }$, 求对角线$AC$与$BD$的夹角.
-复 习 题
-A组
+*****
 \item 已知$MN$两点的坐标分别是$(3,-2)$、$(-5,-1)$, 且$\overrightarrow{MP}=\overrightarrow{PN}$, 求点$P$的坐标.
 \item 已知平面内三个点$ABC$的坐标分别是$(-1,2)$、$(10,-1)$、$(-4,3)$, $G$是已知平面内的一点, 且$\overrightarrow{AG}+\overrightarrow{BG}+\overrightarrow{CG}=\overrightarrow 0$, 求点$G$的坐标.
 \item 已知向量$\overrightarrow a=(3,4)$与$\overrightarrow b=(1,0)$.
@@ -678,7 +746,7 @@ B组
 \item 判别下列二元一次方程组解的情况:
 (1)$\begin{cases}
     x\cdot \sin ^275^{\circ }+y\cdot \cos ^275^{\circ }=1,  \\x\cdot \sin ^215^{\circ }+y\cdot \cos ^215^{\circ }=2.  \end{cases}$ (2)$\begin{cases}
-    \text2x+y\cdot \lg 2=4,  \\4x+y\cdot \lg 4=8.  \end{cases}$
+    2x+y\cdot \lg 2=4,  \\4x+y\cdot \lg 4=8.  \end{cases}$
 \item 编出二元一次方程组, 分别满足下列条件.
 (1)方程组有唯一解.
 (2)方程组无解.
@@ -869,7 +937,7 @@ B组
 \item 已知数列$\{a_n\}$的前$n$项和$S_n=1+(r-1)a_n$(常数$r\ne 2$).
 (1)求数列$\{a_n\}$的通项公式.
 (2)若$\displaystyle\lim_{n\to\infty}S_n=1$, 求$r$的取值范围.
-\item 已知$f(x)=\log _ax(a>0a\ne 1)$, 且$\text2,f(a_1),f(a_2),f(a_3),\cdots ,f(a_n),2n+4,$ $\cdots $($n\in \mathbf{N}^*$)成等差数列.
+\item 已知$f(x)=\log _ax(a>0a\ne 1)$, 且$2,f(a_1),f(a_2),f(a_3),\cdots ,f(a_n),2n+4,$ $\cdots $($n\in \mathbf{N}^*$)成等差数列.
 (1)求数列$\{a_n\}$的通项公式.
 (2)若数列$\{a_n\}$的前$n$项和为$S_n$, 当$a>1$时, 求$\displaystyle\lim_{n\to\infty}\dfrac{S_n}{a_n}$.
 \item 已知数列$\{a_n\}$的通项公式是$a_n=a^{n+1}(a>0,a\ne 1)$, 令$b_n=a_n\cdot \lg a_n$.是否存在$a$, 使得$\{b_n\}$中每一项恒小于它后面的项? 若存在, 求$a$的取值范围; 若不存在, 请说明理由.
