@@ -1,15 +1,15 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  26 JUL 2022 22:52
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  26 JUL 2022 22:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**课时目标
-(./课时目标.tex
+**2022届第一轮讲义例题与习题
+(./2022届第一轮讲义例题与习题.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(c:/texlive/2021/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+(c:/texlive/2021/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count175
 \c@section=\count176
@@ -541,26 +541,45 @@ File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \tikz@expandcount=\count316
  (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+))) (c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+ (c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen292
+\ar@mcellbox=\box63
+\extrarowheight=\dimen293
+\NC@list=\toks41
+\extratabsurround=\skip63
+\backup@length=\skip64
+\ar@cellbox=\box64
+)
+\rotheadsize=\dimen294
+\c@nlinenum=\count317
+\TeXr@lab=\toks42
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\arrowsize=\dimen292
+\arrowsize=\dimen295
 )) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
-\pgf@intersect@solutions=\count317
+\pgf@intersect@solutions=\count318
+)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )) (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box63
-\beforetitleunit=\skip63
-\aftertitleunit=\skip64
-\ttl@plus=\dimen293
-\ttl@minus=\dimen294
-\ttl@toksa=\toks41
-\titlewidth=\dimen295
-\titlewidthlast=\dimen296
-\titlewidthfirst=\dimen297
+\ttl@box=\box65
+\beforetitleunit=\skip65
+\aftertitleunit=\skip66
+\ttl@plus=\dimen296
+\ttl@minus=\dimen297
+\ttl@toksa=\toks43
+\titlewidth=\dimen298
+\titlewidthlast=\dimen299
+\titlewidthfirst=\dimen300
  (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titleps.sty)) (c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
@@ -568,46 +587,30 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count318
-\Gm@cntv=\count319
-\c@Gm@tempcnt=\count320
-\Gm@bindingoffset=\dimen298
-\Gm@wd@mp=\dimen299
-\Gm@odd@mp=\dimen300
-\Gm@even@mp=\dimen301
-\Gm@layoutwidth=\dimen302
-\Gm@layoutheight=\dimen303
-\Gm@layouthoffset=\dimen304
-\Gm@layoutvoffset=\dimen305
-\Gm@dimlist=\toks42
-) (c:/texlive/2021/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip65
-\LTright=\skip66
-\LTpre=\skip67
-\LTpost=\skip68
-\LTchunksize=\count321
-\LTcapwidth=\dimen306
-\LT@head=\box64
-\LT@firsthead=\box65
-\LT@foot=\box66
-\LT@lastfoot=\box67
-\LT@cols=\count322
-\LT@rows=\count323
-\c@LT@tables=\count324
-\c@LT@chunks=\count325
-\LT@p@ftn=\toks43
+\Gm@cnth=\count319
+\Gm@cntv=\count320
+\c@Gm@tempcnt=\count321
+\Gm@bindingoffset=\dimen301
+\Gm@wd@mp=\dimen302
+\Gm@odd@mp=\dimen303
+\Gm@even@mp=\dimen304
+\Gm@layoutwidth=\dimen305
+\Gm@layoutheight=\dimen306
+\Gm@layouthoffset=\dimen307
+\Gm@layoutvoffset=\dimen308
+\Gm@dimlist=\toks44
 )
-\c@defi=\count326
-\c@eg=\count327
-\c@ex=\count328
-\c@rem=\count329
-\c@thm=\count330
-\c@coro=\count331
-\c@axiom=\count332
-\c@prop=\count333
- (./课时目标.aux)
-\openout1 = `课时目标.aux'.
+\c@defi=\count322
+\c@eg=\count323
+\c@ex=\count324
+\c@rem=\count325
+\c@thm=\count326
+\c@coro=\count327
+\c@axiom=\count328
+\c@prop=\count329
+
+No file 2022届第一轮讲义例题与习题.aux.
+\openout1 = `2022届第一轮讲义例题与习题.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
@@ -625,7 +628,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
- ABD: EverySelectfont initializing macros
+ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 42.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -703,12 +706,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -718,268 +721,284 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(../课时目标汇总.tex
-Overfull \hbox (11.89737pt too wide) in alignment at lines 44--19
- [] [] [] 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 19
- []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 39.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 45.
  (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-Overfull \hbox (11.89737pt too wide) in alignment at lines 19--39
- [] [] [] 
- []
-
-[1
+) [1
 
 ]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 39--59
- [] [] [] 
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 77--78
+[][] 
  []
 
 [2]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 59--79
- [] [] [] 
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 109--110
+[][] 
  []
 
 [3]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 79--99
- [] [] [] 
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 138--139
+[][] 
  []
 
-[4] [5]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 99--119
- [] [] [] 
- []
-
-[6]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 119--139
- [] [] [] 
- []
-
-[7]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 139--159
- [] [] [] 
- []
-
-[8] [9]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 159--179
- [] [] [] 
- []
-
-[10]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 179--199
- [] [] [] 
- []
-
-[11]
-Underfull \hbox (badness 2564) in paragraph at lines 215--215
-[]|\TU/华文中宋(0)/m/n/12 会 用 辅 助 角 公 式 将 $\OML/cmm/m/it/12 a [] ^^K \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 b [] ^^K$ \TU/华文中宋(0)/m/n/12 型 的 表 达 式 整 理 为
+LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 159.
+(c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 159.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 159.
+ [4]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 161--162
+[][] 
  []
 
 
-Overfull \hbox (11.89737pt too wide) in alignment at lines 199--219
- [] [] [] 
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 174--175
+[][] 
  []
 
-[12] [13]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 219--239
- [] [] [] 
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 180--181
+[][] 
+ []
+
+[5]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 189--190
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 191--192
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 193--194
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 205--206
+[][] 
+ []
+
+[6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+[9] [10]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 321--322
+[][] 
+ []
+
+[11] [12]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 387--388
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 389--390
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 391--392
+[][] 
+ []
+
+[13]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 409--410
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 411--412
+[][] 
  []
 
 [14]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 239--259
- [] [] [] 
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 423--424
+[][] 
  []
 
-[15]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 259--279
- [] [] [] 
+[15] [16]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 494--495
+[][] 
  []
 
-[16] [17]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 279--299
- [] [] [] 
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 531--532
+[][] 
+ []
+
+[17]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 555--556
+[][] 
  []
 
 [18]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 299--319
- [] [] [] 
+Missing character: There is no ; ("3B) in font nullfont!
+ [19]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 600--601
+[][] 
  []
 
-[19] [20]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 319--339
- [] [] [] 
- []
-
-[21]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 339--359
- [] [] [] 
+[20] [21]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 647--649
+[][]
  []
 
 [22]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 359--379
- [] [] [] 
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 685--686
+[][] 
  []
 
-[23]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 379--399
- [] [] [] 
+[23] [24]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 746--747
+[][] 
  []
 
-[24]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 399--419
- [] [] [] 
+[25] [26] [27]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 801--802
+[][] 
  []
 
-[25] [26]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 419--439
- [] [] [] 
- []
 
-[27]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 439--459
- [] [] [] 
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 821--822
+[][] 
  []
 
 [28]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 459--479
- [] [] [] 
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 844--845
+[][] 
  []
 
 [29] [30]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 479--499
- [] [] [] 
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 880--881
+[][] 
  []
 
-[31]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 499--519
- [] [] [] 
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 882--883
+[][] 
  []
 
-[32] [33]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 519--539
- [] [] [] 
+[31] [32]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 945--946
+[][] 
+ []
+
+[33]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 978--979
+[][] 
  []
 
 [34]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 539--559
- [] [] [] 
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1030--1031
+[][] 
  []
 
-[35] [36]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 559--579
- [] [] [] 
- []
-
-[37]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 579--599
- [] [] [] 
- []
-
-[38] [39]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 599--619
- [] [] [] 
- []
-
-[40]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 619--639
- [] [] [] 
- []
-
-[41] [42]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 639--659
- [] [] [] 
- []
-
-[43] [44]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 659--679
- [] [] [] 
- []
-
-[45] [46]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 679--699
- [] [] [] 
- []
-
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 711--711
-[]|\TU/华文中宋(0)/m/n/12 经 历 两 个 事 件 的 可 加 性 推 出 任 意 有 限 个 事 件 的 可 加 性
+[35]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1056--1057
+[][] 
  []
 
 
-Overfull \hbox (11.89737pt too wide) in alignment at lines 699--719
- [] [] [] 
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1058--1059
+[][] 
  []
 
-[48]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 719--739
- [] [] [] 
+[36]
+Overfull \hbox (25.46594pt too wide) in paragraph at lines 1073--1074
+[]\TU/华文中宋(0)/m/n/10 化 简 下 列 各 式\TU/lmr/m/n/10 : $[]\OT1/cmr/m/n/10 ([] []) =$$[]$\TU/lmr/m/n/10 ; $[]\OT1/cmr/m/n/10 ([](\OMS/cmsy/m/n/10 ^^@[]\OT1/cmr/m/n/10 )) =$$[]$\TU/lmr/m/n/10 ; $[]\OT1/cmr/m/n/10 ([] []) =$$[]$\TU/lmr/m/n/10 . 
  []
 
-[49] [50]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 739--759
- [] [] [] 
+[37] [38]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1130--1131
+[][] 
  []
 
-[51]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 759--779
- [] [] [] 
+[39]
+Overfull \hbox (36.35901pt too wide) in paragraph at lines 1163--1164
+\TU/华文中宋(0)/m/n/10 获 取 软 件 激 活 码\TU/lmr/m/n/10 ” \TU/华文中宋(0)/m/n/10 的 活 动\TU/lmr/m/n/10 . \TU/华文中宋(0)/m/n/10 这 款 软 件 的 激 活 码 为 下 面 数 学 问 题 的 答 案\TU/lmr/m/n/10 : \TU/华文中宋(0)/m/n/10 已 知 数 列 $\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 16\OML/cmm/m/it/10 ; [] $\TU/lmr/m/n/10 ,
  []
 
-[52] [53]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 779--799
- [] [] [] 
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1164--1165
+[][] 
  []
 
-[54]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 799--819
- [] [] [] 
+[40] [41] [42]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1241--1242
+[][] 
  []
 
-[55]
-Missing character: There is no 🧪 (U+1F9EA) in font [lmroman12-regular]:mapping=tex-text;!
-
-Overfull \hbox (11.89737pt too wide) in alignment at lines 819--839
- [] [] [] 
+[43]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1249--1250
+[][] 
  []
 
-[56]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 839--859
- [] [] [] 
+[44] [45]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1331--1332
+[][] 
  []
 
-[57] [58]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 859--879
- [] [] [] 
+[46] [47] [48] [49] [50]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1484--1484
+[][] 
  []
 
-[59])
-Overfull \hbox (11.89737pt too wide) in alignment at lines 879--49
- [] [] [] 
+[51] [52]
+Overfull \hbox (5.89339pt too wide) in paragraph at lines 1538--1539
+[]\TU/华文中宋(0)/m/n/10 已 知 两 点 $\OML/cmm/m/it/10 M\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)$\TU/lmr/m/n/10 , $\OML/cmm/m/it/10 N\OT1/cmr/m/n/10 (5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)$\TU/lmr/m/n/10 . \TU/华文中宋(0)/m/n/10 在 下 列 直 线 上\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 存 在 点 $\OML/cmm/m/it/10 P$ \TU/华文中宋(0)/m/n/10 满 足 $\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 MP\OMS/cmsy/m/n/10 j ^^@ j\OML/cmm/m/it/10 NP\OMS/cmsy/m/n/10 j \OT1/cmr/m/n/10 = 6$ \TU/华文中宋(0)/m/n/10 的 所 有 直 线 方 程 是$[]$\TU/lmr/m/n/10 (\TU/华文中宋(0)/m/n/10 填
  []
 
-[60] [61] [62] [63] (./课时目标.aux) ) 
+[53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1917--1918
+[][] 
+ []
+
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 1928--1932
+
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1937--1938
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1939--1940
+[][] 
+ []
+
+[65]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 1956--1957
+[][] 
+ []
+
+[66] [67] [68] [69] [70] (./2022届第一轮讲义例题与习题.aux) ) 
 Here is how much of TeX's memory you used:
- 20087 strings out of 476919
- 457204 string characters out of 5825424
- 825762 words of memory out of 5000000
- 39688 multiletter control sequences out of 15000+600000
- 408737 words of font info for 69 fonts, out of 8000000 for 9000
+ 29912 strings out of 476919
+ 659087 string characters out of 5825424
+ 932689 words of memory out of 5000000
+ 49507 multiletter control sequences out of 15000+600000
+ 406111 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,8n,104p,432b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,22n,104p,762b,851s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 课时目标.pdf (63 pages).
+Output written on 2022届第一轮讲义例题与习题.pdf (70 pages).
