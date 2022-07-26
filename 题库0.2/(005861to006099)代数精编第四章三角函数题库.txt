@@ -3230,7 +3230,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E相同题目>
 <B关联题目>
-
+008155
 <E关联题目>
 <B备注>
 

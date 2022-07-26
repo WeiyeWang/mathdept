@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  25 JUL 2022 08:46
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  27 JUL 2022 06:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -708,8 +708,7 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \c@coro=\count343
 \c@axiom=\count344
 \c@prop=\count345
-
-No file test.aux.
+ (./test.aux)
 \openout1 = `test.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
@@ -728,7 +727,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 87.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -821,32 +820,93 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
-(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+(../题库0.2/相似题目.txt
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 96.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 3.
  (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \hbox (25.0044pt too wide) in paragraph at lines 105--106
-[]\TU/等线(0)/m/n/10 假 设 交 通 事 故 有 $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 6$ \TU/等线(0)/m/n/10 的 概 率 是 因 为 超 速 引 起 的\TU/lmr/m/n/10 , \TU/等线(0)/m/n/10 则 在 $\OT1/cmr/m/n/10 8$ \TU/等线(0)/m/n/10 次 交 通 事 故 中 恰 有 $\OT1/cmr/m/n/10 6$ \TU/等线(0)/m/n/10 次 是 因 为 超 速 引 起 的 概 率 为$[]$\TU/lmr/m/n/10 . 
+Overfull \hbox (29.44168pt too wide) in paragraph at lines 16--17
+[][] 
+ []
+
+
+Overfull \hbox (29.44168pt too wide) in paragraph at lines 19--20
+[][] 
  []
 
 [1
 
-] (./test.aux) ) 
-Here is how much of TeX's memory you used:
- 21114 strings out of 476919
- 483059 string characters out of 5825424
- 815030 words of memory out of 5000000
- 40695 multiletter control sequences out of 15000+600000
- 405784 words of font info for 58 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 101i,8n,104p,390b,824s stack positions out of 5000i,500n,10000p,200000b,80000s
+] [2]
+Overfull \hbox (29.44168pt too wide) in paragraph at lines 114--115
+[][] 
+ []
 
-Output written on test.pdf (1 page).
+
+Overfull \hbox (29.44168pt too wide) in paragraph at lines 117--118
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 160.
+(c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 160.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 160.
+ [3] [4]
+Overfull \hbox (29.44168pt too wide) in paragraph at lines 260--261
+[][] 
+ []
+
+
+Overfull \hbox (29.44168pt too wide) in paragraph at lines 263--264
+[][] 
+ []
+
+[5] [6]
+Overfull \hbox (1.01122pt too wide) in paragraph at lines 351--354
+[]\TU/lmr/m/n/10 008525 (1) \TU/等线(0)/m/n/10 依 次 计 算 下 列 各 式 的 值\TU/lmr/m/n/10 : $[]\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/10 + []\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/10 + [] + []\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/10 + [] + [] + []$\TU/lmr/m/n/10 ; 
+ []
+
+
+Overfull \hbox (1.01122pt too wide) in paragraph at lines 355--357
+[]\TU/lmr/m/n/10 000316 (1) \TU/等线(0)/m/n/10 依 次 计 算 下 列 各 式 的 值\TU/lmr/m/n/10 : $[]\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/10 + []\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/10 + [] + []\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/10 + [] + [] + []$\TU/lmr/m/n/10 . 
+ []
+
+[7] [8]
+Overfull \hbox (5.45642pt too wide) in paragraph at lines 488--489
+[][] 
+ []
+
+
+Overfull \hbox (5.45642pt too wide) in paragraph at lines 491--492
+[][] 
+ []
+
+[9] [10] [11] [12]) [13] (./test.aux) ) 
+Here is how much of TeX's memory you used:
+ 21039 strings out of 476919
+ 481188 string characters out of 5825424
+ 840022 words of memory out of 5000000
+ 40603 multiletter control sequences out of 15000+600000
+ 406111 words of font info for 62 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 101i,14n,104p,390b,256s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on test.pdf (13 pages).
