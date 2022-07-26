@@ -6,6 +6,7 @@
 \usepackage{tikz}
 \usepackage{makecell}
 \usepackage{longtable}
+\usepackage{diagbox}
 %\usepackage{mathptmx}
 
 \usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing,angles,quotes}
@@ -592,459 +593,518 @@ $1-\dfrac 12+\dfrac 13-\dfrac 14+\cdots +\dfrac 1{2n-1}-\dfrac 1{2n}=\dfrac 1{n+
     \end{tikzpicture}
 \end{center}
 \item 在平行四边形$ABCD$中, $AB=1$, $AD=2$, $\angle DAB=60^{\circ }$, 求对角线$AC$与$BD$的夹角.
-*****
 \item 已知$MN$两点的坐标分别是$(3,-2)$、$(-5,-1)$, 且$\overrightarrow{MP}=\overrightarrow{PN}$, 求点$P$的坐标.
-\item 已知平面内三个点$ABC$的坐标分别是$(-1,2)$、$(10,-1)$、$(-4,3)$, $G$是已知平面内的一点, 且$\overrightarrow{AG}+\overrightarrow{BG}+\overrightarrow{CG}=\overrightarrow 0$, 求点$G$的坐标.
-\item 已知向量$\overrightarrow a=(3,4)$与$\overrightarrow b=(1,0)$.
-(1)求$\overrightarrow a$在$\overrightarrow b$的方向上的投影.
-(2)求$\overrightarrow b$在$\overrightarrow a$的方向上的投影.
+\item 已知平面内三个点$A,B,C$的坐标分别是$(-1,2)$、$(10,-1)$、$(-4,3)$, $G$是已知平面内的一点, 且$\overrightarrow{AG}+\overrightarrow{BG}+\overrightarrow{CG}=\overrightarrow 0$, 求点$G$的坐标.
+\item 已知向量$\overrightarrow a=(3,4)$与$\overrightarrow b=(1,0)$.\\
+(1) 求$\overrightarrow a$在$\overrightarrow b$的方向上的投影;\\
+(2) 求$\overrightarrow b$在$\overrightarrow a$的方向上的投影.
 \item 已知$|\overrightarrow{AB}|=2$, $|\overrightarrow{AC}|=4$, $|\overrightarrow{AB}-\overrightarrow{AC}|=2\sqrt 3$, 求$\overrightarrow{AB}$与$\overrightarrow{AC}$的夹角.
 \item 以原点$O$和点$A(5,2)$为顶点作等腰直角三角形$ABO$, 使$\angle B=90^{\circ }$, 求向量$\overrightarrow{OB}$的坐标.
 \item 已知$ABD$的坐标分别是$(0,-1)$、$(-5,1)$、$(7,2)$, 且$\overrightarrow{DC}\parallel \overrightarrow{AB}$, $\overrightarrow{BC}\perp \overrightarrow{AB}$, 求点$C$的坐标.
 \item 如图, $AMB$在同一直线上, 且$\overrightarrow{AM}=\dfrac 13\overrightarrow{AB}$, 设$\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$, $\overrightarrow{OM}=\overrightarrow c$, 用$\overrightarrow a$、$\overrightarrow b$表示$\overrightarrow c$.
-(第7题)
+\begin{center}
+    \begin{tikzpicture}[>=latex]
+        \draw (0,0) node [below] {$O$} coordinate (O);
+        \draw (-2,2) node [above] {$A$} coordinate (A);
+        \draw (1,2) node [above] {$B$} coordinate (B);
+        \draw ($(A)!0.25!(B)$) node [above] {$M$} coordinate (M);
+        \draw (A) -- (O) -- (B);
+        \draw [->] (O) -- (M);
+        \draw [->] (M) -- (B);
+        \draw [->] (A) -- (M);
+    \end{tikzpicture}
+\end{center}
 \item 已知物体在力$\overrightarrow{f_1}$和$\overrightarrow{f_2}$的作用下从$A(3,-5)$移动到$B(-1,2)$(单位: 米), 且$\overrightarrow{f_1}=2\overrightarrow i-3\overrightarrow j$, $\overrightarrow{f_2}=\overrightarrow i+7\overrightarrow j$(单位: 牛), 求$\overrightarrow{f_1}$与$\overrightarrow{f_2}$的合力$\overrightarrow F$对物体所作的功$W$.
-\item 已知$\overrightarrow{e_1}$与$\overrightarrow{e_2}$是不平行的两个向量, 实数$xy$满足: $3x\overrightarrow{e_1}+(10-y)\overrightarrow{e_2}=(4y+7)\overrightarrow{e_1}+2x\overrightarrow{e_2}$, 求$5x-3y$.
-\item 已知$\overrightarrow{OP}=(\cos \theta ,\sin \theta)$, $\overrightarrow{OQ}=(1+\sin \theta ,1+\cos \theta)$, 且$0\le \theta \le \pi$.
-(1)求$|\overrightarrow{PQ}|$的最大值, 并指出$|\overrightarrow{PQ}|$取最大值时$\theta$的值.
-(2)当$|\overrightarrow{PQ}|$取最大值时, 求$\overrightarrow{OP}$与$\overrightarrow{OQ}$的夹角.
+\item 已知$\overrightarrow{e_1}$与$\overrightarrow{e_2}$是不平行的两个向量, 实数$x,y$满足: $3x\overrightarrow{e_1}+(10-y)\overrightarrow{e_2}=(4y+7)\overrightarrow{e_1}+2x\overrightarrow{e_2}$, 求$5x-3y$.
+\item 已知$\overrightarrow{OP}=(\cos \theta ,\sin \theta)$, $\overrightarrow{OQ}=(1+\sin \theta ,1+\cos \theta)$, 且$0\le \theta \le \pi$.\\
+(1) 求$|\overrightarrow{PQ}|$的最大值, 并指出$|\overrightarrow{PQ}|$取最大值时$\theta$的值;\\
+(2) 当$|\overrightarrow{PQ}|$取最大值时, 求$\overrightarrow{OP}$与$\overrightarrow{OQ}$的夹角.
 \item 如图, 用两根绳子把质量为$10$千克的物体$W$吊在水平杆子$AB$上, $\angle ACW=150^{\circ }$, $\angle BCW=120^{\circ }$, 如果绳子的质量忽略不计, 求$A$处和$B$处所受力的大小.
-(第11题)
-复 习 题
-B组
+\begin{center}
+    \begin{tikzpicture}[>=latex]
+        \draw (0,0) -- (3,0);
+        \path [name path = line1] (0.5,0) node [above] {$A$} coordinate (A) --++ (-60:2);
+        \path [name path = line2] (2.5,0) node [above] {$B$} coordinate (B) --++ (-150:2);
+        \path [name intersections = {of = line1 and line2, by = C}];
+        \draw (A) -- (C) -- (B);
+        \draw [->] (C) node [left] {$C$} --++ (0,-1) node [below] {$W$};
+    \end{tikzpicture}
+\end{center}
 \item 已知$\overrightarrow a$、$\overrightarrow b$都是非零向量, 且$|\overrightarrow a|=|\overrightarrow b|=|\overrightarrow a-\overrightarrow b|$, 求$\overrightarrow a$与$\overrightarrow a+\overrightarrow b$的夹角.
-\item 已知$x\overrightarrow a+3\overrightarrow b=\overrightarrow c$, $\overrightarrow a=(2x,\dfrac 23)$, $\overrightarrow b=(x,y)$, $\overrightarrow c=(-1,\dfrac 83)$, 求实数$xy$的值.
+\item 已知$x\overrightarrow a+3\overrightarrow b=\overrightarrow c$, $\overrightarrow a=(2x,\dfrac 23)$, $\overrightarrow b=(x,y)$, $\overrightarrow c=(-1,\dfrac 83)$, 求实数$x,y$的值.
 \item 已知$\overrightarrow a$、$\overrightarrow b$、$\overrightarrow c$都是非零向量, 其中任意两个向量都不平行, 已知$\overrightarrow a+\overrightarrow b$与$\overrightarrow c$平行, $\overrightarrow a+\overrightarrow c$与$\overrightarrow b$平行, 求证: $\overrightarrow b+\overrightarrow c$与$\overrightarrow a$平行.
 \item 已知两个非零向量$\overrightarrow a$、$\overrightarrow b$, 且$\overrightarrow a\parallel \overrightarrow b$, $|\overrightarrow a|=2$, $|\overrightarrow b|=1$, 求$|\overrightarrow a+t\overrightarrow b|$取最小值时实数$t$的值.
-\item 已知$\overrightarrow a=(1,-2)$, $\overrightarrow b=(2,3)$, $\overrightarrow c=(1,1)$, 将$\overrightarrow a$表示成$\overrightarrow b_1+\overrightarrow c_1$的形式, 其中$\overrightarrow b_1\parallel \overrightarrow b$, $\overrightarrow c_1\parallel \overrightarrow c$.
+\item 已知$\overrightarrow a=(1,-2)$, $\overrightarrow b=(2,3)$, $\overrightarrow c=(1,1)$, 将$\overrightarrow a$表示成$\overrightarrow {b_1}+\overrightarrow {c_1}$的形式, 其中$\overrightarrow {b_1}\parallel \overrightarrow b$, $\overrightarrow {c_1}\parallel \overrightarrow c$.
 \item 如图, $|\overrightarrow{OA}|=|\overrightarrow{AB}|=|\overrightarrow{BC}|=1$, $\theta \in (0,\dfrac{\pi }2)$, 试用$\theta$表示点$C$的坐标.
-(第6题)
-\item 如图, 物体$W$的质量为$50$千克, 用绳子将物体$W$悬挂在两面墙之间.已知两面墙之间的距离$AB$为$10$米($AB$为水平线), $AC$为$6$米, $BC$为$8$米, 求$ACBC$上所受的力的大小.(精确到$1$牛)
-(第7题)
+\begin{center}
+    \begin{tikzpicture}[>=latex,scale = 1.5]
+        \draw [->] (-0.3,0) -- (3,0) node [below] {$x$} coordinate (X);
+        \draw [->] (0,-0.3) -- (0,2) node [left] {$y$};
+        \draw (0,0) node [below left] {$O$} coordinate (O);
+        \draw (0,0) --++ (20:1) node [above left] {$A$} coordinate (A) --++ (30:1) node [above left] {$B$} coordinate (B) --++ (50:1) node [above left] {$C$} coordinate (C);
+        \draw (A) --++ (1,0) coordinate (A1);
+        \draw (B) --++ (1,0) coordinate (B1); 
+        \draw (O) pic ["$\theta$", draw, angle eccentricity = 1.5] {angle = X--O--A};
+        \draw (A) pic ["$30^\circ$", draw, angle eccentricity = 1.7] {angle = A1--A--B};
+        \draw (B) pic ["$50^\circ$", draw, angle eccentricity = 1.7] {angle = B1--B--C};
+    \end{tikzpicture}
+\end{center}
+\item 如图, 物体$W$的质量为$50$千克, 用绳子将物体$W$悬挂在两面墙之间.已知两面墙之间的距离$AB$为$10$米($AB$为水平线), $AC$为$6$米, $BC$为$8$米, 求$AC,BC$上所受的力的大小.(精确到$1$牛)
+\begin{center}
+    \begin{tikzpicture}[scale = 0.3]
+        \draw (0,0) node [above right] {$A$} -- (10,0) node [above left] {$B$} -- (3.6,-4.8) node [above] {$C$} -- cycle;
+        \filldraw [fill = gray!30, draw = black] (2.6,-4.8) rectangle (4.6,-6.8);
+        \draw (3.6,-5.8) node {$W$};
+        \filldraw [gray!30] (0,0.5) rectangle (-1,-9) (10,0.5) rectangle (11,-9);
+        \draw (0,0.5) -- (0,-9) (10,0.5) -- (10,-9); 
+    \end{tikzpicture}  
+\end{center}
 \item 假设某班的男生中, 步行上学、骑自行车上学和乘车上学的人数分别为$12$、$5$、$3$, 而在这个班的女生中, 采取相应方式上学的人数分别为$10$、$3$、$7$, 试设计一个矩阵来表示这些数据.
-\item 已知矩阵$A=\begin{pmatrix}
-    1  x  \\y  -1  \end{pmatrix}$和$B=\begin{pmatrix}
-    m  0  \\-1  n  \end{pmatrix}$.当$A=B$时, 求实数$xymn$的值.
-\item 写出下列线性方程组的系数矩阵和增广矩阵, 并用矩阵变换的方法求解.
-(1)$\begin{cases}
-    2x+y=5,  \\3x-2y=4.  \end{cases}$ (2)$\begin{cases}
-    x+y+z=6,  \\3x+y-z=2,  \\5x-2y+3z=10.  \end{cases}$
+\item 已知矩阵$A=\begin{pmatrix}1 &  x  \\y & -1  \end{pmatrix}$和$B=\begin{pmatrix}m & 0  \\-1 & n  \end{pmatrix}$. 当$A=B$时, 求实数$x,y,m,n$的值.
+\item 写出下列线性方程组的系数矩阵和增广矩阵, 并用矩阵变换的方法求解.\\
+(1) $\begin{cases}   2x+y=5,  \\3x-2y=4;  \end{cases}$\\
+(2) $\begin{cases}   x+y+z=6,  \\3x+y-z=2,  \\5x-2y+3z=10.  \end{cases}$
 \item 利用网络, 查出北京、天津、上海和重庆四个直辖市之间的距离(单位: 千米), 并用矩阵表示.
-\item 写出下列线性方程组的系数矩阵和增广矩阵, 并用矩阵变换的方法求解.
-(1)$\begin{cases}
-    x-2y=3,  \\2x+y=11.  \end{cases}$ (2)$\begin{cases}
-    x-2z=1,  \\y+4z=6,  \\2x-y+z=5.  \end{cases}$
-\item 填空:
-(1)$\begin{pmatrix}
-    1  2  \\-1  -1  \end{pmatrix}+\begin{pmatrix}
-    -1  2  \\2  1  \end{pmatrix}=$\blank{50}.
-(2)$2\begin{pmatrix}
-    0  1  \\1  0  \end{pmatrix}-3\begin{pmatrix}
-    1  0  \\0  1  \end{pmatrix}=$\blank{50}.
-\item 已知$A=\begin{pmatrix}
-    0  1  2  \\-1  2  0  \end{pmatrix}$, $B=\begin{pmatrix}
-    3  0  3  \\0  -2  5  \end{pmatrix}$.
-(1)求$A+B$.
-(2)求$B-A$.
-(3)求$3A$.
-\item 计算下列矩阵的乘积:
-(1)$\begin{pmatrix}
-    x  y  \\u  v  \end{pmatrix}\begin{pmatrix}
-    -1  0  \\0  1  \end{pmatrix}$. (2)$\begin{pmatrix}
-    0  0  1  \\1  0  0  \\0  1  0  \end{pmatrix}\begin{pmatrix}
-    a  b  c  \\u  v  w  \\x  y  z  \end{pmatrix}$.
-(3)$\begin{pmatrix}
-    1  2  3  4  \end{pmatrix}\begin{pmatrix}
-    1  \\2  \\3  \\4  \end{pmatrix}$.
-\item 已知矩阵$A=\begin{pmatrix}
-    1  1  \\1  1  \end{pmatrix}$, 求向量$(2,3)$经过矩阵$A$变换后所得的向量.
-\item 某水果批发部向$ABCD$四家水果店分别批发的苹果、橘子和香蕉的数量如下(单位: 千克):
-苹果	橘子	香蕉
-水果店$A$	100	40	60
-水果店$B$	60	35	50
-水果店$C$	60	30	60
-水果店$D$	50	45	30
-已知苹果、橘子和香蕉的批发价分别为每千克$1.50$元、$1.80$元和$2.20$元.
-(1)试用矩阵表示批发部批发苹果、橘子和香蕉各为多少千克?
-(2)试用矩阵表示并计算, $ABCD$四家水果店应支付的金额各为多少元?
+\item 写出下列线性方程组的系数矩阵和增广矩阵, 并用矩阵变换的方法求解.\\
+(1) $\begin{cases}    x-2y=3,  \\2x+y=11;  \end{cases}$\\(2) $\begin{cases} x-2z=1,  \\y+4z=6,  \\2x-y+z=5.  \end{cases}$
+\item $\begin{pmatrix}    1 & 2  \\-1 & -1  \end{pmatrix}+\begin{pmatrix}    -1 & 2  \\2 & 1  \end{pmatrix}=$\blank{50}.
+\item $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\0 & 1  \end{pmatrix}=$\blank{50}.
+\item 已知$A=\begin{pmatrix}    0 & 1 & 2  \\-1 & 2 & 0  \end{pmatrix}$, $B=\begin{pmatrix}    3 & 0 & 3  \\0 & -2 & 5  \end{pmatrix}$.\\
+(1) 求$A+B$;\\
+(2) 求$B-A$;\\
+(3) 求$3A$.
+\item 计算矩阵的乘积: $\begin{pmatrix}   x & y  \\u & v  \end{pmatrix}\begin{pmatrix}    -1 & 0  \\0 & 1  \end{pmatrix}$. 
+\item 计算矩阵的乘积: $\begin{pmatrix}    0 & 0 & 1  \\1 & 0 & 0  \\0 & 1 & 0  \end{pmatrix}\begin{pmatrix}  a & b & c  \\ u & v & w  \\ x & y & z  \end{pmatrix}$.
+\item 计算矩阵的乘积: $\begin{pmatrix}
+ 1 & 2 & 3 & 4  \end{pmatrix}\begin{pmatrix}
+1  \\2  \\3  \\4  \end{pmatrix}$.
+\item 已知矩阵$A=\begin{pmatrix}    1 & 1  \\1 & 1  \end{pmatrix}$, 求向量$(2,3)$经过矩阵$A$变换后所得的向量.
+\item 某水果批发部向$A,B,C,D$四家水果店分别批发的苹果、橘子和香蕉的数量如下(单位: 千克):
+\begin{center}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+         & 苹果	 & 橘子	 & 香蕉 \\ \hline
+        水果店$A$ &	$100$ & $40$ & $60$ \\ \hline
+        水果店$B$ &	$60$ & $35$ & $50$ \\ \hline
+        水果店$C$ &	$60$ & $30$ & $60$ \\ \hline
+        水果店$D$ & $50$ & $45$ & $30$ \\ \hline
+    \end{tabular}
+\end{center}
+已知苹果、橘子和香蕉的批发价分别为每千克$1.50$元、$1.80$元和$2.20$元.\\
+(1) 试用矩阵表示批发部批发苹果、橘子和香蕉各为多少千克?\\
+(2) 试用矩阵表示并计算, $ABCD$四家水果店应支付的金额各为多少元?
 \item 在一次演讲比赛中, 如果规定评综合得分的指标有三项: 演说词、口才和仪态, 它们的权重依次为$50\%$、$30\%$和$20\%$, 现有$5$位演讲者的得分如下:
-演说词	口才	仪态
-演讲者1	90	90	90
-演讲者2	90	85	80
-演讲者3	80	85	90
-演讲者4	80	60	50
-演讲者5	50	60	80
+\begin{center}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        & 演说词 & 口才 & 仪态\\ \hline
+        演讲者$1$ & $90$ & $90$ & $90$\\ \hline
+        演讲者$2$ & $90$ & $85$ & $80$\\ \hline
+        演讲者$3$ & $80$ & $85$ & $90$\\ \hline
+        演讲者$4$ & $80$ & $60$ & $50$\\ \hline
+        演讲者$5$ & $50$ & $60$ & $80$\\ \hline
+    \end{tabular}
+\end{center}
 试根据三项指标的权重, 用矩阵表示并计算$5$位演讲者的综合得分.
-\item 已知矩阵$A=\begin{pmatrix}
-    3  1  4  \\2  -1  -2  \\2  4  1  \end{pmatrix}$与$B=\begin{pmatrix}
-    0  1  2  \\3  4  -1  \\-2  1  1  \end{pmatrix}$, 求$2A+3B$和$5A-2B$.
-\item 已知矩阵$A=\begin{pmatrix}
-    5  8  \\6  7  \end{pmatrix}$, 矩阵$B=\begin{pmatrix}
-    5  3  4  \\2  2  4  \end{pmatrix}$, 矩阵$C=\begin{pmatrix}
-    15  \\10  \\6  \end{pmatrix}$.
-(1)求$AB$. (2)求$(AB)C$.
-(3)求$BC$. (4)求$A(BC)$.
-\item 计算:
-(1)$(\begin{pmatrix}
-    1  0  \\0  1  \end{pmatrix}-2\begin{pmatrix}
-    0  1  \\1  0  \end{pmatrix})\begin{pmatrix}
-    1  -1  \\-1  1  \end{pmatrix}$.
-(2)$(\begin{pmatrix}
-    1  2  \\-2  3  \\3  -5  \end{pmatrix}+\begin{pmatrix}
-    2  3  \\2  4  \\-1  0  \end{pmatrix})\begin{pmatrix}
-    2  -1  \\1  3  \end{pmatrix}$.
+\item 已知矩阵$A=\begin{pmatrix}   3 & 1 & 4  \\2 & -1 & -2  \\2 & 4 & 1  \end{pmatrix}$与$B=\begin{pmatrix}
+0 & 1 & 2  \\3 & 4 & -1  \\-2 & 1 & 1  \end{pmatrix}$, 求$2A+3B$和$5A-2B$.
+\item 已知矩阵$A=\begin{pmatrix}    5 & 8  \\6 & 7  \end{pmatrix}$, 矩阵$B=\begin{pmatrix}   5 & 3 & 4  \\2 & 2 & 4  \end{pmatrix}$, 矩阵$C=\begin{pmatrix}    15  \\10  \\6  \end{pmatrix}$.\\
+(1) 求$AB$;\\
+(2) 求$(AB)C$;\\
+(3) 求$BC$;\\
+(4) 求$A(BC)$.
+\item 计算: $(\begin{pmatrix}    1 & 0  \\0 & 1  \end{pmatrix}-2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix})\begin{pmatrix}    1 & -1  \\-1 & 1  \end{pmatrix}$.
+\item 计算: $(\begin{pmatrix} 1 & 2  \\-2 & 3  \\3 & -5  \end{pmatrix}+\begin{pmatrix}  2 & 3  \\2 & 4  \\-1 & 0  \end{pmatrix})\begin{pmatrix} 2 & -1  \\1 & 3  \end{pmatrix}$.
 \item 已知向量$(x,y)$经矩阵$\begin{pmatrix}
-    0  1  \\1  0  \end{pmatrix}$变换后得到矩阵$(3,2)$, 求实数$xy$的值.
+0 & 1  \\1 & 0  \end{pmatrix}$变换后得到矩阵$(3,2)$, 求实数$x,y$的值.
 \item 一家水果店共出售五种水果, 它们的单价和利润如下表所示(单位: 元/千克):
-品  种	西瓜	哈密瓜	芒果	葡萄	草莓
-单价	3.00	6.50	4.50	5.00	8.00
-利润	0.50	1.50	1.00	1.20	1.30
+\begin{center}
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        品种 & 西瓜 & 哈密瓜 & 芒果 & 葡萄 & 草莓 \\ \hline
+        单价 & $3.00$ & $6.50$ & $4.50$ & $5.00$ & $8.00$\\ \hline
+        利润 & $0.50$ & $1.50$ & $1.00$ & $1.20$ & $1.30$\\ \hline
+    \end{tabular}
+\end{center}
 该家水果店的经理要在计算每笔生意营业额的同时, 获知该笔生意的利润额.假设现有$3$位顾客来购买水果, 他们的购买量如下表所示(单位: 千克):
-西瓜	哈密瓜	芒果	葡萄	草莓
-顾客甲	10	5	8.5	3	2
-顾客乙	0	15	5	2.5	5
-顾客丙	15	10	10	8	7.5
-计算每笔生意的营业额和利润.(精确到$0.01$元)
-\item 填空:
-如果$\begin{vmatrix}
-    5  3  \\2  4  \end{vmatrix}+\begin{vmatrix}
-    a  -1  \\1  b  \end{vmatrix}=\begin{vmatrix}
-    1  2  \\7  8  \end{vmatrix}$, 那么$ab$可以分别取\blank{50}(只需填写$2$组即可).
-\item 计算下列行列式的值:
-(1)$\begin{vmatrix}
-    -6  -2  \\8  5  \end{vmatrix}$. (2)$\begin{vmatrix}
-    \sqrt 3-\sqrt 2  \sqrt 3-2  \\\sqrt 3+2  \sqrt 3+\sqrt 2  \end{vmatrix}$.
-(3)$\begin{vmatrix}
-    \pi ^{m+n}  \pi ^m-1  \\\pi ^m+1  \pi ^{m-n}  \end{vmatrix}$.
-\item 用行列式解下列方程组:
-(1)$\begin{matrix}
-    x+2y=3,  \\4x-y=3.  \end{matrix}$ (2)$\begin{matrix}
-    7x-5y-6=0,  \\13x+9y-2=0.  \end{matrix}$
-\item 判别下列二元一次方程组解的情况:
-(1)$\begin{cases}
-    2x-3y=7,  \\3x-4y=11.  \end{cases}$ (2)$\begin{cases}
-    x-3y=2,  \\3x-9y=6.  \end{cases}$
-(3)$\begin{cases}
-    2x+3y=1,  \\4x+6y=3.  \end{cases}$
-\item 解下列关于$xy$的方程组:
-(1)$\begin{cases}
-    x\cos \theta -y\sin \theta =\sin \theta ,  \\x\sin \theta +y\cos \theta =\cos \theta .  \end{cases}$
-(2)$\begin{cases}
+\begin{center}
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+         & 西瓜 & 哈密瓜 & 芒果 & 葡萄 & 草莓\\ \hline
+        顾客甲 & $10$ & $5$ & $8.5$ & $3$ & $2$\\ \hline
+        顾客乙 & $0$ & $15$ & $5$ & $2.5$ & $5$\\ \hline
+        顾客丙 & $15$ & $10$ & $10$ & $8$ & $7.5$\\ \hline
+    \end{tabular}
+\end{center}
+计算每笔生意的营业额和利润(精确到$0.01$元).
+\item 如果$\begin{vmatrix}    5 & 3  \\2 & 4  \end{vmatrix}+\begin{vmatrix}    a & -1  \\1 & b  \end{vmatrix}=\begin{vmatrix}    1 & 2  \\7 & 8  \end{vmatrix}$, 那么$a,b$可以分别取\blank{50}(只需填写$2$组即可).
+\item 计算下列行列式的值:\\
+(1) $\begin{vmatrix}    -6 & -2  \\8 & 5  \end{vmatrix}$;\\
+(2) $\begin{vmatrix}    \sqrt 3-\sqrt 2 & \sqrt 3-2  \\ \sqrt 3+2 & \sqrt 3+\sqrt 2  \end{vmatrix}$;\\
+(3) $\begin{vmatrix}    \pi ^{m+n} & \pi ^m-1  \\\pi ^m+1 & \pi ^{m-n}  \end{vmatrix}$.
+\item 用行列式解下列方程组:\\
+(1) $\begin{cases}    x+2y=3,  \\4x-y=3;  \end{cases}$\\(2) $\begin{cases}    7x-5y-6=0,  \\13x+9y-2=0.  \end{cases}$
+\item 判别下列二元一次方程组解的情况:\\
+(1) $\begin{cases}    2x-3y=7,  \\3x-4y=11;  \end{cases}$\\
+(2) $\begin{cases}    x-3y=2,  \\3x-9y=6;  \end{cases}$\\
+(3) $\begin{cases}    2x+3y=1,  \\4x+6y=3.  \end{cases}$
+\item 解下列关于$x,y$的方程组:\\
+(1) $\begin{cases}
+    x\cos \theta -y\sin \theta =\sin \theta ,  \\x\sin \theta +y\cos \theta =\cos \theta;  \end{cases}$\\
+(2) $\begin{cases}
  (a+b)x+(a-b)y=a^2-b^2,  \\(a-b)x+(a+b)y=a^2+b^2.  \end{cases} (ab\ne 0)$
-\item 解关于$xy$的方程组$\begin{cases}
+\item 解关于$x,y$的方程组$\begin{cases}
     mx+y=m+1,  \\x+my=2m,  \end{cases}$并对解的情况进行讨论.
-\item 已知关于$xy$的方程组$\begin{cases}
+\item 已知关于$x,y$的方程组$\begin{cases}
  (a^2-2)x-(a+1)y=a+1,  \\a^2x-(a+1)y=a-1  \end{cases}$有唯一解, 求$a$的取值范围.
-\item 展开下列行列式并化简:
-(1)$\begin{vmatrix}
-    x-1  x^2  \\1  x+1  \end{vmatrix}$. (2)$\begin{vmatrix}
-    \mathrm{e}^x  \mathrm{e}^x-1  \\\mathrm{e}^x+1  \mathrm{e}^{-x}  \end{vmatrix}$.
-\item 用行列式解下列方程组:
-(1)$\begin{matrix}
-    15x-7y+5=0,  \\22x-6y-14=0.  \end{matrix}$ (2)$\begin{cases}
+\item 展开下列行列式并化简:\\
+(1) $\begin{vmatrix}    x-1 & x^2  \\1 & x+1  \end{vmatrix}$;\\
+(2) $\begin{vmatrix}    \mathrm{e}^x & \mathrm{e}^x-1  \\\mathrm{e}^x+1 & \mathrm{e}^{-x}  \end{vmatrix}$.
+\item 用行列式解下列方程组:\\
+(1) $\begin{cases}
+    15x-7y+5=0,  \\22x-6y-14=0;  \end{cases}$\\
+(2) $\begin{cases}
     \dfrac 5x+\dfrac 7y=3,  \\\dfrac 7x+\dfrac 9y=4.  \end{cases}$
-\item 判别下列二元一次方程组解的情况:
+\item 判别下列二元一次方程组解的情况:\\
 (1)$\begin{cases}
-    x\cdot \sin ^275^{\circ }+y\cdot \cos ^275^{\circ }=1,  \\x\cdot \sin ^215^{\circ }+y\cdot \cos ^215^{\circ }=2.  \end{cases}$ (2)$\begin{cases}
+    x\cdot \sin ^275^{\circ }+y\cdot \cos ^275^{\circ }=1,  \\x\cdot \sin ^215^{\circ }+y\cdot \cos ^215^{\circ }=2;  \end{cases}$\\
+(2)$\begin{cases}
     2x+y\cdot \lg 2=4,  \\4x+y\cdot \lg 4=8.  \end{cases}$
-\item 编出二元一次方程组, 分别满足下列条件.
-(1)方程组有唯一解.
-(2)方程组无解.
-(3)方程组有无穷多解.
-\item 计算下列行列式的值: $\begin{vmatrix}
-    a  b  \\c  d  \end{vmatrix}$、$\begin{vmatrix}
-    a  a+b  \\c  c+d  \end{vmatrix}$.你能得到关于行列式的一个怎样的性质? 猜想行列式还可能具有哪些类似的性质, 并加以证明.
-\item 用对角线法则计算下列三阶行列式:
-(1)$\begin{vmatrix}
-    2  1  2  \\-3  4  -1  \\3  6  5  \end{vmatrix}$. (2)$\begin{vmatrix}
-    1  -2  0  \\2  1  0  \\6  3  1  \end{vmatrix}$.
-\item 用对角线法则展开下列三阶行列式, 并化简:
-(1)$\begin{vmatrix}
-    a  b  a+b  \\b  a+b  a  \\a+b  a  b  \end{vmatrix}$. (2)$\begin{vmatrix}
-    0  x  y  \\x  0  z  \\y  z  0  \end{vmatrix}$.
-\item 试根据三阶行列式的展开式的定义, 将三阶行列式$\begin{vmatrix}
-    a_1  b_1  c_1  \\a_2  b_2  c_2  \\a_3  b_3  c_3  \end{vmatrix}$推导成按第二列展开的形式.
-\item 用按某一行(或某一列)展开的方式计算下列三阶行列式:
-(1)$\begin{vmatrix}
-    1  2  2  \\0  3  1  \\2  0  5  \end{vmatrix}$. (2)$\begin{vmatrix}
-    1  0  2  \\-3  4  -1  \\2  0  5  \end{vmatrix}$.
-\item 用按某一行(或某一列)展开的方式化简下列三阶行列式:
-(1)$\begin{vmatrix}
-    x  y  z  \\y  x  y  \\z  z  x  \end{vmatrix}$. (2)$\begin{vmatrix}
-    0  0  a  \\0  b  c  \\c  a  b  \end{vmatrix}$.
-\item 把$\begin{vmatrix}
-    x_2  y_2  \\x_3  y_3  \end{vmatrix}-\begin{vmatrix}
-    x_1  y_1  \\x_3  y_3  \end{vmatrix}+\begin{vmatrix}
-    x_1  y_1  \\x_2  y_2  \end{vmatrix}$表示成一个三阶行列式.
-\item 用行列式解下列三元一次方程组:
-(1)$\begin{cases}
-    x-2y+z=7,  \\3x-5y+z=14,  \\2x-2y-z=3.  \end{cases}$ (2)$\begin{cases}
-    x+3y+z=11,  \\2x+3y-4z=13,  \\-x-3y+z=-9.  \end{cases}$
-\item 用行列式解关于$xyz$的方程组$\begin{cases}
+\item 编出二元一次方程组, 分别满足下列条件.\\
+(1) 方程组有唯一解;\\
+(2) 方程组无解;\\
+(3) 方程组有无穷多解.
+\item 计算下列行列式的值: $\begin{vmatrix}    a & b  \\c & d  \end{vmatrix}$、$\begin{vmatrix}    a & a+b  \\c & c+d  \end{vmatrix}$. 你能得到关于行列式的一个怎样的性质? 猜想行列式还可能具有哪些类似的性质, 并加以证明.
+\item 用对角线法则计算下列三阶行列式:\\
+(1) $\begin{vmatrix}    2 & 1 & 2  \\-3 & 4 & -1  \\3 & 6 & 5  \end{vmatrix}$;\\
+(2) $\begin{vmatrix}    1 & -2 & 0  \\2 & 1 & 0  \\6 & 3 & 1  \end{vmatrix}$.
+\item 用对角线法则展开下列三阶行列式, 并化简:\\
+(1) $\begin{vmatrix}   a & b & a+b  \\b & a+b & a  \\a+b & a & b  \end{vmatrix}$;\\
+(2) $\begin{vmatrix}    0 & x & y  \\x & 0 & z  \\y & z & 0  \end{vmatrix}$.
+\item 试根据三阶行列式的展开式的定义, 将三阶行列式$\begin{vmatrix}    a_1 & b_1 & c_1  \\a_2 & b_2 & c_2  \\a_3 & b_3 & c_3  \end{vmatrix}$推导成按第二列展开的形式.
+\item 用按某一行(或某一列)展开的方式计算下列三阶行列式:\\
+(1) $\begin{vmatrix}    1 & 2 & 2  \\0 & 3 & 1  \\2 & 0 & 5  \end{vmatrix}$;\\
+(2) $\begin{vmatrix}    1 & 0 & 2  \\-3 & 4 & -1  \\2 & 0 & 5  \end{vmatrix}$.
+\item 用按某一行(或某一列)展开的方式化简下列三阶行列式:\\
+(1) $\begin{vmatrix}    x & y & z  \\y & x &  y  \\z & z & x  \end{vmatrix}$;\\
+(2) $\begin{vmatrix}    0 & 0 & a  \\0 & b & c  \\c & a & b  \end{vmatrix}$.
+\item 把$\begin{vmatrix}    x_2 & y_2  \\x_3 & y_3  \end{vmatrix}-\begin{vmatrix}    x_1 & y_1  \\x_3 & y_3  \end{vmatrix}+\begin{vmatrix}    x_1 & y_1  \\x_2 & y_2  \end{vmatrix}$表示成一个三阶行列式.
+\item 用行列式解下列三元一次方程组:\\
+(1) $\begin{cases}    x-2y+z=7,  \\3x-5y+z=14,  \\2x-2y-z=3;  \end{cases}$\\
+(2) $\begin{cases}    x+3y+z=11,  \\2x+3y-4z=13,  \\-x-3y+z=-9.  \end{cases}$
+\item 用行列式解关于$x,y,z$的方程组$\begin{cases}
     x+y=a,  \\y+z=b,  \\z+x=c.  \end{cases}$
-\item 当实数$ab$为何值时, 关于$xyz$的方程组$\begin{cases}
-    ax+y+z=1,  \\ax+by+z=2,  \\x+2by+z=4  \end{cases}$有唯一解?
-\item 某工厂今年$1$月、$2$月、$3$月生产某种产品的数量分别为$1$万件、$1.2$万件、$1.3$万件.为了估计以后每个月的产量, 以这三个月的产品数量为依据, 可用一个二次函数来拟合该产品的月产量$y$(万件)与月份数$x$之间的关系.试求这个二次函数的表达式, 并估算出$4$月份的产量.
-\item 填空:
-(1)把$3\begin{vmatrix}
-    1  3  \\3  1  \end{vmatrix}-2\begin{vmatrix}
-    0  -2  \\3  1  \end{vmatrix}-2\begin{vmatrix}
-    0  -2  \\1  3  \end{vmatrix}$表示成一个三阶行列式为\blank{50}.
-(2)对于方程组\fourch{$\begin{cases}
-    a_1x+b_1y+c_1z=d_1,  \\a_2x+b_2y+c_2z=d_2,  \\a_3x+b_3y+c_3z=d_3,  \end{cases}$若记$D=\begin{vmatrix}
-    a_1  b_1  c_1  \\a_2  b_2  c_2  \\a_3  b_3  c_3  \end{vmatrix}$, 则``$D=0$''是``方程组(A)有无穷多解''的\blank{50}条件.
-\item 用行列式解关于$xyz$的方程组$\begin{cases}
+\item 当实数$a,b$为何值时, 关于$x,y,z$的方程组$\begin{cases}
+ax+y+z=1,  \\ax+by+z=2,  \\x+2by+z=4  \end{cases}$有唯一解?
+\item 某工厂今年$1$月、$2$月、$3$月生产某种产品的数量分别为$1$万件、$1.2$万件、$1.3$万件.为了估计以后每个月的产量, 以这三个月的产品数量为依据, 可用一个二次函数来拟合该产品的月产量$y$(万件)与月份数$x$之间的关系. 试求这个二次函数的表达式, 并估算出$4$月份的产量.
+\item 把$3\begin{vmatrix}    1 & 3  \\3 & 1  \end{vmatrix}-2\begin{vmatrix}    0 & -2  \\3 & 1  \end{vmatrix}-2\begin{vmatrix}    0 & -2  \\1 & 3  \end{vmatrix}$表示成一个三阶行列式为\blank{50}.
+\item 对于方程组(A)$\begin{cases}    a_1x+b_1y+c_1z=d_1,  \\a_2x+b_2y+c_2z=d_2,  \\a_3x+b_3y+c_3z=d_3,  \end{cases}$若记$D=\begin{vmatrix}    a_1 & b_1 & c_1  \\a_2 & b_2 & c_2  \\a_3 & b_3 & c_3  \end{vmatrix}$, 则``$D=0$''是``方程组(A)有无穷多解''的\blank{50}条件.
+\item 用行列式解关于$x,y,z$的方程组$\begin{cases}
     x-y+z=a,  \\x+y-z=b,  \\-x+y+z=c.  \end{cases}$
-\item 已知二次函数$f(x)=ax^2+bx+c$满足$f(1)=0$, $f(2)=3$, $f(-3)=28$, 求$abc$的值.
+\item 已知二次函数$f(x)=ax^2+bx+c$满足$f(1)=0$, $f(2)=3$, $f(-3)=28$, 求$a,b,c$的值.
 \item 已知甲、乙、丙三种化肥, 每千克化肥中氮、磷、钾的含量如下表(单位: 克):
-氮	磷	钾
-甲	70	8	2
-乙	64	10	0.6
-丙	70	5	1.4
+\begin{center}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+         & 氮 & 磷 & 钾\\ \hline
+        甲 & $70$ & $8$ & $2$\\ \hline
+        乙 & $64$ & $10$ & $0.6$\\ \hline
+        丙 & $70$ & $5$ & $1.4$\\ \hline
+    \end{tabular}
+\end{center}
 如果要配制$23$千克的混合化肥, 且含磷$149$克、钾$30$克, 那么需要这三种化肥各多少千克?
-复 习 题
-A组
 \item 已知某个线性方程组的增广矩阵是$\begin{pmatrix}
-    6  -4  5  \\8  -3  2  \end{pmatrix}$.
-(1)试写出这个增广矩阵对应的线性方程组.
-(2)用矩阵变换的方法解这个方程组.
-\item 已知矩阵$A=\begin{pmatrix}
-    2  1  \\-4  0  \end{pmatrix}$, 矩阵$B=\begin{pmatrix}
-    4  3  \\-7  0  \end{pmatrix}$, 矩阵$C=\begin{pmatrix}
-    1  -2  0  \\-2  3  4  \end{pmatrix}$.
-(1)求$B-2A$. (2)求$AB$.
-(3)求$AC$.
-\item 填空:
-(1)两角差的余弦公式为: $\cos (\alpha -\beta)=\cos \alpha \cos \beta +\sin \alpha \sin \beta$, 右式若用行列式表示, 则$\cos (\alpha -\beta)=$\blank{50}.
-(2)对于方程组(A)$\begin{cases}
-    a_1x+b_1y=c_1,  \\a_2x+b_2y=c_2,  \end{cases}$若记$D=\begin{vmatrix}
-    a_1  b_1  \\a_2  b_2  \end{vmatrix}$, $D_x=\begin{vmatrix}
-    c_1  b_1  \\c_2  b_2  \end{vmatrix}$, $D_y=\begin{vmatrix}
-    a_1  c_1  \\a_2  c_2  \end{vmatrix}$, 则``方程组(A)无解''的充要条件是\blank{50}.
-\item 计算下列行列式:
-(1)$\begin{vmatrix}
-    3+\sqrt 5  \sqrt 3-2  \\\sqrt 3+2  3-\sqrt 5  \end{vmatrix}$. (2)$\begin{vmatrix}
-    3  3  -5  \\0  -2  1  \\7  1  3  \end{vmatrix}$.
-\item 利用行列式解下列方程组:
-(1)$\begin{cases}
-    2x-10y=3,  \\4x+5y=1.  \end{cases}$ (2)$\begin{cases}
-    3x+2y+z=3,  \\-7x+4y+5z=-10,  \\2x+3y-z=\dfrac 92.  \end{cases}$
-(3)$\begin{cases}
-    \dfrac{11}x-\dfrac 1y-6=0,  \\\dfrac 3x+\dfrac 5y+1=0.  \end{cases}$
-\item 解关于$xy$的方程组$\begin{cases}
-    mx+2y=8,  \\2x+(m-3)y=m,  \end{cases}$并对解的情况进行讨论.
-\item 当$a$为何值时, 关于$xyz$的方程组$\begin{cases}
-    ax+y+z=1,  \\x+ay+z=2,  \\3x+(2a+1)y+3z=6  \end{cases}$有唯一解?
+    6 & -4 & 5  \\8 & -3 & 2  \end{pmatrix}$.\\
+(1) 试写出这个增广矩阵对应的线性方程组;\\
+(2) 用矩阵变换的方法解这个方程组.
+\item 已知矩阵$A=\begin{pmatrix}    2 & 1  \\-4 & 0  \end{pmatrix}$, 矩阵$B=\begin{pmatrix}    4 & 3  \\-7 & 0  \end{pmatrix}$, 矩阵$C=\begin{pmatrix}    1 & -2 & 0  \\-2 & 3 & 4  \end{pmatrix}$.\\
+(1) 求$B-2A$;\\
+(2) 求$AB$;\\
+(3) 求$AC$.
+\item 两角差的余弦公式为: $\cos (\alpha -\beta)=\cos \alpha \cos \beta +\sin \alpha \sin \beta$, 右式若用行列式表示, 则$\cos (\alpha -\beta)=$\blank{50}.
+\item 对于方程组(A)$\begin{cases}    a_1x+b_1y=c_1,  \\a_2x+b_2y=c_2,  \end{cases}$若记$D=\begin{vmatrix}
+a_1 & b_1  \\a_2 & b_2  \end{vmatrix}$, $D_x=\begin{vmatrix}    c_1 & b_1  \\c_2 & b_2  \end{vmatrix}$, $D_y=\begin{vmatrix}    a_1 & c_1  \\a_2 & c_2  \end{vmatrix}$, 则``方程组(A)无解''的充要条件是\blank{50}.
+\item 计算下列行列式:\\
+(1) $\begin{vmatrix}    3+\sqrt 5 & \sqrt 3-2  \\\sqrt 3+2 & 3-\sqrt 5  \end{vmatrix}$;\\
+(2) $\begin{vmatrix}    3 & 3 & -5  \\0 & -2 & 1  \\7 & 1 & 3  \end{vmatrix}$.
+\item 利用行列式解下列方程组:\\
+(1) $\begin{cases}    2x-10y=3,  \\4x+5y=1;  \end{cases}$\\ 
+(2) $\begin{cases}    3x+2y+z=3,  \\-7x+4y+5z=-10,  \\2x+3y-z=\dfrac 92  \end{cases}$\\
+(3) $\begin{cases}    \dfrac{11}x-\dfrac 1y-6=0,  \\\dfrac 3x+\dfrac 5y+1=0.  \end{cases}$
+\item 解关于$x,y$的方程组$\begin{cases}    mx+2y=8,  \\2x+(m-3)y=m,  \end{cases}$并对解的情况进行讨论.
+\item 当$a$为何值时, 关于$x,y,z$的方程组$\begin{cases}    ax+y+z=1,  \\x+ay+z=2,  \\3x+(2a+1)y+3z=6  \end{cases}$有唯一解?
 \item 甲、乙、丙三人参与完成一项工作, 若甲乙两人合作, 则甲做$8$天, 乙做$5$天能够完成工作; 若甲丙两人合作, 则甲做$6$天, 丙做$9$天能够完成工作; 若乙丙两人合作, 则乙做$10$天, 丙做$6$天能够完成工作.若这项工作分别由甲、乙、丙单独做, 则他们各需多少天才能完成这项工作?
-复 习 题
-B组
-\item 已知矩阵$A=\begin{pmatrix}
-    2  \\1  \\-3  \end{pmatrix}$, 矩阵$B=(\begin{cases}
-    -1  2  \end{cases})$, 矩阵$C=\begin{pmatrix}
-    -3  0  \\-1  2  \end{pmatrix}$, 求$(AB)C$和$A(BC)$.
-\item 填空:
-关于$xyz$的方程组$\begin{cases}
-    ay+bz=c,  \\cx+az=b,  \\bx+cy=a  \end{cases}$有唯一解的条件是\blank{50}.
-\item 用行列式解关于$xyz$的方程组:
+\item 已知矩阵$A=\begin{pmatrix}    2  \\1  \\-3  \end{pmatrix}$, 矩阵$B=\begin{pmatrix}-1 \\ 2  \end{pmatrix}$, 矩阵$C=\begin{pmatrix}    -3 & 0  \\-1 & 2  \end{pmatrix}$, 求$(AB)C$和$A(BC)$.
+\item 关于$x,y,z$的方程组$\begin{cases}    ay+bz=c,  \\cx+az=b,  \\bx+cy=a  \end{cases}$有唯一解的条件是\blank{50}.
+\item 已知$abc\ne 0$, 用行列式解关于$x,y,z$的方程组:
 $\begin{cases}
-    bx-ay=-2ab,  \\-2cy+3bz=bc,(abc\ne 0)  \\cx+az=0.  \end{cases}$
-\item 用行列式解关于$xy$的方程组:
-$\begin{cases}
- (m-1)x-y-m-1=0,  \\(m-1)x+(m+1)y+1=0.  \end{cases}$
-\item 已知关于$xy$的方程组$\begin{cases}
-    kx-y=5,  \\2x+3ky=7  \end{cases}$的解满足条件$x>0$, $y<0$, 求实数$k$的取值范围.
-总复习题
-A组
-\item 填空:
-(1)数列$-\dfrac 32,\dfrac 54,-\dfrac 76,\dfrac 98,\cdots$的一个通项公式为\blank{50}.
-(2)用数学归纳法证明$2+3+4+\cdots +n=\dfrac{(n-1)(n+2)}2$时, 第(i)步取
-$n=$\blank{50}验证.
-(3)$\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
-(4)已知向量$\overrightarrow a=(1,2)$与$\overrightarrow b=(3,-2)$.当$k=$\blank{50}时, $k\overrightarrow a+\overrightarrow b$与$\overrightarrow a-3\overrightarrow b$垂直.
-\item 选择题:
-(1)数列$27, 207, 2 007, 20 007$的一个通项公式可以为\bracket{20}.
-(A)$a_n=2n+7$}{$a_n=2^n+7$}{$a_n=20^n+7$}{$a_n=2\times 10^n+7$}
-(2)某厂去年的产值是$100$万元, 计划今后$3$年内每年的产值都比上一年增加$10\%$, 从今年起这$3$年的总产值为(精确到$1$万元)\bracket{20}.
+    bx-ay=-2ab,  \\-2cy+3bz=bc, \\cx+az=0.  \end{cases}$
+\item 用行列式解关于$x,y$的方程组:
+$\begin{cases} (m-1)x-y-m-1=0,  \\(m-1)x+(m+1)y+1=0.  \end{cases}$
+\item 已知关于$x,y$的方程组$\begin{cases}    kx-y=5,  \\2x+3ky=7  \end{cases}$的解满足条件$x>0$, $y<0$, 求实数$k$的取值范围.
+\item 数列$-\dfrac 32,\dfrac 54,-\dfrac 76,\dfrac 98,\cdots$的一个通项公式为\blank{50}.
+\item 用数学归纳法证明$2+3+4+\cdots +n=\dfrac{(n-1)(n+2)}2$时, 第(I)步取$n=$\blank{50}验证.
+\item $\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
+\item 已知向量$\overrightarrow a=(1,2)$与$\overrightarrow b=(3,-2)$.当$k=$\blank{50}时, $k\overrightarrow a+\overrightarrow b$与$\overrightarrow a-3\overrightarrow b$垂直.
+\item 数列$27, 207, 2 007, 20 007$的一个通项公式可以为\bracket{20}.
+\fourch{$a_n=2n+7$}{$a_n=2^n+7$}{$a_n=20^n+7$}{$a_n=2\times 10^n+7$}
+\item 某厂去年的产值是$100$万元, 计划今后$3$年内每年的产值都比上一年增加$10\%$, 从今年起这$3$年的总产值为(精确到$1$万元)\bracket{20}.
 \fourch{$121$万元}{约$133$万元}{$331$万元}{约$364$万元}
-(3)用数学归纳法证明: $f(n)=1+\dfrac 12+\dfrac 13+\cdots +\dfrac 1{2^n}$($n\in \mathbf{N}^*$)的过程中, 从$n=k$到$n=k+1$时, $f(k+1)$比$f(k)$共增加了\bracket{20}.
+\item 用数学归纳法证明: $f(n)=1+\dfrac 12+\dfrac 13+\cdots +\dfrac 1{2^n}$($n\in \mathbf{N}^*$)的过程中, 从$n=k$到$n=k+1$时, $f(k+1)$比$f(k)$共增加了\bracket{20}.
 \fourch{1项}{$2^k-1$项}{$2^{k+1}$项}{$2^k$项}
-(4)在$\triangle ABC$中, 已知$\overrightarrow{AB}=\overrightarrow a$, $\overrightarrow{AC}=\overrightarrow b$, 当$\overrightarrow a\cdot \overrightarrow b<0$时, $\triangle ABC$为\bracket{20}.
+\item 在$\triangle ABC$中, 已知$\overrightarrow{AB}=\overrightarrow a$, $\overrightarrow{AC}=\overrightarrow b$, 当$\overrightarrow a\cdot \overrightarrow b<0$时, $\triangle ABC$为\bracket{20}.
 \fourch{钝角三角形}{直角三角形}{锐角三角形}{等腰直角三角形}
-\item 已知数列$\{a_n\}$的通项公式, 分别写出数列的前$4$项.
-(1)$a_n=(-1)^{n+1}\dfrac{3n-1}{n^2+1}$.
-(2)$a_n=\begin{cases}
-    \cos \dfrac{n\pi }4 (n=2k-1,k\in \mathbf{N}^*),  \\2^n+\dfrac 1{n+1} (n=2k,k\in \mathbf{N}^*).  \end{cases}$
+\item 已知数列$\{a_n\}$的通项公式, 分别写出数列的前$4$项.\\
+(1) $a_n=(-1)^{n+1}\dfrac{3n-1}{n^2+1}$;\\
+(2) $a_n=\begin{cases}    \cos \dfrac{n\pi }4, & n=2k-1,k\in \mathbf{N}^*,  \\2^n+\dfrac 1{n+1}, & n=2k,k\in \mathbf{N}^*.  \end{cases}$
 \item 已知数列$\{a_n\}$和数列$\{b_n\}$都是等差数列, $c_n=2\times 3^{a_n+2b_n}$, 求证: 数列$\{c_n\}$是等比数列.
 \item 一个水池有若干个流量相同的水龙头, 如果所有水龙头同时放水, 那么$24$小时可以注满水池. 如果开始时水龙头全部开放, 以后每隔相等的时间关闭$1$个水龙头, 到最后$1$个水龙头关闭时, 恰好注满水池, 而且最后$1$个水龙头放水的时间恰好是第$1$个水龙头放水时间的$5$倍, 最后关闭的这个水龙头放水多少时间?
 \item 用分期付款的方式购买价格为$1150$元的电冰箱.购买时先付$150$元, 以后每月付$50$元及欠款的利息, 余额$20$次付完.如果一个月后付第一个月的分期付款, 月利率为$1\%$, 那么第$10$个月该付多少元? 购买冰箱的所有款项全部付清后, 实际付款多少元?
 \item 用数学归纳法证明等式:
 $1\cdot n+2\cdot (n-1)+3\cdot (n-2)+\cdots +n\cdot 1=\dfrac 16n(n+1)(n+2)$($n\in \mathbf{N}^*$).
 \item 已知$\{a_n\}$是等差数列, $a_1=1$, $S_n$是它的前$n$项和; $\{b_n\}$是等比数列, 其公比的绝对值小于$1$, $T_n$是它的前$n$项和.如果$a_3=b_2$, $S_5=2T_2-6$, $\displaystyle\lim_{n\to\infty}T_n=9$, 分别求数列$\{a_n\}$与$\{b_n\}$的通项公式.
-\item 已知$A=\begin{pmatrix}
-    1  0  1  \\0  1  0  \\1  1  0  \end{pmatrix}$, $B=\begin{pmatrix}
-    3  1  2  \\-1  2  3  \\-3  -2  0  \end{pmatrix}$, $C=\begin{pmatrix}
-    2  5  -1  \\3  -4  2  \\1  1  6  \end{pmatrix}$, 求$(2A+B)C$的值.
+\item 已知$A=\begin{pmatrix}    1 & 0 & 1  \\0 & 1 & 0  \\1 & 1 & 0  \end{pmatrix}$, $B=\begin{pmatrix}    3 & 1 & 2  \\-1 & 2 & 3  \\-3 & -2 & 0  \end{pmatrix}$, $C=\begin{pmatrix}    2 & 5 & -1  \\3 & -4 & 2  \\1 & 1 & 6  \end{pmatrix}$, 求$(2A+B)C$的值.
 \item 某花店包装大小两种鲜花束出售, 每束包含鲜花的品种及其数量如下表(单位: 支):
-\blank{50}品  种
-\blank{50}数\blank{50}
-束\blank{50}量
-\blank{50}别	玫瑰	康乃馨	兰草
-大束	3	5	4
-小束	2	3	3
+\begin{center}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \diagbox{束别}{数量}{品种} & 玫瑰 & 康乃馨 & 兰草 \\ \hline
+        大束 & $3$ & $5$ & $4$ \\ \hline
+        小束 & $2$ & $3$ & $3$ \\ \hline
+    \end{tabular}
+\end{center}
 如果该花店在这个周末卖出的鲜花束的数量如下表:
-\blank{50}束  别
-\blank{50}数\blank{50}
-星\blank{50}量
-\blank{50}期	大束	小束
-星期六	20	32
-星期天	24	28
+\begin{center}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \diagbox{星期}{数量}{束别} & 大束 & 小束 \\ \hline
+        星期六 & $20$ & $32$ \\ \hline
+        星期天 & $24$ & $28$ \\ \hline
+    \end{tabular}
+\end{center}
 试用矩阵计算星期六和星期天该花店的玫瑰、康乃馨和兰草各卖出几支.
-\item 解下列关于$xyz$的方程组, 并对方程组的解进行讨论.
-(1)$\begin{cases}
-    mx-y=-1,  \\3mx-my=-3.  \end{cases}$ (2)$\begin{cases}
-    x+y+z=1,  \\ax+y+z=1,  \\x+y+a^2z=2.  \end{cases}$
+\item 解下列关于$x,y,z$的方程组, 并对方程组的解进行讨论.\\
+(1) $\begin{cases}mx-y=-1,  \\3mx-my=-3.  \end{cases}$\\
+(2)$\begin{cases}x+y+z=1,  \\ax+y+z=1,  \\x+y+a^2z=2.  \end{cases}$
 \item 已知向量$\overrightarrow a=(-1,x)$与$\overrightarrow b=(-x,2)$平行且方向相同, 求$x$.
 \item 已知$|\overrightarrow a|=2$, $|\overrightarrow b|=4$, $\overrightarrow a$与$\overrightarrow b$的夹角为$120^{\circ }$, 且向量$\overrightarrow a+k\overrightarrow b$与$k\overrightarrow a+\overrightarrow b$的夹角是锐角, 求实数$k$的取值范围.
 \item 已知向量$\overrightarrow a=(-3,-2)$与$\overrightarrow b=(-4,k)$, 且$(5\overrightarrow a-\overrightarrow b)\cdot (\overrightarrow b-3\overrightarrow a)=-55$, 求实数$k$的值.
-\item 已知向量$\overrightarrow a=(\sqrt 3,-1)$与$\overrightarrow b=(\dfrac 12,\dfrac{\sqrt 3}2)$.
-(1)求证: $\overrightarrow a\perp \overrightarrow b$.
+\item 已知向量$\overrightarrow a=(\sqrt 3,-1)$与$\overrightarrow b=(\dfrac 12,\dfrac{\sqrt 3}2)$.\\
+(1)求证: $\overrightarrow a\perp \overrightarrow b$;\\
 (2)若存在不同时为零的实数$k$和$t$, 使$\overrightarrow x=\overrightarrow a+(t^2-3)\overrightarrow b$, $\overrightarrow y=-k\overrightarrow a+t\overrightarrow b$, 且$\overrightarrow x\perp \overrightarrow y$, 试求函数关系式$k=f(t)$.
 \item 已知四边形$ABCD$为平行四边形, $F$为$DC$的中点, $AF$交对角线$BD$于点$E$, 试用向量方法证明: $E$是$DB$的三等分点.
-\item 《张邱建算经》中有一个百鸡问题: 今有鸡翁一, 直钱五, 鸡母一直钱三, 鸡雏三直钱一.凡百钱买百鸡, 问鸡翁母雏各几何? (大意即, 公鸡每只$5$钱, 母鸡每只$3$钱, 小鸡$1$钱买三只, 现用$100$钱买$100$只鸡, 各买几只公鸡、母鸡和小鸡? )
-(1)用程序框图表述求公鸡、母鸡、小鸡只数的算法.
-(2)用Scilab语言编写程序, 计算并输出求公鸡、母鸡、小鸡的只数.
-总复习题
-B组
-\item 填空:
-(1)在数列$\{a_n\}$中, 如果$a_n=40-2n$($n\in \mathbf{N}^*$), 那么使这个数列的前$n$项和$S_n$取得最大值的$n$值等于\blank{50}.
-(2)已知$nk\in \mathbf{N}^*$, 如果$f(n)=\dfrac 1{n+1}+\dfrac 1{n+2}+\dfrac 1{n+3}+\cdots +\dfrac 1{2n}$, 那么$f(k+1)=f(k)+$\blank{50}.
-(3)$\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=$\blank{50}.$(|a|<1,|b|<1)$
-\item 选择题:
-(1)若数列$\{a_n\}$中, $a_1=3$, 且$a_{n+1}=a_n^2$($n\in \mathbf{N}^*$), 则这个数列的通项公式为    \bracket{20}.
+\item 《张邱建算经》中有一个百鸡问题: 今有鸡翁一, 直钱五, 鸡母一直钱三, 鸡雏三直钱一.凡百钱买百鸡, 问鸡翁母雏各几何? (大意即, 公鸡每只$5$钱, 母鸡每只$3$钱, 小鸡$1$钱买三只, 现用$100$钱买$100$只鸡, 各买几只公鸡、母鸡和小鸡?)\\
+(1) 用程序框图表述求公鸡、母鸡、小鸡只数的算法;\\
+(2) 用Scilab语言编写程序, 计算并输出求公鸡、母鸡、小鸡的只数.
+\item 在数列$\{a_n\}$中, 如果$a_n=40-2n$($n\in \mathbf{N}^*$), 那么使这个数列的前$n$项和$S_n$取得最大值的$n$值等于\blank{50}.
+\item 已知$n,k\in \mathbf{N}^*$, 如果$f(n)=\dfrac 1{n+1}+\dfrac 1{n+2}+\dfrac 1{n+3}+\cdots +\dfrac 1{2n}$, 那么$f(k+1)=f(k)+$\blank{50}.
+\item $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=$\blank{50}($|a|<1$, $|b|<1$).
+\item 若数列$\{a_n\}$中, $a_1=3$, 且$a_{n+1}=a_n^2$($n\in \mathbf{N}^*$), 则这个数列的通项公式为    \bracket{20}.
 \fourch{$a_n=3^{2n}$}{$a_n=3^{2(n-1)}$}{$a_n=3^{2^{n-1}}$}{$a_n=3^{2^n}$}
-(2)若向量$\overrightarrow a=(\cos \alpha ,\sin \alpha)$, $\overrightarrow b=(\cos \beta ,\sin \beta)$, 则$\overrightarrow a$与$\overrightarrow b$满足\bracket{20}.
-\fourch{$\overrightarrow a\parallel \overrightarrow b$}{$\overrightarrow a\perp \overrightarrow b$}{$(\overrightarrow a+\overrightarrow b)\perp (\overrightarrow a-\overrightarrow b)$}{$\overrightarrow a$与$\overrightarrow b$的夹角为$\alpha -\beta$}
-(3)设一直线上三点$ABP$满足$\overrightarrow{AP}=\lambda \overrightarrow{PB}(\lambda \ne \pm 1)$, $O$是平面内一点, $\overrightarrow{OP}$可用$\overrightarrow{OA}$、$\overrightarrow{OB}$表示为\bracket{20}.
-\fourch{$\overrightarrow{OP}=\overrightarrow{OA}+\lambda \overrightarrow{OB}$}{$\overrightarrow{OP}=\lambda \overrightarrow{OA}+(1-\lambda)\overrightarrow{OB}$}{$\overrightarrow{OP}=\dfrac{\overrightarrow{OA}+\lambda \overrightarrow{OB}}{1+\lambda }$}{$\overrightarrow{OP}=\dfrac 1{\lambda }\overrightarrow{OA}+\dfrac 1{1-\lambda }\overrightarrow{OB}$}
-\item 已知数列$\{a_n\}$是等差数列.
-(1)求证: 若$u+v=p+q$, 则$a_u+a_v=a_p+a_q$.
-(2)求证: 若$t=5n+2$($n\in \mathbf{N}^*$), 则当$n$依次取$1, 2, 3, \cdots$时, 所得$a_t$组成的数列也是等差数列.
-\item 已知$a,b,c$成等比数列, $a,b+4,c$成等差数列, $a,b+4,c+32$又成等比数列, 求$abc$这三个数.
+\item 若向量$\overrightarrow a=(\cos \alpha ,\sin \alpha)$, $\overrightarrow b=(\cos \beta ,\sin \beta)$, 则$\overrightarrow a$与$\overrightarrow b$满足\bracket{20}.
+\twoch{$\overrightarrow a\parallel \overrightarrow b$}{$\overrightarrow a\perp \overrightarrow b$}{$(\overrightarrow a+\overrightarrow b)\perp (\overrightarrow a-\overrightarrow b)$}{$\overrightarrow a$与$\overrightarrow b$的夹角为$\alpha -\beta$}
+\item 设一直线上三点$A,B,P$满足$\overrightarrow{AP}=\lambda \overrightarrow{PB}$($\lambda \ne \pm 1$), $O$是平面内一点, $\overrightarrow{OP}$可用$\overrightarrow{OA}$、$\overrightarrow{OB}$表示为\bracket{20}.
+\twoch{$\overrightarrow{OP}=\overrightarrow{OA}+\lambda \overrightarrow{OB}$}{$\overrightarrow{OP}=\lambda \overrightarrow{OA}+(1-\lambda)\overrightarrow{OB}$}{$\overrightarrow{OP}=\dfrac{\overrightarrow{OA}+\lambda \overrightarrow{OB}}{1+\lambda }$}{$\overrightarrow{OP}=\dfrac 1{\lambda }\overrightarrow{OA}+\dfrac 1{1-\lambda }\overrightarrow{OB}$}
+\item 已知数列$\{a_n\}$是等差数列.\\
+(1) 求证: 若$u+v=p+q$, 则$a_u+a_v=a_p+a_q$;\\
+(2) 求证: 若$t=5n+2$($n\in \mathbf{N}^*$), 则当$n$依次取$1, 2, 3, \cdots$时, 所得$a_t$组成的数列也是等差数列.
+\item 已知$a,b,c$成等比数列, $a,b+4,c$成等差数列, $a,b+4,c+32$又成等比数列, 求$a,b,c$这三个数.
 \item 已知由依次增大且大于$1$的连续正整数组成的数列$a_1,a_2,\cdots ,a_n,\cdots$, 满足$\lg 2+\lg (1+\dfrac 1{a_2})+\cdots +\lg (1+\dfrac 1{a_n})=\lg n$, 求$n$的最大值及此时的$a_1+a_2+\cdots +a_n$.
 \item 已知数列$\{a_n\}$、$\{b_n\}$都是等差数列, 且满足$\dfrac{a_1+a_2+\cdots +a_n}{b_1+b_2+\cdots +b_n}=\dfrac{7n+2}{n+3}$, 求$\dfrac{a_5}{b_5}$.
 \item 用数学归纳法证明: $3^{2n+2}-8n-9$($n\in \mathbf{N}^*$)能被$64$整除.
-\item 在数列$\{a_n\}$中, 已知$a_1=\dfrac 13$, $\dfrac{a_1+a_2+\cdots +a_n}n=(2n-1)a_n$, 求$a_2a_3a_4$, 并猜想数列的通项公式, 且加以证明.
-\item 已知数列$\{a_n\}$的前$n$项和$S_n=1+(r-1)a_n$(常数$r\ne 2$).
-(1)求数列$\{a_n\}$的通项公式.
-(2)若$\displaystyle\lim_{n\to\infty}S_n=1$, 求$r$的取值范围.
-\item 已知$f(x)=\log _ax(a>0a\ne 1)$, 且$2,f(a_1),f(a_2),f(a_3),\cdots ,f(a_n),2n+4,$ $\cdots $($n\in \mathbf{N}^*$)成等差数列.
-(1)求数列$\{a_n\}$的通项公式.
-(2)若数列$\{a_n\}$的前$n$项和为$S_n$, 当$a>1$时, 求$\displaystyle\lim_{n\to\infty}\dfrac{S_n}{a_n}$.
-\item 已知数列$\{a_n\}$的通项公式是$a_n=a^{n+1}(a>0,a\ne 1)$, 令$b_n=a_n\cdot \lg a_n$.是否存在$a$, 使得$\{b_n\}$中每一项恒小于它后面的项? 若存在, 求$a$的取值范围; 若不存在, 请说明理由.
-\item 用行列式解方程组: $\begin{cases}
-    \dfrac 2x+\dfrac 2y+\dfrac 1z=2,  \\-\dfrac 7x+\dfrac 4y+\dfrac 5z=-10,  \\\dfrac 2x+\dfrac 3y-\dfrac 1z=\dfrac 92.  \end{cases}$
-\item 在$\triangle ABC$中, 已知$\overrightarrow{AB}=\overrightarrow a$, $\overrightarrow{BC}=\overrightarrow b$, $\overrightarrow{CA}=\overrightarrow c$, 且$|\overrightarrow a|=3$, $|\overrightarrow b|=2$, $|\overrightarrow c|=4$, 求$\overrightarrow a\cdot \overrightarrow b+\overrightarrow b\cdot \overrightarrow c+\overrightarrow c\cdot \overrightarrow a$的值.(提示: $\overrightarrow a+\overrightarrow b+\overrightarrow c=\overrightarrow 0$)
+\item 在数列$\{a_n\}$中, 已知$a_1=\dfrac 13$, $\dfrac{a_1+a_2+\cdots +a_n}n=(2n-1)a_n$, 求$a_2,a_3,a_4$, 并猜想数列的通项公式, 且加以证明.
+\item 已知数列$\{a_n\}$的前$n$项和$S_n=1+(r-1)a_n$(常数$r\ne 2$).\\
+(1) 求数列$\{a_n\}$的通项公式;\\
+(2) 若$\displaystyle\lim_{n\to\infty}S_n=1$, 求$r$的取值范围.
+\item 已知$f(x)=\log _ax$($a>0$, $a\ne 1$), 且$2,f(a_1),f(a_2),f(a_3),\cdots ,f(a_n),2n+4,$ $\cdots $($n\in \mathbf{N}^*$)成等差数列.\\
+(1) 求数列$\{a_n\}$的通项公式;\\
+(2) 若数列$\{a_n\}$的前$n$项和为$S_n$, 当$a>1$时, 求$\displaystyle\lim_{n\to\infty}\dfrac{S_n}{a_n}$.
+\item 已知数列$\{a_n\}$的通项公式是$a_n=a^{n+1}$($a>0$, $a\ne 1$), 令$b_n=a_n\cdot \lg a_n$.是否存在$a$, 使得$\{b_n\}$中每一项恒小于它后面的项? 若存在, 求$a$的取值范围; 若不存在, 请说明理由.
+\item 用行列式解方程组: $\begin{cases}    \dfrac 2x+\dfrac 2y+\dfrac 1z=2,  \\-\dfrac 7x+\dfrac 4y+\dfrac 5z=-10,  \\\dfrac 2x+\dfrac 3y-\dfrac 1z=\dfrac 92.  \end{cases}$
+\item 在$\triangle ABC$中, 已知$\overrightarrow{AB}=\overrightarrow a$, $\overrightarrow{BC}=\overrightarrow b$, $\overrightarrow{CA}=\overrightarrow c$, 且$|\overrightarrow a|=3$, $|\overrightarrow b|=2$, $|\overrightarrow c|=4$, 求$\overrightarrow a\cdot \overrightarrow b+\overrightarrow b\cdot \overrightarrow c+\overrightarrow c\cdot \overrightarrow a$的值(提示: $\overrightarrow a+\overrightarrow b+\overrightarrow c=\overrightarrow 0$).
 \item 已知$|\overrightarrow a|=1$, $|\overrightarrow b|=\sqrt 2$.
 (1)若$\overrightarrow a\parallel \overrightarrow b$, 求$\overrightarrow a\cdot \overrightarrow b$.
 (2)若$\overrightarrow a$与$\overrightarrow b$的夹角为$60^{\circ }$, 求$|\overrightarrow a+\overrightarrow b|$.
 (3)若$\overrightarrow a-\overrightarrow b$与$\overrightarrow a$垂直, 求$\overrightarrow a$与$\overrightarrow b$的夹角.
 \item 如图, 在$\triangle ABC$中, 已知点$M$是$BC$的中点, 点$N$在$AC$边上, 且$AN=2NC$, $AM$与$BN$相交于点$P$, 求$AP:PM$的值.
-(第15题)
-\item 近年来, 太阳能技术在生活中应用的步伐日益加快.某地区$2006$年太阳能电池的年生产量达到$7$亿瓦, 实际安装量为$5$亿瓦.假设以后若干年内太阳能电池的年生产量逐年递增$3$亿瓦, 年安装量的增长率保持在$30\%$.
-(1)以$2006$年为第$1$年, 写出第$n$年太阳能电池的年产量$a_n$与年安装量$b_n$.
-(2)到哪一年, 年安装量不少于年生产量?
+\begin{center}
+    \begin{tikzpicture}
+        \draw (0,0) node [below] {$B$} coordinate (B);
+        \draw (2,0) node [below] {$C$} coordinate (C);
+        \draw (1.2,2) node [above] {$A$} coordinate (A);
+        \draw ($(B)!0.5!(C)$) node [below] {$M$} coordinate (M);
+        \draw ($(C)!{1/3}!(A)$) node [right] {$N$} coordinate (N);
+        \draw [name path = AM] (A) -- (M);
+        \draw [name path = BN] (B) -- (N);
+        \draw [name intersections = {of = AM and BN, by = P}];
+        \draw (P) node [above left] {$P$};
+        \draw (A) -- (B) -- (C) -- cycle;
+    \end{tikzpicture}
+\end{center}
+\item 近年来, 太阳能技术在生活中应用的步伐日益加快.某地区$2006$年太阳能电池的年生产量达到$7$亿瓦, 实际安装量为$5$亿瓦.假设以后若干年内太阳能电池的年生产量逐年递增$3$亿瓦, 年安装量的增长率保持在$30\%$.\\
+(1) 以$2006$年为第$1$年, 写出第$n$年太阳能电池的年产量$a_n$与年安装量$b_n$;\\
+(2) 到哪一年, 年安装量不少于年生产量?
 \item 已知数列$\{a_n\}$的通项公式为$a_n=\dfrac 1{1\cdot 2\cdot 3\cdot \cdots \cdot n}$, 设这个数列的前$n$项和为$S_n$, 可以证明自然对数的底$\mathrm{e}=1+\displaystyle\lim_{n\to\infty}S_n$.试用Scilab语句编写程序, 计算并输出$n=1,2,3,\cdots 20$时$\mathrm{e}$的近似值.
-\item 按要求, 分别以$ABC$为向量的起点, 在图中画出以下向量.(图中每个小正方形的边长为$1$)
-(第1题)
-(1)正北方向, 且模为$2$的向量$\overrightarrow{AE}$.
-(2)长度为$2\sqrt 2$, 方向为北偏西$45^{\circ }$的向量$\overrightarrow{BF}$.
-(3)$\overrightarrow{BF}$向量的负向量$\overrightarrow{CF}$.
-\item 填空:
-(1)``$\overrightarrow a=\overrightarrow b$''是``$\overrightarrow a\parallel \overrightarrow b$''的\blank{50}条件; $|\overrightarrow a|=0$是$\overrightarrow a=\overrightarrow 0$的\blank{50}条件.
-(2)把平面上一切单位向量归结到共同的始点, 那么这些向量的终点所构成的图形是\blank{50}.
-\item 选择题:
-(1)已知非零向量$\overrightarrow a$和$\overrightarrow b$.``$|\overrightarrow a|=|\overrightarrow b|$''是``$\overrightarrow a=\overrightarrow b$''的\bracket{20}.
-\fourch{充分非必要条件}{必要非充分条件}{充要条件}{既非充分又非必要条件}
-(2)现有以下四个命题:
+\item 按要求, 分别以$A,B,C$为向量的起点, 在图中画出以下向量(图中每个小正方形的边长为$1$).
+\begin{center}
+    \begin{tikzpicture}[scale = 0.5,>=latex]
+        \foreach \i in {0,1,...,8}
+        {
+            \draw [dashed] (\i,0) -- (\i,8) (0,\i) -- (8,\i);
+        };
+        \draw [->] (9,5) -- (9,8) node [right] {北};
+        \filldraw (1,2) circle (0.1) node [below left] {$A$} (7,3) circle (0.1) node [below left] {$B$} (3,5) circle (0.1) node [above right] {$C$};
+    \end{tikzpicture}
+\end{center}
+(1) 正北方向, 且模为$2$的向量$\overrightarrow{AE}$;\\
+(2) 长度为$2\sqrt 2$, 方向为北偏西$45^{\circ }$的向量$\overrightarrow{BF}$;\\
+(3) $\overrightarrow{BF}$向量的负向量$\overrightarrow{CF}$.
+\item ``$\overrightarrow a=\overrightarrow b$''是``$\overrightarrow a\parallel \overrightarrow b$''的\blank{50}条件; $|\overrightarrow a|=0$是$\overrightarrow a=\overrightarrow 0$的\blank{50}条件.
+\item 把平面上一切单位向量归结到共同的始点, 那么这些向量的终点所构成的图形是\blank{50}.
+\item 已知非零向量$\overrightarrow a$和$\overrightarrow b$. ``$|\overrightarrow a|=|\overrightarrow b|$''是``$\overrightarrow a=\overrightarrow b$''的\bracket{20}.
+\twoch{充分非必要条件}{必要非充分条件}{充要条件}{既非充分又非必要条件}
+\item 现有以下四个命题:
 \textcircled{1} 时间、速度、加速度都是向量;
 \textcircled{2} 向量的模是一个正实数;
 \textcircled{3} 所有的单位向量都相等;
 \textcircled{4} 零向量与任意非零向量平行.
 其中真命题的个数是\bracket{20}.
-\fourch{1}{2}{3}{4}
-\item 判断题: (下列命题中, 如果命题是真命题, 那么在括号内填入``真''; 如果命题是假命题, 那么在括号内填入``假'')
-(1)长度相等的向量都相等.\bracket{20}.
-(2)若$\overrightarrow a=\overrightarrow b$, $\overrightarrow b=\overrightarrow c$, 则$\overrightarrow a=\overrightarrow c$.\bracket{20}.
-(3)若四边形$ABCD$是平行四边形, 则$\overrightarrow{AB}=\overrightarrow{CD}$.\bracket{20}.
-(4)若$\overrightarrow{AB}=\overrightarrow{DC}$, 则$|\overrightarrow{AB}|=|\overrightarrow{CD}|$且直线$AB\parallel CD$.\bracket{20}.
+\fourch{$1$}{$2$}{$3$}{$4$}
+\item 判断题(下列命题中, 如果命题是真命题, 那么在横线上填入``$\checkmark$''; 如果命题是假命题, 那么在括号内填入``$\times$''):\\
+(1) 长度相等的向量都相等.\blank{20};\\
+(2) 若$\overrightarrow a=\overrightarrow b$, $\overrightarrow b=\overrightarrow c$, 则$\overrightarrow a=\overrightarrow c$.\blank{20};\\
+(3) 若四边形$ABCD$是平行四边形, 则$\overrightarrow{AB}=\overrightarrow{CD}$.\blank{20};\\
+(4) 若$\overrightarrow{AB}=\overrightarrow{DC}$, 则$|\overrightarrow{AB}|=|\overrightarrow{CD}|$且直线$AB\parallel CD$.\blank{20}.
 \item 如图, 四边形$ABCD$和$ABDE$都是菱形, 若$|\overrightarrow{AE}|=3$, 求向量$\overrightarrow{EC}$的模.
-(第5题)
-\item 已知$DEF$分别是$\triangle ABC$的$ABBCCA$边的中点.
-(第1题)
-(1)写出与$\overrightarrow{AD}$相等的向量.
-(2)写出$\overrightarrow{DE}$的负向量.
-(3)与$\overrightarrow{FE}$平行的非零向量共有几个?
-\item 如图, $BC$是线段$AD$的三等分点, 分别以图中各点为起点和终点的非零向量组成集合$T$, 试写出集合$T$中所有的元素.
-(第2题)
-\item (1)如图, 在$2\times 4$的矩形中, 起点和终点都在小方格顶点且模与$|\overrightarrow{AB}|$相等的向量共有几个?
-\blank{50}(1)\blank{50}(2)
-(第3题)
-(2)如果扩展到$3\times 4$的矩形呢?
-2  向量的加减法
-习题2  A组
-\item 选择题:
-(1)如图, 在四边形$ABCD$中, $\overrightarrow{CB}+\overrightarrow{AD}+\overrightarrow{BA}=$\bracket{20}.
-(第1(1)题)
+\begin{center}
+    \begin{tikzpicture}[scale = 1.5]
+        \draw (0,0) node [below] {$E$} -- (1,0) node [below] {$D$} -- (2,0) node [below] {$C$} --++ (120:1) node [above] {$B$} --++ (-1,0) node [above] {$A$} -- (0,0);
+        \draw (60:1) --++ (-60:1) --++ (60:1);
+    \end{tikzpicture}
+\end{center}
+\item 已知$D,E,F$分别是$\triangle ABC$的$AB,BC,CA$边的中点.
+\begin{center}
+    \begin{tikzpicture}
+        \draw (0,0) node [left] {$B$} coordinate (B) (3,1) node [right] {$C$} coordinate (C) (1.5,3) node [above] {$A$} coordinate (A);
+        \draw ($(B)!0.5!(C)$) node [below] {$E$} coordinate (E) ($(C)!0.5!(A)$) node [right] {$F$} coordinate (F) ($(A)!0.5!(B)$) node [left] {$D$} coordinate (D);
+        \draw (A) -- (B) -- (C) -- cycle (D) -- (E) -- (F) -- cycle;
+    \end{tikzpicture}
+\end{center}
+(1) 写出与$\overrightarrow{AD}$相等的向量;\\
+(2) 写出$\overrightarrow{DE}$的负向量;\\
+(3) 与$\overrightarrow{FE}$平行的非零向量共有几个?
+\item 如图, $B,C$是线段$AD$的三等分点, 分别以图中各点为起点和终点的非零向量组成集合$T$, 试写出集合$T$中所有的元素.
+\begin{center}
+    \begin{tikzpicture}[scale = 1.5]
+        \draw (0,0) -- (3,0);
+        \draw (0,0.1) -- (0,0) node [below] {$A$};
+        \draw (1,0.1) -- (1,0) node [below] {$B$};
+        \draw (2,0.1) -- (2,0) node [below] {$C$};
+        \draw (3,0.1) -- (3,0) node [below] {$D$};
+    \end{tikzpicture}
+\end{center}
+\item (1) 如图, 在$2\times 4$的矩形中, 起点和终点都在小方格顶点且模与$|\overrightarrow{AB}|$相等的向量共有几个?
+\begin{center}
+    \begin{tikzpicture}[>=latex,scale = 0.6]
+        \foreach \i in {0,1,2,3,4} {\draw (\i,0) -- (\i,2);};
+        \foreach \i in {0,1,2} {\draw (0,\i) -- (4,\i);};
+        \draw [->] (0,0) node [below] {$A$} -- (1,2) node [above] {$B$};
+    \end{tikzpicture}
+    \begin{tikzpicture}[>=latex,scale = 0.6]
+        \foreach \i in {0,1,2,3,4} {\draw (\i,0) -- (\i,3);};
+        \foreach \i in {0,1,2,3} {\draw (0,\i) -- (4,\i);};
+        \draw [->] (0,0) node [below] {$A$} -- (1,3) node [above] {$B$};
+    \end{tikzpicture}  
+\end{center}
+(2) 如果扩展到$3\times 4$的矩形呢?
+\item 如图, 在四边形$ABCD$中, $\overrightarrow{CB}+\overrightarrow{AD}+\overrightarrow{BA}=$\bracket{20}.
+\begin{center}
+    \begin{tikzpicture}[>=latex]
+        \draw (0,0) node [left] {$B$} coordinate (B);
+        \draw (3,0) node [right] {$D$} coordinate (D);
+        \draw (2,-0.6) node [below] {$C$} coordinate (C);
+        \draw (1.5,1.3) node [above] {$A$} coordinate (A);
+        \draw [->] (B) -- (A);
+        \draw [->] (A) -- (D);
+        \draw [->] (D) -- (B);
+        \draw [->] (A) -- (C);
+        \draw [->] (C) -- (D);
+        \draw [->] (C) -- (B);
+    \end{tikzpicture}
+\end{center}
 \fourch{$\overrightarrow{DB}$}{$\overrightarrow{CA}$}{$\overrightarrow{CD}$}{$\overrightarrow{DC}$}
 (2)向量$(\overrightarrow{AB}+\overrightarrow{MB})+(\overrightarrow{BO}+\overrightarrow{BC})+\overrightarrow{OM}$化简后等于\bracket{20}.
 \fourch{$\overrightarrow{BC}$}{$\overrightarrow{AB}$}{$\overrightarrow{AC}$}{$\overrightarrow{AM}$}
-\item 设$\overrightarrow a$表示``向东走$2$千米'', $\overrightarrow b$表示``向西走$1$千米'', $\overrightarrow c$表示``向南走$2$千米'', $\overrightarrow d$表示``向北走$1$千米'', 说明下列向量的意义.
-(1)$\overrightarrow a+\overrightarrow a$. (2)$\overrightarrow a+\overrightarrow c$.
-(3)$\overrightarrow b+\overrightarrow a+\overrightarrow d$. (4)$\overrightarrow c+\overrightarrow b+\overrightarrow c$.
+\item 设$\overrightarrow a$表示``向东走$2$千米'', $\overrightarrow b$表示``向西走$1$千米'', $\overrightarrow c$表示``向南走$2$千米'', $\overrightarrow d$表示``向北走$1$千米'', 说明下列向量的意义.\\
+(1) $\overrightarrow a+\overrightarrow a$;
+(2) $\overrightarrow a+\overrightarrow c$;\\
+(3) $\overrightarrow b+\overrightarrow a+\overrightarrow d$;\\
+(4) $\overrightarrow c+\overrightarrow b+\overrightarrow c$.
 \item 一飞机向南飞行$90$千米, 然后改变方向, 向西飞行$90$千米, 把飞机前后两次位移分别记为向量$\overrightarrow a$和$\overrightarrow b$, 求飞机飞行的路程, 并解释两次位移的和$\overrightarrow c=\overrightarrow a+\overrightarrow b$的意义.
 \item 一艘船以每小时$10$千米的速度(船在静水中的速度)向垂直于对岸的方向行驶, 同时河水的流速为每小时$2$千米, 求该船实际航行的速度的大小与方向.
-(第4题)
 \item 在三角形$ABC$中, 已知$\overrightarrow{AB}=\overrightarrow a$, $\overrightarrow{BC}=\overrightarrow b$, $\overrightarrow{CA}=\overrightarrow c$, 求证: $\overrightarrow a+\overrightarrow b+\overrightarrow c=\overrightarrow 0$.
 \item 已知$|\overrightarrow{OA}|=|\overrightarrow{OB}|=|\overrightarrow{OC}|$, $\overrightarrow{OA}$、$\overrightarrow{OB}$、$\overrightarrow{OC}$两两的夹角都是$120^{\circ }$, 求$\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}$.
 \item 某人从点$A$出发向西走了$2$千米到达点$B$, 然后改变方向向西偏北$60^{\circ }$走了$2$千米到达点$C$, 求此人距出发点$A$的距离和方向.
-\item 化简:
-(1)$\overrightarrow{AB}-\overrightarrow{AC}+\overrightarrow{BD}-\overrightarrow{CD}$. (2)$\overrightarrow{OA}-\overrightarrow{OB}+\overrightarrow{AD}$.
-(3)$\overrightarrow{NQ}+\overrightarrow{QP}+\overrightarrow{MN}-\overrightarrow{MP}$.
+\item 化简: $\overrightarrow{AB}-\overrightarrow{AC}+\overrightarrow{BD}-\overrightarrow{CD}$.
+\item 化简: $\overrightarrow{OA}-\overrightarrow{OB}+\overrightarrow{AD}$.
+\item 化简: $\overrightarrow{NQ}+\overrightarrow{QP}+\overrightarrow{MN}-\overrightarrow{MP}$.
 \item 已知菱形$ABCD$的边长为$2$, 求向量$\overrightarrow{AB}-\overrightarrow{CB}+\overrightarrow{CD}$的模.
-\item 如图, 已知向量$\overrightarrow a$、$\overrightarrow b$、$\overrightarrow c$.
-(第10题)
-(1)作出: $\overrightarrow a+\overrightarrow c-\overrightarrow b$和$\overrightarrow a+(\overrightarrow c-\overrightarrow b)$. (2)作出: $\overrightarrow a-(\overrightarrow b+\overrightarrow c)$和$\overrightarrow a-\overrightarrow b-\overrightarrow c$.
-(3)由第(1)、(2)题, 你能得出什么结论?
-\item 判断题: (下列等式中, 等式成立的在括号内填入``√''; 等式不成立的在括号内填入``×'')
-(1)$\overrightarrow a+\overrightarrow b=\overrightarrow b+\overrightarrow a$.\bracket{20}.
-(2)$\overrightarrow a-\overrightarrow b=\overrightarrow b-\overrightarrow a$.\bracket{20}.
-(3)$\overrightarrow 0-\overrightarrow a=\overrightarrow a$.\bracket{20}.
-(4)$-(-\overrightarrow a)=\overrightarrow a$.\bracket{20}.
-(5)$\overrightarrow a+(-\overrightarrow a)=0$.\bracket{20}.
+\item 如图, 已知向量$\overrightarrow a$、$\overrightarrow b$、$\overrightarrow c$.\\
+\begin{center}
+    \begin{tikzpicture}[>=latex]
+        \draw [->] (0,0) -- (1,1);
+        \draw (0.5,0.5) node [above] {$\overrightarrow a$};
+        \draw [->] (2,0.5) -- (3.4,0.5);
+        \draw (2.7,0.5) node [above] {$\overrightarrow b$};
+        \draw [->] (5,0) -- (4.4,1);
+        \draw (4.7,0.5) node [above right] {$\overrightarrow c$};
+    \end{tikzpicture}
+\end{center}
+(1) 作出: $\overrightarrow a+\overrightarrow c-\overrightarrow b$和$\overrightarrow a+(\overrightarrow c-\overrightarrow b)$;\\
+(2) 作出: $\overrightarrow a-(\overrightarrow b+\overrightarrow c)$和$\overrightarrow a-\overrightarrow b-\overrightarrow c$;\\
+(3) 由第(1)、(2)题, 你能得出什么结论?
+\item 判断题(下列等式中, 等式成立的在横线上填入``$\checkmark$''; 等式不成立的在括号内填入``$\times$''):\\
+(1)$\overrightarrow a+\overrightarrow b=\overrightarrow b+\overrightarrow a$.\blank{20};\\
+(2)$\overrightarrow a-\overrightarrow b=\overrightarrow b-\overrightarrow a$.\blank{20};\\
+(3)$\overrightarrow 0-\overrightarrow a=\overrightarrow a$.\blank{20};\\
+(4)$-(-\overrightarrow a)=\overrightarrow a$.\blank{20};\\
+(5)$\overrightarrow a+(-\overrightarrow a)=0$.\blank{20}.
 \item 已知$\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$, 若$|\overrightarrow{OA}|=12$, $|\overrightarrow{OB}|=4$, 且$\angle AOB=60^{\circ }$, 求$\overrightarrow a+\overrightarrow b$的模.
-\item 已知四边形$ABCD$为边长是$1$的正方形.
-(1)求$|\overrightarrow{AB}+\overrightarrow{BC}|$. (2)求$|\overrightarrow{AB}-\overrightarrow{BC}+\overrightarrow{AC}|$.
-(3)求$|\overrightarrow{AB}+\overrightarrow{BD}-\overrightarrow{AC}|$.
+\item 已知四边形$ABCD$为边长是$1$的正方形.\\
+(1) 求$|\overrightarrow{AB}+\overrightarrow{BC}|$;\\
+(2) 求$|\overrightarrow{AB}-\overrightarrow{BC}+\overrightarrow{AC}|$;\\
+(3) 求$|\overrightarrow{AB}+\overrightarrow{BD}-\overrightarrow{AC}|$.
 \item 对于不平行的两个向量$\overrightarrow a$、$\overrightarrow b$, 说明$|\overrightarrow a|-|\overrightarrow b|<|\overrightarrow a-\overrightarrow b|<|\overrightarrow a|+|\overrightarrow b|$.
 如果将不平行的条件去掉, 这个不等式应如何改正?
 \item 有两队纤夫共同拉着船$M$逆流而上.要使船向前移动, 必须在正前方向有$30000$牛的力.已知一队纤夫所用力$\overrightarrow f_2$的大小为$20000$牛, 且$\overrightarrow f_2$与船前进方向的夹角为$30^{\circ }$.为使船$M$能逆流而上, 求另一队纤夫所用力$\overrightarrow f_1$的大小(精确到$1$牛)以及与船的前进方向的夹角$\alpha$(精确到$1^{\circ }$).
-(第5题)
-\item 作图验证:
-(1)$\dfrac 12(\overrightarrow a+\overrightarrow b)+\dfrac 12(\overrightarrow a-\overrightarrow b)=\overrightarrow a$. (2)$\dfrac 12(\overrightarrow a+\overrightarrow b)-\dfrac 12(\overrightarrow a-\overrightarrow b)=\overrightarrow b$.
-\item 化简:
-(1)$4(\overrightarrow a+\overrightarrow b)-3(\overrightarrow a-\overrightarrow b)-8\overrightarrow a$. (2)$3(\overrightarrow a-2\overrightarrow b+\overrightarrow c)-4(-\overrightarrow a-\overrightarrow b+\overrightarrow c)$.
-(3)$\dfrac 13[\dfrac 12(2\overrightarrow a+8\overrightarrow b)-(4\overrightarrow a-2\overrightarrow b)]$.
+\begin{center}
+    \begin{tikzpicture}[thick,>=latex,scale = 1.5]
+        \fill [fill = gray!20] (0,0.3) -- (0,1.4) -- (3,1.7) -- (3,0.6) -- cycle;
+        \draw (0,1.4) -- (3,1.7) (0,0.3) -- (3,0.6);
+        \draw [->] (0.6,1) node [below left] {$M$} -- (3,1);
+        \draw [dashed,thin] (0,1) -- (0.6,1);
+        \draw [->] (0.6,1) --++ (30:1.6) node [above right] {$\overrightarrow{f_1}$};
+        \draw [->] (0.6,1) --++ ({2.4-1.6*cos(30)},{-1.6*sin(30)}) node [below right] {$\overrightarrow{f_2}$};
+        \draw (2.2,1) node [above] {前进方向};
+    \end{tikzpicture}
+\end{center}
+\item 作图验证:\\
+(1) $\dfrac 12(\overrightarrow a+\overrightarrow b)+\dfrac 12(\overrightarrow a-\overrightarrow b)=\overrightarrow a$;\\
+(2) $\dfrac 12(\overrightarrow a+\overrightarrow b)-\dfrac 12(\overrightarrow a-\overrightarrow b)=\overrightarrow b$.
+\item 化简:\\
+(1) $4(\overrightarrow a+\overrightarrow b)-3(\overrightarrow a-\overrightarrow b)-8\overrightarrow a$;\\
+(2) $3(\overrightarrow a-2\overrightarrow b+\overrightarrow c)-4(-\overrightarrow a-\overrightarrow b+\overrightarrow c)$;\\
+(3) $\dfrac 13[\dfrac 12(2\overrightarrow a+8\overrightarrow b)-(4\overrightarrow a-2\overrightarrow b)]$.
 \item 已知平面内的四边形$ABCD$和点$O$, 且$\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$, $\overrightarrow{OC}=\overrightarrow c$, $\overrightarrow{OD}=\overrightarrow d$, $\overrightarrow a+\overrightarrow c=\overrightarrow b+\overrightarrow d$, 求证: 四边形$ABCD$为平行四边形.
 \item 已知四边形$ABCD$是平行四边形, $\overrightarrow{AC}=\overrightarrow a$, $\overrightarrow{BD}=\overrightarrow b$, 试用$\overrightarrow a$、$\overrightarrow b$表示$\overrightarrow{AB}$、$\overrightarrow{BC}$.
-\item 设$\overrightarrow a$、$\overrightarrow b$是两个不平行的非零向量, 且$x(2\overrightarrow a+\overrightarrow b)+y(3\overrightarrow a-2\overrightarrow b)=7\overrightarrow a$, $xy\in \mathbf{R}$, 求实数$xy$的值.
-\item 判断题: (下列命题中, 如果命题是真命题, 那么在括号内填入``真''; 如果命题是假命题, 那么在括号内填入``假'')
-(1)对于实数$m$和向量$\overrightarrow a$、$\overrightarrow b$, 恒有$m(\overrightarrow a-\overrightarrow b)=m\overrightarrow a-m\overrightarrow b$.\bracket{20}.
-(2)对于实数$mn$和向量$\overrightarrow a$, 恒有$(m-n)\overrightarrow a=m\overrightarrow a-n\overrightarrow a$.\bracket{20}.
-(3)若$m\overrightarrow a=m\overrightarrow b(m\in \mathbf{R})$, 则$\overrightarrow a=\overrightarrow b$.\bracket{20}.
-(4)若$m\overrightarrow a=n\overrightarrow b(mn\in \mathbf{R}\overrightarrow a\ne \overrightarrow 0)$, 则$\overrightarrow a=\overrightarrow b$.\bracket{20}.
-\item 已知$\overrightarrow{e_1}$、$\overrightarrow{e_2}$是两个不共线的非零向量, 向量$\overrightarrow{AB}=3\overrightarrow{e_1}-2\overrightarrow{e_2}$, $\overrightarrow{BC}=-2\overrightarrow{e_1}+4\overrightarrow{e_2}$, $\overrightarrow{CD}=-2\overrightarrow{e_1}-4\overrightarrow{e_2}$, 证明: $ACD$三点共线.
-\item 在$\triangle ABC$中, $ADBECF$三条中线交于点$G$, 求证: $\overrightarrow{GD}+\overrightarrow{GE}+\overrightarrow{GF}=\overrightarrow 0$.
+\item 设$\overrightarrow a$、$\overrightarrow b$是两个不平行的非零向量, 且$x(2\overrightarrow a+\overrightarrow b)+y(3\overrightarrow a-2\overrightarrow b)=7\overrightarrow a$, $x,y\in \mathbf{R}$, 求实数$x,y$的值.
+\item 判断题(下列等式中, 等式成立的在横线上填入``$\checkmark$''; 等式不成立的在括号内填入``$\times$''):\\
+(1)对于实数$m$和向量$\overrightarrow a$、$\overrightarrow b$, 恒有$m(\overrightarrow a-\overrightarrow b)=m\overrightarrow a-m\overrightarrow b$.\blank{20}; \\
+(2)对于实数$m,n$和向量$\overrightarrow a$, 恒有$(m-n)\overrightarrow a=m\overrightarrow a-n\overrightarrow a$.\blank{20}; \\
+(3)若$m\overrightarrow a=m\overrightarrow b$($m\in \mathbf{R}$), 则$\overrightarrow a=\overrightarrow b$.\blank{20}; \\
+(4)若$m\overrightarrow a=n\overrightarrow b(m,n\in \mathbf{R},\overrightarrow a\ne \overrightarrow 0)$, 则$\overrightarrow a=\overrightarrow b$.\blank{20}.
+\item 已知$\overrightarrow{e_1}$、$\overrightarrow{e_2}$是两个不共线的非零向量, 向量$\overrightarrow{AB}=3\overrightarrow{e_1}-2\overrightarrow{e_2}$, $\overrightarrow{BC}=-2\overrightarrow{e_1}+4\overrightarrow{e_2}$, $\overrightarrow{CD}=-2\overrightarrow{e_1}-4\overrightarrow{e_2}$, 证明: $A,C,D$三点共线.
+\item 在$\triangle ABC$中, $AD,BE,CF$三条中线交于点$G$, 求证: $\overrightarrow{GD}+\overrightarrow{GE}+\overrightarrow{GF}=\overrightarrow 0$.
     
-
 \end{enumerate}
 \end{document}
