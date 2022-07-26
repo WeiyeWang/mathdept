@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  24 JUL 2022 21:19
-=======
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  26 JUL 2022 21:02
->>>>>>> dev
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  26 JUL 2022 22:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -764,56 +760,32 @@ Overfull \hbox (11.89737pt too wide) in alignment at lines 79--99
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[10] [11] [12] [13]
-=======
 [4] [5]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 99--119
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[14] [15] [16]
-=======
 [6]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 119--139
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[17] [18] [19] [20]
-=======
 [7]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 139--159
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[21] [22] [23]
-=======
 [8] [9]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 159--179
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[24] [25] [26] [27]
-=======
 [10]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 179--199
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[28] [29] [30] [31]
-=======
 [11]
->>>>>>> dev
 Underfull \hbox (badness 2564) in paragraph at lines 215--215
 []|\TU/华文中宋(0)/m/n/12 会 用 辅 助 角 公 式 将 $\OML/cmm/m/it/12 a [] ^^K \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 b [] ^^K$ \TU/华文中宋(0)/m/n/12 型 的 表 达 式 整 理 为
  []
@@ -823,29 +795,17 @@ Overfull \hbox (11.89737pt too wide) in alignment at lines 199--219
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[32] [33] [34]
-=======
 [12] [13]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 219--239
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[35] [36] [37] [38]
-=======
 [14]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 239--259
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[39] [40] [41]
-=======
 [15]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 259--279
  [] [] [] 
  []
@@ -855,253 +815,107 @@ Overfull \hbox (11.89737pt too wide) in alignment at lines 279--299
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[45] [46] [47] [48]
-=======
 [18]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 299--319
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[49] [50] [51] [52]
-=======
 [19] [20]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 319--339
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[53] [54] [55] [56]
-=======
 [21]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 339--359
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[57] [58] [59]
-=======
 [22]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 359--379
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[60] [61]
-=======
 [23]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 379--399
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[62] [63] [64]
-=======
 [24]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 399--419
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[65] [66] [67]
-=======
-[25]
->>>>>>> dev
+[25] [26]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 419--439
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[68] [69] [70]
-=======
-[26] [27]
->>>>>>> dev
+[27]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 439--459
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[71] [72] [73] [74]
-=======
 [28]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 459--479
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[75] [76] [77] [78]
-=======
 [29] [30]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 479--499
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[79] [80] [81] [82]
-=======
 [31]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 499--519
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[83] [84] [85]
-=======
 [32] [33]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 519--539
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[86] [87] [88] [89]
-=======
 [34]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 539--559
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[90] [91] [92] [93] [94]
-=======
-[35]
->>>>>>> dev
+[35] [36]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 559--579
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[95] [96] [97] [98]
-=======
-[36] [37]
->>>>>>> dev
+[37]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 579--599
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[99] [100] [101] [102]
-=======
 [38] [39]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 599--619
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[103] [104] [105] [106]
-=======
 [40]
->>>>>>> dev
 Overfull \hbox (11.89737pt too wide) in alignment at lines 619--639
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[107] [108] [109] [110] [111]
-=======
-[41]
->>>>>>> dev
+[41] [42]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 639--659
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[112] [113] [114] [115] [116]
-=======
-[42] [43]
->>>>>>> dev
+[43] [44]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 659--679
  [] [] [] 
  []
 
-<<<<<<< HEAD
-[117] [118] [119]
-Underfull \hbox (badness 10000) in paragraph at lines 695--695
-[]|\TU/华文中宋(0)/m/n/12 经 历 两 个 事 件 的 可 加 性 推 出 任 意 有 限 个 事 件 的 可 加 性
- []
-
-
+[45] [46]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 679--699
  [] [] [] 
  []
 
-[120] [121] [122] [123]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 699--719
- [] [] [] 
- []
-
-[124] [125] [126] [127]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 719--739
- [] [] [] 
- []
-
-[128] [129] [130] [131]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 739--759
- [] [] [] 
- []
-
-[132] [133] [134]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 759--779
- [] [] [] 
- []
-
-[135] [136] [137] [138]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 779--799
- [] [] [] 
- []
-
-[139] [140] [141]
-Missing character: There is no 🧪 (U+1F9EA) in font [lmroman12-regular]:mapping=tex-text;!
-
-Overfull \hbox (11.89737pt too wide) in alignment at lines 799--819
- [] [] [] 
- []
-
-[142] [143] [144]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 819--839
- [] [] [] 
- []
-
-[145] [146] [147]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 839--859
- [] [] [] 
- []
-
-[148] [149] [150] [151] [152])
-Overfull \hbox (11.89737pt too wide) in alignment at lines 859--49
- [] [] [] 
- []
-
-[153] [154] [155] [156] [157] [158] [159] [160] [161] (./课时目标.aux) ) 
-Here is how much of TeX's memory you used:
- 20259 strings out of 476919
- 467395 string characters out of 5825424
- 810764 words of memory out of 5000000
- 39860 multiletter control sequences out of 15000+600000
- 408737 words of font info for 69 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 101i,8n,104p,432b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on 课时目标.pdf (161 pages).
-=======
-[44] [45]
-Overfull \hbox (11.89737pt too wide) in alignment at lines 679--699
- [] [] [] 
- []
-
-[46] [47]
+[47]
 Underfull \hbox (badness 10000) in paragraph at lines 711--711
 []|\TU/华文中宋(0)/m/n/12 经 历 两 个 事 件 的 可 加 性 推 出 任 意 有 限 个 事 件 的 可 加 性
  []
@@ -1126,12 +940,12 @@ Overfull \hbox (11.89737pt too wide) in alignment at lines 759--779
  [] [] [] 
  []
 
-[52]
+[52] [53]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 779--799
  [] [] [] 
  []
 
-[53] [54]
+[54]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 799--819
  [] [] [] 
  []
@@ -1162,11 +976,10 @@ Overfull \hbox (11.89737pt too wide) in alignment at lines 879--49
 Here is how much of TeX's memory you used:
  20087 strings out of 476919
  457204 string characters out of 5825424
- 823762 words of memory out of 5000000
+ 825762 words of memory out of 5000000
  39688 multiletter control sequences out of 15000+600000
  408737 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,8n,104p,432b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on 课时目标.pdf (63 pages).
->>>>>>> dev
