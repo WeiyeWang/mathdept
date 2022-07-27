@@ -1,0 +1,77 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[UTF8,fontset = windows]{ctex}
+\setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{华文中宋}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
+\usepackage{ifthen,indentfirst,enumerate,color,titletoc}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{longtable}
+\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing,3d,angles,quotes}
+\usepackage[bf,small,indentafter,pagestyles]{titlesec}
+\usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
+\renewcommand{\baselinestretch}{1.65}
+\newtheorem{defi}{定义~}
+\newtheorem{eg}{例~}
+\newtheorem{ex}{~}
+\newtheorem{rem}{注~}
+\newtheorem{thm}{定理~}
+\newtheorem{coro}{推论~}
+\newtheorem{axiom}{公理~}
+\newtheorem{prop}{性质~}
+\newcommand{\blank}[1]{\underline{\hbox to #1pt{}}}
+\newcommand{\bracket}[1]{(\hbox to #1pt{})}
+\newcommand{\onech}[4]{\par\begin{tabular}{p{.9\textwidth}}
+A.~#1\\
+B.~#2\\
+C.~#3\\
+D.~#4
+\end{tabular}}
+\newcommand{\twoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+A.~#1& B.~#2\\
+C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\vartwoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+(1)~#1& (2)~#2\\
+(3)~#3& (4)~#4
+\end{tabular}}
+\newcommand{\fourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+A.~#1 &B.~#2& C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\varfourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+(1)~#1 &(2)~#2& (3)~#3& (4)~#4
+\end{tabular}}
+\begin{document}
+
+\begin{enumerate}[1.]
+\item 判断下列命题是否正确:\\
+(1) 终边重合的两个角相等;\\
+(2) 锐角是第一象限的角;\\
+(3) 第二象限的角是钝角;\\
+(4) 小于$90^\circ$的角都是锐角.
+\item 分别用集合的形式表示终边位于第三象限的所有角和终边位于$y$轴正半轴上的所有角.
+\item 在$0^\circ-360^\circ$范围内, 分别找出终边与下列各角的终边重合的角, 并判断它们是第几象限的角:\\
+(1) $-315^\circ$\\
+(2) $905.3^\circ$;\\
+(3) $-1090^\circ$;\\
+(4) $530^\circ$.
+\item 分别将下列角度化为弧度:\\
+(1) $15^\circ$;\\
+(2) $-108^\circ$;\\
+(3) $22^\circ 30'$.
+\item 分别将下列弧度化为角度:
+(1) $\dfrac{11}{12}\pi$;\\
+(2) $-\dfrac 25\pi$;\\
+(3) $-3$(结果精确到$0.01^\circ$).
+\item 已知扇形的弧所对的圆心角为$54^\circ$, 且半径为$10\text{cm}$. 求该扇形的弧长和面积.
+\item 如果$\alpha$是第三象限的角, 判断$\dfrac\alpha 2$是哪个象限的角.
+\item 已知角$\alpha$的终边过点$P(2a, -3a)$($a<0$), 求角$\alpha$的正弦、余弦、正切及余切值.
+\item 已知角$\alpha$的终边过点$P(0, -3)$, 则下列值不存在的是\bracket{20}.
+\fourch{$\sin \alpha$}{$\cos \alpha$}{$\tan \alpha$}{$\cot \alpha$}
+\item 根据下列条件, 分别判断角$\theta$属于第几象限:\\
+(1) $\sin \theta =-\dfrac 12$且$\cos \theta =-\dfrac{\sqrt 3}2$;\\
+(2) $\sin \theta <0$且$\tan \theta >0$.
+
+\end{enumerate}
+
+\end{document}

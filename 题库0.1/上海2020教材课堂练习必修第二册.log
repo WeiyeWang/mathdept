@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  26 JUL 2022 20:09
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  27 JUL 2022 20:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**二期练习册高一下
-(./二期练习册高一下.tex
+**上海2020教材课堂练习必修第二册
+(./上海2020教材课堂练习必修第二册.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -541,77 +541,148 @@ File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \tikz@expandcount=\count316
  (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))) (c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
+))) (c:/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count317
+\mult@box=\box63
+\multicol@leftmargin=\dimen292
+\c@unbalance=\count318
+\c@collectmore=\count319
+\doublecol@number=\count320
+\multicoltolerance=\count321
+\multicolpretolerance=\count322
+\full@width=\dimen293
+\page@free=\dimen294
+\premulticols=\dimen295
+\postmulticols=\dimen296
+\multicolsep=\skip63
+\multicolbaselineskip=\skip64
+\partial@page=\box64
+\last@line=\box65
+\maxbalancingoverflow=\dimen297
+\mult@rightbox=\box66
+\mult@grightbox=\box67
+\mult@gfirstbox=\box68
+\mult@firstbox=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\c@minrows=\count323
+\c@columnbadness=\count324
+\c@finalcolumnbadness=\count325
+\last@try=\dimen298
+\multicolovershoot=\dimen299
+\multicolundershoot=\dimen300
+\mult@nat@firstbox=\box107
+\colbreak@box=\box108
+\mc@col@check@num=\count326
+) (c:/texlive/2021/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
  (c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
-\col@sep=\dimen292
-\ar@mcellbox=\box63
-\extrarowheight=\dimen293
+\col@sep=\dimen301
+\ar@mcellbox=\box109
+\extrarowheight=\dimen302
 \NC@list=\toks41
-\extratabsurround=\skip63
-\backup@length=\skip64
-\ar@cellbox=\box64
+\extratabsurround=\skip65
+\backup@length=\skip66
+\ar@cellbox=\box110
 )
-\rotheadsize=\dimen294
-\c@nlinenum=\count317
+\rotheadsize=\dimen303
+\c@nlinenum=\count327
 \TeXr@lab=\toks42
 ) (c:/texlive/2021/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip65
-\LTright=\skip66
-\LTpre=\skip67
-\LTpost=\skip68
-\LTchunksize=\count318
-\LTcapwidth=\dimen295
-\LT@head=\box65
-\LT@firsthead=\box66
-\LT@foot=\box67
-\LT@lastfoot=\box68
-\LT@cols=\count319
-\LT@rows=\count320
-\c@LT@tables=\count321
-\c@LT@chunks=\count322
+\LTleft=\skip67
+\LTright=\skip68
+\LTpre=\skip69
+\LTpost=\skip70
+\LTchunksize=\count328
+\LTcapwidth=\dimen304
+\LT@head=\box111
+\LT@firsthead=\box112
+\LT@foot=\box113
+\LT@lastfoot=\box114
+\LT@cols=\count329
+\LT@rows=\count330
+\c@LT@tables=\count331
+\c@LT@chunks=\count332
 \LT@p@ftn=\toks43
 ) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\arrowsize=\dimen296
+\arrowsize=\dimen305
 )) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
-\pgf@intersect@solutions=\count323
+\pgf@intersect@solutions=\count333
 )) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
 File: tikzlibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
 File: pgflibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen297
-\pgfdecoratedremainingdistance=\dimen298
-\pgfdecoratedinputsegmentcompleteddistance=\dimen299
-\pgfdecoratedinputsegmentremainingdistance=\dimen300
-\pgf@decorate@distancetomove=\dimen301
-\pgf@decorate@repeatstate=\count324
-\pgfdecorationsegmentamplitude=\dimen302
-\pgfdecorationsegmentlength=\dimen303
+\pgfdecoratedcompleteddistance=\dimen306
+\pgfdecoratedremainingdistance=\dimen307
+\pgfdecoratedinputsegmentcompleteddistance=\dimen308
+\pgfdecoratedinputsegmentremainingdistance=\dimen309
+\pgf@decorate@distancetomove=\dimen310
+\pgf@decorate@repeatstate=\count334
+\pgfdecorationsegmentamplitude=\dimen311
+\pgfdecorationsegmentlength=\dimen312
 )
-\tikz@lib@dec@box=\box69
-) (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryangles.code.tex
+\tikz@lib@dec@box=\box115
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary3d.code.tex
+File: tikzlibrary3d.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryangles.code.tex
 File: tikzlibraryangles.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryquotes.code.tex
 File: tikzlibraryquotes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box70
-\beforetitleunit=\skip69
-\aftertitleunit=\skip70
-\ttl@plus=\dimen304
-\ttl@minus=\dimen305
+\ttl@box=\box116
+\beforetitleunit=\skip71
+\aftertitleunit=\skip72
+\ttl@plus=\dimen313
+\ttl@minus=\dimen314
 \ttl@toksa=\toks44
-\titlewidth=\dimen306
-\titlewidthlast=\dimen307
-\titlewidthfirst=\dimen308
+\titlewidth=\dimen315
+\titlewidthlast=\dimen316
+\titlewidthfirst=\dimen317
  (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titleps.sty)) (c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
@@ -619,104 +690,104 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count325
-\Gm@cntv=\count326
-\c@Gm@tempcnt=\count327
-\Gm@bindingoffset=\dimen309
-\Gm@wd@mp=\dimen310
-\Gm@odd@mp=\dimen311
-\Gm@even@mp=\dimen312
-\Gm@layoutwidth=\dimen313
-\Gm@layoutheight=\dimen314
-\Gm@layouthoffset=\dimen315
-\Gm@layoutvoffset=\dimen316
+\Gm@cnth=\count335
+\Gm@cntv=\count336
+\c@Gm@tempcnt=\count337
+\Gm@bindingoffset=\dimen318
+\Gm@wd@mp=\dimen319
+\Gm@odd@mp=\dimen320
+\Gm@even@mp=\dimen321
+\Gm@layoutwidth=\dimen322
+\Gm@layoutheight=\dimen323
+\Gm@layouthoffset=\dimen324
+\Gm@layoutvoffset=\dimen325
 \Gm@dimlist=\toks45
 )
-\c@defi=\count328
-\c@eg=\count329
-\c@ex=\count330
-\c@rem=\count331
-\c@thm=\count332
-\c@coro=\count333
-\c@axiom=\count334
-\c@prop=\count335
- (./二期练习册高一下.aux)
-\openout1 = `二期练习册高一下.aux'.
+\c@defi=\count338
+\c@eg=\count339
+\c@ex=\count340
+\c@rem=\count341
+\c@thm=\count342
+\c@coro=\count343
+\c@axiom=\count344
+\c@prop=\count345
+ (./上海2020教材课堂练习必修第二册.aux)
+\openout1 = `上海2020教材课堂练习必修第二册.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 45.
+LaTeX Info: Redefining \selectfont on input line 44.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 45.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 45.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 45.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 45.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 45.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 45.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 45.
-LaTeX Font Info:    Redeclaring math accent \check on input line 45.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 45.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 45.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 45.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 45.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 44.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 44.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 44.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 44.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 44.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 44.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 44.
+LaTeX Font Info:    Redeclaring math accent \check on input line 44.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 44.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 44.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 44.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 44.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 45.
+(Font)              `operators' in the math version `normal' on input line 44.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 45.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 44.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 45.
+(Font)              `operators' in the math version `bold' on input line 44.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 45.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 44.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 45.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 45.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 45.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 45.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 45.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 44.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 45.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 45.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 45.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 45.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 44.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -752,166 +823,32 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 49.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 51.
  (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
-
-] [2]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 111--112
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 113--114
-[][] 
- []
-
-[3] [4]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 163--164
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 165--166
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 206--207
-[][] 
- []
-
-[5]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 208--209
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 216--217
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 218--219
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 220--221
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 222--223
-[][] 
- []
-
-[6] [7] [8] [9] [10] [11]
-LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 384.
- (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 384.
- (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 384.
- [12]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 446--447
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 70--71
 [][] 
  []
 
-[13] [14]
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
- [15] [16]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 581--582
-[][] 
- []
+[1
 
-[17] [18]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 660--661
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 662--663
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 664--665
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 669--670
-[][] 
- []
-
-[19] [20]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 711--712
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 713--714
-[][] 
- []
-
-[21]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 777--778
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 779--780
-[][] 
- []
-
-[22]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 781--782
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 803--804
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 805--806
-[][] 
- []
-
-[23]
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 807--808
-[][] 
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 809--810
-[][] 
- []
-
-[24] (./二期练习册高一下.aux) ) 
+] (./上海2020教材课堂练习必修第二册.aux) ) 
 Here is how much of TeX's memory you used:
- 21611 strings out of 476919
- 493695 string characters out of 5825424
- 826985 words of memory out of 5000000
- 41184 multiletter control sequences out of 15000+600000
- 406095 words of font info for 60 fonts, out of 8000000 for 9000
+ 21033 strings out of 476919
+ 481746 string characters out of 5825424
+ 806883 words of memory out of 5000000
+ 40611 multiletter control sequences out of 15000+600000
+ 405768 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,13n,104p,415b,1144s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,10n,104p,424b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 二期练习册高一下.pdf (24 pages).
+Output written on 上海2020教材课堂练习必修第二册.pdf (1 page).

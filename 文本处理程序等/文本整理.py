@@ -202,12 +202,22 @@ data = re.sub("②",r"\\textcircled{2} ",data)
 data = re.sub("③",r"\\textcircled{3} ",data)
 data = re.sub("④",r"\\textcircled{4} ",data)
 data = re.sub("⑤",r"\\textcircled{5} ",data)
+data = re.sub("",r"\\subseteq ",data)
+data = re.sub("",r"\\subset ",data)
+data = re.sub("",r"\\supset ",data)
+data = re.sub("",r"\\Rightarrow ",data)
+data = re.sub("",r"\\varnothing ",data)
+data = re.sub("×",r"\\times ",data)
+data = re.sub("·",r"\\cdot ",data)
+data = re.sub("％",r"\\%",data)
+data = re.sub("ｃｍ",r"\\text{cm}",data)
+data = re.sub("°",r"^\\circ ",data)
 #修改一些常用的错误latex命令
 data = re.sub("centerdot","cdot",data)
 data = re.sub("cancel","not",data)
 
-whole_numbers = "０１２３４５６７８９＋－＝狆狇狉犕犖＞＜犃犅犆犇狓犝［］｜犪狔犙犽犘犚犫犛犮犈犗犿犣狀犳犵犺狋犻犼狕犉犾′"
-correct_numbers = "0123456789+-=pqrMN><ABCDxU[]|ayQkPRbScEOmZnfghtijzFl'"
+whole_numbers = "０１２３４５６７８９＋－＝狆狇狉犕犖＞＜犃犅犆犇狓犝［］｜犪狔犙犽犘犚犫犛犮犈犗犿犣狀犳犵犺狋犻犼狕犉犾′犱狊"
+correct_numbers = "0123456789+-=pqrMN><ABCDxU[]|ayQkPRbScEOmZnfghtijzFl'ds"
 
 
 
