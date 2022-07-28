@@ -1,8 +1,4 @@
-练习6. 1(3)
-\item 已知角\alpha的终边过点P(2a, -3a)(a<0), 求角\alpha的正弦、余弦、正切及余切值.
-\item 已知角\alpha的终边过点P(0, -3), 则下列值不存在的是
-\bracket{20}.
-\fourch{\sin \alpha;}{\cos \alpha;}{\tan \alpha;}{\cot \alpha}
-\item 根据下列条件, 分别判断角\theta 属于第几象限:
-(1)\sin \theta =-12且\cos \theta =-\sqrt 32;
-(2)\sin \theta <0且\tan \theta >0. 
+练习6. 3(2)
+\item 在\triangle ABC中, 已知a=3, b=4, C=60^\circ . 求c.
+\item 在\triangle ABC中, 已知A=45^\circ , a=2\sqrt 6, b=2\sqrt 3. 求B、C及c.
+\item 在\triangle ABC中, 已知三边之比为2∶3∶4. 求该三角形的最大角的余弦值. 

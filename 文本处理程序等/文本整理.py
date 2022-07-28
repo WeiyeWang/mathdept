@@ -212,6 +212,7 @@ data = re.sub("·",r"\\cdot ",data)
 data = re.sub("％",r"\\%",data)
 data = re.sub("ｃｍ",r"\\text{cm}",data)
 data = re.sub("°",r"^\\circ ",data)
+data = re.sub("∶",r": ",data)
 #修改一些常用的错误latex命令
 data = re.sub("centerdot","cdot",data)
 data = re.sub("cancel","not",data)

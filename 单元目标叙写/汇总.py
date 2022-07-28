@@ -1,6 +1,7 @@
 #同时汇总了课时目标和课时划分
 
-import os,re
+import os,re,time
+from shutil import copyfile
 def trim(string):
     string = re.sub(r"^[\s\n ]*?","",string)
     return re.sub(r"[\s\n ]*?$","",string)
@@ -57,3 +58,16 @@ for obj in objects:
     texfile_string += obj[0] + " & " + obj[1] + " & " + obj[2] + r"\\ \hline" +"\n"
 with open("课时目标/课时目标汇总.tex","w",encoding="utf8") as output_file:
     output_file.write(texfile_string)
+
+os.chdir("课时目标/课时目标汇总")
+os.system("xelatex 课时目标.tex")
+os.system("xelatex 课时目标.tex")
+os.chdir("../../课时划分/课时划分汇总")
+os.system("xelatex 课时划分.tex")
+os.system("xelatex 课时划分.tex")
+os.chdir("../..")
+current_time = time.localtime()
+time_string = "_"+str(current_time.tm_year).zfill(4)+str(current_time.tm_mon).zfill(2)+str(current_time.tm_mday).zfill(2)
+copyfile("课时目标/课时目标汇总/课时目标.pdf","课时目标"+time_string+".pdf")
+copyfile("课时划分/课时划分汇总/课时划分.pdf","课时划分"+time_string+".pdf")
+

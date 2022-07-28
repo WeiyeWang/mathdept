@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  27 JUL 2022 20:06
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  27 JUL 2022 23:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -165,44 +165,9 @@ File: ctex-scheme-chinese.def 2021/03/14 v2.5.6 Chinese scheme for generic (CTEX
 File: ctex-name-utf8.cfg 2021/03/14 v2.5.6 Caption with encoding UTF-8 (CTEX)
 )) (c:/texlive/2021/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (c:/texlive/2021/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
-File: ctex-fontset-windows.def 2021/03/14 v2.5.6 Windows fonts definition (CTEX)
-
-Package fontspec Info: Could not resolve font "KaiTi/B" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: Could not resolve font "SimHei/I" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: Could not resolve font "SimSun/BI" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
-(fontspec)             options
-(fontspec)             [Script={CJK},BoldFont={SimHei},ItalicFont={KaiTi}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"SimSun/OT:script=hani;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"SimHei/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"KaiTi/OT:script=hani;language=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-
 )) (c:/texlive/2021/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2021/03/14 v2.5.6 Configuration file (CTEX)
 )
-
-Package xeCJK Warning: Redefining CJKfamily `\CJKrmdefault' (SimSun(0)).
-
 
 Package fontspec Info: Could not resolve font "楷体/B" (it probably doesn't
 (fontspec)             exist).
@@ -232,7 +197,7 @@ Package fontspec Info: Font family '华文中宋(0)' created for font '华文中
 (fontspec)             <->"楷体/OT:script=hani;language=dflt;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 
-(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -841,14 +806,14 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 70--71
 
 [1
 
-] (./上海2020教材课堂练习必修第二册.aux) ) 
+] [2] [3] [4] (./上海2020教材课堂练习必修第二册.aux) ) 
 Here is how much of TeX's memory you used:
- 21033 strings out of 476919
- 481746 string characters out of 5825424
- 806883 words of memory out of 5000000
- 40611 multiletter control sequences out of 15000+600000
- 405768 words of font info for 56 fonts, out of 8000000 for 9000
+ 20974 strings out of 476919
+ 480749 string characters out of 5825424
+ 814445 words of memory out of 5000000
+ 40562 multiletter control sequences out of 15000+600000
+ 405760 words of font info for 55 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,10n,104p,424b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,10n,104p,424b,260s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 上海2020教材课堂练习必修第二册.pdf (1 page).
+Output written on 上海2020教材课堂练习必修第二册.pdf (4 pages).
