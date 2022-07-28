@@ -191,6 +191,8 @@ data = re.sub("△",r"\\triangle ",data)
 data = re.sub("φ",r"\\varphi ",data)
 data = re.sub("ω",r"\\omega ",data)
 data = re.sub("珗",r"\\overrightarrow ",data)
+data = re.sub("珝",r"\\overrightarrow ",data)
+data = re.sub("珤",r"\\overrightarrow ",data)
 data = re.sub("珤犲",r"\\overrightarrow e_ ",data)
 data = re.sub("λ",r"\\lambda e_ ",data)
 data = re.sub("ｉ",r"\\mathrm{i}",data)
@@ -213,12 +215,17 @@ data = re.sub("％",r"\\%",data)
 data = re.sub("ｃｍ",r"\\text{cm}",data)
 data = re.sub("°",r"^\\circ ",data)
 data = re.sub("∶",r": ",data)
+data = re.sub("ｍ",r"\\text{m}",data)
+data = re.sub("∠",r"\\angle ",data)
+data = re.sub(r"→\n ",r"",data)
+data = re.sub("〈",r"\\langle ",data)
+data = re.sub("〉",r"\\rangle ",data)
 #修改一些常用的错误latex命令
 data = re.sub("centerdot","cdot",data)
 data = re.sub("cancel","not",data)
 
-whole_numbers = "０１２３４５６７８９＋－＝狆狇狉犕犖＞＜犃犅犆犇狓犝［］｜犪狔犙犽犘犚犫犛犮犈犗犿犣狀犳犵犺狋犻犼狕犉犾′犱狊"
-correct_numbers = "0123456789+-=pqrMN><ABCDxU[]|ayQkPRbScEOmZnfghtijzFl'ds"
+whole_numbers = "０１２３４５６７８９＋－＝狆狇狉犕犖＞＜犃犅犆犇狓犝［］｜犪狔犙犽犘犚犫犛犮犈犗犿犣狀犳犵犺狋犻犼狕犉犾′犱狊犌"
+correct_numbers = "0123456789+-=pqrMN><ABCDxU[]|ayQkPRbScEOmZnfghtijzFl'dsG"
 
 
 
@@ -293,6 +300,8 @@ for text in raw_texts:
     text1 = re.sub(r"\s{3,}\.",r"\\blank{50}.",text1)
     text1 = re.sub(r"\s{3,}\,",r"\\blank{50},",text1)
     text1 = re.sub(r"\\bracket\{20\}\n",r"\\bracket{20}.\n",text1)
+    text1 = re.sub(r"\\mathrm{\\mathrm{i}}",r"\\mathrm{i}",text1)
+    text1 = re.sub(r"\\\\mathrm{i}n",r"\\in ",text1)
     modified_texts.append(text1)
 
 for equation in raw_equations:

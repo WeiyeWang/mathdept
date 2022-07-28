@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  27 JUL 2022 23:45
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  28 JUL 2022 22:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -806,14 +806,30 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 70--71
 
 [1
 
-] [2] [3] [4] (./上海2020教材课堂练习必修第二册.aux) ) 
+] [2] [3] [4]
+Missing character: There is no ; ("3B) in font nullfont!
+ [5]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 245--246
+[][] 
+ []
+
+[6]
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+ [7] [8] [9]
+Missing character: There is no 若 (U+82E5) in font [lmroman10-regular]:mapping=tex-text;!
+ [10]
+Missing character: There is no 与 (U+4E0E) in font [lmroman10-regular]:mapping=tex-text;!
+ [11] [12] (./上海2020教材课堂练习必修第二册.aux) ) 
 Here is how much of TeX's memory you used:
- 20974 strings out of 476919
- 480749 string characters out of 5825424
- 814445 words of memory out of 5000000
- 40562 multiletter control sequences out of 15000+600000
+ 21606 strings out of 476919
+ 493643 string characters out of 5825424
+ 942331 words of memory out of 5000000
+ 41194 multiletter control sequences out of 15000+600000
  405760 words of font info for 55 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,10n,104p,424b,260s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,16n,357p,15792b,1131s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 上海2020教材课堂练习必修第二册.pdf (4 pages).
+Output written on 上海2020教材课堂练习必修第二册.pdf (12 pages).
