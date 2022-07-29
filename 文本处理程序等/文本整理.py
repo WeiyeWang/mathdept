@@ -139,6 +139,8 @@ def refine_frac(string):
 #以上是20220718修改的大括号处理机制, 修复了一个bug
 def reduce_blank(matchobj):
     return matchobj.group(1).replace(" ","")
+def add_dollars(matchobj):
+    return matchobj.group(1)[0] + r"$" + matchobj.group(1)[1:-1] + r"$" + matchobj.group(1)[-1]
 
 try:
     os.chdir(r"D:\mathdept\mathdept\文本处理程序等")
@@ -397,7 +399,10 @@ for i in range(len(modified_texts)):
 modified_data = re.sub(r"[ ]+\n","\n",modified_data)
 modified_data = re.sub(r"\$[\s]*?\\parallel[\s]*?\$",r"\\parallel",modified_data)
 modified_data = re.sub(r"\n例\s*?\d{1,3}\s*",r"\n\\item ",modified_data)
-
-
+modified_data = re.sub(r"ABCDA_1B_1C_1D_1",r"$ABCD-A_1B_1C_1D_1$",modified_data)
+for i in range(2):
+    modified_data = re.sub(r"([\u4e00-\u9fa5、 \)][0-9a-zA-Z_\^\\\{\}=><\s\n']+[\u4e00-\u9fa5、\,\.;\( ])",add_dollars,modified_data)
+modified_data = re.sub(r" \$","$",modified_data)
+modified_data = re.sub(r"\$[\s]*?\$","",modified_data)
 with open("outputfile.txt","w",encoding = "utf8") as f:
     f.write(modified_data)
