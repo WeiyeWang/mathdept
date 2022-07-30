@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  29 JUL 2022 21:30
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  30 JUL 2022 15:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -845,16 +845,38 @@ Package pgfplots notification 'compat/show suggested version=true': you might be
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+(../题库0.2/相似题目.txt
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 3.
+ (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+Overfull \hbox (29.44168pt too wide) in paragraph at lines 36--37
+[][] 
+ []
+
+
+Overfull \hbox (29.44168pt too wide) in paragraph at lines 39--40
+[][] 
+ []
+
 [1
 
-] (./test.aux) ) 
+]) [2] (./test.aux) ) 
 Here is how much of TeX's memory you used:
- 44412 strings out of 476919
- 1114657 string characters out of 5825424
- 4963651 words of memory out of 5000000
- 63902 multiletter control sequences out of 15000+600000
- 403566 words of font info for 44 fonts, out of 8000000 for 9000
+ 30017 strings out of 476919
+ 790348 string characters out of 5825424
+ 1223348 words of memory out of 5000000
+ 49475 multiletter control sequences out of 15000+600000
+ 405808 words of font info for 61 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,8n,114p,721b,30344s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,11n,104p,721b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on test.pdf (1 page).
+Output written on test.pdf (2 pages).
