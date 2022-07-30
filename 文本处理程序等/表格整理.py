@@ -2,7 +2,7 @@ import os
 def dollared(string):
     flag = True
     for c in string:
-        if not c in "1234567890.+-":
+        if not c in "1234567890.+-:":
             flag = False
             break
     if flag:
@@ -24,7 +24,7 @@ for c in data:
     else:
         data1 += c
 data = data1
-data = data.replace("．",".")
+data = data.replace("．",".").replace("：",":")
 elements = data.split("\n")
 elements_per_line = 11 #这里需要修改
 contents = "{|"

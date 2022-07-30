@@ -4,6 +4,10 @@
 
 \setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{等线}
 
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+
 \usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
 
 \usepackage{ifthen,indentfirst,enumerate,color,titletoc}
@@ -88,6 +92,18 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 
 
 %\input{"../题库0.2/相似题目.txt"}
-
+\begin{tikzpicture}
+    \begin{axis}[colormap/blackwhite,
+       view={30}{60},axis lines=none
+       ]
+       \addplot3[surf,shader=interp,
+       samples=60, point meta=x+3*z*z-0.25*y,
+       domain=0:2*pi,y domain=0:2*pi,
+       z buffer=sort]
+       ({(2+cos(deg(x)))*cos(deg(y))},  
+        {(2+cos(deg(x)))*sin(deg(y))}, 
+        {sin(deg(x))});
+   \end{axis}
+\end{tikzpicture}
 
 \end{document}

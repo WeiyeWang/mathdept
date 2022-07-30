@@ -182,6 +182,7 @@ data = re.sub("≥",r"\\ge ",data)
 data = re.sub("槡",r"\\sqrt ",data)
 data = re.sub("ｌｏｇ",r"\\log ",data)
 data = re.sub("ｌｇ",r"\\lg ",data)
+data = re.sub("ｌｎ",r"\\ln ",data)
 data = re.sub("≠",r"\\ne ",data)
 data = re.sub("π",r"\\pi ",data)
 data = re.sub("θ",r"\\theta ",data)
@@ -222,12 +223,15 @@ data = re.sub("∠",r"\\angle ",data)
 data = re.sub(r"→\n ",r"",data)
 data = re.sub("〈",r"\\langle ",data)
 data = re.sub("〉",r"\\rangle ",data)
+data = re.sub("…",r"\\cdots",data)
+data = re.sub("Ｐ",r"\\mathrm{P}^",data)
+
 #修改一些常用的错误latex命令
 data = re.sub("centerdot","cdot",data)
 data = re.sub("cancel","not",data)
 
-whole_numbers = "０１２３４５６７８９＋－＝狆狇狉犕犖＞＜犃犅犆犇狓犝［］｜犪狔犙犽犘犚犫犛犮犈犗犿犣狀犳犵犺狋犻犼狕犉犾′犱狊犌"
-correct_numbers = "0123456789+-=pqrMN><ABCDxU[]|ayQkPRbScEOmZnfghtijzFl'dsG"
+whole_numbers = "０１２３４５６７８９＋－＝狆狇狉犕犖＞＜犃犅犆犇狓犝［］｜犪狔犙犽犘犚犫犛犮犈犗犿犣狀犳犵犺狋犻犼狕犉犾′犱狊犌犡犢"
+correct_numbers = "0123456789+-=pqrMN><ABCDxU[]|ayQkPRbScEOmZnfghtijzFl'dsGXY"
 
 
 
@@ -253,7 +257,7 @@ data = re.sub("Ａ\.([\s\S]*?)Ｂ\.([\s\S]*?)Ｃ\.([\s\S]*?)Ｄ\.([\s\S]*?)\\n",
 data = re.sub("\(Ａ\)([\s\S]*?)\(Ｂ\)([\s\S]*?)\(Ｃ\)([\s\S]*?)\(Ｄ\)([\s\S]*?)\\n",multiple_choice,data)
 data = re.sub("\$[ ]+\}","$}",data)
 data = re.sub("\{[ ]+\$","{$",data)
-
+#data = re.sub("Ｃ",r"\\mathrm{C}^",data)
 #替换多余的空行
 for i in range(20):
     data = re.sub("\n[\t ]*\n","\n",data)
@@ -401,7 +405,7 @@ modified_data = re.sub(r"\$[\s]*?\\parallel[\s]*?\$",r"\\parallel",modified_data
 modified_data = re.sub(r"\n例\s*?\d{1,3}\s*",r"\n\\item ",modified_data)
 modified_data = re.sub(r"ABCDA_1B_1C_1D_1",r"$ABCD-A_1B_1C_1D_1$",modified_data)
 for i in range(2):
-    modified_data = re.sub(r"([\u4e00-\u9fa5、 \)][0-9a-zA-Z_\^\\\{\}=><\s\n']+[\u4e00-\u9fa5、\,\.;\( ])",add_dollars,modified_data)
+    modified_data = re.sub(r"([\u4e00-\u9fa5、 \)][0-9a-zA-Z_\^\\\{\}|=><\s\n'\(\)\-\+:]+[\u4e00-\u9fa5、\,\.;\( ])",add_dollars,modified_data)
 modified_data = re.sub(r" \$","$",modified_data)
 modified_data = re.sub(r"\$[\s]*?\$","",modified_data)
 with open("outputfile.txt","w",encoding = "utf8") as f:
