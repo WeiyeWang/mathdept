@@ -696,7 +696,7 @@ $(2+x)^6$的二项展开式中, 系数最大的项的系数为\blank{50}.
 004634
 <EID>
 <B题目>
-已知$\overline a,\overline b,\overline e$是平面向量, $\overline e$是单位向量. 若非零向量$\overline a$与$\overline e$的夹角为$\dfrac{\pi}3$, 向量$\overline b$满足$\overline b^2-4\overline e\cdot \overline b+3=0$, 则$|\overline a-\overline b|$的最小值为\bracket{20}.
+已知$\overrightarrow a,\overrightarrow b,\overrightarrow e$是平面向量, $\overrightarrow e$是单位向量. 若非零向量$\overrightarrow a$与$\overrightarrow e$的夹角为$\dfrac{\pi}3$, 向量$\overrightarrow b$满足$\overrightarrow b^2-4\overrightarrow e\cdot \overrightarrow b+3=0$, 则$|\overrightarrow a-\overrightarrow b|$的最小值为\bracket{20}.
 \fourch{$\sqrt 3-1$}{$\sqrt 3+1$}{$2$}{$2-\sqrt 3$}
 <E题目>
 <B目标>

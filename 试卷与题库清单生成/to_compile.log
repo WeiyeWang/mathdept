@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  30 JUL 2022 13:58
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  30 JUL 2022 20:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8309,14 +8309,29 @@ Overfull \hbox (14.44168pt too wide) in paragraph at lines 23885--23886
 [][] 
  []
 
-[781] [782]) [783] (./to_compile.aux) ) 
+[781] [782] [783]
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 23969--23970
+[][] 
+ []
+
+
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 23971--23972
+[][] 
+ []
+
+
+Overfull \hbox (14.44168pt too wide) in paragraph at lines 23987--23988
+[][] 
+ []
+
+[784]) [785] (./to_compile.aux) ) 
 Here is how much of TeX's memory you used:
- 54151 strings out of 476919
- 1173354 string characters out of 5825424
+ 54286 strings out of 476919
+ 1176182 string characters out of 5825424
  1175842 words of memory out of 5000000
- 73694 multiletter control sequences out of 15000+600000
+ 73829 multiletter control sequences out of 15000+600000
  406159 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,24n,376p,15815b,1259s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on to_compile.pdf (783 pages).
+Output written on to_compile.pdf (785 pages).

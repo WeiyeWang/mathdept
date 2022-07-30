@@ -141,6 +141,11 @@ def reduce_blank(matchobj):
     return matchobj.group(1).replace(" ","")
 def add_dollars(matchobj):
     return matchobj.group(1)[0] + r"$" + matchobj.group(1)[1:-1] + r"$" + matchobj.group(1)[-1]
+def del_first_char(matchobj):
+    return matchobj.group(1)[1:]
+def add_underline(matchobj):
+    return matchobj.group(1)[0] + "_" + matchobj.group(1)[-1]
+
 
 try:
     os.chdir(r"D:\mathdept\mathdept\文本处理程序等")
@@ -264,9 +269,16 @@ for i in range(20):
 #复数变成正体i
 data = re.sub("(\\n.*?复数.*?\\n)",replace_i,data)
 
-
-
 data1 = data #替换后暂存data1
+
+
+#针对从教材里扒下来的文字
+data = re.sub(r"([A-Z][0-9])",add_underline,data)
+data = re.sub(r"([\u4e00-\u9fa5、 \)][0-9a-zA-Z_\^\\\{\}|=><\s\n'\(\)\-\+:±]{2,}[\u4e00-\u9fa5、\,\.;\( ])",add_dollars,data)
+data = re.sub(r"([\u4e00-\u9fa5、\)][0-9a-zA-Z_\^\\\{\}|=><\s\n'\(\)\-\+:±]{2,}[\u4e00-\u9fa5、\,\.;\( ])",add_dollars,data)
+data = re.sub(r"([\u4e00-\u9fa5、 \)][0-9a-zA-Z]{1}[\u4e00-\u9fa5、\,\.;\( ])",add_dollars,data)
+data = re.sub(r"\$\,[\s]*\$",", ",data)
+data = re.sub(r"(\n[^(\\])",del_first_char,data)
 
 
 
@@ -404,9 +416,6 @@ modified_data = re.sub(r"[ ]+\n","\n",modified_data)
 modified_data = re.sub(r"\$[\s]*?\\parallel[\s]*?\$",r"\\parallel",modified_data)
 modified_data = re.sub(r"\n例\s*?\d{1,3}\s*",r"\n\\item ",modified_data)
 modified_data = re.sub(r"ABCDA_1B_1C_1D_1",r"$ABCD-A_1B_1C_1D_1$",modified_data)
-for i in range(2):
-    modified_data = re.sub(r"([\u4e00-\u9fa5、 \)][0-9a-zA-Z_\^\\\{\}|=><\s\n'\(\)\-\+:]+[\u4e00-\u9fa5、\,\.;\( ])",add_dollars,modified_data)
-modified_data = re.sub(r" \$","$",modified_data)
-modified_data = re.sub(r"\$[\s]*?\$","",modified_data)
+
 with open("outputfile.txt","w",encoding = "utf8") as f:
     f.write(modified_data)
