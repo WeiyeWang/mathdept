@@ -1,23 +1,36 @@
-import os,re,difflib,Levenshtein
+import os,re,difflib,Levenshtein,time
 
-def get_equal_rate_1(str1, str2):
+def difflab_get_equal_rate(str1, str2):
     str1 = re.sub(r"[\s\\\{\}\$\(\)\[\]]","",str1)
+    str1 = re.sub(r"(displaystyle)|(overrightarrow)","",str1)
+    str1 = re.sub(r"\\begin\{center\}[\s\S]*?\\end\{center\}","",str1)
     str2 = re.sub(r"[\s\\\{\}\$\(\)\[\]]","",str2)
+    str2 = re.sub(r"(displaystyle)|(overrightarrow)","",str2)
+    str2 = re.sub(r"\\begin\{center\}[\s\S]*?\\end\{center\}","",str2)
     return difflib.SequenceMatcher(None, str1.replace("\t","").replace(" ","").replace("\n",""), str2.replace("\t","").replace(" ","").replace("\n","")).ratio()
 def jaro_get_equal_rate(str1,str2):
     str1 = re.sub(r"[\s\\\{\}\$\(\)\[\]]","",str1)
+    str1 = re.sub(r"(displaystyle)|(overrightarrow)","",str1)
+    str1 = re.sub(r"\\begin\{center\}[\s\S]*?\\end\{center\}","",str1)
     str2 = re.sub(r"[\s\\\{\}\$\(\)\[\]]","",str2)
+    str2 = re.sub(r"(displaystyle)|(overrightarrow)","",str2)
+    str2 = re.sub(r"\\begin\{center\}[\s\S]*?\\end\{center\}","",str2)
     return Levenshtein.jaro(str1.replace("\t","").replace(" ","").replace("\n",""), str2.replace("\t","").replace(" ","").replace("\n",""))
 def Lev_get_equal_rate(str1,str2):
     str1 = re.sub(r"[\s\\\{\}\$\(\)\[\]]","",str1)
+    str1 = re.sub(r"(displaystyle)|(overrightarrow)","",str1)
+    str1 = re.sub(r"\\begin\{center\}[\s\S]*?\\end\{center\}","",str1)
     str2 = re.sub(r"[\s\\\{\}\$\(\)\[\]]","",str2)
+    str2 = re.sub(r"(displaystyle)|(overrightarrow)","",str2)
+    str2 = re.sub(r"\\begin\{center\}[\s\S]*?\\end\{center\}","",str2)
     return Levenshtein.ratio(str1.replace("\t","").replace(" ","").replace("\n",""), str2.replace("\t","").replace(" ","").replace("\n",""))
 def trim(string):
-    while string[0] in (" ","\t","\n"):
-        string = string[1:]
-    while string[-1] in (" ","\t","\n"):
-        string = string[:-1]
+    string = re.sub(r"^[ \t\n]*","",string)
+    string = re.sub(r"[ \t\n]*$","",string)
     return string
+def trim_tuple(tuple):
+    return (trim(tuple[0]),trim(tuple[1]),trim(tuple[2]),trim(tuple[3]))
+
 def trimpic(string):
     string1 = re.sub(r"\\begin\{center[\s\S]*?\\end\{center\}","",string)
     string1 = re.sub(r"\\begin\{tikz[\s\S]*?\\end\{tikzpicture\}","",string1)
@@ -31,33 +44,61 @@ for filename in vault_files:
 #读入全部题库数据
 
 # 重要!!!最初的新题的id
-starting_ID = 9984
+starting_ID = 1
+sim_test = jaro_get_equal_rate
+threshold = 0.85
 
-problem_list = [[x[0],trimpic(trim(x[1]))] for x in re.findall("<BID>\\n([\s\S]*?)\\n<EID>[\s\S]*?<B题目>([\s\S]*?)<E题目>",problems)]
+problems_formatted = [x for x in re.findall(r"\[B题目\]([\s\S]*?)\[E题目\]",problems)]
+
+problem_list = []
+for p in problems_formatted:
+    problem_list.append(trim_tuple(re.findall(r"<BID>([\s\S]*?)<EID>[\s\S]*?<B题目>([\s\S]*?)<E题目>[\s\S]*?<B相同题目>([\s\S]*?)<E相同题目>[\s\S]*?<B关联题目>([\s\S]*?)<E关联题目>",p)[0]))
+
+
 #生成题号列表
 old_problems = [f for f in problem_list if f[0] < str(starting_ID).zfill(6)]
 new_problems = [f for f in problem_list if f[0] >= str(starting_ID).zfill(6)]
-print("旧题目数:",len(old_problems),",新题目数:",len(new_problems))
+print("旧题目数:",len(old_problems),", 新题目数:",len(new_problems))
+
+start_time = time.time()
+count = 0
+remarked = 0
 
 alike_problems = ""
 for i in range(len(new_problems)):
     if i // 50 == i / 50:
         print(i)
     for j in range(len(old_problems)):
-        similar_rate = get_equal_rate_1(new_problems[i][1],old_problems[j][1])
-        if similar_rate>0.90:
-            alike_problems += (("%.4f" %similar_rate)+"\n\n"+new_problems[i][0]+"\t"+new_problems[i][1]+"\n\n"+old_problems[j][0]+"\t"+old_problems[j][1]+"\n\n")
+        similar_rate = sim_test(new_problems[i][1],old_problems[j][1])
+        similar_case = ""
+        if old_problems[j][0] in new_problems[i][2] or new_problems[i][0] in old_problems[j][2]:
+            similar_case = " 相同"
+        elif  old_problems[j][0] in new_problems[i][3] or new_problems[i][0] in old_problems[j][3]:
+            similar_case = " 关联"
+        if similar_rate>threshold or similar_case != "":
+            count += 1
+            remarked += 1 if similar_case != "" else 0
+            alike_problems += (("%.4f" %similar_rate)+similar_case+"\n\n"+new_problems[i][0]+"\t"+new_problems[i][1]+"\n\n"+old_problems[j][0]+"\t"+old_problems[j][1]+"\n\n")
 
 for i in range(len(new_problems)):
     if i // 50 == i / 50:
         print(i)
     for j in range(i+1,len(new_problems)):
-        similar_rate = get_equal_rate_1(new_problems[i][1],new_problems[j][1])
-        #print(similar_rate)
-        if similar_rate>0.90:
-            alike_problems += (("%.4f" %similar_rate)+"\n\n"+new_problems[i][0]+"\t"+new_problems[i][1]+"\n\n"+new_problems[j][0]+"\t"+new_problems[j][1]+"\n\n")
+        similar_rate = sim_test(new_problems[i][1],new_problems[j][1])
+        similar_case = ""
+        if new_problems[j][0] in new_problems[i][2] or new_problems[i][0] in new_problems[j][2]:
+            similar_case = " 相同"
+        elif  new_problems[j][0] in new_problems[i][3] or new_problems[i][0] in new_problems[j][3]:
+            similar_case = " 关联"
+        if similar_rate>threshold or similar_case != "":
+            count += 1
+            remarked += 1 if similar_case != "" else 0
+            alike_problems += (("%.4f" %similar_rate)+similar_case+"\n\n"+new_problems[i][0]+"\t"+new_problems[i][1]+"\n\n"+new_problems[j][0]+"\t"+new_problems[j][1]+"\n\n")
 
+end_time = time.time()
 
+print("总耗时:",end_time-start_time,"秒.")
+print("发现相似: ",count,", 其中已标注: ",remarked,".")
 
 with open("../题库0.2/相似题目.txt","w",encoding="utf8") as f:
     f.write(alike_problems)
