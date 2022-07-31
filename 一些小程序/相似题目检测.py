@@ -1,9 +1,17 @@
-import os,re,difflib
+import os,re,difflib,Levenshtein
 
 def get_equal_rate_1(str1, str2):
     str1 = re.sub(r"[\s\\\{\}\$\(\)\[\]]","",str1)
     str2 = re.sub(r"[\s\\\{\}\$\(\)\[\]]","",str2)
     return difflib.SequenceMatcher(None, str1.replace("\t","").replace(" ","").replace("\n",""), str2.replace("\t","").replace(" ","").replace("\n","")).ratio()
+def jaro_get_equal_rate(str1,str2):
+    str1 = re.sub(r"[\s\\\{\}\$\(\)\[\]]","",str1)
+    str2 = re.sub(r"[\s\\\{\}\$\(\)\[\]]","",str2)
+    return Levenshtein.jaro(str1.replace("\t","").replace(" ","").replace("\n",""), str2.replace("\t","").replace(" ","").replace("\n",""))
+def Lev_get_equal_rate(str1,str2):
+    str1 = re.sub(r"[\s\\\{\}\$\(\)\[\]]","",str1)
+    str2 = re.sub(r"[\s\\\{\}\$\(\)\[\]]","",str2)
+    return Levenshtein.ratio(str1.replace("\t","").replace(" ","").replace("\n",""), str2.replace("\t","").replace(" ","").replace("\n",""))
 def trim(string):
     while string[0] in (" ","\t","\n"):
         string = string[1:]

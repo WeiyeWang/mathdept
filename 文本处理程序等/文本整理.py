@@ -145,7 +145,10 @@ def del_first_char(matchobj):
     return matchobj.group(1)[1:]
 def add_underline(matchobj):
     return matchobj.group(1)[0] + "_" + matchobj.group(1)[-1]
-
+def brackets_to_cwords(matchobj):
+    return "左括号"+matchobj.group(1)+"右括号"
+def cwords_to_brackets(matchobj):
+    return "("+matchobj.group(1)+")"
 
 try:
     os.chdir(r"D:\mathdept\mathdept\文本处理程序等")
@@ -230,13 +233,14 @@ data = re.sub("〈",r"\\langle ",data)
 data = re.sub("〉",r"\\rangle ",data)
 data = re.sub("…",r"\\cdots",data)
 data = re.sub("Ｐ",r"\\mathrm{P}^",data)
+data = re.sub("",r"\\supseteq",data)
 
 #修改一些常用的错误latex命令
 data = re.sub("centerdot","cdot",data)
 data = re.sub("cancel","not",data)
 
-whole_numbers = "０１２３４５６７８９＋－＝狆狇狉犕犖＞＜犃犅犆犇狓犝［］｜犪狔犙犽犘犚犫犛犮犈犗犿犣狀犳犵犺狋犻犼狕犉犾′犱狊犌犡犢"
-correct_numbers = "0123456789+-=pqrMN><ABCDxU[]|ayQkPRbScEOmZnfghtijzFl'dsGXY"
+whole_numbers = "０１２３４５６７８９＋－＝狆狇狉犕犖＞＜犃犅犆犇狓犝［］｜犪狔犙犽犘犚犫犛犮犈犗犿犣狀犳犵犺狋犻犼狕犉犾′犱狊犌犡犢狘"
+correct_numbers = "0123456789+-=pqrMN><ABCDxU[]|ayQkPRbScEOmZnfghtijzFl'dsGXY|"
 
 
 
@@ -273,10 +277,12 @@ data1 = data #替换后暂存data1
 
 
 #针对从教材里扒下来的文字
+data = re.sub(r"\((\d{1,2})\)",brackets_to_cwords,data)
 data = re.sub(r"([A-Z][0-9])",add_underline,data)
 data = re.sub(r"([\u4e00-\u9fa5、 \)][0-9a-zA-Z_\^\\\{\}|=><\s\n'\(\)\-\+:±]{2,}[\u4e00-\u9fa5、\,\.;\( ])",add_dollars,data)
 data = re.sub(r"([\u4e00-\u9fa5、\)][0-9a-zA-Z_\^\\\{\}|=><\s\n'\(\)\-\+:±]{2,}[\u4e00-\u9fa5、\,\.;\( ])",add_dollars,data)
 data = re.sub(r"([\u4e00-\u9fa5、 \)][0-9a-zA-Z]{1}[\u4e00-\u9fa5、\,\.;\( ])",add_dollars,data)
+data = re.sub(r"左括号\$(\d{1,2})\$右括号",cwords_to_brackets,data)
 data = re.sub(r"\$\,[\s]*\$",", ",data)
 data = re.sub(r"(\n[^(\\])",del_first_char,data)
 
@@ -416,6 +422,7 @@ modified_data = re.sub(r"[ ]+\n","\n",modified_data)
 modified_data = re.sub(r"\$[\s]*?\\parallel[\s]*?\$",r"\\parallel",modified_data)
 modified_data = re.sub(r"\n例\s*?\d{1,3}\s*",r"\n\\item ",modified_data)
 modified_data = re.sub(r"ABCDA_1B_1C_1D_1",r"$ABCD-A_1B_1C_1D_1$",modified_data)
+modified_data = re.sub(r"(\$[\,\.:;]\$)",refine_brackets,modified_data)
 
 with open("outputfile.txt","w",encoding = "utf8") as f:
     f.write(modified_data)
