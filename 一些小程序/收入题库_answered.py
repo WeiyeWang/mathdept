@@ -8,7 +8,7 @@ def crop_text(string,substr1,substr2):
     end_pos = string.index(substr2)+len(substr2)
     return string[start_pos:end_pos]
 #文件名须修改
-with open(r"题库0.1\上海2020教材课堂练习选择性必修第二册.tex","r",encoding = "utf8") as f:
+with open(r"题库0.1\2023届高三前暑假概率初步续试卷.tex","r",encoding = "utf8") as f:
     data = f.read()
 with open(r"题库0.2\模板.txt","r",encoding = "utf8") as f1:
     template = f1.read()
@@ -29,11 +29,11 @@ for p_raw in problems_raw:
         problems.append(trim(split_p[0][0]))
         answers.append(trim(split_p[0][1]))
 #以上已经生成了题目列表，以下出处、使用记录、修订历史等须设定
-origin = "新教材选择性必修第二册课堂练习"
+origin = "2023届高三前暑假概率初步续单元测验"
 usage = ""
-editor = "20220730\t王伟叶"
+editor = "20220801\t王伟叶"
 # 重要！！！初始ID
-starting_ID = 9905
+starting_ID = 10005
 
 head_str = crop_text(template,"[B题目]","<BID>\n")
 body_str_1 = crop_text(template,"\n<EID>","<B题目>\n")

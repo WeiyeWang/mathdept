@@ -1,27 +1,506 @@
-观察下列各组集合：
-（１）犃＝｛－１，１｝，犅＝｛－１，０，１，２｝；
-（２）犃＝犖，犅＝犚；
-（３）犃＝｛狓狘狓为正方形｝，犅＝｛狓狘狓为四边形｝．
-● 集合犃与犅之间具有怎样的关系？
-● 如何用数学语言来表述这种关系？
-观察（１），可以发现，集合犃中的每个元素都是集合犅的元素．
-观察（２）（３），它们也有同样的特征．
-这时称犃是犅的子集．一般地，
-如果集合犃的任意一个元素都是集合犅的元素（若犪∈犃，
-则犪∈犅），那么集合犃称为集合犅的子集（ｓｕｂｓｅｔ），记为犃犅
-或犅犃，读作“集合犃包含于集合犅”或“集合犅包含集合犃”．
-图１ ２ １
-例如，｛１，２，３｝犖，犖犚，｛狓狘狓为正方形｝｛狓狘狓为四
-边形｝等．
-犃犅可以用Ｖｅｎｎ图来表示（图１ ２ １）．
-根据子集的定义，我们知道犃犃．也就是说，任何一个集合是它
-本身的子集．
-对于空集，我们规定犃，即空集是任何集合的子集．
-例１ 判断下列各组集合中，犃是否为犅的子集．
-（１）犃＝｛０，１｝，犅＝｛－１，０，１，－２｝；
-（２）犃＝｛０，１｝，犅＝｛狓狘狓＝２犽，犽∈犖｝．
-解 （１）因为０∈犅，１∈犅，即犃中的每一个元素都是犅的元素，
-所以犃是犅的子集．
-（２）因为１∈犃，但１犅，所以犃不是犅的子集．
-思 考
-犃犅与犅犃能否同时成立？
+1. 判断下列各组对象能否组成集合，若能组成集合，指出是有限集还是无限集.
+(1) 上海市控江中学2022年入学的全体高一年级新生；          
+(2) 中国现有各省的名称；
+(3) 太阳、2、上海市．
+(4) 大于10且小于15的有理数；
+(5) 末位是3的自然数；
+(6) 影响力比较大的中国数学家；
+(7) 方程\[{{x}^{2}}+x+3=0\]的所有实数解；             
+(8) 函数y=\frac{1}{x}图像上所有的点；    
+(9) 在平面直角坐标系中，到定点(0,0)的距离等于1的所有点；
+(10) 不等式\[3x-10<0\]的所有正整数解；
+(11) 所有的平面四边形；
+2.用“\[\in \]”或“ \[\notin \]”填空：
+(1) -3_____ \\mathbf{mathbf}{\mathbf{N}}；                (2)  3.14______\\mathbf{mathbf}{\mathbf{Q}}；  
+(3) 5________\\mathbf{mathbf}{\mathbf{Z}} ；                (4)  \frac{1}{2}__________\\mathbf{mathbf}{\mathbf{N}} ； 
+(5) -2_____\\mathbf{mathbf}{\mathbf{Q}}  ；                (6)  \pi_______\\mathbf{mathbf}{\mathbf{R}}；        
+
+(7) 0.\dot{1}\dot{3}_____\\mathbf{mathbf}{\mathbf{Q}} ;                 (8) \frac{1}{\sqrt2-1}-\sqrt2______\\mathbf{mathbf}{\mathbf{Z}}；        
+(9) \frac{\pi}{2}_______\\mathbf{mathbf}{\mathbf{Q}}；                  (10) \frac{1}{1-\frac{1}{1-\frac{1}{2}}}______\\mathbf{mathbf}{\mathbf{N}} ;                 
+(11) 0______\emptyset                   (12) 0______\\mathbf{mathbf}{\mathbf{N}}.
+
+1. 对于一个确定的实数x，由x,-x,|x|,-\sqrt{x^2}中的一个值或几个值组成的所有集合中，元素的个数最多有多少个？
+
+
+
+
+
+
+
+
+2. 已知关于x的方程\sqrt{x^2+4x+a}=x+2，若以该方程的所有解为元素组成的集合是无限集，求实数a满足的条件．
+ 
+
+
+
+
+
+
+1.1.2集合的表示方法
+(A组)
+1.用列举法表示下列集合：
+(1) 12以内的素数组成的集合；             (2) 绝对值小于3的所有整数的集合；
+
+(3) \left\{x|\frac{6}{3-x}\in\mathbf{N},x\in\mathbf{Z}\right\}；                    (4) \[\left\{ y\left| y={{x}^{2}}-1\left. , \right|\left. x \right| \right.\le 2,x\in \mathbf{Z} \right\}\]；
+
+(5) \[\left\{ \left( x,y \right)\left| y \right.={{x}^{2}}-1\left. , \right|\left. x \right|\le 2,x\in \mathbf{Z} \right\}\]；       (6) \[\left\{ \left( x,y \right)\left| x \right.+y=5,x\in \mathbf{N},y\in \mathbf{N} \right\}\].
+
+2. 用描述法表示下列集合：
+(1) 所有奇数组成的集合；                
+(2) 被3除余数等于2的正整数的集合；
+(3) 不小于10的实数组成的集合；
+(4) 绝对值大于4的所有整数组成的集合；
+(5) 平面直角坐标系内\[y\]轴上的点的坐标组成的集合；
+(6) 在直线$y=2x+1$上所有的点的坐标组成的集合.
+3.用区间表示下列集合：
+(1) {x|-2<x<7}；                   (2) {x|-2\le\ x\le7}；
+(3) {x|-2\le\ x<7}；                   (4) 不等式2x<5的解集；
+(5) 不等式-x<5的解集；               (6) 非负实数集.
+4. 用适当的方法表示下列集合：
+(1) 能整除10的所有正整数组成的集合；
+(2) 能被整除10的所有正整数组成的集合；
+(3) 方程x^2+2=0的实数解组成的集合；
+(4) 方程组2x+y=0,x-y+3=0的所有解组成的集合；
+(5) 两直线\[y=2x+1\]和\[y=x-2\]的交点组成的集合.
+5.不定项选择题.
+(1) 下面写法正确的是									(    )
+(A) \ \emptyset\in\left\{a\right\}           (B) \left(0,1\right)\in\left\{0,1\right\}     (C) 1\in\left\{\left(0,1\right)\right\}  
+(D) \left(0,1\right)\in\left\{\left(0,1\right)\right\}\ \ \     (E) {0}\in\left\{0,1\right\}       (F) {0}\notin\left\{0,1\right\} 
+(2) 集合\left\{\left(x,y\right)\left|xy\geq0\right.,x\in\mathbf{R},y\in\mathbf{R}\right\}是指				(    )
+(A) 第一象限内的所有点；           (B) 第三象限内的所有点；
+(C) 第一象限和第三象限内的所有点； (D) 不在第二象限、第四象限内的所有点． 
+6. 若集合$M=\{0,2,3,7\}$, $P=\{x|x=ab, \ a,b\in M, \ a\ne b\}$. 用列举法写出集合$P$.
+
+
+7. 已知集合A={2,a^2,a}, 且1\in\ A, 求实数 的值.
+
+
+ (B组)
+1. 单选题：设集合M={a\left|a\right.=x^2-y^2,x、y\in\\mathbf{mathbf}{\mathbf{Z}}}，下列数中不属于M的为   (    )
+A．3        B．6        C．9         D．12
+2. 已知集合\[A=\{x|x=a+\sqrt{2}b,ab\in Z\}\]，若\[{{x}_{1}}{{x}_{2}}\in A\]，证明：\[{{x}_{1}}{{x}_{2}}\in A\]．
+
+
+
+3. 已知集合$A=\{x|\left( k+1 \right){{x}^{2}}+x-k=0\}$中只有一个元素，求实数$k$的值.
+
+
+
+
+
+
+
+
+
+
+
+1.1.3集合之间的关系-1
+(A组)
+1. 用符号“\subset”“$={}$”或“\supset”填空：
+(1) \left\{a\right\}______\left\{a,b,c\right\}；
+(2) \left\{a,b,c\right\}______{a,c}；
+(3) \left\{1,2\right\}______\left\{x\left|x^2-3x+2=0\right.\right\}.
+(4) A=\left\{x\left|x^2-2x+1=0\right.\right\}______B=\left\{x\left|x^2+2x-3=0\right.\right\}；
+(5) A=\left\{1,2\right\}______B={x|x是2的正约数}；
+(6) A=\left\{\left(x,y\right)\left|\mathrm{\vthicksp}xy>0\right.\right\}______B=\left\{\left(x,y\right)\left|x>0,y>0\right.\right\}.
+2. (1) 集合$\{1,2,3\}$的子集共有____________个.
+(2) 已知集合$A=\{12\}$, 集合$B=\{1\ 2\ 3\ 4\ 5\}$.若集合$M$满足$A\subset M$且$M\subseteq B$, 则这样的集合$M$有________________________________________________________________.
+(3) 已知满足\left\{a,b\right\}\subset\ M\subset{a,b,c,d,e}的集合$M$有_________个. 
+3.不定项选择题.
+(1)下列写法正确的是 (    )
+(A) \emptyset\subset\left\{0\right\}		(B) \emptyset=\emptyset     (C) \emptyset\in\left\{0\right\}		(D) 0\in\emptyset.
+(2)下列各题中的$M$与$P$表示同一个集合的是 (    )
+(A) M=\left\{\left(1,-3\right)\right\},P=\left\{\left(-3,1\right)\right\}       (B) M=\left\{1,-3\right\},P=\left\{-3,1\right\} 
+(C) M=\emptyset,P=\left\{\emptyset\right\}       
+(D) M=\left\{y\left|y=x^2+1,x\in\mathbf{R}\right.\right\},P=\left\{\left(x,y\right)\left|y=x^2+1,x\in\mathbf{R}\right.\right\}
+(E) M=\left\{y\left|y=x^2+1,x\in\mathbf{R}\right.\right\},P=\left\{t\left|t=y^2+1,y\in\mathbf{R}\right.\right\}
+(F) M=\left\{y\left|y=x^2+1,x\in\mathbf{R}\right.\right\},P=\left\{x\left|y=\sqrt{x-1},x\in\mathbf{R}\right.\right\}
+(3)下列说法正确的是 (    )
+(A) 若a\in\ A且A\subseteq\ B，则a\in\ B
+(B) 若A\subseteq\ B且A\subseteq\ C，则B=C
+(C) 若A\subset\ B且B\subseteq\ C，则A\subset\ C
+4. 设常数x,y\in\\mathbf{mathbf}{\mathbf{R}}，已知集合A=\left\{x,y\right\}, B=\left\{2x,x^2\right\}, 且A=B, 求集合A．
+
+
+
+5. (1) 证明：集合$A=\{1,2,3\}$是集合$B=\{0,1,2,3,4,5,6\}$的子集．
+
+
+(2) 判断集合$A=\{n|n=2k-1,k\in \mathbf{Z}\}$，$B=\{n|n=2m+1,m\in \mathbf{Z}\}$的关系，并说明理由；
+
+
+
+
+(3) 证明集合$A=\{n|n=2k-1,k\in \mathbf{N}\}$不是集合$B=\{n|n=2m+1,m\in \mathbf{N}\}$的子集，且集合A真包含集合B；
+
+
+
+
+(B组)
+1. 已知集B={0,2,4}，C={0,2,6}，若集合A满足A⊆B，A⊆C，写出所有满足条件的集合A ．
+
+
+2.已知集合A=\left\{1\right\}, B=\left\{\left.\ x\right|x\subseteq A\right\}, 用列举法表示集合B．并指出A与B的关系．
+
+
+ 
+
+
+
+
+
+
+1.1.3集合之间的关系-2
+(A组)
+1. 若集合$A=\{2,a,a+3\}$, $B=\{2,3,5,8\}$, 且$B\supset A$, 则$a$的值为__________.
+2. 设常数$a\in \mathbf{R}$．若集合\[A=(-\infty ,5)\]与\[B=(-\infty ,a]\]满足\[A\subseteq B\], 则\[a\]的取值范围是_____________.
+证明：1^\mathrm{o} 当a______时，任取x\in\ A，则____________________，所以x\in\ B，即A\subseteq\ B；
+2^\mathrm{o} 当a______时，取x_1=__________，则____________________，所以x_1\in\ A且x1∉B，
+由1^o、2^o可得结论．
+3. 设常数p\in\\mathbf{mathbf}{\mathbf{R}}，已知A=xx<-1或x>2, B=\left\{\left.\ x\right|4x+p=0\right\}，若B\subset A，则p的取值范围是_____________.
+4. (1) 已知集合A=\left\{1\right\}, 集合B=\left\{x\left|x^2-2x+a=0\right.\right\}, 且A\subset\ B, 求实数\[a\]的取值范围.
+
+
+(2) 已知集合S=\left\{1,2\right\}, 集合T=\left\{x\left|ax^2-3x+2=0\right.\right\}, 且S=T, 求实数\[a\]的取值范围.
+
+
+
+(3) 已知集合S=\left\{1,2\right\}, 集合T=\left\{x\left|ax^2-3x+2=0\right.\right\}, 且S\supseteq\ T, 求实数\[a\]的取值范围.
+
+
+
+
+
+5. 证明：集合A=\left\{x\left|x=6n-1,n\in\mathbf{Z}\right.\right\}是B=\left\{x\left|x=3n+2,n\in\mathbf{Z}\right.\right\}的真子集．
+
+
+
+
+6. 设常数$a\in \mathbf{R}$，已知集合A={x|x^2-1=0}, 集合B={x|(x-1)(x-a)=0}．
+(1) 若B\subset\ A，求a值的集合；(2) 若B不是A的子集, 求$a$值的集合．
+
+
+
+
+
+
+(B组)
+1.(1) 已知集合$A\text{=}\{x|0<x<a\}$，$B\text{=}\{x|1<x<2\}$，若$B\subseteq A$，则实数a的取值范围_____________.
+(2) 已知集合\[A=[-2,5]\], \[B=[m+1,2m-1]\],满足\[B\subseteq A\],则实数\[m\]的取值范围是_____________.
+(3) 已知非空集合P满足：①\[P\subseteq \left\{ 1,2,3,4,5 \right\}\]；②若\[a\in P\], 则\[6-a\in P\], 符合上述要求的集合P的个数是________ .
+2. 已知集合A=\left\{1,1+d,1+3d\right\}, 集合B=\left\{1,q,q^2\right\}, 其中d、q\in\\mathbf{mathbf}{\mathbf{R}}, 且d\neq0. 若A=B, 求q的值.
+
+
+
+
+3. 已知$A\text{=}\{x|x\text{=}a+\sqrt{2}b,$$ab\in \text{N}\}$，若集合$B\text{=}\{x|x=\sqrt{2}{{x}_{1}},\ \ {{x}_{1}}\in A\}$，证明$B\subset A$．
+
+
+
+
+
+ 
+
+
+
+
+
+
+1.1.4集合的运算-1
+(A组)
+1. 已知A={1,2,3,4},B={3,4,5,6}求：
+(1) A\cap\ B=___________； (2) A\cup\ B=_____________；
+(3) A\cap\emptyset=____________；(4) A\cup\emptyset=_____________．
+2. 已知任一集合A，则
+(1) A\cap\ A\mathrm{\mathrm{=}}____；      (2) A\cap\emptyset\mathrm{\mathrm{=}}____；
+(3) A\cup\ A\mathrm{\mathrm{=}}____；      (4) A\cup\emptyset\mathrm{\mathrm{=}}____．
+3. (1) 已知A={x|x^2-4=0},B={x|x^2+2x-8=0}，则A\cap\ B=___________，
+A\cup\ B=___________．
+(2) 已知A={y|y=x^2-4,x\in\\mathbf{mathbf}{\mathbf{R}}},B={y|y=x^2+2x-8,x\in\\mathbf{mathbf}{\mathbf{R}}}，则A\cap\ B=_______，A\cup\ B=___________．
+(3) 已知A={(x,y)|y=x^2-4,x\in\\mathbf{mathbf}{\mathbf{R}}},B={(x,y)|y=x^2+x-6,x\in\\mathbf{mathbf}{\mathbf{R}}}，则
+A\cap\ B =____________________，A\cup\ B =__________________．
+(4) 已知A={x|存在y∈R,使得y=x+1}，B={x|存在y∈R,使得y=x}, 则A\cap\ B= __________.
+5.已知A=\left\{x\left|x\le6\right.\right\}, B=\left\{x\left|x<1\right.\right\}, C=\left\{x\left|x>5\right.\right\}, 则A\cap\ B=_______________， 
+B\cap\ C=______________, A\cap\left(B\cap C\right)=_______________，\left(A\cap B\right)\cap\ C=______________，
+A\cap\left(B\cup C\right)=_______________________，(A\cap\ B)\cup(A\cap\ C)=_______________________，
+A\cup\left(B\cap C\right)=_______________________，(A\cup\ B)\cap(A\cup\ C)=_______________________．
+6. 用“$\subset $”、“ \[\subseteq \]”或“$={}$”填空.$A\bigcap B$____$A$, $A\bigcap B$____$B\bigcap A$， $\varnothing $____$B\bigcap A$.
+7.已知集合\[A=\left\{ x\left| x\le 1 \right. \right\}\], 集合 \[B=\left\{ x\left| x\ge a \right. \right\}\], 且\[A\bigcup B=R\], 则\[a\]的取值范围为_____.
+8. 设常数a\in\\mathbf{mathbf}{\mathbf{R}}．已知集合A=\left\{x|x^2-3x+2=0,x\in\mathbf{R}\right\}, 集合
+B=\left\{x|2x^2-x+2a=0,x\in\mathbf{R}\right\}．(1) 若A\cup\ B=B, 求$a$的值的集合．
+
+(2) 若A\cap\ B=B, 求a的值的集合．
+
+
+
+(B组)
+1. 已知集合A=(-\infty,-1)\cup(6,+\infty), 集合B=(5-a,5+a). 若11\in\ B, 则A\cup\ B=______.
+2. 已知集合P=\left\{\left.\ x\right|-2\le x\le5\right\}, Q=xx>k+1且x<2k-1, 若P\cap\ Q=\emptyset，求实数k的取值范围.
+
+
+
+3. 已知集合A={\left(x,y\right)|x+y=0}, 集合B=\left\{\left(x,y\right)|y=x-2\right\}, 集合C=\left\{\left(x,y\right)|y=x+b\right\}. 若\left(A\cup C\right)\cap\left(B\cup C\right)=C, 求实数$b$.
+
+
+
+
+
+
+
+
+
+1.1.4集合的运算-2
+(A组)
+1．设常数$m\in \mathbf{R}$．若集合$A=\{1,2,3\}$,集合$B=\{{{m}^{2}},3\}$, 且$A\bigcup B=\{1,2,3,m\}$, 则$m$的值是_________． 
+2．设常数$a\in \mathbf{R}$．已知集合\[A=\left\{ x\left| x\le 1 \right. \right\}\], 集合\[B=\left\{ x\left| x>a \right. \right\}\], 且\[A\bigcap B=\varnothing \], 则\[a\]的取值范围为__________．
+3．（1）设全集$U=\{x|x9\}$，$A=\{1,2,3\}$，$B=\{3,4,5,6\}$，则
+\overline{A}=________________；\overline{B}=_______________；\overline{A}\cap\overline{B}=______________；
+\overline{A}\cup\overline{B}=______________；\overline{A\cup B}=__________________；\overline{A\cap B}=___________________．
+(2) 已知A={x|x<2}, ① 若U=\\mathbf{mathbf}{\mathbf{R}}，则\overline{A}=____________；
+② 若U={x|x\geq0}，则\overline{A}=____________．③ 若U=\\mathbf{mathbf}{\mathbf{N}}，则\overline{A}=____________．
+(3)已知全集U=\\mathbf{mathbf}{\mathbf{R}}，$A=\{x|-1<x<2\}$，则\overline{A}=____________； \overline{\overline{A}}=____________；                    \overline{A}\cap\ U=____________；\overline{A}\cup\ U=____________；\overline{A}\cap\ A=____________；\overline{A}\cup\ A=____________．
+(4) 已知集合U=\left\{x\left|x\geq2\right.\right\}, 集合A=\left\{y\left|3\le y<4\right.\right\}, 集合B=\left\{z\left|2\le z<5\right.\right\}, 则
+\overline{A}\cap\ B=____________；\overline{B}\cup\ A=_____________．
+(5) 设全集U=\\mathbf{mathbf}{\mathbf{N}}，A=xx为正奇数，B={x|x是5的倍数}，则B\cap\overline{A}=_______________
+4.(1) 设常数$ab\in \mathbf{R}$，已知全集U=\left\{2,4,b\right\}，B=\left\{a+1,2\right\}． 若\overline{B}=\left\{7\right\}, 则a=___________；
+(2) 设常数$a\in \mathbf{R}$，已知全集$U=\mathbf{R}$, 集合A=\left\{x|-2<x<2\right\}, 集合B=\left\{x|x>a\right\}． 若A\cap\overline{B}=A, 则a的取值范围为_________．
+(3) 设常数$a\in \mathbf{R}$，全集$U=\mathbf{R}$．集合$A=\left\{ x\left| x<2 \right. \right\}$，$B=\left\{ x\left| x>a \right. \right\}$．若\overline{A}\subseteq\ B，则a的取值范围为_________．
+5. 用集合\[A\]、\[B\]的运算式表示图中的阴影部分：
+(1)   (2)    (3)
+6.不定项选择题：设全集为U，且M\subseteq\ N, 则					(        )
+(A) M\cup\ N=N   (B) M\cup\ N=M    (C) \overline{N}\subseteq\overline{M}    (D) \overline{M}\subseteq\overline{N}
+(E) \overline{M}\cup\overline{N}=U   (F) M\cap\overline{N}=\emptyset     (G)\ \overline{M}\cap\ N=\emptyset
+(B组)
+1．已知全集U=A\cup\ B={x|0\le\ x\le10,\ x\in\\mathbf{mathbf}{\mathbf{N}}}，A\cap\bar{B}={1,3,5,7}．则集合B=_________．
+2. 若全集U=\left\{\left(x,y\right)|x\in\mathbf{R},y\in\mathbf{R}\right\}, 集合A=\left\{\left(x,y\right)|\frac{y}{x}=1\right\}, 集合B=\left\{\left(x,y\right)|y\neq x\right\}, 则\overline{A\cup B}= _______．
+3. 如图，已知集合$U$为全集，分别用集合A、B、C的运算式表示下列图中的阴影部分．
+
+
+
+
+
+
+
+
+
+1.2常用逻辑用语
+1.2.1命题
+(A组)
+1． 判断下列语句是否为命题, 并在相应的括号内填入“是”或“否”．
+(1) 正方形和四边形．		 (    )          (2)  正方形是四边形吗？	(    )
+(3) \pi>3                 (    )             (4)  正方形好美！．	    (    )
+(5) 2x>4                (    )             (6)  968能被11整除．  	(    )
+2． 判断下列命题的真假, 并在相应的括号内填入“真”或“假”．
+(1) 2\sqrt3>3\sqrt2或1\le1；     (    )              
+(2) 2\sqrt3>3\sqrt2且1\le1；     (    )
+(3) 如果$a$、$b$都是奇数, 那么$ab$也是奇数. 			(    )
+(4) {1}是{0,1,2}的真子集.   (    ) 
+(5) 1是{0,1,2}的真子集.     (    )
+(6) 若\[x<-2\]或\[x>2\], 则$x^2>1$.  					(    )
+(7) 如果\[\left| a \right|<2\], 那么\[a<2\].						(    )
+(8) 对任意实数\[a,b\]，方程\[\left( a+1 \right)x+b=0\]的解为\[x=-\frac{b}{a+1}\].	 (    )
+(9) 若命题\[\alpha \]、\[\beta \]、\[\gamma \]满足\[\alpha \Rightarrow \beta \], \[\beta \Rightarrow \gamma \], \[\gamma \Rightarrow \alpha \], 则\[\alpha \Leftrightarrow \gamma \].	 (    )
+(10)若关于\[x\]的方程$a{{x}^{2}}+bx+c=0\left( a\ne 0 \right)$的两实数根之积是正数, 则$ac>0$. 	(    )
+(11) 若某个整数不是偶数, 则这个数不能被4整除. 		(    )
+(12) 合数一定是偶数.  								(    )
+(13) 所有的偶数都是素数或合数.     (    )
+(14) 所有的偶数都是素数或所有的偶数都是合数.        (    )
+(15) 如果$A\subset B,B\supset C$, 那么$A=C$.  					(    )
+(16) 空集是任何集合的真子集. 							(    )
+(17) 若\[x\in \mathbf{R}\], 则方程\[{{x}^{2}}-x+1=0\]不成立.   			(    )
+(18) 若\[A\bigcap B\ne \varnothing \], \[B\subset C\], 则\[A\bigcap C\ne \varnothing \].				(    )
+(19) 存在一个三角形，它的任意两边的平方和小于第三边的平方；     (    )
+(20) 任意一个三角形，存在一组两边的平方和不等于第三边的平方；    (    )
+3. 在下列各题中, 用符号“$\Rightarrow \Leftarrow \Leftrightarrow $”把$\alpha $和$\beta $联系起来：
+(1) \alpha:a=0,\mathrm{\vthicksp}\beta:ab=0． $\alpha \_\_\_\_\beta $						
+(2) \alpha:x^2=4，\beta:x=2．． $\alpha \_\_\_\_\beta $
+(3) \alpha：实数$x$适合x^2-5x+6=0,\mathrm{\vthicksp}\beta:x=2． $\alpha \_\_\_\_\beta $    
+(4) \alpha:\sqrt{x^2}=x,\mathrm{\vthicksp}\beta:x>0． $\alpha \_\_\_\_\beta $
+(5) \alpha：实数$x$适合\frac{x-3}{x+1}=-1, \beta:x=1.  $\alpha \_\_\_\_\beta $
+(6) \alpha:k除以4余1, \beta:k除以2余1． $\alpha \_\_\_\_\beta $
+(7) \alpha：\left\{2\right\}\subset\ B\subseteq\left\{2,3,5\right\}, \beta:B=\left\{2,5\right\}.     $\alpha \_\_\_\_\beta $ 
+(B组)
+1．已知命题“非空集合\[M\]的元素都是集合\[P\]的元素”是假命题, 给出下列命题：①\[M\]中的元素都不是\[P\]的元素；②\[M\]中有不属于\[P\]的元素；③\[M\]中有\[P\]的元素；④\[M\]中的元素不都是\[P\]的元素.其中真命题是__________
+2．已知\alpha：2\le\ x<4, \beta：3m-1\le\ x\le-m, 且\alpha\Rightarrow\beta ,求实数m的取值范围.
+
+
+
+3．已知$a$是常数，命题\[\alpha :-1<a<3\]，\[\beta :\]关于\[x\]的方程\[x+a=0(x\in R\text{)}\]没有正根，若命题\[\alpha \beta \]有且只有一个是真命题，求实数\[a\]的取值范围．
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.2.2充分条件与必要条件
+(A组)
+1. 下列各题中\[P\]是\[Q\]的什么条件？(充分非必要、必要非充分、充要、既非充分又非必要)
+(1) \[P\]：\[x\]是2的倍数  	\[Q\]：\[x\]是6的倍数.
+(2) \[P\]：\[x\]不是2的倍数   \[Q\]：\[x\]不是6的倍数.
+(3) \[P\]：$x\in A$或$x\in B$  	\[Q\]：$x\in A\bigcap B$.
+(4) P：f(x)=ax^2+bx+c的图像过原点.\ Q：c=0.
+2. (填写“充分非必要、必要非充分、充要、既非充分又非必要”之一)
+若$x,y,z{}$都是实数, 则
+(1) “\[xy=0\]”是“\[x=0\]”的__________条件.
+(2) “\[x\cdot y=y\cdot z\]”是“\[x=z\]”的__________条件.
+(3) “\[\frac{x}{y}=\frac{y}{z}\]”是“\[xz={{y}^{2}}\]”的__________条件.
+(4) “\[\left| x \right|>\left| y \right|\]”是“\[x>y>0\]”的__________条件.
+(5) “${{x}^{2}}>4$”是“$x>2$” 的__________条件.
+(6) “$x=-3$”是“${{x}^{2}}+x-6=0$” 的__________条件.
+(7) “$|x+y|<2$”是“$|x|<1$且$|y|<1$” 的__________条件.
+(8) “$|x|<3$”是“${{x}^{2}}<9$” 的__________条件.
+(9) “${{x}^{2}}+{{y}^{2}}>0$”是“$x\ne 0$” 的__________条件.
+(10) “\[\frac{{{x}^{2}}+x+1}{3x+2}<0\]”是“\[3x+2<0\]” 的__________条件.
+(11) “$0<x<3$”是“\[|x-1|<2\]” 的__________条件.
+3. 如果\[A\]是\[B\]的必要条件, \[C\]是\[B\]的充分条件, \[A\]是\[C\]的充分条件, 那么\[B\]、\[C\]分别是\[A\]的__________和__________条件.
+4.写出使得“$x>3$”成立的一个充分条件:__________和一个必要条件：_________.
+5. 一次函数$y=kx+b$的图像经过第二、三、四象限的充要条件是__________.
+6. 关于\[x\]的方程ax^2=0至少有一个实数根的充要条件是____________.
+7.单选题
+（1）已知$xy\in \mathbf{R}$, “${{x}^{2}}+{{y}^{2}}>0$”是“$x\ne 0$或$y\ne 0$”的(     )
+(A) 充分而不必要条件			(B) 必要而不充分条件
+(C) 充要条件					(D) 既不充分又不必要条件 
+（2）三个数$a$、$b$、$c$不全为零的充要条件是			(     )
+(A) $abc$都不是零			(B) $abc$中最多一个零
+(C) $abc$中只有一个是零	(D)$abc$中至少有一个不是零
+9.证明: $x_1>2$且$x_2>2$是$x_1+x_2>4$且$x_1\cdot x_2>4$的充分非必要条件.
+
+
+(B组)
+1. 单选题
+有限集合$S$中元素的个数记作$\mathrm{card}(S)$, 设$A,B{}$都是有限集合, 给出下列命题：
+①\[A\bigcap B=\varnothing \]的充要条件是\[\mathrm{card}\]\[\mathrm{card}\]；
+②\[A\subseteq B\]的必要不充分条件是\[\mathrm{card}\]；
+③\[A\]不是$B$的子集的充分不必要条件是\[\text{card}\left( A \right)>\text{card}\left( B \right)\]；
+④\[A=B\]的充要条件是\[\mathrm{card}\].
+其中真命题的个数是									(     )
+(A) 0           	(B) 1          	(C) 2          	(D) 3
+2.设$\alpha,\beta$是方程$x^2-ax+b=0$的两个实数根. 试分析$a>2$且$b>1$是“两个实数根$\alpha,\beta$均大于$1$”的什么条件? 并证明你的结论.
+
+
+
+3．设$x,y\in \mathbf{R}$, 求证: $|x+y|=|x|+|y|$成立的充要条件是$xy\ge 0$.
+
+
+
+
+
+
+
+
+
+
+
+1.2.3反证法-1
+(A组)
+1、已知下列字母均为常实数，写出下列命题的否定形式；
+（1）$x>0$；______________________________
+（2）1>x>0；_______________________________
+（3）$x>0$且$y\le 1$；_______________________________
+（4）$x>0$或$x\le -2$；__________________________
+（5）x\neq\ y或y\neq\ z；__________________________
+（6）$a,b,c,d$中至多有2个0； ___________________________________
+（7）$a,b,c,d$中至少有2个1；___________________________________ 
+（8）$a,b,c,d$都大于1；___________________________________ 
+（9）$a,b,c,d$不都大于1； ___________________________________ 
+（10）$a,b,c,d$都不大于1；___________________________________ 
+2. 在横线上写出下列命题的否定形式,并判断命题真假，在相应的括号中填入“真”或“假”.
+（1）$\pi $是无理数；（      ）_______________________________（      ）
+（2）$2+1=4$；（      ）_______________________________（      ）
+（3）任何实数是正数或负数; （      ）___________________________________ （      ）
+（4）任何实数是正数或任何实数是负数; （      ）___________________________（      ）
+（5）对一切实数x，x^3+1=0；（      ）___________________________________ （      ）
+（6）存在实数$x$，x^3+1=0；（      ）___________________________________ （      ）
+（7）任意实数\[k\],都有关于\[x\]的方程\[{{x}^{2}}+x+k=0\]有实数根；（      ）
+________________________________________________________ （      ）
+
+
+（8）任何三角形中至多有一个钝角；（      ）
+________________________________________________________（      ）
+
+（9）若a>1,b>1，则ab>1；（      ）
+________________________________________________________（      ）
+（10）能被2整除的整数是质数. （      ）
+___________________________________（      ）
+
+(B组)
+1. 写出下列陈述的否定形式.
+（1）在平面上,过定点$P$有且只有一条直线垂直于给定直线$l$
+______________________________________________________________ 
+（2）任意两个有理数之间存在一个无理数；
+______________________________________________________________ 
+（3）存在实数$a,$使得关于$x$的不等式${{x}^{2}}+(a-2)x+a-1\ge 0$至少有一个正数解
+______________________________________________________________ 
+（4）存在实数$a,$关于$x$的不等式${{x}^{2}}+(a-2)x+a-1\ge 0$恒成立
+______________________________________________________________ 
+（5）存在实数$a,$关于$x$的不等式${{x}^{2}}+(a-2)x+a-1\ge 0$有解
+______________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.2.3反证法-2
+(A组)
+1.单选题：已知甲\[\Rightarrow \]乙, 下列说法一定正确的是________
+(1) 甲不成立, 可推出乙成立   (2) 甲不成立, 可推出乙不成立
+(3) 乙不成立, 可推出甲成立   (4) 乙不成立, 可推出甲不成立
+2.“a\neq1且b\neq2”是“a+b\neq3”的	_______	条件	
+（填：“充分非必要、必要非充分、充要、非充分非必要”之一） 
+3. 证明：若x+2y+z>0，则\[x,y,z\]中至少有一个大于0.
+
+
+
+
+4. 证明：对于三个实数a,b,c，若a\neq\ c，则a\neq\ b或b\neq\ c.
+
+
+
+
+
+5. 证明：\[\sqrt{3}\]是无理数.
+
+
+
+
+
+(B组)
+1. “若\[x\ne 3\]或\[x\ne 4\]” 是“\[{{x}^{2}}-7x+12\ne 0\]”的______条件.
+（填：“充分非必要、必要非充分、充要、非充分非必要”之一）
+
+
+
+
+2.证明：若$x^2\ne y^2$, 则$x\ne y$或$x\ne -y$.
+
+
+
+
+
+
+3.若\[{{a}^{3}}+{{b}^{3}}=2\]，证明：\[a+b\le 2\].
+
+
+
+
+
