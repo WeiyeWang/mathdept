@@ -6495,7 +6495,8 @@ $\log_23$是有理数吗? 请证明你的结论.
 (3) $|\overrightarrow{EF}|$.
 <E题目>
 <B目标>
-
+K0501001B
+K0501003B
 <E目标>
 <B标签>
 
@@ -6540,7 +6541,8 @@ $\log_23$是有理数吗? 请证明你的结论.
 已知$\overrightarrow a$、$\overrightarrow b$均为非零向量, 写出$|\overrightarrow a+\overrightarrow b|=|\overrightarrow a|+|\overrightarrow b|$成立的充要条件.
 <E题目>
 <B目标>
-
+K0501003B
+K0502002B
 <E目标>
 <B标签>
 
@@ -6585,7 +6587,7 @@ $\log_23$是有理数吗? 请证明你的结论.
 已知$\overrightarrow a$、$\overrightarrow b$为非零向量, 且$\overrightarrow a$、$\overrightarrow b$、$5\overrightarrow a-4\overrightarrow b$在同一起点上. 求证: 它们的终点在同一条直线上.
 <E题目>
 <B目标>
-
+K0501004B
 <E目标>
 <B标签>
 
@@ -6630,7 +6632,7 @@ $\log_23$是有理数吗? 请证明你的结论.
 在矩形$ABCD$中, 边$AB$、$AD$的长分别为$2$、$1$, 若$M$、$N$分别是边$BC$、$CD$上的点, 且满足$\dfrac{|\overrightarrow{BM}|}{|\overrightarrow{BC}|}=\dfrac{|\overrightarrow{CN}|}{|\overrightarrow{CD}|}$, 则$\overrightarrow{AM}\cdot \overrightarrow{AN}$的取值范围是\blank{50}.
 <E题目>
 <B目标>
-
+K0508003B
 <E目标>
 <B标签>
 
@@ -6675,7 +6677,7 @@ $\log_23$是有理数吗? 请证明你的结论.
 已知两个向量$\overrightarrow {e_1}$、$\overrightarrow {e_2}$满足$|\overrightarrow {e_1}|=2$, $|\overrightarrow {e_2}|=1$, $\langle \overrightarrow {e_1}, \overrightarrow {e_2}\rangle=60^\circ$, 且向量$2\lambda \overrightarrow {e_1}+7\overrightarrow {e_2}$与向量$\overrightarrow {e_1}+\lambda \overrightarrow {e_2}$的夹角为钝角. 求实数$\lambda$的取值范围.
 <E题目>
 <B目标>
-
+K0505005B
 <E目标>
 <B标签>
 
@@ -6722,7 +6724,9 @@ $\log_23$是有理数吗? 请证明你的结论.
 (2) 当$k$为何实数时, $k\overrightarrow a-\overrightarrow b$与$\overrightarrow a+3\overrightarrow b$平行? 平行时它们是同向还是反向?
 <E题目>
 <B目标>
-
+K0507007B
+K0507009B
+K0508005B
 <E目标>
 <B标签>
 
@@ -6770,7 +6774,9 @@ $\log_23$是有理数吗? 请证明你的结论.
 (3) 求$\overrightarrow{OA}\cdot\overrightarrow{OB}$.
 <E题目>
 <B目标>
-
+K0507009B
+K0507007B
+K0508003B
 <E目标>
 <B标签>
 
@@ -6815,7 +6821,7 @@ $\log_23$是有理数吗? 请证明你的结论.
 已知向量$\overrightarrow a=(3, -2)$, $\overrightarrow b=(-2, 1)$, $\overrightarrow c=(7, -4)$, 求$\lambda,\mu$, 使得$\overrightarrow c=\lambda \overrightarrow a+\mu \overrightarrow b$.
 <E题目>
 <B目标>
-
+K0507007B
 <E目标>
 <B标签>
 
@@ -6860,7 +6866,7 @@ $\log_23$是有理数吗? 请证明你的结论.
 已知点$M(3, -2)$、$N(-5, -1)$, 且$\overrightarrow{MP}=\dfrac 13\overrightarrow{MN}$. 求点$P$的坐标.
 <E题目>
 <B目标>
-
+K0507007B
 <E目标>
 <B标签>
 
@@ -6905,7 +6911,9 @@ $\log_23$是有理数吗? 请证明你的结论.
 在等腰三角形$ABC$中, 已知$D$为底边$BC$的中点. 求证: $AD\perp BC$.
 <E题目>
 <B目标>
-
+K0505001B
+K0502001B
+K0502002B
 <E目标>
 <B标签>
 
@@ -6961,7 +6969,7 @@ $\log_23$是有理数吗? 请证明你的结论.
 \end{center}
 <E题目>
 <B目标>
-
+K0502001B
 <E目标>
 <B标签>
 
@@ -7007,7 +7015,8 @@ $\log_23$是有理数吗? 请证明你的结论.
 在四边形$ABCD$中, 向量$\overrightarrow{AB}=\overrightarrow i+2\overrightarrow j$, $\overrightarrow{BC}=-4\overrightarrow i-\overrightarrow j$, $\overrightarrow{CD}=-5\overrightarrow i-3\overrightarrow j$. 求证: $ABCD$为梯形.
 <E题目>
 <B目标>
-
+K0503005B
+K0501004B
 <E目标>
 <B标签>
 
@@ -7053,7 +7062,7 @@ $\log_23$是有理数吗? 请证明你的结论.
 已知$\overrightarrow a$、$\overrightarrow b$、$\overrightarrow c$均为非零向量, 其中的任意两个向量都不平行, 且$\overrightarrow a+\overrightarrow b$与$\overrightarrow c$是平行向量, $\overrightarrow a+\overrightarrow c$与$\overrightarrow b$是平行向量. 求证: $\overrightarrow b+\overrightarrow c$与$\overrightarrow a$是平行向量.
 <E题目>
 <B目标>
-
+K0501004B
 <E目标>
 <B标签>
 
@@ -7109,7 +7118,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 \end{center}
 <E题目>
 <B目标>
-
+K0503005B
 <E目标>
 <B标签>
 
@@ -7156,7 +7165,9 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 (2) 当向量$\sqrt 3\overrightarrow a+\overrightarrow b$与$\overrightarrow a-\sqrt 3\overrightarrow b$的模相等时, 求$\alpha$的大小.
 <E题目>
 <B目标>
-
+K0505001B
+K0507007B
+K0507009B
 <E目标>
 <B标签>
 
@@ -7210,7 +7221,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 \end{center}
 <E题目>
 <B目标>
-
+K0508003B
 <E目标>
 <B标签>
 
@@ -7255,7 +7266,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 已知等边三角形$ABC$的边长为$1$, $\overrightarrow{BC}=\overrightarrow a$, $\overrightarrow{CA}=\overrightarrow b$, $\overrightarrow{AB}=\overrightarrow c$. 求$\overrightarrow a\cdot \overrightarrow b+\overrightarrow b\cdot \overrightarrow c+\overrightarrow c\cdot \overrightarrow a$.
 <E题目>
 <B目标>
-
+K0504006B
+K0505005B
 <E目标>
 <B标签>
 
@@ -7300,7 +7312,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 已知向量$\overrightarrow{OA}=(k, 12)$, $\overrightarrow{OB}=(4, 5)$, $\overrightarrow{OC}=(-k, 10)$, 且$A$、$B$、$C$三点共线. 求实数$k$的值.
 <E题目>
 <B目标>
-
+K0509001B
 <E目标>
 <B标签>
 
@@ -7345,7 +7357,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 已知向量$\overrightarrow{OA}=(1, 7)$, $\overrightarrow{OB}=(5, 1)$, $\overrightarrow{OP}=(2, 1)$, $K$为直线$OP$上的一个动点, 当$\overrightarrow{KA}\cdot\overrightarrow{KB}$取最小值时, 求向量$\overrightarrow{OK}$的坐标.
 <E题目>
 <B目标>
-
+K0508005B
+K0508003B
 <E目标>
 <B标签>
 
@@ -7399,7 +7412,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 \end{center}
 <E题目>
 <B目标>
-
+K0509001B
 <E目标>
 <B标签>
 
@@ -7444,7 +7457,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 证明: 三角形的三条高相交于一点.
 <E题目>
 <B目标>
-
+K0509001B
+K0509004B
 <E目标>
 <B标签>
 
@@ -7500,7 +7514,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 \end{center}
 <E题目>
 <B目标>
-
+K0510003B
 <E目标>
 <B标签>
 
@@ -7545,7 +7559,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 在$\triangle ABC$中, $AB=AC=5$, $BC=6$, $M$是边$AC$上靠近$A$的一个三等分点. 问: 在线段$BM$上是否存在点$P$, 使得$PC\perp BM$?
 <E题目>
 <B目标>
-
+K0509001B
+K0509004B
 <E目标>
 <B标签>
 
@@ -7590,7 +7605,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 在$\triangle ABC$中, 已知点$O$、$G$、$H$分别是三角形的外心、重心和垂心. 求证: $O$、$G$、$H$三点共线(此直线称为欧拉线).
 <E题目>
 <B目标>
-
+K0509001B
+K0509004B
 <E目标>
 <B标签>
 
@@ -7639,7 +7655,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 \fourch{$3-2\mathrm{i}$}{$3+2\mathrm{i}$}{$-3+2\mathrm{i}$}{$-3-2\mathrm{i}$}
 <E题目>
 <B目标>
-
+K0511003B
+K0513004B
 <E目标>
 <B标签>
 
@@ -7689,7 +7706,10 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 \textcircled{3} 复数的模表示该复数在复平面上所对应的点到原点的距离.
 <E题目>
 <B目标>
-
+K0512002B
+K0514004B
+K0512005B
+K0513003B
 <E目标>
 <B标签>
 
@@ -7736,7 +7756,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 (2) 若$z$在复平面上所对应的点位于第一象限, 求$a$的取值范围.
 <E题目>
 <B目标>
-
+K0512004B
+K0513003B
 <E目标>
 <B标签>
 
@@ -7782,7 +7803,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 若$\overline{z_1}=z_2$, 求$a$的值.
 <E题目>
 <B目标>
-
+K0512005B
+K0511004B
 <E目标>
 <B标签>
 
@@ -7832,7 +7854,9 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 (5) $[(\sqrt 3+1)+(\sqrt 3-1)\mathrm{i}]^2$.
 <E题目>
 <B目标>
-
+K0511005B
+K0511006B
+K0511008B
 <E目标>
 <B标签>
 
@@ -7877,7 +7901,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 已知复数$z=\dfrac{(-3-\mathrm{\mathrm{i}})^2(2-\mathrm{\mathrm{i}})}{(1+2\mathrm{i})^3}$, 求$|z|$.
 <E题目>
 <B目标>
-
+K0514004B
 <E目标>
 <B标签>
 
@@ -7924,7 +7948,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 (2) $3x^2+2x-3=0$.
 <E题目>
 <B目标>
-
+K0515003B
 <E目标>
 <B标签>
 
@@ -7973,7 +7997,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 \fourch{$a^2=b^2$}{$a^2+b^2=0$}{$|a|=|b|\ne 0$}{$ab\ne 0$}
 <E题目>
 <B目标>
-
+K0511004B
+K0514002B
 <E目标>
 <B标签>
 
@@ -8018,7 +8043,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 若复数$z$满足$z+\overline{z}=2$, $(z-\overline{z})\mathrm{i}=2$, 求$|z|$.
 <E题目>
 <B目标>
-
+K0512005B
+K0514001B
 <E目标>
 <B标签>
 
@@ -8063,7 +8089,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 若复数$z_1$和复数$z_2$满足$z_1z_2=3-4\mathrm{i}$, $|z_1|=2$, 求$|z_2|$.
 <E题目>
 <B目标>
-
+K0514004B
 <E目标>
 <B标签>
 
@@ -8108,7 +8134,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 若$x_1$和$x_2$是方程$x^2-5x+8=0$的两个根, 求$|x_1|+|x_2|$的值.
 <E题目>
 <B目标>
-
+K0515005B
+K0515007B
 <E目标>
 <B标签>
 
@@ -8153,7 +8180,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 若复数$z_1$和复数$z_2$满足$|z_1|=3$, $|z_2|=4$, $|z_1+z_2|=5$, 求$|z_1-z_2|$.
 <E题目>
 <B目标>
-
+K0514004B
 <E目标>
 <B标签>
 
@@ -8198,7 +8225,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 已知复数$z_1$和复数$z_2$满足$z_1+z_2=3-5\mathrm{i}$, $\overline{z_1}-\overline{z_2}=-2+3\mathrm{i}$. 求$z_1^2-z_2^2$.
 <E题目>
 <B目标>
-
+K0512005B
+K0511005B
 <E目标>
 <B标签>
 
@@ -11694,7 +11722,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 求直线$\sqrt 2x-4y+5=0$的倾斜角(用$\arctan$表示).
 <E题目>
 <B目标>
-
+K0701002X
 <E目标>
 <B标签>
 
@@ -11739,7 +11767,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 若直线$ax+2y+6=0$和直线$x+a(a+1)y+(a^2-1)=0$互相垂直, 求实数$a$的值.
 <E题目>
 <B目标>
-
+K0707001X
 <E目标>
 <B标签>
 
@@ -11784,7 +11812,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 直线$x-y+1=0$上一点$P$的横坐标是$3$, 若该直线绕点$P$逆时针旋转$90^\circ$得到直线$l$, 求直线$l$的方程.
 <E题目>
 <B目标>
-
+K0707005X
+K0707001X
 <E目标>
 <B标签>
 
@@ -11829,7 +11858,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 设直线$x-ay-4=0$与直线$y=-2x+4$的夹角为$\arccos \dfrac{2\sqrt 5}5$, 求实数$a$的值.
 <E题目>
 <B目标>
-
+K0707005X
 <E目标>
 <B标签>
 
@@ -11874,7 +11903,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 已知$\alpha\in [0, \dfrac\pi 2)$, 求直线$x\cos \alpha+\sqrt 3y+2=0$的倾斜角的取值范围.
 <E题目>
 <B目标>
-
+K0701002X
 <E目标>
 <B标签>
 
@@ -11919,7 +11948,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 求过点$(3, -2)$且在$x$轴、$y$轴上截距相等的直线的方程.
 <E题目>
 <B目标>
-
+K0702001X
+K0702002X
 <E目标>
 <B标签>
 
@@ -11964,7 +11994,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 已知点$P(1, 1)$到直线$x+ay-2=0$的距离为$1$, 求实数$a$的值.
 <E题目>
 <B目标>
-
+K0708003X
 <E目标>
 <B标签>
 
@@ -12011,7 +12041,9 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 (2) 若点$C$的坐标为$(3, 3)$, 分别求边$BC$与$DC$所在直线的方程.
 <E题目>
 <B目标>
-
+K0706001X
+K0706002X
+K0705003X
 <E目标>
 <B标签>
 
@@ -12060,7 +12092,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 (4) $l_1$与$l_2$重合.
 <E题目>
 <B目标>
-
+K0706002X
+K0707001X
 <E目标>
 <B标签>
 
@@ -12105,7 +12138,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 已知直线$l$与两坐标轴围成一个等腰直角三角形, 且此三角形的面积为$\dfrac{49}2$. 求直线$l$的方程.
 <E题目>
 <B目标>
-
+K0702001X
+K0702002X
 <E目标>
 <B标签>
 
@@ -12150,7 +12184,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 在$\triangle ABC$中, 边$AB$、$AC$上的高所在直线的方程分别为$2x-3y+1=0$与$x+y=0$, 点$A$的坐标为$(1, 2)$. 求边$BC$所在直线的方程.
 <E题目>
 <B目标>
-
+K0707001X
+K0705003X
 <E目标>
 <B标签>
 
@@ -12195,7 +12230,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 已知直线$l$垂直于直线$3x+4y-9=0$, 点$A(2, 3)$到直线$l$的距离为$1$. 求直线$l$的方程.
 <E题目>
 <B目标>
-
+K0708003X
+K0707001X
 <E目标>
 <B标签>
 
@@ -12242,7 +12278,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 (2) 若$l_1\parallel l_2\parallel l_3$, 求$a$、$b$的值.
 <E题目>
 <B目标>
-
+K0707001X
+K0706002X
 <E目标>
 <B标签>
 
@@ -12287,7 +12324,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 已知过点$(0, -2)$且具有斜率$k$的直线$l$与以点$A(3, 1)$和$B(-2, 5)$为端点的线段$AB$相交, 求实数$k$的取值范围.
 <E题目>
 <B目标>
-
+K0701003X
+K0706003X
 <E目标>
 <B标签>
 
@@ -12332,7 +12370,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 已知两条直线$l_1: y-x=0$, $l_2: y=ax$, 其中$a\in \mathbf{R}$. 当这两条直线的夹角在$(0, \dfrac{\pi}{12})$内变化时, 求实数$a$的取值范围.
 <E题目>
 <B目标>
-
+K0707005X
 <E目标>
 <B标签>
 
@@ -12377,7 +12415,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 直线$l$过原点且平分平行四边形$ABCD$的面积, 若此平行四边形的两个顶点为$B(1, 4)$、$D(5, 0)$, 求直线$l$的方程.
 <E题目>
 <B目标>
-
+K0703002X
 <E目标>
 <B标签>
 
@@ -12422,7 +12460,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 求直线$l_1: 3x-2y-6=0$关于直线$l_2: 2x-3y+1=0$对称的直线$l_3$的方程.
 <E题目>
 <B目标>
-
+K0707005X
+K0706001X
 <E目标>
 <B标签>
 
@@ -12467,7 +12506,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 已知动点$M(a, b)$在直线$3x+4y-15=0$上, 求$\sqrt{a^2+b^2}$的最小值.
 <E题目>
 <B目标>
-
+K0708003X
 <E目标>
 <B标签>
 
@@ -12512,7 +12551,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 已知两条平行直线$l_1$与$l_2$分别过点$P_1(1, 0)$与点$P_2(0, 5)$, $l_1$、$l_2$之间的距离为$d$. 求$d$的最大值, 并指出此时$l_1$、$l_2$的方程.
 <E题目>
 <B目标>
-
+K0707001X
+K0708003X
 <E目标>
 <B标签>
 
@@ -12559,7 +12599,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 (2) 当$|CA|\cdot |CB|$取最小值时, 求直线$l$的方程, 并求此最小值.
 <E题目>
 <B目标>
-
+K0702003X
+K0702001X
 <E目标>
 <B标签>
 
@@ -12604,7 +12645,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 作出方程$|x|+|y|=1$所表示的图形, 并求该图形围成的区域的面积.
 <E题目>
 <B目标>
-
+K0704003X
 <E目标>
 <B标签>
 
@@ -12649,7 +12690,8 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 给定直线$l_1: y=k_1x+b_1$与$l_2: y=k_2x+b_2$, 求证: 如果直线$l_1$与$l_2$不互相垂直, 那么它们的夹角$\alpha$满足$\tan \alpha=|\dfrac{k_1-k_2}{1+k_1k_2}|$.
 <E题目>
 <B目标>
-
+K0701001X
+K0701002X
 <E目标>
 <B标签>
 
@@ -12694,7 +12736,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 已知直线$l_1: 4x+y=4$, $l_2: mx+y=0$, $l_3: 2x-3my=4$. 当$m$为何值时, 它们不能围成三角形?
 <E题目>
 <B目标>
-
+K0706002X
 <E目标>
 <B标签>
 
@@ -12740,7 +12782,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
 y-3=0 \ (3\le x\le 5)$的距离.
 <E题目>
 <B目标>
-
+K0708003X
 <E目标>
 <B标签>
 
@@ -12788,7 +12830,8 @@ y-3=0 \ (3\le x\le 5)$的距离.
 (3) 与两点$A(-1, 0)$、$B(1, 0)$的连线的夹角为$90^\circ$的动点的轨迹方程为$x^2+y^2=1$.
 <E题目>
 <B目标>
-
+K0709002X
+K0721002X
 <E目标>
 <B标签>
 
@@ -12833,7 +12876,7 @@ y-3=0 \ (3\le x\le 5)$的距离.
 讨论圆$x^2+y^2+6x-7=0$与抛物线$y^2=-4x$准线的位置关系.
 <E题目>
 <B目标>
-
+K0711002X
 <E目标>
 <B标签>
 
@@ -12881,7 +12924,8 @@ y-3=0 \ (3\le x\le 5)$的距离.
 (3) 该圆与$x$轴相交于两个不同点.
 <E题目>
 <B目标>
-
+K0709003X
+K0711002X
 <E目标>
 <B标签>
 
@@ -12926,7 +12970,7 @@ y-3=0 \ (3\le x\le 5)$的距离.
 若椭圆$\dfrac{x^2}{4}+\dfrac{y^2}{a^2}=1$与双曲线$\dfrac{x^2}{a^2}-\dfrac{y^2}2=1$有相同的焦点, 求实数$a$的值.
 <E题目>
 <B目标>
-
+K0713004X
 <E目标>
 <B标签>
 
@@ -12971,7 +13015,7 @@ y-3=0 \ (3\le x\le 5)$的距离.
 设椭圆$\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1 \ (a>b>0)$的焦距为$2c$. 若$b^2=ac$, 求该椭圆的离心率.
 <E题目>
 <B目标>
-
+K0714005X
 <E目标>
 <B标签>
 
@@ -13016,7 +13060,8 @@ y-3=0 \ (3\le x\le 5)$的距离.
 已知圆$C$的半径为$3$, 它与双曲线$\dfrac{x^2}4-y^2=1$的两条渐近线均相切, 且与该双曲线的右支相交. 求圆$C$的方程.
 <E题目>
 <B目标>
-
+K0717004X
+K0711002X
 <E目标>
 <B标签>
 
@@ -13061,7 +13106,7 @@ y-3=0 \ (3\le x\le 5)$的距离.
 已知直线$y=x+b$被曲线$y=\dfrac 12x^2$截得的弦长为$4\sqrt 2$, 求实数$b$的值.
 <E题目>
 <B目标>
-
+K0715003X
 <E目标>
 <B标签>
 
@@ -13106,7 +13151,8 @@ y-3=0 \ (3\le x\le 5)$的距离.
 点$P$是圆$x^2+y^2=4$上的动点, 过点$P$作$x$轴的垂线, 垂足为$M$. 若$\overrightarrow{PQ}=2\overrightarrow{QM}$, 求点$Q$的轨迹方程.
 <E题目>
 <B目标>
-
+K0711005X
+K0721004X
 <E目标>
 <B标签>
 
@@ -13151,7 +13197,7 @@ y-3=0 \ (3\le x\le 5)$的距离.
 设$AB$是过抛物线$y^2=2px$焦点$F$的一条弦, 过点$A$、$B$分别作该抛物线准线的垂线, 垂足分别为$A_1$、$B_1$. 求证: $\angle A_1FB_1=\dfrac\pi 2$.
 <E题目>
 <B目标>
-
+K0719006X
 <E目标>
 <B标签>
 
@@ -13198,7 +13244,8 @@ y-3=0 \ (3\le x\le 5)$的距离.
 (2) 若直线$l$在$y$轴上的截距为$\sqrt 2$, 求直线$l$的方程.
 <E题目>
 <B目标>
-
+K0711003X
+K0711004X
 <E目标>
 <B标签>
 
@@ -13244,7 +13291,9 @@ y-3=0 \ (3\le x\le 5)$的距离.
 \twoch{直线$l$过圆心}{直线$l$与圆相交, 但不过圆心}{直线$l$与圆相切}{直线$l$与圆无公共点}
 <E题目>
 <B目标>
-
+K0702003X
+K0711001X
+K0711002X
 <E目标>
 <B标签>
 
@@ -13289,7 +13338,7 @@ y-3=0 \ (3\le x\le 5)$的距离.
 已知点$A(-\dfrac 12, 0)$, $B$是圆$C: (x-\dfrac 12)^2+y^2=4$($C$是圆心)上一动点, 线段$AB$的垂直平分线交$BC$于$M$. 求动点$M$的轨迹方程.
 <E题目>
 <B目标>
-
+K0713003X
 <E目标>
 <B标签>
 
@@ -13334,7 +13383,8 @@ y-3=0 \ (3\le x\le 5)$的距离.
 过抛物线$y^2=4x$的焦点$F$作动直线交抛物线于$A$、$B$两点, 并从原点$O$作$AB$的垂线, 垂足为$M$. 求动点$M$的轨迹方程.
 <E题目>
 <B目标>
-
+K0720003X
+K0721002X
 <E目标>
 <B标签>
 
@@ -13379,7 +13429,7 @@ y-3=0 \ (3\le x\le 5)$的距离.
 已知点$P$是双曲线$\dfrac{x^2}9-\dfrac{y^2}{16}=1$右支上的一点, 点$M$、$N$分别是圆$(x+5)^2+y^2=4$和$(x-5)^2+y^2=1$上的点. 求$|PM|-|PN|$的最大值.
 <E题目>
 <B目标>
-
+K0716002X
 <E目标>
 <B标签>
 
@@ -13424,7 +13474,7 @@ y-3=0 \ (3\le x\le 5)$的距离.
 已知圆$x^2+y^2+x-6y+m=0$与直线$x+2y-3=0$相交于$P$、$Q$两点, $O$为坐标原点. 若$OP\perp OQ$, 求实数$m$的值.
 <E题目>
 <B目标>
-
+K0710006X
 <E目标>
 <B标签>
 
@@ -13469,7 +13519,7 @@ y-3=0 \ (3\le x\le 5)$的距离.
 已知直线$y=ax-1$与曲线$y^2=2x$只有一个公共点, 求实数$a$的值.
 <E题目>
 <B目标>
-
+K0720003X
 <E目标>
 <B标签>
 
@@ -13515,7 +13565,9 @@ y-3=0 \ (3\le x\le 5)$的距离.
 对于实数$k$的不同取值范围, 讨论方程$kx^2+y^2-2=0$所表示的曲线的形状.
 <E题目>
 <B目标>
-
+K0709003X
+K0713002X
+K0716002X
 <E目标>
 <B标签>
 
@@ -13560,7 +13612,7 @@ y-3=0 \ (3\le x\le 5)$的距离.
 过椭圆$b^2x^2+a^2y^2=a^2b^2 \ (a>b>0)$的顶点$B(0, -b)$引一条弦$BP$, 求弦$BP$的最大长度.
 <E题目>
 <B目标>
-
+K0715003X
 <E目标>
 <B标签>
 
@@ -13605,7 +13657,7 @@ y-3=0 \ (3\le x\le 5)$的距离.
 已知定点$A(a, 0) \ (0<a<3)$到椭圆$\dfrac{x^2}9+\dfrac{y^2}4=1$上的点的距离的最小值为$1$, 求$a$的值.
 <E题目>
 <B目标>
-
+K0715002X
 <E目标>
 <B标签>
 
@@ -13650,7 +13702,7 @@ y-3=0 \ (3\le x\le 5)$的距离.
 据气象预报, 在气象台$A$处向东$400\text{km}B$处的海面上有一个台风中心形成, 测得台风以$40\text{km}/\text{h}$的速度向西北方向移动, 距中心不超过$300\text{km}$的地方都会受到台风的影响. 从现在起, 多少时间后气象台受到台风影响?  气象台受到台风影响的时长大约是多少(结果精确到$0.1\text{h}$)?
 <E题目>
 <B目标>
-
+K0709006X
 <E目标>
 <B标签>
 
@@ -13695,7 +13747,7 @@ y-3=0 \ (3\le x\le 5)$的距离.
 已知$\triangle ABC$的两个顶点$A$、$B$的坐标分别是$(-6, 0)$、$(6, 0)$, 且边$AC$、$BC$所在直线的斜率之积等于$k$. 讨论顶点$C$的轨迹方程.
 <E题目>
 <B目标>
-
+K0721002X
 <E目标>
 <B标签>
 
@@ -13740,7 +13792,8 @@ y-3=0 \ (3\le x\le 5)$的距离.
 以$P$为圆心的动圆与圆$C_1: (x+2)^2+y^2=1$和圆$C_2: (x-2)^2+y^2=r^2$均相切, 请分别写出$r$的某个值, 使点$P$的轨迹为椭圆和双曲线.
 <E题目>
 <B目标>
-
+K0713003X
+K0716003X
 <E目标>
 <B标签>
 
@@ -13785,7 +13838,8 @@ y-3=0 \ (3\le x\le 5)$的距离.
 求双曲线$y=\dfrac 1x$的焦点坐标与准线方程.
 <E题目>
 <B目标>
-
+K0716002X
+K0717002X
 <E目标>
 <B标签>
 
@@ -13830,7 +13884,8 @@ y-3=0 \ (3\le x\le 5)$的距离.
 请验证到点$(1, \dfrac 14)$的距离和到直线$y=-\dfrac 14$的距离相等的动点的轨迹方程是二次函数$y=x^2-2x+1$, 并探究一般情况.
 <E题目>
 <B目标>
-
+K0719002X
+K0719005X
 <E目标>
 <B标签>
 
