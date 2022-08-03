@@ -6948,51 +6948,6 @@ $\log_23$是有理数吗? 请证明你的结论.
 <EID>
 <B题目>
 如图, 在四边形$ABCD$中, $G$为对角线$AC$与$BD$中点连线$MN$的中点, $P$为平面上任意给定的一点. 求证: $4\overrightarrow{PG}=\overrightarrow{PA}+\overrightarrow{PB}+\overrightarrow{PC}+\overrightarrow{PD}$.
-<E题目>
-<B目标>
-
-<E目标>
-<B标签>
-
-<E标签>
-<B类型>
-解答题
-<E类型>
-<B答案>
-
-<E答案>
-<B解答或提示>
-
-<E解答或提示>
-<B预计耗时>
-
-<E预计耗时>
-<B使用记录>
-
-<E使用记录>
-<B出处>
-教材复习题
-<E出处>
-<B修订历史>
-20220624	王伟叶, 余利成
-<E修订历史>
-<B相同题目>
-
-<E相同题目>
-<B关联题目>
-
-<E关联题目>
-<B备注>
-
-<E备注>
-[E题目]
-
-[B题目]
-<BID>
-000149
-<EID>
-<B题目>
-在四边形$ABCD$中, 向量$\overrightarrow{AB}=\overrightarrow i+2\overrightarrow j$, $\overrightarrow{BC}=-4\overrightarrow i-\overrightarrow j$, $\overrightarrow{CD}=-5\overrightarrow i-3\overrightarrow j$. 求证: $ABCD$为梯形.
 \begin{center}
     \begin{tikzpicture}
         \draw [thick] (0,0) node [below left] {$B$} coordinate (B) -- (2,0) node [below right] {$C$} coordinate (C) -- (2.4,2.5) node [above right] {$D$} coordinate (D) -- (-0.1,1.5) node [above left] {$A$} coordinate (A) -- cycle;
@@ -7031,6 +6986,53 @@ $\log_23$是有理数吗? 请证明你的结论.
 <E出处>
 <B修订历史>
 20220624	王伟叶, 余利成
+20220803	毛培菁
+<E修订历史>
+<B相同题目>
+
+<E相同题目>
+<B关联题目>
+
+<E关联题目>
+<B备注>
+
+<E备注>
+[E题目]
+
+[B题目]
+<BID>
+000149
+<EID>
+<B题目>
+在四边形$ABCD$中, 向量$\overrightarrow{AB}=\overrightarrow i+2\overrightarrow j$, $\overrightarrow{BC}=-4\overrightarrow i-\overrightarrow j$, $\overrightarrow{CD}=-5\overrightarrow i-3\overrightarrow j$. 求证: $ABCD$为梯形.
+<E题目>
+<B目标>
+
+<E目标>
+<B标签>
+
+<E标签>
+<B类型>
+解答题
+<E类型>
+<B答案>
+
+<E答案>
+<B解答或提示>
+
+<E解答或提示>
+<B预计耗时>
+
+<E预计耗时>
+<B使用记录>
+
+<E使用记录>
+<B出处>
+教材复习题
+<E出处>
+<B修订历史>
+20220624	王伟叶, 余利成
+20220803	毛培菁
 <E修订历史>
 <B相同题目>
 
