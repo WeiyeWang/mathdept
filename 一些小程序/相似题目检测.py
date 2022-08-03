@@ -1,5 +1,17 @@
 import os,re,difflib,Levenshtein,time
 
+def generate_number_set(string):
+    string = re.sub(r"[\n\s]","",string)
+    string_list = string.split(",")
+    numbers_list = []
+    for s in string_list:
+        if not ":" in s:
+            numbers_list.append(s.zfill(6))
+        else:
+            start,end = s.split(":")
+            for ind in range(int(start),int(end)+1):
+                numbers_list.append(str(ind).zfill(6))
+    return numbers_list
 def difflab_get_equal_rate(str1, str2):
     str1 = re.sub(r"[\s\\\{\}\$\(\)\[\]]","",str1)
     str1 = re.sub(r"(displaystyle)|(overrightarrow)","",str1)
@@ -43,8 +55,8 @@ for filename in vault_files:
         problems += vault.read()
 #读入全部题库数据
 
-# 重要!!!最初的新题的id
-starting_ID = 1
+# 重要!!! 新题目的范围
+id_new_problems = "10017:10018"
 sim_test = jaro_get_equal_rate
 threshold = 0.85
 
@@ -55,9 +67,16 @@ for p in problems_formatted:
     problem_list.append(trim_tuple(re.findall(r"<BID>([\s\S]*?)<EID>[\s\S]*?<B题目>([\s\S]*?)<E题目>[\s\S]*?<B相同题目>([\s\S]*?)<E相同题目>[\s\S]*?<B关联题目>([\s\S]*?)<E关联题目>",p)[0]))
 
 
+new_id_list = generate_number_set(id_new_problems)
 #生成题号列表
-old_problems = [f for f in problem_list if f[0] < str(starting_ID).zfill(6)]
-new_problems = [f for f in problem_list if f[0] >= str(starting_ID).zfill(6)]
+new_problems = []
+old_problems = []
+for p in problem_list:
+    if p[0] in new_id_list:
+        new_problems.append(p)
+    else:
+        old_problems.append(p)
+
 print("旧题目数:",len(old_problems),", 新题目数:",len(new_problems))
 
 start_time = time.time()

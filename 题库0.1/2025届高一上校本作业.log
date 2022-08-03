@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  2 AUG 2022 21:00
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  2 AUG 2022 21:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -852,14 +852,14 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 109--110
 [][] 
  []
 
-[2] [3] (./2025届高一上校本作业.aux) ) 
+[2] [3] [4] (./2025届高一上校本作业.aux) ) 
 Here is how much of TeX's memory you used:
  21070 strings out of 476919
  482483 string characters out of 5825424
- 813868 words of memory out of 5000000
+ 817868 words of memory out of 5000000
  40637 multiletter control sequences out of 15000+600000
  406095 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,9n,104p,943b,260s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,9n,104p,943b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 2025届高一上校本作业.pdf (3 pages).
+Output written on 2025届高一上校本作业.pdf (4 pages).
