@@ -1,10 +1,8 @@
 import os,re
 
 def trim(string):
-    while string[0] in (" ","\t","\n"):
-        string = string[1:]
-    while string[-1] in (" ","\t","\n"):
-        string = string[:-1]
+    string = re.sub(r"^[ \t\n]*","",string)
+    string = re.sub(r"[ \t\n]*$","",string)
     return string
 
 def color_value(matchobj):
@@ -30,22 +28,23 @@ for id in ids:
     if not problem_pos == None:
         problem_set = problems[problem_pos.start():problem_pos.end()]
         problem = trim(re.findall("<B题目>([\s\S]*?)<E题目>",problem_set)[0])
-        try:
-            answer = trim(re.findall("<B答案>([\s\S]*?)<E答案>",problem_set)[0])
-        except:
+        solution = trim(re.findall("<B解答或提示>([\s\S]*?)<E解答或提示>",problem_set)[0])
+        if len(solution) == 0:
+            solution = "暂无解答与提示"
+        answer = trim(re.findall("<B答案>([\s\S]*?)<E答案>",problem_set)[0])
+        if len(answer) == 0:
             answer = "暂无答案"
-        try:
-            usage = trim(re.findall("<B使用记录>([\s\S]*?)<E使用记录>",problem_set)[0]).replace("\n","\n\n")
+        usage = trim(re.findall("<B使用记录>([\s\S]*?)<E使用记录>",problem_set)[0]).replace("\n","\n\n")
+        if len(usage) > 0:
             usage = re.sub("\\t([\d]\.[\d]{0,10})",color_value,usage)
             usage = re.sub("[\\t ]([\d]\.[\d]{0,10})",color_value,usage)
-        except:
+        else:
             usage = "暂无使用记录"
-        try:
-            origin = trim(re.findall("<B出处>([\s\S]*?)<E出处>",problem_set)[0])
-        except:
+        origin = trim(re.findall("<B出处>([\s\S]*?)<E出处>",problem_set)[0])
+        if len(origin) == 0:
             origin = "出处不详"
         students_string = "\\item ("+id+")"+problem+"\n"
-        teachers_string = students_string+"\n\n答案: "+answer + "\n" + "\n\n使用记录:\n\n"+ usage + "\n" + "\n\n出处: "+origin + "\n"
+        teachers_string = students_string+"\n\n答案: "+answer + "\n\n" + "解答或提示: " + solution + "\n\n使用记录:\n\n"+ usage + "\n" + "\n\n出处: "+origin + "\n"
         data_teachers += teachers_string
         data_students += students_string
 #生成学生的文件和教师的源文件
