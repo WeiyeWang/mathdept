@@ -149,6 +149,8 @@ def brackets_to_cwords(matchobj):
     return "左括号"+matchobj.group(1)+"右括号"
 def cwords_to_brackets(matchobj):
     return "("+matchobj.group(1)+")"
+def circled_brackets(matchobj):
+    return matchobj.group(1)[:-1]+"{"+matchobj.group(1)[-1] + "}"
 
 try:
     os.chdir(r"D:\mathdept\mathdept\文本处理程序等")
@@ -234,13 +236,16 @@ data = re.sub("〉",r"\\rangle ",data)
 data = re.sub("…",r"\\cdots",data)
 data = re.sub("Ｐ",r"\\mathrm{P}^",data)
 data = re.sub("",r"\\supseteq",data)
+data = re.sub("ｅ",r"\\mathrm{e}",data)
+data = re.sub("μ",r"\\mu",data)
+
 
 #修改一些常用的错误latex命令
 data = re.sub("centerdot","cdot",data)
 data = re.sub("cancel","not",data)
 
-whole_numbers = "０１２３４５６７８９＋－＝狆狇狉犕犖＞＜犃犅犆犇狓犝［］｜犪狔犙犽犘犚犫犛犮犈犗犿犣狀犳犵犺狋犻犼狕犉犾′犱狊犌犡犢狘"
-correct_numbers = "0123456789+-=pqrMN><ABCDxU[]|ayQkPRbScEOmZnfghtijzFl'dsGXY|"
+whole_numbers = "０１２３４５６７８９＋－＝犲狆狇狉犕犖＞＜犃犅犆犇狓犝［］｜犪狔犙犽犘犚犫犛犮犈犗犿犣狀犳犵犺狋犻犼狕犉犾′犱狊犌犡犢狘"
+correct_numbers = "0123456789+-=epqrMN><ABCDxU[]|ayQkPRbScEOmZnfghtijzFl'dsGXY|"
 
 
 
@@ -423,6 +428,12 @@ modified_data = re.sub(r"\$[\s]*?\\parallel[\s]*?\$",r"\\parallel",modified_data
 modified_data = re.sub(r"\n例\s*?\d{1,3}\s*",r"\n\\item ",modified_data)
 modified_data = re.sub(r"ABCDA_1B_1C_1D_1",r"$ABCD-A_1B_1C_1D_1$",modified_data)
 modified_data = re.sub(r"(\$[\,\.:;]\$)",refine_brackets,modified_data)
+
+
+
+#以下是扒上教社教材题目时作的改动
+modified_data = re.sub(r"log[\s]",r"log_",modified_data)
+modified_data = re.sub(r"(textcircled[\d])",circled_brackets,modified_data)
 
 with open("outputfile.txt","w",encoding = "utf8") as f:
     f.write(modified_data)

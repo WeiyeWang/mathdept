@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.6.10)  23 JUN 2022 15:21
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  4 AUG 2022 16:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -607,8 +607,7 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \c@coro=\count327
 \c@axiom=\count328
 \c@prop=\count329
-
-No file 教材复习题汇总.aux.
+ (./教材复习题汇总.aux)
 \openout1 = `教材复习题汇总.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -627,7 +626,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 42.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -881,9 +880,9 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 1511--1512
 
 [37] [38] (./教材复习题汇总.aux) ) 
 Here is how much of TeX's memory you used:
- 22545 strings out of 476919
- 505003 string characters out of 5825424
- 861994 words of memory out of 5000000
+ 22547 strings out of 476919
+ 505027 string characters out of 5825424
+ 861987 words of memory out of 5000000
  42135 multiletter control sequences out of 15000+600000
  406143 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

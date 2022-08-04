@@ -26,7 +26,7 @@ for c in data:
 data = data1
 data = data.replace("．",".").replace("：",":")
 elements = data.split("\n")
-elements_per_line = 11 #这里需要修改
+elements_per_line = 5 #这里需要修改
 contents = "{|"
 for i in range(elements_per_line):
     contents += "c|"
