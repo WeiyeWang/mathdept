@@ -803,6 +803,334 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 \end{center}
 
 
+\begin{center}
+\begin{tikzpicture}[>=latex,scale = 0.4]
+\filldraw [gray!50] (0,0) -- (8.7,0) arc (-90:90:3.6) --++ (-8.7,0) arc (90:270:3.6) -- cycle; 
+\draw (0,0) -- (8.7,0) arc (-90:90:3.6) --++ (-8.7,0) arc (90:270:3.6); 
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\draw (0,0) node [left] {$A$} coordinate (A);
+\draw (3,0) node [right] {$B$} coordinate (B);
+\draw (1.5,0,0) ++ (0,0,{-1.5*sqrt(3)}) node [right] {$C$} coordinate (C);
+\draw (A) --++ (0,3) node [left] {$A_1$} coordinate (A1);
+\draw (B) --++ (0,3) node [right] {$B_1$} coordinate (B1);
+\draw (C) ++ (0,3) node [above] {$C_1$} coordinate (C1);
+\draw [dashed] (C) -- (A) (C) -- (B) (C) -- (C1);
+\draw (A) -- (B) (A1) -- (B1) (C1) -- (A1) (C1) -- (B1) (A1) -- (B);
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\draw (0,0) node [below left] {$A$} coordinate (A) --++ (3,0) node [below right] {$B$} coordinate (B) --++ (45:{3/2}) node [right] {$C$} coordinate (C)
+--++ (0,3) node [above right] {$C'$} coordinate (C1)
+--++ (-3,0) node [above left] {$D'$} coordinate (D1) --++ (225:{3/2}) node [left] {$A'$} coordinate (A1) -- cycle;
+\draw (A) ++ (3,3) node [right] {$B'$} coordinate (B1) -- (B) (B1) --++ (45:{3/2}) (B1) --++ (-3,0);
+\draw [dashed] (A) --++ (45:{3/2}) node [below right] {$D$} coordinate (D) --++ (3,0) (D) --++ (0,3);
+\draw [dashed] (A1) -- (C1);
+\draw ($(A1)!0.5!(C1)$) node [above] {$E$} coordinate (E);
+\draw [dashed] (E) -- (A);
+\filldraw ($(A)!{1/3}!(E)$) circle (0.03) node [left] {$F$} coordinate (F); 
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex,scale = 1.4]
+\draw (0,0) node [left] {$B$} coordinate (B);
+\draw (3,0) node [right] {$D$} coordinate (D);
+\draw (1.4,2.3) node [above] {$A$} coordinate (A);
+\draw (2,-0.8) node [below] {$C$} coordinate (C);
+\draw ($(A)!0.5!(B)$) node [left] {$E$} coordinate (E);
+\draw ($(D)!0.5!(C)$) node [right] {$E_1$} coordinate (E1);
+\filldraw ($(A)!0.5!(C)$) circle (0.03) node [above right] {$M$} coordinate (M);
+\filldraw ($(A)!0.5!(D)$) circle (0.03) node [above right] {$N$} coordinate (N);
+\filldraw ($(B)!0.5!(C)$) circle (0.03) node [below left] {$N_1$} coordinate (N1);
+\filldraw ($(B)!0.5!(D)$) circle (0.03) node [below] {$M_1$} coordinate (M1);
+\filldraw ($(E)!0.5!(E1)$) circle (0.03) node [above] {$G$} coordinate (G);
+\draw (A) -- (B) -- (C) -- (D) -- cycle;
+\draw (A) -- (C);
+\draw [dashed] (E) -- (E1) (B) -- (D);
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\draw (0,0) node [left] {$D$} coordinate (D);
+\draw (3,0) node [right] {$C$} coordinate (C);
+\draw (1,1) node [left] {$B$} coordinate (B);
+\draw ($(B)!0.5!(D)$) node [below] {$E$} coordinate (E);
+\draw ($(E)!{1/3}!(C)$) node [above right] {$G$} coordinate (G);
+\draw (G) ++ (0.1,2.5) node [above] {$A$} coordinate (A);
+\draw (A) -- (D) -- (C) -- cycle;
+\draw [dashed] (A) -- (G) (D) -- (B) -- (A) (B) -- (C) (E) -- (C);
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\draw (0,0,0) node [left] {$A$} coordinate (A);
+\draw (2,0,0) node [right] {$B$} coordinate (B);
+\draw (0.5,0,{-0.5*sqrt(3)}) node [below] {$C$} coordinate (C);
+\draw ({3/2},{9/4},{-3*sqrt(3)/4}) node [above] {$D$} coordinate (D);
+\draw (A) -- (B) (A) -- (D) (B) -- (D);
+\draw [dashed] (C) -- (A) (C) -- (B) (C) -- (D);
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\draw (0,0) -- (3,0) --++ (1.5,1.5) --++ (-3,0) -- (0,0) ++ (0.5,0) node [above] {$\alpha$};
+\draw [->] (2,0.7) node [left] {$A'$} -- (3.2,1) node [right] {$B'$};
+\draw [->] (2,1.9) node [left] {$A$} -- (3.2,1.7) node [right] {$B$};
+\draw [dashed] (2,0.7) -- (2,1.9) (3.2,1) -- (3.2,1.7);
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\draw (0,0) node [below left] {$A$} coordinate (A) --++ (2,0) node [below right] {$B$} coordinate (B) --++ (45:{2/2}) node [right] {$C$} coordinate (C)
+--++ (0.2,1.5) node [above right] {$C_1$} coordinate (C1)
+--++ (-2,0) node [above left] {$D_1$} coordinate (D1) --++ (225:{2/2}) node [left] {$A_1$} coordinate (A1) -- cycle;
+\draw (A) ++ (2.2,1.5) node [right] {$B_1$} coordinate (B1) -- (B) (B1) --++ (45:{2/2}) (B1) --++ (-2,0);
+\draw [dashed] (A) --++ (45:{2/2}) node [left] {$D$} coordinate (D) --++ (2,0) (D) --++ (0.2,1.5);
+\draw [dashed] (D1) -- (A) (D1) -- (B) (D1) -- (C) (D1) -- (B1);
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\draw (0,0) node [below left] {$A$} coordinate (A) --++ (3,0) node [below right] {$B$} coordinate (B) --++ (55:{3/2}) node [right] {$C$} coordinate (C)
+--++ (0,3) node [above right] {$C_1$} coordinate (C1)
+--++ (-3,0) node [above left] {$D_1$} coordinate (D1) --++ (235:{3/2}) node [left] {$A_1$} coordinate (A1) -- cycle;
+\draw (A) ++ (3,3) node [right] {$B_1$} coordinate (B1) -- (B) (B1) --++ (55:{3/2}) (B1) --++ (-3,0);
+\draw [dashed] (A) --++ (55:{3/2}) node [left] {$D$} coordinate (D) --++ (3,0) (D) --++ (0,3);
+\draw (A) -- (B1) -- (C);
+\draw [dashed] (A) -- (C) (B) -- (D1) ($(A)!0.5!(C)$) coordinate (O) -- (B1);
+\filldraw ($(O)!{1/3}!(B1)$) circle (0.03) node [right] {$E$} coordinate (E);
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\draw (0,0) node [below left] {$A$} coordinate (A) --++ (3,0) node [below right] {$B$} coordinate (B) --++ (55:{3/2}) node [right] {$C$} coordinate (C)
+--++ (0,3) node [above right] {$C_1$} coordinate (C1)
+--++ (-3,0) node [above left] {$D_1$} coordinate (D1) --++ (235:{3/2}) node [left] {$A_1$} coordinate (A1) -- cycle;
+\draw (A) ++ (3,3) node [right] {$B_1$} coordinate (B1) -- (B) (B1) --++ (55:{3/2}) (B1) --++ (-3,0);
+\draw [dashed] (A) --++ (55:{3/2}) node [left] {$D$} coordinate (D) --++ (3,0) (D) --++ (0,3);
+\draw (A) -- (B1) -- (C) (B1) -- (D1);
+\draw [dashed] (A) -- (C);
+\filldraw ($(B)!{1/2}!(B1)$) circle (0.03) node [right] {$E$} coordinate (E);
+\filldraw ($(B1)!{1/2}!(D1)$) circle (0.03) node [above] {$F$} coordinate (F);
+\draw [dashed] (E) -- (F);
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex,scale = 2]
+\draw (0,0,0) node [left] {$C$} coordinate (C);
+\draw (1,0,0) node [right] {$B$} coordinate (B);
+\draw (0,0,1) node [left] {$A$} coordinate (A);
+\draw (A) ++ (0,2,0) node [left] {$A_1$} coordinate (A1);
+\draw (B) ++ (0,2,0) node [right] {$B_1$} coordinate (B1);
+\draw (C) ++ (0,2,0) node [above] {$C_1$} coordinate (C1);
+\draw ($(A)!0.5!(A1)$) node [left] {$N$} coordinate (N);
+\draw ($(A1)!0.5!(B1)$) node [below] {$M$} coordinate (M);
+\draw (C1) -- (M) (A1) -- (B) (N) -- (B);
+\draw (A) -- (B) -- (B1) -- (C1) -- (A1) -- cycle;
+\draw (A1) -- (B1);
+\draw [dashed] (A) -- (C) -- (B) (B1) -- (C) (C1) -- (C);
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex,scale = 1.3]
+\draw (0,0,0) node [left] {$A$} coordinate (A);
+\draw (1,0,{sqrt(3)}) node [below] {$B$} coordinate (B);
+\draw (2,0,0) node [right] {$C$} coordinate (C);
+\draw (A) ++ (0,2,0) node [left] {$A_1$} coordinate (A1);
+\draw (B) ++ (0,2,0) node [above] {$B_1$} coordinate (B1);
+\draw (C) ++ (0,2,0) node [right] {$C_1$} coordinate (C1);
+\draw (B) -- (B1) -- (A1) (B1) -- (C1);
+\draw (A) -- (B1) -- ($(C)!0.5!(C1)$) node [right] {$D$} coordinate (D);
+\draw (A) -- (B) -- (C) -- (C1) -- (A1) -- cycle;
+\draw [dashed] (A) -- (D) (A) -- (C);
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex,scale = 1.3]
+\draw (0,0,0) node [left] {$A$} coordinate (A);
+\draw (0,0,{2*sqrt(3)/3}) node [left] {$B$} coordinate (B);
+\draw (1,0,0) node [above right] {$D$} coordinate (D);
+\draw (2,0,0) node [right] {$C$} coordinate (C);
+\draw (0,2,0) node [left] {$P$} coordinate (P);
+\draw (1,1,0) node [right] {$E$} coordinate (E);
+\draw (P) -- (B) (P) -- (E) -- (D) -- (C) (B) -- (E) (B) -- (D) (B) -- (C);
+\draw [dashed] (P) -- (A) -- (B) (A) -- (D);
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex,scale = 1.5]
+\draw (0,0,0) node [left] {$A$} coordinate (A);
+\draw (2,0,0) node [right] {$B$} coordinate (B);
+\draw (0,0,-2) node [below] {$C$} coordinate (C);
+\draw (A) ++ (0,2,0) node [left] {$A_1$} coordinate (A1);
+\draw (B) ++ (0,2,0) node [right] {$B_1$} coordinate (B1);
+\draw (C) ++ (0,2,0) node [above] {$C_1$} coordinate (C1);
+\draw (A) -- (B) -- (B1) -- (C1) -- (A1) -- cycle (A1) -- (B1);
+\draw [dashed] (C1) -- (C) (A) -- (C) -- (B);
+\draw ($(A1)!0.5!(B1)$) node [above] {$D$} coordinate (D);
+\draw ($(C)!0.5!(C1)$)node [above left] {$E$} coordinate (E);
+\draw ($(B)!0.5!(C)$) node [above right] {$F$} coordinate (F);
+\draw [dashed] (A) -- (E) (E) -- (D) (E) -- (F) (D) -- (F);
+\end{tikzpicture}
+\end{center}
+
+
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\draw (0,0,0) node [left] {$A$} coordinate (A);
+\draw (2,0,-1) node [right] {$C$} coordinate (C);
+\draw (2,1,0) node [above] {$D$} coordinate (D);
+\draw (A) -- (D) -- (C);
+\draw (1,-1,1) node [below] {$B$} coordinate (B);
+\draw (A) -- (B) -- (C) (B) -- (D);
+\draw [dashed] (A) -- (C); 
+\end{tikzpicture}
+\end{center}
+
+
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\draw (0,0,0) node [left] {$A$} coordinate (A);
+\draw (2,0,0) node [right] {$C$} coordinate (C);
+\draw (0,2,0) node [above] {$P$} coordinate (P);
+\draw (0,0,4) node [left] {$B$} coordinate (B);
+\draw ($(B)!0.5!(C)$) node [below right] {$S$} coordinate (S);
+\draw ($(P)!0.5!(B)$) node [left] {$M$} coordinate (M);
+\draw ($(A)!0.25!(B)$) node [left] {$N$} coordinate (N);
+\draw (B) -- (P) -- (C) -- cycle (C) -- (M);
+\draw [dashed] (B) -- (A) -- (C) (A) -- (P) (M) -- (N) -- (S) (N) -- (C);
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\draw (0,0) node [below left] {$A$} coordinate (A) --++ (2,0) node [below right] {$B$} coordinate (B) --++ (45:{2/2}) node [right] {$C$} coordinate (C)
+--++ (0,2) node [above right] {$C_1$} coordinate (C1)
+--++ (-2,0) node [above left] {$D_1$} coordinate (D1) --++ (225:{2/2}) node [left] {$A_1$} coordinate (A1) -- cycle;
+\draw (A) ++ (2,2) node [right] {$B_1$} coordinate (B1) -- (B) (B1) --++ (45:{2/2}) (B1) --++ (-2,0);
+\draw [dashed] (A) --++ (45:{2/2}) node [left] {$D$} coordinate (D) --++ (2,0) (D) --++ (0,2);
+\draw ($(A)!0.5!(A1)$)node [left] {$E$} coordinate (E) -- ($(B)!0.5!(B1)$)node [right] {$F$} coordinate (F);
+\filldraw ($(A1)!0.8!(B1)$) circle (0.03) node [above] {$G$} coordinate (G);
+\draw [dashed] (D1) -- (E) (D1) -- (F);
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex,scale = 0.5]
+\draw (0,5) node [left] {$A$} -- (0,0) node [left] {$O$} -- (12,0) node [right] {$B$}-- cycle;
+\draw (0,0) arc (180:0:{10/3}) coordinate (A);
+\draw (A) arc (180:0:{10/3*4/9}) coordinate (B);
+\draw (B) arc (180:0:{10/3*4/9*4/9}) coordinate (C);
+\draw (C) arc (180:0:{10/3*4/9*4/9*4/9}) coordinate (D);
+\filldraw ($(0,0)!0.5!(A)$) circle (0.06) node [below] {$O_1$};
+\filldraw ($(B)!0.5!(A)$) circle (0.06) node [below] {$O_2$};
+\filldraw ($(B)!0.5!(C)$) circle (0.06) node [below] {$O_3$};
+\filldraw ($(D)!0.5!(C)$) circle (0.06) node [below] {$O_4$};
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\filldraw (0,0) rectangle (3,3);
+\filldraw [white] (1,1) rectangle++ (1,1);
+\filldraw (4,0) rectangle (7,3);
+\filldraw [white] (5,1) rectangle++ (1,1);
+\foreach \i in {{4+1/3},{5+1/3},{6+1/3}} {\foreach \j in {{1/3},{1+1/3},{2+1/3}} {\filldraw [white] (\i,\j) rectangle++ ({1/3},{1/3});};};
+\filldraw (8,0) rectangle (11,3);
+\filldraw [white] (9,1) rectangle++ (1,1);
+\foreach \i in {{8+1/3},{9+1/3},{10+1/3}} {\foreach \j in {{1/3},{1+1/3},{2+1/3}} {\filldraw [white] (\i,\j) rectangle++ ({1/3},{1/3});};};
+\foreach \i in {{8+1/9},{8+1/3+1/9},{8+2/3+1/9},{9+1/9},{9+1/3+1/9},{9+2/3+1/9},{10+1/9},{10+1/3+1/9},{10+2/3+1/9}} {\foreach \j in {{1/9},{1/3+1/9},{2/3+1/9},{1+1/9},{1+1/3+1/9},{1+2/3+1/9},{2+1/9},{2+1/3+1/9},{2+2/3+1/9}} {\filldraw [white] (\i,\j) rectangle++ ({1/9},{1/9});};};
+\foreach \i in {1,2} {\draw [white] (\i,0) -- (\i,3); \draw [white] (0,\i) -- (3,\i);};
+\foreach \i in {1,2,...,8} {\draw [white] ({4+\i/3},0) -- ({4+\i/3},3); \draw [white] (4,{\i/3}) -- (7,{\i/3});};
+\foreach \i in {1,2,...,26} {\draw [white] ({8+\i/9},0) -- ({8+\i/9},3); \draw [white] (8,{\i/9}) -- (11,{\i/9});};
+\draw (1.5,-0.5) node {\textcircled{1}};
+\draw (5.5,-0.5) node {\textcircled{2}};
+\draw (9.5,-0.5) node {\textcircled{3}};
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex,scale = 0.6]
+\draw [->] (-1,0) -- (7,0) node [below] {$x$};
+\draw [->] (0,-1) -- (0,6) node [left] {$y$};
+\draw (0,0) node [below left] {$O$};
+\draw [dashed] (5,0) -- (5,4) coordinate (S) node [above] {$Q$} -- (0,4) (1,0) -- (1,1) coordinate (T) node [right] {$P$} -- (0,1);
+\draw (1,0) node [below] {$1$} (5,0) node [below] {$5$} (0,1) node [left] {$1$} (0,4) node [left] {$4$};
+\draw ($(S)!-0.2!(T)$) -- ($(T)!-0.2!(S)$);
+\draw [domain = 0.5:5.5] plot (\x,{-(1/2)+(33*\x)/20-3*pow(\x,2)/20}) node [right] {$y=f(x)$};
+\end{tikzpicture}
+\end{center}
+
+
+\begin{center}
+\begin{tikzpicture}[>=latex,scale = 0.6]
+\draw [->] (-5,0) -- (5,0) node [below] {$x$};
+\draw [->] (0,-3) -- (0,3) node [left] {$y$};
+\draw (0,0) node [below left] {$O$};
+\draw (-5,-1) .. controls (0,4) and (0,-1) .. (3,-2);
+\draw (3,-2) .. controls (3.9,-2.3) and (4,-1).. (5,-1) node [right] {$y=f(x)$};
+\filldraw (0,-1) circle (0.05) node [below left] {$-1$} coordinate (Q);
+\filldraw (3,-2) circle (0.05) node [below] {$P$} coordinate (P);
+\draw ($(P)!-1!(Q)$) node [right] {$l$} -- ($(P)!2.5!(Q)$);
+\draw [dashed] (3,0) node [below right] {$3$} -- (3,-2) -- (0,-2) node [left] {$-2$};
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex,xscale = 0.6,yscale = 0.4]
+\draw [->] (-5,0) -- (7,0) node [below] {$x$};
+\draw [->] (0,-3) -- (0,3) node [left] {$y$};
+\draw (0,0) node [below right] {$O$};
+\draw (-4,-2.5) coordinate (A) .. controls (-3.8,-2) and (-3.3,-1) .. (-3,-1) coordinate (B) .. controls (-2.7,-1) and (-2.3,-2) .. (-2,-2) coordinate (C) .. controls (-1.8,-2) and (-1.3,1) .. (-1,1) coordinate (D) .. controls (-0.1,1) and (0.1,-2.8) .. (1,-2.8) coordinate (E) .. controls (1.5,-2.8) and (3.2,1) .. (4,1) coordinate (F) .. controls (4.3,1) and (4.6,0.5) .. (5,0.5) coordinate (G) .. controls (5.2,0.5) and (5.5,1.3) .. (6,1.8) coordinate (H);
+\draw [dashed] (A) -- (-4,0) node [above] {$a$} (B) -- (-3,0) node [above] {$x_1$} (C) -- (-2,0) node [above] {$x_2$} (D) -- (-1,0) node [below] {$x_3$} (E) -- (1,0) node [above] {$x_4$} (F) -- (4,0) node [below] {$x_5$} (G) -- (5,0) node [below] {$x_6$} (H) -- (6,0) node [below] {$b$};
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\draw (0,0) node [below left] {$A$} coordinate (A) --++ (2,0) node [below right] {$B$} coordinate (B) --++ (45:{1/2}) node [right] {$C$} coordinate (C)
+--++ (0,1.5) node [above right] {$C_1$} coordinate (C1)
+--++ (-2,0) node [above left] {$D_1$} coordinate (D1) --++ (225:{1/2}) node [left] {$A_1$} coordinate (A1) -- cycle;
+\draw (A) ++ (2,1.5) node [below left] {$B_1$} coordinate (B1) -- (B) (B1) --++ (45:{1/2}) (B1) --++ (-2,0);
+\draw [dashed] (A) --++ (45:{1/2}) node [above right] {$D$} coordinate (D) --++ (2,0) (D) --++ (0,1.5);
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex,scale = 0.6]
+\draw (0,0) -- (0.5,0) (1.5,0) -- (2,0) (2,0.5) -- (2,-0.5) -- (2.5,-0.5) (2,0.5) -- (2.5,0.5) (3.5,0.5) -- (4,0.5) -- (4,-0.5) -- (3.5,-0.5) (4,0) -- (4.5,0) -- (4.5,2) -- (2.5,2) (1.5,2) -- (0,2) -- (0,0) (-0.5,1) -- (0,1) (4.5,1) -- (5,1);
+\filldraw (0,1) circle (0.05) node [above left] {$A$} (4.5,1) circle (0.05) node [above right] {$B$};
+\draw (0.5,0) --++ (15:1.1) (2.5,0.5) --++ (15:1.1) (2.5,-0.5) --++ (15:1.1) (1.5,2) --++ (15:1.1);
+\filldraw [fill = white, draw = black] (0.5,0) circle (0.05) (2.5,0.5) circle (0.05) (2.5,-0.5) circle (0.05) (1.5,2) circle (0.05);
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex,scale = 0.7]
+\draw (0,0) node [left] {$O$} coordinate (O);
+\draw (5,0) node [right] {$B$} coordinate (B);
+\draw (45:5) node [right] {$A$} coordinate (A);
+\foreach \i in {0,0.7,...,4.3} {\filldraw (\i,0) circle (0.03);};
+\foreach \i in {0,0.8,...,4.2} {\filldraw (45:\i) circle (0.03);};
+\draw (O) -- (A) (O) -- (B);
+\end{tikzpicture}
+\end{center}
 
 \end{enumerate}
 
