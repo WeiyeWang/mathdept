@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  4 AUG 2022 23:19
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  5 AUG 2022 08:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -859,14 +859,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 372--373
 [11] [12]
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
- [13] [14] [15] (./上海2020教材习题必修第二册.aux) ) 
+ [13] [14] [15] [16] (./上海2020教材习题必修第二册.aux) ) 
 Here is how much of TeX's memory you used:
- 21687 strings out of 476919
- 495489 string characters out of 5825424
+ 21733 strings out of 476919
+ 496371 string characters out of 5825424
  863745 words of memory out of 5000000
- 41261 multiletter control sequences out of 15000+600000
+ 41307 multiletter control sequences out of 15000+600000
  405792 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,16n,104p,422b,1019s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 上海2020教材习题必修第二册.pdf (15 pages).
+Output written on 上海2020教材习题必修第二册.pdf (16 pages).

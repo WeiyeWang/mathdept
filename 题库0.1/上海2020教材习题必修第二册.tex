@@ -473,24 +473,47 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 \item 在$\triangle ABC$中, 内角$A$、$B$、$C$的对边依次为$a$、$b$、$c$. 求证: $\overrightarrow{AB}\cdot \overrightarrow{AC}=\dfrac 12(b^2+c^2-a^2)$.
 \item 在四边形$ABCD$中, 设向量$\overrightarrow{AB}=\overrightarrow a$, $\overrightarrow{BC}=\overrightarrow b$, $\overrightarrow{CD}=\overrightarrow c$, $\overrightarrow{DA}=\overrightarrow d$, 且$\overrightarrow a\cdot \overrightarrow b=\overrightarrow b\cdot
 \overrightarrow c=\overrightarrow c\cdot \overrightarrow d=\overrightarrow d\cdot \overrightarrow a$. 求证: 四边形$ABCD$是矩形.
-
-
+\item 如图, $OADB$是以向量$\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$为邻边的平行四边形, $C$是对角线的交点, 且$BM=\dfrac 13BC$, $CN=\dfrac 13CD$. 试用$\overrightarrow a$、$\overrightarrow b$表示$\overrightarrow{OM}$、$\overrightarrow{ON}$、$\overrightarrow{MN}$.
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\draw (0,0) node [left] {$O$} coordinate (O);
+\draw (3,0) node [right] {$A$} coordinate (A);
+\draw (1,2) node [left] {$B$} coordinate (B);
+\draw (4,2) node [right] {$D$} coordinate (D);
+\draw (2,1) node [below] {$C$} coordinate (C);
+\draw (A) -- (D) -- (B);
+\draw [->] (O) -- (A);
+\draw [->] (O) -- (B);
+\draw ($(B)!{1/3}!(C)$) node [below] {$M$} coordinate (M);
+\draw ($(C)!{1/3}!(D)$) node [below right] {$N$} coordinate (N);
+\draw [->] (O) -- (M);
+\draw [->] (M) -- (N);
+\draw [->] (O) -- (N);
+\draw (B) -- (A) (N) -- (D);
+\end{tikzpicture}
+\end{center}
+\item 已知向量$\overrightarrow a=(-1, 2), \overrightarrow b=(2, 1)$. 求$2\overrightarrow a+3\overrightarrow b$, $\overrightarrow a-2\overrightarrow b$, $\dfrac 12\overrightarrow a-\dfrac 13\overrightarrow b$.
+\item 已知点$A(3, 2)$、$B(7, 5)$、$C(-1, 8)$, 求$\overrightarrow{AB}-\dfrac 12\overrightarrow{AC}$.
+\item 已知向量$\overrightarrow a=(-5, 12)$, 求$|\overrightarrow a|$以及向量$\overrightarrow a$的单位向量$\overrightarrow{a_0}$.
+\item 已知点$A(1, 2)$、$B(-3, 1)$, 且$\overrightarrow{AC}=\dfrac 12\overrightarrow{AB}$, $\overrightarrow{AD}=3\overrightarrow{AB}$, $\overrightarrow{AE}=-\dfrac 13\overrightarrow{AB}$. 求点$C$、$D$、$E$的坐标.
+\item 已知向量$\overrightarrow a=(5, 3), \overrightarrow b=(x, 1)$, 且$\overrightarrow a\parallel \overrightarrow b$. 求实数$x$的值.
+\item 已知点$A(3, 0)$、$B(-1, -6)$, 点$P$是直线$\overrightarrow{AB}$上一点, 且$|\overrightarrow{AP}|=\dfrac 13|\overrightarrow{AB}|$. 求点$P$的坐标.
+\item 已知向量$\overrightarrow a=(3, -1)$, $\overrightarrow b=(1, -2)$. 求$\overrightarrow a\cdot \overrightarrow b$与$\langle$ $\overrightarrow a, \overrightarrow b\rangle$.
+\item 已知向量$\overrightarrow a=(3-m, 3m)$, $\overrightarrow b=(m+2, -2)$, 且$\overrightarrow a\perp \overrightarrow b$. 求实数$m$的值.
+\item 已知向量$\overrightarrow a=(2, 4)$, 求与$\overrightarrow a$垂直的单位向量的坐标.
+\item 已知$O$为坐标原点, 在$\triangle ABC$中, 向量$\overrightarrow{OA}=(2, 3)$, $\overrightarrow{OB}=(1, 4)$, 且$\overrightarrow{OC}=3\overrightarrow{OA}$, $\overrightarrow{OD}=3\overrightarrow{OB}$, $\overrightarrow{OE}=2\overrightarrow{OA}+\overrightarrow{OB}$. 求$C$、$D$、$E$三点的坐标, 并判断$C$、$D$、$E$三点是否共线.
+\item 已知向量$\overrightarrow a=(1, 2)$, $\overrightarrow b=(m, 1)$, 且$\overrightarrow a+2\overrightarrow b$与$2\overrightarrow a-\overrightarrow b$平行. 求实数$m$的值.
+\item 经过点$M(-2, 3)$的直线分别与$x$轴、$y$轴交于$A$、$B$两点, 且$|\overrightarrow{AB}|=3|\overrightarrow{AM}|$. 求点$A$、$B$的坐标.
+\item 已知向量$\overrightarrow a=(1, -1)$, $\overrightarrow b=(2, -3)$, 且$k\overrightarrow a-2\overrightarrow b$与$\overrightarrow a$垂直. 求实数$k$的值. 
 
 \iffalse
 
-\item 如图, $OADB$是以向量$OA=\overrightarrow a, OB=\overrightarrow b$为邻边的平行四边形, $C$是对角线的交点, 且$BM=13BC, CN=13CD$. 试用$\overrightarrow a$、$\overrightarrow$ $b$表示$OM$、$ON$、$MN$.
-\item 已知向量$\overrightarrow a=(-1, 2), \overrightarrow b=(2, 1)$. 求$2\overrightarrow a+3\overrightarrow b, \overrightarrow a-2\overrightarrow b, 12\overrightarrow a-13\overrightarrow b$.
-\item 已知点$A(3, 2)$、$B(7, 5)$、$C(-1, 8)$, 求$AB-12AC$.
-\item 已知向量$\overrightarrow a=(-5, 12)$, 求$|\overrightarrow a|$以及向量$\overrightarrow a$的单位向量珬$a0$.
-\item 已知点$A(1, 2)$、$B(-3, 1)$, 且$AC=12AB, AD=3AB, AE=-13A}{$求点$C$、$D$、$E$的坐标.
-\item 已知向量$\overrightarrow a=(5, 3), \overrightarrow b=(x, 1)$, 且$\overrightarrow a\parallel \overrightarrow b$. 求实数$x$的值.
-\item 已知点$A(3, 0)$、$B(-1, -6)$, 点$P$是直线$AB$上一点, 且$|AP|=13|AB|$. 求点$P$的坐标.
-\item 已知向量$\overrightarrow a=(3, -1), \overrightarrow b=(1, -2)$. 求$\overrightarrow a\cdot \overrightarrow b$与$\langle$ $\overrightarrow a, \overrightarrow b\rangle$.
-\item 已知向量$\overrightarrow a=(3-m, 3m), \overrightarrow b=(m+2, -2)$, 且$\overrightarrow a\perp \overrightarrow b$. 求实数$m$的值.
-\item 已知向量$\overrightarrow a=(2, 4)$, 求与$\overrightarrow a$垂直的单位向量的坐标.B组$
-\item$已知$O$为坐标原点, 在$\triangle ABC$中, 向量$OA=(2, 3), OB=(1, 4)$, 且$OC=3OA, OD=3OB, OE=2OA+OB$. 求$C$、D、$E$三点的坐标, 并判断$C$、D、$E$三点是否共线. $2$. 已知向量$\overrightarrow a=(1, 2), \overrightarrow b=(m, 1)$, 且$\overrightarrow a+2\overrightarrow b$与$2\overrightarrow$ $a-\overrightarrow b$平行. 求实数$m$的值.
-\item 经过点$M(-2, 3)$的直线分别与$x$轴、$y$轴交于$A$、B两点, 且$|AB|=3|AM|$.求点$A$、B的坐标.
-\item 已知向量$\overrightarrow a=(1, -1), \overrightarrow b=(2, -3)$, 且$k\overrightarrow a-2\overrightarrow b$与$\overrightarrow a$垂直. 求实数$k$的值.
+
+
+
+
+
+
 
 \item$已知平面上$A$、B两点的坐标分别是$(3, 5)$、$(0, 1), P$为直线$AB$上一点, 且$AP=15PB$. 求点$P$的坐标.
 \item 已知$\triangle ABC$的三个顶点$A$、B、$C$的坐标分别是$(1, 2)$、$(2, 3)$、$(3, 7)$, 求此三角形的面积.
