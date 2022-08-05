@@ -505,6 +505,31 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 \item 已知向量$\overrightarrow a=(1, 2)$, $\overrightarrow b=(m, 1)$, 且$\overrightarrow a+2\overrightarrow b$与$2\overrightarrow a-\overrightarrow b$平行. 求实数$m$的值.
 \item 经过点$M(-2, 3)$的直线分别与$x$轴、$y$轴交于$A$、$B$两点, 且$|\overrightarrow{AB}|=3|\overrightarrow{AM}|$. 求点$A$、$B$的坐标.
 \item 已知向量$\overrightarrow a=(1, -1)$, $\overrightarrow b=(2, -3)$, 且$k\overrightarrow a-2\overrightarrow b$与$\overrightarrow a$垂直. 求实数$k$的值. 
+\item 已知平面上$A$、$B$两点的坐标分别是$(3, 5)$、$(0, 1), P$为直线$AB$上一点, 且$\overrightarrow{AP}=\dfrac 15\overrightarrow{PB}$. 求点$P$的坐标.
+\item 已知$\triangle ABC$的三个顶点$A$、$B$、$C$的坐标分别是$(1, 2)$、$(2, 3)$、$(3, 7)$, 求此三角形的面积.
+\item 用向量方法证明三角形的余弦定理.
+\item 菱形是四条边都相等的四边形. 用向量方法证明菱形的对角线互相垂直.
+\item 如图, 已知$M$、$N$是平行四边形$ABCD$的对角线$AC$上的两点, 且$AM=CN$. 求证$: BMDN$是平行四边形.
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\draw (0,0) node [left] {$A$} coordinate (A);
+\draw (3,0) node [right] {$B$} coordinate (B);
+\draw (1,2) node [left] {$D$} coordinate (D);
+\draw (4,2) node [right] {$C$} coordinate (C);
+\draw ($(A)!0.2!(C)$) node [above left] {$M$} coordinate (M);
+\draw ($(A)!0.8!(C)$) node [below right] {$N$} coordinate (N);
+\draw (A) -- (B) -- (C) -- (D) -- cycle (A) -- (C) (B) -- (N) -- (D) -- (M) -- cycle;
+\end{tikzpicture}
+\end{center}
+\item 证明:三角形的三条中线相交于一点.
+\item 已知平面上不共线的三点$A(x_1, y_1)$、$B(x_2, y_2)$与$C(x_3, y_3)$, 求证: $\triangle ABC$的面积$S=\dfrac 12|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|$.
+\item 已知$a$、$b$均为正数, 且$a+b=1$. 求证: $(a+2)^2+(b+3)^2\ge 18$.
+\item 已知$ABCD$是正方形, $M$是$AB$边的中点, 点$E$在对角线$AC$上, 且$AE: EC=3: 1$. 求证: $\angle MED=\dfrac \pi 2$.
+\item 用向量方法证明:把一个平行四边形的一个顶点和两条不过此顶点的边的中点分别连线, 则这两条连线三等分此平行四边形的一条对角线.
+\item 已知复数$(\dfrac 12x+y)+(5x+\dfrac 23y-16)\mathrm{i}=-4$, 其中$x$、$y\in \mathbf{R}$. 求$x$、$y$的值.
+
+
+
 
 \iffalse
 
@@ -515,19 +540,10 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 
 
 
-\item$已知平面上$A$、B两点的坐标分别是$(3, 5)$、$(0, 1), P$为直线$AB$上一点, 且$AP=15PB$. 求点$P$的坐标.
-\item 已知$\triangle ABC$的三个顶点$A$、B、$C$的坐标分别是$(1, 2)$、$(2, 3)$、$(3, 7)$, 求此三角形的面积.
-\item 用向量方法证明三角形的余弦定理.
-(第$5$题$)$
-\item 菱形是四条边都相等的四边形. 用向量方法证明菱形的对角线互相垂直.
-\item 如图, 已知$M$、$N$是平行四边形$ABCD$的对角线$AC$上的两点, 且$AM=CN$. 求证$: BMDN$是平行四边形.8平面向量$126B$组$
-\item$证明:三角形的三条中线相交于一点.
-\item 已知平面上不共线的三点$A(x1, y1)$、$B(x2, y2)$与$C(x3, y3)$, 求证$: \triangle ABC$的面积$S=12|x1(y2-y3)$+x2(y3-y1)+x3$(y1-y2)|$.
-\item 已知$a$、b均为正数, 且$a+b=1$. 求证$: (a+2)$2+(b+3)2\ge$18$.
-\item 已知$ABCD$是正方形, $M$是$AB$边的中点, 点$E$在对角线$AC$上, 且$AE: EC=3: 1$. 求证$: \angle MED=\pi 2$.
-\item 用向量方法证明:把一个平行四边形的一个顶点和两条不过此顶点的边的中点分别连线, 则这两条连线三等分此平行四边形的一条对角线.
 
-\item$已知复数$(12x+y)+(5x+23y-16)\mathrm{\mathrm{i}}=-4$, 其中$x$、$y\\mathrm{i}n R$. 求$x$、y的值.
+
+
+
 \item 已知$(x+y)-xy\mathrm{i}=-5+24\mathrm{i}$, 其中$x$、$y\in \mathbf{R}$. 求$x$、y的值.
 \item 计算:(1)$(14-135\mathrm{i})+(23+52\mathrm{i})$;
 (2)$-(3-4\mathrm{i})$+(2+\mathrm{i})-$(1-5\mathrm{i})$;
@@ -540,14 +556,14 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 (9)$\sqrt 5+\sqrt 3\mathrm{i}
 \sqrt 5-\sqrt 3\mathrm{i}-\sqrt 3+\sqrt 5\mathrm{i}
 \sqrt 3-\sqrt 5\mathrm{i}$.
-\item 用复数乘法公式验证:若$c+d\mathrm{\mathrm{i}}\ne 0$, 则$(c+d\mathrm{\mathrm{i}})(ac+bdc2+d2+bc-adc2+d2\mathrm{i})=a+b\mathrm{i}$.
-\item 已知复数$z1=(a2+2)+(-2a-1)\mathrm{\mathrm{i}}, z2=(a-6)+(a2+a)\mathrm{\mathrm{i}}$, 其中$a\\mathrm{i}n R$. 若$z1+z2=2+\mathrm{i}$, 求$a$的值.
+\item 用复数乘法公式验证:若$c+d\mathrm{i}\ne 0$, 则$(c+d\mathrm{i})(ac+bdc2+d2+bc-adc2+d2\mathrm{i})=a+b\mathrm{i}$.
+\item 已知复数$z1=(a2+2)+(-2a-1)\mathrm{i}, z2=(a-6)+(a2+a)\mathrm{i}$, 其中$a\in R$. 若$z1+z2=2+\mathrm{i}$, 求$a$的值.
 \item 设实数$x$、y使得$(x+y\mathrm{i})$\mathrm{i}-2+4\mathrm{i}=(x-y\mathrm{i})$(1+\mathrm{i})$, 求$x$、y的值.
 \item 已知实数$x$、y使得$x1-\mathrm{i}+ y1-2\mathrm{i}= 51-3\mathrm{i}$, 求$x$、y的值.
-\item 求复数$-3+2\mathrm{\mathrm{i}}$与复数$2+3\mathrm{\mathrm{i}}$的乘积的共轭复数.
+\item 求复数$-3+2\mathrm{i}$与复数$2+3\mathrm{i}$的乘积的共轭复数.
 \item 若复数$z1=a+2\mathrm{i}(a\in \mathbf{R}), z2=3+4\mathrm{i}$, 且$z1z2$为纯虚数, 求$a$的值.
-\item 已知复数$z=1+\mathrm{\mathrm{i}}$, 求$z2-z+1z2+z+1$的值.
-\item 求实数$m$的值, 使得复数$(m2-3m-4)+(m2-5m-6)\mathrm{\mathrm{i}}$分别是:(1)实数;
+\item 已知复数$z=1+\mathrm{i}$, 求$z2-z+1z2+z+1$的值.
+\item 求实数$m$的值, 使得复数$(m2-3m-4)+(m2-5m-6)\mathrm{i}$分别是:(1)实数;
 (2)纯虚数;
 (3)零.
 \item 已知$(2x2-5x+2)+(y2+y-2)\mathrm{i}=0$, 其中$x$、$y\in \mathbf{R}$. 求$x$、y的值.B组$
@@ -555,7 +571,7 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 (2)$-2+2\sqrt 3\mathrm{i}
 (\sqrt 3+\mathrm{i})$2 ;
 (3)$(1+\mathrm{i})$10-$(1-\mathrm{i})10$.9复数$142
-\item$已知复数$z1=5+10\mathrm{\mathrm{i}}$及$z2=3-4\mathrm{\mathrm{i}}$, 且复数$z$满足$1z=1z1+1z2$. 求$z$.
+\item$已知复数$z1=5+10\mathrm{i}$及$z2=3-4\mathrm{i}$, 且复数$z$满足$1z=1z1+1z2$. 求$z$.
 \item 已知复数$(x2-y2-7)+(x-y-3)\mathrm{i}$等于$-2\mathrm{i}$, 其中$x$、$y\in \mathbf{R}$. 求$x$、y的值.
 \item 已知$(2x+3y)+(x2-y2)\mathrm{i}=y+2+4\mathrm{i}$, 其中$x$、$y\in \mathbf{R}$. 求$x$、y的值.
 \item 是否存在实数$m$, 使得复数$z=m2+2m-15+m2-5m+6m2-25 \mathrm{i}$分别满足下列条件? 若存在, 求出$m$的值或取值范围; 若不存在, 请说明理由.
@@ -569,11 +585,11 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 (2)若实数$a$使得$(1-\mathrm{i})$+(1+\mathrm{i})a\ne$0$, 则$
 ()$
 \fourch{a\ne$1$; $}{ a\ne -1$; $}{ a\ne 1$且$a\ne$ $-1$; $}{ a$可以是任意实数}
-\item 如果复数$z$满足$(1+2\mathrm{\mathrm{i}})z=4+3\mathrm{\mathrm{i}}$, 求$z$.
+\item 如果复数$z$满足$(1+2\mathrm{i})z=4+3\mathrm{i}$, 求$z$.
 \item 设复数$z=a+b\mathrm{i}$, 其中$a$、$b\in \mathbf{R}, a\ne 0$且$b\ne 0$. 求证$: z+zz-z$是纯虚数.
 
 
-\item$设复数$zA=-4$、$zB=2\mathrm{\mathrm{i}}$、$zC=2-3\mathrm{\mathrm{i}}$、$zD=3+2\mathrm{\mathrm{i}}$、$zE=-1-\mathrm{\mathrm{i}}$.
+\item$设复数$zA=-4$、$zB=2\mathrm{i}$、$zC=2-3\mathrm{i}$、$zD=3+2\mathrm{i}$、$zE=-1-\mathrm{i}$.
 (1)在复平面上分别作出这些复数所对应的点$A$、B、$C$、D、$E$;
 (2)在复平面上分别作出这些复数的共轭复数所对应的向量.
 \item 求实数$m$的值或取值范围, 使得复数$z=(m2-8m+15)+(m2-5m-14)\mathrm{i}$在复平面上所对应的点$Z$分别位于
@@ -582,8 +598,8 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 (3)第四象限.
 \item 设在复平面上的点$A$与点$B$所对应的复数分别为$zA$与$zB$, 对于下列各组复数, 分别求向量$AB$和向量BA→ 所对应的复数:(1)$zA=2-3\mathrm{i}, zB=4+5\mathrm{i}$;
 (2)$zA=12-\sqrt 32\mathrm{i}, zB=\sqrt 32+12\mathrm{i}$.
-\item 已知复平面上有点$A$和点$B$, 向量$OA$与向量$AB$所对应的复数分别为$-1-2\mathrm{\mathrm{i}}$与$4-\mathrm{i}$. 求点$B$的坐标.
-\item 设复数$1+2\mathrm{\mathrm{i}}$、$-2+\mathrm{\mathrm{i}}$、$-1-2\mathrm{\mathrm{i}}$在复平面上所对应的点分别为$A$、B、$C$, 求$
+\item 已知复平面上有点$A$和点$B$, 向量$OA$与向量$AB$所对应的复数分别为$-1-2\mathrm{i}$与$4-\mathrm{i}$. 求点$B$的坐标.
+\item 设复数$1+2\mathrm{i}$、$-2+\mathrm{i}$、$-1-2\mathrm{i}$在复平面上所对应的点分别为$A$、B、$C$, 求$
 \triangle ABC$的面积.
 \item 计算:(1)$|3-4\mathrm{i}|4$;
 (2)$|(1+\mathrm{i})$(-2\sqrt$2+\mathrm{i})3|$; $
@@ -594,8 +610,8 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 \item 设复数$(m-1)$+(2m-3)\mathrm{i}(m\in $R)$的模为$1$, 求$m$的值.
 \item 已知复数$z=m+(3m-1)$\mathrm{i}2-\mathrm{i}
 (m\in$R)$的实部与虚部互为相反数, 求$|z|$.
-\item 若复数$z1=5+12\mathrm{\mathrm{i}}$, 复数$z2$满足$z2 =13$, 且$z1z2$是纯虚数, 求复数$z2$.B组$
-\item$选择题:(1)设复平面上表示$2-\mathrm{\mathrm{i}}$和$3+4\mathrm{\mathrm{i}}$的点分别为点$A$和点$B$, 则表示向量$AB$的复数在复平面上所对应的点位于$
+\item 若复数$z1=5+12\mathrm{i}$, 复数$z2$满足$z2 =13$, 且$z1z2$是纯虚数, 求复数$z2$.B组$
+\item$选择题:(1)设复平面上表示$2-\mathrm{i}$和$3+4\mathrm{i}$的点分别为点$A$和点$B$, 则表示向量$AB$的复数在复平面上所对应的点位于$
 ()$
 \fourch{ 第一象限; $}{$第二象限; $}{$第三象限; $}{$第四象限}
 (2)复平面上平行于虚轴的非零向量所对应的复数一定是$
@@ -604,10 +620,10 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 \item 已知复平面上平行四边形$ABCD$的顶点$A$、B、$C$的坐标分别是$(-2, -1)$、$(7, 3)$、$
 (12, 9)$, 求点$D$的坐标和向量$AD$所对应的复数.
 \item 设复数$z1$与$z2$分别对应复平面上的向量$OZ_1$与$OZ_2$, 已知$|OZ_1|=|OZ_2|=1, OZ_1\perp OZ_2$. 求$z1+z2$与$z1-z2$.
-\item 已知复数$z$满足$|z|=1$, 且$z$不是纯虚数. 求证$: z+\mathrm{\mathrm{i}}z-\mathrm{i}$是纯虚数.
-\item 证明:集合$M=\{z|z=\cos \theta +\mathrm{\mathrm{i}}\s\mathrm{i}n \theta , \theta \\mathrm{i}n R\}$中的所有复数在复平面上所对应的点在同一个圆上.
+\item 已知复数$z$满足$|z|=1$, 且$z$不是纯虚数. 求证$: z+\mathrm{i}z-\mathrm{i}$是纯虚数.
+\item 证明:集合$M=\{z|z=\cos \theta +\mathrm{i}\s\mathrm{i}n \theta , \theta \in R\}$中的所有复数在复平面上所对应的点在同一个圆上.
 \item 设$z1$、$z2\in \mathbf{C}$, 求证$: z1+z2 2+z1-z2 2=2(z1 2+z2 2)$.
-\item 若复数$z$满足$z-2=z-2\mathrm{\mathrm{i}}=2$, 求$z$.
+\item 若复数$z$满足$z-2=z-2\mathrm{i}=2$, 求$z$.
 
 \item$在复数范围内解下列一元二次方程:(1)$4x2+25=0$;
 (2)$x2-2x-2=0$;
@@ -638,7 +654,7 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 \item$计算, 并将结果用复数的代数形式表示:(1)$(\cos 11\pi$6$+\mathrm{i}\sin 11\pi 6)$2\cdot \sqrt $2$(\cos 5\pi 3+\mathrm{i}\sin 5\pi$3)$;
 (2)$\sqrt$5$(\cos 5\pi 4+\mathrm{i}\sin 5\pi 4)$2\cdot \sqrt $2$(\cos 7\pi 3+\mathrm{i}\sin 7\pi 3)
 \sqrt $3$(\cos 7\pi 3+\mathrm{i}\sin 7\pi 3)\cdot \sqrt $5$(\cos 7\pi 3-\mathrm{i}\sin 7\pi$3)$.9. $4$复数的三角形式$161
-\item$设复数$-3-4\mathrm{\mathrm{i}}$在复平面上所对应的向量是$OZ$, 将$OZ$绕原点$O$顺时针旋转$810^\c\mathrm{i}rc$得到向量$OZ'$. 求向量OZ'→ 所对应的复数. (结果用复数的代数形式表示$)$
+\item$设复数$-3-4\mathrm{i}$在复平面上所对应的向量是$OZ$, 将$OZ$绕原点$O$顺时针旋转$810^\c\mathrm{i}rc$得到向量$OZ'$. 求向量OZ'→ 所对应的复数. (结果用复数的代数形式表示$)$
 \item 求复数$3+4\mathrm{i}$与复数$-1+7\mathrm{i}$在复平面上所对应的两个向量的夹角的大小.    
 
 
