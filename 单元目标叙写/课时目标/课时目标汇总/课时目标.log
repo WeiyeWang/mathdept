@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  29 JUL 2022 18:06
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  5 AUG 2022 09:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -942,17 +942,17 @@ Overfull \hbox (11.89737pt too wide) in alignment at lines 179--199
  []
 
 [11]
-Underfull \hbox (badness 2564) in paragraph at lines 215--215
-[]|\TU/华文中宋(0)/m/n/12 会 用 辅 助 角 公 式 将 $\OML/cmm/m/it/12 a [] ^^K \OT1/cmr/m/n/1
-2 + \OML/cmm/m/it/12 b [] ^^K$ \TU/华文中宋(0)/m/n/12 型 的 表 达 式 整 理 为
- []
-
-
 Overfull \hbox (11.89737pt too wide) in alignment at lines 199--219
  [] [] [] 
  []
 
 [12] [13]
+Underfull \hbox (badness 2564) in paragraph at lines 226--226
+[]|\TU/华文中宋(0)/m/n/12 会 用 辅 助 角 公 式 将 $\OML/cmm/m/it/12 a [] ^^K \OT1/cmr/m/n/1
+2 + \OML/cmm/m/it/12 b [] ^^K$ \TU/华文中宋(0)/m/n/12 型 的 表 达 式 整 理 为
+ []
+
+
 Overfull \hbox (11.89737pt too wide) in alignment at lines 219--239
  [] [] [] 
  []
@@ -987,22 +987,22 @@ Overfull \hbox (11.89737pt too wide) in alignment at lines 339--359
  [] [] [] 
  []
 
-[22]
+[22] [23]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 359--379
  [] [] [] 
  []
 
-[23]
+[24]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 379--399
  [] [] [] 
  []
 
-[24]
+[25]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 399--419
  [] [] [] 
  []
 
-[25] [26]
+[26]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 419--439
  [] [] [] 
  []
@@ -1012,52 +1012,52 @@ Overfull \hbox (11.89737pt too wide) in alignment at lines 439--459
  [] [] [] 
  []
 
-[28]
+[28] [29]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 459--479
  [] [] [] 
  []
 
-[29] [30]
+[30]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 479--499
  [] [] [] 
  []
 
-[31]
+[31] [32]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 499--519
  [] [] [] 
  []
 
-[32] [33]
+[33]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 519--539
  [] [] [] 
  []
 
-[34]
+[34] [35]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 539--559
  [] [] [] 
  []
 
-[35] [36]
+[36]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 559--579
  [] [] [] 
  []
 
-[37]
+[37] [38]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 579--599
  [] [] [] 
  []
 
-[38] [39]
+[39]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 599--619
  [] [] [] 
  []
 
-[40]
+[40] [41]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 619--639
  [] [] [] 
  []
 
-[41] [42]
+[42]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 639--659
  [] [] [] 
  []
@@ -1073,31 +1073,31 @@ Overfull \hbox (11.89737pt too wide) in alignment at lines 679--699
  []
 
 [47]
-Underfull \hbox (badness 10000) in paragraph at lines 711--711
-[]|\TU/华文中宋(0)/m/n/12 经 历 两 个 事 件 的 可 加 性 推 出 任 意 有 限 个 事 件 的 可 加 性
- []
-
-
 Overfull \hbox (11.89737pt too wide) in alignment at lines 699--719
  [] [] [] 
  []
 
-[48]
+[48] [49]
+Underfull \hbox (badness 10000) in paragraph at lines 722--722
+[]|\TU/华文中宋(0)/m/n/12 经 历 两 个 事 件 的 可 加 性 推 出 任 意 有 限 个 事 件 的 可 加 性
+ []
+
+
 Overfull \hbox (11.89737pt too wide) in alignment at lines 719--739
  [] [] [] 
  []
 
-[49] [50]
+[50]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 739--759
  [] [] [] 
  []
 
-[51]
+[51] [52]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 759--779
  [] [] [] 
  []
 
-[52] [53]
+[53]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 779--799
  [] [] [] 
  []
@@ -1108,36 +1108,41 @@ Overfull \hbox (11.89737pt too wide) in alignment at lines 799--819
  []
 
 [55]
-Missing character: There is no 🧪 (U+1F9EA) in font [lmroman12-regular]:mapping=
-tex-text;!
-
 Overfull \hbox (11.89737pt too wide) in alignment at lines 819--839
  [] [] [] 
  []
 
-[56]
+[56] [57]
+Missing character: There is no 🧪 (U+1F9EA) in font [lmroman12-regular]:mapping=
+tex-text;!
+
 Overfull \hbox (11.89737pt too wide) in alignment at lines 839--859
  [] [] [] 
  []
 
-[57] [58]
+[58]
 Overfull \hbox (11.89737pt too wide) in alignment at lines 859--879
  [] [] [] 
  []
 
-[59] [60])
-Overfull \hbox (11.89737pt too wide) in alignment at lines 879--49
+[59] [60]
+Overfull \hbox (11.89737pt too wide) in alignment at lines 879--899
  [] [] [] 
  []
 
-[61] [62] [63] (./课时目标.aux) ) 
+[61])
+Overfull \hbox (11.89737pt too wide) in alignment at lines 899--49
+ [] [] [] 
+ []
+
+[62] [63] [64] (./课时目标.aux) ) 
 Here is how much of TeX's memory you used:
  20087 strings out of 476919
  457204 string characters out of 5825424
- 824762 words of memory out of 5000000
+ 822762 words of memory out of 5000000
  39688 multiletter control sequences out of 15000+600000
  408737 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,8n,104p,436b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 课时目标.pdf (63 pages).
+Output written on 课时目标.pdf (64 pages).
