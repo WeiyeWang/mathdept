@@ -9,6 +9,19 @@ def color_value(matchobj):
     value = matchobj.group(1)
     return "\t"+"\\textcolor{red!"+ "%.3f" %(100*float(value)) +"!green}{" + value +"}"
 
+def get_objects_list():
+    with open("../单元目标叙写/课时目标/课时目标汇总.tex","r",encoding = "utf8") as f:
+        objects = [o for o in f.read().split("\n") if len(o)>0]
+    object_dict = {}
+    for o in objects:
+        o = re.sub(r"\\\\[\s]*\\hline","",o)
+        o_list = [trim(s) for s in o.split("&")]
+        name = o_list[0]
+        unit = o_list[1]
+        content = o_list[2]
+        object_dict[name] = "|"+unit+"|"+content
+    return(object_dict)
+
 vault_files = [f for f in os.listdir("../题库0.2") if "题库" in f]
 problems = ""
 for filename in vault_files:
@@ -20,7 +33,9 @@ ids = [trim(x) for x in re.findall("<BID>([\s\d]*?)<EID>",problems)]
 #生成题号列表
 
 data_teachers = ""
-data_students = ""    
+data_students = "" 
+
+obj_dict = get_objects_list()
 
 for id in ids:
     regular_expression = str(id).zfill(6)+"\n<EID>[\s\S]*?\[E题目\]"
@@ -43,8 +58,21 @@ for id in ids:
         origin = trim(re.findall("<B出处>([\s\S]*?)<E出处>",problem_set)[0])
         if len(origin) == 0:
             origin = "出处不详"
+        objects = trim(re.findall("<B目标>([\s\S]*?)<E目标>",problem_set)[0])
+        if len(objects) == 0:
+            objects = "暂未关联目标\n\n"
+        elif "KNONE" in objects:
+            objects = "该题的考查目标不在目前的集合中\n\n"
+        else:
+            objects_string = ""
+            for obj in [ob for ob in objects.split("\n") if len(ob)>0]:
+                try:
+                    objects_string += obj + obj_dict[obj] + "\n\n"
+                except:
+                    print(id,"题, 目标",obj,":目标id有错误.")
+            objects = objects_string
         students_string = "\\item ("+id+")"+problem+"\n"
-        teachers_string = students_string+"\n\n答案: "+answer + "\n\n" + "解答或提示: " + solution + "\n\n使用记录:\n\n"+ usage + "\n" + "\n\n出处: "+origin + "\n"
+        teachers_string = students_string+"\n\n关联目标:\n\n"+ objects +"答案: "+answer + "\n\n" + "解答或提示: " + solution + "\n\n使用记录:\n\n"+ usage + "\n" + "\n\n出处: "+origin + "\n"
         data_teachers += teachers_string
         data_students += students_string
 #生成学生的文件和教师的源文件
