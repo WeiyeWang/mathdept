@@ -95,8 +95,6 @@
 <B题目>
 若$a>b$, 则下列各式中正确的是\bracket{20}.
 \fourch{$a\lg x>b\lg x$($x>0$)}{$ax^2>bx^2$}{$a^2>b^2$}{$2^x\cdot a>2^x\cdot b$}
-item 设$ab>0$, 且$\dfrac ca>\dfrac db$, 则下列各式中, 恒成立的是\bracket{20}.
-\fourch{$bc<ad$}{$bc>ad$}{$\dfrac ac>\dfrac bd$}{$\dfrac ac<\dfrac bd$}
 <E题目>
 <B目标>
 

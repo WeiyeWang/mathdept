@@ -2,7 +2,7 @@ import os
 def dollared(string):
     flag = True
     for c in string:
-        if not c in "1234567890.+-:":
+        if not c in "1234567890.+-:[]()":
             flag = False
             break
     if flag:
@@ -26,8 +26,8 @@ for c in data:
 data = data1
 data = data.replace("．",".").replace("：",":")
 elements = data.split("\n")
-elements_per_line = 5 #这里需要修改
-contents = "{|"
+elements_per_line = int(elements.pop(-1)) #这里需要修改
+contents = "\\begin{center}\n\\begin{tabular}{|"
 for i in range(elements_per_line):
     contents += "c|"
 contents += "}\n"
@@ -42,6 +42,7 @@ for element in elements:
     col += 1
     if col > elements_per_line:
         col = 1
+contents += "\\end{tabular}" + "\n" + "\\end{center}"
 
-with open("outputfile.txt","w",encoding = "utf8") as f:
+with open("tablefile.txt","w",encoding = "utf8") as f:
     f.write(contents)

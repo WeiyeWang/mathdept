@@ -207,7 +207,7 @@ data = re.sub("珗",r"\\overrightarrow ",data)
 data = re.sub("珝",r"\\overrightarrow ",data)
 data = re.sub("珤",r"\\overrightarrow ",data)
 data = re.sub("珤犲",r"\\overrightarrow e_ ",data)
-data = re.sub("λ",r"\\lambda e_ ",data)
+data = re.sub("λ",r"\\lambda ",data)
 data = re.sub("ｉ",r"\\mathrm{i}",data)
 data = re.sub("∈",r"\\in ",data)
 data = re.sub("⊥",r"\\perp ",data)
@@ -238,14 +238,15 @@ data = re.sub("Ｐ",r"\\mathrm{P}^",data)
 data = re.sub("",r"\\supseteq",data)
 data = re.sub("ｅ",r"\\mathrm{e}",data)
 data = re.sub("μ",r"\\mu",data)
+data = re.sub("ρ",r"\\rho",data)
 
 
 #修改一些常用的错误latex命令
 data = re.sub("centerdot","cdot",data)
 data = re.sub("cancel","not",data)
 
-whole_numbers = "０１２３４５６７８９＋－＝犲狆狇狉犕犖＞＜犃犅犆犇狓犝［］｜犪狔犙犽犘犚犫犛犮犈犗犿犣狀犳犵犺狋犻犼狕犉犾′犱狊犌犡犢狘"
-correct_numbers = "0123456789+-=epqrMN><ABCDxU[]|ayQkPRbScEOmZnfghtijzFl'dsGXY|"
+whole_numbers = "０１２３４５６７８９＋－＝犞犎犲狆狇狉犕犖＞＜犃犅犆犇狓犝［］｜犪狔犙犽犘犚犫犛犮犈犗犿犣狀犳犵犺狋犻犼狕犉犾′犱狊犌犡犢狘"
+correct_numbers = "0123456789+-=VHepqrMN><ABCDxU[]|ayQkPRbScEOmZnfghtijzFl'dsGXY|"
 
 
 

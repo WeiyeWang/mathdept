@@ -1,0 +1,9 @@
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+& 合格 & 不合格 & 总计 \\ \hline
+改进前 & $2422$ & $439$ & $2861$ \\ \hline
+改进后 & $2892$ & $447$ & $3339$ \\ \hline
+总计 & $5314$ & $886$ & $6200$ \\ \hline
+\end{tabular}
+\end{center}
