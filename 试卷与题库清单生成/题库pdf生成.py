@@ -5,9 +5,18 @@ def trim(string):
     string = re.sub(r"[ \t\n]*$","",string)
     return string
 
+def get_color(value):
+    value = float(value)
+    if value>=0.5:
+        (r,g,b)=(1,2-2*value,0)
+    else:
+        (r,g,b)=(2*value,1,0)
+    return "{" + "%.3f" %(r) + "," + "%.3f" %(g) + ",0}"
+
+
 def color_value(matchobj):
     value = matchobj.group(1)
-    return "\t"+"\\textcolor{red!"+ "%.3f" %(100*float(value)) +"!green}{" + value +"}"
+    return "\t"+"\\fcolorbox[rgb]{0,0,0}"+ get_color(value) +"{" + value +"}"
 
 def get_objects_list():
     with open("../单元目标叙写/课时目标/课时目标汇总.tex","r",encoding = "utf8") as f:
