@@ -1,1259 +1,1926 @@
-0.9289 相同
+0.9450 相同
 
-010022	已知集合$A=\{x, y\}$, $B=\{2x, 2x^2\}$, 且$A=B$. 求集合$A$.
+000007	已知集合$A=\{x|x^2+px+q=0\}$, $B=\{x|x^2-x+r=0\}$, 且$A\cap B=\{-1\}$, $A\cup B=\{-1, 2\}$. 求实数$p$、$q$、$r$的值.
 
-007690	已知集合$A=\{x,y\}$, 集合$B=\{2x,2x^2\}$, 且$A=B$, 求集合$A$.
+001015	已知集合$A=\{x|\ x^2+px+q=0\}$, $B=\{x|\ x^2-x+r=0\}$, 且$A\cap B=\{-1\}$, $A\cup B=\{-1,2\}$, 求实数$p,q,r$的值.
 
-0.9184 相同
+0.9450 相同
 
-010023	已知集合$A=\{x|x\le 7\}$, $B=\{x|x<2\}$, $C=\{x|x>5\}$. 求: $A\cap B$, $A\cap C$, $A\cap (B\cap C)$.
+000007	已知集合$A=\{x|x^2+px+q=0\}$, $B=\{x|x^2-x+r=0\}$, 且$A\cap B=\{-1\}$, $A\cup B=\{-1, 2\}$. 求实数$p$、$q$、$r$的值.
 
-007694	已知集合$A=\{x|x\le 7\}$, 集合$B=\{x|x<2\}$, 集合$C=\{x|x>5\}$, 求$A\cap B$, $A\cap C$, $A\cap (B\cap C)$.
+007755	已知集合$A=\{x|x^2+px+q=0\}$, 集合$B=\{x|x^2-x+r=0\}$, 且$A\cap B=\{-1\}$, $A\cup B=\{-1,2\}$, 求$p$、$q$、$r$的值.
 
-0.8565 相同
+0.9573 相同
 
-010024	已知集合$A=\{(x, y)|y=-x+1\}$, $B=\{(x, y)|y=x^2-1\}$. 求$A\cap B$.
+000011	若集合$M=\{a|a=x+\sqrt2y, x,y\in \mathbf{Q}\}$, 则下列结论正确的是\bracket{20}.
+\fourch{$M\subseteq \mathbf{Q}$}{$M=\mathbf{Q}$}{$M\supset \mathbf{Q}$}{$M\subset \mathbf{Q}$}
 
-007695	已知集合$A=\{(x,y)|u=-x+1\}$, 集合$B=\{(x,y)|y=x^2-1\}$, 求$A\cap B$.
+007757	若集合$M=\{a|a=x+\sqrt 2y,\ x,y\in \mathbf{Q}\}$, 则下列结论正确的是\bracket{20}.
+\fourch{$M\subseteq \mathbf{Q}$}{$M=\mathbf{Q}$}{$M\supsetneqq \mathbf{Q}$}{$M\subsetneqq \mathbf{Q}$}
 
-0.9481 相同
+0.8884 相同
 
-010026	已知集合$A=\{2, (a+1)^2, a^2+3a+3\}$, 且$1\in A$. 求实数$a$的值.
+000015	已知全集$U=\mathbf{R}$, 集合$A=\{x|x\le a-1\}$, $B=\{x|x>a+2\}$, $C=\{x|x<0\text{或}x\ge 4\}$, 且$\overline{A\cup B}\subseteq C$. 求实数$a$的取值范围.
 
-007685	已知集合$A=\{2,(a+1)^2,a^2+3a+3\}$, 且$1\in A$, 求实数$a$的值.
+007756	已知全集$U=\mathbf{R}$, 集合$A=\{x|x\le a-1\}$, 集合$B=\{x|x>a+2\}$, 集合$C=\{x|x<0$或$x\ge 4\}$.若$\complement _U(A\cup B)\subseteq C$, 求实数$a$的取值范围.
 
-0.9208 相同
+0.8665 相同
 
-010029	已知集合$A=\{1, 4, x\}$, $B=\{1, x^2\}$, 且$A\cup B=A$. 求$x$的值及集合$A$、$B$.
+000016	已知集合$A=\{x|(a-1)x^2+3x-2=0\}$. 是否存在这样的实数$a$, 使得集合$A$有且仅有两个子集? 若存在, 求出实数$a$的值及对应的两个子集; 若不存在, 说明理由.
 
-007703	已知集合$A=\{1,4,x\}$, 集合$B=\{1,x^2\}$, 且$A\cup B=A$, 求$x$的值及集合$A$、$B$.
+007761	已知集合$A=\{x|(a-1)x^2+3x-2=0\}$, 是否存在这样的实数$a$, 使得集合$A$有且仅有两个子集? 若存在, 求出实数$a$的值及对应的两个子集;若不存在.请说明理由.
 
-0.9196 相同
+0.9136 相同
 
-010037	已知$a$为实数. 写出关于$x$的方程$ax^2+2x+1=0$至少有一个实根的一个充要条件、一个充分非必要条件和一个必要非充分条件.
+000021	设$a>b>0$, 比较$\dfrac{b+2a}{a+2b}$与$\dfrac ab$的值的大小.
 
-007742	已知$a$为实数, 写出关于$x$的方程$ax^2+2x+1=0$至少有一个实数根的一个充要条件、一个充分条件、一个必要条件.
-
-0.9394 无关
-
-010040	设$a\in \mathbf{R}$, 求关于$x$的方程$ax=2$的解集.
-
-009445	设$a\in \mathbf{R}$, 求关于$x$的方程$ax=a^2+x-1$的解集.
-
-0.9729 无关
-
-010041	设$k\in \mathbf{R}$, 求关于$x$与$y$的二元一次方程组$\begin{cases}y=-2x+1,\\  y=kx-3\end{cases}$的解集.
-
-009446	设$k\in \mathbf{R}$, 求关于$x$与$y$的二元一次方程组$\begin{cases}y=kx+1, \\ y=2kx+3 \end{cases}$的解集.
-
-0.9778 相同
-
-010047	如果$a^2>b^2$, 那么下列不等式中成立的是\bracket{20}.
-\fourch{$a>0>b$}{$a>b>0$}{$|a|>|b|$}{$a>|b|$}
-
-007765	如果$a^2>b^2$, 那么下列不等式中正确的是\bracket{20}.
-\fourch{$a>0>b$}{$a>b>0$}{$|a|>|b|$}{$a>|b|$}
-
-0.9768 相同
-
-010048	如果$a<b<0$, 那么下列不等式中成立的是\bracket{20}.
-\fourch{$\dfrac ab<1$}{$a^2>ab$}{$\dfrac1{b^2}<\dfrac 1{a^2}$}{$\dfrac 1a<\dfrac 1b$}
-
-007766	如果$a<b<0$, 那么下列不等式中正确的是\bracket{20}.
-\fourch{$\dfrac{-a}{-b}<1$}{$a^2>ab$}{$\dfrac 1{b^2}<\dfrac 1{a^2}$}{$\dfrac 1a<\dfrac 1b$}
-
-0.9757 相同
-
-010049	如果$a<0<b$, 那么下列不等式中成立的是\bracket{20}.
-\fourch{$\sqrt{-a}<\sqrt{-b}$}{$a^2<b^2$}{$a^3<b^3$}{$ab>b^2$}
-
-007767	如果$a<0<b$, 那么下列不等式中正确的是\bracket{20}.
-\fourch{$\sqrt {-a}<\sqrt b$}{$a^2<b^2$}{$a^3<b^3$}{$ab>b^2$}
-
-0.9825 相同
-
-010074	已知关于$x$的一元二次方程$2x^2+ax+1=0$无实数解, 求实数$a$的取值范围.
-
-007795	已知关于$x$的二次方程$2x^2+ax+1=0$无实数解, 求实数$a$的取值范围.
-
-0.9667 相同
-
-010087	若关于$x$的不等式组$\begin{cases} (2x-3)(3x+2)\le 0, \\  x-a>0 \end{cases}$没有实数解, 求实数$a$的取值范围.
-
-007799	已知关于$x$的不等式组$\begin{cases} (2x-3)(3x+2)\le 0, \\ x-a>0 \end{cases}$无实数解, 求实数$a$的取值范围.
-
-0.8771 关联
-
-010100	已知$a$、$b$是互不相等的正数, 求证: $(a^2+1)(b^2+1)>4ab$.
-
-007830	已知$a$、$b$、$c$是不全相等的整数, 求证: $(a^2+1)(b^2+1)(c^2+1)>8abc$.
-
-0.8575 相同
-
-010113	设$a^{2x}=2$, 且$a>0$. 求$\dfrac{a^{3x}+a^{-3x}}{a^x+a^{-x}}$的值.
-
-001294	设$a^{2x}=2$, 且$a>0$, $a \ne 1$, 求$\dfrac{a^{3x}+a^{-3x}}{a^x+a^{-x}}$的值.
-
-0.8575 相同
-
-010113	设$a^{2x}=2$, 且$a>0$. 求$\dfrac{a^{3x}+a^{-3x}}{a^x+a^{-x}}$的值.
-
-007953	设$a^{2x}=2$, 且$a>0$, $a\ne 1$, 求$\dfrac{a^{3x}+a^{-3x}}{a^x+a^{-x}}$的值.
-
-0.8940 相同
-
-010127	已知$5.4^x=3$, $0.6^y=3$. 求$\dfrac 1x-\dfrac 1y$的值.
-
-008026	已知$5.4^x=3$, $0.6^y=3$, 求$\dfrac 1x-\dfrac 1y$的值.
-
-0.9599 关联
-
-010129	若幂函数$y=x^a$的图像经过点$(\sqrt[4]{3}, 3)$, 求此幂函数的表达式.
-
-009485	若幂函数$y=x^a$的图像经过点$(3, \sqrt 3)$, 求此幂函数的表达式.
-
-0.8923 关联
-
-010130	求下列函数的定义域, 并作出它们的大致图像:\\
-(1) $y=x^\frac 15$;\\
-(2) $y=x^{-2}$;\\
-(3) $y=x^{\frac -34}$.
-
-009486	求下列函数的定义域, 并作出它们的大致图像:\\
-(1) $y=x^{\frac 13}$;\\
-(2) $y=x^{-\frac 12}$;\\
-(3) $y=x^{\frac 43}$.
-
-0.8546 关联
-
-010134	作出函数$y=\dfrac{x-1}{x+2}$的大致图像.
-
-007946	作函数$y=\dfrac{|x|+1}{|x+1|}$的大致图像.
-
-0.9426 关联
-
-010134	作出函数$y=\dfrac{x-1}{x+2}$的大致图像.
-
-009490	作出函数$y=\dfrac{-x-1}{x+2}$的大致图像．
-
-0.8790 关联
-
-010136	若幂函数$y=x^s$在$0<x<1$时的图像位于直线$y=x$的上方, 则$s$的取值范围是\blank{50}.
-
-005460	若幂函数$y=x^n$的图像在$0<x<1$时位于直线$y=x$的下方, 则$n$的取值范围是\blank{50}.
-
-0.8953 相同
-
-010136	若幂函数$y=x^s$在$0<x<1$时的图像位于直线$y=x$的上方, 则$s$的取值范围是\blank{50}.
-
-005461	若幂函数$y=x^n$的图像在$0<x<1$时位于直线$y=x$的上方, 则$n$的取值范围是\blank{50}.
-
-0.8549 无关
-
-010155	求下列函数的定义域:\\
-(1) $y=\log_a (x+12)$(常数$a>0$且$a\ne 1$);\\
-(2) $y=\log_2\dfrac1{x^2-2x+5}$.
-
-009500	求下列函数的定义域:\\
-(1) $y=\log_2\dfrac{2+x}{1-x}$;\\
-(2) $y=\log_a(4-x^2)$(常数$a>0$且$a\ne 1$).
-
-0.9643 关联
-
-010158	已知常数$a>0$且$a\ne 1$, 假设无论$a$取何值, 函数$y=\log_ax-1$的图像恒经过一个定点. 求此点的坐标.
-
-009502	已知常数$a>0$且$a\ne 1$, 假设无论$a$取何值, 函数$y=\log_a(x-1)$的图像恒经过一个定点, 求此点的坐标.
-
-0.8700 相同
-
-010167	如果$^{237}\text{U}$在不断的裂变中, 每天所剩留质量与前一天剩留质量相比, 按同一比例减少, 且经过$7$天裂变, 剩余的质量是原来的$50\%$. 计算至少要经过多少天裂变, 其剩留质量才小于原来的$10\%$.
-
-008099	如果$^{237}U$在不断的裂变中, 每天所剩留质量与上一天剩留质量相比, 按同一比例减少, 经过$7$天裂变, 剩留的质量是原来的$50\%$, 计算它经过多少天裂变, 剩留质量是原来的$10\%$.
-
-0.9975 相同
-
-010170	观察下列函数的图像, 并写出它们的值域:
-\begin{center}
-    \begin{tikzpicture}[>=latex,scale = 0.6]
-        \draw [->] (-1,0) -- (4,0) node [below] {$x$};
-        \draw [->] (0,-1) -- (0,4) node [left] {$y$};
-        \draw (0,0) node [below left] {$O$};
-        \foreach \i in {1,2,3}
-        {
-          \draw (\i,0.1) -- (\i,0) node [below] {$\i$};
-          \draw (0.1,\i) -- (0,\i) node [left] {$\i$};          
-        };
-        \draw (0,0) -- (1,1) -- (2,1) (2,2) -- (3,2);
-        \draw [dashed] (0,1) -- (1,1) -- (1,0) (0,2) -- (2,2) (2,0) -- (2,2) (3,0) -- (3,2);
-        \filldraw [fill = white, draw = black] (2,1) circle (0.05) (2,2) circle (0.05) (3,2) circle (0.05);
-        \draw (1.5,-1) node [below] {(1)};
-    \end{tikzpicture}
-    \begin{tikzpicture}[>=latex,scale = 0.6]
-        \draw [->] (-2.5,0) -- (2.5,0) node [below] {$x$};
-        \draw [->] (0,-1) -- (0,4) node [left] {$y$};
-        \draw (0,0) node [below left] {$O$};
-        \foreach \i in {1,2}
-        {
-          \draw (\i,0.1) -- (\i,0) node [below] {$\i$};
-          \draw (0.1,\i) -- (0,\i) node [left] {$\i$};          
-        };
-        \foreach \i in {-1,-2}
-        {
-            \draw (\i,0.1) -- (\i,0) node [below] {$\i$};
-        };
-        \draw (-2,2) -- (-1,2) -- (0,0) -- (1,2) -- (2,2);
-        \draw [dashed] (-2,0) -- (-2,2) (2,0) -- (2,2) (-1,2) -- (1,2);
-        \filldraw [fill = white, draw = black] (-2,2) circle (0.05) (2,2) circle (0.05);
-        \draw (0,-1) node [below] {(2)};
-    \end{tikzpicture}
-    \begin{tikzpicture}[>=latex,scale = 0.6]
-        \draw [->] (-2.5,0) -- (5.5,0) node [below] {$x$};
-        \draw [->] (0,-1) -- (0,4) node [left] {$y$};
-        \draw (0,0) node [below left] {$O$};
-        \foreach \i in {-2,-1,1,2,3,4,5}
-        {
-            \draw (\i,0.1) -- (\i,0) node [below] {$\i$};
-         
-        };
-        \foreach \i in {-1,1,2,3}
-        {
-            \draw (0.1,\i) -- (0,\i) node [left] {$\i$}; 
-        };
-        \draw [domain = -2:5] plot (\x,{2/49*(3+2*sqrt(2))*\x*\x+4/49*(-1-3*sqrt(2))*\x+(17-40*sqrt(2))/49});
-        \draw [dashed] (0,-1) -- ({7*sqrt(2)-9},-1) (5,0) -- (5,3) -- (0,3) (-2,0) -- (-2,1) -- (0,1);
-        \filldraw [fill = white, draw = black] (-2,1) circle (0.05) (5,3) circle (0.05);
-        \draw (1.5,-1) node [below] {(3)};
-    \end{tikzpicture}
-\end{center}
-
-007867	观察下列各函数, 并写出他们的值域:
-\begin{center}
-    \begin{tikzpicture}[>=latex,scale = 0.6]
-        \draw [->] (-1,0) -- (4,0) node [below] {$x$};
-        \draw [->] (0,-1) -- (0,4) node [left] {$y$};
-        \draw (0,0) node [below left] {$O$};
-        \foreach \i in {1,2,3}
-        {
-          \draw (\i,0.1) -- (\i,0) node [below] {$\i$};
-          \draw (0.1,\i) -- (0,\i) node [left] {$\i$};          
-        };
-        \draw (0,0) -- (1,1) -- (2,1) (2,2) -- (3,2);
-        \draw [dashed] (0,1) -- (1,1) -- (1,0) (0,2) -- (2,2) (2,0) -- (2,2) (3,0) -- (3,2);
-        \filldraw [fill = white, draw = black] (2,1) circle (0.05) (2,2) circle (0.05) (3,2) circle (0.05);
-        \draw (1.5,-1) node [below] {(1)};
-    \end{tikzpicture}
-    \begin{tikzpicture}[>=latex,scale = 0.6]
-        \draw [->] (-2.5,0) -- (2.5,0) node [below] {$x$};
-        \draw [->] (0,-1) -- (0,4) node [left] {$y$};
-        \draw (0,0) node [below left] {$O$};
-        \foreach \i in {1,2}
-        {
-          \draw (\i,0.1) -- (\i,0) node [below] {$\i$};
-          \draw (0.1,\i) -- (0,\i) node [left] {$\i$};          
-        };
-        \foreach \i in {-1,-2}
-        {
-            \draw (\i,0.1) -- (\i,0) node [below] {$\i$};
-        };
-        \draw (-2,2) -- (-1,2) -- (0,0) -- (1,2) -- (2,2);
-        \draw [dashed] (-2,0) -- (-2,2) (2,0) -- (2,2) (-1,2) -- (1,2);
-        \filldraw [fill = white, draw = black] (-2,2) circle (0.05) (2,2) circle (0.05);
-        \draw (0,-1) node [below] {(2)};
-    \end{tikzpicture}
-    \begin{tikzpicture}[>=latex,scale = 0.6]
-        \draw [->] (-2.5,0) -- (5.5,0) node [below] {$x$};
-        \draw [->] (0,-1) -- (0,4) node [left] {$y$};
-        \draw (0,0) node [below left] {$O$};
-        \foreach \i in {-2,-1,1,2,3,4,5}
-        {
-            \draw (\i,0.1) -- (\i,0) node [below] {$\i$};
-         
-        };
-        \foreach \i in {-1,1,2,3}
-        {
-            \draw (0.1,\i) -- (0,\i) node [left] {$\i$}; 
-        };
-        \draw [domain = -2:5] plot (\x,{2/49*(3+2*sqrt(2))*\x*\x+4/49*(-1-3*sqrt(2))*\x+(17-40*sqrt(2))/49});
-        \draw [dashed] (0,-1) -- ({7*sqrt(2)-9},-1) (5,0) -- (5,3) -- (0,3) (-2,0) -- (-2,1) -- (0,1);
-        \filldraw [fill = white, draw = black] (-2,1) circle (0.05) (5,3) circle (0.05);
-        \draw (1.5,-1) node [below] {(3)};
-    \end{tikzpicture}
-\end{center}
-
-0.8549 相同
-
-010173	若函数$y=f(x)$的定义域为$\mathbf{R}$, 则$y=f(x)$为奇函数的一个充要条件为\bracket{20}.
-\twoch{$f(0)=0$}{对任意$x\in \mathbf{R}$, $f(x)=0$都成立}{存在某个$x_0\in \mathbf{R}$, 使得$f(x_0)+f(-x_0)=0$}{对任意给定的$x\in \mathbf{R}$, $f(x)+f(-x)=0$都成立}
-
-007892	若函数$y=f(x)$的定义域为$\mathbf{R}$, 则$y=f(x)$为奇函数的充要条件为\bracket{20}.
-\twoch{$f(0)=0$}{对任意$x\in \mathbf{R},f(x)=0$}{存在某个$x_0\in \mathbf{R}$, 使得$f(x_0)+f(-x_0)=0$}{对任意的$x\in \mathbf{R}$, $f(x)+f(-x)=0$都成立}
-
-0.8771 无关
-
-010180	求函数$y=\log_{\frac 12}(x+2)$, $x\in [2, 6]$的最大值与最小值.
-
-009523	求函数$y=(\dfrac 12)^x$, $x\in [1, 3]$的最大值与最小值.
-
-0.9379 相同
-
-010185	作出函数$y=x^2-2|x|$的大致图像, 并分别写出它的定义域、奇偶性、单调区间及最小值.
-
-007911	画出函数$y=x^2-2|x|$的图像, 并写出它的定义域、奇偶性、单调区间、最小值.
-
-0.8997 相同
-
-010186	研究函数$y=\dfrac1{1+x^2}$的定义域、奇偶性、单调性及最大值.
-
-007912	研究函数$f(x)=\dfrac 1{1+x^2}$的定义域、奇偶性、单调性、最大值.
-
-0.9618 相同
-
-010187	如果函数$y=x^2-2mx+1$在区间$(-\infty, 2]$上是严格减函数, 那么实数$m$的取值范围为\blank{50}.
-
-007902	如果函数$y=x^2-2mx+1$在$(-\infty ,2]$上是减函数, 那么实数$m$的取值范围是\blank{50}.
-
-0.8992 相同
-
-010189	某企业去年四个季度生产某种型号机器的数量$y$(单位:万台)与季度$x$的函数关系如下表所示:
-\begin{center}
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-$x$/季度 & $1$ & $2$ & $3$ & $4$ \\ \hline
-$y$/万台 & $10$ & $12$ & $14$ & $16$ \\ \hline
-\end{tabular}
-\end{center}
-试写出该函数的定义域, 并作出其大致图像.
-
-007868	某企业去年四个季度生产某种型号机器的数量$y$(万台)与季度的函数关系是:
-\begin{center}
-    \begin{tabular}{|c|c|c|c|c|}
-        \hline
-        $x$(季度) & $1$ & $2$ & $3$ & $4$\\ \hline
-        $y$(万台) & $10$ & $12$ & $14$ & $16$\\ \hline
-    \end{tabular}
-\end{center}
-试写出函数的定义域, 并作出函数的图像.
-
-0.8797 相同
-
-010193	已知某气垫船的最大船速是$48$海里/时, 船每小时使用的燃料费用和船速的平方成正比. 当船速为$30$海里/时时, 船每小时的燃料费用为$600$元, 而其余费用(不论船速为多少)都是每小时$864$元. 船从甲地行驶到乙地, 甲乙两地相距$100$海里.\\
-(1) 试把船每小时使用的燃料费用$P($单位: 元)表示成船速狏(单位: 海里/时)的函数;\\
-(2) 试把船从甲地到乙地所需的总费用$y$(单位:元)表示成船速$v$(单位: 海里/时)的函数;\\
-(3) 当船速为多少时, 船从甲地到乙地所需的总费用最少?
-
-007920	已知某气垫船的最大船速是$48$海里/时, 船每小时使用的燃料费用和船速的平方成正比, 若船速为$30$海里/时, 则船每小时的燃料费用为$600$元.其余费用(不论船速为多少)都是每小时$864$元.甲乙两地相距$100$海里, 船从甲地行驶到乙地.\\
-(1) 试把船每小时使用的燃料费用$P$(元)表示成船速$v$(海里/时)的函数;\\
-(2) 试把船从甲地到乙地所需的总费用$y$表示成船速$v$(海里/时)的函数;\\
-(3) 当船速为每小时多少海里时, 船从甲地到乙地所需的总费用最少?
-
-0.8540 无关
-
-010197	解不等式: $\dfrac 2{x^2}\ge 3x-1$.
-
-007804	解不等式: $\dfrac{4x+3}{x-1}>5$.
-
-0.8542 无关
-
-010197	解不等式: $\dfrac 2{x^2}\ge 3x-1$.
-
-007809	解不等式: $|\dfrac 1{2-x}|\ge 2$.
-
-0.9461 相同
-
-010198	已知函数$y=x^2-4x-5$, $x\in [1, 3]$, 判断其是否存在反函数. 若存在, 求出反函数; 若不存在, 说明理由.
-
-008027	已知函数$f(x)=x^2-4x-5$, $x\in [1,3]$, 判断其是否存在反函数. 若存在, 求出反函数; 若不存在, 说明理由.
+004897	当$a>b>0$时, 比较$\dfrac{2a+b}{a+2b}$和$\dfrac ab$的大小.
 
 1.0000 相同
 
-010202	已知函数$y=\dfrac a{x+1}$的反函数的图像经过点$(\dfrac 12, 1)$, 求实数$a$的值.
+000022	已知$x>y$, 求证: $x^3-y^3>x^2y-xy^2$.
 
-008032	已知函数$y=\dfrac a{x+1}$的反函数的图像经过点$(\dfrac 12,1)$, 求实数$a$的值.
+007828	已知$x>y$, 求证: $x^3-y^3>x^2y-xy^2$.
 
-0.9844 相同
+0.9744 相同
 
-010203	在下列各组的两个角中, 终边不重合的一组是\bracket{20}.
-\fourch{$-43^\circ$与$677^\circ$}{$900^\circ$与$-1260^\circ$}{$-120^\circ$与$960^\circ$}{$150^\circ$与$630^\circ$}
+000026	求不等式$5\le x^2-2x+2<26$的所有正整数解.
 
-008100	下列各组的两个角中, 终边不相同的一组是\bracket{20}.
-\fourch{-$43^\circ$与$677^\circ$}{$900^\circ$与$-1260^\circ$}{$-120^\circ$与$960^\circ$}{$150^\circ$与$630^\circ$}
+007855	求不等式$5\le x^2-2x+2<26$的正整数解.
 
-0.9393 相同
+0.9354 相同
 
-010204	在平面直角坐标系中, 下列结论正确的是\bracket{20}.
-\twoch{小于$\dfrac \pi 2$的角一定是锐角}{第二象限的角一定是钝角}{始边相同且相等的角的终边一定重合}{始边相同且终边重合的角一定相等}
+000037	已知集合$A=\{x||x-a|<2\}$, $B=\{x|\dfrac{2x-1}{x+2}<1\}$, 且$A\subseteq B$. 求实数$a$的取值范围.
 
-008215	在平面直角坐标系中, 下列结论正确的是\bracket{20}.
-\twoch{小于$\dfrac{\pi}2$的角一定是锐角}{第二象限的角一定是钝角}{始边相同且相等的角的终边一定相同}{始边相同, 终边也相同的角一定相等}
+007995	已知集合$A=\{x||x-a|<2\}$, 集合$B=\{x|\dfrac{2x-1}{x-2}<1\}$, 且$A\subseteq B$, 求实数$a$的取值范围.
 
-0.9068 相同
+0.8628 关联
 
-010205	如果$\alpha$是锐角, 那么$2\alpha$是\bracket{20}.
-\fourch{第一象限的角}{第二象限的角}{小于$180^\circ$的正角}{钝角}
+000052	已知$\lg a<1$, 化简$\sqrt{\lg^2 a-\lg \dfrac{a^2}{10}}$.
 
-008102	如果$\alpha$是锐角, 那么$2\alpha$是\bracket{20}.
-\fourch{第一象限角}{第二象限角}{小于$180^\circ$的正角}{大于直角的正角}
+008096	已知$0<a<1$, 化简$\sqrt {\lg ^2a-\lg \dfrac{a^2}{10}}$.
 
-0.9551 关联
+0.9887 相同
 
-010206	找出与下列各角的终边重合的角$\alpha$($0^\circ \le \alpha<360^\circ$), 并判别下列各角是第几象限的角:\\
-(1) $-1441^\circ$;\\
-(2) $890^\circ$.
+000055	已知$\log_{18}9=a$, $18^b=5$, 则$\log_{36}45$等于\bracket{20}.
+\fourch{$\dfrac{a+b}{2+a}$}{$\dfrac{a+b}{2-a}$}{$\dfrac{a+b}{2a}$}{$\dfrac{a+b}{a^2}$}
 
-008104	找出与下列各角终边重合的角$\alpha (0^\circ\le \alpha <360^\circ)$, 并判别下列各角是哪个象限的角:\\
-(1) $-1441^\circ$;\\
-(2) $1790^\circ$.
+008082	若$\log _{18}9=a$, $18^b=5$, 则$\log _{36}45$等于\bracket{20}.
+\fourch{$\dfrac{a+b}{2+a}$}{$\dfrac{a+b}{2-a}$}{$\dfrac{a+b}{2a}$}{$\dfrac{a+b}{a^2}$}
 
-0.9028 相同
+0.9404 相同
 
-010208	已知扇形的弧长为$\dfrac{5\pi} 3$, 半径为$2$. 求该扇形的圆心角$\alpha$及面积$S$.
+000068	如果光线每通过一块玻璃其强度要减少$10\%$, 那么至少需要将多少块这样的玻璃重叠起来, 才能使通过它们的光线强度低于原来的$\dfrac 13$?
 
-008106	已知扇形的弧长为$\dfrac{5\pi}3$, 半径为$2$, 求扇形的面积$S$及圆心角$\alpha$.
+008090	如果光线每通过一块玻璃其强度要减少$10\%$, 求至少需要多少块这样的玻璃重叠起来, 才能使通过它们的光线强度为原来的强度的$\dfrac 13$以下?
 
-0.8531 无关
+0.8737 无关
 
-010214	已知$\tan \alpha=-\dfrac 12$, 求$\sin \alpha$及$\cos \alpha$.
+000076	求函数$y=\dfrac1{2-x}+\sqrt{x^2-1}$的定义域.
 
-008143	已知$\cos \alpha =\dfrac{12}{13}$, 求$\sin \alpha$、$\tan \alpha$的值.
+007862	求函数$y=\dfrac 1{x^2+2x-3}$的定义域.
 
 1.0000 相同
 
-010216	已知$\tan \alpha=2$, 求$\dfrac{\sin \alpha-\cos \alpha}{\sin \alpha+\cos \alpha}$的值.
+000076	求函数$y=\dfrac1{2-x}+\sqrt{x^2-1}$的定义域.
 
-008152	已知$\tan \alpha =2$, 求$\dfrac{\sin \alpha -\cos \alpha}{\sin \alpha +\cos \alpha}$的值.
+007924	求函数$y=\dfrac 1{2-x}+\sqrt {x^2-1}$的定义域.
 
-0.9644 关联
+0.8613 无关
 
-010216	已知$\tan \alpha=2$, 求$\dfrac{\sin \alpha-\cos \alpha}{\sin \alpha+\cos \alpha}$的值.
+000076	求函数$y=\dfrac1{2-x}+\sqrt{x^2-1}$的定义域.
+
+008040	求函数$y=\dfrac{\sqrt {2x-1}}{\lg x}$的定义域.
+
+0.9887 相同
+
+000089	已知$y=f(x)$是定义在$(-1, 1)$上的奇函数, 在区间$[0, 1)$上是严格减函数, 且$f(1-a)+f(1-a^2)<0$, 求实数$a$的取值范围.
+
+007939	已知$y=f(x)$是定义在$(-1,1)$上的奇函数, 在区间$[0,1)$上是减函数, 且$f(1-a)+f(1-a^2)<0$, 求实数$a$的取值范围.
+
+0.9919 相同
+
+000097	已知圆$O$上的一段圆弧长等于该圆的内接正方形的边长, 求这段圆弧所对的圆心角的弧度.
+
+008220	已知圆$O$上的一段圆弧长等于该圆的内接正方形的边长, 求这段圆弧所对的圆心角的弧度数.
+
+0.9821 关联
+
+000098	已知角$\alpha$的终边经过点$P(3a, 4a)$($a\ne 0$), 求$\sin \alpha$、$\cos \alpha$和$\tan \alpha$.
+
+008222	已知角$\alpha$的终边经过点$P(3a,-4a)$($a\ne 0$), 求$\sin \alpha$、$\cos \alpha$和$\tan \alpha$的值.
+
+0.9150 关联
+
+000099	化简:\\
+(1) $\dfrac{\sin (\theta -5\pi )}{\tan (3\pi -\theta )}\cdot \dfrac{\cot (\dfrac\pi 2-\theta )}{\tan (\theta -\dfrac{3\pi} 2)}\cdot \dfrac{\cos (8\pi -\theta )}{\sin(-\theta-4\pi)}$;\\
+(2) $\sin (\theta -\dfrac\pi 4)+\cos (\theta +\dfrac\pi 4)$.
+
+008223	化简: $\dfrac{\sin (\theta -5\pi)}{\tan (3\pi -\theta)}\cdot \dfrac{\cot (\dfrac{\pi}2-\theta)}{\tan (\theta -\dfrac{3\pi}2)}\cdot \dfrac{\cos (8\pi -\theta)}{\sin (-\theta -4\pi)}$.
+
+1.0000 相同
+
+000100	已知$\tan \alpha=3$, 求$\dfrac 1{\sin^2\alpha+2\sin \alpha\cos \alpha}$的值.
+
+008380	已知$\tan \alpha =3$, 求$\dfrac 1{\sin ^2\alpha +2\sin \alpha \cos \alpha}$的值.
+
+0.8930 无关
+
+000100	已知$\tan \alpha=3$, 求$\dfrac 1{\sin^2\alpha+2\sin \alpha\cos \alpha}$的值.
 
 009553	已知$\tan \alpha=3$, 求$\dfrac{2\sin \alpha+\cos \alpha}{\sin \alpha-\cos \alpha}$的值.
 
-0.8954 关联
+0.9515 相同
 
-010217	若$\sin \alpha-\cos \alpha=\dfrac 12$, 求$\sin \alpha\cos \alpha$的值.
+000101	在$\triangle ABC$中, 已知$a=5$, $b=4$, $A=2B$. 求$\cos B$.
 
-005929	若$\sin \alpha +\cos \alpha =\dfrac 13$, 则$\sin \alpha \cos \alpha =$\blank{50}.
+008198	在$\triangle ABC$中, 已知$a=5$, $b=4$, $A=2B$, 求$\cos B$.
 
-0.9618 相同
+0.8507 关联
 
-010219	利用诱导公式, 分别求角$\dfrac{23\pi}3$和$-\dfrac{87\pi} 4$的正弦、余弦及正切值.
+000103	(1) 已知$\sin \alpha=\dfrac{\sqrt 5}5$, $\sin \beta=\dfrac{\sqrt {10}}{10}$, 且$\alpha$及$\beta$都是锐角. 求$\alpha+\beta$的值;\\
+(2) 在$\triangle ABC$中, 已知$\tan A$与$\tan B$是方程$x^2-6x+7=0$的两个根, 求$\tan C$.
 
-008153	利用诱导公式, 求角$\dfrac{23\pi}3$和$-\dfrac{87\pi}4$的正弦、余弦、正切的值.
-
-0.9630 关联
-
-010231	已知$\alpha$是第二象限的角, 化简: $\sqrt{\dfrac{1+\sin \alpha}{1-\sin \alpha}}+\sqrt{\dfrac{1-\sin\alpha}{1+\sin\alpha}}$.
-
-008154	已知$\alpha$是第二象限的角, 化简$\sqrt {\dfrac{1+\sin \alpha}{1-\sin \alpha}}-\sqrt {\dfrac{1-\sin \alpha}{1+\sin \alpha}}$.
-
-0.8901 关联
-
-010232	已知$\sin \alpha+\cos \alpha=\dfrac 15$, $\alpha\in (0, \pi)$. 求$\sin \alpha$和$\cos \alpha$.
-
-008226	已知$\sin \alpha +\cos \alpha =\dfrac 23$, $\alpha \in (0,\pi)$, 求$\sin \alpha$、$\cos \alpha$的值.
-
-0.9098 相同
-
-010237	已知$\sin \alpha=\dfrac8{17}$, $\cos \beta=-\dfrac 5{13}$, 且$\alpha$、$\beta\in (\dfrac \pi 2, \pi)$. 求$\cos (\alpha+\beta)$的值.
-
-008172	已知$\sin \alpha =\dfrac 8{17}$, $\cos \beta =-\dfrac 5{13}$, $\alpha,\beta \in (\dfrac{\pi}2,\pi)$, 求$\cos (\alpha +\beta)$的值.
-
-0.9869 相同
-
-010238	已知$\sin \alpha=\dfrac 5{13}$, $\cos \beta=-\dfrac 35$, 且$\alpha$、$\beta$都是第二象限的角. 求$\sin (\alpha-\beta)$, $\cos (\alpha-\beta)$和$\tan (\alpha-\beta)$的值.
-
-008174	已知$\sin \alpha =\dfrac 5{13}$, $\cos \beta =-\dfrac 35$, 且$\alpha$、$\beta$都是第二象限的角.求$\sin (\alpha -\beta)$、$\cos (\alpha -\beta)$、$\tan (\alpha -\beta)$的值.
-
-0.9319 相同
-
-010240	已知$\sin \theta =-\dfrac 7{25}$, $\theta \in (\pi , \dfrac{3\pi} 2)$. 求$\tan (\theta -\dfrac\pi 4)$的值.
-
-008171	已知$\sin \theta =-\dfrac 7{25}$, $\theta \in (\pi ,\dfrac{3\pi}2)$, 求$\tan (\theta -\dfrac{\pi}4)$的值.
-
-0.9057 关联
-
-010240	已知$\sin \theta =-\dfrac 7{25}$, $\theta \in (\pi , \dfrac{3\pi} 2)$. 求$\tan (\theta -\dfrac\pi 4)$的值.
-
-009565	已知$\sin \theta =-\dfrac 5{13}$, $\theta \in (\pi , \dfrac3 2\pi )$. 求$\cos (\theta +\dfrac \pi 4)$的值.
-
-0.9373 相同
-
-010242	已知$\cos \varphi =-\dfrac 13$, 且$\pi <\varphi <\dfrac{3\pi} 2$. 求$\sin 2\varphi$, $\cos 2\varphi$和$\tan 2\varphi$的值.
-
-008179	已知$\cos \varphi =-\dfrac 13$, 且$\pi <\varphi <\dfrac{3\pi}2$, 求$\sin 2\varphi$、$\cos 2\varphi$和$\tan 2\varphi$的值.
-
-0.9926 相同
-
-010243	已知等腰三角形的底角的正弦值等于$\dfrac 45$, 求这个三角形的顶角的正弦、余弦和正切值.
-
-008180	已知等腰三角形的底角的正弦值等于$\dfrac 45$, 求这个三角形的顶角的正弦、余弦和正切的值.
-
-0.9201 无关
-
-010243	已知等腰三角形的底角的正弦值等于$\dfrac 45$, 求这个三角形的顶角的正弦、余弦和正切值.
-
-008182	已知等腰三角形的顶角的余弦值等于$-\dfrac 7{25}$, 求这个三角形的底角的正弦、余弦和正切的值.
-
-0.8950 相同
-
-010245	已知$\sin \alpha-\sin \beta=-\dfrac 13$, $\cos \alpha-\cos \beta=\dfrac 12$. 求$\cos (\alpha-\beta)$.
-
-003102	若$\sin\alpha-\sin\beta=-\dfrac 13$, $\cos\alpha-\cos\beta=\dfrac 12$, 则$\cos(\alpha-\beta)=$\blank{50}.
-
-0.8512 无关
-
-010245	已知$\sin \alpha-\sin \beta=-\dfrac 13$, $\cos \alpha-\cos \beta=\dfrac 12$. 求$\cos (\alpha-\beta)$.
-
-006214	已知$\sin \alpha +\sin \beta =\dfrac 12$, $\cos \alpha +\cos \beta =\dfrac 13$, 求$\cos ^2(\dfrac{\alpha -\beta}2)$的值.
-
-0.8608 无关
-
-010245	已知$\sin \alpha-\sin \beta=-\dfrac 13$, $\cos \alpha-\cos \beta=\dfrac 12$. 求$\cos (\alpha-\beta)$.
-
-006319	已知$\sin \alpha +\sin \beta =\dfrac 35$, $\cos \alpha +\cos \beta =\dfrac 45$, 求$\cos \alpha \cdot \cos \beta$的值.
-
-0.9435 相同
-
-010245	已知$\sin \alpha-\sin \beta=-\dfrac 13$, $\cos \alpha-\cos \beta=\dfrac 12$. 求$\cos (\alpha-\beta)$.
-
-008175	已知$\sin \alpha -\sin \beta =-\dfrac 13$, $\cos \alpha -\cos \beta =\dfrac 12$, 求$\cos (\alpha -\beta)$的值.
-
-0.8610 无关
-
-010246	已知锐角$\alpha$、$\beta$满足$\cos \alpha=\dfrac 45$及$\cos (\alpha+\beta)=\dfrac 35$, 求$\sin \beta$.
-
-006123	已知锐角$\alpha ,\beta$满足$\cos \alpha =\dfrac 45$, $\tan (\alpha -\beta)=-\dfrac 13$, 求$\cos \beta$.
-
-0.8994 关联
-
-010251	把下列各式化成$A\sin (\alpha+\varphi)$($A>0$)的形式:\\
-(1) $\sqrt 3\sin \alpha+\cos \alpha$;\\
-(2) $5\sin \alpha-12\cos \alpha$.
-
-009572	把下列各式化为$A\sin (\alpha+\varphi )$($A>0$)的形式:\\
-(1) $\sin \alpha+\cos \alpha$;\\
-(2) $-\sin \alpha+\sqrt 3\cos \alpha$.
-
-0.9198 关联
-
-010255	在$\triangle ABC$中, 已知$b=40$, $c=32$, $A=60^\circ$. 求$a$.
-
-008195	在$\triangle ABC$中, 已知$b=40$, $c=32$, $A=75^\circ$, 求$a$和$B$.
-
-0.8621 关联
-
-010255	在$\triangle ABC$中, 已知$b=40$, $c=32$, $A=60^\circ$. 求$a$.
-
-009582	在$\triangle ABC$中, 已知$a=3$, $b=4$, $C=60^\circ$. 求$c$.
-
-0.8801 关联
-
-010258	在$\triangle ABC$中, 已知$b=2$, $c=\sqrt 2$, $B=45^\circ$. 求$C$、$a$及$A$.
-
-006406	在$\triangle ABC$中, 已知$b=\sqrt 2$, $c=1$, $B=45^\circ$, 求$a,C$的值.
+008227	已知$\sin \alpha =\dfrac{\sqrt 5}5$, $\sin \beta =\dfrac{\sqrt {10}}{10}$, $\alpha$、$\beta$都是锐角, 求$\alpha +\beta$的值.
 
 1.0000 相同
 
-010265	已知$\triangle ABC$的面积$S=\dfrac{b^2+c^2-a^2}4$, 求$A$.
+000104	证明: $(\sin \alpha+\sin \beta)^2+(\cos \alpha+\cos \beta)^2=4\cos^2\dfrac{\alpha-\beta}{2}$.
 
-008209	已知$\triangle ABC$的面积$S=\dfrac{b^2+c^2-a^2}4$, 求$A$.
+008385	证明: $(\sin \alpha +\sin \beta)^2+(\cos \alpha +\cos \beta)^2=4\cos ^2\dfrac{\alpha -\beta}2$.
 
-0.9382 相同
+0.8408 相同
 
-010266	在$\triangle ABC$中, 已知$a=13$, $b=14$, $c=15$.\\
-(1) 求$\cos A$;\\
-(2) 求$\triangle ABC$的面积$S$.
+000107	已知$\sin \alpha=a\sin \beta$, $b\cos \alpha=a\cos \beta$, 且$\alpha$及$\beta$均为锐角, 求证: $\cos \alpha= \sqrt{\dfrac{a^2-1}{b^2-1}}$.
 
-008197	在$\triangle ABC$中, 已知$a=13$, $b=14$, $c=15$.\\
-(1) 求$\cos A$;\\
-(2) 求$S_{\triangle ABC}$.
+008232	已知$\sin \alpha =\alpha \sin \beta$, $b\cos \alpha =\alpha \cos \beta$, 且$\alpha$、$\beta$为锐角, 求证: $\cos \alpha =\sqrt {\dfrac{a^2-1}{b^2-1}}$.
 
-0.8874 相同
+0.8172 相同
 
-010270	某船在海面$A$处测得灯塔$C$在北偏东$30^\circ$方向, 与$A$相距$10\sqrt 3$海里, 且测得灯塔$B$在北偏西$75^\circ$方向, 与$A$相距$15\sqrt 6$海里. 船由$A$向正北方向航行到$D$处, 测得灯塔$B$在南偏西$60^\circ$方向. 这时灯塔$C$与$D$相距多少海里? $C$在$D$的什么方向?
+000108	已知$0<\alpha<\dfrac\pi 2<\beta<\pi$, 且$\cos \beta=-\dfrac13$, $\sin (\alpha+\beta)=\dfrac79$, 求$\sin \alpha$的值.
 
-008212	某船在海面$A$处测得灯塔$C$在北偏东$30^\circ$方向, 与$A$相距$10\sqrt 3$海量, 测得灯塔$B$在北偏西$75^\circ$方向, 在$A$相距$15\sqrt 6$海里. 船由$A$向正北方向航行到$D$处, 测得灯塔$B$在南偏西$60^\circ$方向.这时灯塔$C$与$D$相距多少海里? $C$在$D$的什么方向?
+008382	若$0<a<\dfrac{\pi}2<\beta <\pi$, 且$\cos \beta =-\dfrac 13$, $\sin (\alpha +\beta)=\dfrac 79$, 求$\sin \alpha$的值.
 
-0.9351 相同
+0.9658 相同
 
-010272	在$\triangle ABC$中, 求证:\\
-(1) $\dfrac{\cos 2A}{a^2} -\dfrac{\cos 2B}{b^2} =\dfrac1{a^2}-\dfrac 1{b^2}$;\\
-(2) $(a^2-b^2-c^2)\tan A+(a^2-b^2+c^2)\tan B=0$.
+000109	已知$\pi <\alpha<\dfrac{3\pi} 2$, $\pi <\beta<\dfrac{3\pi} 2$, 且$\sin \alpha=-\dfrac{\sqrt 5}5$, $\cos \beta=-\dfrac{\sqrt{10}}{10}$. 求$\alpha-\beta$的值.
 
-008235	在$\triangle ABC$中, 求证:
-(1)$\dfrac{\cos 2A}{a^2}-\dfrac{\cos 2B}{b^2}=\dfrac 1{a^2}-\dfrac 1{b^2}$.
-(2)$(a^2-b^2-c^2)\tan A+(a^2-b^2+c^2)\tan B=0$.
+008231	已知$\pi <\alpha <\dfrac{3\pi}2$, $\pi <\beta <\dfrac{3\pi}2$, $\sin \alpha =-\dfrac{\sqrt 5}5$, $\cos \beta =-\dfrac{\sqrt {10}}{10}$, 求$\alpha -\beta$的值.
 
-0.8741 关联
+0.9160 相同
 
-010283	求函数$y=\sin \dfrac x2+\cos \dfrac x2$的单调减区间.
+000110	已知$(1+\tan \alpha)(1+\tan \beta)=2$, 且$\alpha$及$\beta$都是锐角. 求证: $\alpha+\beta=\dfrac{\pi}{4}$.
 
-001519	函数$y=\sin \dfrac{x}{2}+\cos\dfrac{x}{2}$的递增区间为\blank{80}.
+008177	已知$(1+\tan \alpha)(1+\tan \beta)=2$, 且$\alpha$、$\beta$都是锐角, 求证: $\alpha +\beta =\dfrac{\pi}4$.
 
-0.8877 关联
+0.9460 相同
 
-010286	求函数$y=\sin^4x+\cos^4x$的最小正周期与最值.
+000111	已知$\alpha$是第二象限的角, 且$\sin \alpha=\dfrac{\sqrt {15}}4$. 求$\dfrac{\sin (\alpha+\dfrac{\pi}{4})}{1+\sin 2\alpha+\cos 2\alpha}$的值.
 
-006215	求$y=\sin ^6x+\cos ^6x$的最小正周期.
-
-0.9286 关联
-
-010286	求函数$y=\sin^4x+\cos^4x$的最小正周期与最值.
-
-008267	求函数$y=\sin ^4x+\cos ^4x$的周期.
-
-0.9821 相同
-
-010288	如图, 函数$y=f(x)$($x\in\mathbf{R}$)的图像由折线段组成, 且当$x$取偶数时, 对应的$y$的值为$0$; 而当$x$取奇数时, 对应的$y$的值为$2$.
-\begin{center}
-    \begin{tikzpicture}[>=latex,scale = 0.7]
-        \draw [->] (-5,0) -- (5,0) node [below] {$x$};
-        \draw [->] (0,-3) -- (0,3) node [left] {$y$};
-        \draw (0,0) node [below left] {$O$};
-        \foreach \i in {-4,-3,-2,-1,1,2,3,4}
-        {\draw (\i,0.1) -- (\i,0) node [below] {$\i$};};
-        \foreach \i in {-2,-1,1,2}
-        {\draw (0.1,\i) -- (0,\i) node [left] {$\i$};};
-        \draw (-5,2) -- (-4,0) -- (-3,2) -- (-2,0) -- (-1,2) -- (0,0) -- (1,2) -- (2,0) -- (3,2) -- (4,0) -- (5,2);
-    \end{tikzpicture}
-\end{center}
-(1) 写出函数$y=f(x)$的最小正周期;\\
-(2) 作出函数$y=f(x-1)$的图像.
-
-008268	如图所示, 函数$y=f(x)(x\in \mathbf{R})$的图像由折线段组成, 其中$x$取偶数时, 对应的$y$值为$0$; $x$到奇数时, 对应的$y$值为$2$.
-\begin{center}
-    \begin{tikzpicture}[>=latex,scale = 0.7]
-        \draw [->] (-5,0) -- (5,0) node [below] {$x$};
-        \draw [->] (0,-3) -- (0,3) node [left] {$y$};
-        \draw (0,0) node [below left] {$O$};
-        \foreach \i in {-4,-3,-2,-1,1,2,3,4}
-        {\draw (\i,0.1) -- (\i,0) node [below] {$\i$};};
-        \foreach \i in {-2,-1,1,2}
-        {\draw (0.1,\i) -- (0,\i) node [left] {$\i$};};
-        \draw (-5,2) -- (-4,0) -- (-3,2) -- (-2,0) -- (-1,2) -- (0,0) -- (1,2) -- (2,0) -- (3,2) -- (4,0) -- (5,2);
-    \end{tikzpicture}
-\end{center}
-(1) 写出函数$y=f(x)$的周期;\\
-(2) 作出函数$y=f(x-1)$的图像.
-
-0.8536 关联
-
-010290	求下列函数的最小正周期:\\
-(1) $y=\cos \dfrac x3$;\\
-(2) $y=2\cos (-2x+\dfrac \pi 6)$.
-
-000119	求下列函数的最小正周期:\\
-(1) $y=\sin \dfrac x2$;\\
-(2) $y=2\cos (3x-\dfrac \pi 4)$.
+008395	已知$\alpha$是第二象限角, 且$\sin \alpha =\dfrac{\sqrt {15}}4$, 求$\dfrac{\sin (\alpha +\dfrac{\pi}4)}{\sin 2\alpha +\cos 2\alpha +1}$的值.
 
 0.9305 相同
 
-010296	已知$y=\sin x$和$y=\cos x$的图像的连续三个交点$A$、$B$、$C$构成$\triangle ABC$, 求$\triangle ABC$的面积.
+000116	在$\triangle ABC$中, 已知$A=30^\circ$, $b=18$. 分别根据下列条件求$B$:\\
+(1) \textcircled{1} $a=6$, \textcircled{2} $a=9$, \textcircled{3} $a=13$, \textcircled{4} $a=18$, \textcircled{5} $a=22$;\\
+(2) 根据上述计算结果, 讨论使$B$有一解、两解或无解时$a$的取值情况.
 
-000494	已知$y=\sin x$和$y=\cos x$的图像的连续的三个交点$A$、$B$、$C$构成三角形$\triangle ABC$, 则$\triangle ABC$的面积等于\blank{50}.
+008210	在$\triangle ABC$中, 已知$A=30^\circ$, $b=18$, 分别根据下列条件求$B$.\\
+(1) \textcircled{1} $a=6$; \textcircled{2} $a=9$; \textcircled{3} $a=13$; \textcircled{4} $a=18$; \textcircled{5} $a=22$;\\
+(2) 根据上述计算结果, 讨论使$B$有一解、两解、无解时$a$的取值情况.
 
-0.8657 关联
-
-010300	作出函数$y=2\sin (\dfrac 12x+\dfrac \pi 6)$的大致图像.
+0.8765 关联
 
 000123	作出函数$y=2\sin (2x+\dfrac \pi 3)$的大致图像.
 
-0.8796 无关
+008289	作出函数$y=2\sin (x+\dfrac{\pi}3)$在长度为一个周期的闭区间上的大致图像.
 
-010302	作出函数$y=\sin x+\sqrt 3\cos x$的大致图像.
+0.8638 关联
 
-008252	求函数$y=\sin x+\sqrt 3\cos x$的周期.
+000124	已知函数$y=A\sin (\omega x+\varphi) \ (A>0, \ \omega>0)$的振幅是$3$, 最小正周期是$\dfrac{2\pi} 3$, 初始相位是$\dfrac\pi 6$. 求这个函数的表达式.
 
-0.8848 关联
+008291	已知函数$y=A\sin (\omega x+\varphi),(A>0,\omega >0)$的振幅是$3$, 最小正周期是$\dfrac{2\pi}7$, 初相是$\dfrac{\pi}6$, 求这个函数的解析式.
 
-010309	求函数$y=2\tan (3x-\dfrac \pi 6)$的定义域和单调区间.
+0.7973 相同
 
-009612	求函数$y=\tan (3x+\dfrac\pi 4)$的定义域, 并写出其单调区间.
+000150	已知$\overrightarrow a$、$\overrightarrow b$、$\overrightarrow c$均为非零向量, 其中的任意两个向量都不平行, 且$\overrightarrow a+\overrightarrow b$与$\overrightarrow c$是平行向量, $\overrightarrow a+\overrightarrow c$与$\overrightarrow b$是平行向量. 求证: $\overrightarrow b+\overrightarrow c$与$\overrightarrow a$是平行向量.
 
-0.9487 相同
+008603	已知$\overrightarrow a$、$\overrightarrow b$、$\overrightarrow c$都是非零向量, 其中任意两个向量都不平行, 已知$\overrightarrow a+\overrightarrow b$与$\overrightarrow c$平行, $\overrightarrow a+\overrightarrow c$与$\overrightarrow b$平行, 求证: $\overrightarrow b+\overrightarrow c$与$\overrightarrow a$平行.
 
-010321	运用作图的方法, 验证下列等式:\\
-(1) $\dfrac 12(\overrightarrow a+\overrightarrow b)+\dfrac 12(\overrightarrow a-\overrightarrow b)=\overrightarrow a$;\\
-(2) $\dfrac 12(\overrightarrow a+\overrightarrow b)-\dfrac 12(\overrightarrow a-\overrightarrow b)=\overrightarrow b$.
+0.7053 相同
 
-008740	作图验证:\\
-(1) $\dfrac 12(\overrightarrow a+\overrightarrow b)+\dfrac 12(\overrightarrow a-\overrightarrow b)=\overrightarrow a$;\\
-(2) $\dfrac 12(\overrightarrow a+\overrightarrow b)-\dfrac 12(\overrightarrow a-\overrightarrow b)=\overrightarrow b$.
-
-0.8548 相同
-
-010322	化简下列向量运算:\\
-(1) $4(\overrightarrow a+\overrightarrow b)-3(\overrightarrow a-\overrightarrow b)-8\overrightarrow b$;\\
-(2) $3(\overrightarrow a-2\overrightarrow b+\overrightarrow c)+4(\overrightarrow c-\overrightarrow a-\overrightarrow b)$;\\
-(3) $\dfrac 13[\dfrac 12(2\overrightarrow a+8\overrightarrow b)-(4\overrightarrow a-2\overrightarrow b)]$.
-
-008741	化简:\\
-(1) $4(\overrightarrow a+\overrightarrow b)-3(\overrightarrow a-\overrightarrow b)-8\overrightarrow a$;\\
-(2) $3(\overrightarrow a-2\overrightarrow b+\overrightarrow c)-4(-\overrightarrow a-\overrightarrow b+\overrightarrow c)$;\\
-(3) $\dfrac 13[\dfrac 12(2\overrightarrow a+8\overrightarrow b)-(4\overrightarrow a-2\overrightarrow b)]$.
-
-0.8713 相同
-
-010326	已知正方形$ABCD$的边长为$1$, 求:\\
-(1) $|\overrightarrow{AB}+\overrightarrow{BC}|$;\\
-(2) $|\overrightarrow{AB}+\overrightarrow{BD}-\overrightarrow{AC}|$;\\
-(3) $|\overrightarrow{AB}-\overrightarrow{BC}+\overrightarrow{AC}|$.
-
-008737	已知四边形$ABCD$为边长是$1$的正方形.\\
-(1) 求$|\overrightarrow{AB}+\overrightarrow{BC}|$;\\
-(2) 求$|\overrightarrow{AB}-\overrightarrow{BC}+\overrightarrow{AC}|$;\\
-(3) 求$|\overrightarrow{AB}+\overrightarrow{BD}-\overrightarrow{AC}|$.
-
-0.9105 相同
-
-010331	已知$\overrightarrow {e_1}$、$\overrightarrow {e_2}$是两个不平行的向量, 而向量$\overrightarrow{AB}=3\overrightarrow {e_1}-2\overrightarrow {e_2}$, $\overrightarrow{BC}=-2\overrightarrow {e_1}+4\overrightarrow {e_2}$, $\overrightarrow{CD}=-2\overrightarrow {e_1}-4\overrightarrow {e_2}$. 求证: $A$、$C$、$D$三点共线.
-
-008746	已知$\overrightarrow{e_1}$、$\overrightarrow{e_2}$是两个不共线的非零向量, 向量$\overrightarrow{AB}=3\overrightarrow{e_1}-2\overrightarrow{e_2}$, $\overrightarrow{BC}=-2\overrightarrow{e_1}+4\overrightarrow{e_2}$, $\overrightarrow{CD}=-2\overrightarrow{e_1}-4\overrightarrow{e_2}$, 证明: $A,C,D$三点共线.
-
-0.9059 关联
-
-010346	设向量$\overrightarrow a$、$\overrightarrow b$满足$|\overrightarrow a|=2$, $|\overrightarrow b|=1$, $\langle \overrightarrow a, \overrightarrow b\rangle =\dfrac{2\pi} 3$. 求$|\overrightarrow a-\overrightarrow b|$.
-
-009627	设向量$\overrightarrow a$、$\overrightarrow b$满足$|\overrightarrow a|=2$, $|\overrightarrow b|=3$, 且$\langle \overrightarrow a, \overrightarrow b\rangle =120^\circ$. 求$|\overrightarrow a+\overrightarrow b|$.
-
-0.8590 关联
-
-010367	已知平面上$A$、$B$两点的坐标分别是$(3, 5)$、$(0, 1), P$为直线$AB$上一点, 且$\overrightarrow{AP}=\dfrac 15\overrightarrow{PB}$. 求点$P$的坐标.
-
-009640	已知平面上$A$、$B$两点的坐标分别是$(2, 5)$、$(3, 0)$, $P$是直线$AB$上的一点, 且$\overrightarrow{AP}=-\dfrac 23\overrightarrow{PB}$. 求点$P$的坐标.
-
-0.9400 无关
-
-010372	证明:三角形的三条中线相交于一点.
-
-000158	证明: 三角形的三条高相交于一点.
-
-0.9228 关联
-
-010378	已知$(x+y)-xy\mathrm{i}=-5+24\mathrm{i}$, 其中$x$、$y\in \mathbf{R}$. 求$x$、$y$的值.
-
-009643	已知$(x+2y)+(5x-y)\mathrm{i}=9+\mathrm{i}$, 其中$x$、$y\in \mathbf{R}$. 求$x$、$y$的值.
-
-0.9596 相同
-
-010383	已知实数$x$、$y$使得$\dfrac x{1-\mathrm{i}}+ \dfrac y{1-2\mathrm{i}}= \dfrac 5{1-3\mathrm{i}}$, 求$x$、$y$的值.
-
-009015	已知实数$x,y$满足$\dfrac x{1-\mathrm{i}}+\dfrac y{1-2\mathrm{i}}=\dfrac 5{1-3\mathrm{i}}$, 求$x,y$的值.
-
-0.8544 相同
-
-010391	已知复数$(x^2-y^2-7)+(x-y-3)\mathrm{i}$等于$-2\mathrm{i}$, 其中$x$、$y\in \mathbf{R}$. 求$x$、$y$的值.
-
-008981	已知复数$z=x^2-y^2-7+(x-y-3)\mathrm{i}$等于$-2\mathrm{i}$, 求实数$x,y$的值.
-
-0.8750 无关
-
-010391	已知复数$(x^2-y^2-7)+(x-y-3)\mathrm{i}$等于$-2\mathrm{i}$, 其中$x$、$y\in \mathbf{R}$. 求$x$、$y$的值.
-
-009643	已知$(x+2y)+(5x-y)\mathrm{i}=9+\mathrm{i}$, 其中$x$、$y\in \mathbf{R}$. 求$x$、$y$的值.
-
-0.8620 相同
-
-010392	已知$(2x+3y)+(x^2-y^2)\mathrm{i}=y+2+4\mathrm{i}$, 其中$x$、$y\in \mathbf{R}$. 求$x$、$y$的值.
-
-008982	已知$2x+3y+(x^2-y^2)\mathrm{i}=y+2+4\mathrm{i}$, 求实数$x,y$的值.
-
-0.8955 相同
-
-010393	是否存在实数$m$, 使得复数$z=m^2+2m-15+\dfrac{m^2-5m+6}{m^2-25} \mathrm{i}$分别满足下列条件? 若存在, 求出$m$的值或取值范围; 若不存在, 请说明理由.\\
-(1) $z$是实数;\\
-(2) $z$是虚数;\\
-(3) $z$是纯虚数;\\
-(4) $z$是零.
-
-008980	判断是否存在实数$m$, 使复数$z=m^2+2m-15+\dfrac{{m^2}-5m+6}{{m^2}-25}\mathrm{i}$分别满足下列条件.若存在, 求出$m$的值; 若不存在, 请说明理由.\\
-(1) $z$是实数;\\
-(2) $z$是虚数;\\
-(3) $z$是纯虚数;\\
-(4) $z$是零.
-
-0.9252 相同
-
-010396	如果复数$z$满足$(1+2\mathrm{i})\overline z=4+3\mathrm{i}$, 求$z$.
-
-009049	如果复数$z$满足$(1+2\mathrm{i})\overline  z=4+3\mathrm{i}$, 那么$z=$\blank{50}.
-
-1.0000 相同
-
-010406	已知复数$z=\dfrac{m+(3m-1)\mathrm{i}}{2-\mathrm{i}}$($m\in\mathbf{R})$的实部与虚部互为相反数, 求$|z|$.
-
-009021	已知复数$z=\dfrac{m+(3m-1){\mathrm{i}}}{2-{\mathrm{i}}}(m\in \mathbf{R})$的实部与虚部互为相反数, 求$|z|$.
-
-0.8759 关联
-
-010409	复平面上平行于虚轴的非零向量所对应的复数一定是\bracket{20}.
-\fourch{正数}{负数}{纯虚数}{实部不为零的虚数}
-
-008992	在复平面上, 平行于$y$轴的非零向量所对应的复数一定是\bracket{20}.
-\fourch{实数}{虚数}{纯虚数}{实数或纯虚数}
-
-0.8512 无关
-
-010495	如图, 已知正方体$ABCD-A_1B_1C_1D_1$的棱长为$1$. 求异面直线$A_1B$与$B_1D_1$之间的距离.
+000151	如图, 点$A$、$M$、$B$在同一条直线上, 点$O$不在该直线上, 且$\overrightarrow{AM}=\dfrac 13 \overrightarrow{AB}$. 设
+$\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$, $\overrightarrow{OM}=\overrightarrow c$, 试用向量$\overrightarrow a$、$\overrightarrow b$表示$\overrightarrow c$.
 \begin{center}
-\begin{tikzpicture}[>=latex]
-\draw (0,0) node [below left] {$A$} coordinate (A) --++ (2,0) node [below right] {$B$} coordinate (B) --++ (45:{2/2}) node [right] {$C$} coordinate (C)
---++ (0,2) node [above right] {$C_1$} coordinate (C1)
---++ (-2,0) node [above left] {$D_1$} coordinate (D1) --++ (225:{2/2}) node [left] {$A_1$} coordinate (A1) -- cycle;
-\draw (A) ++ (2,2) node [right] {$B_1$} coordinate (B1) -- (B) (B1) --++ (45:{2/2}) (B1) --++ (-2,0);
-\draw [dashed] (A) --++ (45:{2/2}) node [left] {$D$} coordinate (D) --++ (2,0) (D) --++ (0,2);
-\draw (A1) -- (B) (B1) -- (D1);
-\end{tikzpicture}
-\end{center}
-
-000392	如图, 在棱长为$1$的正方体$ABCD-A_1B_1C_1D_1$中, 点$P$在截面$A_1DB$上, 则线段$AP$的最小值为\blank{50}.
-\begin{center}
-    \begin{tikzpicture}
-        \draw (0,0) node [below left] {$A$} coordinate (A) --++ (2,0) node [below right] {$B$} coordinate (B) --++ (45:{2/2}) node [right] {$C$} coordinate (C)
-        --++ (0,2) node [above right] {$C_1$} coordinate (C1)
-        --++ (-2,0) node [above left] {$D_1$} coordinate (D1) --++ (225:{2/2}) node [left] {$A_1$} coordinate (A1) -- cycle;
-        \draw (A) ++ (2,2) node [right] {$B_1$} coordinate (B1) -- (B) (B1) --++ (45:{2/2}) (B1) --++ (-2,0);
-        \draw [dashed] (A) --++ (45:{2/2}) node [left] {$D$} coordinate (D) --++ (2,0) (D) --++ (0,2);
-        \draw (A1) -- (B);
-        \draw [dashed] (B) -- (D) -- (A1);
+    \begin{tikzpicture}[>=latex]
+        \draw [thick] (-0.5,0) -- (3.5,0);
+        \draw [->,thick] (1.5,-1.5) node [below] {$O$}-- (0,0) node [above] {$A$};
+        \draw [->,thick] (1.5,-1.5) -- (3,0);
+        \draw [->,thick] (1.5,-1.5) -- (1,0);
+        \draw [->,thick] (0,0) -- (1,0) node [above] {$M$};
+        \draw [->,thick] (1,0) -- (3,0) node [above] {$B$};
     \end{tikzpicture}
 \end{center}
 
-0.8755 无关
+008596	如图, $A,M,B$在同一直线上, 且$\overrightarrow{AM}=\dfrac 13\overrightarrow{AB}$, 设$\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$, $\overrightarrow{OM}=\overrightarrow c$, 用$\overrightarrow a$、$\overrightarrow b$表示$\overrightarrow c$.
+\begin{center}
+    \begin{tikzpicture}[>=latex]
+        \draw (0,0) node [below] {$O$} coordinate (O);
+        \draw (-2,2) node [above] {$A$} coordinate (A);
+        \draw (1,2) node [above] {$B$} coordinate (B);
+        \draw ($(A)!0.25!(B)$) node [above] {$M$} coordinate (M);
+        \draw (A) -- (O) -- (B);
+        \draw [->] (O) -- (M);
+        \draw [->] (M) -- (B);
+        \draw [->] (A) -- (M);
+    \end{tikzpicture}
+\end{center}
 
-010501	在正四棱柱$ABCD-A_1B_1C_1D_1$中, 若$AA_1=2AB$, 则异面直线$CD$与$AC_1$所成角的大小为\blank{50}.
+0.9038 相同
 
-003768	(理科)已知正四棱柱$ABCD-A_1B_1C_1D_1$中, $AA_1=2AB$, 则$CD$与平面$BDC_1$所成角的正弦值等于\blank{50}.
+000154	已知等边三角形$ABC$的边长为$1$, $\overrightarrow{BC}=\overrightarrow a$, $\overrightarrow{CA}=\overrightarrow b$, $\overrightarrow{AB}=\overrightarrow c$. 求$\overrightarrow a\cdot \overrightarrow b+\overrightarrow b\cdot \overrightarrow c+\overrightarrow c\cdot \overrightarrow a$.
 
-0.9048 关联
+001879	已知等边三角形$ABC$中, $\overrightarrow{BC}=\overrightarrow{a}$, $\overrightarrow{CA}=\overrightarrow{b}$, $\overrightarrow{AB}=\overrightarrow{c}$. 则$\overrightarrow{a}\cdot\overrightarrow{b}+\overrightarrow{b}\cdot\overrightarrow{c}+\overrightarrow{c}\cdot\overrightarrow{a}=$\blank{50}.
 
-010525	若一个球的体积是$\dfrac 43\pi$, 则这个球的表面积是\blank{50}.
+0.8815 关联
 
-000740	若一个球的体积为$\dfrac{32\pi}3$, 则该球的表面积为\blank{50}.
+000168	在复数范围内解下列方程:\\
+(1) $x^2-4x+8=0$;\\
+(2) $3x^2+2x-3=0$.
 
-0.8702 关联
+009054	在复数集内解下列方程:\\
+(1) $x^2-2x+5=0$;\\ 
+(2) $3x^2+2x+8=0$.
 
-010526	若用与球心距离为$1$的平面截球体所得的圆面半径为$3$, 则球的体积为\blank{50}.
+0.8619 相同
 
-001729	用与球心距离为$1$的平面去截球, 所得的截面面积为$\pi$, 则球的体积为\blank{50}.
+000246	设直线$x-ay-4=0$与直线$y=-2x+4$的夹角为$\arccos \dfrac{2\sqrt 5}5$, 求实数$a$的值.
 
-0.8526 关联
+008818	已知直线$x-ay-4=0$与直线$y=-2x+4$的夹角$\theta =\arccos \dfrac{2\sqrt 5}5$, 求实数$a$的值.
 
-010560	把分奖金问题的三局两胜改为五局三胜, 问:\\
-(1) 在比分是$2: 0$的情况下, 怎么分奖金公平?\\
-(2) 在比分是$1: 0$的情况下, 怎么分奖金公平?
+0.9454 相同
 
-009754	把分奖金问题的三局两胜改为五局三胜, 问: 在比分是$2:1$的情况下, 怎么分奖金公平?
+000254	已知直线$l$垂直于直线$3x+4y-9=0$, 点$A(2, 3)$到直线$l$的距离为$1$. 求直线$l$的方程.
 
-0.8927 关联
+008823	已知直线$l$垂直于直线$3x+4y-9=0$, 且点$A(2,3)$到直线$l$的距离为$1$, 求直线$l$的方程.
 
-010605	已知$\triangle ABC$的三个顶点的坐标分别为$A(3, 8)$、$B(3, -2)$、$C(-3, 0)$.\\
-(1)求边$BC$所在直线的方程;\\
-(2)求边$BC$上的中线所在直线的方程.
+0.9193 相同
 
-008755	已知$\triangle ABC$的三个顶点的坐标分别为$A(3,8)$、$B(3,-2)$、$C(-3,0)$.\\
-(1) 求$BC$边所在直线的方程;\\
-(2) 求$AB$边上中线$CM$所在直线的方程;\\
-(3) 求$BC$边上高$AD$所在直线的方程.
+000259	求直线$l_1: 3x-2y-6=0$关于直线$l_2: 2x-3y+1=0$对称的直线$l_3$的方程.
 
-0.9706 相同
+008826	求直线$l_1$: $3x-2y-6=0$关于直线$l$: $2x-3y+1=0$对称的直线$l_2$的方程.
 
-010611	已知$A(7, -4)$、$B(-5, 6)$两点, 求线段$AB$的垂直平分线的点法式方程.
+0.8888 相同
 
-008764	已知$A(7,-4)$、$B(-5,6)$两点, 求线段$AB$的垂直平分线的方程.
+000270	若椭圆$\dfrac{x^2}{4}+\dfrac{y^2}{a^2}=1$与双曲线$\dfrac{x^2}{a^2}-\dfrac{y^2}2=1$有相同的焦点, 求实数$a$的值.
 
-0.9485 相同
+008959	若椭圆$\dfrac{x^2}4+\dfrac{y^2}{a^2}=1$与双曲线$\dfrac{x^2}{a^2}-\dfrac{y^2}2=1$有相同的焦点, 则实数$a$为\bracket{20}.
+\fourch{1}{$-1$}{$\pm 1$}{不确定}
 
-010628	已知等腰直角三角形$ABC$的斜边$AB$所在直线的方程为$3x-y-5=0$, 直角顶点为$C(4, -1)$. 求两条直角边所在直线的方程.
+0.9855 相同
 
-008795	已知等腰直角三角形$ABC$的斜边$AB$所在直线的方程为$3x-y-5=0$, 直角顶点为$C(4,-1)$, 求两条直角边所在直线的方程.
+000273	已知直线$y=x+b$被曲线$y=\dfrac 12x^2$截得的弦长为$4\sqrt 2$, 求实数$b$的值.
 
-0.9173 相同
-
-010631	已知等腰直角三角形$ABC$的直角边$BC$所在直线的方程为$x-2y-6=0$, 顶点$A$的坐标为$(0, 6)$. 分别求直角边$AC$、斜边$AB$所在直线的方程.
-
-008799	已知等腰直角三角形$ABC$的直角边$BC$所在直线的方程为: $x-2y-6=0$, 顶点$A$的坐标为$(0,6)$, 求斜边$AB$和直角边$AC$所在直线的方程.
-
-0.8872 相同
-
-010642	已知直线$l_1: 2x-y+a=0$与直线$l_2: -4x+2y+1=0$的距离为$\dfrac{7\sqrt 5}{10}$, 求实数$a$的值.
-
-008803	已知直线$l_1$: $2x-y+a=0$与直线$l_2$: $-4x+2y+1=0$, 且直线$l_1$与直线$l_2$的距离为$\dfrac{7\sqrt 5}{10}$, 求实数$a$的值.
-
-0.8716 相同
-
-010646	根据下列条件, 分别求圆的方程:\\
-(1) 圆心为$C(-\dfrac 32, 3)$, 半径$r=\sqrt 3$;\\
-(2) 圆心为$C(\sqrt 2, 1)$, 过点$A(-1, \sqrt 2)$;\\
-(3) 与$x$轴相交于$A(1, 0)$、$B(5, 0)$两点, 且半径等于$\sqrt 5$.
-
-008854	分别根据下列条件, 求相应圆的方程.\\
-(1) 圆心为$C(-\dfrac 32,3)$, 半径为$R=\sqrt 3$;\\
-(2) 圆心为$C(\sqrt 2,1)$, 过点$A(-1,\sqrt 2)$;\\
-(3) 与$x$轴相交于$A(1,0)$、$B(5,0)$两点, 且半径等于$\sqrt 5$.
-
-0.8641 相同
-
-010647	已知圆$(x-a)^2+(y-b)^2=r^2$($r>0$), 求在下列情况下, 实数$a$、$b$、$r$应分别满足什么条件:\\
-(1) 圆过原点;\\
-(2) 圆心在$x$轴上;\\
-(3) 圆与$x$轴相切;\\
-(4) 圆与两坐标轴均相切.
-
-008855	已知圆$(x-a)^2+(y-b)^2=r^2(r>0)$. 求在下列情况下, 实数$a,b,r$分别应满足什么条件.
-(1) 圆过原点;\\
-(2) 圆心在$x$轴上;\\
-(3) 圆与$x$轴相切;\\
-(4) 圆与坐标轴相切.
-
-0.8620 相同
-
-010648	求过点$M(5, 2)$、$N(3, 2)$, 且圆心在直线$y=2x-3$上的圆的方程.
-
-002241	过点$M(5,2)$, $N(3,2)$, 且圆心在直线$y=2x-3$上的圆的标准方程为\blank{50}.
+008847	已知直线$l$: $y=x+b$被曲线$y=\dfrac 12x^2$截得的弦长为$4\sqrt 2$, 求实数$b$的值.
 
 1.0000 相同
 
-010649	已知$a^2x^2+(a+2)y^2+2ax+a=0$表示圆, 求实数$a$的值.
+000276	已知圆$O$的方程是$x^2+y^2=1$, 直线$l$与圆$O$相切.\\
+(1) 若直线$l$的斜率等于$1$, 求直线$l$的方程;\\
+(2) 若直线$l$在$y$轴上的截距为$\sqrt 2$, 求直线$l$的方程.
 
-008860	已知$a^2x^2+(a+2)y^2+2ax+a=0$表示圆, 求实数$a$的值.
+008941	已知圆$O$的方程是$x^2+y^2=1$, 直线$l$与圆$O$相切.\\
+(1) 若直线$l$的斜率等于$1$, 求直线$l$的方程;\\
+(2) 若直线$l$在$y$轴上的截距为$\sqrt 2$, 求直线$l$的方程.
 
-0.9091 相同
+0.9843 相同
 
-010651	已知圆过原点, 且与$x$轴、$y$轴的交点的坐标分别为$(a, 0)$、$(0, b)$, 其中$ab\ne 0$.求这个圆的方程.
+000277	直线$x-\sqrt 3y=0$绕原点按逆时针方向旋转$30^\circ$后所得的直线$l$与圆$(x-2)^2+y^2=3$的位置关系是\bracket{20}.
+\twoch{直线$l$过圆心}{直线$l$与圆相交, 但不过圆心}{直线$l$与圆相切}{直线$l$与圆无公共点}
 
-008861	已知圆过原点, 且与$x$轴、$y$轴的交点的坐标分别为$(a,0)$、$(0,b)$, 求这个圆的方程.
+008939	直线$x-\sqrt 3y=0$绕原点按逆时针方向旋转$30^{\circ }$后所得的直线与圆$(x-2)^2+y^2=3$的位置关系是\bracket{20}.
+\twoch{直线过圆心}{直线与圆相交, 但不过圆心}{直线与圆相切}{直线与圆无公共点}
 
-0.8817 关联
+0.9622 相同
 
-010654	求与圆$x^2+y^2=25$内切于点$P(3, -4)$且半径为$1$的圆的方程.
+000281	已知圆$x^2+y^2+x-6y+m=0$与直线$x+2y-3=0$相交于$P$、$Q$两点, $O$为坐标原点. 若$OP\perp OQ$, 求实数$m$的值.
 
-002272	与圆$x^2+y^2=25$外切于点$P(4,-3)$, 且半径为$1$的圆的方程为\blank{100}.
+008942	已知圆$x^2+y^2+x-6y+m=0$与直线$x+2y-3=0$相交于$PQ$两点, $O$为坐标原点, 若$OP\perp OQ$, 求实数$m$的值.
 
-0.9599 关联
-
-010654	求与圆$x^2+y^2=25$内切于点$P(3, -4)$且半径为$1$的圆的方程.
-
-008866	求与圆$x^2+y^2=25$外切于点$P(4,-3)$, 且半径为$1$的圆的方程.
-
-0.9694 关联
-
-010654	求与圆$x^2+y^2=25$内切于点$P(3, -4)$且半径为$1$的圆的方程.
-
-009816	求与圆$x^2+y^2=25$外切于点$P(4,-3)$且半径为$1$的圆的方程.
-
-0.8788 相同
-
-010658	一个圆过点$(2, -1)$, 圆心在直线$2x+y=0$上, 且与直线$x-y-1=0$相切. 求这个圆的方程.
-
-008868	求过点$(2,-1)$, 圆心在直线$2x+y=0$上, 且与直线$x-y-1=0$相切的圆的方程.
-
-1.0000 相同
-
-010659	已知圆$x^2+y^2+6x-8y+25=r^2$与$x$轴相切, 求这个圆截$y$轴所得的弦长.
-
-008869	已知圆$x^2+y^2+6x-8y+25=r^2$与$x$轴相切, 求这个圆截$y$轴所得的弦长.
-
-0.8728 关联
-
-010662	求经过点$(5, -5)$且与圆$x^2+y^2=25$相切的直线的方程.
-
-002277	求过$M(3,4)$且与圆$x^2+y^2=9$相切的直线的方程.
-
-0.9386 无关
-
-010662	求经过点$(5, -5)$且与圆$x^2+y^2=25$相切的直线的方程.
-
-008856	求经过点$(5,-5)$且与圆$(x-1)^2+(y+2)^2=25$相切的直线的方程.
-
-1.0000 相同
-
-010662	求经过点$(5, -5)$且与圆$x^2+y^2=25$相切的直线的方程.
-
-008862	求经过点$(5,-5)$且与圆$x^2+y^2=25$相切的直线的方程.
-
-0.9175 相同
-
-010663	已知直线$y=x+m$和曲线$y=\sqrt{1-x^2}$有两个不同的交点, 求实数$m$的取值范围.
-
-002293	已知直线$y=x+m$与曲线$y=\sqrt{1-x^2}$有两个不同的交点, 则实数$m$的取值范围为\blank{50}.
-
-0.9420 相同
-
-010663	已知直线$y=x+m$和曲线$y=\sqrt{1-x^2}$有两个不同的交点, 求实数$m$的取值范围.
-
-008867	已知直线$y=x+m$和曲线$y=\sqrt {1-x^2}$有两个交点, 求实数$m$的取值范围.
-
-0.8620 无关
-
-010677	如果方程$\dfrac{x^2}{m+2}-\dfrac{y^2}{m+1}=1$表示焦点在$y$轴上的双曲线, 求实数$m$的取值范围.
-
-002310	若方程$\dfrac{x^2}{25-m}+\dfrac{y^2}{16+m}=1$表示焦点在$y$轴上的椭圆, 则实数$m$的取值范围为\blank{50}.
-
-0.9806 相同
-
-010677	如果方程$\dfrac{x^2}{m+2}-\dfrac{y^2}{m+1}=1$表示焦点在$y$轴上的双曲线, 求实数$m$的取值范围.
-
-008901	设方程$\dfrac{x^2}{m+2}-\dfrac{y^2}{m+1}=1$表示焦点在$y$轴上的双曲线, 求实数$m$的取值范围.
-
-0.8868 关联
-
-010682	求抛物线$y^2=ax$($a\ne 0$)的焦点坐标和准线方程.
-
-008924	求抛物线$x=ay^2(a>0)$的焦点坐标与准线方程.
-
-0.9841 相同
-
-010683	若抛物线$y^2=2x$上的$A$、$B$两点到焦点$F$的距离之和是$5$, 求线段$AB$的中点的横坐标.
-
-008923	抛物线$y^2=2x$上的$AB$两点到焦点$F$的距离之和是$5$, 求线段$AB$的中点的横坐标.
-
-0.8674 关联
-
-010685	已知直线$y=kx-4$与抛物线$y^2=8x$有且只有一个公共点, 求实数$k$的值.
+0.9349 相同
 
 000282	已知直线$y=ax-1$与曲线$y^2=2x$只有一个公共点, 求实数$a$的值.
 
-0.9829 相同
+002121	已知曲线$y=ax-1$与曲线$y^2=2x$只有一个公共点, 求实数$a$的值.
 
-010685	已知直线$y=kx-4$与抛物线$y^2=8x$有且只有一个公共点, 求实数$k$的值.
+0.9703 相同
+
+000282	已知直线$y=ax-1$与曲线$y^2=2x$只有一个公共点, 求实数$a$的值.
+
+008846	已知直线$y=ax-1$与曲线$y^2=2x$只有一个交点, 求实数$a$的值.
+
+0.8540 关联
+
+000282	已知直线$y=ax-1$与曲线$y^2=2x$只有一个公共点, 求实数$a$的值.
 
 008930	已知直线$l$: $y=kx-4$与抛物线$y^2=8x$有且只有一个公共点, 求实数$k$的值.
 
-0.9545 相同
+0.9269 相同
 
-010691	给定$A(-3, 2)$、$B(3, -2)$两点, 求证:与这两点距离相等的点$P$的轨迹方程是$3x-2y=0$.
+000308	在等差数列$\{a_n\}$中, 已知公差$d=\dfrac12$, 且$a_1+a_3+a_5+\cdots+a_{99}=60$. 求$a_1+a_2+a_3+\cdots+a_{99}+a_{100}$的值.
 
-008849	已知$A(-3,2)$、$B(3,-2)$两点, 求证: 与这两点距离相等的点$M$的轨迹方程是$3x-2y=0$.
-
-0.9778 相同 
-
-010692	已知点$P(2, 1)$在方程$x^2+k^2y^2-3x-ky-4=0$所表示的曲线上, 求实数$k$的值.
-
-008839	已知点$P(2,1)$在方程$x^2+k^2y^2-3x-ky-4=0$的曲线上, 求实数$k$的值.
+008516	在等差数列$\{a_n\}$中, 已知公差$d=\dfrac 12$, 且$a_1+a_3+a_5+\cdots +a_{99}=60$, 求$a_1+a_2+a_3+\cdots +a_{99}+a_{100}$的值.
 
 1.0000 相同
 
-010693	定长为$4$的线段$AB$的两端点分别在$x$轴、$y$轴上滑动, 求$AB$中点的轨迹方程.
+000310	设$S_n$为等差数列$\{a_n\}$的前$n$项和, 求证: 数列$\{\dfrac{S_n}n\}$是等差数列.
 
-008840	定长为$4$的线段$AB$的两端点分别在$x$轴、$y$轴上滑动, 求$AB$中点的轨迹方程.
+008519	设$S_n$为等差数列$\{a_n\}$的前$n$项和, 求证: 数列$\{\dfrac{S_n}n\}$是等差数列.
 
-0.9298 相同
+0.9491 相同
 
-010694	已知动点$C$到点$A(2, 0)$的距离是它到点$B(8, 0)$的距离的一半, 求点$C$的轨迹方程.
+000311	已知数列$\{\log_3a_n\}$是等差数列, 且$\log_3a_1+\log_3a_2+\cdots+\log_3a_{10}=10$. 求$a_5a_6$.
 
-002104	已知动点$M$到点$P(2,0)$的距离是它到点$Q(8,0)$的距离的一半, 求点$M$的轨迹方程.
+008530	已知数列$\{\log _3a_n\}$是等差数列, 且$\log _3a_1+\log _3a_2+\cdots +\log _3a_{10}=10$, 求$a_5\cdot a_6$.
+
+0.9421 相同
+
+000314	已知数列$\{a_n\}$是等比数列, 且$a_1$, $a_2$, $a_4$成等差数列. 求数列$\{a_n\}$的公比.
+
+008450	已知数列$\{a_n\}$是等比数列, 且$a_1,a_2,a_4$成等差数列, 求数列$\{a_n\}$的公比.
+
+0.9351 相同
+
+000315	用数学归纳法证明: $\dfrac12+\dfrac2{2^2}+\dfrac3{2^3}+\cdots+\dfrac n{2^n}=2-\dfrac{n+2}{2^n}$($n$为正整数).
+
+008524	用数学归纳法证明: $\dfrac 12+\dfrac 2{2^2}+\dfrac 3{2^3}+\cdots +\dfrac n{2^n}=2-\dfrac{n+2}{2^n}$($n\in \mathbf{N}^*$).
+
+0.8895 相同
+
+000316	(1) 依次计算下列各式的值: $\dfrac11,\dfrac11+\dfrac1{1+2},\dfrac11+\dfrac1{1+2}+\dfrac1{1+2+3},\dfrac11+\dfrac1{1+2}+\dfrac1{1+2+3}+\dfrac1{1+2+3+4}$.\\
+(2) 根据(1)中的计算结果, 猜想$S_n=\dfrac11+\dfrac1{1+2}+\dfrac1{1+2+3}+\cdots+\dfrac1{1+2+3+\cdots+n}$($n$为正整数)的表达式, 并用数学归纳法证明相应的结论.
+
+008525	(1) 依次计算下列各式的值:
+$\dfrac 11,\dfrac 11+\dfrac 1{1+2},\dfrac 11+\dfrac 1{1+2}+\dfrac 1{1+2+3},\dfrac 11+\dfrac 1{1+2}+\dfrac 1{1+2+3}+\dfrac 1{1+2+3+4}$;\\
+(2) 根据第(1)题的计算结果, 猜想$S_n=\dfrac 11+\dfrac 1{1+2}+\dfrac 1{1+2+3}+\cdots +\dfrac 1{1+2+3+\cdots +n}$ ($n\in \mathbf{N}^*$)的表达式, 并用数学归纳法证明你的结论.
+
+0.8166 相同
+
+000322	用数学归纳法证明: $1-\dfrac12+\dfrac 13-\dfrac 14+\cdots +\dfrac{1}{2n-1}-\dfrac{1}{2n}=\dfrac{1}{n+1}+\dfrac{1}{n+2}+\cdots+\dfrac{1}{2n}$($n$为正整数).
+
+001020	用数学归纳法证明: 对一切正整数$n$, $1-\dfrac{1}{2}+\dfrac{1}{3}-\dfrac{1}{4}+\cdots+\dfrac{1}{2n-1}-\dfrac{1}{2n}=\dfrac{1}{n+1}+\dfrac{1}{n+2}+\cdots+\dfrac{1}{2n}$.
+
+0.8930 关联
+
+000322	用数学归纳法证明: $1-\dfrac12+\dfrac 13-\dfrac 14+\cdots +\dfrac{1}{2n-1}-\dfrac{1}{2n}=\dfrac{1}{n+1}+\dfrac{1}{n+2}+\cdots+\dfrac{1}{2n}$($n$为正整数).
+
+003284	数学归纳法证明: $1-\dfrac 12+\dfrac 13-\dfrac 14+\cdots +\dfrac 1{2n-1}-\dfrac 1{2n}=\dfrac 1{n+1}+\dfrac 1{n+2}+\cdots +\dfrac 1{2n}$时, 当$n$从$k$到$k+1$时等式右边增加与减少的项分别为\blank{50}, \blank{50}.
+
+0.9501 相同
+
+000322	用数学归纳法证明: $1-\dfrac12+\dfrac 13-\dfrac 14+\cdots +\dfrac{1}{2n-1}-\dfrac{1}{2n}=\dfrac{1}{n+1}+\dfrac{1}{n+2}+\cdots+\dfrac{1}{2n}$($n$为正整数).
+
+006925	利用数学归纳法证明: $1-\dfrac 12+\dfrac 13-\dfrac 14+\cdots +\dfrac 1{2n-1}-\dfrac 1{2n}=\dfrac 1{n+1}+\dfrac 1{n+2}+\cdots +\dfrac 1{2n}$($n\in \mathbf{N}^*$).
+
+0.9528 相同
+
+000322	用数学归纳法证明: $1-\dfrac12+\dfrac 13-\dfrac 14+\cdots +\dfrac{1}{2n-1}-\dfrac{1}{2n}=\dfrac{1}{n+1}+\dfrac{1}{n+2}+\cdots+\dfrac{1}{2n}$($n$为正整数).
+
+008534	用数学归纳法证明:
+$1-\dfrac 12+\dfrac 13-\dfrac 14+\cdots +\dfrac 1{2n-1}-\dfrac 1{2n}=\dfrac 1{n+1}+\dfrac 1{n+2}+\cdots +\dfrac 1{2n}$($n\in \mathbf{N}^*$).
+
+0.9642 相同
+
+000323	是否存在常数$a$、$b$、$c$, 使等式$1\cdot (n^2-1^2)+2\cdot (n^2-2^2)+\cdots +n\cdot (n^2-n^2)=an^4+bn^2+c$对任意正整数$n$都成立? 证明你的结论.
+
+008474	是否存在常数$a,b,c$, 使等式$1\cdot (n^2-1^2)+2\cdot (n^2-2^2)+\cdots +n\cdot (n^2-n^2)=an^4+bn^2+c$对一切正整数$n$都成立? 证明你的结论.
+
+0.8848 相同
+
+000331	若半径为2的球$O$表面上一点$A$作球$O$的截面, 若$OA$与该截面所成的角是$60^\circ$, 则该
+截面的面积是\blank{50}.
+
+003477	过半径为$2$的球$O$表面上一点$A$作球$O$的截面, 若$OA$与该截面所成的角的大小为$60^\circ$, 则该截面的面积是\blank{50}.
+
+0.9112 关联
+
+000336	$\displaystyle\lim_{n\to \infty}\dfrac{2n-5}{n+1}=$\blank{50}.
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+0.8611 关联
+
+000336	$\displaystyle\lim_{n\to \infty}\dfrac{2n-5}{n+1}=$\blank{50}.
+
+000516	计算: $\displaystyle\lim_{n\to\infty}(1-\dfrac n{n+1})=$\blank{50}.
+
+0.8879 关联
+
+000336	$\displaystyle\lim_{n\to \infty}\dfrac{2n-5}{n+1}=$\blank{50}.
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+0.8754 无关
+
+000336	$\displaystyle\lim_{n\to \infty}\dfrac{2n-5}{n+1}=$\blank{50}.
+
+000588	$\displaystyle\lim_{n\to\infty}\dfrac{3^n-1}{3^{n+1}+1}=$\blank{50}.
+
+0.9277 关联
+
+000336	$\displaystyle\lim_{n\to \infty}\dfrac{2n-5}{n+1}=$\blank{50}.
+
+000796	$\displaystyle\lim_{n\to \infty}\dfrac{2n+1}{n-1}=$\blank{50}.
+
+0.8879 关联
+
+000336	$\displaystyle\lim_{n\to \infty}\dfrac{2n-5}{n+1}=$\blank{50}.
+
+000827	计算:$\displaystyle\lim_{n\to\infty}\dfrac{2n}{4n+1}=$\blank{50}.
+
+0.8797 关联
+
+000336	$\displaystyle\lim_{n\to \infty}\dfrac{2n-5}{n+1}=$\blank{50}.
+
+003611	计算: $\displaystyle\lim_{n\to\infty}\dfrac{n+1}{3n-1}=$\blank{50}.
+
+0.9174 关联
+
+000336	$\displaystyle\lim_{n\to \infty}\dfrac{2n-5}{n+1}=$\blank{50}.
+
+004467	计算$\displaystyle \lim_{n\to\infty}\dfrac{4n+4}{5n+1}=$\blank{50}.
+
+0.8966 关联
+
+000336	$\displaystyle\lim_{n\to \infty}\dfrac{2n-5}{n+1}=$\blank{50}.
+
+004513	$\displaystyle\lim_{n\to \infty}\dfrac{2n}{3{n^2}+1}=$\blank{50}.
+
+0.8624 关联
+
+000336	$\displaystyle\lim_{n\to \infty}\dfrac{2n-5}{n+1}=$\blank{50}.
+
+004553	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n^2-3n+1}{n^2-4n+1}=$\blank{50}.
+
+0.8646 无关
+
+000336	$\displaystyle\lim_{n\to \infty}\dfrac{2n-5}{n+1}=$\blank{50}.
+
+006863	$\displaystyle \lim_{n\to \infty} \dfrac 1{n^2-n\sqrt {n^2+1}}=$\blank{50}.
+
+0.8803 无关
+
+000336	$\displaystyle\lim_{n\to \infty}\dfrac{2n-5}{n+1}=$\blank{50}.
+
+006878	$\displaystyle \lim_{n\to \infty} \dfrac{{2^{2n-1}}+1}{{4^n}-{3^n}}=$\blank{50}.
+
+0.8578 无关
+
+000336	$\displaystyle\lim_{n\to \infty}\dfrac{2n-5}{n+1}=$\blank{50}.
+
+008484	计算: $\displaystyle\lim_{n\to\infty}(\dfrac 1{n^2}+\dfrac 2n-3)=$\blank{50}.
+
+0.9096 关联
+
+000336	$\displaystyle\lim_{n\to \infty}\dfrac{2n-5}{n+1}=$\blank{50}.
+
+008485	计算: $\displaystyle\lim_{n\to\infty}\dfrac{7n+4}{5-3n}=$\blank{50}.
+
+0.8585 关联
+
+000336	$\displaystyle\lim_{n\to \infty}\dfrac{2n-5}{n+1}=$\blank{50}.
+
+008488	计算: $\displaystyle\lim_{n\to\infty}\dfrac{(n+3)(n-4)}{(n-1)(3-2n)}=$\blank{50}.
+
+0.8951 无关
+
+000336	$\displaystyle\lim_{n\to \infty}\dfrac{2n-5}{n+1}=$\blank{50}.
+
+008671	$\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
+
+0.8705 关联
+
+000338	若线性方程组的增广矩阵为$\begin{pmatrix}    a & 0 & 2 \\ 0 & 1 & b\end{pmatrix}$, 解为$\begin{cases}    x=2, \\ y=1.\end{cases}$ 则$a+b=$\blank{50}.
+
+004644	已知线性方程组的增广矩阵为$\begin{pmatrix}
+2 & 0 & m  \\ 1 & n & 2  \end{pmatrix}$, 解为$\begin{cases}
+x=1,  \\y=1,  \end{cases}$ 则$m+n=$\blank{50}.
+
+0.8583 无关
+
+000339	若复数$z$满足: $\mathrm{i}\cdot z=\sqrt{3}+\mathrm{i}$($\mathrm{i}$是虚数单位), 则$|z|=$\blank{50}.
+
+000469	若复数$z$满足$\mathrm{i}z=1+\mathrm{i}$($\mathrm{i}$为虚数单位), 则$z=$\blank{50}.
+
+0.8605 关联
+
+000339	若复数$z$满足: $\mathrm{i}\cdot z=\sqrt{3}+\mathrm{i}$($\mathrm{i}$是虚数单位), 则$|z|=$\blank{50}.
+
+004512	复数$z$满足$z\cdot \mathrm{i}=1+\mathrm{i}$($\mathrm{i}$为虚数单位), 则$|z|=$\blank{50}.
+
+0.8521 关联
+
+000341	在长方体$ABCD-A_1B_1C_1D_1$中, 若$AB=BC=1$, $AA_1=\sqrt{2}$, 则异面直线$BD_1$与$CC_1$所成角的大小为\blank{50}.
+
+001948	在长方体$ABCD-A_1B_1C_1D_1$中, $AB=5$, $AD=2$, $AA_1=4$, 则异面直线$A_1C$与$BC_1$所成角的大小为\blank{80}(尽量用向量法).
+
+0.8671 关联
+
+000341	在长方体$ABCD-A_1B_1C_1D_1$中, 若$AB=BC=1$, $AA_1=\sqrt{2}$, 则异面直线$BD_1$与$CC_1$所成角的大小为\blank{50}.
+
+003488	已知长方体$ABCD-A_1B_1C_1D_1$中, $AB=BC=4$, $CC_1=2$, 则直线$BC_1$和平面$DBB_1D_1$所成角的大小为\blank{50}.
+
+0.9770 关联
+
+000347	函数$y=\sin (\omega x-\dfrac{\pi}{3})$($\omega >0$)的最小正周期是$\pi$, 则$\omega =$\blank{50}.
+
+000471	若函数$y=2\sin (\omega x-\dfrac\pi 3)+1 \ (\omega >0)$的最小正周期是$\pi$, 则$\omega=$\blank{50}.
+
+0.8582 无关
+
+000357	若$-\dfrac{\pi}{2}<\alpha <\dfrac{\pi}{2}$, $\sin \alpha =\dfrac{3}{5}$, 则$\cot 2\alpha =$\blank{50}.
+
+000608	若$\dfrac{\pi}2<\alpha<\pi$, $\sin\alpha=\dfrac35$, 则$\tan\dfrac{\alpha}2=$\blank{50}.
+
+0.8745 关联
+
+000358	函数$f(x)=1+\log_2 x$($x\ge 1$)的反函数$f^{-1}(x)=$\blank{50}.
+
+004516	函数$f(x)=1+\log_2x$($x\ge 4$)的反函数的定义域为\blank{50}.
+
+0.8683 关联
+
+000358	函数$f(x)=1+\log_2 x$($x\ge 1$)的反函数$f^{-1}(x)=$\blank{50}.
+
+004729	函数$f(x)=1+\lg x$的反函数是$f^{-1}(x)$=\blank{50}.
+
+0.8835 关联
+
+000362	方程$\log_2(9^x-5)=2+\log_2(3^x-2)$的解$x=$\blank{50}.
+
+000850	方程$\log_2(9^x+7)=2+\log_2(3^x+1)$的解为\blank{50}.
+
+0.8554 关联
+
+000362	方程$\log_2(9^x-5)=2+\log_2(3^x-2)$的解$x=$\blank{50}.
+
+004689	方程$\log_3(x^2-1)=2+\log_3(x-1)$的解为$x=$\blank{50}.
+
+0.9449 关联
+
+000369	抛物线$y=x^2$上一点$M$到焦点的距离为$1$, 则点$M$的纵坐标为\blank{50}.
+
+000968	抛物线$y^2=x$上一点$M$到焦点的距离为$1$, 则点$M$的横坐标是\blank{50}.
+
+0.5215 无关
+
+000371	已知$x,y\in \mathbf{R}^+$, 且$x+2y=1$, 则$xy$的最大值为\blank{50}.
+
+000932	集合$A=\{x|x^2-3x<0\}$, $B=\{x||x|<2\}$, 则$A\cup B$等于\blank{50}.
+
+0.9548 关联
+
+000371	已知$x,y\in \mathbf{R}^+$, 且$x+2y=1$, 则$xy$的最大值为\blank{50}.
+
+002765	已知$x,y\in \mathbf{R}^+$, 且$x+4y=1$, 则$x\cdot y$的最大值为\blank{50}.
+
+0.8903 无关
+
+000371	已知$x,y\in \mathbf{R}^+$, 且$x+2y=1$, 则$xy$的最大值为\blank{50}.
+
+003912	已知$x,y\in \mathbf{R}$, 且$x+2y=1$, 则$2^x+4^y$的最小值是\blank{50}.
+
+0.9214 无关
+
+000371	已知$x,y\in \mathbf{R}^+$, 且$x+2y=1$, 则$xy$的最大值为\blank{50}.
+
+005109	若$x,y\in \mathbf{R}^+$, 且$x^2+y^2=1$, 则$x+y$的最大值是\blank{50}.
+
+0.8776 关联
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+000516	计算: $\displaystyle\lim_{n\to\infty}(1-\dfrac n{n+1})=$\blank{50}.
+
+0.9417 关联
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+0.9112 无关
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+000588	$\displaystyle\lim_{n\to\infty}\dfrac{3^n-1}{3^{n+1}+1}=$\blank{50}.
+
+0.8712 无关
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+000679	$\displaystyle\lim_{n\to\infty}\dfrac{2^{n+1}+3^{n+1}}{2^n+3^n}=$\blank{50}.
+
+0.9488 关联
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+000796	$\displaystyle\lim_{n\to \infty}\dfrac{2n+1}{n-1}=$\blank{50}.
+
+0.9310 关联
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+000827	计算:$\displaystyle\lim_{n\to\infty}\dfrac{2n}{4n+1}=$\blank{50}.
+
+0.8704 关联
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+000870	计算$\displaystyle\lim_{n\to\infty}\dfrac{1+2+3+\cdots +n}{n^2+1}=$\blank{50}.
+
+0.8821 无关
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+000943	计算: $\displaystyle\lim_{n\to\infty}\dfrac{3^n+1}{3^{n+1}+2^n}=$\blank{50}.
+
+0.9174 关联
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+003611	计算: $\displaystyle\lim_{n\to\infty}\dfrac{n+1}{3n-1}=$\blank{50}.
+
+0.8797 关联
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+004467	计算$\displaystyle \lim_{n\to\infty}\dfrac{4n+4}{5n+1}=$\blank{50}.
+
+0.8606 无关
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+004491	$\displaystyle\lim_{n\to \infty}\dfrac{3^{n+1}+1}{2\cdot 3^n+2^n}=$\blank{50}.
+
+0.9547 关联
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+004513	$\displaystyle\lim_{n\to \infty}\dfrac{2n}{3{n^2}+1}=$\blank{50}.
+
+0.8553 关联
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+004553	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n^2-3n+1}{n^2-4n+1}=$\blank{50}.
+
+0.8712 无关
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+004748	$\displaystyle\lim_{n\to \infty}\dfrac{2^{n+1}+3^n}{2^n+3^{n+1}}=$\blank{50}.
+
+0.8555 无关
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+006863	$\displaystyle \lim_{n\to \infty} \dfrac 1{n^2-n\sqrt {n^2+1}}=$\blank{50}.
+
+0.8751 无关
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+006878	$\displaystyle \lim_{n\to \infty} \dfrac{{2^{2n-1}}+1}{{4^n}-{3^n}}=$\blank{50}.
+
+0.8595 无关
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+006880	$\displaystyle \lim_{n\to \infty} \dfrac{{{(-2)}^{n+1}}}{1-2+4-\cdots +{{(-2)}^{n-1}}}=$\blank{50}.
+
+0.8578 关联
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+008484	计算: $\displaystyle\lim_{n\to\infty}(\dfrac 1{n^2}+\dfrac 2n-3)=$\blank{50}.
+
+0.8566 关联
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+008485	计算: $\displaystyle\lim_{n\to\infty}\dfrac{7n+4}{5-3n}=$\blank{50}.
+
+0.8519 关联
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+008487	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n^2+n-3}{3n^2+n-2}=$\blank{50}.
+
+0.8585 关联
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+008488	计算: $\displaystyle\lim_{n\to\infty}\dfrac{(n+3)(n-4)}{(n-1)(3-2n)}=$\blank{50}.
+
+0.9227 无关
+
+000376	$\displaystyle\lim_{n\to\infty}\dfrac{2n+3}{n+1}=$\blank{50}.
+
+008671	$\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
+
+0.8632 关联
+
+000377	设全集$U=\mathbf{R}$, 集合$A=\{-1,0,1,2,3\}$, $B=\{x|x\ge 2\}$, 则$A\cap {\complement_U}B=$\blank{50}.
+
+000706	设全集$U=\mathbf{R}$, 若集合$A=\{2\}$,$B=\{x|-1<x<2\}$, 则$A\cap (\complement_UB)=$\blank{50}.
+
+0.8684 关联
+
+000377	设全集$U=\mathbf{R}$, 集合$A=\{-1,0,1,2,3\}$, $B=\{x|x\ge 2\}$, 则$A\cap {\complement_U}B=$\blank{50}.
+
+000920	已知全集$U=\mathbf{R}$, $A=\{x|x^2-2x<0\}$, $B=\{x|x\ge 1\}$, 则$A\cap \complement_U B=$\blank{50}.
+
+0.8663 关联
+
+000377	设全集$U=\mathbf{R}$, 集合$A=\{-1,0,1,2,3\}$, $B=\{x|x\ge 2\}$, 则$A\cap {\complement_U}B=$\blank{50}.
+
+004468	设全集$U=\mathbf{R}$集合$A=\{-2,-1,0,1,2\}$, $B=\{x|x\ge 0\}$, 则$A\cap \complement_UB=$\blank{50}.
+
+0.8690 关联
+
+000378	不等式$\dfrac{x+1}{x+2}<0$的解集为\blank{50}.
+
+000459	不等式$\dfrac{x+2}{x+1}>1$的解集为\blank{50}.
+
+0.9182 关联
+
+000378	不等式$\dfrac{x+1}{x+2}<0$的解集为\blank{50}.
+
+000468	不等式$\dfrac x{x+1}<0$的解是\blank{50}.
+
+0.9390 关联
+
+000378	不等式$\dfrac{x+1}{x+2}<0$的解集为\blank{50}.
+
+000507	不等式$\dfrac{x-1}x<0$的解为\blank{50}.
+
+0.8729 关联
+
+000378	不等式$\dfrac{x+1}{x+2}<0$的解集为\blank{50}.
+
+000586	不等式$\dfrac x{x+1}\le 0$的解集为\blank{50}.
+
+0.9381 关联
+
+000378	不等式$\dfrac{x+1}{x+2}<0$的解集为\blank{50}.
+
+000797	不等式$\dfrac x{x-1}<0$的解集为\blank{50}.
+
+0.8949 关联
+
+000379	椭圆$\begin{cases} x=5\cos \theta,  \\ y=4\sin \theta  \end{cases}$($\theta$为参数)的焦距为\blank{50}.
+
+000801	椭圆$\begin{cases} x=2 \cos\theta, \\ y=\sqrt3\sin\theta  \end{cases}$($\theta$为参数)的右焦点为\blank{50}.
+
+0.9307 相同
+
+000384	某班级要从$5$名男生和$2$名女生中选出$3$人参加公益活动, 则在选出的$3$人中男、女生
+均有的概率为\blank{50}(结果用最简分数表示).
+
+004473	某班级要从$5$名男生和$3$名女生中选出$3$人参加公益活动, 则在选出的$3$人中男、女生均有的概率为\blank{50}(结果用最简分数表示).
+
+0.9334 关联
+
+000386	设集合$M=\{x|x^2=x\}$, $N=\{x|\lg x\le 0\}$, 则$M\cap N=$\blank{50}.
+
+000899	设集合$M=\{x|x^2=x\}$, $N=\{x|\log_2 x\le 0\}$, 则$M\cup N=$\blank{50}.
+
+0.8615 无关
+
+000389	不等式$x|x-1|>0$的解集为\blank{50}.
+
+004554	不等式$|x+1|<5$的解集为\blank{50}.
+
+0.8753 关联
+
+000396	已知复数$z=2+\mathrm{i}$($\mathrm{i}$为虚数单位), 则$\overline{{z^2}}=$\blank{50}.
+
+000509	若复数$z=2-\mathrm{i}$($\mathrm{i}$为虚数单位), 则$z\cdot \overline z+z$=\blank{50}.
+
+0.8671 无关
+
+000396	已知复数$z=2+\mathrm{i}$($\mathrm{i}$为虚数单位), 则$\overline{{z^2}}=$\blank{50}.
+
+003612	已知复数$z=1-2 \mathrm{i}$($\mathrm{i}$为虚数单位), 则$|z|=$\blank{50}.
+
+0.8788 关联
+
+000396	已知复数$z=2+\mathrm{i}$($\mathrm{i}$为虚数单位), 则$\overline{{z^2}}=$\blank{50}.
+
+004101	已知复数$z$满足$z=3-\mathrm{i}$($\mathrm{i}$为虚数单位), 则$z\cdot \overline z=$\blank{50}.
+
+0.8594 关联
+
+000396	已知复数$z=2+\mathrm{i}$($\mathrm{i}$为虚数单位), 则$\overline{{z^2}}=$\blank{50}.
+
+009984	已知$z=1+\mathrm{i}$(其中$\mathrm{i}$为虚数单位), 则$2\overline{z}=$\blank{50}.
+
+0.8990 关联
+
+000398	在二项式$(x+\dfrac2x)^6$的展开式中, 常数项是\blank{50}.
+
+000568	二项式$(x-\dfrac1{2x})^4$的展开式中的常数项为\blank{50}.
+
+0.8834 关联
+
+000398	在二项式$(x+\dfrac2x)^6$的展开式中, 常数项是\blank{50}.
+
+000737	在$(x+\dfrac1x)^6$的二项展开式中, 常数项是\blank{50}.
+
+0.9035 相同
+
+000402	若圆锥侧面积为$20\pi$, 且母线与底面所成角为$\arccos \dfrac45$, 则该圆锥的体积为\blank{50}.
+
+003483	若圆锥的侧面积为$20\pi$, 且母线与底面所成的角的大小为$\arccos\dfrac 45$, 则该圆锥的体积为\blank{50}.
+
+0.8676 关联
+
+000406	方程$\lg (3x+4)=1$的解$x=$\blank{50}.
+
+000616	方程$\log_3(2x+1)=2$的解是\blank{50}.
+
+0.8676 关联
+
+000406	方程$\lg (3x+4)=1$的解$x=$\blank{50}.
+
+004143	方程$\log_3(2x+1)=2$的解是\blank{50}.
+
+0.9114 关联
+
+000409	函数$f(x)=\sqrt x+1$的反函数是\blank{50}.
+
+000944	函数$f(x)=\sqrt[3]x+1$的反函数$f^{-1}(x)=$\blank{50}.
+
+0.8921 关联
+
+000410	$(1+2x)^6$展开式中$x^3$项的系数为\blank{50}(用数字作答).
+
+000532	在$(1+2x)^5$的展开式中, $x^2$项系数为\blank{50}(用数字作答).
 
 1.0000 相同
 
-010694	已知动点$C$到点$A(2, 0)$的距离是它到点$B(8, 0)$的距离的一半, 求点$C$的轨迹方程.
+000413	集合$\{x|\cos (\pi \cos x)=0,x\in [0,\pi]\}=$\blank{50}(用列举法表示).
 
-008842	已知动点$C$到点$A(2,0)$的距离是它到点$B(8,0)$的距离的一半, 求点$C$的轨迹方程.
+004432	集合$\{x|\cos(\pi \cos x)=0,\ x\in [0,\pi]\}=$\blank{50}(用列举法表示).
 
-0.9403 相同
+0.9158 关联
 
-010699	作出下列方程的曲线:\\
-(1) $x^2-y^2=0$;\\
-(2) $x^2+2xy-3y^2=0$.
+000417	三阶行列式$\begin{vmatrix}   3 & -5 & 1 \\   2 & 3 & -6 \\   -7 & 2 & 4 \\ \end{vmatrix}$中元素$-5$的代数余子式的值为\blank{50}.
 
-008848	画出下列方程的曲线的图像.\\
-(1) $x^2-y^2=0$;\\ 
-(2) $x^2+2xy-3y^2=0$.
+000696	行列式$\begin{vmatrix} 1 & 2 & 3 \\ 4 & 5 & 6  \\ 7 & 8 & 9 \end{vmatrix}$中, 元素$5$的代数余子式的值为\blank{50}.
 
-0.9002 相同
+0.9417 相同
 
-010700	已知圆$x^2+y^2-2x+2y-3=0$和圆$x^2+y^2+4x-1=0$关于直线$l$对称, 求直线$l$的方程.
+000419	已知一个球的表面积为$16\pi$, 则它的体积为\blank{50}.
 
-002271	已知两圆$x^2+y^2-2x+2y-3=0$与$x^2+y^2+4x-1=0$关于直线$l$对称, 则$l$的方程是\blank{100}.
+000589	已知球的表面积为$16\pi$, 则该球的体积为\blank{50}.
+
+0.8791 关联
+
+000419	已知一个球的表面积为$16\pi$, 则它的体积为\blank{50}.
+
+001721	一个球的表面积为$1$, 则其体积为\blank{80}.
+
+0.8648 关联
+
+000419	已知一个球的表面积为$16\pi$, 则它的体积为\blank{50}.
+
+004470	若一个球的体积为$36\pi$, 则它的表面积为\blank{50}.
+
+0.8628 相同
+
+000430	数列$\{a_n\}$是首项为$1$, 公差为$2$的等差数列, $S_n$是它前$n$项和, 则$\displaystyle\lim_{n\to\infty}\dfrac{S_n}{a_n^2}=$\blank{50}.
+
+000638	已知首项为$1$公差为$2$的等差数列$\{a_n\}$, 其前$n$项和为$S_n$, 则$\displaystyle\lim_{n\to\infty}\dfrac{a_n^2}{S_n}=$\blank{50}.
+
+0.9802 相同
+
+000430	数列$\{a_n\}$是首项为$1$, 公差为$2$的等差数列, $S_n$是它前$n$项和, 则$\displaystyle\lim_{n\to\infty}\dfrac{S_n}{a_n^2}=$\blank{50}.
+
+000840	已知数列$\{a_n\}$是首项为$1$, 公差为$2$的等差数列,$S_n$是其前$n$项和, 则$\displaystyle\lim_{n\to\infty}\dfrac{S_n}{a_n^2}=$\blank{50}.
+
+0.8628 相同
+
+000430	数列$\{a_n\}$是首项为$1$, 公差为$2$的等差数列, $S_n$是它前$n$项和, 则$\displaystyle\lim_{n\to\infty}\dfrac{S_n}{a_n^2}=$\blank{50}.
+
+004082	已知首项为$1$公差为$2$的等差数列$\{a_n\}$, 其前$n$项和为$S_n$, 则$\displaystyle\lim_{n\to \infty}\dfrac{(a_n)^2}{S_n}=$\blank{50}.
+
+0.9961 相同
+
+000435	设函数$f(x)=\begin{cases}    x^6, & x\ge 1,  \\   -2x-1, & x\le -1, \end{cases}$ 则当$x\le -1$时, $f[f(x)]$表达式的展开式中含${x^2}$项的系数是\blank{50}.
+
+004475	设函数$f(x)=\begin{cases} x^6, &  x\ge 1,  \\ -2x-1, &  x\le -1,  \end{cases}$ 则当$x\le -1$时, 则$f[f(x)]$表达式的展开式中含$x^2$项的系数是\blank{50}.
 
 1.0000 相同
 
-010700	已知圆$x^2+y^2-2x+2y-3=0$和圆$x^2+y^2+4x-1=0$关于直线$l$对称, 求直线$l$的方程.
+000437	函数$f(x)=1-3\sin ^2(x+\dfrac\pi 4)$的最小正周期为\blank{50}.
 
-008870	已知圆$x^2+y^2-2x+2y-3=0$和圆$x^2+y^2+4x-1=0$关于直线$l$对称, 求直线$l$的方程.
+004427	函数$f(x)=1-3\sin ^2(x+\dfrac{\pi}4)$的最小正周期为\blank{50}.
 
-0.9123 相同
+0.9952 相同
 
-010741	分别求下列两数的等差中项:\\
-(1) $8-\dfrac{\sqrt 2}2$与$8+\dfrac{\sqrt 2}2$;\\
-(2) $(a+b)^2$与 $(a-b)^2$.
+000443	在无穷等比数列$\{a_n\}$中, $\displaystyle\lim_{n\to\infty}(a_1+a_2+\cdots+a_n)=\dfrac12$, 则$a_1$的取值范围是\blank{50}.
 
-008416	分别求下面两题中两数的等差中项:\\
-(1) $\dfrac{8-\sqrt 2}2$与$\dfrac{8+\sqrt 2}2$;\\
-(2) $(a+b)^2$与$(a-b)^2$.
+004497	在无穷等比数列$\{a_n\}$中, 若$\displaystyle\lim_{n\to \infty}(a_1+a_2+\cdots +a_n)=\dfrac 12$, 则$a_1$的取值范围是\blank{50}.
 
-0.9125 相同
+0.9294 相同
 
-010760	已知直角三角形的斜边长为$c$, 两条直角边长分别为$a$和$b$($a<b$), 且$a, b, c$成等比数列. 求$a:c$的值.
+000443	在无穷等比数列$\{a_n\}$中, $\displaystyle\lim_{n\to\infty}(a_1+a_2+\cdots+a_n)=\dfrac12$, 则$a_1$的取值范围是\blank{50}.
 
-008439	已知直角三角形的斜边长为$c$, 两条直角边长分别为$a,b$($a<b$), 且$a,b,c$成等比数列, 求$a:c$的值.
+006899	在等比数列$\{a_n\}$中, 已知$\displaystyle \lim_{n\to \infty} (a_1+a_2+\cdots +a_n)=\dfrac 12$, 求$a_1$的取值范围.
 
-0.8809 相同
+0.8600 关联
 
-010779	已知数列$\{a_n\}$的前$n$项和为$S_n$, 且$a_1=1$, $a_{n+1}=2S_n$($n$为正整数). 求数列$\{a_n\}$的通项公式.
+000446	若集合$M=\{x|{x^2}-2x<0\}$, $N=\{x||x|>1\}$, 则$M\cap N=$\blank{50}.
 
-001823	已知$\{a_n\}$的前$n$项和为$S_n$, $a_1=1$, $a_{n+1}=2S_n$, 求$\{a_n\}$的通项公式.
+000768	已知集合$P=\{x|(x+1)(x-3)<0\}$, $Q=\{x||x|>2\}$, 则$P\cap Q$=\blank{50}.
 
-0.8593 相同
+0.8600 关联
 
-010782	用数学归纳法证明$1+a+a^2+\cdots+a^{n+1}=\dfrac{1-a^{n+2}}{1-a}$ ($a\ne 1$, $n$为正整数). 在验证$n=1$等式成立时, 等式左边为\bracket{20}.
-\fourch{$1$}{$1+a$}{$1+a+a^2$}{$1+a+a^2+a^3$}
+000446	若集合$M=\{x|{x^2}-2x<0\}$, $N=\{x||x|>1\}$, 则$M\cap N=$\blank{50}.
 
-008457	用数学归纳法证明: $1+a+a^2+\cdots +a^{n+1}=\dfrac{1-a^{n+2}}{1-a}$($a\ne 1$, $n\in \mathbf{N}^*$). 在验证$n=1$时, 等式左边为\bracket{20}.
-\fourch{$1$}{$1+a$}{$1+a+a^2$}{$1+a+a^2+a^3$}
+003719	若集合$A=\{x|x^2-2x<0\}$, $B=\{x||x|<1\}$, 则$A\cup B$等于\blank{50}.
 
-0.9073 相同
+0.8686 关联
 
-010783	用数学归纳法证明: $1\times 2+2\times 5+\cdots+n(3n-1)=n^2(n+1)$($n$为正整数).
+000446	若集合$M=\{x|{x^2}-2x<0\}$, $N=\{x||x|>1\}$, 则$M\cap N=$\blank{50}.
 
-008459	用数学归纳法证明: $1\times 2+2\times 5+\cdots +n(3n-1)=n^2(n+1)$($n\in \mathbf{N}^*$).
+004164	集合$A=\{x|x^2-2x<0\}$, $B=\{x||x|<1\}$, 则$A\cup B$=\blank{50}.
 
-0.8729 相同
+0.8534 关联
 
-010785	已知数列$\{a_n\}$满足$a_1=1$, 设该数列的前$n$项和为$S_n$, 且$S_n, S_{n+1}, 2a_1$成等差数列. 用数学归纳法证明: $S_n=\dfrac{2^n-1}{2^{n-1}}$($n$为正整数).
+000446	若集合$M=\{x|{x^2}-2x<0\}$, $N=\{x||x|>1\}$, 则$M\cap N=$\blank{50}.
 
-008467	已知数列$\{a_n\}$满足$a_1=1$, 设该数列的前$n$项和为$S_n$, 且$S_n,S_{n+1},2a_1$成等差数列, 用数学归纳法证明: $S_n=\dfrac{2^n-1}{2^{n-1}}$($n\in \mathbf{N}^*$).
+004292	已知集合$P=\{x|(x+1)(x–3)<0\}$, $Q=\{x||x|>2\}$, 则$P\cap Q=$\blank{50}.
 
-0.9231 相同
+0.9559 关联
 
-010786	用数学归纳法证明: $1\cdot n+2\cdot (n-1) +3\cdot (n-2)+\cdots+n\cdot 1=\dfrac 16n(n+1)(n+2)$($n$为正整数).
+000449	函数$f(x)=\begin{vmatrix}   \cos x & \sin x  \\    \sin x & \cos x \end{vmatrix}$的最小正周期是\blank{50}.
 
-008681	用数学归纳法证明等式:
-$1\cdot n+2\cdot (n-1)+3\cdot (n-2)+\cdots +n\cdot 1=\dfrac 16n(n+1)(n+2)$($n\in \mathbf{N}^*$).
+000688	函数$f(x)=\begin{vmatrix} \sin x & 2\cos x \\ 2\cos x & \sin x\end{vmatrix}$的最小正周期是\blank{50}.
 
-0.9469 关联
+0.8629 关联
 
-010792	将石子投入水中, 水面产生的圆形波纹不断扩散. 计算:\\
-(1) 当半径$r$从$a$增加到$a+h$($h>0$)时, 圆面积相对于半径的平均变化率;\\
-(2) 当半径$r=a$时, 圆面积相对于半径的瞬时变化率.
+000452	如果实数$x$、$y$满足$\begin{cases} 2x-y\le 0, \\ x+y\le 3, \\  x\ge 0, \\ \end{cases}$, 则$2x+y$的最大值是\blank{50}.
 
-009906	将石子投入水中, 水面产生的圆形波纹不断扩散.\\
-(1) 当半径$r$从$a$增加到$a+h$($h>0$)时, 求圆周长相对于半径的平均变化率;\\
-(2) 当半径$r=a$时, 求圆周长相对于半径的瞬时变化率.
+004085	已知$x$、$y$满足$\begin{cases}  x-y\le 0, \\  x+y\le 2, \\  x+2\ge 0,\\ \end{cases}$, 则$z=2x+y$的最大值是\blank{50}.
 
-0.8771 关联
+0.8910 关联
 
-010795	借助函数图像, 判断下列导数的正负:\\
-(1) $f'(-\dfrac \pi 4)$, 其中$f(x)=\cos x$;\\
-(2) $f'(3)$, 其中$f(x)=\ln x$.
+000453	从$5$名学生中任选$3$人分别担任语文、数学、英语课代表, 其中学生甲不能担任数学课代表, 共有\blank{50}种不同的选法(结果用数值表示).
 
-009908	借助函数图像, 判断下列导数的正负(可利用信息技术工具):\\
-(1) $f'(\dfrac\pi 4)$, 其中$f(x)=\sin x$;\\
-(2) $f'(0)$, 其中$f(x)=(\dfrac 12)^x$.
+009266	从$6$名学生中任选$3$人分别担任语文、数学、英语课代表, 其中学生甲不能担任数学课代表, 共有多少种不同的选法?
 
-0.8771 关联
+0.8723 关联
 
-010869	利用组合数的性质化简: $\mathrm{C}_3^3+\mathrm{C}_4^3+\mathrm{C}_5^3+\cdots+\mathrm{C}_n^3$.
+000456	设集合$A=\{2,3,4,12\}$, $B=\{0,1,2,3\}$, 则$A\cap B=$\blank{50}.
 
-009292	计算: $\mathrm{C}_3^0+\mathrm{C}_4^1+\mathrm{C}_5^2+\cdots +\mathrm{C}_{20}^7$.
+003673	已知集合$A=\{1,2,3,4\}$, $B=\{3,4,5\}$, 则$A\cap B=$\blank{50}.
 
-0.8941 关联
+0.8669 关联
 
-010895	已知一个随机变量$X$的分布为$\begin{pmatrix}-1 & 0 & 1 \\ a & b & c \end{pmatrix}$. 若$a+c=2b$, 且$E[X]=\dfrac 13$, 求$D[X]$的值.
+000458	函数$y=2\cos^2(3\pi x)-1$的最小正周期为\blank{50}.
 
-004034	已知随机变量$X$的分布为$\begin{pmatrix} -1 & 0 & 1 \\ a & b & c\end{pmatrix}$. 若$E[X]=\dfrac 13$, $D[X]=\dfrac 59$, 求$a$、$b$、$c$的值.
+000626	函数$y=1-2\sin^2(2x)$的最小正周期是\blank{50}.
 
-0.8652 无关
+0.8925 关联
 
-010212	分别求$\dfrac{2\pi} 3$及$\dfrac{7\pi} 6$的正弦、余弦及正切值.
+000458	函数$y=2\cos^2(3\pi x)-1$的最小正周期为\blank{50}.
 
-010219	利用诱导公式, 分别求角$\dfrac{23\pi}3$和$-\dfrac{87\pi} 4$的正弦、余弦及正切值.
+000676	函数$y=2\sin^2(2x)-1$的最小正周期是\blank{50}.
 
-0.8773 关联
+0.8570 无关
 
-010317	如图, 已知向量$\overrightarrow a$、$\overrightarrow b$、$\overrightarrow c$, 作出下列向量:\\
-\begin{center}
-\begin{tikzpicture}[>=latex]
-\draw [->] (0,0) -- (1,0.7);
-\draw (0.5,0.35) node [above left] {$\overrightarrow a$};
-\draw [->] (1.3,0.4) -- (2.7,0.1);
-\draw (2,0.25) node [above] {$\overrightarrow b$};
-\draw [->] (3.8,0) -- (3,1);
-\draw (3.4,0.5) node [above right] {$\overrightarrow c$};
-\end{tikzpicture}
-\end{center}
-(1) $\overrightarrow a+\overrightarrow b$, $\overrightarrow b+\overrightarrow c$, $\overrightarrow a+\overrightarrow c$;\\
-(2) $(\overrightarrow a+\overrightarrow b)+\overrightarrow c$和$\overrightarrow a+(\overrightarrow b+\overrightarrow c)$.
+000459	不等式$\dfrac{x+2}{x+1}>1$的解集为\blank{50}.
 
-010327	如图, 已知向量$\overrightarrow a$、$\overrightarrow b$、$\overrightarrow c$, 作出下列向量:
-\begin{center}
-\begin{tikzpicture}[>=latex]
-\draw [->] (0,0) -- (1,0.7);
-\draw (0.5,0.35) node [above left] {$\overrightarrow a$};
-\draw [->] (1.3,-0.7) -- (2.5,-0.7);
-\draw (1.9,-0.7) node [above] {$\overrightarrow b$};
-\draw [->] (2.9,0.3) -- (3.9,-0.4);
-\draw (3.4,-0.05) node [above right] {$\overrightarrow c$};
-\end{tikzpicture}
-\end{center}
-(1) $\overrightarrow a+\overrightarrow c-\overrightarrow b$和$\overrightarrow a+(\overrightarrow c-\overrightarrow b)$;\\
-(2) $\overrightarrow a-(\overrightarrow b+\overrightarrow c)$和$\overrightarrow a-\overrightarrow c-\overrightarrow b$.
+000540	不等式$\dfrac1{|x-1|}\ge 1 $的解集为\blank{50}.
 
-0.8520 关联
+0.9381 关联
 
-010378	已知$(x+y)-xy\mathrm{i}=-5+24\mathrm{i}$, 其中$x$、$y\in \mathbf{R}$. 求$x$、$y$的值.
+000459	不等式$\dfrac{x+2}{x+1}>1$的解集为\blank{50}.
 
-010391	已知复数$(x^2-y^2-7)+(x-y-3)\mathrm{i}$等于$-2\mathrm{i}$, 其中$x$、$y\in \mathbf{R}$. 求$x$、$y$的值.
+003675	不等式$\dfrac{x-1}{x}>1$的解集为\blank{50}.
+
+0.8990 关联
+
+000459	不等式$\dfrac{x+2}{x+1}>1$的解集为\blank{50}.
+
+004249	不等式$\dfrac 1{x-1}>1$的解集为\blank{50}.
+
+0.8990 关联
+
+000459	不等式$\dfrac{x+2}{x+1}>1$的解集为\blank{50}.
+
+004469	不等式$\dfrac 1{x-1}>1$的解集为\blank{50}.
+
+0.8676 无关
+
+000459	不等式$\dfrac{x+2}{x+1}>1$的解集为\blank{50}.
+
+005157	不等式$x+1\le \dfrac 4{x+1}$的解集为:\blank{50}.
+
+0.9552 关联
+
+000467	抛物线$y^2=4x$的焦点坐标是\blank{50}.
+
+000728	抛物线$y=x^2$的焦点坐标是\blank{50}.
+
+1.0000 相同
+
+000467	抛物线$y^2=4x$的焦点坐标是\blank{50}.
+
+000878	抛物线$y^2=4x$的焦点坐标是\blank{50}.
+
+0.8613 关联
+
+000467	抛物线$y^2=4x$的焦点坐标是\blank{50}.
+
+002395	抛物线$y^2=10x$的焦点到准线的距离是\blank{50}.
+
+0.9018 关联
+
+000467	抛物线$y^2=4x$的焦点坐标是\blank{50}.
+
+002405	抛物线$x^2=-32y$的焦点坐标为\blank{50}.
+
+0.9499 关联
+
+000467	抛物线$y^2=4x$的焦点坐标是\blank{50}.
+
+003448	抛物线$y=-4x^2$的焦点坐标是\blank{50}.
+
+0.9322 关联
+
+000468	不等式$\dfrac x{x+1}<0$的解是\blank{50}.
+
+000507	不等式$\dfrac{x-1}x<0$的解为\blank{50}.
+
+0.8877 关联
+
+000468	不等式$\dfrac x{x+1}<0$的解是\blank{50}.
+
+000586	不等式$\dfrac x{x+1}\le 0$的解集为\blank{50}.
+
+0.9349 关联
+
+000468	不等式$\dfrac x{x+1}<0$的解是\blank{50}.
+
+000797	不等式$\dfrac x{x-1}<0$的解集为\blank{50}.
+
+0.9172 无关
+
+000469	若复数$z$满足$\mathrm{i}z=1+\mathrm{i}$($\mathrm{i}$为虚数单位), 则$z=$\blank{50}.
+
+000777	若复数$z$满足$z(1-\mathrm{i})=2 \mathrm{i}$($\mathrm{i}$是虚数单位), 则$|z|=$\blank{50}.
+
+0.8969 无关
+
+000469	若复数$z$满足$\mathrm{i}z=1+\mathrm{i}$($\mathrm{i}$为虚数单位), 则$z=$\blank{50}.
+
+003656	已知复数$z$满足$(1+\mathrm{i})z=1-7\mathrm{i}$($\mathrm{i}$是虚数单位), 则$|z|=$\blank{50}.
+
+0.8809 无关
+
+000469	若复数$z$满足$\mathrm{i}z=1+\mathrm{i}$($\mathrm{i}$为虚数单位), 则$z=$\blank{50}.
+
+004512	复数$z$满足$z\cdot \mathrm{i}=1+\mathrm{i}$($\mathrm{i}$为虚数单位), 则$|z|=$\blank{50}.
+
+0.8580 无关
+
+000477	复数$\dfrac2{1+\mathrm{i}}$的虚部是\blank{50}.
+
+004206	在复平面内, 复数$\dfrac 2{1+\mathrm{i}}$对应的点与原点的距离是\blank{50}.
+
+0.8907 关联
+
+000480	圆锥的底面半径为$1$, 母线长为$3$, 则圆锥的侧面积等于\blank{50}.
+
+004124	已知圆锥的底面半径为$1$, 母线长为$2$, 则该圆锥的体积为\blank{50}.
+
+0.9192 关联
+
+000480	圆锥的底面半径为$1$, 母线长为$3$, 则圆锥的侧面积等于\blank{50}.
+
+004687	已知圆锥的底面半径为$1$, 母线长为$3$, 则圆锥的体积为\blank{50}.
+
+0.8639 关联
+
+000482	已知球主视图的面积等于$9\pi$, 则该球的体积为\blank{50}.
+
+003676	已知球的体积为$36\pi$, 则该球主视图的面积等于\blank{50}.
+
+0.8648 关联
+
+000483	$(x+\dfrac{1}{x^2})^9$的二项展开式中, 常数项的值为\blank{50}.
+
+000539	$(\sqrt x-\dfrac1x)^9$的二项展开式中的常数项的值为\blank{50}.
+
+0.9164 关联
+
+000483	$(x+\dfrac{1}{x^2})^9$的二项展开式中, 常数项的值为\blank{50}.
+
+000580	在$(x-\dfrac2x)^6$的二项展开式中, 常数项的值为\blank{50}.
+
+0.9116 关联
+
+000483	$(x+\dfrac{1}{x^2})^9$的二项展开式中, 常数项的值为\blank{50}.
+
+000737	在$(x+\dfrac1x)^6$的二项展开式中, 常数项是\blank{50}.
+
+0.9188 关联
+
+000483	$(x+\dfrac{1}{x^2})^9$的二项展开式中, 常数项的值为\blank{50}.
+
+004558	在$(x+\dfrac{1}{\sqrt{x}})^6$的二项展开式中, 常数项的值为\blank{50}.
+
+0.8731 无关
+
+000486	函数$f(x)=\lg(2-x)$的定义域是\blank{50}.
+
+000567	函数$f(x)=\sqrt{1-\lg x}$的定义域为\blank{50}.
+
+0.9086 无关
+
+000486	函数$f(x)=\lg(2-x)$的定义域是\blank{50}.
+
+000738	函数$f(x)=\lg (3^x-2^x)$的定义域为\blank{50}.
+
+0.8565 关联
+
+000486	函数$f(x)=\lg(2-x)$的定义域是\blank{50}.
+
+000931	函数$y=\log_3 (x-1)$的定义域是\blank{50}.
+
+0.8512 关联
+
+000486	函数$f(x)=\lg(2-x)$的定义域是\blank{50}.
+
+001324	函数$y=\log_{x^2+x-1} 2$的定义域是\blank{150}.
+
+0.8568 无关
+
+000507	不等式$\dfrac{x-1}x<0$的解为\blank{50}.
+
+000540	不等式$\dfrac1{|x-1|}\ge 1 $的解集为\blank{50}.
+
+0.8660 关联
+
+000507	不等式$\dfrac{x-1}x<0$的解为\blank{50}.
+
+000586	不等式$\dfrac x{x+1}\le 0$的解集为\blank{50}.
+
+0.9672 关联
+
+000507	不等式$\dfrac{x-1}x<0$的解为\blank{50}.
+
+000797	不等式$\dfrac x{x-1}<0$的解集为\blank{50}.
+
+0.8624 关联
+
+000507	不等式$\dfrac{x-1}x<0$的解为\blank{50}.
+
+003675	不等式$\dfrac{x-1}{x}>1$的解集为\blank{50}.
+
+0.8952 关联
+
+000511	已知$x, y$满足$\begin{cases}x-y+1 \ge 0, \\ x+y-3 \ge 0, \\  x\le 2, \end{cases}$ 则目标函数$k=2x+y$的最大值为\blank{50}.
+
+000631	若实数$x,y$满足$\begin{cases} x-y+1 \le 0, \\ x+y-3 \ge 0, \\ y\le 4,\end{cases}$ 则目标函数$z=2x-y$的最大值为\blank{50}.
+
+0.8864 关联
+
+000511	已知$x, y$满足$\begin{cases}x-y+1 \ge 0, \\ x+y-3 \ge 0, \\  x\le 2, \end{cases}$ 则目标函数$k=2x+y$的最大值为\blank{50}.
+
+000729	已知实数$x,y$满足$\begin{cases} x-2\le 0, \\ y-1\le 0, \\ x+y\ge 2,\end{cases}$ 则目标函数$u=x+2y$的最大值是\blank{50}.
+
+0.9165 关联
+
+000516	计算: $\displaystyle\lim_{n\to\infty}(1-\dfrac n{n+1})=$\blank{50}.
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+0.8771 无关
+
+000516	计算: $\displaystyle\lim_{n\to\infty}(1-\dfrac n{n+1})=$\blank{50}.
+
+000588	$\displaystyle\lim_{n\to\infty}\dfrac{3^n-1}{3^{n+1}+1}=$\blank{50}.
+
+0.8962 关联
+
+000516	计算: $\displaystyle\lim_{n\to\infty}(1-\dfrac n{n+1})=$\blank{50}.
+
+000606	计算: $\displaystyle\lim_{n\to\infty}(1+\dfrac1n)^3=$\blank{50}.
+
+0.9145 关联
+
+000516	计算: $\displaystyle\lim_{n\to\infty}(1-\dfrac n{n+1})=$\blank{50}.
+
+000796	$\displaystyle\lim_{n\to \infty}\dfrac{2n+1}{n-1}=$\blank{50}.
+
+0.9165 关联
+
+000516	计算: $\displaystyle\lim_{n\to\infty}(1-\dfrac n{n+1})=$\blank{50}.
+
+000827	计算:$\displaystyle\lim_{n\to\infty}\dfrac{2n}{4n+1}=$\blank{50}.
+
+0.8521 无关
+
+000516	计算: $\displaystyle\lim_{n\to\infty}(1-\dfrac n{n+1})=$\blank{50}.
+
+000943	计算: $\displaystyle\lim_{n\to\infty}\dfrac{3^n+1}{3^{n+1}+2^n}=$\blank{50}.
+
+0.9479 关联
+
+000516	计算: $\displaystyle\lim_{n\to\infty}(1-\dfrac n{n+1})=$\blank{50}.
+
+003611	计算: $\displaystyle\lim_{n\to\infty}\dfrac{n+1}{3n-1}=$\blank{50}.
+
+0.8511 关联
+
+000516	计算: $\displaystyle\lim_{n\to\infty}(1-\dfrac n{n+1})=$\blank{50}.
+
+004467	计算$\displaystyle \lim_{n\to\infty}\dfrac{4n+4}{5n+1}=$\blank{50}.
+
+0.8632 关联
+
+000516	计算: $\displaystyle\lim_{n\to\infty}(1-\dfrac n{n+1})=$\blank{50}.
+
+004513	$\displaystyle\lim_{n\to \infty}\dfrac{2n}{3{n^2}+1}=$\blank{50}.
+
+0.8521 关联
+
+000516	计算: $\displaystyle\lim_{n\to\infty}(1-\dfrac n{n+1})=$\blank{50}.
+
+008484	计算: $\displaystyle\lim_{n\to\infty}(\dfrac 1{n^2}+\dfrac 2n-3)=$\blank{50}.
+
+0.8641 关联
+
+000516	计算: $\displaystyle\lim_{n\to\infty}(1-\dfrac n{n+1})=$\blank{50}.
+
+008485	计算: $\displaystyle\lim_{n\to\infty}\dfrac{7n+4}{5-3n}=$\blank{50}.
+
+0.8691 关联
+
+000516	计算: $\displaystyle\lim_{n\to\infty}(1-\dfrac n{n+1})=$\blank{50}.
+
+008486	计算: $\displaystyle\lim_{n\to\infty}[(3-\dfrac 2n)(5+\dfrac 3n)]=$\blank{50}.
+
+0.8535 关联
+
+000516	计算: $\displaystyle\lim_{n\to\infty}(1-\dfrac n{n+1})=$\blank{50}.
+
+008488	计算: $\displaystyle\lim_{n\to\infty}\dfrac{(n+3)(n-4)}{(n-1)(3-2n)}=$\blank{50}.
+
+0.9040 无关
+
+000516	计算: $\displaystyle\lim_{n\to\infty}(1-\dfrac n{n+1})=$\blank{50}.
+
+008671	$\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
+
+0.9647 相同
+
+000519	从$5$名志愿者中选出$3$名, 分别从事布置、迎宾、策划三项不同的工作, 每人承担一项工作, 则不同的选派方案共有\blank{50}种(结果用数值表示).
+
+004428	从$5$名志愿者中选出$3$名, 分别从事布置、迎宾、策划三项不同的工作, 每人承担一项工作, 则不同的选派方案有\blank{50}种(用数值作答).
+
+0.8881 相同
+
+000520	已知函数$f(x)=a\cdot 2^x+3-a\ (a\in \mathbf{R})$的反函数为$y=f^{-1}(x)$, 则函数$y=f^{-1}(x)$的图像经过的定点的坐标为\blank{50}.
+
+004429	已知函数$f(x)=a\cdot 2^x+3-a$($a\in \mathbf{R}$且$a\ne 0$)的反函数为$y=f^{-1}(x)$, 则函数$y=f^{-1}(x)$的图像经过的定点的坐标为\blank{50}.
+
+1.0000 相同
+
+000521	在$(x-a)^{10}$的展开式中, $x^7$的系数是$15$, 则实数$a=$\blank{50}.
+
+004430	在$(x-a)^{10}$的展开式中, $x^7$的系数是$15$, 则实数$a=$\blank{50}.
+
+0.8566 关联
+
+000525	已知函数$f(x)=\begin{cases} (5-a)x+1, & x<1, \\ a^x, & x\ge 1\end{cases} \ (a>0,a\ne 1)$是实数集$\mathbf{R}$上的增函数, 则实数$a$的取值范围为\blank{50}.
+
+000650	若函数$f(x)=\begin{cases} -x+3a, & x<0,  \\ a^x+1, & x\ge 0 \end{cases}$($a>0$, 且$a\ne 1$)是$\mathbf{R}$上的减函数, 则$a$的取值范围是\blank{50}.
+
+0.8572 关联
+
+000527	计算$\displaystyle\lim_{n\to\infty}\dfrac{\mathrm{C}_n^2}{n^2+1}=$\blank{50}.
+
+000827	计算:$\displaystyle\lim_{n\to\infty}\dfrac{2n}{4n+1}=$\blank{50}.
+
+0.8672 关联
+
+000527	计算$\displaystyle\lim_{n\to\infty}\dfrac{\mathrm{C}_n^2}{n^2+1}=$\blank{50}.
+
+000860	计算: $\displaystyle\lim_{n\to\infty}\dfrac{\mathrm{P}_n^2+\mathrm{C}_n^2}{(n+1)^2}=$\blank{50}.
+
+0.8564 关联
+
+000527	计算$\displaystyle\lim_{n\to\infty}\dfrac{\mathrm{C}_n^2}{n^2+1}=$\blank{50}.
+
+004513	$\displaystyle\lim_{n\to \infty}\dfrac{2n}{3{n^2}+1}=$\blank{50}.
+
+0.8599 关联
+
+000527	计算$\displaystyle\lim_{n\to\infty}\dfrac{\mathrm{C}_n^2}{n^2+1}=$\blank{50}.
+
+008484	计算: $\displaystyle\lim_{n\to\infty}(\dfrac 1{n^2}+\dfrac 2n-3)=$\blank{50}.
+
+0.8779 关联
+
+000532	在$(1+2x)^5$的展开式中, $x^2$项系数为\blank{50}(用数字作答).
+
+004747	在$(1+2x)^6$的二项展开式中, $x^5$项的系数为\blank{50}.
+
+0.8569 关联
+
+000537	若$\sin\theta=\dfrac14$, 则$\cos(\dfrac{3 \pi}2+\theta)=$\blank{50}.
+
+000577	已知$\cos\theta=-\dfrac35$, 则$\sin(\theta+\dfrac{\pi}2)=$\blank{50}.
+
+0.9188 关联
+
+000539	$(\sqrt x-\dfrac1x)^9$的二项展开式中的常数项的值为\blank{50}.
+
+000800	$(\sqrt x+\dfrac1x)^9$二项展开式中的常数项为\blank{50}.
+
+0.8644 关联
+
+000539	$(\sqrt x-\dfrac1x)^9$的二项展开式中的常数项的值为\blank{50}.
+
+004558	在$(x+\dfrac{1}{\sqrt{x}})^6$的二项展开式中, 常数项的值为\blank{50}.
+
+0.8708 无关
+
+000540	不等式$\dfrac1{|x-1|}\ge 1 $的解集为\blank{50}.
+
+000797	不等式$\dfrac x{x-1}<0$的解集为\blank{50}.
+
+0.8979 无关
+
+000540	不等式$\dfrac1{|x-1|}\ge 1 $的解集为\blank{50}.
+
+002802	不等式$\dfrac{1+|x|}{|x|-1}\ge 3$的解集是\blank{50}.
+
+0.8541 无关
+
+000540	不等式$\dfrac1{|x-1|}\ge 1 $的解集为\blank{50}.
+
+002961	不等式$\log_{\frac 12}(x-1)\ge 1$的解集为\blank{50}.
+
+0.8961 无关
+
+000540	不等式$\dfrac1{|x-1|}\ge 1 $的解集为\blank{50}.
+
+003675	不等式$\dfrac{x-1}{x}>1$的解集为\blank{50}.
+
+0.9412 无关
+
+000540	不等式$\dfrac1{|x-1|}\ge 1 $的解集为\blank{50}.
+
+004249	不等式$\dfrac 1{x-1}>1$的解集为\blank{50}.
+
+0.9412 无关
+
+000540	不等式$\dfrac1{|x-1|}\ge 1 $的解集为\blank{50}.
+
+004469	不等式$\dfrac 1{x-1}>1$的解集为\blank{50}.
+
+0.8736 无关
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+000588	$\displaystyle\lim_{n\to\infty}\dfrac{3^n-1}{3^{n+1}+1}=$\blank{50}.
+
+0.8751 关联
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+000606	计算: $\displaystyle\lim_{n\to\infty}(1+\dfrac1n)^3=$\blank{50}.
+
+0.9256 关联
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+000796	$\displaystyle\lim_{n\to \infty}\dfrac{2n+1}{n-1}=$\blank{50}.
+
+0.9619 关联
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+000827	计算:$\displaystyle\lim_{n\to\infty}\dfrac{2n}{4n+1}=$\blank{50}.
+
+0.8665 关联
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+000870	计算$\displaystyle\lim_{n\to\infty}\dfrac{1+2+3+\cdots +n}{n^2+1}=$\blank{50}.
+
+0.8815 无关
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+000943	计算: $\displaystyle\lim_{n\to\infty}\dfrac{3^n+1}{3^{n+1}+2^n}=$\blank{50}.
+
+0.9523 关联
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+003611	计算: $\displaystyle\lim_{n\to\infty}\dfrac{n+1}{3n-1}=$\blank{50}.
+
+0.8672 关联
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+004467	计算$\displaystyle \lim_{n\to\infty}\dfrac{4n+4}{5n+1}=$\blank{50}.
+
+0.9325 关联
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+004513	$\displaystyle\lim_{n\to \infty}\dfrac{2n}{3{n^2}+1}=$\blank{50}.
+
+0.8822 关联
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+004553	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n^2-3n+1}{n^2-4n+1}=$\blank{50}.
+
+0.8514 无关
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+006878	$\displaystyle \lim_{n\to \infty} \dfrac{{2^{2n-1}}+1}{{4^n}-{3^n}}=$\blank{50}.
+
+0.8951 关联
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+008484	计算: $\displaystyle\lim_{n\to\infty}(\dfrac 1{n^2}+\dfrac 2n-3)=$\blank{50}.
+
+0.8944 关联
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+008485	计算: $\displaystyle\lim_{n\to\infty}\dfrac{7n+4}{5-3n}=$\blank{50}.
+
+0.8698 关联
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+008487	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n^2+n-3}{3n^2+n-2}=$\blank{50}.
+
+0.8968 关联
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+008488	计算: $\displaystyle\lim_{n\to\infty}\dfrac{(n+3)(n-4)}{(n-1)(3-2n)}=$\blank{50}.
+
+0.8999 无关
+
+000546	计算: $\displaystyle\lim_{n\to\infty}\dfrac{2n}{3n-1}=$\blank{50}.
+
+008671	$\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
+
+0.8701 关联
+
+000547	已知集合$A=\{x|0<x<3\}$, $B=\{x|x^2\ge 4\}$, 则$A\cap B=$\blank{50}.
+
+004510	已知集合$A=\{x|x>0\}$, $B=\{x|x^2\le 1\}$, 则$A\cap B\=$\blank{50}.
+
+0.8542 关联
+
+000567	函数$f(x)=\sqrt{1-\lg x}$的定义域为\blank{50}.
+
+000778	函数$y=\sqrt{\lg(x+2)}$的定义域为\blank{50}.
+
+0.8738 无关
+
+000567	函数$f(x)=\sqrt{1-\lg x}$的定义域为\blank{50}.
+
+004228	函数$f(x)=\sqrt{1-\dfrac 2x}$的定义域是\blank{50}.
+
+0.8841 无关
+
+000567	函数$f(x)=\sqrt{1-\lg x}$的定义域为\blank{50}.
+
+004377	函数$f(x)=\sqrt{\dfrac{1-x}x}$的定义域为\blank{50}.
+
+0.8721 无关
+
+000567	函数$f(x)=\sqrt{1-\lg x}$的定义域为\blank{50}.
+
+005578	函数$f(x)=\sqrt {1-6^{x^2+x-2}}$的定义域是\blank{50}.
+
+0.8989 关联
+
+000568	二项式$(x-\dfrac1{2x})^4$的展开式中的常数项为\blank{50}.
+
+004231	二项式$(\sqrt[3]x-\dfrac 2x)^8$的展开式中的常数项为\blank{50}.
+
+0.8630 关联
+
+000569	若$\begin{vmatrix} 4^x & 2 \\ 2^x & 1 \end{vmatrix}=0$, 则$x=$\blank{50}.
+
+000719	若$\begin{vmatrix} \log_2 x & -1  \\ -4 & 2  \end{vmatrix}=0$, 则$x=$\blank{50}.
+
+0.8643 关联
+
+000578	若行列式$\begin{vmatrix} 2^{x-1} & 4  \\ 1 & 2 \end{vmatrix}$, 则$x=$\blank{50}.
+
+000719	若$\begin{vmatrix} \log_2 x & -1  \\ -4 & 2  \end{vmatrix}=0$, 则$x=$\blank{50}.
+
+0.8569 关联
+
+000579	已知一个关于$x$, $y$的二元一次方程组的增广矩阵是$\begin{pmatrix} 1 & -1 & 2 \\ 0 & 1 & 2 \end{pmatrix}$, 则$x+y=$\blank{50}.
+
+000670	已知关于$x,y$的二元一次方程组的增广矩阵为$\begin{pmatrix} 2 & 1 & 5  \\ 1 & -2 & 0 \end{pmatrix}$, 则$3x-y$=\blank{50}.
+
+0.9832 关联
+
+000579	已知一个关于$x$, $y$的二元一次方程组的增广矩阵是$\begin{pmatrix} 1 & -1 & 2 \\ 0 & 1 & 2 \end{pmatrix}$, 则$x+y=$\blank{50}.
+
+000717	已知一个关于$x,y$的二元一次方程组的增广矩阵是$\begin{pmatrix} 1 & -1 & 1  \\ 0 & 1 & 2 \end{pmatrix}$, 则$x+y=$\blank{50}.
+
+0.9197 关联
+
+000580	在$(x-\dfrac2x)^6$的二项展开式中, 常数项的值为\blank{50}.
+
+000737	在$(x+\dfrac1x)^6$的二项展开式中, 常数项是\blank{50}.
+
+0.8732 关联
+
+000580	在$(x-\dfrac2x)^6$的二项展开式中, 常数项的值为\blank{50}.
+
+004250	在$(x-\dfrac 1{\sqrt[3]x})^6$的二项展开式中, $x^2$项的系数为\blank{50}.
+
+0.9278 关联
+
+000580	在$(x-\dfrac2x)^6$的二项展开式中, 常数项的值为\blank{50}.
+
+004558	在$(x+\dfrac{1}{\sqrt{x}})^6$的二项展开式中, 常数项的值为\blank{50}.
+
+0.8584 关联
+
+000580	在$(x-\dfrac2x)^6$的二项展开式中, 常数项的值为\blank{50}.
+
+007552	在$(x-\dfrac 1x)^9$的展开式中, $x^3$的系数为\blank{50}.
+
+0.8887 关联
+
+000586	不等式$\dfrac x{x+1}\le 0$的解集为\blank{50}.
+
+000797	不等式$\dfrac x{x-1}<0$的解集为\blank{50}.
+
+0.8671 无关
+
+000586	不等式$\dfrac x{x+1}\le 0$的解集为\blank{50}.
+
+002548	不等式$2<\dfrac{(x+1)!}{(x-1)!}\le 42$的解集为\blank{80}.
+
+0.8850 无关
+
+000586	不等式$\dfrac x{x+1}\le 0$的解集为\blank{50}.
+
+005156	不等式$\dfrac{(x-1)^2(x+2)}{(x-3)(x-4)}\le 0$的解集为:\blank{50}.
+
+0.9341 关联
+
+000587	已知$\sin\alpha=\dfrac45$, 则$\cos(\alpha+\dfrac{\pi}2)=$\blank{50}.
+
+000818	若$\sin\alpha =\dfrac13$, 则$\cos(\alpha -\dfrac{\pi}2)=$\blank{50}.
 
 0.8849 无关
 
-010429	如图, 观察长方体$ABCD-A_1B_1C_1D_1$中的点、线、面, 用适当的符号或字母填空:
-\begin{center}
-\begin{tikzpicture}[>=latex]
-\draw (0,0) node [below left] {$A$} coordinate (A) --++ (2,0) node [below right] {$B$} coordinate (B) --++ (45:{2/2}) node [right] {$C$} coordinate (C)
---++ (0,1.5) node [above right] {$C_1$} coordinate (C1)
---++ (-2,0) node [above left] {$D_1$} coordinate (D1) --++ (225:{2/2}) node [left] {$A_1$} coordinate (A1) -- cycle;
-\draw (A) ++ (2,1.5) node [right] {$B_1$} coordinate (B1) -- (B) (B1) --++ (45:{2/2}) (B1) --++ (-2,0);
-\draw [dashed] (A) --++ (45:{2/2}) node [left] {$D$} coordinate (D) --++ (2,0) (D) --++ (0,1.5);
-\draw (A1) -- (B);
-\end{tikzpicture}
-\end{center}
-(1) 点$B$\blank{20}直线$BC$;\\
-(2) 点$A$\blank{20}直线$BC$;\\
-(3) 点$D$\blank{20}平面$ABCD$;\\
-(4) 点$A_1$\blank{20}平面$ABCD$;\\
-(5) 直线$A_1B\cap$直线$BC=$\blank{20};\\
-(6) 直线$A_1B\cap$平面$A_1B_1C_1D_1=$\blank{20};\\
-(7) 直线$B_1C_1$\blank{20}平面$BB_1C_1C$.
+000587	已知$\sin\alpha=\dfrac45$, 则$\cos(\alpha+\dfrac{\pi}2)=$\blank{50}.
 
-010452	如图, 在长方体$ABCD-A_1B_1C_1D_1$中, 判断下列直线的位置关系:
-\begin{center}
-\begin{tikzpicture}[>=latex]
-\draw (0,0) node [below left] {$A$} coordinate (A) --++ (2,0) node [below right] {$B$} coordinate (B) --++ (45:{2/2}) node [right] {$C$} coordinate (C)
---++ (0,1.5) node [above right] {$C_1$} coordinate (C1)
---++ (-2,0) node [above left] {$D_1$} coordinate (D1) --++ (225:{2/2}) node [left] {$A_1$} coordinate (A1) -- cycle;
-\draw (A) ++ (2,1.5) node [right] {$B_1$} coordinate (B1) -- (B) (B1) --++ (45:{2/2}) (B1) --++ (-2,0);
-\draw [dashed] (A) --++ (45:{2/2}) node [left] {$D$} coordinate (D) --++ (2,0) (D) --++ (0,1.5);
-\draw (A1) -- (B) (B1) -- (C);
-\draw [dashed] (C) -- (D1);
-\end{tikzpicture}
-\end{center}
-(1) 直线$A_1B$与直线$D_1C$的位置关系是\blank{50};\\
-(2) 直线$A_1B$与直线$B_1C$的位置关系是\blank{50};\\
-(3) 直线$D_1D$与直线$D_1C$的位置关系是\blank{50};\\
-(4) 直线$AB$与直线$B_1C$的位置关系是\blank{50}.
+001423	已知$\sin\alpha=\dfrac{1}{2}$, 求$\cos(\alpha+\dfrac{\pi}{4})$ 的值.
 
-0.9394 无关
+0.8617 关联
 
-010433	证明公理2后的推论2.
+000588	$\displaystyle\lim_{n\to\infty}\dfrac{3^n-1}{3^{n+1}+1}=$\blank{50}.
 
-010443	证明公理$2$后的推论$3$.
+000679	$\displaystyle\lim_{n\to\infty}\dfrac{2^{n+1}+3^{n+1}}{2^n+3^n}=$\blank{50}.
 
-0.8611 无关
+0.9269 无关
 
-010465	在正方体$ABCD-A_1B_1C_1D_1$中, 求证: $D_1B\perp$平面$AB_1C$.
+000588	$\displaystyle\lim_{n\to\infty}\dfrac{3^n-1}{3^{n+1}+1}=$\blank{50}.
 
-010732	在正方体$ABCD-A_1B_1C_1D_1$中, 求$BB_1$与平面$ACD_1$所成角的大小.
+000796	$\displaystyle\lim_{n\to \infty}\dfrac{2n+1}{n-1}=$\blank{50}.
 
-0.9077 无关
+0.8655 无关
 
-010773	已知数列$\{a_n\}$的通项公式为$a_n=(3n-2)(\dfrac 35)^n$, 试问:该数列是否有最大项、最小项? 若有, 分别指出第几项最大、最小; 若没有, 试说明理由.
+000588	$\displaystyle\lim_{n\to\infty}\dfrac{3^n-1}{3^{n+1}+1}=$\blank{50}.
 
-010777	已知数列$\{a_n\}$的通项公式为$a_n=\dfrac{n-\sqrt {97}}{n-\sqrt {98}}$, 试问: 该数列是否有最大项、最小项? 若有, 分别指出第几项最大、最小; 若没有, 试说明理由.
+000827	计算:$\displaystyle\lim_{n\to\infty}\dfrac{2n}{4n+1}=$\blank{50}.
 
-0.8667 无关
+0.8726 关联
 
-010876	求$(x+\dfrac 1x)^{10}$的二项展开式中的常数项.
+000588	$\displaystyle\lim_{n\to\infty}\dfrac{3^n-1}{3^{n+1}+1}=$\blank{50}.
 
-010878	求$(x+\dfrac 12)^8$的二项展开式中系数最大的项.
+000943	计算: $\displaystyle\lim_{n\to\infty}\dfrac{3^n+1}{3^{n+1}+2^n}=$\blank{50}.
 
+0.9031 无关
+
+000588	$\displaystyle\lim_{n\to\infty}\dfrac{3^n-1}{3^{n+1}+1}=$\blank{50}.
+
+003611	计算: $\displaystyle\lim_{n\to\infty}\dfrac{n+1}{3n-1}=$\blank{50}.
+
+0.8602 关联
+
+000588	$\displaystyle\lim_{n\to\infty}\dfrac{3^n-1}{3^{n+1}+1}=$\blank{50}.
+
+004491	$\displaystyle\lim_{n\to \infty}\dfrac{3^{n+1}+1}{2\cdot 3^n+2^n}=$\blank{50}.
+
+0.8965 无关
+
+000588	$\displaystyle\lim_{n\to\infty}\dfrac{3^n-1}{3^{n+1}+1}=$\blank{50}.
+
+004513	$\displaystyle\lim_{n\to \infty}\dfrac{2n}{3{n^2}+1}=$\blank{50}.
+
+0.8570 关联
+
+000588	$\displaystyle\lim_{n\to\infty}\dfrac{3^n-1}{3^{n+1}+1}=$\blank{50}.
+
+004748	$\displaystyle\lim_{n\to \infty}\dfrac{2^{n+1}+3^n}{2^n+3^{n+1}}=$\blank{50}.
+
+0.8582 关联
+
+000588	$\displaystyle\lim_{n\to\infty}\dfrac{3^n-1}{3^{n+1}+1}=$\blank{50}.
+
+006878	$\displaystyle \lim_{n\to \infty} \dfrac{{2^{2n-1}}+1}{{4^n}-{3^n}}=$\blank{50}.
+
+0.8753 关联
+
+000588	$\displaystyle\lim_{n\to\infty}\dfrac{3^n-1}{3^{n+1}+1}=$\blank{50}.
+
+008500	计算: $\displaystyle\lim_{n\to\infty}\dfrac{3^n-4^n}{3^{n+1}+4^{n+1}}=$\blank{50}.
+
+0.9258 无关
+
+000588	$\displaystyle\lim_{n\to\infty}\dfrac{3^n-1}{3^{n+1}+1}=$\blank{50}.
+
+008671	$\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
+
+0.8864 关联
+
+000589	已知球的表面积为$16\pi$, 则该球的体积为\blank{50}.
+
+003676	已知球的体积为$36\pi$, 则该球主视图的面积等于\blank{50}.
+
+0.9833 关联
+
+000603	满足约束条件$|x|+2|y|\le 2$的目标函数$z=y-x$的最小值是\blank{50}.
+
+000952	满足约束条件$|x|+2|y|\le 2 $的目标函数$z=y-x$的最大值是\blank{50}.
+
+0.8751 关联
+
+000606	计算: $\displaystyle\lim_{n\to\infty}(1+\dfrac1n)^3=$\blank{50}.
+
+000827	计算:$\displaystyle\lim_{n\to\infty}\dfrac{2n}{4n+1}=$\blank{50}.
+
+0.8618 无关
+
+000606	计算: $\displaystyle\lim_{n\to\infty}(1+\dfrac1n)^3=$\blank{50}.
+
+000943	计算: $\displaystyle\lim_{n\to\infty}\dfrac{3^n+1}{3^{n+1}+2^n}=$\blank{50}.
+
+0.8984 关联
+
+000606	计算: $\displaystyle\lim_{n\to\infty}(1+\dfrac1n)^3=$\blank{50}.
+
+003611	计算: $\displaystyle\lim_{n\to\infty}\dfrac{n+1}{3n-1}=$\blank{50}.
+
+0.8572 关联
+
+000606	计算: $\displaystyle\lim_{n\to\infty}(1+\dfrac1n)^3=$\blank{50}.
+
+004513	$\displaystyle\lim_{n\to \infty}\dfrac{2n}{3{n^2}+1}=$\blank{50}.
+
+0.8664 无关
+
+000606	计算: $\displaystyle\lim_{n\to\infty}(1+\dfrac1n)^3=$\blank{50}.
+
+008671	$\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
+
+0.8852 无关
+
+000607	函数$y=\log_2(1-\dfrac1x)$的定义域为\blank{50}.
+
+002907	函数$y=x^{-\frac 32}$的定义域为\blank{50}.
+
+0.8584 关联
+
+000607	函数$y=\log_2(1-\dfrac1x)$的定义域为\blank{50}.
+
+002930	函数$y=\log_2 \dfrac 1{x-1}$的反函数是\blank{50}.
+
+0.8754 关联
+
+000607	函数$y=\log_2(1-\dfrac1x)$的定义域为\blank{50}.
+
+005697	函数$y=\log_{\frac 13}(x^2-3x+4)$的定义域为\blank{50}.
+
+0.8663 关联
+
+000608	若$\dfrac{\pi}2<\alpha<\pi$, $\sin\alpha=\dfrac35$, 则$\tan\dfrac{\alpha}2=$\blank{50}.
+
+003111	若$\cos\alpha=\dfrac 35$, $\alpha\in (0,\dfrac{\pi}2)$, 则$\tan\dfrac{\alpha}2=$\blank{50}.
+
+1.0000 相同
+
+000616	方程$\log_3(2x+1)=2$的解是\blank{50}.
+
+004143	方程$\log_3(2x+1)=2$的解是\blank{50}.
+
+1.0000 相同
+
+000617	已知集合$M=\{x||x+1|\le 1\},N=\{-1,0,1\},$则$M\cap N=$\blank{50}.
+
+004144	已知集合$M=\{x||x+1|\le 1\}$, $N=\{-1,0,1\}$, 则$M\cap N=$\blank{50}.
+
+1.0000 相同
+
+000618	若复数$z_1=a+2\mathrm{i}$, $z_2=2+\mathrm{i}$($\mathrm{i}$是虚数单位), 且$z_1z_2$为纯虚数, 则实数$a$=\blank{50}.
+
+004145	若复数$z_1=a+2\mathrm{i}$, $z_2=2+\mathrm{i}$($\mathrm{i}$是虚数单位), 且$z_1z_2$为纯虚数, 则实数$a=$\blank{50}.
+
+0.9947 相同
+
+000619	直线$\begin{cases} x=-2-\sqrt2 t,  \\y=3+\sqrt2 t, \end{cases}$($t$为参数)对应的普通方程是\blank{50}.
+
+004146	直线$\begin{cases} x=-2-\sqrt 2t, \\ y=3+\sqrt 2t \end{cases}$($t$为参数)对应的普通方程是\blank{50}.
+
+1.0000 相同
+
+000620	若$(x+2)^n=x^n+ax^{n-1}+\cdots+bx+c \ (n\in \mathbf{N}^*, \ n\ge 3)$, 且$b=4c$, 则$a$的值为\blank{50}.
+
+004148	若$(x+2)^n=x^n+ax^{n-1}+\cdots +bx+c$($n\in \mathbf{N}^*$, $ n\ge 3$), 且$b=4c$, 则$a$的值为\blank{50}.
+
+1.0000 相同
+
+000622	若函数$f(x)=2^x(x+a)-1$在区间$[0,1]$上有零点, 则实数$a$的取值范围是\blank{50}.
+
+004149	若函数$f(x)=2^x(x+a)-1$在区间$[0,1]$上有零点, 则实数$a$的取值范围是\blank{50}.
+
+0.8548 相同
+
+000624	某学生在上学的路上要经过$2$个路口, 假设在各路口是否遇到红灯是相互独立的, 遇到红灯的概率都是$\dfrac13$, 则这名学生在上学的路上到第二个路口时第一次遇到红灯的概率是\blank{50}.
+
+004150	某学生在上学路上要经过$2$个路口, 假设在各路口是否遇到红灯是相互独立的, 遇到红灯概率都是$\dfrac 13$, 则这名学生在上学路上到第二个路口时第一次遇到红灯的概率是\blank{50}.
+
+0.9225 相同
+
+000624	某学生在上学的路上要经过$2$个路口, 假设在各路口是否遇到红灯是相互独立的, 遇到红灯的概率都是$\dfrac13$, 则这名学生在上学的路上到第二个路口时第一次遇到红灯的概率是\blank{50}.
+
+004750	某学生在上学的路上要经过$2$个路口, 假设在各路口是否遇到红灯是相互独立的, 遇到红灯概率都是$\dfrac 13$, 则这名学生在上学路上到第二个路口时第一次遇到红灯的概率是\blank{50}.
+
+0.9292 相同
+
+000625	已知椭圆$x^2+\dfrac{y^2}{b^2}=1\ (0<b<1)$, 其左、右焦点分别为$F_1$, $F_2$, $|F_1F_2|=2c$. 若此椭圆上存在点$P$, 使$P$到直线$x=\dfrac1c$的距离是$|PF_1|$与$|PF_2|$的等差中项, 则$b$的最大值为\blank{50}.
+
+004152	已知椭圆$x^2+\dfrac{y^2}{b^2}=1$($0<b<1$), 其左、右焦点分别为$F_1$、$F_2$, $|F_1F_2|=2c$, 若椭圆上存在点$P$, 使$P$到直线$x=\dfrac 1c$距离是$|PF_1|$与$|PF_2|$的等差中项, 则$b$的最大值为\blank{50}.
+
+0.9425 关联
+
+000626	函数$y=1-2\sin^2(2x)$的最小正周期是\blank{50}.
+
+000676	函数$y=2\sin^2(2x)-1$的最小正周期是\blank{50}.
+
+0.8519 关联
+
+000631	若实数$x,y$满足$\begin{cases} x-y+1 \le 0, \\ x+y-3 \ge 0, \\ y\le 4,\end{cases}$ 则目标函数$z=2x-y$的最大值为\blank{50}.
+
+000729	已知实数$x,y$满足$\begin{cases} x-2\le 0, \\ y-1\le 0, \\ x+y\ge 2,\end{cases}$ 则目标函数$u=x+2y$的最大值是\blank{50}.
+
+0.8523 关联
+
+000631	若实数$x,y$满足$\begin{cases} x-y+1 \le 0, \\ x+y-3 \ge 0, \\ y\le 4,\end{cases}$ 则目标函数$z=2x-y$的最大值为\blank{50}.
+
+000821	若$x,y$满足$\begin{cases}x\le 2, \\ x-y+1\ge 0, \\ x+y-2\ge 0,\end{cases}$ 则$z=2x-y$的最小值为\blank{50}.
+
+0.8906 关联
+
+000631	若实数$x,y$满足$\begin{cases} x-y+1 \le 0, \\ x+y-3 \ge 0, \\ y\le 4,\end{cases}$ 则目标函数$z=2x-y$的最大值为\blank{50}.
+
+000841	设变量$x,y$满足条件$\begin{cases} x\ge 1, \\ x+y-4\le 0, \\  x-3y+4\le 0,  \end{cases}$ 则目标函数$z=3x-y$的最大值为\blank{50}.
+
+1.0000 相同
+
+000636	集合$A=\{1,2,3,4\}$, $B=\{x|(x-1)(x-5)<0\}$, 则$A\cap B=$\blank{50}.
+
+004080	集合$A=\{1,2,3,4\}$, $B=\{x|(x-1)(x-5)<0\}$, 则$A\cap B=$\blank{50}.
+
+1.0000 相同
+
+000637	复数$z=\dfrac{2-\mathrm{i}}{1+\mathrm{i}}$所对应的点在复平面内位于第\blank{50}象限.
+
+004081	复数$z=\dfrac{2-\mathrm{i}}{1+\mathrm{i}}$所对应的点在复平面内位于第\blank{50}象限.
+
+0.8636 关联
+
+000638	已知首项为$1$公差为$2$的等差数列$\{a_n\}$, 其前$n$项和为$S_n$, 则$\displaystyle\lim_{n\to\infty}\dfrac{a_n^2}{S_n}=$\blank{50}.
+
+000674	已知等差数列$\{a_n\}$的公差为$2$, 前$n$项和为$S_n$, 则$\displaystyle\lim_{n\to\infty}\dfrac{S_n}{{a_n}{a_{n+1}}}$=\blank{50}.
+
+0.8856 相同
+
+000638	已知首项为$1$公差为$2$的等差数列$\{a_n\}$, 其前$n$项和为$S_n$, 则$\displaystyle\lim_{n\to\infty}\dfrac{a_n^2}{S_n}=$\blank{50}.
+
+000840	已知数列$\{a_n\}$是首项为$1$, 公差为$2$的等差数列,$S_n$是其前$n$项和, 则$\displaystyle\lim_{n\to\infty}\dfrac{S_n}{a_n^2}=$\blank{50}.
+
+1.0000 相同
+
+000638	已知首项为$1$公差为$2$的等差数列$\{a_n\}$, 其前$n$项和为$S_n$, 则$\displaystyle\lim_{n\to\infty}\dfrac{a_n^2}{S_n}=$\blank{50}.
+
+004082	已知首项为$1$公差为$2$的等差数列$\{a_n\}$, 其前$n$项和为$S_n$, 则$\displaystyle\lim_{n\to \infty}\dfrac{(a_n)^2}{S_n}=$\blank{50}.
+
+0.8968 关联
+
+000639	若方程组$\begin{cases} ax+2y=3, \\ 2x+ay=2 \end{cases}$ 无解, 则实数$a=$\blank{50}.
+
+004557	已知二元线性方程组$\begin{cases}
+    2x+2y=-1, \\ 4x+a^2y=a
+\end{cases}$有无穷多解, 则实数$a=$\blank{50}.
+
+0.8908 无关
+
+000646	函数$y=\sqrt{2x-x^2}$的定义域是\blank{50}.
+
+000954	函数$y=\sqrt{2^x-1}$的定义域是\blank{50}(用区间表示).
+
+0.8685 无关
+
+000646	函数$y=\sqrt{2x-x^2}$的定义域是\blank{50}.
+
+001318	函数$y=\sqrt{3^{2x-1}-27}$的定义域为\blank{80}.
+
+0.8718 无关
+
+000646	函数$y=\sqrt{2x-x^2}$的定义域是\blank{50}.
+
+003148	函数$y=\sqrt{-\cos x}$的定义域为\blank{50}.
+
+0.9160 无关
+
+000646	函数$y=\sqrt{2x-x^2}$的定义域是\blank{50}.
+
+003720	函数$y=\sqrt{2016^{1-x}}$的定义域是\blank{50}.
+
+0.8614 无关
+
+000646	函数$y=\sqrt{2x-x^2}$的定义域是\blank{50}.
+
+004425	函数$y=\log_2(4-x^2)$的定义域是\blank{50}.
+
+0.9105 关联
+
+000646	函数$y=\sqrt{2x-x^2}$的定义域是\blank{50}.
+
+004446	函数$y=\sqrt{2+x}$的定义域为\blank{50}.
+
+0.8604 关联
+
+000646	函数$y=\sqrt{2x-x^2}$的定义域是\blank{50}.
+
+005304	函数$y=\sqrt {1-x^2}+\sqrt {x+1}$的定义域为\blank{50}.
+
+0.8960 关联
+
+000646	函数$y=\sqrt{2x-x^2}$的定义域是\blank{50}.
+
+005307	函数$y=\sqrt {6x-x^2-9}$的定义域为\blank{50}.
+
+0.8876 关联
+
+000646	函数$y=\sqrt{2x-x^2}$的定义域是\blank{50}.
+
+005319	函数$y=\sqrt {-x^2+x+2}$的值域为\blank{50}.
+
+0.8593 无关
+
+000646	函数$y=\sqrt{2x-x^2}$的定义域是\blank{50}.
+
+005578	函数$f(x)=\sqrt {1-6^{x^2+x-2}}$的定义域是\blank{50}.
+
+0.8983 无关
+
+000646	函数$y=\sqrt{2x-x^2}$的定义域是\blank{50}.
+
+005910	函数$y=\sqrt {\cos x}$的定义域是\blank{50}.
+
+0.8612 关联
+
+000651	设变量$x,y$满足约束条件$\begin{cases} x+y\ge 2, \\ x-y\le 1, \\ y\le 2,\end{cases}$ 则目标函数$z=-2x+y$的最小值为\blank{50}.
+
+000729	已知实数$x,y$满足$\begin{cases} x-2\le 0, \\ y-1\le 0, \\ x+y\ge 2,\end{cases}$ 则目标函数$u=x+2y$的最大值是\blank{50}.
