@@ -112,7 +112,7 @@ D03001B
 <目标编码>
 K0304002B
 <目标内容>
-经历$sin^2\alpha+cos^2\alpha=1;tan\alpha=\frac{sin\alpha}{cos\alpha}$; $cot\alpha=\frac{cos\alpha}{sin\alpha};tan\alpha*cot\alpha=1$的推导.
+经历$\sin^2\alpha+\cos^2\alpha=1$; $\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}$; $\cot\alpha=\dfrac{\cos\alpha}{\sin\alpha}$; $\tan\alpha\cdot \cot\alpha=1$的推导.
 <对应单元目标编码>
 D03001B
 <叙写人员>
@@ -123,7 +123,7 @@ D03001B
 <目标编码>
 K0304003B
 <目标内容>
-会用$sin^2\alpha+cos^2\alpha=1;tan\alpha=\frac{sin\alpha}{cos\alpha}$; $cot\alpha=\frac{cos\alpha}{sin\alpha};tan\alpha*cot\alpha=1$解决``已知一个三角比的值, 求其他三角比的值''的问题.
+会用$\sin^2\alpha+\cos^2\alpha=1$; $\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}$; $\cot\alpha=\dfrac{\cos\alpha}{\sin\alpha}$; $\tan\alpha\cdot \cot\alpha=1$解决``已知一个三角比的值, 求其他三角比的值''的问题.
 <对应单元目标编码>
 D03001B
 <叙写人员>
@@ -134,7 +134,7 @@ D03001B
 <目标编码>
 K0305001B
 <目标内容>
-会用同角三角函数的基本关系式$(sin^2\alpha+cos^2\alpha=1;tan\alpha=\dfrac{sin\alpha}{cos\alpha}$; $cot\alpha=\frac{cos\alpha}{sin\alpha};tan\alpha*cot\alpha=1)$, 在熟悉的情境中, 解决一些三角恒等式的化简与证明问题.
+会用同角三角函数的基本关系式($\sin^2\alpha+\cos^2\alpha=1$; $\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}$; $\cot\alpha=\dfrac{\cos\alpha}{\sin\alpha}$; $\tan\alpha\cdot \cot\alpha=1$), 在熟悉的情境中, 解决一些三角恒等式的化简与证明问题.
 <对应单元目标编码>
 D03001B
 <叙写人员>
@@ -332,7 +332,7 @@ D03002B
 <目标编码>
 K0311002B
 <目标内容>
-会用辅助角公式将$a\sin\alpha+b\cos\alpha$型的表达式整理为$A\sin(\alpha+\phi)$及$A\cos(\alpha+\phi)$的形式, 并能明确给出辅助角$\phi$的正弦与余弦值.
+会用辅助角公式将$a\sin\alpha+b\cos\alpha$型的表达式整理为$A\sin(\alpha+\varphi)$及$A\cos(\alpha+\varphi)$的形式, 并能明确给出辅助角$\phi$的正弦与余弦值.
 <对应单元目标编码>
 D03002B
 <叙写人员>
