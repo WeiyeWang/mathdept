@@ -1,4 +1,10 @@
 import os,re
+
+def trim(string):
+    string = re.sub(r"^[\s]*","",string)
+    string = re.sub(r"[\s]*$","",string)
+    return string
+
 def find_file(id,files):
     for f in files:
         if f[1:7]<id<f[9:15]:
@@ -7,10 +13,10 @@ def find_file(id,files):
 
 with open("../题库0.2/相似题目.txt","r",encoding = "utf8") as f:
     similar_text = "\n"+f.read()
-pairs = re.findall("\\n(\d\.\d\d\d\d) (\w\w)[\s\S]*?\\n(\d{6})[\s\S]*?\\n(\d{6})",similar_text)
+pairs = re.findall("\\n(\d\.\d\d\d\d)[\s]*([\w]+)[\s\S]*?\\n(\d{6})[\s\S]*?\\n(\d{6})",similar_text)
 files = [f for f in os.listdir("../题库0.2") if f[0]=="("]
 for pair in pairs:    
-    if pair[1] == "相同":
+    if trim(pair[1]) == "相同" or trim(pair[1]) == "s":
         file1 = find_file(pair[2],files)
         file2 = find_file(pair[3],files)
         print("相同",pair[2],pair[3],file1,file2)
@@ -51,7 +57,7 @@ for pair in pairs:
             f2.write(file2_data_modified)
 
         
-    elif pair[1] == "关联":
+    elif trim(pair[1]) == "关联" or trim(pair[1]) == "r":
         file1 = find_file(pair[2],files)
         file2 = find_file(pair[3],files)
         print("关联",pair[2],pair[3],file1,file2)

@@ -548,7 +548,8 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+003189
+006528
 <E相同题目>
 <B关联题目>
 
@@ -1041,6 +1042,10 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 <E相同题目>
 <B关联题目>
 006510
+006492
+006511
+006512
+006573
 <E关联题目>
 <B备注>
 
@@ -1085,7 +1090,10 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 
 <E相同题目>
 <B关联题目>
-
+006491
+006493
+006571
+006574
 <E关联题目>
 <B备注>
 
@@ -1130,7 +1138,9 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 
 <E相同题目>
 <B关联题目>
-
+006490
+006514
+006574
 <E关联题目>
 <B备注>
 
@@ -1175,7 +1185,10 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 
 <E相同题目>
 <B关联题目>
-
+005455
+006489
+006511
+006512
 <E关联题目>
 <B备注>
 
@@ -1220,7 +1233,7 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 
 <E相同题目>
 <B关联题目>
-
+006490
 <E关联题目>
 <B备注>
 
@@ -1310,7 +1323,9 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 
 <E相同题目>
 <B关联题目>
-
+006496
+006497
+006498
 <E关联题目>
 <B备注>
 
@@ -1356,6 +1371,9 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 <E相同题目>
 <B关联题目>
 006497
+006495
+006498
+006523
 <E关联题目>
 <B备注>
 
@@ -1401,6 +1419,7 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 <E相同题目>
 <B关联题目>
 006496
+006495
 <E关联题目>
 <B备注>
 
@@ -1445,7 +1464,8 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 
 <E相同题目>
 <B关联题目>
-
+006495
+006496
 <E关联题目>
 <B备注>
 
@@ -1991,6 +2011,7 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 <E相同题目>
 <B关联题目>
 006489
+006513
 <E关联题目>
 <B备注>
 
@@ -2035,7 +2056,10 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 
 <E相同题目>
 <B关联题目>
-
+006489
+006492
+006512
+006573
 <E关联题目>
 <B备注>
 
@@ -2080,7 +2104,10 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 
 <E相同题目>
 <B关联题目>
-
+006489
+006492
+006511
+006573
 <E关联题目>
 <B备注>
 
@@ -2125,7 +2152,7 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 
 <E相同题目>
 <B关联题目>
-
+006510
 <E关联题目>
 <B备注>
 
@@ -2170,7 +2197,7 @@ $\tan (\gamma +\delta)=\dfrac{\tan \gamma +\tan \delta }{1-\tan \gamma \tan \del
 
 <E相同题目>
 <B关联题目>
-
+006491
 <E关联题目>
 <B备注>
 
@@ -2485,7 +2512,7 @@ $\sin (\arccos x)=\dfrac{\sqrt 3}2$, 则$x=$\blank{50}.
 
 <E相同题目>
 <B关联题目>
-
+006523
 <E关联题目>
 <B备注>
 
@@ -2575,7 +2602,8 @@ $\sin (\arccos x)=\dfrac{\sqrt 3}2$, 则$x=$\blank{50}.
 
 <E相同题目>
 <B关联题目>
-
+006496
+006521
 <E关联题目>
 <B备注>
 
@@ -2710,7 +2738,8 @@ $\sin (\arccos x)=\dfrac{\sqrt 3}2$, 则$x=$\blank{50}.
 
 <E相同题目>
 <B关联题目>
-
+006527
+006529
 <E关联题目>
 <B备注>
 
@@ -2755,7 +2784,8 @@ $\sin (\arccos x)=\dfrac{\sqrt 3}2$, 则$x=$\blank{50}.
 
 <E相同题目>
 <B关联题目>
-
+006526
+006529
 <E关联题目>
 <B备注>
 
@@ -2797,10 +2827,10 @@ $\sin (\arccos x)=\dfrac{\sqrt 3}2$, 则$x=$\blank{50}.
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+006479
 <E相同题目>
 <B关联题目>
-
+003189
 <E关联题目>
 <B备注>
 
@@ -2845,7 +2875,8 @@ $\sin (\arccos x)=\dfrac{\sqrt 3}2$, 则$x=$\blank{50}.
 
 <E相同题目>
 <B关联题目>
-
+006526
+006527
 <E关联题目>
 <B备注>
 
@@ -3119,7 +3150,7 @@ $\sin (\arccos x)=\dfrac{\sqrt 3}2$, 则$x=$\blank{50}.
 
 <E相同题目>
 <B关联题目>
-
+006536
 <E关联题目>
 <B备注>
 
@@ -3164,7 +3195,7 @@ $\sin (\arccos x)=\dfrac{\sqrt 3}2$, 则$x=$\blank{50}.
 
 <E相同题目>
 <B关联题目>
-
+006535
 <E关联题目>
 <B备注>
 
@@ -4780,7 +4811,9 @@ $\sin (\arccos x)=\dfrac{\sqrt 3}2$, 则$x=$\blank{50}.
 
 <E相同题目>
 <B关联题目>
-
+006490
+006573
+006574
 <E关联题目>
 <B备注>
 
@@ -4870,7 +4903,10 @@ $\sin (\arccos x)=\dfrac{\sqrt 3}2$, 则$x=$\blank{50}.
 
 <E相同题目>
 <B关联题目>
-
+006489
+006511
+006512
+006571
 <E关联题目>
 <B备注>
 
@@ -4915,7 +4951,9 @@ $\sin (\arccos x)=\dfrac{\sqrt 3}2$, 则$x=$\blank{50}.
 
 <E相同题目>
 <B关联题目>
-
+006490
+006491
+006571
 <E关联题目>
 <B备注>
 
@@ -5096,7 +5134,7 @@ $\sin (\arccos x)=\dfrac{\sqrt 3}2$, 则$x=$\blank{50}.
 
 <E相同题目>
 <B关联题目>
-
+008320
 <E关联题目>
 <B备注>
 
@@ -5190,7 +5228,7 @@ $\sin (\arccos x)=\dfrac{\sqrt 3}2$, 则$x=$\blank{50}.
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+001588
 <E相同题目>
 <B关联题目>
 
@@ -5282,10 +5320,10 @@ $\sin (\arccos x)=\dfrac{\sqrt 3}2$, 则$x=$\blank{50}.
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+006625
 <E相同题目>
 <B关联题目>
-006625
+
 <E关联题目>
 <B备注>
 
@@ -5971,7 +6009,7 @@ I56.方程$\sqrt {1-\sin ^2x}=\sin x$的解集是\bracket{20}.
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+001525
 <E相同题目>
 <B关联题目>
 
@@ -6337,7 +6375,8 @@ I56.方程$\sqrt {1-\sin ^2x}=\sin x$的解集是\bracket{20}.
 
 <E相同题目>
 <B关联题目>
-
+001585
+001587
 <E关联题目>
 <B备注>
 
@@ -7282,10 +7321,10 @@ I56.方程$\sqrt {1-\sin ^2x}=\sin x$的解集是\bracket{20}.
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+006582
 <E相同题目>
 <B关联题目>
-006582
+
 <E关联题目>
 <B备注>
 

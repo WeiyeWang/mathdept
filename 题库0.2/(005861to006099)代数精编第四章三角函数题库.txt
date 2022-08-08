@@ -272,7 +272,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+001789
 <E相同题目>
 <B关联题目>
 
@@ -287,7 +287,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 005867
 <EID>
 <B题目>
-求证$\dfrac{1+2\sin \alpha \cos \alpha \cos ^2\alpha -\sin ^2\alpha =\dfrac 1+\tan \alpha}{1-\tan \alpha}$.
+求证$\dfrac{1+2\sin \alpha \cos \alpha}{\cos ^2\alpha -\sin ^2\alpha} =\dfrac {1+\tan \alpha}{1-\tan \alpha}$.
 <E题目>
 <B目标>
 
@@ -320,7 +320,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E相同题目>
 <B关联题目>
-
+008151
 <E关联题目>
 <B备注>
 
@@ -870,7 +870,7 @@ $=44+\dfrac 12=\dfrac{89}2$. 所以原式成立.
 
 <E相同题目>
 <B关联题目>
-
+008110
 <E关联题目>
 <B备注>
 
@@ -2092,7 +2092,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 003061
 <E相同题目>
 <B关联题目>
-
+001532
 <E关联题目>
 <B备注>
 
@@ -2134,7 +2134,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+003068
 <E相同题目>
 <B关联题目>
 
@@ -2273,6 +2273,9 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 <E相同题目>
 <B关联题目>
 003148
+003720
+004446
+005911
 <E关联题目>
 <B备注>
 
@@ -2317,7 +2320,8 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E相同题目>
 <B关联题目>
-
+003148
+005910
 <E关联题目>
 <B备注>
 
@@ -2499,7 +2503,8 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E相同题目>
 <B关联题目>
-
+005916
+008242
 <E关联题目>
 <B备注>
 
@@ -2544,7 +2549,8 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E相同题目>
 <B关联题目>
-
+005915
+008242
 <E关联题目>
 <B备注>
 
@@ -3141,6 +3147,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 <E相同题目>
 <B关联题目>
 010217
+005940
 <E关联题目>
 <B备注>
 
@@ -3635,7 +3642,8 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E相同题目>
 <B关联题目>
-
+005929
+005944
 <E关联题目>
 <B备注>
 
@@ -3815,7 +3823,8 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E相同题目>
 <B关联题目>
-
+005940
+006190
 <E关联题目>
 <B备注>
 
@@ -4043,7 +4052,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E相同题目>
 <B关联题目>
-
+005950
 <E关联题目>
 <B备注>
 
@@ -4088,7 +4097,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E相同题目>
 <B关联题目>
-
+005949
 <E关联题目>
 <B备注>
 
@@ -4133,7 +4142,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E相同题目>
 <B关联题目>
-
+008157
 <E关联题目>
 <B备注>
 
@@ -4403,7 +4412,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E相同题目>
 <B关联题目>
-
+005959
 <E关联题目>
 <B备注>
 
@@ -4493,7 +4502,7 @@ $\dfrac{\sin x}{|\sin x|}+\dfrac{|\cos x|}{\cos x}+\dfrac{\tan x}{|\tan x|}+\dfr
 
 <E相同题目>
 <B关联题目>
-
+005957
 <E关联题目>
 <B备注>
 
@@ -5881,10 +5890,11 @@ $y=-2(\sin x-\dfrac 12)^2+\dfrac 32$.
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+001507
 <E相同题目>
 <B关联题目>
-
+005272
+005273
 <E关联题目>
 <B备注>
 
@@ -5987,7 +5997,7 @@ $y=-2(\sin x-\dfrac 12)^2+\dfrac 32$.
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+006016
 <E相同题目>
 <B关联题目>
 
@@ -6046,7 +6056,7 @@ $y=-2(\sin x-\dfrac 12)^2+\dfrac 32$.
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+006017
 <E相同题目>
 <B关联题目>
 
@@ -6900,7 +6910,8 @@ $y=-2(\sin x-\dfrac 12)^2+\dfrac 32$.
 
 <E相同题目>
 <B关联题目>
-
+001239
+002993
 <E关联题目>
 <B备注>
 
@@ -7212,7 +7223,7 @@ $y=-2(\sin x-\dfrac 12)^2+\dfrac 32$.
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+005990
 <E相同题目>
 <B关联题目>
 
@@ -7257,7 +7268,7 @@ $y=-2(\sin x-\dfrac 12)^2+\dfrac 32$.
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+005991
 <E相同题目>
 <B关联题目>
 
@@ -7893,7 +7904,7 @@ $y=-2(\sin x-\dfrac 12)^2+\dfrac 32$.
 
 <E相同题目>
 <B关联题目>
-
+005350
 <E关联题目>
 <B备注>
 
@@ -8545,7 +8556,7 @@ $y=-2(\sin x-\dfrac 12)^2+\dfrac 32$.
 
 <E相同题目>
 <B关联题目>
-
+003168
 <E关联题目>
 <B备注>
 
@@ -10040,7 +10051,7 @@ $\sin \dfrac{2\pi}3,\cos 1,\tan 2,\cot 3$的大小关系为\bracket{20}.
 
 <E相同题目>
 <B关联题目>
-
+008040
 <E关联题目>
 <B备注>
 

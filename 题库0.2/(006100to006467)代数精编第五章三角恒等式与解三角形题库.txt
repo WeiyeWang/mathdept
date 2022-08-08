@@ -314,7 +314,7 @@ $\tan (\gamma -\alpha)=-\tan (\alpha -\gamma)=-\tan [(\alpha -\beta)+(\beta -\ga
 
 <E相同题目>
 <B关联题目>
-
+006142
 <E关联题目>
 <B备注>
 
@@ -1813,7 +1813,7 @@ $\tan (\gamma -\alpha)=-\tan (\alpha -\gamma)=-\tan [(\alpha -\beta)+(\beta -\ga
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+006196
 <E相同题目>
 <B关联题目>
 
@@ -1951,7 +1951,7 @@ $\tan (\gamma -\alpha)=-\tan (\alpha -\gamma)=-\tan [(\alpha -\beta)+(\beta -\ga
 
 <E相同题目>
 <B关联题目>
-
+006106
 <E关联题目>
 <B备注>
 
@@ -2131,7 +2131,8 @@ $\tan (\gamma -\alpha)=-\tan (\alpha -\gamma)=-\tan [(\alpha -\beta)+(\beta -\ga
 
 <E相同题目>
 <B关联题目>
-
+003104
+006265
 <E关联题目>
 <B备注>
 
@@ -2353,7 +2354,7 @@ $\tan (\gamma -\alpha)=-\tan (\alpha -\gamma)=-\tan [(\alpha -\beta)+(\beta -\ga
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+001524
 <E相同题目>
 <B关联题目>
 
@@ -4123,7 +4124,7 @@ $\cos \dfrac{5\pi}8\cos \dfrac{\pi}8=$\blank{50}.
 
 <E相同题目>
 <B关联题目>
-
+005944
 <E关联题目>
 <B备注>
 
@@ -4391,7 +4392,7 @@ $\cos \dfrac{5\pi}8\cos \dfrac{\pi}8=$\blank{50}.
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+006139
 <E相同题目>
 <B关联题目>
 
@@ -5212,7 +5213,7 @@ $\cos \dfrac{5\pi}8\cos \dfrac{\pi}8=$\blank{50}.
 
 <E相同题目>
 <B关联题目>
-
+008175
 <E关联题目>
 <B备注>
 
@@ -5258,6 +5259,7 @@ $\cos \dfrac{5\pi}8\cos \dfrac{\pi}8=$\blank{50}.
 <E相同题目>
 <B关联题目>
 010286
+008267
 <E关联题目>
 <B备注>
 
@@ -5934,7 +5936,7 @@ $\cos \dfrac{5\pi}8\cos \dfrac{\pi}8=$\blank{50}.
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+001475
 <E相同题目>
 <B关联题目>
 
@@ -7533,7 +7535,8 @@ $\cos (\dfrac{\pi}5+1)\cos (\dfrac{\pi}5-1)$等于\bracket{20}.
 
 <E相同题目>
 <B关联题目>
-
+003104
+006146
 <E关联题目>
 <B备注>
 
@@ -7623,7 +7626,7 @@ $\cos (\dfrac{\pi}5+1)\cos (\dfrac{\pi}5-1)$等于\bracket{20}.
 
 <E相同题目>
 <B关联题目>
-
+006300
 <E关联题目>
 <B备注>
 
@@ -9115,7 +9118,7 @@ $\cos (\dfrac{\pi}5+1)\cos (\dfrac{\pi}5-1)$等于\bracket{20}.
 
 <E相同题目>
 <B关联题目>
-
+006267
 <E关联题目>
 <B备注>
 
@@ -9975,7 +9978,7 @@ $\cos (\dfrac{\pi}5+1)\cos (\dfrac{\pi}5-1)$等于\bracket{20}.
 
 <E相同题目>
 <B关联题目>
-
+008175
 <E关联题目>
 <B备注>
 
@@ -11190,7 +11193,7 @@ $\sin \angle BEO=\sin [180^\circ -(\angle EBO+30^\circ)]=\sin (\angle EBO+30^\ci
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+006414
 <E相同题目>
 <B关联题目>
 
@@ -12260,7 +12263,7 @@ $\triangle ABC$的$BC$边上有一点$D$, 满足$\angle CAD=\angle DAB=60^{\circ
 
 <E相同题目>
 <B关联题目>
-
+006369
 <E关联题目>
 <B备注>
 
@@ -12305,7 +12308,7 @@ $\triangle ABC$的$BC$边上有一点$D$, 满足$\angle CAD=\angle DAB=60^{\circ
 
 <E相同题目>
 <B关联题目>
-
+006368
 <E关联题目>
 <B备注>
 
@@ -12485,7 +12488,7 @@ $\triangle ABC$的$BC$边上有一点$D$, 满足$\angle CAD=\angle DAB=60^{\circ
 
 <E相同题目>
 <B关联题目>
-
+001487
 <E关联题目>
 <B备注>
 
@@ -12980,7 +12983,7 @@ $\triangle ABC$的$BC$边上有一点$D$, 满足$\angle CAD=\angle DAB=60^{\circ
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+006407
 <E相同题目>
 <B关联题目>
 
@@ -14015,7 +14018,7 @@ $\triangle ABC$的$BC$边上有一点$D$, 满足$\angle CAD=\angle DAB=60^{\circ
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+006384
 <E相同题目>
 <B关联题目>
 
@@ -14330,7 +14333,7 @@ $\triangle ABC$的$BC$边上有一点$D$, 满足$\angle CAD=\angle DAB=60^{\circ
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+006345
 <E相同题目>
 <B关联题目>
 
@@ -14378,7 +14381,7 @@ $\triangle ABC$的$BC$边上有一点$D$, 满足$\angle CAD=\angle DAB=60^{\circ
 
 <E相同题目>
 <B关联题目>
-
+001490
 <E关联题目>
 <B备注>
 
@@ -15788,7 +15791,7 @@ $\tan \dfrac A2\cdot \tan \dfrac C2=\dfrac 13$.
 
 <E相同题目>
 <B关联题目>
-
+001283
 <E关联题目>
 <B备注>
 
@@ -15833,7 +15836,7 @@ $\tan \dfrac A2\cdot \tan \dfrac C2=\dfrac 13$.
 
 <E相同题目>
 <B关联题目>
-
+006447
 <E关联题目>
 <B备注>
 
@@ -15878,7 +15881,7 @@ $\tan \dfrac A2\cdot \tan \dfrac C2=\dfrac 13$.
 
 <E相同题目>
 <B关联题目>
-
+006446
 <E关联题目>
 <B备注>
 
@@ -15890,7 +15893,7 @@ $\tan \dfrac A2\cdot \tan \dfrac C2=\dfrac 13$.
 006448
 <EID>
 <B题目>
-利用三角代换, 求函数$S=x^2+xy+y^2$的值域.
+利用三角代换, 求函数$S=x^2+xy+y^2$, ($1\le x^2+y^2\le 2$)的值域.
 <E题目>
 <B目标>
 
@@ -15920,7 +15923,7 @@ $\tan \dfrac A2\cdot \tan \dfrac C2=\dfrac 13$.
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+006449
 <E相同题目>
 <B关联题目>
 
@@ -15935,7 +15938,7 @@ $\tan \dfrac A2\cdot \tan \dfrac C2=\dfrac 13$.
 006449
 <EID>
 <B题目>
-利用三角代换, 求函数$1\le x^2+y^2\le 2$的值域.
+利用三角代换, 求函数$S=x^2+xy+y^2$, ($1\le x^2+y^2\le 2$)的值域.
 <E题目>
 <B目标>
 
@@ -15965,7 +15968,7 @@ $\tan \dfrac A2\cdot \tan \dfrac C2=\dfrac 13$.
 20220720	王伟叶
 <E修订历史>
 <B相同题目>
-
+006448
 <E相同题目>
 <B关联题目>
 

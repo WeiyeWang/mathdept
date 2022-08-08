@@ -92,8 +92,11 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 
 \begin{document}
 
-
-\fcolorbox[rgb]{0,0,0}{0,1,0}{test}
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\draw (0,0) arc (0:90:2) node [midway, above, rotate = -45] {curve};
+\end{tikzpicture}
+\end{center}
 
 %\input{"../题库0.2/相似题目_待处理01.txt"}
 
