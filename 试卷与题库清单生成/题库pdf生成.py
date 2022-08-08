@@ -80,8 +80,8 @@ for id in ids:
                 except:
                     print(id,"题, 目标",obj,":目标id有错误.")
             objects = objects_string
-        students_string = "\\item ("+id+")"+problem+"\n"
-        teachers_string = students_string+"\n\n关联目标:\n\n"+ objects +"答案: "+answer + "\n\n" + "解答或提示: " + solution + "\n\n使用记录:\n\n"+ usage + "\n" + "\n\n出处: "+origin + "\n"
+        students_string = "\\item "+"{\\tiny ("+id+")}"+problem+"\n"
+        teachers_string = students_string.replace("\\tiny","")+"\n\n关联目标:\n\n"+ objects +"答案: "+answer + "\n\n" + "解答或提示: " + solution + "\n\n使用记录:\n\n"+ usage + "\n" + "\n\n出处: "+origin + "\n"
         data_teachers += teachers_string
         data_students += students_string
 #生成学生的文件和教师的源文件
