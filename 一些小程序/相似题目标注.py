@@ -7,7 +7,7 @@ def trim(string):
 
 def find_file(id,files):
     for f in files:
-        if f[1:7]<id<f[9:15]:
+        if f[1:7]<=id<=f[9:15]:
             break
     return f
 
