@@ -12,6 +12,7 @@ for v in vault_list:
             problems_list.append(problem)
 with open("../题库0.2/标签对应.txt","r",encoding = "utf8") as f:
     raw_id_str = f.read()
+    raw_id_str = raw_id_str.replace("：",":").replace("，",",")
 
 raw_id_list = [line for line in raw_id_str.split("\n") if len(line)>0]
 id_tag_dict = []
