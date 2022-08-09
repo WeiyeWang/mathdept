@@ -21,7 +21,7 @@ for i in range(len(raw_id_list)//2):
 
 for item in id_tag_dict:
     idstr = item[0]
-    tag = item[1]
+    tag = trim(item[1])
     id_list = idstr.split(",")
     ids = []
     for term in id_list:

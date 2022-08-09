@@ -43,11 +43,16 @@ id_list = idstr.split(",")
 ids = []
 for term in id_list:
     if not ":" in term:
-        ids.append(str(term).zfill(6))
+        id = str(term).zfill(6)
+        if not id in ids:
+            ids.append(id)
+
     else:
         [start,end] = term.split(":")
         for k in range(int(start),int(end)+1):
-            ids.append(str(k).zfill(6))
+            id = str(k).zfill(6)
+            if not id in ids:
+                ids.append(id)
 #生成题号列表
 
 id_list = ""
