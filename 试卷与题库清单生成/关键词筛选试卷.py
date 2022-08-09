@@ -134,8 +134,11 @@ for id in id_list.split(","):
                 except:
                     print(id,"题, 目标",obj,":目标id有错误.")
             objects = objects_string
+        tag = trim(re.findall("<B标签>([\s\S]*?)<E标签>",problem_set)[0])
+        if len(tag) == 0:
+            tag = "暂无标签"
         students_string = "\\item "+"{\\tiny ("+id+")}"+problem+"\n"
-        teachers_string = students_string.replace("\\tiny","")+"\n\n关联目标:\n\n"+ objects +"答案: "+answer + "\n\n" + "解答或提示: " + solution + "\n\n使用记录:\n\n"+ usage + "\n" + "\n\n出处: "+origin + "\n"
+        teachers_string = students_string.replace("\\tiny","")+"\n\n关联目标:\n\n"+ objects + "\n\n标签: " + tag + "\n\n答案: "+answer + "\n\n" + "解答或提示: " + solution + "\n\n使用记录:\n\n"+ usage + "\n" + "\n\n出处: "+origin + "\n"
         data_teachers += teachers_string
         data_students += students_string
 
