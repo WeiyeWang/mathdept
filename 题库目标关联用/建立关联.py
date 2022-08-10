@@ -23,6 +23,7 @@ lines = [recognize_line(line) for line in data.split("\n") if len(line) > 0]
 vaults = [f for f in os.listdir("../题库0.2") if "题库" in f]
 for line in lines:
     id = line.pop(0)
+    id = id.zfill(6)
     for v in vaults:
         (startid,endid)=re.findall("(\d{6})to(\d{6})",v)[0]
         if startid <= id <= endid:

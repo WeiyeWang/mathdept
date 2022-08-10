@@ -2,9 +2,9 @@ import os,re,time,shutil
 
 #这里四行每次需要改动
 keywords_in_problem = ["集合"]
-keywords_in_tag = []
 keywords_in_objects = ["K0101","K0102","K0103","K0104"]
 
+keywords_in_tag = ["第一单元"]
 keywords_in_classification = ["选择题","填空题","解答题"]
 #keywords_in_classification = ["填空题","选择题","解答题"]
 
@@ -64,7 +64,7 @@ for p in problems_list:
     p_objects = trim(re.findall("<B目标>([\s\S]*?)<E目标>",p)[0])
     p_classification = trim(re.findall("<B类型>([\s\S]*?)<E类型>",p)[0])
     #print([p_id,p_problem,p_tag,p_objects,p_classification])
-    if (p_classification in keywords_in_classification) and (coincide(keywords_in_problem,p_problem) or coincide(keywords_in_tag,p_tag) or coincide(keywords_in_objects,p_objects)):
+    if coincide(keywords_in_tag,p_tag) and (p_classification in keywords_in_classification) and (coincide(keywords_in_problem,p_problem) or  coincide(keywords_in_objects,p_objects)):
         id_list += p_id + ","
 
 if len(id_list) > 0:

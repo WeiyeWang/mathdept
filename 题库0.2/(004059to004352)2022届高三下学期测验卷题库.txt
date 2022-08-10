@@ -5031,7 +5031,7 @@ $P$是平面$ACC_1A_1$上一动点, 且满足$\overrightarrow{DP}\cdot \overrigh
 集合$A=\{x|x^2-2x<0\}$, $B=\{x||x|<1\}$, 则$A\cup B$=\blank{50}.
 <E题目>
 <B目标>
-
+K0104004B
 <E目标>
 <B标签>
 第一单元

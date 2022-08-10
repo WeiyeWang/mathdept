@@ -141,7 +141,8 @@
 已知集合$A=\{x|x^2- ax+a^2-19=0\}$, $B=\{x|x^2-5x+6=0\}$, $C=\{ x|x^2+2x-8=0\}$满足$A\cap B\ne \varnothing$, $A\cap C=\varnothing$, 求实数$a$的值.
 <E题目>
 <B目标>
-
+K0104001B
+K0104003B
 <E目标>
 <B标签>
 第一单元
@@ -186,7 +187,7 @@
 已知集合$A=\{x|x^2-5x+4\le 0\}$与$B=\{x|x^2-2ax+a+2\le 0,\ a\in \mathbf{R}\}$满足$B\subseteq A$, 求$a$的取值范围.
 <E题目>
 <B目标>
-
+K0101002B
 <E目标>
 <B标签>
 第一单元
@@ -694,7 +695,8 @@
 已知集合$A=\{x|\dfrac{12}{5-x}\in \mathbf{N},\ x\in\mathbf{Z}\}$, 用列举法表示集合$A$.
 <E题目>
 <B目标>
-
+K0101001B
+K0102001B
 <E目标>
 <B标签>
 第一单元
@@ -828,10 +830,8 @@
 004784
 <EID>
 <B题目>
-数0与空集$\varnothing$之间的关系是\bracket{20}
-\fourch{$0\in \varnothing$}{$0\notin \varnothing$}{$0=\varnothing$}{$0\subset \varnothing$}14.若集合$M=\{x |x\le 6\},a=\sqrt 5$, 则下面结论正确的是\bracket{20}
-\fourch{$\{ a\}\subset M$}{$a\subset M$}{$\{ a\}\notin M$}{$a\notin M$}15.已知集合$M=\{y |y=x^2-2x-1,x\in \mathbf{R}\},P=\{x |-2\le x\le 4,x\in \mathbf{R}\}$, 则$M$与$P$之间的关系是\bracket{20}
-\fourch{$M=P$}{$M\subset P$}{$M\supset P$}{$M\not\subset P$且$M\not\supset P$}
+数0与空集$\varnothing$之间的关系是\bracket{20}.
+\fourch{$0\in \varnothing$}{$0\notin \varnothing$}{$0=\varnothing$}{$0\subset \varnothing$}
 <E题目>
 <B目标>
 
@@ -1291,7 +1291,7 @@
 \fourch{$4$}{$5$}{$7$}{$31$}
 <E题目>
 <B目标>
-
+K0101001B
 <E目标>
 <B标签>
 第一单元
