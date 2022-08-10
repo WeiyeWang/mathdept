@@ -12,7 +12,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -68,7 +68,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -114,7 +114,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -160,7 +160,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -206,7 +206,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -252,7 +252,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -298,7 +298,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -344,7 +344,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -390,7 +390,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -436,7 +436,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -481,7 +481,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -526,7 +526,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -571,7 +571,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -616,7 +616,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -661,7 +661,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -706,7 +706,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -751,7 +751,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -796,7 +796,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -841,7 +841,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -886,7 +886,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -931,7 +931,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -976,7 +976,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -1021,7 +1021,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -1066,7 +1066,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -1111,7 +1111,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -1156,7 +1156,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -1201,7 +1201,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -1249,7 +1249,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -1295,7 +1295,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -1341,7 +1341,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -1387,7 +1387,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -1436,7 +1436,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -1481,7 +1481,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -1526,7 +1526,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -1571,7 +1571,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -1616,7 +1616,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -1664,7 +1664,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -1727,7 +1727,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -1787,7 +1787,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -1832,7 +1832,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -1877,7 +1877,7 @@
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -1922,7 +1922,7 @@ $|z|=\dfrac{{{|3-4\mathrm{i}|}^3}}{{{|\dfrac{\sqrt 3}2-\dfrac 12\mathrm{i}|}^2}\
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -1969,7 +1969,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -2019,7 +2019,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -2066,7 +2066,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -2114,7 +2114,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -2160,7 +2160,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -2206,7 +2206,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -2252,7 +2252,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -2297,7 +2297,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -2342,7 +2342,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -2387,7 +2387,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -2432,7 +2432,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -2477,7 +2477,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -2523,7 +2523,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -2569,7 +2569,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -2615,7 +2615,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -2661,7 +2661,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -2707,7 +2707,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -2753,7 +2753,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -2798,7 +2798,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -2843,7 +2843,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -2888,7 +2888,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -2933,7 +2933,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -2978,7 +2978,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -3023,7 +3023,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -3068,7 +3068,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -3114,7 +3114,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -3162,7 +3162,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -3207,7 +3207,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -3252,7 +3252,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -3298,7 +3298,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -3344,7 +3344,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -3390,7 +3390,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -3436,7 +3436,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -3482,7 +3482,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -3528,7 +3528,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -3574,7 +3574,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -3619,7 +3619,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -3667,7 +3667,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -3714,7 +3714,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -3762,7 +3762,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -3807,7 +3807,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -3855,7 +3855,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -3900,7 +3900,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -3945,7 +3945,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -3990,7 +3990,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -4037,7 +4037,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -4082,7 +4082,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -4127,7 +4127,7 @@ $=z\overline z+\omega \overline \omega -1-z\overline z\omega \overline \omega =|
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -4172,7 +4172,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -4217,7 +4217,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -4262,7 +4262,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -4307,7 +4307,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -4352,7 +4352,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -4397,7 +4397,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -4442,7 +4442,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -4487,7 +4487,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -4532,7 +4532,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -4577,7 +4577,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -4622,7 +4622,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -4667,7 +4667,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -4712,7 +4712,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -4758,7 +4758,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -4804,7 +4804,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -4849,7 +4849,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -4894,7 +4894,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -4939,7 +4939,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -4984,7 +4984,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -5029,7 +5029,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -5074,7 +5074,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -5119,7 +5119,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -5164,7 +5164,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -5209,7 +5209,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -5254,7 +5254,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -5300,7 +5300,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -5345,7 +5345,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -5394,7 +5394,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -5439,7 +5439,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -5484,7 +5484,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -5529,7 +5529,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -5574,7 +5574,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -5619,7 +5619,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -5664,7 +5664,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -5710,7 +5710,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -5755,7 +5755,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -5800,7 +5800,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -5845,7 +5845,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -5890,7 +5890,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -5935,7 +5935,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -5980,7 +5980,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6025,7 +6025,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6070,7 +6070,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6115,7 +6115,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6160,7 +6160,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6205,7 +6205,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6250,7 +6250,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6295,7 +6295,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6340,7 +6340,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6385,7 +6385,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6430,7 +6430,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6475,7 +6475,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6520,7 +6520,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6565,7 +6565,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6610,7 +6610,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6655,7 +6655,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6700,7 +6700,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6745,7 +6745,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6790,7 +6790,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6835,7 +6835,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6881,7 +6881,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6926,7 +6926,7 @@ $(\mathrm{i}-\dfrac 1{\mathrm{i}})^6$的虚部是\blank{50}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -6974,7 +6974,7 @@ $2(\cos \dfrac{\pi }5-\mathrm{i}\sin \dfrac{\pi }5)=2[\cos (-\dfrac{\pi }5)+\mat
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -7023,7 +7023,7 @@ $2(-\cos \dfrac{\pi }5+\mathrm{i}\sin \dfrac{\pi }5)=2(\cos \dfrac{4\pi }5+\math
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -7072,7 +7072,7 @@ $-2(\cos \dfrac{\pi }5+\mathrm{i}\sin \dfrac{\pi }5)=2(\cos \dfrac{6\pi }5+\math
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -7122,7 +7122,7 @@ $2(\sin \dfrac{\pi }5+\mathrm{i}\cos \dfrac{\pi }5)=2(\cos \dfrac{3\pi }{10}+\ma
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -7180,7 +7180,7 @@ $2(\sin \dfrac{\pi }5+\mathrm{i}\cos \dfrac{\pi }5)=2(\cos \dfrac{3\pi }{10}+\ma
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -7239,7 +7239,7 @@ $2(\sin \dfrac{\pi }5+\mathrm{i}\cos \dfrac{\pi }5)=2(\cos \dfrac{3\pi }{10}+\ma
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -7297,7 +7297,7 @@ $2(\sin \dfrac{\pi }5+\mathrm{i}\cos \dfrac{\pi }5)=2(\cos \dfrac{3\pi }{10}+\ma
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -7365,7 +7365,7 @@ $2(\sin \dfrac{\pi }5+\mathrm{i}\cos \dfrac{\pi }5)=2(\cos \dfrac{3\pi }{10}+\ma
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -7455,7 +7455,7 @@ $=\sin 2\theta -\mathrm{i}\cos 2\theta =\cos (2\theta -\dfrac{\pi }2)+\mathrm{i}
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -7503,7 +7503,7 @@ $=\sin 2\theta -\mathrm{i}\cos 2\theta =\cos (2\theta -\dfrac{\pi }2)+\mathrm{i}
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -7572,7 +7572,7 @@ $=\sin 2\theta -\mathrm{i}\cos 2\theta =\cos (2\theta -\dfrac{\pi }2)+\mathrm{i}
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -7633,7 +7633,7 @@ $=\sin 2\theta -\mathrm{i}\cos 2\theta =\cos (2\theta -\dfrac{\pi }2)+\mathrm{i}
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -7683,7 +7683,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -7735,7 +7735,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -7781,7 +7781,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -7827,7 +7827,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -7873,7 +7873,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -7919,7 +7919,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -7965,7 +7965,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -8011,7 +8011,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -8057,7 +8057,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -8103,7 +8103,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -8149,7 +8149,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -8195,7 +8195,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -8241,7 +8241,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -8286,7 +8286,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -8334,7 +8334,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -8384,7 +8384,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -8433,7 +8433,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -8482,7 +8482,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -8528,7 +8528,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -8574,7 +8574,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -8620,7 +8620,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -8666,7 +8666,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -8711,7 +8711,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -8756,7 +8756,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -8801,7 +8801,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -8846,7 +8846,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -8891,7 +8891,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -8936,7 +8936,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -8981,7 +8981,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -9026,7 +9026,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -9071,7 +9071,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -9116,7 +9116,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -9161,7 +9161,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -9208,7 +9208,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -9253,7 +9253,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -9300,7 +9300,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -9345,7 +9345,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -9390,7 +9390,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -9435,7 +9435,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -9480,7 +9480,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -9525,7 +9525,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -9570,7 +9570,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -9616,7 +9616,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -9676,7 +9676,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -9722,7 +9722,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -9768,7 +9768,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -9814,7 +9814,7 @@ $z_3=7+\mathrm{i}=r_3(\cos \gamma +\mathrm{i}\sin \gamma)$, $z_4=8+\mathrm{i}=r_
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -9860,7 +9860,7 @@ $(1-\sqrt 3\mathrm{i})^2$的辐角主值为\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -9905,7 +9905,7 @@ $(1-\sqrt 3\mathrm{i})^2$的辐角主值为\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -9950,7 +9950,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -9995,7 +9995,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -10040,7 +10040,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -10085,7 +10085,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -10130,7 +10130,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -10175,7 +10175,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -10220,7 +10220,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -10265,7 +10265,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -10310,7 +10310,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -10355,7 +10355,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -10400,7 +10400,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -10445,7 +10445,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -10490,7 +10490,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -10535,7 +10535,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -10580,7 +10580,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -10626,7 +10626,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -10672,7 +10672,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -10718,7 +10718,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -10764,7 +10764,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -10810,7 +10810,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -10856,7 +10856,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -10902,7 +10902,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -10948,7 +10948,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -10994,7 +10994,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -11040,7 +11040,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -11118,7 +11118,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -11174,7 +11174,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11219,7 +11219,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11264,7 +11264,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11309,7 +11309,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11354,7 +11354,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11399,7 +11399,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11444,7 +11444,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11489,7 +11489,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11534,7 +11534,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11579,7 +11579,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11624,7 +11624,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11669,7 +11669,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11714,7 +11714,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11762,7 +11762,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11809,7 +11809,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11856,7 +11856,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11903,7 +11903,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11950,7 +11950,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -11995,7 +11995,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12040,7 +12040,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12085,7 +12085,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12130,7 +12130,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12175,7 +12175,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12222,7 +12222,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12267,7 +12267,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12312,7 +12312,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12357,7 +12357,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12402,7 +12402,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12447,7 +12447,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12492,7 +12492,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12539,7 +12539,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12584,7 +12584,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12629,7 +12629,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12677,7 +12677,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12722,7 +12722,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12767,7 +12767,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12812,7 +12812,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12857,7 +12857,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12902,7 +12902,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12949,7 +12949,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -12994,7 +12994,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13039,7 +13039,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13084,7 +13084,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13129,7 +13129,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13174,7 +13174,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13219,7 +13219,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13264,7 +13264,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13309,7 +13309,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13356,7 +13356,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13401,7 +13401,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13446,7 +13446,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13495,7 +13495,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13553,7 +13553,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13600,7 +13600,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13646,7 +13646,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13693,7 +13693,7 @@ $(\cos 1^\circ +\mathrm{i}\sin 1^\circ)(\cos 2^\circ +\mathrm{i}\sin 2^\circ)(\c
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13741,7 +13741,7 @@ $z=\dfrac{\cos \dfrac{2k\pi }n+\mathrm{i}\sin \dfrac{2k\pi }n-1}{\cos \dfrac{2k\
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13790,7 +13790,7 @@ $z=\dfrac{\cos \dfrac{2k\pi }n+\mathrm{i}\sin \dfrac{2k\pi }n-1}{\cos \dfrac{2k\
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -13839,7 +13839,7 @@ $z=\dfrac{\cos \dfrac{2k\pi }n+\mathrm{i}\sin \dfrac{2k\pi }n-1}{\cos \dfrac{2k\
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -13885,7 +13885,7 @@ $z=\dfrac{\cos \dfrac{2k\pi }n+\mathrm{i}\sin \dfrac{2k\pi }n-1}{\cos \dfrac{2k\
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -13931,7 +13931,7 @@ $z=\dfrac{\cos \dfrac{2k\pi }n+\mathrm{i}\sin \dfrac{2k\pi }n-1}{\cos \dfrac{2k\
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -13977,7 +13977,7 @@ $z=\dfrac{\cos \dfrac{2k\pi }n+\mathrm{i}\sin \dfrac{2k\pi }n-1}{\cos \dfrac{2k\
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -14023,7 +14023,7 @@ $z=\dfrac{\cos \dfrac{2k\pi }n+\mathrm{i}\sin \dfrac{2k\pi }n-1}{\cos \dfrac{2k\
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -14069,7 +14069,7 @@ $z=\dfrac{\cos \dfrac{2k\pi }n+\mathrm{i}\sin \dfrac{2k\pi }n-1}{\cos \dfrac{2k\
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -14114,7 +14114,7 @@ $z=\dfrac{\cos \dfrac{2k\pi }n+\mathrm{i}\sin \dfrac{2k\pi }n-1}{\cos \dfrac{2k\
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -14159,7 +14159,7 @@ $z=\dfrac{\cos \dfrac{2k\pi }n+\mathrm{i}\sin \dfrac{2k\pi }n-1}{\cos \dfrac{2k\
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -14205,7 +14205,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -14251,7 +14251,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 选择题
@@ -14296,7 +14296,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -14341,7 +14341,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -14386,7 +14386,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -14431,7 +14431,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -14476,7 +14476,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -14521,7 +14521,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -14566,7 +14566,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -14611,7 +14611,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -14656,7 +14656,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -14701,7 +14701,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -14746,7 +14746,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -14791,7 +14791,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -14836,7 +14836,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -14881,7 +14881,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -14926,7 +14926,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -14971,7 +14971,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15016,7 +15016,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15063,7 +15063,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15111,7 +15111,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15156,7 +15156,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15203,7 +15203,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15248,7 +15248,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15293,7 +15293,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15338,7 +15338,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15383,7 +15383,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15428,7 +15428,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15473,7 +15473,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15518,7 +15518,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15563,7 +15563,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15608,7 +15608,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15653,7 +15653,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15698,7 +15698,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15743,7 +15743,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15788,7 +15788,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15833,7 +15833,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15878,7 +15878,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15925,7 +15925,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -15970,7 +15970,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -16015,7 +16015,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -16060,7 +16060,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -16105,7 +16105,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -16150,7 +16150,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -16197,7 +16197,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -16242,7 +16242,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -16287,7 +16287,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -16332,7 +16332,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -16377,7 +16377,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -16423,7 +16423,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -16469,7 +16469,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -16514,7 +16514,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -16571,7 +16571,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -16616,7 +16616,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -16663,7 +16663,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
@@ -16708,7 +16708,7 @@ $1$的$5$次方根的五个复数的辐角主值之和是\bracket{20}.
 
 <E目标>
 <B标签>
-
+第五单元
 <E标签>
 <B类型>
 解答题
