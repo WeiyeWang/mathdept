@@ -1,0 +1,159 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[UTF8,fontset = windows]{ctex}
+\setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{华文中宋}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
+\usepackage{ifthen,indentfirst,enumerate,color,titletoc}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{longtable}
+\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing,3d,angles,quotes,positioning}
+\usepackage[bf,small,indentafter,pagestyles]{titlesec}
+\usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
+\renewcommand{\baselinestretch}{1.65}
+\newtheorem{defi}{定义~}
+\newtheorem{eg}{例~}
+\newtheorem{ex}{~}
+\newtheorem{rem}{注~}
+\newtheorem{thm}{定理~}
+\newtheorem{coro}{推论~}
+\newtheorem{axiom}{公理~}
+\newtheorem{prop}{性质~}
+\newcommand{\blank}[1]{\underline{\hbox to #1pt{}}}
+\newcommand{\bracket}[1]{(\hbox to #1pt{})}
+\newcommand{\onech}[4]{\par\begin{tabular}{p{.9\textwidth}}
+A.~#1\\
+B.~#2\\
+C.~#3\\
+D.~#4
+\end{tabular}}
+\newcommand{\twoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+A.~#1& B.~#2\\
+C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\vartwoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+(1)~#1& (2)~#2\\
+(3)~#3& (4)~#4
+\end{tabular}}
+\newcommand{\fourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+A.~#1 &B.~#2& C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\varfourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+(1)~#1 &(2)~#2& (3)~#3& (4)~#4
+\end{tabular}}
+\begin{document}
+
+\begin{enumerate}[1.]
+
+\item {\tiny (000009)}已知陈述句$\alpha$是$\beta$的充分非必要条件. 若集合$M=\{x|x\text{满足}\alpha\}$, $N=\{x|x\text{满足}\beta\}$, 则$M$与$N$的关系为\bracket{20}.
+\fourch{$M\subset N$}{$M\supset N$}{$M=N$}{$M\cap N=\varnothing$}
+\item {\tiny (002746)}已知$\alpha$:``$x\ge a$'', $\beta$:``$|x-1|\le 1$'', 若$\alpha$是$\beta$的必要非充分条件, 则实数$a$的取值范围是\blank{50}.
+\item {\tiny (003708)}设$\alpha:2\le x\le 4$, $\beta: m+1\le x\le 2m+4, \ m\in \mathbf{R}$, 如果$\alpha$是$\beta$的充分非必要条件, 则$m$的范围是\blank{50}.
+\item {\tiny (004282)}若$|x-a|\le 1$成立的一个充分不必要条件是$1\le x\le 2$, 则实数$a$的取值范围是\bracket{20}.
+\fourch{$1\le a\le 2$}{$a\ge 1$}{$a\le 2$}{$a\ge 1$或$a\le 2$}
+\item {\tiny (007709)}如果$a$、$b$、$c$为实数, 设
+$A:a=b=c=0$; $B:a,b,c$至少有一个为$0$; $C:a^2+\sqrt b+|c|=0$, 那么$A$\blank{20}$B$; $A$\blank{20}$C$; $B$\blank{20}$C$.(用符号``$\Rightarrow$''、``$\Leftarrow$''或``$\Leftrightarrow$''填空)
+\item {\tiny (007736)}如果$A$是$B$的必要条件, $C$是$B$的充分条件, $A$是$C$的充分条件, 那么$B$、$C$分别是$A$的什么条件?
+\item {\tiny (002733)}设甲是乙的充分非必要条件, 乙是丙的充要条件, 丁是丙的必要非充分条件, 则丁是甲的\bracket{20}.
+\twoch{充分非必要条件}{必要非充分条件}{充要条件}{既非充分又非必要条件}
+\item {\tiny (004847)}下列说法是否正确? 为什么?\\
+(1) $x^2=y^2\Rightarrow x=-y$;\\
+(2) $x^2\ne y^2\Rightarrow x\ne y$或$x\ne -y$.
+\item {\tiny (010030)}判断下列语句是否为命题:\\
+(1) 有的正方形是三角形;\\
+(2) 任意一个三角形的内角和都为$180^\circ$;\\
+(3) $1$是自然数吗?\\
+(4) $3>\pi$;\\
+(5) $2\in (0, 5)$, 且$2\in \mathbf{Z}$.
+\item {\tiny (020072)}在下列各题中, 用符号``$\Rightarrow$''``$\Leftarrow$''``$\Leftrightarrow$''把$\alpha$和$\beta$联系起来:\\
+(1) $\alpha:a=0$, $\beta:ab=0$; $\alpha$\blank{20}$\beta$;\\
+(2) $\alpha:x^2=4$, $\beta:x=2$; $\alpha$\blank{20}$\beta$;\\
+(3) $\alpha:$实数$x$适合$x^2-5x+6=0$, $\beta:x=2$; $\alpha$\blank{20}$\beta$;\\
+(4) $\alpha:\sqrt {x^2}=x$, $\beta:x>0$; $\alpha$\blank{20}$\beta$;\\
+(5) $\alpha:$实数$x$适合$\dfrac{x-3}{x+1}=-1$, $\beta:x=1$; $\alpha$\blank{20}$\beta$;\\
+(6) $\alpha:k$除以$4$余$1$, $\beta:k$除以$2$余$1$; $\alpha$\blank{20}$\beta$;\\
+(7)$\alpha: \{2\}\subset B\subseteq \{2, 3, 5\}$, $\beta:B=\{2, 5\}$; $\alpha$\blank{20}$\beta$.
+\item {\tiny (020079)}一次函数$y=kx+b$的图像经过第二、三、四象限的一个充要条件是\blank{50}.
+\item {\tiny (000436)}``$x<0$''是``$x<a$''的充分非必要条件, 则$a$的取值范围是\blank{50}.
+\item {\tiny (002737)}``$a>0b>0$''的一个必要非充分条件是\bracket{20}.
+\fourch{$a>0$}{$b>0$}{$a>0b>0$}{$a,b\in \mathbf{R}$}
+\item {\tiny (004894)}求证: ``$x+y=5$''是``$x^2+y^2-3x+7y=10$''的充分不必要条件.
+\item {\tiny (000003)}(1) 若$\alpha$: $x^2-5x+6=0$, $\beta$: $x=2$, 则$\alpha$是$\beta$的\blank{50}条件;
+(2) 若$\alpha$: 四边形$ABCD$是正方形, $\beta$: 四边形$ABCD$的两条对角线互相垂直平分, 则$\alpha$是$\beta$的\blank{50}条件.
+\item {\tiny (000431)}已知角$A$是$\triangle ABC$的内角, 则``$\cos A=\dfrac12$''是``$\sin A=\dfrac{\sqrt3}2$''的\blank{50}条件(填``充分非必要''、``必要非充分''、``充要条件''、``既非充分又非必要''之一).
+\item {\tiny (000986)}在下列横线上填写A, B, C 或 D. \\ 
+\twoch{充分不必要条件}{必要不充分条件}{充分必要条件}{既不充分又不必要条件}\\ 
+(1) ``$b=0$''是``直线$y=kx+b$过原点''的\blank{30};\\ 
+(2) ``$x^2-1=0$''是``$x-1=0$''的\blank{30};\\ 
+(3) ``$m$是正整数''是``$m$是有理数''的\blank{30};\\ 
+(4) ``$x<5$''是``$x<3$''的\blank{30};\\ 
+(5) ``一个自然数的末位数是$0$''是``这个自然数可被$5$整除''的\blank{30};\\ 
+(6) ``$x+y+z>0$''是``$x,y,z$均大于零''的\blank{30};\\ 
+(7) ``一个自然数的末位数是$3,6$或$9$''是``这个自然数可被$3$整除''的\blank{30};\\ 
+(8) ``一个三角形中存在两个角相等''是``这个三角形是等腰三角形''的\blank{30};\\ 
+(9) 已知$x$是实数, ``$x=\sqrt{2}$''是``$x^2=2$''的\blank{30};\\ 
+(10) ``$x+y=0$且$xy=0$''是''$x=y=0$''的\blank{30};\\ 
+(11) 已知$a,b,c$是实数, $c \ne 0$. ``$ac>bc$''是``$a>b$''的\blank{30};\\ 
+(12) ``$x>y>0$''是``$x>0$且$y>0$''的\blank{30};\\ 
+(13) 已知$x,y$均为实数. ``$|x|=y$''是``$x=\pm y$''的\blank{30}.
+\item {\tiny (002740)}(1) 是否存在实数$m$, 使得$2x+m<0$是${x^2}-2x-3>0$的充分条件? 说明理由.\\
+(2) 是否存在实数$m$, 使得$2x+m<0$是$x^2-2x-3>0$的必要条件? 说明理由.
+\item {\tiny (004873)}已知$\triangle ABC$的三边为$a,b,c$求证: 关于$x$的方程$x^2+2ax+b^2=0$与$x^2+2cx-b^2=0$有公共根的充要条件是$A=90^\circ$.
+\item {\tiny (004886)}指出下列各命题中, $p$是$q$的什么条件:\\
+(1) $p:0<x<3$, $q:|x-1|<2$;\\
+(2) $p:(x-2)(x-3)=0$, $q:x=2$;\\
+(3) $p:c=0$, $p$: 抛物线$y=ax^2+bx+c$过原点;\\
+(4) $p:A\subseteq B\subseteq U$, $q:\complement_UB\subseteq A$.
+\item {\tiny (007719)}判断下列命题的真假, 并在相应的横线上填入``真命题''或``假命题''.\\
+(1) 若$A\cap B\ne \varnothing$, $B\subsetneqq C$, 则$A\cap C\ne \varnothing$\blank{20};\\
+(2) 方程$(a+1)x+b=0$($a$、$b\in \mathbf{R}$)的解为$x=-\dfrac b{a+1}$\blank{20};\\
+(3)若命题$\alpha$、$\beta$、$\gamma$满足$\alpha \Rightarrow \beta$, $\beta \Rightarrow \gamma$, $\gamma \Rightarrow \alpha$, 则$\alpha \Leftrightarrow \gamma$\blank{20}.
+\item {\tiny (020081)}已知$x,y\in \mathbf{R}$, ``$x^2+y^2>0$''是``$x\ne 0$或$y\ne 0$''的\bracket{20}.
+\twoch{充分而不必要条件}{必要而不充分条件}{充要条件}{既不充分又不必要条件}
+\item {\tiny (000977)}下列各组命题是否互为否定形式(否定命题)? (T or F).\\ 
+\blank{30}(1) 所有直角三角形都不是等边三角形; / 所有直角三角形都是等边三角形.\\ 
+\blank{30}(2) 对一切实数$x$, $x^2+1 \ne 0$; / 存在实数$x$, 使得$x^2+1=0$.\\ 
+\blank{30}(3) 所有一元二次方程都没有实数根; / 有些一元二次方程没有实数根.\\ 
+\blank{30}(4) 所有自然数都不是$0$; / 所有自然数都是$0$.\\ 
+\blank{30}(5) 存在实数$x$, 使得$x^2-5x+6=0$; / 所有实数$x$, 都使得$x^2-5x+6\ne 0$.\\ 
+\blank{30}(6) 对于一些实数$x$, $x^3+1=0$; / 对于一些实数$x$, $x^3+1\ne 0$.\\ 
+\blank{30}(7) 有些三角形两边的平方和等于第三边的平方; / 所有三角形两边的平方和不等于第三边的平方.\\ 
+\blank{30}(8) 对于某些实数$x$, $x=x+1$; / 对于任意实数$x$, $x \ne x+1$.\\ 
+\blank{30}(9) 负实数没有平方根; / 负实数有平方根.
+\item {\tiny (000981)}在下列各命题的右边写出其否定形式.\\ 
+(1) 若$x$是实数, 则$x^2+x+1>0$; \blank{30}$x$是实数, 使得$x^2+x+1$\blank{10}$0$.\\ 
+(2) 若$a>0$, 则$|a|\le a$; \blank{150}.\\ 
+(3) 若实数$x$满足$x^2-x=0$, 则$x=1$或$x=0$; \blank{150}.\\ 
+(4) 若实数$x$满足$x^2-x<0$, 则$0<x<1$; \blank{150}.
+\item {\tiny (004854)}已知命题``非空集合$M$的元素都是集合$P$的元素''是假命题, 给出下列命题: \textcircled{1} $M$中的元素都不是$P$的元素; \textcircled{2} $M$中有不属于$P$的元素; \textcircled{3} $M$中有$P$的元素; \textcircled{4} $M$中的元素不都是$P$的元素. 其中假命题的个数是\bracket{20}.
+\fourch{$1$}{$2$}{$3$}{$4$}
+\item {\tiny (004878)}$a,b,c$三个数不全为零的充要条件是\bracket{20}.
+\twoch{$a,b,c$三个数都不是零}{$a,b,c$三个数中之多有一个是零}{$a,b,c$三个数中只有一个是零}{$a,b,c$三个数中至少有一个不是零}
+\item {\tiny (020089)}写出下列命题的否定形式.\\
+(1) 在平面上, 过定点$P$有且只有一条直线垂直于给定直线$l$;\\
+(2) 任意两个有理数之间存在一个无理数;\\
+(3) 存在实数$a$, 使得关于$x$的不等式$x^2+(a-2)x+a-1\ge 0$至少有一个正数解;\\
+(4) 存在实数$a$, 使得关于$x$的不等式$x^2+(a-2)x+a-1\ge 0$恒成立;\\
+(5) 存在实数$a$, 使得关于$x$的不等式$x^2+(a-2)x+a-1\ge 0$有解.
+\item {\tiny (000978)}在下列各命题的右边写出其否定命题.\\ 
+(1) $a=0$且$b=0$; \blank{150}.\\ 
+(2) $x>0$或$x \le -3$; \blank{150}.\\ 
+(3*) 平面上的点$P$在第一象限或第二象限; \blank{150}.
+\item {\tiny (002731)}填写下列命题的否定形式:\\
+(1) $m\le 0$或$n>0$: \blank{200};\\
+(2) 空间三条直线$l,m,n$两两相交: \blank{200};\\
+(3) 复数$z_1,z_2,z_3$中至多一个为纯虚数: \blank{200}.
+\item {\tiny (002747)}命题甲: 关于$x$的方程$x^2+x+m=0$有两个相异的负根; 命题乙: 关于$x$的方程$4x^2+x+m=0$无实根, 若这两个命题有且只有一个是真命题, 求实数$m$的取值范围.
+*
+\item {\tiny (004875)}``$a\ne 1$或$b\ne 2$''是``$a+b\ne 3$''的\bracket{20}.
+\twoch{充分不必要条件}{必要不充分条件}{充要条件}{既不充分也不必要条件}
+\item {\tiny (004876)}如果$x,y\in \mathbf{R}$, 那么``$x>1$或$y>2$''是``$x+y>3$''的\bracket{20}.
+\twoch{充分不必要条件}{必要不充分条件}{充要条件}{既不充分也不必要条件}
+\item {\tiny (000018)}设$a,b$是正整数. 求证: 若$ab-1$是$3$的倍数, 则$a$与$b$被$3$除的余数相同.
+\item {\tiny (002734)}若$A$是$B$的必要非充分条件, 则$\overline{A}$是$\overline{B}$的\blank{50}条件.
+\item {\tiny (004864)}已知命题$A:$如果$a^2+2ab+b^2+a+b-2\ne 0$, 那么$a+b\ne 1$, 求证: 命题$A$是真命题.
+\end{enumerate}
+
+
+
+\end{document}

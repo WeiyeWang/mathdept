@@ -51,7 +51,7 @@
 设$\alpha:2\le x\le 4$, $\beta: m+1\le x\le 2m+4, \ m\in \mathbf{R}$, 如果$\alpha$是$\beta$的充分非必要条件, 则$m$的范围是\blank{50}.
 <E题目>
 <B目标>
-
+K0105001B
 <E目标>
 <B标签>
 第一单元

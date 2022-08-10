@@ -1,103 +1,52 @@
-\documentclass[10pt,a4paper]{article}
-
+\documentclass[10pt,varwidth = 14.5cm,border = 0.5mm]{standalone}
 \usepackage[UTF8,fontset = windows]{ctex}
-
 \setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{华文中宋}
-
-
+\usepackage{mathpazo}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.15}
-
 \usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
-
 \usepackage{ifthen,indentfirst,enumerate,color,titletoc}
-
 \usepackage{tikz}
-
 \usepackage{multicol}
-
 \usepackage{makecell}
-
 \usepackage{longtable}
-
 \usepackage{xcolor}
-
 \usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing,3d,angles}
-
-\usepackage[bf,small,indentafter,pagestyles]{titlesec}
-
-\usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
-
 \renewcommand{\baselinestretch}{1.65}
-
 \newtheorem{defi}{定义~}
-
 \newtheorem{eg}{例~}
-
 \newtheorem{ex}{~}
-
 \newtheorem{rem}{注~}
-
 \newtheorem{thm}{定理~}
-
 \newtheorem{coro}{推论~}
-
 \newtheorem{axiom}{公理~}
-
 \newtheorem{prop}{性质~}
-
 \newcommand{\blank}[1]{\underline{\hbox to #1pt{}}}
-
 \newcommand{\bracket}[1]{(\hbox to #1pt{})}
-
 \newcommand{\onech}[4]{\par\begin{tabular}{p{.9\textwidth}}
-
 A.~#1\\
-
 B.~#2\\
-
 C.~#3\\
-
 D.~#4
-
 \end{tabular}}
-
 \newcommand{\twoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
-
 A.~#1& B.~#2\\
-
 C.~#3& D.~#4
-
 \end{tabular}}
-
 \newcommand{\vartwoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
-
 (1)~#1& (2)~#2\\
-
 (3)~#3& (4)~#4
-
 \end{tabular}}
-
 \newcommand{\fourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
-
 A.~#1 &B.~#2& C.~#3& D.~#4
-
 \end{tabular}}
-
 \newcommand{\varfourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
-
 (1)~#1 &(2)~#2& (3)~#3& (4)~#4
-
 \end{tabular}}
 
 \begin{document}
 
-\begin{center}
-\begin{tikzpicture}[>=latex]
-\draw (0,0) arc (0:90:2) node [midway, above, rotate = -45] {curve};
-\end{tikzpicture}
-\end{center}
-
+{\tiny(000000)}若``$a>b$'', 则``$a^3>b^3$''是\blank{50}命题(填: 真、假).
 %\input{"../题库0.2/相似题目_待处理01.txt"}
 
 %\begin{enumerate}[1.]

@@ -1,8 +1,8 @@
 import os,re,time,shutil
 
 #这里四行每次需要改动
-keywords_in_problem = ["集合"]
-keywords_in_objects = ["K0101","K0102","K0103","K0104"]
+keywords_in_problem = ["命题","充分条件","必要条件","充要条件","推出","Rightarrow"]
+keywords_in_objects = ["K0105","K0106","K0107"]
 
 keywords_in_tag = ["第一单元"]
 keywords_in_classification = ["选择题","填空题","解答题"]
