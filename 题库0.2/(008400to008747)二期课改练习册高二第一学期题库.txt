@@ -49,6 +49,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -96,6 +99,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -145,6 +151,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -199,6 +208,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -247,6 +259,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -294,6 +309,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -339,6 +357,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -384,6 +405,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -431,6 +455,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -478,6 +505,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -527,6 +557,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -580,6 +613,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -633,6 +669,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -678,6 +717,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -723,6 +765,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -768,6 +813,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -815,6 +863,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -860,6 +911,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -905,6 +959,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -950,6 +1007,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -998,6 +1058,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1043,6 +1106,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1088,6 +1154,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1137,6 +1206,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1182,6 +1254,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1227,6 +1302,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1272,6 +1350,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1317,6 +1398,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1362,6 +1446,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1407,6 +1494,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1452,6 +1542,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1497,6 +1590,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1542,6 +1638,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1587,6 +1686,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1632,6 +1734,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1685,6 +1790,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1738,6 +1846,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1783,6 +1894,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1828,6 +1942,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1873,6 +1990,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1918,6 +2038,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -1963,6 +2086,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2008,6 +2134,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2053,6 +2182,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2102,6 +2234,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2147,6 +2282,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2192,6 +2330,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2237,6 +2378,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2282,6 +2426,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2327,6 +2474,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2372,6 +2522,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2419,6 +2572,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2464,6 +2620,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2509,6 +2668,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2554,6 +2716,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2599,6 +2764,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2644,6 +2812,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2691,6 +2862,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2737,6 +2911,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2782,6 +2959,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2835,6 +3015,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2880,6 +3063,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2925,6 +3111,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -2970,6 +3159,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3015,6 +3207,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3060,6 +3255,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3105,6 +3303,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3150,6 +3351,9 @@
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3196,6 +3400,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3241,6 +3448,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3296,6 +3506,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3341,6 +3554,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3386,6 +3602,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3433,6 +3652,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3478,6 +3700,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3523,6 +3748,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3569,6 +3797,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3616,6 +3847,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3663,6 +3897,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3708,6 +3945,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3763,6 +4003,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3818,6 +4061,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3873,6 +4119,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3920,6 +4169,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -3976,6 +4228,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4033,6 +4288,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4081,6 +4339,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4135,6 +4396,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4192,6 +4456,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4237,6 +4504,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4283,6 +4553,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4330,6 +4603,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4376,6 +4652,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4424,6 +4703,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4469,6 +4751,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4524,6 +4809,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4569,6 +4857,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4616,6 +4907,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4662,6 +4956,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4707,6 +5004,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4757,6 +5057,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4803,6 +5106,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4848,6 +5154,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4895,6 +5204,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4940,6 +5252,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -4985,6 +5300,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5030,6 +5348,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5083,6 +5404,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5138,6 +5462,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5183,6 +5510,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5229,6 +5559,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5274,6 +5607,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5321,6 +5657,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5366,6 +5705,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5412,6 +5754,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5458,6 +5803,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5503,6 +5851,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5548,6 +5899,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5617,6 +5971,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5662,6 +6019,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5715,6 +6075,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5762,6 +6125,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5807,6 +6173,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5853,6 +6222,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5898,6 +6270,9 @@ $(a_1+a_2+\cdots +a_n)^2=a_1^2+a_2^2+\cdots +a_n^2+2(a_1a_2+a_1a_3+\cdots +a_{n-
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5945,6 +6320,9 @@ $\dfrac 11,\dfrac 11+\dfrac 1{1+2},\dfrac 11+\dfrac 1{1+2}+\dfrac 1{1+2+3},\dfra
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -5990,6 +6368,9 @@ $\dfrac 11,\dfrac 11+\dfrac 1{1+2},\dfrac 11+\dfrac 1{1+2}+\dfrac 1{1+2+3},\dfra
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6035,6 +6416,9 @@ $\dfrac 11,\dfrac 11+\dfrac 1{1+2},\dfrac 11+\dfrac 1{1+2}+\dfrac 1{1+2+3},\dfra
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6082,6 +6466,9 @@ $\dfrac 11,\dfrac 11+\dfrac 1{1+2},\dfrac 11+\dfrac 1{1+2}+\dfrac 1{1+2+3},\dfra
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6127,6 +6514,9 @@ $\dfrac 11,\dfrac 11+\dfrac 1{1+2},\dfrac 11+\dfrac 1{1+2}+\dfrac 1{1+2+3},\dfra
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6172,6 +6562,9 @@ $\dfrac 11,\dfrac 11+\dfrac 1{1+2},\dfrac 11+\dfrac 1{1+2}+\dfrac 1{1+2+3},\dfra
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6219,6 +6612,9 @@ $\dfrac 11,\dfrac 11+\dfrac 1{1+2},\dfrac 11+\dfrac 1{1+2}+\dfrac 1{1+2+3},\dfra
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6264,6 +6660,9 @@ $\dfrac 11,\dfrac 11+\dfrac 1{1+2},\dfrac 11+\dfrac 1{1+2}+\dfrac 1{1+2+3},\dfra
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6317,6 +6716,9 @@ $7$天后是否能保证有$10$克该物质用于治疗? 请说明你的理由.
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6365,6 +6767,9 @@ $1-\dfrac 12+\dfrac 13-\dfrac 14+\cdots +\dfrac 1{2n-1}-\dfrac 1{2n}=\dfrac 1{n+
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6410,6 +6815,9 @@ $1-\dfrac 12+\dfrac 13-\dfrac 14+\cdots +\dfrac 1{2n-1}-\dfrac 1{2n}=\dfrac 1{n+
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6455,6 +6863,9 @@ $1-\dfrac 12+\dfrac 13-\dfrac 14+\cdots +\dfrac 1{2n-1}-\dfrac 1{2n}=\dfrac 1{n+
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6500,6 +6911,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6545,6 +6959,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6590,6 +7007,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6635,6 +7055,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6680,6 +7103,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6725,6 +7151,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6779,6 +7208,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6851,6 +7283,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6900,6 +7335,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6947,6 +7385,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -6992,6 +7433,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7037,6 +7481,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7082,6 +7529,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7129,6 +7579,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7174,6 +7627,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7219,6 +7675,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7266,6 +7725,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7311,6 +7773,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7356,6 +7821,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7402,6 +7870,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7448,6 +7919,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7494,6 +7968,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7539,6 +8016,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7584,6 +8064,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7629,6 +8112,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7674,6 +8160,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7719,6 +8208,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7764,6 +8256,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7809,6 +8304,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7856,6 +8354,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7901,6 +8402,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7948,6 +8452,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -7993,6 +8500,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8038,6 +8548,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8083,6 +8596,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8128,6 +8644,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8181,6 +8700,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8226,6 +8748,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8283,6 +8808,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8328,6 +8856,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8373,6 +8904,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8429,6 +8963,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8487,6 +9024,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8547,6 +9087,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8592,6 +9135,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8637,6 +9183,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8682,6 +9231,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8727,6 +9279,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8779,6 +9334,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8824,6 +9382,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8869,6 +9430,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8927,6 +9491,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -8972,6 +9539,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9017,6 +9587,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9062,6 +9635,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9109,6 +9685,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9154,6 +9733,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9199,6 +9781,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9244,6 +9829,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9301,6 +9889,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9346,6 +9937,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9391,6 +9985,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9438,6 +10035,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9493,6 +10093,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9538,6 +10141,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9583,6 +10189,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9628,6 +10237,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9673,6 +10285,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9718,6 +10333,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9776,6 +10394,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9830,6 +10451,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9875,6 +10499,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9920,6 +10547,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -9967,6 +10597,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10012,6 +10645,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10058,6 +10694,9 @@ $\displaystyle\lim_{n\to\infty}n^2(\dfrac kn-\dfrac 1{n+1}-\dfrac 1{n+2}-\cdots 
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10103,6 +10742,9 @@ $\begin{pmatrix}    1 & 2  \\-1 & -1  \end{pmatrix}+\begin{pmatrix}    -1 & 2  \
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10148,6 +10790,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10196,6 +10841,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10241,6 +10889,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10286,6 +10937,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10333,6 +10987,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10378,6 +11035,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10436,6 +11096,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10493,6 +11156,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10539,6 +11205,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10588,6 +11257,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10633,6 +11305,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10678,6 +11353,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10724,6 +11402,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10788,6 +11469,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10833,6 +11517,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10881,6 +11568,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10927,6 +11617,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -10975,6 +11668,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11024,6 +11720,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11070,6 +11769,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11116,6 +11818,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11163,6 +11868,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11212,6 +11920,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11261,6 +11972,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11309,6 +12023,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11354,6 +12071,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11401,6 +12121,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11448,6 +12171,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11493,6 +12219,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11540,6 +12269,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11587,6 +12319,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11632,6 +12367,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11679,6 +12417,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11725,6 +12466,9 @@ $2\begin{pmatrix}    0 & 1  \\1 & 0  \end{pmatrix}-3\begin{pmatrix}    1 & 0  \\
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11771,6 +12515,9 @@ ax+y+z=1,  \\ax+by+z=2,  \\x+2by+z=4  \end{cases}$有唯一解?
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11816,6 +12563,9 @@ ax+y+z=1,  \\ax+by+z=2,  \\x+2by+z=4  \end{cases}$有唯一解?
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11861,6 +12611,9 @@ ax+y+z=1,  \\ax+by+z=2,  \\x+2by+z=4  \end{cases}$有唯一解?
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11906,6 +12659,9 @@ ax+y+z=1,  \\ax+by+z=2,  \\x+2by+z=4  \end{cases}$有唯一解?
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11952,6 +12708,9 @@ ax+y+z=1,  \\ax+by+z=2,  \\x+2by+z=4  \end{cases}$有唯一解?
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -11997,6 +12756,9 @@ ax+y+z=1,  \\ax+by+z=2,  \\x+2by+z=4  \end{cases}$有唯一解?
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12052,6 +12814,9 @@ ax+y+z=1,  \\ax+by+z=2,  \\x+2by+z=4  \end{cases}$有唯一解?
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12100,6 +12865,9 @@ ax+y+z=1,  \\ax+by+z=2,  \\x+2by+z=4  \end{cases}$有唯一解?
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12148,6 +12916,9 @@ ax+y+z=1,  \\ax+by+z=2,  \\x+2by+z=4  \end{cases}$有唯一解?
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12193,6 +12964,9 @@ ax+y+z=1,  \\ax+by+z=2,  \\x+2by+z=4  \end{cases}$有唯一解?
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12239,6 +13013,9 @@ a_1 & b_1  \\a_2 & b_2  \end{vmatrix}$, $D_x=\begin{vmatrix}    c_1 & b_1  \\c_2
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12286,6 +13063,9 @@ a_1 & b_1  \\a_2 & b_2  \end{vmatrix}$, $D_x=\begin{vmatrix}    c_1 & b_1  \\c_2
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12334,6 +13114,9 @@ a_1 & b_1  \\a_2 & b_2  \end{vmatrix}$, $D_x=\begin{vmatrix}    c_1 & b_1  \\c_2
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12379,6 +13162,9 @@ a_1 & b_1  \\a_2 & b_2  \end{vmatrix}$, $D_x=\begin{vmatrix}    c_1 & b_1  \\c_2
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12424,6 +13210,9 @@ a_1 & b_1  \\a_2 & b_2  \end{vmatrix}$, $D_x=\begin{vmatrix}    c_1 & b_1  \\c_2
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12469,6 +13258,9 @@ a_1 & b_1  \\a_2 & b_2  \end{vmatrix}$, $D_x=\begin{vmatrix}    c_1 & b_1  \\c_2
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12514,6 +13306,9 @@ a_1 & b_1  \\a_2 & b_2  \end{vmatrix}$, $D_x=\begin{vmatrix}    c_1 & b_1  \\c_2
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12559,6 +13354,9 @@ a_1 & b_1  \\a_2 & b_2  \end{vmatrix}$, $D_x=\begin{vmatrix}    c_1 & b_1  \\c_2
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12606,6 +13404,9 @@ $\begin{cases}
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12652,6 +13453,9 @@ $\begin{cases} (m-1)x-y-m-1=0,  \\(m-1)x+(m+1)y+1=0.  \end{cases}$
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12697,6 +13501,9 @@ $\begin{cases} (m-1)x-y-m-1=0,  \\(m-1)x+(m+1)y+1=0.  \end{cases}$
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12742,6 +13549,9 @@ $\begin{cases} (m-1)x-y-m-1=0,  \\(m-1)x+(m+1)y+1=0.  \end{cases}$
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12787,6 +13597,9 @@ $\begin{cases} (m-1)x-y-m-1=0,  \\(m-1)x+(m+1)y+1=0.  \end{cases}$
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12832,6 +13645,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12877,6 +13693,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12923,6 +13742,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -12969,6 +13791,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13015,6 +13840,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13061,6 +13889,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13108,6 +13939,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13153,6 +13987,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13198,6 +14035,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13243,6 +14083,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+(-1)^n}n=$\blank{50}.
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13289,6 +14132,9 @@ $1\cdot n+2\cdot (n-1)+3\cdot (n-2)+\cdots +n\cdot 1=\dfrac 16n(n+1)(n+2)$($n\in
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13334,6 +14180,9 @@ $1\cdot n+2\cdot (n-1)+3\cdot (n-2)+\cdots +n\cdot 1=\dfrac 16n(n+1)(n+2)$($n\in
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13379,6 +14228,9 @@ $1\cdot n+2\cdot (n-1)+3\cdot (n-2)+\cdots +n\cdot 1=\dfrac 16n(n+1)(n+2)$($n\in
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13442,6 +14294,9 @@ $1\cdot n+2\cdot (n-1)+3\cdot (n-2)+\cdots +n\cdot 1=\dfrac 16n(n+1)(n+2)$($n\in
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13489,6 +14344,9 @@ $1\cdot n+2\cdot (n-1)+3\cdot (n-2)+\cdots +n\cdot 1=\dfrac 16n(n+1)(n+2)$($n\in
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13534,6 +14392,9 @@ $1\cdot n+2\cdot (n-1)+3\cdot (n-2)+\cdots +n\cdot 1=\dfrac 16n(n+1)(n+2)$($n\in
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13579,6 +14440,9 @@ $1\cdot n+2\cdot (n-1)+3\cdot (n-2)+\cdots +n\cdot 1=\dfrac 16n(n+1)(n+2)$($n\in
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13624,6 +14488,9 @@ $1\cdot n+2\cdot (n-1)+3\cdot (n-2)+\cdots +n\cdot 1=\dfrac 16n(n+1)(n+2)$($n\in
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13671,6 +14538,9 @@ $1\cdot n+2\cdot (n-1)+3\cdot (n-2)+\cdots +n\cdot 1=\dfrac 16n(n+1)(n+2)$($n\in
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13716,6 +14586,9 @@ $1\cdot n+2\cdot (n-1)+3\cdot (n-2)+\cdots +n\cdot 1=\dfrac 16n(n+1)(n+2)$($n\in
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13763,6 +14636,9 @@ $1\cdot n+2\cdot (n-1)+3\cdot (n-2)+\cdots +n\cdot 1=\dfrac 16n(n+1)(n+2)$($n\in
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13808,6 +14684,9 @@ $1\cdot n+2\cdot (n-1)+3\cdot (n-2)+\cdots +n\cdot 1=\dfrac 16n(n+1)(n+2)$($n\in
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13853,6 +14732,9 @@ $1\cdot n+2\cdot (n-1)+3\cdot (n-2)+\cdots +n\cdot 1=\dfrac 16n(n+1)(n+2)$($n\in
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13898,6 +14780,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13944,6 +14829,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -13990,6 +14878,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14036,6 +14927,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14083,6 +14977,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14128,6 +15025,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14173,6 +15073,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14218,6 +15121,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14264,6 +15170,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14309,6 +15218,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14356,6 +15268,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14403,6 +15318,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14448,6 +15366,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14493,6 +15414,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14538,6 +15462,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14586,6 +15513,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14645,6 +15575,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14692,6 +15625,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14737,6 +15673,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14795,6 +15734,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14840,6 +15782,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14885,6 +15830,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14931,6 +15879,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -14982,6 +15933,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15031,6 +15985,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15082,6 +16039,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15137,6 +16097,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15191,6 +16154,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15249,6 +16215,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15311,6 +16280,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15360,6 +16332,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15405,6 +16380,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15450,6 +16428,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15495,6 +16476,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15540,6 +16524,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15585,6 +16572,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15630,6 +16620,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15675,6 +16668,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15720,6 +16716,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15765,6 +16764,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15823,6 +16825,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15873,6 +16878,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15918,6 +16926,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -15966,6 +16977,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -16012,6 +17026,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -16068,6 +17085,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -16115,6 +17135,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -16163,6 +17186,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -16208,6 +17234,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -16253,6 +17282,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -16298,6 +17330,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -16347,6 +17382,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -16392,6 +17430,9 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
 [B题目]
@@ -16437,5 +17478,8 @@ $\displaystyle\lim_{n\to\infty}\dfrac{1+a+a^2+\cdots +a^n}{1+b+b^2+\cdots +b^n}=
 <B备注>
 
 <E备注>
+<B解答空间>
+
+<E解答空间>
 [E题目]
 
