@@ -93,7 +93,7 @@
 004768
 <EID>
 <B题目>
-已知集合$U =\{x|x\text{取不大于}30\text{的质数}\}$, $A$, $B$是$U$的两个子集, 且满足$A\cap \complement_UB=\{5,13,23\}$, $\complement_A\cap B=\{11,19,29\}$, $\complement_UA\cap \complement_UB=\{3,7\}$, 求$A$, $B$.
+已知集合$U =\{x|x\text{取不大于}30\text{的质数}\}$, $A$, $B$是$U$的两个子集, 且满足$A\cap \overline B=\{5,13,23\}$, $\overline A\cap B=\{11,19,29\}$, $\overline A\cap \overline B=\{3,7\}$, 求$A$, $B$.
 <E题目>
 <B目标>
 
@@ -4495,7 +4495,7 @@ K0107001B
 004864
 <EID>
 <B题目>
-已知命题$A:$如果$a^2+2ab+b^2+a+b-2\ne 0$, 那么$a+b\ne 1$, 求证: 命题$A$是真命题.
+已知命题$p$: 如果$a^2+2ab+b^2+a+b-2\ne 0$, 那么$a+b\ne 1$, 求证: 命题$p$是真命题.
 <E题目>
 <B目标>
 K0107003B
@@ -5510,11 +5510,11 @@ K0107001B
 004886
 <EID>
 <B题目>
-指出下列各命题中, $p$是$q$的什么条件:\\
+指出下列各组陈述句中, $p$是$q$的什么条件:\\
 (1) $p:0<x<3$, $q:|x-1|<2$;\\
 (2) $p:(x-2)(x-3)=0$, $q:x=2$;\\
 (3) $p:c=0$, $p$: 抛物线$y=ax^2+bx+c$过原点;\\
-(4) $p:A\subseteq B\subseteq U$, $q:\complement_UB\subseteq A$.
+(4) $p:A\subseteq B\subseteq U$, $q:\overline B\subseteq A$.
 <E题目>
 <B目标>
 K0106003B

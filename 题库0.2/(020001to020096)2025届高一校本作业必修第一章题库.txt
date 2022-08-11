@@ -2965,27 +2965,27 @@ $A\cap B$\blank{50}$A$, $A\cap B$\blank{50}$B\cap A$, $\varnothing$\blank{50}$B\
 用集合$A$、$B$的运算式表示图中的阴影部分:\\
 (1) \begin{tikzpicture}
 \draw (0,0) rectangle (3.5,2.5) node [below left] {$U$};
-\filldraw [gray!50] (1.5,1.25) circle (1);
+\filldraw [pattern = {north east lines}] (1.5,1.25) circle (1);
 \filldraw [white] (2.5,1.25) circle (0.7);
-\draw (1.5,1.25) circle (1) node [left] {$A$};
+\draw (1.5,1.25) circle (1) node [left, fill = white] {$A$};
 \draw (2.5,1.25) circle (0.7) node [right] {$B$};
-\end{tikzpicture}\\
+\end{tikzpicture}
 (2) \begin{tikzpicture}
-\filldraw [gray!50] (0,0) rectangle (3.5,2.5);
-\draw (0,0) rectangle (3.5,2.5) node [below left] {$U$};
+\filldraw [pattern = {north east lines}] (0,0) rectangle (3.5,2.5);
+\draw (0,0) rectangle (3.5,2.5) node [below left, fill = white] {$U$};
 \filldraw [white] (1.5,1.25) circle (1);
 \filldraw [white] (2.5,1.25) circle (0.7);
 \begin{scope}
     \clip (1.5,1.25) circle (1);
     \clip (2.5,1.25) circle (0.7);
-    \filldraw [gray!50] (0,0) rectangle (3.5,2.5);
+    \filldraw [pattern = {north east lines}] (0,0) rectangle (3.5,2.5);
 \end{scope}
 \draw (1.5,1.25) circle (1) node [left] {$A$};
 \draw (2.5,1.25) circle (0.7) node [right] {$B$};
-\end{tikzpicture}\\
+\end{tikzpicture}
 (3) \begin{tikzpicture}
-\filldraw [gray!50] (0,0) rectangle (3.5,2.5);
-\draw (0,0) rectangle (3.5,2.5) node [below left] {$U$};
+\filldraw [pattern = {north east lines}] (0,0) rectangle (3.5,2.5);
+\draw (0,0) rectangle (3.5,2.5) node [below left, fill = white] {$U$};
 \filldraw [white] (1.5,1.25) circle (1);
 \filldraw [white] (2.5,1.25) circle (0.7);
 \draw (1.5,1.25) circle (1) node [left] {$A$};

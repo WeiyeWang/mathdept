@@ -863,7 +863,7 @@ $\overrightarrow{OA}=\overrightarrow a$, $\overrightarrow{OB}=\overrightarrow b$
         \draw (0,-2.2) node {$10$} (-2.2,0) node {\rotatebox{90}{$10$}} (2.2,1.4) node {\rotatebox{90}{$x$}};
     \end{tikzpicture}
     \begin{tikzpicture}[thick]
-        \draw (0,0) node [left] {$A$} -- (3,0) node [right] {$B$} coordinate (B) --++ (45:1.5) node [right] {$C$} coordinate (C) ++ (-3,0) node [below right] {$D$} coordinate (D);
+        \draw (0,0) node [left] {$A$} coordinate (A) -- (3,0) node [right] {$B$} coordinate (B) --++ (45:1.5) node [right] {$C$} coordinate (C) ++ (-3,0) node [below right] {$D$} coordinate (D);
         \draw ($(B)!0.5!(D)$) node [below left] {$O$} coordinate (O) ++ (0,2) node [above] {$E$} coordinate (E) (E) -- (0,0) (E) -- (C) (E) -- (B);
         \draw [dashed] (E) -- (D);
         \draw [dashed] ($(B)!0.5!(C)$) node [right] {$F$} coordinate (F) -- (O) -- (E) (C) -- (D) -- (A);
@@ -12559,10 +12559,8 @@ $q_2$: 函数$y=f(x)$是定义域为$\mathbf{R}$的增函数, 存在$x_0<0$, 使
 \item {\tiny (004783)}已知集合$A=\{x|x=m^2-n^2, \ m,n\in \mathbf{Z}\}$, 求证:\\
 (1) 任何奇数都是$A$的元素;\\
 (2) 偶数$4k-2$($k\in \mathbf{Z}$)不属于$A$.
-\item {\tiny (004784)}数0与空集$\varnothing$之间的关系是\bracket{20}
-\fourch{$0\in \varnothing$}{$0\notin \varnothing$}{$0=\varnothing$}{$0\subset \varnothing$}14.若集合$M=\{x |x\le 6\},a=\sqrt 5$, 则下面结论正确的是\bracket{20}
-\fourch{$\{ a\}\subset M$}{$a\subset M$}{$\{ a\}\notin M$}{$a\notin M$}15.已知集合$M=\{y |y=x^2-2x-1,x\in \mathbf{R}\},P=\{x |-2\le x\le 4,x\in \mathbf{R}\}$, 则$M$与$P$之间的关系是\bracket{20}
-\fourch{$M=P$}{$M\subset P$}{$M\supset P$}{$M\not\subset P$且$M\not\supset P$}
+\item {\tiny (004784)}数0与空集$\varnothing$之间的关系是\bracket{20}.
+\fourch{$0\in \varnothing$}{$0\notin \varnothing$}{$0=\varnothing$}{$0\subset \varnothing$}
 \item {\tiny (004785)}设集合$M=\{ (x,y)| x+y>0,xy>0 \}$, $T=\{ (x,y)| x>0,y>0 \}$, 则$M$与$T$的关系是\bracket{20}
 \fourch{$M\supset T$}{$M=T$}{$M\subset T$}{$M\not\subset T$且$M\not\supset T$}
 \item {\tiny (004786)}用适合的符号($\in,\notin,=,\subset,\supset$)填空:\\

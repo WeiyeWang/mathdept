@@ -20,7 +20,6 @@ $1$
 <B解答或提示>
 
 <E解答或提示>
-<B预计耗时>
 
 <E预计耗时>
 <B使用记录>
@@ -5171,7 +5170,7 @@ K0104004B
 
 <E目标>
 <B标签>
-第一单元
+第五单元
 <E标签>
 <B类型>
 填空题
@@ -11845,7 +11844,7 @@ $(1+2x)^n$的二项展开式中, 含$x^3$项的系数等于含$x$项的系数的
 如图, 经过村庄$A$有两条夹角为$60^\circ$的公路$AB$、$AC$, 根据规划拟在两条公路之间的区域内建一工厂$P$, 分别在两条公路边上建两个仓库$M$、$N$(异于村庄$A$), 要求$PM=PN=MN=2$(单位: 千米). 记$\angle MN=\theta$.
 \begin{center}
     \begin{tikzpicture}
-        \draw (0,0) node [below left] {$A$} -- (3,0) node [below] {$M$} coordinate (M) -- (5,0) node [below] {$B$};
+        \draw (0,0) node [below left] {$A$} coordinate (A) -- (3,0) node [below] {$M$} coordinate (M) -- (5,0) node [below] {$B$};
         \path [name path = lineMN] (M) --++ (135:3);
         \path [name path = lineAN] (0,0) --++ (60:3);
         \path [name intersections = {of = lineMN and lineAN, by= N}];

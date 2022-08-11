@@ -49,7 +49,7 @@
 <EID>
 <B题目>
 已知$P=\{y=x^2+1\}$, $Q=\{y|y=x^2+1, \ x\in \mathbf{R}\}$, $E=\{x|y=x^2+1, \  x\in \mathbf{R}\}$, $F=\{(x,y)|y=x^2+1, \ x\in \mathbf{R}\}$, $G=\{x|x\ge 1\}$, $H=\{x|x^2+1=0, \ x\in \mathbf{R}\}$, 则各集合间关系正确的有\blank{50}. (答案可能不唯一)\\
-\textcircled{1} $P=F$; \textcircled{2} $Q=E$; \textcircled{3} $E=F$; \textcircled{4} $Q\subseteq G$; \textcircled{5} $H\subsetneqq P$
+\textcircled{1} $P=F$; \textcircled{2} $Q=E$; \textcircled{3} $E=F$; \textcircled{4} $Q\subseteq G$; \textcircled{5} $H\subset P$.
 <E题目>
 <B目标>
 K0101004B
@@ -232,7 +232,7 @@ K0103001B
 002697
 <EID>
 <B题目>
-设全集$U=\{2,3,a^2+2a-3\}$, 集合$A=\{|2a-1|,2\}$, $\complement_U A=\{5\}$, 则实数$a=$\blank{50}.
+设全集$U=\{2,3,a^2+2a-3\}$, 集合$A=\{|2a-1|,2\}$, $\overline A=\{5\}$, 则实数$a=$\blank{50}.
 <E题目>
 <B目标>
 K0104006B
@@ -461,7 +461,7 @@ K0103003B
 <EID>
 <B题目>
 若集合$A=[2,3]$, 集合$B=[a,2a+1]$.\\
-(1) 若$A\subsetneqq B$, 求实数$a$的取值范围;\\
+(1) 若$A\subset B$, 求实数$a$的取值范围;\\
 (2) 若$A\cap B\ne \varnothing$, 求实数$a$的取值范围.
 <E题目>
 <B目标>
@@ -508,7 +508,7 @@ K0103005B
 002703
 <EID>
 <B题目>
-设全集$U=\mathbf{R}$, 函数$y=f(x)$, $y=g(x)$, $y=h(x)$的定义域均为$\mathbf{R}$. 设集合$A=\{x|f(x)=0\}$, $B=\{x|g(x)=0\}$, $C=\{x|h(x)=0, \ x\in \mathbf{R}\}$, 则方程$\dfrac{f^2(x)+g^2(x)}{h(x)}=0$的解集是\blank{50}(用$U,A,B,C$表示).
+设全集$U=\mathbf{R}$, 函数$y=f(x)$, $y=g(x)$, $y=h(x)$的定义域均为$\mathbf{R}$. 设集合$A=\{x|f(x)=0\}$, $B=\{x|g(x)=0\}$, $C=\{x|h(x)=0, \ x\in \mathbf{R}\}$, 则方程$\dfrac{f^2(x)+g^2(x)}{h(x)}=0$的解集是\blank{50}(用$A,B,C$表示).
 <E题目>
 <B目标>
 K0104001B
@@ -845,7 +845,7 @@ K0102003B
         \draw (-1.8,1.3) node [below right] {$U$} (-1,0) node [right] {$P$} (-0.5,0) node [right] {$S$} (1,0) node [right] {$M$};
     \end{tikzpicture}
 \end{center}
-\fourch{$(M\cap P)\cap S$}{$(M\cap P)\cup S$}{$(M\cap P)\cap \complement_U S$}{$(M\cap P)\cup \complement_U S$}
+\fourch{$(M\cap P)\cap S$}{$(M\cap P)\cup S$}{$(M\cap P)\cap \overline S$}{$(M\cap P)\cup \overline S$}
 <E题目>
 <B目标>
 K0104002B
@@ -1800,7 +1800,7 @@ K0101004B
 002731
 <EID>
 <B题目>
-填写下列命题的否定形式:\\
+填写下列陈述句的否定形式:\\
 (1) $m\le 0$或$n>0$: \blank{200};\\
 (2) 空间三条直线$l,m,n$两两相交: \blank{200};\\
 (3) 复数$z_1,z_2,z_3$中至多一个为纯虚数: \blank{200}.
@@ -1942,7 +1942,7 @@ K0105002B
 002734
 <EID>
 <B题目>
-若$A$是$B$的必要非充分条件, 则$\overline{A}$是$\overline{B}$的\blank{50}条件.
+若陈述句$p$是$q$的必要非充分条件, 则``非$p$''是``非$q$''的\blank{50}条件.
 <E题目>
 <B目标>
 K0107003B
@@ -2080,8 +2080,8 @@ K0107003B
 002737
 <EID>
 <B题目>
-``$a>0b>0$''的一个必要非充分条件是\bracket{20}.
-\fourch{$a>0$}{$b>0$}{$a>0b>0$}{$a,b\in \mathbf{R}$}
+``$a>0$或$b>0$''的一个必要非充分条件是\bracket{20}.
+\fourch{$a>0$}{$b>0$}{$a>0$且$b>0$}{$a,b\in \mathbf{R}$}
 <E题目>
 <B目标>
 K0106001B
@@ -2548,7 +2548,7 @@ K0106001B
 002747
 <EID>
 <B题目>
-命题甲: 关于$x$的方程$x^2+x+m=0$有两个相异的负根; 命题乙: 关于$x$的方程$4x^2+x+m=0$无实根, 若这两个命题有且只有一个是真命题, 求实数$m$的取值范围.
+已知$m$是实常数. 命题甲: 关于$x$的方程$x^2+x+m=0$有两个相异的负根; 命题乙: 关于$x$的方程$4x^2+x+m=0$无实根, 若这两个命题有且只有一个是真命题, 求实数$m$的取值范围.
 *
 <E题目>
 <B目标>
@@ -3513,7 +3513,7 @@ $z=(x+y)(\dfrac 1x+\dfrac 1{4y}), \ (x,y>0)$的最小值是\blank{50}.
 (2) 设$0<x<\sqrt 2$, 则$x\sqrt{4-2{x^2}}$的最大值是\blank{50}, 此时$x=$\blank{50}.
 <E题目>
 <B目标>
-K0103002B
+K0119001B
 <E目标>
 <B标签>
 第一单元

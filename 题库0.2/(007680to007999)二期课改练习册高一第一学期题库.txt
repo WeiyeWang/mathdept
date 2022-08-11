@@ -1797,7 +1797,7 @@ $A$与$B$互为\blank{20}命题, $B$与$C$互为\blank{20}命题, $C$与$A$互�
 <EID>
 <B题目>
 判断下列命题的真假, 并在相应的横线上填入``真命题''或``假命题''.\\
-(1) 若$A\cap B\ne \varnothing$, $B\subsetneqq C$, 则$A\cap C\ne \varnothing$\blank{20};\\
+(1) 若$A\cap B\ne \varnothing$, $B\subset C$, 则$A\cap C\ne \varnothing$\blank{20};\\
 (2) 方程$(a+1)x+b=0$($a$、$b\in \mathbf{R}$)的解为$x=-\dfrac b{a+1}$\blank{20};\\
 (3)若命题$\alpha$、$\beta$、$\gamma$满足$\alpha \Rightarrow \beta$, $\beta \Rightarrow \gamma$, $\gamma \Rightarrow \alpha$, 则$\alpha \Leftrightarrow \gamma$\blank{20}.
 <E题目>
