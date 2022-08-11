@@ -1,0 +1,123 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[UTF8,fontset = windows]{ctex}
+\setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{华文中宋}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
+\usepackage{ifthen,indentfirst,enumerate,color,titletoc}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{longtable}
+\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing,3d,angles,quotes,positioning}
+\usepackage[bf,small,indentafter,pagestyles]{titlesec}
+\usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
+\renewcommand{\baselinestretch}{1.65}
+\newtheorem{defi}{定义~}
+\newtheorem{eg}{例~}
+\newtheorem{ex}{~}
+\newtheorem{rem}{注~}
+\newtheorem{thm}{定理~}
+\newtheorem{coro}{推论~}
+\newtheorem{axiom}{公理~}
+\newtheorem{prop}{性质~}
+\newcommand{\blank}[1]{\underline{\hbox to #1pt{}}}
+\newcommand{\bracket}[1]{(\hbox to #1pt{})}
+\newcommand{\onech}[4]{\par\begin{tabular}{p{.9\textwidth}}
+A.~#1\\
+B.~#2\\
+C.~#3\\
+D.~#4
+\end{tabular}}
+\newcommand{\twoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+A.~#1& B.~#2\\
+C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\vartwoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+(1)~#1& (2)~#2\\
+(3)~#3& (4)~#4
+\end{tabular}}
+\newcommand{\fourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+A.~#1 &B.~#2& C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\varfourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+(1)~#1 &(2)~#2& (3)~#3& (4)~#4
+\end{tabular}}
+\begin{document}
+
+\begin{enumerate}[1.]
+
+\item {\tiny (001085)}判断题: (如果正确请在题目前面的横线上写``T'', 错误请在题目前面的横线上写``F'')\\ 
+\blank{30}(1) 若$a>b$, $c=d$, 则$ac>bd$;\\ 
+\blank{30}(2) 若$\dfrac{a}{c^2}<\dfrac{b}{c^2}$, 则$a<b$;\\ 
+\blank{30}(3) 若$ac<bc$, 则$a<b$;\\ 
+\blank{30}(4) 若$a>b$, 则$ac^2>bc^2$;\\ 
+\blank{30}(5) 若$a>b,c<d$, 则$ac>bd$;\\ 
+\blank{30}(6) 若$a>b>0$, $c>d>0$, 则$\dfrac{a}{c}>\dfrac{b}{d}$;\\ 
+\blank{30}(7) 若$a>b$, $c\geq d$, 则$a+c>b+d$;\\ 
+\blank{30}(8) 若$a>b$, $c\geq d$, 则$a+c\geq b+d$;\\ 
+\blank{30}(9) 若$\sqrt[3]{a}>\sqrt[3]{b}$, 则$a>b$.\\ 
+\blank{30}(10) 若$ab^2\geq 0$, 则$a\geq 0$.
+\item {\tiny (002750)}命题(1) $a>b\Rightarrow ac^2>bc^2$;   (2) $ac^2>bc^2\Rightarrow a>b$;     (3) $a>b\Rightarrow \dfrac 1a<\dfrac 1b$; (4) $a<b<0, \ c<d<0\Rightarrow ac>bd$;   (5) $\sqrt[n]a>\sqrt[n]b\Rightarrow a>b \ (n\in \mathbf{N}^*)$;    (6) $a+c<b+d\Leftrightarrow \begin{cases} a<b, \\ c<d; \end{cases}$ (7) $a<b<0\Rightarrow a^2>ab>b^2$. 其中真命题的序号是\blank{50}.
+\item {\tiny (001122)}在解不等式时, 有时我们可以用不等式的性质来求解. 例如解不等式$x^2+x+1\ge 0$, 我们可以利用不等式的基本性质, 得到$x^2+x+1=\left(x+\dfrac{1}{2}\right)^2+\dfrac{3}{4}\ge\dfrac{3}{4}>0$恒成立, 因此解集为$\mathbf{R}$. 请你用基本不等式的观点解以下两个不等式:\\ 
+(1) $x+\dfrac{1}{x}>1$; \hfill (2) $x+\dfrac{1}{x}>2$. \hfill
+\item {\tiny (001138)}已知$a,b,c$是{\bf 不全相等}的正数. 证明: $\dfrac{a+b}{c}+\dfrac{b+c}{a}+\dfrac{c+a}{b}>6$.
+\item {\tiny (000022)}已知$x>y$, 求证: $x^3-y^3>x^2y-xy^2$.
+\item {\tiny (001134)}已知$x,y \in \mathbf{R}$, 用比较法证明: $x^2+y^2\ge 4(x+y)-8$.
+\item {\tiny (001139)}已知$x,y\in \mathbf{R}^+$且$x+y>2$, 用反证法证明: $\dfrac{1+y}{x}$与$\dfrac{1+x}{y}$中至少有一个小于$2$.
+\item {\tiny (001142)}已知$g(x)=x^3-3x$.\\ 
+(1) 若$a>b\ge 1$, 证明: $g(a)>g(b)$;\\ 
+(2) 若$-1\le a<b\le 1$, 证明: $g(a)>g(b)$.
+\item {\tiny (002761)}设$a,b\in \mathbf{R}$, 若$a-|b|>0$, 则下列不等式中正确的是\bracket{20}.
+\fourch{$b-a>0$}{$a^3+b^3<0$}{$b+a>0$}{$a^2-b^2<0$}
+\item {\tiny (002812)}已知$a,b\in \mathbf{R}^+$且$a\ne b$, 求证: $|a^3+b^3-2ab\sqrt{ab}|>|a^2b+ab^2-2ab\sqrt{ab}|$.
+\item {\tiny (000046)}已知实数$0<a<b$, 求证: $a<\dfrac{2ab}{a+b}<\sqrt{ab}<\dfrac{a+b}{2}<\sqrt{\dfrac{a^2+b^2}{2}}<b$.
+\item {\tiny (001086)}设$\{a,b,m,n\}\subseteq\mathbf{R}^+$且$a>b$, 将$\dfrac{a}{b},\dfrac{b}{a},\dfrac{a+m}{b+m},\dfrac{b+n}{a+n}$按由大到小的次序排列:\\
+\blank{40}$>$\blank{40}$>$\blank{40}$>$\blank{40}.
+\item {\tiny (001120)}判断以下各不等式是否成立. 如果成立在前面的横线上写``T'', 如果不成立在前面的横线上写``F''.\\ 
+\blank{30}(1) 当$x<0$时, $x+\dfrac{1}{x}\le -2$;\\ 
+\blank{30}(2) 当$x>0$时, $x+\dfrac{1}{x}\ge 2$;\\ 
+\blank{30}(3) 当$x>0$时, $x^2+\dfrac{1}{x}\ge 2\sqrt{x}$;\\ 
+\blank{30}(4) 当$a,b\ge 0$时, $a+b\ge 2ab$;\\ 
+\blank{30}(5) 当$a,b\ge 0$时, $2ab\ge a+b$;\\ 
+\blank{30}(6) 当$x,y,z\in \mathbf{R}$时, $x^2+y^2+z^2\ge 2xy+yz$;\\ 
+\blank{30}(7) 当$a,b\in \mathbf{R}$时, $a^2+b^2+4\ge ab+2a+2b$;\\ 
+\blank{30}(8) 当$a,b\in \mathbf{R}$时, $a^3+b^3\ge 2a^2b$;\\ 
+\blank{30}(9) 当$a,b \in \mathbf{R}$时, $a^3+b^3\ge a^2b+ab^2$;\\ 
+\blank{30}(10) 当$a,b\in \mathbf{R}^+$时, $a^3+b^3\ge a^2b+ab^2$;\\ 
+\blank{30}(11) 当$x,y>0$时, $x^2+y^2\ge (x+y)^2$;
+\item {\tiny (001123)}试确定实常数$k$使得$a^2+b^2+c^2\geq k(a+b+c)^2\geq ab+bc+ca$对任意的$a,b,c\in \mathbf{R}$成立, 并证明该不等式.
+\item {\tiny (001124)}设$a,b,c,d>0$.\\ 
+(1) 利用三元的基本不等式``$x,y,z>0$时, $x^3+y^3+z^3\ge 3xyz$'', 证明: $a^3+b^3+c^3+d^3\geq abc+bcd+cda+dab$;\\ 
+(2) 该不等式能否加强为$a^3+b^3+c^3+d^3\ge k(abc+bcd+cda+dab)$, 其中$k=1.0001$? 为什么?\\ 
+(3) 利用三元的基本不等式``$x,y,z>0$时, $x^3+y^3+z^3\ge 3xyz$'', 证明: $a^3+b^3+c^3+d^3\geq \dfrac{3\sqrt[3]{2}}{2}(abc+bcd)$.
+\item {\tiny (000371)}已知$x,y\in \mathbf{R}^+$, 且$x+2y=1$, 则$xy$的最大值为\blank{50}.
+\item {\tiny (000924)}已知$x,y\in \mathbf{R}^+$, 且满足$\dfrac x3+\dfrac y4=1$, 则$xy$的最大值为\blank{50}.
+\item {\tiny (000939)}若$m>0$, $n>0$, $m+n=1$, 且$\dfrac t m+\dfrac 1 n$($t>0$)的最小值为$9$, 则$t=$\blank{50}.
+\item {\tiny (001127)}已知正实数$x,y$满足$x+\dfrac{4}{y}=1$, 求$\dfrac{1}{x}+y$的最小值.
+\item {\tiny (001128)}已知$x>2$, 求代数式$\dfrac{x^2-3x+3}{x-2}$的最小值.
+\item {\tiny (001151)}(1) 已知$f(x)=Ax^2+Bx$, 并且$f(1)\in [0,1]$, $f(2)\in [0,1]$, 求$f(5)$的最大值与最小值.\\ 
+(2) 已知$f(x)=Ax^2+Bx$, 并且$f(1)\in [0,1]$, $f(2)\in [0,1]$, $f(3)\in (-\infty,0]$, 求$f(-1)$的最大值与最小值.
+\item {\tiny (002753)}下列函数中, 最小值为$2$的函数有\blank{50}.\\
+(1) $y=x+\dfrac 1x, \ x\in (0,+\infty)$; (2) $y=x+\dfrac 1x,\ x\in (1,+\infty)$;    (3) $y=\dfrac{x^2+3}{\sqrt{x^2+2}}$;    (4)$y=\log_3x+\log_x3$.
+\item {\tiny (002755)}若正实数$a,b$满足$a+b=1$, 则\bracket{20}.
+\fourch{$\dfrac 1a+\dfrac 1b$的最大值是$4$}{$ab$的最小值是$\dfrac 14$}{$\sqrt a+\sqrt b$有最大值$\sqrt 2$}{$a^2+b^2$有最小值$\dfrac{\sqrt 2}2$}
+\item {\tiny (002768)}(1) 设$x<2$, 则$2x+\dfrac 8{x-2}$有最\blank{50}值是\blank{50}, 此时$x=$\blank{50};\\
+(2) 设$0<x<\sqrt 2$, 则$x\sqrt{4-2{x^2}}$的最大值是\blank{50}, 此时$x=$\blank{50}.
+\item {\tiny (001130)}已知直角三角形的面积为$8$, 求斜边长的最小值.
+\item {\tiny (001131)}已知直角三角形的斜边长为$2$, 求周长的最大值.
+\item {\tiny (001132)}用长为$4L$的篱笆在一堵墙边上圈起一块矩形的地来(只需要围三面), 问能圈到的地最大面积为多少? 如何圈?
+\item {\tiny (007826)}建造一个容积为$8$立方米、深为$2$米的长方形无盖水池.如果池底和池壁的造价每平方米分别为$120$元和$80$元, 那么水池的最低造价是多少元?
+\item {\tiny (005225)}若实数$a,b$满足$ab>0$, 则在\textcircled{1} $|a+b|>|a|$; \textcircled{2} $|a+b|<|b|$; \textcircled{3} $|a+b|<|a-b|$; \textcircled{4} $|a+b|>|a-b|$这四个式子中, 正确的是\bracket{20}.
+\fourch{\textcircled{1}\textcircled{2}}{\textcircled{1}\textcircled{3}}{\textcircled{1}\textcircled{4}}{\textcircled{2}\textcircled{4}}
+\item {\tiny (010104)}证明: $|x+2|-|x-1|\ge -3$, 对所有实数$x$均成立, 并求等号成立时$x$的取值范围.
+\item {\tiny (001096)}利用绝对值的三角不等式$|a+b|\le |a|+|b|$, 证明:\\ 
+(1) 对任意$x,y\in\mathbf{R}$, $|x-y|\ge |x|-|y|$;\\ 
+(2) 对任意$x,y\in\mathbf{R}$, $|x-y|\ge ||x|-|y||$.
+\item {\tiny (009468)}已知实数$a$、$b$满足$|a| <\dfrac 12$, $|b| <\dfrac 12$. 证明下列各式:\\
+(1) $|a+b| <1$;\\
+(2) $|a-b| <1$.
+\item {\tiny (005239)}已知关于$x$的不等式$|x-4|+|x-3|<a$在实数集$\mathbf{R}$上的解集不是空集, 求正数$a$的取值范围.
+\end{enumerate}
+
+
+
+\end{document}

@@ -15901,7 +15901,7 @@ $\lg x^2<2$的解集是\bracket{20}.
 \fourch{\textcircled{1}\textcircled{2}}{\textcircled{1}\textcircled{3}}{\textcircled{1}\textcircled{4}}{\textcircled{2}\textcircled{4}}
 <E题目>
 <B目标>
-
+K0120001B
 <E目标>
 <B标签>
 第一单元
@@ -16574,7 +16574,7 @@ $\lg x^2<2$的解集是\bracket{20}.
 已知关于$x$的不等式$|x-4|+|x-3|<a$在实数集$\mathbf{R}$上的解集不是空集, 求正数$a$的取值范围.
 <E题目>
 <B目标>
-
+K0120003B
 <E目标>
 <B标签>
 第一单元

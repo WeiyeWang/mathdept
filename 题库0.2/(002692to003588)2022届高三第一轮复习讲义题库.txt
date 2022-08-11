@@ -2865,7 +2865,8 @@ K0107002B
 命题(1) $a>b\Rightarrow ac^2>bc^2$;   (2) $ac^2>bc^2\Rightarrow a>b$;     (3) $a>b\Rightarrow \dfrac 1a<\dfrac 1b$; (4) $a<b<0, \ c<d<0\Rightarrow ac>bd$;   (5) $\sqrt[n]a>\sqrt[n]b\Rightarrow a>b \ (n\in \mathbf{N}^*)$;    (6) $a+c<b+d\Leftrightarrow \begin{cases} a<b, \\ c<d; \end{cases}$ (7) $a<b<0\Rightarrow a^2>ab>b^2$. 其中真命题的序号是\blank{50}.
 <E题目>
 <B目标>
-
+K0111001B
+K0111003B
 <E目标>
 <B标签>
 第一单元
@@ -3011,7 +3012,7 @@ K0107002B
 (1) $y=x+\dfrac 1x, \ x\in (0,+\infty)$; (2) $y=x+\dfrac 1x,\ x\in (1,+\infty)$;    (3) $y=\dfrac{x^2+3}{\sqrt{x^2+2}}$;    (4)$y=\log_3x+\log_x3$.
 <E题目>
 <B目标>
-
+K0119001B
 <E目标>
 <B标签>
 第一单元
@@ -3108,7 +3109,7 @@ $z=(x+y)(\dfrac 1x+\dfrac 1{4y}), \ (x,y>0)$的最小值是\blank{50}.
 \fourch{$\dfrac 1a+\dfrac 1b$的最大值是$4$}{$ab$的最小值是$\dfrac 14$}{$\sqrt a+\sqrt b$有最大值$\sqrt 2$}{$a^2+b^2$有最小值$\dfrac{\sqrt 2}2$}
 <E题目>
 <B目标>
-
+K0119001B
 <E目标>
 <B标签>
 第一单元
@@ -3399,7 +3400,7 @@ $z=(x+y)(\dfrac 1x+\dfrac 1{4y}), \ (x,y>0)$的最小值是\blank{50}.
 \fourch{$b-a>0$}{$a^3+b^3<0$}{$b+a>0$}{$a^2-b^2<0$}
 <E题目>
 <B目标>
-
+K0111003B
 <E目标>
 <B标签>
 第一单元
@@ -5878,7 +5879,8 @@ K0119001B
 已知$a,b\in \mathbf{R}^+$且$a\ne b$, 求证: $|a^3+b^3-2ab\sqrt{ab}|>|a^2b+ab^2-2ab\sqrt{ab}|$.
 <E题目>
 <B目标>
-
+K0111003B
+K0118003B
 <E目标>
 <B标签>
 第一单元

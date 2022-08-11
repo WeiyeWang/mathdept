@@ -1,10 +1,10 @@
 import os,re,time,shutil
 
 #这里四行每次需要改动
-keywords_in_problem = ["命题","充分条件","必要条件","充要条件","推出","Rightarrow"]
-keywords_in_objects = ["K0105","K0106","K0107"]
+keywords_in_problem = ["幂","指数","对数","^a","log","lg","ln","^x","^n","^k"]
+keywords_in_objects = []
 
-keywords_in_tag = ["第一单元"]
+keywords_in_tag = ["第二单元"]
 keywords_in_classification = ["选择题","填空题","解答题"]
 #keywords_in_classification = ["填空题","选择题","解答题"]
 
@@ -134,11 +134,17 @@ for id in id_list.split(","):
                 except:
                     print(id,"题, 目标",obj,":目标id有错误.")
             objects = objects_string
+        space = trim(re.findall("<B解答空间>([\s\S]*?)<E解答空间>",problem_set)[0])
+        if len(space) == 0:
+            space = ""
+        else:
+            space = r"\vspace*{"+space+"}\n"
         tag = trim(re.findall("<B标签>([\s\S]*?)<E标签>",problem_set)[0])
         if len(tag) == 0:
             tag = "暂无标签"
-        students_string = "\\item "+"{\\tiny ("+id+")}"+problem+"\n"
-        teachers_string = students_string.replace("\\tiny","")+"\n\n关联目标:\n\n"+ objects + "\n\n标签: " + tag + "\n\n答案: "+answer + "\n\n" + "解答或提示: " + solution + "\n\n使用记录:\n\n"+ usage + "\n" + "\n\n出处: "+origin + "\n"
+        raw_string = "\\item "+"{\\tiny ("+id+")}"+problem+"\n"
+        teachers_string = raw_string.replace("\\tiny","")+"\n\n关联目标:\n\n"+ objects + "\n\n标签: " + tag + "\n\n答案: "+answer + "\n\n" + "解答或提示: " + solution + "\n\n使用记录:\n\n"+ usage + "\n" + "\n\n出处: "+origin + "\n"
+        students_string = raw_string + space
         data_teachers += teachers_string
         data_students += students_string
 

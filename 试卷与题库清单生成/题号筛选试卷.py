@@ -102,11 +102,17 @@ for id in ids:
                 except:
                     print(id,"题, 目标",obj,":目标id有错误.")
             objects = objects_string
+        space = trim(re.findall("<B解答空间>([\s\S]*?)<E解答空间>",problem_set)[0])
+        if len(space) == 0:
+            space = ""
+        else:
+            space = r"\vspace*{"+space+"}\n"
         tag = trim(re.findall("<B标签>([\s\S]*?)<E标签>",problem_set)[0])
         if len(tag) == 0:
             tag = "暂无标签"
-        students_string = "\\item "+"{\\tiny ("+id+")}"+problem+"\n"
-        teachers_string = students_string.replace("\\tiny","")+"\n\n关联目标:\n\n"+ objects + "\n\n标签: " + tag + "\n\n答案: "+answer + "\n\n" + "解答或提示: " + solution + "\n\n使用记录:\n\n"+ usage + "\n" + "\n\n出处: "+origin + "\n"
+        raw_string = "\\item "+"{\\tiny ("+id+")}"+problem+"\n"
+        teachers_string = raw_string.replace("\\tiny","")+"\n\n关联目标:\n\n"+ objects + "\n\n标签: " + tag + "\n\n答案: "+answer + "\n\n" + "解答或提示: " + solution + "\n\n使用记录:\n\n"+ usage + "\n" + "\n\n出处: "+origin + "\n"
+        students_string = raw_string + space
         data_teachers += teachers_string
         data_students += students_string
 #生成学生的文件和教师的源文件

@@ -1,0 +1,112 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[UTF8,fontset = windows]{ctex}
+\setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{华文中宋}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
+\usepackage{ifthen,indentfirst,enumerate,color,titletoc}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{longtable}
+\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing,3d,angles,quotes,positioning}
+\usepackage[bf,small,indentafter,pagestyles]{titlesec}
+\usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
+\renewcommand{\baselinestretch}{1.65}
+\newtheorem{defi}{定义~}
+\newtheorem{eg}{例~}
+\newtheorem{ex}{~}
+\newtheorem{rem}{注~}
+\newtheorem{thm}{定理~}
+\newtheorem{coro}{推论~}
+\newtheorem{axiom}{公理~}
+\newtheorem{prop}{性质~}
+\newcommand{\blank}[1]{\underline{\hbox to #1pt{}}}
+\newcommand{\bracket}[1]{(\hbox to #1pt{})}
+\newcommand{\onech}[4]{\par\begin{tabular}{p{.9\textwidth}}
+A.~#1\\
+B.~#2\\
+C.~#3\\
+D.~#4
+\end{tabular}}
+\newcommand{\twoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+A.~#1& B.~#2\\
+C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\vartwoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+(1)~#1& (2)~#2\\
+(3)~#3& (4)~#4
+\end{tabular}}
+\newcommand{\fourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+A.~#1 &B.~#2& C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\varfourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+(1)~#1 &(2)~#2& (3)~#3& (4)~#4
+\end{tabular}}
+\begin{document}
+
+\begin{enumerate}[1.]
+
+\item {\tiny (001080)}[选做]
+解方程: $\dfrac{1}{(x-5)(x-4)}+\dfrac{1}{(x-4)(x-3)}+\cdots+\dfrac{1}{(x+4)(x+5)}=\dfrac{10}{11}$.
+\item {\tiny (001081)}解方程: $\sqrt[3]{3-\sqrt{x+1}}+\sqrt[3]{2}=0$.
+\item {\tiny (001082)}解方程: $\sqrt{3x+4}+2=3\sqrt[4]{3x+4}$.
+\item {\tiny (001083)}已知$a>b$, $a,b\in \mathbf{R}$. 解关于$y$的方程: $\sqrt{a-y}+\sqrt{y-b}=\sqrt{a-b}$.
+\item {\tiny (001084)}[选做]
+解方程: $\sqrt[4]{97-x}+\sqrt[4]{x}=5$.
+\item {\tiny (001085)}判断题: (如果正确请在题目前面的横线上写``T'', 错误请在题目前面的横线上写``F'')\\ 
+\blank{30}(1) 若$a>b$, $c=d$, 则$ac>bd$;\\ 
+\blank{30}(2) 若$\dfrac{a}{c^2}<\dfrac{b}{c^2}$, 则$a<b$;\\ 
+\blank{30}(3) 若$ac<bc$, 则$a<b$;\\ 
+\blank{30}(4) 若$a>b$, 则$ac^2>bc^2$;\\ 
+\blank{30}(5) 若$a>b,c<d$, 则$ac>bd$;\\ 
+\blank{30}(6) 若$a>b>0$, $c>d>0$, 则$\dfrac{a}{c}>\dfrac{b}{d}$;\\ 
+\blank{30}(7) 若$a>b$, $c\geq d$, 则$a+c>b+d$;\\ 
+\blank{30}(8) 若$a>b$, $c\geq d$, 则$a+c\geq b+d$;\\ 
+\blank{30}(9) 若$\sqrt[3]{a}>\sqrt[3]{b}$, 则$a>b$.\\ 
+\blank{30}(10) 若$ab^2\geq 0$, 则$a\geq 0$.
+\item {\tiny (001086)}设$\{a,b,m,n\}\subseteq\mathbf{R}^+$且$a>b$, 将$\dfrac{a}{b},\dfrac{b}{a},\dfrac{a+m}{b+m},\dfrac{b+n}{a+n}$按由大到小的次序排列:\\
+\blank{40}$>$\blank{40}$>$\blank{40}$>$\blank{40}.
+\item {\tiny (001087)}证明: 若$a>b$, $c\in\mathbf{R}$, $d<0$, 则$(a-c)d<(b-c)d$.
+\item {\tiny (001088)}证明: 若$a_1>b_1>0,a_2>b_2>0,a_3>b_3>0$, 则$a_1a_2a_3>b_1b_2b_3$.
+\item {\tiny (001089)}证明: 若$a>b>0$, $c>d>0$, 则$\dfrac{1}{ac}<\dfrac{1}{bd}$.
+\item {\tiny (001090)}设常数$a,b\in\mathbf{R}$, 比较以下各组两数的大小:\\ 
+(1) $-(a+1)^2$与$-2a^2-3a-4$;\\ 
+(2) $a^2+ab+b^2$与$0$.
+\item {\tiny (001091)}证明:\\ 
+(1) 若$a>b$, 则$a^3>b^3$;\\ 
+(2)(选做) 若$a>b$, 则$a^5>b^5$.
+\item {\tiny (001092)}设$a,b\in\mathbf{R}$且$-1<a<1,1<b<3$, 求证:\\ 
+(1) $-4<a-b<0$;\\ 
+(2)(选做) 任取$x\in(-4,0)$, 总存在满足条件的$a,b$, 使得$a-b=x$(两小题的结论放在一起, 也就是所谓的``$a-b$的取值范围为$(-4,0)$'', 前者表示不会超出这个范围, 后者表示该范围内的每个值都能取到).
+\item {\tiny (001093)}判断题: (如果同解请在题目前面的横线上写``T'', 否则写``F'')\\ 
+\blank{30}(1) $x^2+5x>4$, $x^2+5x+3x>4+3x$;\\ 
+\blank{30}(2) $x^2-2x<3$, $\dfrac{x^2-2x}{x-1}<\dfrac{3}{x-1}$;\\ 
+\blank{30}(3) $(x-3)(x-5)^2>(2x+1)(x-5)^2$, $x-3>2x+1$;\\ 
+\blank{30}(4) $x\ge 1$, $x(x-5)^2\ge (x-5)^2$;\\ 
+\blank{30}(5) $x>5$, $x+\dfrac{1}{x^2-3x+2}> 5+\dfrac{1}{x^2-3x+2}$;\\ 
+\blank{30}(6) $x<5$, $x+\dfrac{1}{x^2-3x+2}< 5+\dfrac{1}{x^2-3x+2}$;\\ 
+\blank{30}(7) $x+\dfrac{1}{x-3}>1+\dfrac{1}{x-3}$, $x>1$;\\ 
+\blank{30}(8) $\dfrac{(x+3)(x+1)}{x+1}>0$, $x+3>0$;\\ 
+\blank{30}(9) $\dfrac{(x-3)(x+1)}{x+1}>0$, $x-3>0$;\\ 
+\blank{30}(10) $|x|<3$, $-3<x<3$.
+\item {\tiny (001094)}(1) 证明或否定: ``$|f(x)|>g(x)$''和``$f(x)>g(x)$且$-f(x)>g(x)$''等价;\\ 
+(2) 证明或否定: ``$|f(x)|<g(x)$''和``$f(x)<g(x)$且$-f(x)<g(x)$''等价.
+\item {\tiny (001095)}证明或否定: ``$\sqrt{f(x)}>g(x)$''和
+``$\left\{\begin{array}{l}f(x)>g^2(x),\\g(x)\ge 0,\end{array}\right.\ \text{或} \ \left\{\begin{array}{l}f(x)\ge 0,\\g(x)<0\end{array}\right.$''
+同解.
+\item {\tiny (001096)}利用绝对值的三角不等式$|a+b|\le |a|+|b|$, 证明:\\ 
+(1) 对任意$x,y\in\mathbf{R}$, $|x-y|\ge |x|-|y|$;\\ 
+(2) 对任意$x,y\in\mathbf{R}$, $|x-y|\ge ||x|-|y||$.
+\item {\tiny (001097)}已知$|x-a|\le \dfrac{\varepsilon}{2}$, $|y-b|<\dfrac{\varepsilon}{2}$. 求证:\\ 
+(1) $|(x+y)-(a+b)|<\varepsilon$;\\ 
+(2) $|(x-y)-(a-b)|<\varepsilon$.
+\item {\tiny (001098)}已知$|x|<\dfrac{\varepsilon}{3}$, $|y|<\dfrac{\varepsilon}{6}$, $|z|<\dfrac{\varepsilon}{9}$. 求证: $|x-2y+3z|<\varepsilon$.
+\item {\tiny (001099)}已知常数$\varepsilon>0$, 证明存在实常数$N$, 使得当正整数$n>N$时, $\left|\dfrac{n}{2n+3}-\dfrac{1}{2}\right|<\varepsilon$.
+\item {\tiny (001100)}解下列关于$x$的不等式.\\ 
+(1) $ax\le b$;\\ 
+(2) $ax+b^2>bx+a^2$;\\ 
+(3) $m(mx-1)<2(2x-1)$.
+\end{enumerate}
+
+
+
+\end{document}
