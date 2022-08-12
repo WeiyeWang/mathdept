@@ -46,8 +46,22 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 
 \begin{document}
 
-
-若陈述句$p$是$q$的必要非充分条件, 则``非$A$''是``非$B$''的\blank{50}条件.
+如图, 正方形$OABC$的边长为$a$($a>1$), 函数$y=3x^2$交$AB$于点$Q$, 函数$y=x^{-\frac 12}$与$BC$交于点$P$, 当$|AQ|+|CP|$最小时, $a$的值为\blank{50}.
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\draw [->] (-0.2,0) -- (3,0) node [below] {$x$};
+\draw [->] (0,-0.2) -- (0,3) node [left] {$y$};
+\draw (0,0) node [below left] {$O$};
+\draw (2.5,0) node [below] {$C$} coordinate (C);
+\draw (2.5,2.5) node [right] {$B$} coordinate (B);
+\draw (0,2.5) node [left] {$A$} coordinate (A);
+\draw [domain = 0:1] plot (\x,{3*\x*\x});
+\draw [domain = 0.12:3] plot (\x,{pow(\x,-1/2)});
+\draw (C) -- (B) -- (A);
+\draw ({sqrt(2.5/3)},2.5) node [above right] {$Q$};
+\draw (2.5,{pow(2.5,-1/2)}) node [above right] {$P$};
+\end{tikzpicture}
+\end{center}
 
 %\input{"../题库0.2/相似题目_待处理01.txt"}
 
