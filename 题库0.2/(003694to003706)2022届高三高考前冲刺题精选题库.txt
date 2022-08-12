@@ -55,7 +55,9 @@
 \fourch{$A\subseteq B$}{$B\subseteq A$}{$A\cup B=\mathbf{R}$}{$A\cap B\ne\varnothing$}
 <E题目>
 <B目标>
-
+K0103001B
+K0104001B
+K0104003B
 <E目标>
 <B标签>
 第一单元

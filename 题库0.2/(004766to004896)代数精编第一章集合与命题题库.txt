@@ -102,7 +102,9 @@
 已知集合$U =\{x|x\text{取不大于}30\text{的质数}\}$, $A$, $B$是$U$的两个子集, 且满足$A\cap \overline B=\{5,13,23\}$, $\overline A\cap B=\{11,19,29\}$, $\overline A\cap \overline B=\{3,7\}$, 求$A$, $B$.
 <E题目>
 <B目标>
-
+K0104002B
+K0104004B
+K0104007B
 <E目标>
 <B标签>
 第一单元

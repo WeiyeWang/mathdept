@@ -9625,7 +9625,8 @@ $f$是集合$X=\{a,b,c\}$到集合$Y=\{d,e\}$的一个映射, 则满足映射条
 幂函数$y=x^p$与$y=x^q$的图像都通过定点\blank{50}, 它们在第一象限部分关于直线$y=x$对称, 则$p,q$应满足的条件是\blank{50}.
 <E题目>
 <B目标>
-
+K0207004B
+K0208003B
 <E目标>
 <B标签>
 第二单元
@@ -9673,7 +9674,7 @@ $f$是集合$X=\{a,b,c\}$到集合$Y=\{d,e\}$的一个映射, 则满足映射条
 若实数$a$满足$2.4^a>2.5^a$, 求$a$的取值范围.
 <E题目>
 <B目标>
-
+K0208004B
 <E目标>
 <B标签>
 第二单元
@@ -14880,7 +14881,8 @@ $(-2)^3<(\dfrac 23)^{\frac 12}<(\dfrac 35)^{\frac 12}<(\dfrac 53)^{-\frac 13}<(\
 \fourch{$1$个}{$2$个}{$3$个}{$4$个}
 <E题目>
 <B目标>
-
+K0208004B
+K0210006B
 <E目标>
 <B标签>
 第二单元
@@ -14953,7 +14955,8 @@ $(-2)^3<(\dfrac 23)^{\frac 12}<(\dfrac 35)^{\frac 12}<(\dfrac 53)^{-\frac 13}<(\
 \end{tikzpicture}}
 <E题目>
 <B目标>
-
+K0209003B
+K0210005B
 <E目标>
 <B标签>
 第二单元
@@ -16081,7 +16084,7 @@ $(-2)^3<(\dfrac 23)^{\frac 12}<(\dfrac 35)^{\frac 12}<(\dfrac 53)^{-\frac 13}<(\
 若$0.9<a<1$, 则$a$, $a^a$, $a^{a^a}$从小到大的排列顺序是\blank{50}.
 <E题目>
 <B目标>
-
+K0210006B
 <E目标>
 <B标签>
 第二单元
@@ -16987,7 +16990,7 @@ $\dfrac 2a=\log_63$, $\dfrac 1b=\log_62$, 于是$\dfrac 2a+\dfrac 1b=\log_63+\lo
 已知$x=a^{\frac 1{1-\log_ay}}$, $y=a^{\frac 1{1-\log_az}}$求证: $z=a^{\frac 1{1-\log_ax}}$.
 <E题目>
 <B目标>
-
+K0204004B
 <E目标>
 <B标签>
 第二单元
@@ -17528,7 +17531,7 @@ $\log_ab\cdot \log_3a=5$, 则$b=$\bracket{20}.
 \fourch{$y^x=x^{\frac 1y}$}{$y^{\frac 1x}=x^y$}{$y^x=x^y$}{$x^x=y^y$}
 <E题目>
 <B目标>
-
+K0203005B
 <E目标>
 <B标签>
 第二单元
@@ -18921,7 +18924,8 @@ $\log_ab\cdot \log_3a=5$, 则$b=$\bracket{20}.
 已知不相等的两个正数$a,b$满足$a^{\lg ax}=b^{\lg bx}$, 求$(ab)^{\lg abx}$的值.
 <E题目>
 <B目标>
-
+K0204004B
+K0206002B
 <E目标>
 <B标签>
 第二单元
@@ -20273,7 +20277,7 @@ $\dfrac 1{\log_{\frac 12}\dfrac 13}+\dfrac 1{\log_{\frac 15}\dfrac 13}$的值所
 已知$a^2+b^2=c^2$, 求证$\log_{(c+b)}a+\log_{(c-b)}a=2\log_{(c+b)}a\cdot \log_{(c-b)}a$.
 <E题目>
 <B目标>
-
+K0206002B
 <E目标>
 <B标签>
 第二单元
@@ -22504,7 +22508,8 @@ $\dfrac 1{\log_{\frac 12}\dfrac 13}+\dfrac 1{\log_{\frac 15}\dfrac 13}$的值所
 \fourch{$f(\dfrac 13)>f(2)>f(\dfrac 14)$}{$f(\dfrac 14)>f(\dfrac 13)>f(2)$}{$f(2)>f(\dfrac 13)>f(\dfrac 14)$}{$f(\dfrac 14)>f(2)>f(\dfrac 13)$}
 <E题目>
 <B目标>
-
+K0213001B
+K0214002B
 <E目标>
 <B标签>
 第二单元
@@ -22651,7 +22656,7 @@ $\dfrac 1{\log_{\frac 12}\dfrac 13}+\dfrac 1{\log_{\frac 15}\dfrac 13}$的值所
 \fourch{$r<q<p<s$}{$r<p<q<s$}{$r<p<s<q$}{$r<q<s<p$}
 <E题目>
 <B目标>
-
+K0214002B
 <E目标>
 <B标签>
 第二单元
@@ -22700,7 +22705,7 @@ $\dfrac 1{\log_{\frac 12}\dfrac 13}+\dfrac 1{\log_{\frac 15}\dfrac 13}$的值所
 \fourch{$1<b<a$}{$1<a<b$}{$0<a<b<1$}{$0<b<a<1$}
 <E题目>
 <B目标>
-
+K0214002B
 <E目标>
 <B标签>
 第二单元
