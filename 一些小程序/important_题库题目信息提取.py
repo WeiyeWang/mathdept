@@ -335,3 +335,31 @@ def setup_dict(string):
     dict["remark"] = get_remark(string) #获得备注, 格式string
     dict["space"] = get_space(string) #获得答题空间, 格式string
     return(dict)
+
+def create_string_from_dict(dict):
+    head = "[B题目]"
+    delimeters_dict = {"id":"ID", "content":"题目", "objs":"目标", "tags":"标签", "genre":"类型", "ans":"答案", "solution":"解答或提示", "duration":"预计耗时", "usages":"使用记录", "origin":"出处", "edit":"修订历史", "same":"相同题目", "related":"关联题目", "remark":"备注", "space":"解答空间"}
+    tail = "[E题目]"
+    string = ""
+    string += head + "\n"
+    for item in delimeters_dict:
+        string += "<B"+delimeters_dict[item]+">\n"
+        if type(dict[item]) == str:
+            if len(dict[item])>0:
+                string += dict[item] + "\n"
+            else:
+                string += "\n"
+        elif type(dict[item]) == float or type(dict[item]) == int:
+            if dict[item] >= 0:
+                string += "%.2f" %dict[item] + "\n"
+            else:
+                string += "\n"
+        elif type(dict[item]) == list:
+            if item == "标签":
+                string += "|".join(dict[item]) + "\n"
+            else:
+                string += "\n".join(dict[item]) + "\n"
+        string += "<E"+delimeters_dict[item]+">"
+        string += "\n"
+    string += tail + "\n"
+    return(string)
