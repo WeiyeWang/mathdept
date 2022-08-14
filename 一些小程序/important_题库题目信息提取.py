@@ -316,3 +316,22 @@ def get_space(string):
             print("数据结构有误.")
     else:
         return(trim(space_list[0]))
+
+def setup_dict(string):
+    dict = {}
+    dict["id"] = get_id(string) #获得id, 格式string
+    dict["content"] = get_content(string) #获得题目内容, 格式string
+    dict["objs"] = get_objectives_list(string) #获得关联目标, 格式list, 回车分隔
+    dict["tags"] = get_tags_list(string) #获得标签, 格式list, |分隔
+    dict["genre"] = get_genre(string) #获得题目类型, 格式string
+    dict["ans"] = get_answer(string) #获得答案, 格式string
+    dict["solution"] = get_solution(string) #获得详细解答, 格式string
+    dict["duration"] = get_duration(string) #获得预计耗时, 格式float, 保留两位小数, -1表示空缺
+    dict["usages"] = get_usages_list(string) #获得使用记录, 格式list, 回车分隔
+    dict["origin"] = get_origin(string) #获得出处, 格式string
+    dict["edit"] = get_edit_history_list(string) #获得修订历史, 格式list, 回车分隔
+    dict["same"] = get_same_problems_list(string) #获得相同题目列表, 格式list, 回车分隔
+    dict["related"] = get_related_problems_list(string) #获得关联题目列表, 格式list, 回车分隔
+    dict["remark"] = get_remark(string) #获得备注, 格式string
+    dict["space"] = get_space(string) #获得答题空间, 格式string
+    return(dict)
