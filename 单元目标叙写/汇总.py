@@ -58,14 +58,15 @@ for v in vault_list:
             p_id = trim(re.findall(r"<BID>([\s\S]*?)<EID>",problem)[0])
             p_objs = [obj for obj in trim(re.findall(r"<B目标>([\s\S]*?)<E目标>",problem)[0]).split("\n") if len(obj)>0]
             for p_obj in p_objs:
-                objects_id[p_obj][1] += 1
-                objects_id[p_obj][2] += p_id+", "
-                if not p_id in lessons_id[p_obj[:5]][2]:
-                    lessons_id[p_obj[:5]][1] += 1
-                    lessons_id[p_obj[:5]][2] += p_id+", "
-                if not p_id in units_id[p_obj[:3]][2]:
-                    units_id[p_obj[:3]][1] += 1
-                    units_id[p_obj[:3]][2] += p_id+", "
+                if len(p_obj)>5:
+                    objects_id[p_obj][1] += 1
+                    objects_id[p_obj][2] += p_id+", "
+                    if not p_id in lessons_id[p_obj[:5]][2]:
+                        lessons_id[p_obj[:5]][1] += 1
+                        lessons_id[p_obj[:5]][2] += p_id+", "
+                    if not p_id in units_id[p_obj[:3]][2]:
+                        units_id[p_obj[:3]][1] += 1
+                        units_id[p_obj[:3]][2] += p_id+", "
 
 output_string = ""
 for l in lessons:

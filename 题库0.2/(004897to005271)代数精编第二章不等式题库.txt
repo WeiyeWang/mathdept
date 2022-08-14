@@ -250,7 +250,7 @@
 \fourch{$a>b>c$}{$b>a>c$}{$b>c>a$}{$c>b>a$}
 <E题目>
 <B目标>
-K0213009B
+K0213008B
 <E目标>
 <B标签>
 第一单元|第二单元
@@ -494,7 +494,7 @@ K0213009B
 \fourch{${x^{-a}}>{y^{-a}}$}{$(\sin a)^x>(\sin a)^y$}{$\log_{\frac 1a}x<\log_{\frac 1a}y$}{$1+a^{x+y}>a^x+a^y$}
 <E题目>
 <B目标>
-K0213009B
+K0213008B
 <E目标>
 <B标签>
 第一单元|第二单元|第三单元
@@ -17052,7 +17052,7 @@ K0120003B
 005249
 <EID>
 <B题目>
-$\triangle ABC$三内角$A,B,C$对边长分别为$a,b,c$. 求证: $a^2+b^2+c^2\ge 2ab\cos C+2b\cos A+2ca\cos B$.
+$\triangle ABC$三内角$A,B,C$对边长分别为$a,b,c$. 求证: $a^2+b^2+c^2\ge 2ab\cos C+2bc\cos A+2ca\cos B$.
 <E题目>
 <B目标>
 
@@ -17080,6 +17080,7 @@ $\triangle ABC$三内角$A,B,C$对边长分别为$a,b,c$. 求证: $a^2+b^2+c^2\g
 <E出处>
 <B修订历史>
 20220720	王伟叶
+20220814 王伟叶
 <E修订历史>
 <B相同题目>
 
