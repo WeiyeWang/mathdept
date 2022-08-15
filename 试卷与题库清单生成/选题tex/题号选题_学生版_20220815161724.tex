@@ -1,0 +1,109 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[UTF8,fontset = windows]{ctex}
+\setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{华文中宋}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
+\usepackage{ifthen,indentfirst,enumerate,color,titletoc}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{longtable}
+\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing,3d,angles,quotes,positioning}
+\usepackage[bf,small,indentafter,pagestyles]{titlesec}
+\usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
+\renewcommand{\baselinestretch}{1.65}
+\newtheorem{defi}{定义~}
+\newtheorem{eg}{例~}
+\newtheorem{ex}{~}
+\newtheorem{rem}{注~}
+\newtheorem{thm}{定理~}
+\newtheorem{coro}{推论~}
+\newtheorem{axiom}{公理~}
+\newtheorem{prop}{性质~}
+\newcommand{\blank}[1]{\underline{\hbox to #1pt{}}}
+\newcommand{\bracket}[1]{(\hbox to #1pt{})}
+\newcommand{\onech}[4]{\par\begin{tabular}{p{.9\textwidth}}
+A.~#1\\
+B.~#2\\
+C.~#3\\
+D.~#4
+\end{tabular}}
+\newcommand{\twoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+A.~#1& B.~#2\\
+C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\vartwoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+(1)~#1& (2)~#2\\
+(3)~#3& (4)~#4
+\end{tabular}}
+\newcommand{\fourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+A.~#1 &B.~#2& C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\varfourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+(1)~#1 &(2)~#2& (3)~#3& (4)~#4
+\end{tabular}}
+\begin{document}
+
+\begin{enumerate}[1.]
+
+\item {\tiny (001049)}解关于$x$的方程: $ax-1=x+ab$.
+\item {\tiny (003777)}若存在实数$a$, 使得关于$x$的不等式$ax+b>x+1$的解集为$\{x|x<1\}$, 则实数$b$的取值范围为\blank{50}.
+\item {\tiny (001069)}若关于$x$的方程$x^2-mx+2m-2=0$的两实根的平方和为$1$, 则实数$m=$\blank{50}.
+\item {\tiny (002741)}已知关于$x$的实系数二次方程$a x^2 +bx+c=0\ (a>0)$, 分别求下列命题的一个充要条件:\\
+(1) 方程有一正根, 一根是零;\\
+(2) 两根都比$2$小.
+\item {\tiny (000020)}设一元二次方程$2x^2-6x-3=0$的两个实根为$x_1,x_2$, 求下列各式的值:\\
+(1) $(x_1+1)(x_2+1)$;\\
+(2) $(x_1^2-1)(x_2^2-1)$.
+\item {\tiny (001074)}设$\alpha,\beta$是方程$2x^2+x-7=0$的两根, 试以$\dfrac{1}{\alpha^2-1},\dfrac{1}{\beta^2-1}$为根作一个新的二次方程.
+\item {\tiny (000035)}设$a,b\in \mathbf{R}$, 已知关于$x$的不等式$(a+b)x+(b-2a)<0$的解集为$(1, +\infty)$, 求不等式$(a-b)x+3b-a>0$的解集.
+\item {\tiny (002792)}不等式$(x-1)^2(2-x)(x+1)\le 0$的解集是\blank{50}.
+\item {\tiny (004928)}直接写出下列不等式的解集:\\
+(1) $(x-1)^2>0$:\blank{50};\\
+(2) $(2-x)(3x+1)>0$:\blank{50};\\
+(3) $1-3x^2>2x$:\blank{50};\\
+(4) $1-2x-x^2\ge 0$:\blank{50};\\
+(5) $x+\sqrt x-6<0$:\blank{50}.
+\item {\tiny (002785)}若关于$x$的不等式$(a^2-4)x^2+(a+2)x-1\ge 0$的解集为$\varnothing$, 求实数$a$的取值范围.
+\item {\tiny (002772)}已知关于$x$的不等式$x^2+ax+b<0$的解集为$(-1,2)$, 则$a+b=$\blank{50}.
+\item {\tiny (002778)}已知关于$x$的不等式$ax^2+bx+c>0$的解集为$\{x|2<x<4\}$, 求关于$x$的不等式$cx^2+bx+a<0$的解集.
+\item {\tiny (002807)}已知关于$x$的不等式$\dfrac{ax-5}{x^2-a}<0$的解集为$M$.\\
+(1) 当$a=5$时, 求集合$M$;\\
+(2) 若$2\in M$且$5\notin M$, 求实数$a$的取值范围.
+\item {\tiny (004409)}不等式$\dfrac 1x\le 3$的解集是\blank{50}.
+\item {\tiny (004929)}直接写出下列不等式的解集:\\
+(1) $\dfrac{3x+4}{x-2}\ge 0$:\blank{50};\\
+(2) $\dfrac{4-2x}{1+3x}>0$:\blank{50};\\
+(3) $\dfrac 1x>x$:\blank{50};\\	
+(4) $x^2-2|x|-3>0$:\blank{50};\\
+(5) $x^2-x-5>|2x-1|$:\blank{50}.
+\item {\tiny (000540)}不等式$\dfrac1{|x-1|}\ge 1 $的解集为\blank{50}.
+\item {\tiny (001117)}已知关于$x$的不等式$|ax+1|\leq b$的解集为$[2,3]$, 求实常数$a,b$的值.
+\item {\tiny (002794)}不等式$|x-2|>9x$的解集是\blank{50}.
+\item {\tiny (002798)}(1) 关于$x$的不等式$|x-1|-|x-2|<a^2+a-1$的解集是$\mathbf{R}$, 求实数$a$取值范围;\\
+(2) 关于$x$的不等式$|x-1|-|x-2|<a^2+a-1$有实数解, 求实数$a$的取值范围.
+
+
+\item {\tiny (001050)}解关于$x$的方程: $m^2(x-1)+m(x+3)=6x+2$.
+\item {\tiny (009446)}设$k\in \mathbf{R}$, 求关于$x$与$y$的二元一次方程组$\begin{cases}y=kx+1, \\ y=2kx+3 \end{cases}$的解集.
+\item {\tiny (001072)}关于$x$的方程$x^2+px+q=0$的两个实根之比为$1:2$, 判别式的值为$1$, 求实数$p,q$.
+\item {\tiny (010060)}对一元二次方程$ax^2+bx+c=0$($a\ne 0$), 证明: $ac<0$是该方程有两个异号实根的充要条件.
+\item {\tiny (000033)}已知一元二次方程$x^2+px+p=0$的两个实根分别为$\alpha$、$\beta$, 且$\alpha^2$+$\beta^2=3$, 求实数$p$的值.
+\item {\tiny (001073)}已知$\alpha,\beta$是关于$x$的二次方程$x^2+(p-2)x+1=0$的两根. 试求$(1+p\alpha+\alpha^2)(1+p\beta+\beta^2)$的值.
+\item {\tiny (000023)}若关于$x$的不等式$(a+1)x-a<0$的解集为$(2,+\infty)$, 求实数$a$的值, 并求不等式$(a-1)x+3-a>0$的解集.
+\item {\tiny (002773)}不等式$-1<x^2+2x-1\le 2$的解集是\blank{50}.
+\item {\tiny (007991)}已知关于$x$的不等式$ax^2+3ax-2<0$的解集为$\mathbf{R}$, 求实数$a$的取值范围.
+\item {\tiny (002775)}已知关于$x$的不等式$ax^2-bx+c>0$的解集是$(-\dfrac 12,2)$, 对于$a,b,c$有以下结论: \textcircled{1} $a>0$; \textcircled{2} $b>0$; \textcircled{3} $c>0$; \textcircled{4} $a+b+c>0$; \textcircled{5} $a-b+c>0$. 其中正确的序号有\blank{50}.
+\item {\tiny (002784)}若关于$x$的不等式$ax^2+bx+c>0$的解集为$(-1,2)$, 求关于$x$的不等式$a(x^2+1)+b(x-1)+c>2ax$的解集.
+\item {\tiny (005150)}若$q<0<p$, 则不等式$q<\dfrac 1x<p$的解集为\bracket{20}.
+\twoch{$\{x|\dfrac 1q<x<\dfrac 1p,\  x\ne 0\}$}{$\{x|x<\dfrac 1q\text{或}x>\dfrac 1p\}$}{$\{x|-\dfrac 1p<x<-\dfrac 1q, \ x\ne 0\}$}{$\{x|\dfrac 1p<x<-\dfrac 1q\}$}
+\item {\tiny (002790)}不等式$\dfrac{3x+4}{5-x}\ge 6$的解集是\blank{50}.
+\item {\tiny (002791)}若不等式$\dfrac{2x+a}{x+b}\le 1$的解集为$\{x|1<x\le 3\}$, 则$a+b$的值是\blank{50}.
+\item {\tiny (000757)}不等式$|1-x|>1$的解集是\blank{50}.
+\item {\tiny (002793)}不等式$2<|x+1|<3$的解集是\blank{50}.
+\item {\tiny (000389)}不等式$x|x-1|>0$的解集为\blank{50}.
+\item {\tiny (002800)}不等式$|\dfrac x{1+x}|>\dfrac x{1+x}$的解集是\blank{50}.
+\end{enumerate}
+
+
+
+\end{document}

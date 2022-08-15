@@ -204,3 +204,64 @@
 <E解答空间>
 [E题目]
 
+[B题目]
+<BID>
+030005
+<EID>
+<B题目>
+若$M,P$都是全集$U$的子集, 则图中阴影部分可以表示为\bracket{20}
+\fourch{$M\cup P$}{$\complement_U(M\cap P)$}{$\complement_UM\cup \complement_UP$}{$\complement_U(M\cup P)$}
+\begin{center}
+    \begin{tikzpicture}[scale = 0.6]
+        \filldraw [gray!30] (-3,-2) rectangle (5,2);
+        \filldraw [white] (-2.5,1.5) circle (0.3);
+        \draw (-2.5,1.5) node {$U$};
+        \filldraw [white] (0,0) circle (1.5);
+        \filldraw [white] (2,0) circle (1.5);
+        \draw (0,0) circle (1.5) node {$M$} (2,0) circle (1.5) node {$P$};
+        \draw (-3,-2) rectangle (5,2);
+    \end{tikzpicture}
+\end{center}
+<E题目>
+<B目标>
+K0104002B
+K0104004B
+K0104007B
+<E目标>
+<B标签>
+第一单元
+<E标签>
+<B类型>
+选择题
+<E类型>
+<B答案>
+D
+<E答案>
+<B解答或提示>
+
+<E解答或提示>
+<B预计耗时>
+
+<E预计耗时>
+<B使用记录>
+
+<E使用记录>
+<B出处>
+代数精编第一章集合与命题
+<E出处>
+<B修订历史>
+20220815 徐慧
+<E修订历史>
+<B相同题目>
+
+<E相同题目>
+<B关联题目>
+
+<E关联题目>
+<B备注>
+
+<E备注>
+<B解答空间>
+
+<E解答空间>
+[E题目]

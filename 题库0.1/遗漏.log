@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  11 AUG 2022 22:57
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  15 AUG 2022 20:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -880,30 +880,20 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 49.
  (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 65--67
-[][]
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 69--71
-[][]
- []
-
-
-Overfull \hbox (22.22168pt too wide) in paragraph at lines 73--75
-[][]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 50--51
+[][] 
  []
 
 [1
 
 ] (./遗漏.aux) ) 
 Here is how much of TeX's memory you used:
- 21409 strings out of 476919
- 487950 string characters out of 5825424
- 818392 words of memory out of 5000000
- 40964 multiletter control sequences out of 15000+600000
- 405792 words of font info for 59 fonts, out of 8000000 for 9000
+ 21443 strings out of 476919
+ 488477 string characters out of 5825424
+ 806392 words of memory out of 5000000
+ 41002 multiletter control sequences out of 15000+600000
+ 405768 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,16n,104p,409b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,9n,104p,409b,716s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on 遗漏.pdf (1 page).

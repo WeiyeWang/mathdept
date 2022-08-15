@@ -56,7 +56,7 @@ for filename in vault_files:
 #读入全部题库数据
 
 # 重要!!! 新题目的范围
-id_new_problems = "30001:30004"
+id_new_problems = "30005"
 sim_test = jaro_get_equal_rate
 threshold = 0.85
 

@@ -2925,7 +2925,7 @@ K0101001B
 004826
 <EID>
 <B题目>
-已知$a<0<b<|a|$, 且集合$A=\{x|a<x\le b, \ x\in \mathbf{R}\}$, 则$A\cap B=$\blank{50}, $A\cup B=$\blank{50}.
+已知$a<0<b<|a|$, 且集合$A=\{x|a<x\le b, \ x\in \mathbf{R}\}$, $B=\{x|-b<x\le -a, \ x\in \mathbf{R}\}$, 则$A\cap B=$\blank{50}, $A\cup B=$\blank{50}.
 <E题目>
 <B目标>
 
@@ -3408,20 +3408,7 @@ K0101001B
 004836
 <EID>
 <B题目>
-若全集$A=\{x|x=-t^2,t\in \mathbf{R}\}$, $B=\{x|x=3+|t|, \ t\in \mathbf{R}\}$, 全集$U=\mathbf{R}$, 则$A\cap B=$\blank{50}, $A\cup B=$\blank{50}, $\complement_U(A\cup B)=$\blank{50}.
-60.若$M,P$都是全集$U$的子集, 则图中阴影部分可以表示为\bracket{20}
-\fourch{$M\cup P$}{$\complement_U(M\cap P)$}{$\complement_UM\cup \complement_UP$}{$\complement_U(M\cup P)$}
-\begin{center}
-    \begin{tikzpicture}[scale = 0.6]
-        \filldraw [gray!30] (-3,-2) rectangle (5,2);
-        \filldraw [white] (-2.5,1.5) circle (0.3);
-        \draw (-2.5,1.5) node {$U$};
-        \filldraw [white] (0,0) circle (1.5);
-        \filldraw [white] (2,0) circle (1.5);
-        \draw (0,0) circle (1.5) node {$M$} (2,0) circle (1.5) node {$P$};
-        \draw (-3,-2) rectangle (5,2);
-    \end{tikzpicture}
-\end{center}
+若全集$A=\{x|x=-t^2, \ t\in \mathbf{R}\}$, $B=\{x|x=3+|t|, \ t\in \mathbf{R}\}$, 全集$U=\mathbf{R}$, 则$A\cap B=$\blank{50}, $A\cup B=$\blank{50}, $\complement_U(A\cup B)=$\blank{50}.
 <E题目>
 <B目标>
 

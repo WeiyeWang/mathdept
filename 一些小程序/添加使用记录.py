@@ -1,10 +1,6 @@
 import os,re
-def trim(string):
-    while string[0] in [" ","\n","\t"]:
-        string = string[1:]
-    while string[-1] in [" ","\n","\t"]:
-        string = string[:-1]
-    return string
+import vaulttools as vt
+
 def form_decimals(string):
     numerals_list = [n for n in string.split("\t") if len(n)>0]
     for i in range(len(numerals_list)):
@@ -27,13 +23,13 @@ for results_each_class in results_each_class_list:
     result_line_list = []
     for line in temp_list:
         if line[:2] == "##":
-            date = trim(line[2:])
+            date = vt.trim(line[2:])
         elif line[:2] == "**":
-            current_class = trim(line[2:])
+            current_class = vt.trim(line[2:])
         else:
             if len(line)>0:
                 separating_pos = re.search("\s",line).span(0)[0]
-                result_line_list.append(trim(line[:separating_pos])+":"+form_decimals(trim(re.sub("\s+?","\t",line[separating_pos:]))))
+                result_line_list.append(vt.trim(line[:separating_pos])+":"+form_decimals(vt.trim(re.sub("\s+?","\t",line[separating_pos:]))))
     for r in result_line_list:
         records.append(r.split(":")[0].zfill(6) + ";" + date + "\t" + current_class + "\t" + r.split(":")[1])
 #根据结果记录生成records记录每一条结果，格式为题目ID;日期\t班级\t正确率
