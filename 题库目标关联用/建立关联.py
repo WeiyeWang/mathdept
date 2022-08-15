@@ -30,8 +30,7 @@ obj_list = [trim(t) for t in re.findall(r"<目标编码>([\s\S]*?)<目标内容>
 
 legal = True
 for line in lines:
-    id = line.pop(0)
-    for t in line:
+    for t in line[1:]:
         if not (t in obj_list) and not (t.upper() == "KNONE"):
             legal = False
             print(t,"有问题.")

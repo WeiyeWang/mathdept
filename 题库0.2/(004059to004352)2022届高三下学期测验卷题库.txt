@@ -6,7 +6,7 @@
 已知集合$A=\{-2,1,2\}$, $B=\{\sqrt a+1,a\}$, 且$B\subseteq A$, 则实数$a$的值是\blank{50}.
 <E题目>
 <B目标>
-
+K0103001B
 <E目标>
 <B标签>
 第一单元
@@ -1095,7 +1095,8 @@ $n\in \mathbf{N}^*$, $n\ge 2$, 数列$\{b_n\}$满足$b_n=a_n+a_{n+1}$, $n\in \ma
 集合$A=\{1,2,3,4\}$, $B=\{x|(x-1)(x-5)<0\}$, 则$A\cap B=$\blank{50}.
 <E题目>
 <B目标>
-
+K0104001B
+K0113001B
 <E目标>
 <B标签>
 第一单元
@@ -1686,7 +1687,8 @@ $[x]$是不超过$x$的最大整数, 则方程$(2^x)^2-\dfrac 74\cdot [2^x]-\dfr
 \twoch{充分不必要条件}{必要不充分条件}{充要条件}{既不充分也不必要条件}
 <E题目>
 <B目标>
-
+K0106003B
+K0612001B
 <E目标>
 <B标签>
 第一单元|第六单元
@@ -2766,7 +2768,8 @@ $P$是平面$ACC_1A_1$上一动点, 且满足$\overrightarrow{DP}\cdot \overrigh
 \twoch{充分不必要条件}{必要不充分条件}{充要条件}{既不充分也不必要条件}
 <E题目>
 <B目标>
-
+K0106003B
+K0512003B
 <E目标>
 <B标签>
 第一单元|第五单元
@@ -2864,7 +2867,9 @@ $P$是平面$ACC_1A_1$上一动点, 且满足$\overrightarrow{DP}\cdot \overrigh
 \fourch{$4a^2+b^2\le 4$}{$4a^2+b^2\ge 4$}{$\dfrac 4{a^2}+\dfrac 1{b^2}\le 4$}{$\dfrac 4{a^2}+\dfrac 1{b^2}\ge 4$}
 <E题目>
 <B目标>
-
+K0111002B
+K0305001B
+K0702005X
 <E目标>
 <B标签>
 第一单元|第三单元|第七单元
@@ -3281,7 +3286,7 @@ $P$是平面$ACC_1A_1$上一动点, 且满足$\overrightarrow{DP}\cdot \overrigh
 设集合$A=\{1,2,3\}$, $B=\{y|y=\sin x, \ x\in \mathbf{R}\}$, 则$A\cap B=$\blank{50}.
 <E题目>
 <B目标>
-
+K0104001B
 <E目标>
 <B标签>
 第一单元
@@ -3378,7 +3383,8 @@ $P$是平面$ACC_1A_1$上一动点, 且满足$\overrightarrow{DP}\cdot \overrigh
 关于$x$的不等式$\dfrac{1}{x}>1$的解集为\blank{50}.
 <E题目>
 <B目标>
-
+K0116001B
+K0116002B
 <E目标>
 <B标签>
 第一单元
@@ -3909,7 +3915,7 @@ $P$是平面$ACC_1A_1$上一动点, 且满足$\overrightarrow{DP}\cdot \overrigh
 \twoch{$a\perp c$, $b\perp c$}{$a\parallel \alpha$, $b\parallel \alpha$}{$a\parallel \alpha$, $a\parallel \beta$, $\alpha\cap \beta = b$}{$b\perp \alpha$, $c\parallel \alpha$, $a\perp c$}
 <E题目>
 <B目标>
-
+K0106003B
 <E目标>
 <B标签>
 第一单元|第六单元

@@ -27135,7 +27135,8 @@ $\begin{cases} kx>0, \\ x+1>0, \\ (x+1)^2=kx, \end{cases}$即$\begin{cases} x>-1
 已知$A=\{0,1\}$, $B=\{x|x\subseteq A\}$, 问: $A$与$B$是什么关系, 并用列举法写出$B$.
 <E题目>
 <B目标>
-
+K0103001B
+K0102001B
 <E目标>
 <B标签>
 第一单元
@@ -27569,7 +27570,8 @@ $\begin{cases} kx>0, \\ x+1>0, \\ (x+1)^2=kx, \end{cases}$即$\begin{cases} x>-1
 已知集合$A=\{(x,y)|\dfrac{y-3}{x-2}=a+1\}$, $B=\{(x,y)|(a^2-1)x+(a-1)y=15\}$满足$A\cap B=\varnothing$, 求实数$a$的值.
 <E题目>
 <B目标>
-
+K0104001B
+K0101002B
 <E目标>
 <B标签>
 第一单元
@@ -27617,7 +27619,7 @@ $\begin{cases} kx>0, \\ x+1>0, \\ (x+1)^2=kx, \end{cases}$即$\begin{cases} x>-1
 已知集合$A=\{x|x^2-(a+1)^2x+2a^3+2a\le 0,x\in \mathbf{R}\}$, $B=\{x|x^2-3(a+1)x+6a+2\le 0,x\in \mathbf{R}\}$满足$A\subseteq B$, 求实数$a$的取值范围.
 <E题目>
 <B目标>
-
+K0103001B
 <E目标>
 <B标签>
 第一单元
@@ -28203,7 +28205,8 @@ $\begin{cases} kx>0, \\ x+1>0, \\ (x+1)^2=kx, \end{cases}$即$\begin{cases} x>-1
 已知集合$A=\{x|x^2-5x+4\le 0\}$, $B=\{x|x^2-2ax+a+2\le 0\}$满足$A\supseteq B\ne \varnothing$, 求实数$a$的取值范围.
 <E题目>
 <B目标>
-
+K0101002B
+K0103001B
 <E目标>
 <B标签>
 第一单元
