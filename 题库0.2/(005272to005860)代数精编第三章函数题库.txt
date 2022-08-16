@@ -14933,25 +14933,25 @@ K0210006B
 <EID>
 <B题目>
 在同一平面直角坐标系中, 函数$f(x)=ax$与$g(x)=a^x$的图像可能是\bracket{20}.
-\fourch{\begin{tikzpicture}[scale = 0.2, >=latex]
+\fourch{\begin{tikzpicture}[scale = 0.15, >=latex]
     \draw [->] (-8,0) -- (8,0) node [below] {$x$};
     \draw [->] (0,-4) -- (0,12) node [left] {$y$};
     \draw (0,0) node [below left] {$O$};
     \draw [domain = -6:2, samples = 100] plot (\x,{-1.5*\x});
     \draw [domain = -6:6, samples = 100] plot (\x,{1.5^\x});
-\end{tikzpicture}}{\begin{tikzpicture}[scale = 0.2, >=latex]
+\end{tikzpicture}}{\begin{tikzpicture}[scale = 0.15, >=latex]
     \draw [->] (-8,0) -- (8,0) node [below] {$x$};
     \draw [->] (0,-4) -- (0,12) node [left] {$y$};
     \draw (0,0) node [below left] {$O$};
     \draw [domain = -2:6, samples = 100] plot (\x,{1.5*\x});
     \draw [domain = -6:6, samples = 100] plot (-\x,{1.5^\x});
-\end{tikzpicture}}{\begin{tikzpicture}[scale = 0.2, >=latex]
+\end{tikzpicture}}{\begin{tikzpicture}[scale = 0.15, >=latex]
     \draw [->] (-8,0) -- (8,0) node [below] {$x$};
     \draw [->] (0,-4) -- (0,12) node [left] {$y$};
     \draw (0,0) node [below left] {$O$};
     \draw [domain = -2:6, samples = 100] plot (\x,{1.5*\x});
     \draw [domain = -6:6, samples = 100] plot (\x,{1.5^\x});
-\end{tikzpicture}}{\begin{tikzpicture}[scale = 0.2, >=latex]
+\end{tikzpicture}}{\begin{tikzpicture}[scale = 0.15, >=latex]
     \draw [->] (-8,0) -- (8,0) node [below] {$x$};
     \draw [->] (0,-4) -- (0,12) node [left] {$y$};
     \draw (0,0) node [below left] {$O$};

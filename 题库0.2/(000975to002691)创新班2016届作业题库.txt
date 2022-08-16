@@ -5643,7 +5643,7 @@ KNONE
 001085
 <EID>
 <B题目>
-判断题: (如果正确请在题目前面的横线上写``T'', 错误请在题目前面的横线上写``F'')\\ 
+判断题: (如果正确请在题目前面的横线上写``\checkmark'', 错误请在题目前面的横线上写``$\times$'')\\ 
 \blank{30}(1) 若$a>b$, $c=d$, 则$ac>bd$;\\ 
 \blank{30}(2) 若$\dfrac{a}{c^2}<\dfrac{b}{c^2}$, 则$a<b$;\\ 
 \blank{30}(3) 若$ac<bc$, 则$a<b$;\\ 
@@ -5703,7 +5703,7 @@ K0111003B
 001086
 <EID>
 <B题目>
-设$\{a,b,m,n\}\subseteq\mathbf{R}^+$且$a>b$, 将$\dfrac{a}{b},\dfrac{b}{a},\dfrac{a+m}{b+m},\dfrac{b+n}{a+n}$按由大到小的次序排列:\\
+设$\{a,b,m,n\}\subseteq (0,+\infty)$且$a>b$, 将$\dfrac{a}{b},\dfrac{b}{a},\dfrac{a+m}{b+m},\dfrac{b+n}{a+n}$按由大到小的次序排列:\\
 \blank{40}$>$\blank{40}$>$\blank{40}$>$\blank{40}.
 <E题目>
 <B目标>
@@ -7426,7 +7426,7 @@ K0117002B
 001120
 <EID>
 <B题目>
-判断以下各不等式是否成立. 如果成立在前面的横线上写``T'', 如果不成立在前面的横线上写``F''.\\ 
+判断以下各不等式是否成立. 如果成立在前面的横线上写``\checkmark'', 如果不成立在前面的横线上写``$\times$''.w\\ 
 \blank{30}(1) 当$x<0$时, $x+\dfrac{1}{x}\le -2$;\\ 
 \blank{30}(2) 当$x>0$时, $x+\dfrac{1}{x}\ge 2$;\\ 
 \blank{30}(3) 当$x>0$时, $x^2+\dfrac{1}{x}\ge 2\sqrt{x}$;\\ 
@@ -7436,8 +7436,8 @@ K0117002B
 \blank{30}(7) 当$a,b\in \mathbf{R}$时, $a^2+b^2+4\ge ab+2a+2b$;\\ 
 \blank{30}(8) 当$a,b\in \mathbf{R}$时, $a^3+b^3\ge 2a^2b$;\\ 
 \blank{30}(9) 当$a,b \in \mathbf{R}$时, $a^3+b^3\ge a^2b+ab^2$;\\ 
-\blank{30}(10) 当$a,b\in \mathbf{R}^+$时, $a^3+b^3\ge a^2b+ab^2$;\\ 
-\blank{30}(11) 当$x,y>0$时, $x^2+y^2\ge (x+y)^2$;
+\blank{30}(10) 当$a,b\in (0,+\infty)$时, $a^3+b^3\ge a^2b+ab^2$;\\ 
+\blank{30}(11) 当$x,y>0$时, $x^2+y^2\ge (x+y)^2$.
 <E题目>
 <B目标>
 K0118003B
@@ -7539,7 +7539,8 @@ K0118003B
 <EID>
 <B题目>
 在解不等式时, 有时我们可以用不等式的性质来求解. 例如解不等式$x^2+x+1\ge 0$, 我们可以利用不等式的基本性质, 得到$x^2+x+1=\left(x+\dfrac{1}{2}\right)^2+\dfrac{3}{4}\ge\dfrac{3}{4}>0$恒成立, 因此解集为$\mathbf{R}$. 请你用基本不等式的观点解以下两个不等式:\\ 
-(1) $x+\dfrac{1}{x}>1$; \hfill (2) $x+\dfrac{1}{x}>2$. \hfill
+(1) $x+\dfrac{1}{x}>1$;\\
+(2) $x+\dfrac{1}{x}>2$.
 <E题目>
 <B目标>
 K0111002B
@@ -7639,9 +7640,9 @@ K0118003B
 <EID>
 <B题目>
 设$a,b,c,d>0$.\\ 
-(1) 利用三元的基本不等式``$x,y,z>0$时, $x^3+y^3+z^3\ge 3xyz$'', 证明: $a^3+b^3+c^3+d^3\geq abc+bcd+cda+dab$;\\ 
+(1) 利用三元的平均值不等式``$x,y,z>0$时, $x^3+y^3+z^3\ge 3xyz$'', 证明: $a^3+b^3+c^3+d^3\geq abc+bcd+cda+dab$;\\ 
 (2) 该不等式能否加强为$a^3+b^3+c^3+d^3\ge k(abc+bcd+cda+dab)$, 其中$k=1.0001$? 为什么?\\ 
-(3) 利用三元的基本不等式``$x,y,z>0$时, $x^3+y^3+z^3\ge 3xyz$'', 证明: $a^3+b^3+c^3+d^3\geq \dfrac{3\sqrt[3]{2}}{2}(abc+bcd)$.
+(3) 利用三元的平均值不等式``$x,y,z>0$时, $x^3+y^3+z^3\ge 3xyz$'', 证明: $a^3+b^3+c^3+d^3\geq \dfrac{3\sqrt[3]{2}}{2}(abc+bcd)$.
 <E题目>
 <B目标>
 K0118003B
@@ -8136,7 +8137,7 @@ K0119001B
 001134
 <EID>
 <B题目>
-已知$x,y \in \mathbf{R}$, 用比较法证明: $x^2+y^2\ge 4(x+y)-8$.
+已知$x,y \in \mathbf{R}$, 证明: $x^2+y^2\ge 4(x+y)-8$.
 <E题目>
 <B目标>
 K0111003B
@@ -8386,7 +8387,7 @@ K0118002B
 001139
 <EID>
 <B题目>
-已知$x,y\in \mathbf{R}^+$且$x+y>2$, 用反证法证明: $\dfrac{1+y}{x}$与$\dfrac{1+x}{y}$中至少有一个小于$2$.
+已知$x,y$均为正数, 且$x+y>2$, 用反证法证明: $\dfrac{1+y}{x}$与$\dfrac{1+x}{y}$中至少有一个小于$2$.
 <E题目>
 <B目标>
 K0111003B
@@ -16223,7 +16224,7 @@ K0203005B
 001292
 <EID>
 <B题目>
-已知$a,b$是实数, 函数$f(x)=a\cdot b^x$, 且$f(4)=648$, $f(5)=1944$, 求$f(9/2)$.
+已知$a,b$是实数, 函数$f(x)=a\cdot b^x$, 且$f(4)=648$, $f(5)=1944$, 求$f(\dfrac 92)$.
 <E题目>
 <B目标>
 K0202002B
@@ -16866,18 +16867,12 @@ $2^{10000}$的常用对数的首数为\blank{80}, $2^{10000}$是\blank{80}位数
 001305
 <EID>
 <B题目>
-计算下列各式(要有必要的过程):
-\begin{multicols}{2}
+计算下列各式(要有必要的过程):\\
 (1) $\dfrac{1}{2}\log_{20}45-\log_{20}30$;\\ 
 (2) $\dfrac{\lg3+\dfrac{2}{5}\lg9+\dfrac{3}{5}\lg\sqrt{27}-\lg\sqrt{3}}{\lg81-\lg27}$;\\ 
-\end{multicols}
-\begin{multicols}{2}
 (3) $\lg^22+\lg^25+2\lg2\lg5$; \\ 
-(4) $\lg^32+\lg^35+3\lg2\lg5$;\hfill\\ 
-\end{multicols}
-\begin{multicols}{2}
-(5) $\lg4+2\sqrt{\lg^26-\lg6^2+1}+\lg9$.\\ 
-\end{multicols}
+(4) $\lg^32+\lg^35+3\lg2\lg5$; \\
+(5) $\lg4+2\sqrt{\lg^26-\lg6^2+1}+\lg9$.
 <E题目>
 <B目标>
 K0205002B
@@ -17225,18 +17220,12 @@ $2^{1000}$的首位数字为\blank{40}.
 <EID>
 <B题目>
 计算下列各式(要有必要的过程):\\ 
-\begin{multicols}{2}
 (1) $\log_3 5\cdot\log_5 7\cdot\log_7 9$; \\ 
 (2) $(\log_4 3+\log_8 3)(\log_3 2+\log_9 2)$;\\ 
-\end{multicols}
-\begin{multicols}{2}
 (3) $2\log_{100} 5-\sqrt{1-2\lg2+\lg^2 2}$; \\ 
-(4)$\dfrac{\log_5 \sqrt{2}\cdot\log_7 9}{\log_5\dfrac{1}{3}\cdot\log_7\sqrt[3]{4}}$ ;
-\end{multicols}
-\begin{multicols}{2}
-(5)$2^{\log_4(\sqrt{3}-2)^2}+3^{\log_9(\sqrt{3}+2)^2}$;  \\ 
-(6)$\dfrac{\log_{36}4}{\log_{18}6}+\log_6^2 3$.\\ 
-\end{multicols}
+(4) $\dfrac{\log_5 \sqrt{2}\cdot\log_7 9}{\log_5\dfrac{1}{3}\cdot\log_7\sqrt[3]{4}}$;\\
+(5) $2^{\log_4(\sqrt{3}-2)^2}+3^{\log_9(\sqrt{3}+2)^2}$;\\ 
+(6) $\dfrac{\log_{36}4}{\log_{18}6}+\log_6^2 3$.
 <E题目>
 <B目标>
 K0206002B
@@ -19216,7 +19205,7 @@ K0214002B
 001352
 <EID>
 <B题目>
-解方程: $\log_x(x^2-x)\le \log_x 2$.
+解不等式: $\log_x(x^2-x)\le \log_x 2$.
 <E题目>
 <B目标>
 K0214002B

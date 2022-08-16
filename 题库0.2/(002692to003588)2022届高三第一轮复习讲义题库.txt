@@ -2895,7 +2895,7 @@ K0115001B
 002750
 <EID>
 <B题目>
-命题(1) $a>b\Rightarrow ac^2>bc^2$;   (2) $ac^2>bc^2\Rightarrow a>b$;     (3) $a>b\Rightarrow \dfrac 1a<\dfrac 1b$; (4) $a<b<0, \ c<d<0\Rightarrow ac>bd$;   (5) $\sqrt[n]a>\sqrt[n]b\Rightarrow a>b \ (n\in \mathbf{N}^*)$;    (6) $a+c<b+d\Leftrightarrow \begin{cases} a<b, \\ c<d; \end{cases}$ (7) $a<b<0\Rightarrow a^2>ab>b^2$. 其中真命题的序号是\blank{50}.
+命题\textcircled{1} $a>b\Rightarrow ac^2>bc^2$; \textcircled{2} $ac^2>bc^2\Rightarrow a>b$; \textcircled{3} $a>b\Rightarrow \dfrac 1a<\dfrac 1b$; \textcircled{4} $a<b<0, \ c<d<0\Rightarrow ac>bd$;   \textcircled{5} $\sqrt[n]a>\sqrt[n]b\Rightarrow a>b \ (n\in \mathbf{N}^*)$; \textcircled{6} $a+c<b+d\Leftrightarrow \begin{cases} a<b, \\ c<d; \end{cases}$ \textcircled{7} $a<b<0\Rightarrow a^2>ab>b^2$. 其中真命题的序号是\blank{50}.
 <E题目>
 <B目标>
 K0111001B
@@ -3044,7 +3044,7 @@ K0106003B
 <EID>
 <B题目>
 下列函数中, 最小值为$2$的函数有\blank{50}.\\
-(1) $y=x+\dfrac 1x, \ x\in (0,+\infty)$; (2) $y=x+\dfrac 1x,\ x\in (1,+\infty)$;    (3) $y=\dfrac{x^2+3}{\sqrt{x^2+2}}$;    (4)$y=\log_3x+\log_x3$.
+\textcircled{1} $y=x+\dfrac 1x, \ x\in (0,+\infty)$; \textcircled{2} $y=x+\dfrac 1x,\ x\in (1,+\infty)$; \textcircled{3} $y=\dfrac{x^2+3}{\sqrt{x^2+2}}$; \textcircled{4} $y=\log_3x+\log_x3$.
 <E题目>
 <B目标>
 K0119001B
@@ -5923,7 +5923,7 @@ K0116001B
 002812
 <EID>
 <B题目>
-已知$a,b\in \mathbf{R}^+$且$a\ne b$, 求证: $|a^3+b^3-2ab\sqrt{ab}|>|a^2b+ab^2-2ab\sqrt{ab}|$.
+已知$a,b$均为正数, 且$a\ne b$, 求证: $|a^3+b^3-2ab\sqrt{ab}|>|a^2b+ab^2-2ab\sqrt{ab}|$.
 <E题目>
 <B目标>
 K0111003B
@@ -10701,7 +10701,7 @@ K0213004B
 <B题目>
 图中曲线是幂函数$y=x^n$在第一象限的图像, 已知$n$取$\pm 2$, $\pm\dfrac 12$四个值, 则相应于曲线$c_1,c_2,c_3,c_4$的$n$依次为\bracket{20}.
 \begin{center}
-    \begin{tikzpicture}[>=latex]
+    \begin{tikzpicture}[>=latex,scale = 0.5]
         \draw [->] (-1,0) -- (4,0) node [below] {$x$};
         \draw [->] (0,-1) -- (0,4) node [left] {$y$};
         \draw (0,0) node [below left] {$O$};
@@ -11530,12 +11530,12 @@ K0208002B
 <B题目>
 已知幂函数$y=x^{\frac qp}$($p\in \mathbf{N}^*,\ q\in \mathbf{N}^*$, $p,q$互质)的图像如图所示, 则\bracket{20}.
 \begin{center}
-    \begin{tikzpicture}[>=latex]
+    \begin{tikzpicture}[>=latex,scale = 0.7]
         \draw [->] (-3,0) -- (3,0) node [below] {$x$};
         \draw [->] (0,-1) -- (0,2) node [left] {$y$};
         \draw (0,0) node [below right] {$O$};
         \draw [dashed] (-1,-1) -- (2,2);
-        \draw [domain = 0:3, samples = 400] plot (\x,{\x^(3/8)}) plot (-\x,{\x^(3/8)});
+        \draw [domain = 0:3, samples = 400, very thick] plot (\x,{\x^(3/8)}) plot (-\x,{\x^(3/8)});
         \draw [dashed] (1,0) node [below] {$1$} -- (1,1) -- (0,1) node [left] {$1$};
     \end{tikzpicture}
 \end{center}
@@ -17225,7 +17225,7 @@ K0206002B
 003041
 <EID>
 <B题目>
-已知实数$ab$满足等式$(\dfrac 12)^a=(\dfrac 13)^b$, 下列五个关系式:\\
+已知实数$a,b$满足等式$(\dfrac 12)^a=(\dfrac 13)^b$, 下列五个关系式:\\
 \textcircled{1} $0<b<a$; \textcircled{2} $a<b<0$; \textcircled{3} $0<a<b$; \textcircled{4} $b<a<0$; \textcircled{5} $a=b=0$. 其中不可能成立的关系式的序号为\blank{50}.
 <E题目>
 <B目标>

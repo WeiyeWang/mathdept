@@ -1,9 +1,7 @@
 \begin{center}
-\begin{tabular}{|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|c|}
 \hline
-& 合格 & 不合格 & 总计 \\ \hline
-改进前 & $2422$ & $439$ & $2861$ \\ \hline
-改进后 & $2892$ & $447$ & $3339$ \\ \hline
-总计 & $5314$ & $886$ & $6200$ \\ \hline
+$x$  & $1$  & $2$  & $3$  & $4$  & $5$ \\ \hline
+$y$  & $2.2$  & $1$  & $2$  & $4.6$  & $7$ \\ \hline
 \end{tabular}
 \end{center}

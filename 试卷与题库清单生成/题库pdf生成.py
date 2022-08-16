@@ -70,7 +70,7 @@ for id in ids:
         objects = trim(re.findall("<B目标>([\s\S]*?)<E目标>",problem_set)[0])
         if len(objects) == 0:
             objects = "暂未关联目标"
-        elif "KNONE" in objects:
+        elif "KNONE" in objects.upper():
             objects = "该题的考查目标不在目前的集合中"
         else:
             objects_string = ""

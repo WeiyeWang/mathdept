@@ -5339,31 +5339,31 @@ K0119001B
 <EID>
 <B题目>
 在同一坐标系中画出函数$y=\log_a x, \ y=a^x, y=x+a$的图像, 可能正确的是\blank{30}.
-\fourch{\begin{tikzpicture}[>=stealth,samples=100]
-	\draw [->] (-1.5,0)--(0,0) node [below left] {$O$}--(1.5,0) node [below] {$x$};
-	\draw [->] (0,-1.5)--(0,1.5) node [left] {$y$};
-	\draw [domain=-3:3] plot ({\x*0.4},{(\x+0.5)*0.4});
-	\draw [domain=-3:2] plot ({\x*0.4},{exp(\x*ln(2))*0.4});
-	\draw [domain=0.1:3.5] plot ({\x*0.4},{ln(\x)/ln(2)*0.4});
-	\end{tikzpicture}}{\begin{tikzpicture}[>=stealth,samples=100]
-	\draw [->] (-1.5,0)--(0,0) node [below left] {$O$}--(1.5,0) node [below] {$x$};
-	\draw [->] (0,-1.5)--(0,1.5) node [left] {$y$};
-	\draw [domain=-3.5:2.2] plot ({\x*0.4},{(\x+2)*0.4});
-	\draw [domain=-2:2.2] plot ({\x*0.4},{exp(\x*ln(1/2))*0.4});
-	\draw [domain=0.1:3.5] plot ({\x*0.4},{-ln(\x)/ln(2)*0.4});
-	\end{tikzpicture}}{\begin{tikzpicture}[>=stealth,samples=100]
-	\draw [->] (-1.5,0)--(0,0) node [below left] {$O$}--(1.5,0) node [below] {$x$};
-	\draw [->] (0,-1.5)--(0,1.5) node [left] {$y$};
-	\draw [domain=-3.5:2.2] plot ({\x*0.4},{(\x+2)*0.4});
-	\draw [domain=-3:2.2] plot ({\x*0.4},{exp(\x*ln(2))*0.4});
-	\draw [domain=0.1:3.5] plot ({\x*0.4},{-ln(\x)/ln(2)*0.4});
-	\end{tikzpicture}}{\begin{tikzpicture}[>=stealth,samples=100]
-	\draw [->] (-1.5,0)--(0,0) node [below left] {$O$}--(1.5,0) node [below] {$x$};
-	\draw [->] (0,-1.5)--(0,1.5) node [left] {$y$};
-	\draw [domain=-3.5:2.2] plot ({\x*0.4},{(\x+2)*0.4});
-	\draw [domain=-3:2.2] plot ({\x*0.4},{exp(\x*ln(2))*0.4});
-	\draw [domain=0.1:3.5] plot ({\x*0.4},{ln(\x)/ln(2)*0.4});
-	\end{tikzpicture}}
+\fourch{\begin{tikzpicture}[>=stealth,samples=100, scale = 0.7]
+\draw [->] (-1.5,0)--(0,0) node [below left] {$O$}--(1.5,0) node [below] {$x$};
+\draw [->] (0,-1.5)--(0,1.5) node [left] {$y$};
+\draw [domain=-3:3] plot ({\x*0.4},{(\x+0.5)*0.4});
+\draw [domain=-3:2] plot ({\x*0.4},{exp(\x*ln(2))*0.4});
+\draw [domain=0.1:3.5] plot ({\x*0.4},{ln(\x)/ln(2)*0.4});
+\end{tikzpicture}}{\begin{tikzpicture}[>=stealth,samples=100, scale = 0.7]
+\draw [->] (-1.5,0)--(0,0) node [below left] {$O$}--(1.5,0) node [below] {$x$};
+\draw [->] (0,-1.5)--(0,1.5) node [left] {$y$};
+\draw [domain=-3.5:2.2] plot ({\x*0.4},{(\x+2)*0.4});
+\draw [domain=-2:2.2] plot ({\x*0.4},{exp(\x*ln(1/2))*0.4});
+\draw [domain=0.1:3.5] plot ({\x*0.4},{-ln(\x)/ln(2)*0.4});
+\end{tikzpicture}}{\begin{tikzpicture}[>=stealth,samples=100, scale = 0.7]
+\draw [->] (-1.5,0)--(0,0) node [below left] {$O$}--(1.5,0) node [below] {$x$};
+\draw [->] (0,-1.5)--(0,1.5) node [left] {$y$};
+\draw [domain=-3.5:2.2] plot ({\x*0.4},{(\x+2)*0.4});
+\draw [domain=-3:2.2] plot ({\x*0.4},{exp(\x*ln(2))*0.4});
+\draw [domain=0.1:3.5] plot ({\x*0.4},{-ln(\x)/ln(2)*0.4});
+\end{tikzpicture}}{\begin{tikzpicture}[>=stealth,samples=100, scale = 0.7]
+\draw [->] (-1.5,0)--(0,0) node [below left] {$O$}--(1.5,0) node [below] {$x$};
+\draw [->] (0,-1.5)--(0,1.5) node [left] {$y$};
+\draw [domain=-3.5:2.2] plot ({\x*0.4},{(\x+2)*0.4});
+\draw [domain=-3:2.2] plot ({\x*0.4},{exp(\x*ln(2))*0.4});
+\draw [domain=0.1:3.5] plot ({\x*0.4},{ln(\x)/ln(2)*0.4});
+\end{tikzpicture}}
 <E题目>
 <B目标>
 K0209003B
