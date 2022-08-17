@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  16 AUG 2022 22:14
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  17 AUG 2022 08:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1039,14 +1039,59 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 564--565
 [][] 
  []
 
-[16] [17] [18] (./2022届高三上周末卷.aux) ) 
+[16] [17] [18]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 642--643
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 644--645
+[][] 
+ []
+
+[19] [20]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 714--715
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 716--717
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 720--721
+[][] 
+ []
+
+[21] [22]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 784--785
+[][] 
+ []
+
+[23]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 789--790
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 802--803
+[][] 
+ []
+
+[24]
+Overfull \hbox (5.95848pt too wide) in paragraph at lines 853--855
+[]\TU/华文中宋(0)/m/n/10 在 $\OT1/cmr/m/n/10 100$ \TU/华文中宋(0)/m/n/10 件 产 品 中 有 $\OT1/cmr/m/n/10 90$ \TU/华文中宋(0)/m/n/10 件 一 等 品\TU/lmr/m/n/10 , $\OT1/cmr/m/n/10 10$ \TU/华文中宋(0)/m/n/10 件 二 等 品\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 从 中 随 机 取 出 $\OT1/cmr/m/n/10 4$ \TU/华文中宋(0)/m/n/10 件 产 品\TU/lmr/m/n/10 . \TU/华文中宋(0)/m/n/10 则 恰 含 $\OT1/cmr/m/n/10 1$ \TU/华文中宋(0)/m/n/10 件 二 等 品 的 概 率 是$[]$\TU/lmr/m/n/10 .
+ []
+
+[25] [26] (./2022届高三上周末卷.aux) ) 
 Here is how much of TeX's memory you used:
- 23036 strings out of 476919
- 520377 string characters out of 5825424
- 868252 words of memory out of 5000000
- 42580 multiletter control sequences out of 15000+600000
- 406095 words of font info for 60 fonts, out of 8000000 for 9000
+ 24102 strings out of 476919
+ 542143 string characters out of 5825424
+ 871742 words of memory out of 5000000
+ 43644 multiletter control sequences out of 15000+600000
+ 406111 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,22n,357p,438b,1139s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 2022届高三上周末卷.pdf (18 pages).
+Output written on 2022届高三上周末卷.pdf (26 pages).

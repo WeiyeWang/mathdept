@@ -1,7 +1,8 @@
 \begin{center}
-\begin{tabular}{|c|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|}
 \hline
-$x$  & $1$  & $2$  & $3$  & $4$  & $5$ \\ \hline
-$y$  & $2.2$  & $1$  & $2$  & $4.6$  & $7$ \\ \hline
+ & 纪念品$A$ & 纪念品$B$ & 纪念品$C$ \\ \hline
+精品型 & $100$ & $150$ & $n$ \\ \hline
+普通型 & $300$ & $450$ & $600$ \\ \hline
 \end{tabular}
 \end{center}
