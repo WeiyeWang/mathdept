@@ -863,6 +863,77 @@ $M(\alpha ,\beta)=\dfrac 12[(x_1+y_1-|x_1-y_1|)+(x_2+y_2-|x_2-y_2|)+\cdots +(x_n
 \end{tikzpicture}
 \end{center}
 \item 函数$F(x)=\lg x-\sin x$零点的个数是\blank{50}个.
+\item 设函数$f(x)$和$g(x)$都是定义在集合$M$上的函数, 若对于任意$x\in M$, 都有$f(g(x))=g(f(x))$成立, 就称函数$f(x)$与$g(x)$在$M$上互为``互换函数''.若存在非空集合$M$, 使得函数$f(x)=a^x$($a>0$, $a\ne 1$)与$g(x)=x+1$在集合$M$上互为``互换函数'', 则实数$a$的取值范围是\blank{50}.
+\item 函数$f(x)=2^x-\dfrac 1{2^x}$的图像关于\bracket{20}.
+\fourch{原点对称}{直线$y=x$对称}{直线$y=-x$对称}{$y$轴对称}
+\item 三国时期赵爽在《勾股方圆图注》中, 对勾股定理的证明可用现代数学表述为如图所示, 可以利用该图作为几何解释的不等式性质是\bracket{20}.
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\draw (0,0) node [left] {$A$} coordinate (A) -- (2,0) node [right] {$E$};
+\draw (1,0) node [below] {$H$} -- (1,2) node [above] {$D$} coordinate (D);
+\draw (1,1) node [left] {$G$} -- (3,1) node [right] {$C$} coordinate (C);
+\draw (2,1) node [above] {$F$} -- (2,-1) node [below] {$B$} coordinate (B);
+\draw (A) -- (D) -- (C) -- (B) -- cycle;
+\draw (0.5,0) node [above] {$b$} (1,1) node [below right] {$a$} ($(A)!0.5!(D)$) node [above left] {$c$};
+\end{tikzpicture}
+\end{center}
+\onech{如果$a>b$, $b>c$, 那么$a>c$}{如果$a>b>0$, 那么$a^2>b^2$}{对任意正实数$a$和$b$, 有$a^2+b^2\ge 2ab$, 当且仅当$a=b$时等号成立}{如果$a>b$, $c>0$, 那么$ac>bc$}
+\item 若函数$f(x)=\begin{cases} \log_2x, & x\ge 1, \\ x+c, & x<1. \end{cases}$  则``$c=-1$''是``$y=f(x)$是$\mathbf{R}$上的单调增函数''的\bracket{20}.
+\twoch{充分非必要条件}{必要非充分条件}{充要条件}{既非充分也非必要条件}
+\item 若实数$x,y$满足$x^2+2\cos y=1$, 则$x-\cos y$的取值范围是\bracket{20}.
+\fourch{$[-1,\sqrt{3}+1)$}{$[-1,\sqrt 3]$}{$[1,\sqrt 3+1)$}{$[-1,\sqrt 3+1]$}
+\item 如图, 正四棱柱$ABCD-A_1B_1C_1D_1$的底面边长$AB=2$, 异面直线$A_1A$与$B_1C$所成角的大小为$\arctan \dfrac 12$.
+\begin{center}
+\begin{tikzpicture}[>=latex,scale = 0.6]
+\draw (0,0) node [below left] {$A$} coordinate (A) --++ (2,0) node [below right] {$B$} coordinate (B) --++ (45:{2/2}) node [right] {$C$} coordinate (C)
+--++ (0,4) node [above right] {$C_1$} coordinate (C1)
+--++ (-2,0) node [above left] {$D_1$} coordinate (D1) --++ (225:{2/2}) node [left] {$A_1$} coordinate (A1) -- cycle;
+\draw (A) ++ (2,4) node [above] {$B_1$} coordinate (B1) -- (B) (B1) --++ (45:{2/2}) (B1) --++ (-2,0);
+\draw [dashed] (A) --++ (45:{2/2}) node [left] {$D$} coordinate (D) --++ (2,0) (D) --++ (0,4);
+\draw (C) -- (B1);
+\end{tikzpicture}
+\end{center}
+(1) 求$BD_1$与底面$ABCD$所成角的正切值;\\
+(2) 求正四棱柱$ABCD-A_1B_1C_1D_1$的体积.
+\item 在$\triangle ABC$中, 内角$A,B,C$所对的边长分别是$a,b,c$.\\
+(1) 若$c=2$, $C=\dfrac{\pi }3$, 且$\triangle ABC$的面积$S=\sqrt 3$, 求$a,b$的值;\\
+(2) 若$\sin (A+B)+\sin (B-A)=\sin 2A$, 试判断$\triangle ABC$的形状.
+\item 如图, 某班级墙上有一壁画, 最高点$A$离地面$4$米, 最低点$B$离地面$2$米, 某同学从距离墙$x$($x>1$)米, 离地面高$a$($1\le a\le 2$)米的$C$处观赏该壁画, 设观赏视角$\angle ACB=\theta$.
+\begin{center}
+\begin{tikzpicture}[>=latex,scale = 0.6]
+\draw (0,0) -- (0,1.5) node [above left] {$C$} coordinate (C) -- (4,2) node [above left] {$B$} coordinate (B) ++ (0,2) node [above] {$A$} coordinate (A);
+\draw [very thick] (B) -- (A);
+\draw (C) -- (A) (B) --++ (0,-2);
+\draw (C) pic ["$\theta$", draw, angle eccentricity = 1.5] {angle = B--C--A};
+\filldraw [gray!50] (-1,0) rectangle (5.5,-0.2);
+\draw (-0.1,1.5) -- (-0.3,1.5);
+\draw [->] (-0.2,1.1) -- (-0.2,1.5);
+\draw [->] (-0.2,0.4) -- (-0.2,0);
+\draw (-0.2,0.75) node {$a$};
+\draw [->] (1.6,0.2) -- (0,0.2);
+\draw [->] (2.4,0.2) -- (4,0.2);
+\draw (2,0.2) node {$x$};
+\draw (4.1,2) -- (4.3,2);
+\draw [->] (4.2,0.6) -- (4.2,0);
+\draw [->] (4.2,1.4) -- (4.2,2);
+\draw (4.2,1) node {$2$};
+\draw (4.1,4) -- (4.9,4);
+\draw [->] (4.6,1.6) -- (4.6,0);
+\draw [->] (4.6,2.4) -- (4.6,4);
+\draw (4.6,2) node {$4$};
+\end{tikzpicture}
+\end{center}
+(1) 若$a=1.5$米, 问该同学离墙多远时, 视角$\theta$最大;\\
+(2) 若$\tan \theta =\dfrac 12$, 当$a$变化时, 求$x$的取值范围.
+\item 已知函数$f(x)$的定义域是$\{x|x\in \mathbf{R},\ x\ne \dfrac k2, \ k\in \mathbf{Z}\}$, 且$f(x)+f(2-x)=0$, $f(x+1)=-\dfrac 1{f(x)}$, 当$0<x<\dfrac 12$时, $f(x)=3^x$.\\
+(1) 判断$f(x)$的奇偶性, 并说明理由;\\
+(2) 求$f(x)$在区间$(2k+\dfrac 12,2k+1)$($k\in \mathbf{Z}$)上的解析式;\\
+(3) 是否存在整数$k$, 使得当$x\in (2k+\dfrac 12,2k+1)$时, 不等式$\log_3f(x)>x^2-k-1$有解? 证明你的结论.
+\item 已知函数$f(x)=\ln (x^{-1}+a)$.\\
+(1) 设$f^{-1}(x)$是$f(x)$的反函数. 当$a=1$时, 解不等式$f^{-1}(x)>0$;\\
+(2) 若关于$x$的方程$f(x)+\ln (x^2)=0$的解集中恰好有一个元素, 求实数$a$的值;\\
+(3) 设$a>0$, 若对任意$t\in [\dfrac 12,1]$, 函数$f(x)$在区间$[t,t+1]$上的最大值与最小值的差不超过$\ln 2$, 求$a$的取值范围.
+
 
 \end{enumerate}
 
@@ -872,49 +943,11 @@ $M(\alpha ,\beta)=\dfrac 12[(x_1+y_1-|x_1-y_1|)+(x_2+y_2-|x_2-y_2|)+\cdots +(x_n
 
 
 
-\item 设函数$f(x)$和$x$都是定义在集合$\sqrt 2$上的函数, 存在$\sqrt 2x$, 都有$x$成立, 称函数$x$与$y$在$l$上互为``互换函数''.若函数$f(x)=a^x$($a>0a\ne 1)$与$g(x)=x+1$在集合$M$上互为``互换函数'', 则$a$的取值范围是\blank{50}.
-二、选择题(本题共有4题, 满分20分, 每题5分)每题有且只有一个正确选项, 考生应在答题纸的相应位置, 将代表正确选项的小方格涂黑.
-\item 函数$f(x)=2^x-\dfrac 1{2^x}$的图象关于\blank{50}\cdots\cdots\cdots\bracket{20}.
-$\fourch{$原点对称\blank{50}$}{$直线$y=x$对称\blank{50}
-$}{$直线$y=-x$对称\blank{50}$}{y$轴对称}
-14 . 三国时期赵爽在《勾股方圆图注》中, 对勾股定理的证明可用现代数学表述为如下图所示, 我们教材中利用该图作为几何解释的是.\blank{50}\cdots\cdots\cdots\bracket{20}.
-$\fourch{$如果$a>b$, $b>c$, 那么$a>c$
-$}{$如果$a>b>0$, 那么$a^2>b^2$
-$}{$对任意实数$a$和$b$, 有$a^2+b^2\ge 2ab$, 当且仅当$a=b$时等号成立
-$}{$如果$a>b$, $c>0$那么$ac>bc$}
-\item 若函数$f(x)=\begin{cases} \log__2xx\ge 1 \\ x+cx<1. \end{cases}$  则``$c=-1$''是``$y=f(x)^$在$R$上单调增函数''的
-\blank{50}\cdots\cdots\cdots\bracket{20}.\blank{50}
-$\fourch{$充分非必要条件.\blank{50}$}{$必要非充分条件.
-$}{$充要条件.\blank{50}$}{$既非充分也非必要条件}
-\item 若实数$x,y$满足$x^2+2\cos y=1$, 则$x-\cos y$的取值范围是\blank{50}\cdots\cdots\cdots\bracket{20}.
-$\fourch{$ $[-1,+\infty)$\blank{50}$}{$  $[-1,\sqrt 3]$
-$}{$ $[1,\sqrt 3+1)$\blank{50}$}{$  $[-1,\sqrt 3+1]$}
-三、解答题(本大题共有5题, 满分76分)解答下列各题必须在答题纸的相应位置写出必要的步骤.
-\item (本题满分14分, 第1小题满分8分, 第2小题满分6分)
- 如图, 正四棱柱$ABCD-A_1B_1C_1D_1$的底面边长$AB=2$,
-若异面直线$A_1A$与$B_1C$所成角的大小为$\arctan \dfrac 12$,
-(1) 求$BD_1$与底面$ABCD$所成角的正切值;
-(2) 求正四棱柱$ABCD-A_1B_1C_1D_1$的体积.
-\item (本题满分14分, 第1小题满分7分, 第2小题满分7分)
- 在$\triangle ABC$中, 内角$A,B,C$所对的边长分别是$a,b,c$.
-(1)若$c=2$, $C=\dfrac{\pi }3$, 且$\triangle ABC$的面积$S=\sqrt 3$, 求$a,b$的值;
-(2)若$\sin (A+B)+\sin (B-A)=\sin 2A$, 试判断$\triangle ABC$的形状.
-\item (本题满分14分, 第1小题满分6分, 第2小题满分8分)
-如图, 某班级墙上有一壁画, 最高点$A$离地面4米, 最低点$B$离地面2米, 某同学从距离墙$x(x>1)$米, 离地面高$a(1\le a\le 2)$米的$C$处观赏该壁画, 设观赏视角$\angle ACB=\theta$.
-(1)若$a=1.5$米, 问该同学离墙多远时, 视角$\theta$最大;
-(2)若$\tan \theta =\dfrac 12$, 当$a$变化时, 求$x$的取值范围.
-\item (本题满分16分, 第1小题满分4分, 第2小题满分5分, 第3小题满分7分)
-已知函数$f(x)=\ln (x^{-1}+a)$.
-(1)设$f^{-1}(x)$是$f(x)$的反函数. 当$a=1$时, 解不等式$f^{-1}(x)>0$;
-(2)若关于$x$的方程$f(x)+\ln (x^2)=0$的解集中恰好有一个元素, 求实数$a$的值;
-(3)设$a>0$, 若对任意$t\in [\dfrac 12,1]$, 函数$f(x)$在区间$[t,t+1]$上的最大值与最小值的差不超过$\ln 2$, 求$a$的取值范围.
-\item (本题满分18分, 第1小题满分4分, 第2小题满分5分, 第3小题满分9分)
-已知函数$f(x)$的定义域是$\{x|x\in \mathbf{R},x\ne \dfrac k2,k\in \mathbf{Z}\}$, 且$f(x)+f(2-x)=0$,
-$f(x+1)=-\dfrac 1{f(x)}$, 当$0<x<\dfrac 12$时, $f(x)=3^x$.
-(1)判断$f(x)$的奇偶性, 并说明理由;
-(2)求$f(x)$在区间$(2k+\dfrac 12,2k+1)(k\in \mathbf{Z})$上的解析式;
-(3)是否存在整数$k$, 使得当$x\in (2k+\dfrac 12,2k+1)$时, 不等式$\log__3f(x)>x^2-k-1$有解?
-证明你的结论.
+
+
+
+
+
 
 
 

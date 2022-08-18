@@ -25090,7 +25090,7 @@ $\begin{cases} kx>0, \\ x+1>0, \\ (x+1)^2=kx, \end{cases}$即$\begin{cases} x>-1
 
 <E相同题目>
 <B关联题目>
-
+011221
 <E关联题目>
 <B备注>
 

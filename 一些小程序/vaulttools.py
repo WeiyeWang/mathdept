@@ -508,3 +508,6 @@ def add_space(string,dict):
         if choice.upper() == "Y":
             dict["space"] = string
     return dict
+
+def get_problems_string_by_ID(id,string):
+    return re.findall(r"\[B题目\][\s]*<BID>[\s]*"+id+r"[\s\S]*?\[E题目\]",string)[0]
