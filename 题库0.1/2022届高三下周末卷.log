@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  18 AUG 2022 10:58
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  18 AUG 2022 16:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -926,19 +926,152 @@ Overfull \hbox (22.22168pt too wide) in paragraph at lines 155--156
 [][] 
  []
 
-[4] [5] [6] [7]
-Overfull \hbox (29.44168pt too wide) in paragraph at lines 628--629
+[4] [5]
+Overfull \hbox (10.77861pt too wide) in paragraph at lines 211--212
+[]\TU/华文中宋(0)/m/n/10 在 $\OT1/cmr/m/n/10 4$ \TU/华文中宋(0)/m/n/10 名 男 生\TU/lmr/m/n/10 , $\OT1/cmr/m/n/10 4$ \TU/华文中宋(0)/m/n/10 名 女 生 中 随 机 选 出 $\OT1/cmr/m/n/10 3$ \TU/华文中宋(0)/m/n/10 名 学 生 参 加 某 次 活 动\TU/lmr/m/n/10 , \TU/华文中宋(0)/m/n/10 则 选 出 的 学 生 中 至 多 $\OT1/cmr/m/n/10 1$ \TU/华文中宋(0)/m/n/10 名 女 生 的 概 率 为$[]$\TU/lmr/m/n/10 (\TU/华文中宋(0)/m/n/10 结
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 220--221
 [][] 
  []
 
-[8] [9] [10] [11] [12] (./2022届高三下周末卷.aux) ) 
-Here is how much of TeX's memory you used:
- 23748 strings out of 476919
- 533949 string characters out of 5825424
- 895611 words of memory out of 5000000
- 43296 multiletter control sequences out of 15000+600000
- 406095 words of font info for 60 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 101i,14n,389p,418b,1135s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 2022届高三下周末卷.pdf (12 pages).
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 224--225
+[][] 
+ []
+
+[6] [7] [8]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 294--295
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 296--297
+[][] 
+ []
+
+[9] [10]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 351--352
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 353--354
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 355--356
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 357--358
+[][] 
+ []
+
+[11] [12] [13]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 469--470
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 471--472
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 473--474
+[][] 
+ []
+
+[14] [15]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 550--551
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 584--585
+[][] 
+ []
+
+
+Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
+(fontspec)             with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+[16]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 586--587
+[][] 
+ []
+
+[17] [18]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 642--643
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 646--647
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 648--649
+[][] 
+ []
+
+[19] [20]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 708--709
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 710--711
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 722--723
+[][] 
+ []
+
+
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 724--725
+[][] 
+ []
+
+[21] [22]
+Overfull \hbox (22.22168pt too wide) in paragraph at lines 786--787
+[][] 
+ []
+
+[23] [24] [25] [26] [27] (./2022届高三下周末卷.aux) ) 
+Here is how much of TeX's memory you used:
+ 23770 strings out of 476919
+ 534363 string characters out of 5825424
+ 890048 words of memory out of 5000000
+ 43305 multiletter control sequences out of 15000+600000
+ 406151 words of font info for 67 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 101i,22n,389p,506b,1209s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 2022届高三下周末卷.pdf (27 pages).

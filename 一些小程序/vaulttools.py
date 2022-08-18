@@ -1,4 +1,4 @@
-import re
+import re,os
 def trim(string):
     string = re.sub(r"^[ \t\n]*","",string)
     string = re.sub(r"[ \t\n]*$","",string)
@@ -511,3 +511,38 @@ def add_space(string,dict):
 
 def get_problems_string_by_ID(id,string):
     return re.findall(r"\[B题目\][\s]*<BID>[\s]*"+id+r"[\s\S]*?\[E题目\]",string)[0]
+
+def vaults_to_string_and_dicts(directory): #输入目录, 输出题库中所有题目构成的字符串, 字符串构成的词典 和 单个题目词典构成的词典
+    if not directory[:-1] in ("/","\\"): 
+        directory = directory + "/"
+    vaults = [f for f in os.listdir(directory) if "题库" in f]
+    problem_str = ""
+    for v in vaults:
+        with open(directory+v,"r",encoding="utf8") as f:
+            problem_str += f.read()
+    problem_dicts = {}
+    problem_list = {}
+    for p in re.findall(r"\[B题目\][\s\S]*?\[E题目\]",problem_str):
+        id = get_id(p)
+        dic = setup_dict(p)
+        problem_list[id] = p
+        problem_dicts[id] = dic
+    return (problem_str,problem_list,problem_dicts)
+
+def get_gloss_objects(directory): #输入目录, 输出题库中所有课时目标构成的字符串, 字符串构成的词典 和 单个目标词典构成的词典
+    if not directory[:-1] in ("/","\\"): 
+        directory = directory + "/"
+    obj_files = [v for v in os.listdir(directory) if "_" in v and ".txt" in v]
+    gloss_str = ""
+    for f in obj_files:
+        with open(directory + f,"r",encoding="utf8") as obj_f:
+            gloss_str += obj_f.read()
+    obj_dicts = {}
+    obj_lists = {}
+    for o in re.findall(r"\[B课时教学目标\][\s\S]*?\[E课时教学目标\]",gloss_str):
+        id = re.findall(r"<目标编码>[\s]*(K[\d]{7}[BX])",o)[0]
+        unit_obj = re.findall(r"<对应单元目标编码>[\s]*(D[\d]{5}[BX])",o)[0]
+        content = trim(re.findall(r"<目标内容>([\s\S]*)<对应单元目标编码>",o)[0])
+        obj_lists[id] = o
+        obj_dicts[id] = {"id":id,"unit_obj":unit_obj,"content":content}
+    return (gloss_str,obj_lists,obj_dicts)
