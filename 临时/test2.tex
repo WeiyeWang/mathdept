@@ -44,5 +44,46 @@ A.~#1 &B.~#2& C.~#3& D.~#4
 \end{tabular}}
 \begin{document}
 
+\begin{center}
+\begin{tikzpicture}[>=latex, x={(0:1)}, z={(225:0.5)}]
+\def\l{2}
+\draw (0,0,0) node [below left] {$A$} coordinate (A);
+\draw (A) ++ (\l,0,0) node [below right] {$B$} coordinate (B);
+\draw (A) ++ (\l,0,-\l) node [right] {$C$} coordinate (C);
+\draw (A) ++ (0,0,-\l) node [left] {$D$} coordinate (D);
+\draw (A) -- (B) -- (C);
+\draw [dashed] (A) -- (D) -- (C);
+\draw (A) ++ (0,\l,0) node [above left] {$A_1$} coordinate (A1);
+\draw (B) ++ (0,\l,0) node [right] {$B_1$} coordinate (B1);
+\draw (C) ++ (0,\l,0) node [above right] {$C_1$} coordinate (C1);
+\draw (D) ++ (0,\l,0) node [above left] {$D_1$} coordinate (D1);
+\draw (A1) -- (B1) -- (C1) -- (D1) -- cycle;
+\draw (A) -- (A1) (B) -- (B1) (C) -- (C1);
+\draw [dashed] (D) -- (D1);
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[>=latex]
+\def\l{2}
+\def\m{1}
+\def\n{2}
+\draw (0,0,0) node [below left] {$A$} coordinate (A);
+\draw (A) ++ (\l,0,0) node [below right] {$B$} coordinate (B);
+\draw (A) ++ (\l,0,-\m) node [right] {$C$} coordinate (C);
+\draw (A) ++ (0,0,-\m) node [left] {$D$} coordinate (D);
+\draw (A) -- (B) -- (C);
+\draw [dashed] (A) -- (D) -- (C);
+\draw (A) ++ (0,\n,0) node [above left] {$A_1$} coordinate (A1);
+\draw (B) ++ (0,\n,0) node [right] {$B_1$} coordinate (B1);
+\draw (C) ++ (0,\n,0) node [above right] {$C_1$} coordinate (C1);
+\draw (D) ++ (0,\n,0) node [above left] {$D_1$} coordinate (D1);
+\draw (A1) -- (B1) -- (C1) -- (D1) -- cycle;
+\draw (A) -- (A1) (B) -- (B1) (C) -- (C1);
+\draw [dashed] (D) -- (D1);
+
+\end{tikzpicture}
+\end{center}
+
 
 \end{document}

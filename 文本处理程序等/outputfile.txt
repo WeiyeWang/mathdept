@@ -1,128 +1,49 @@
-2010年普通高等学校招生全国统一考试(上海卷)
-数学(理科)
-解析\blank{50}重庆合川太和中学\blank{50}杨建
-一、填空题(本大题满分56分)本大题共有14题, 考生必须在答题纸相应编号的空格内直接填写结果, 每个空格填对得4分, 否则一律得零分.
-\item 不等式$\dfrac{2-x}{x+4}>0$的解集是 (-4, 2)\blank{50}.
-解析: 考查分式不等式的解法$\dfrac{2-x}{x+4}>0$等价于(x-2)(x+4)<0, 所以-4<x<2
-\item 若复数$z=1-2\mathrm{i}$($\mathrm{i}$为虚数单位), 则$z\cdot \overl\mathrm{i}nez+z=$ 6-2\mathrm{i}\blank{50}.
-解析: 考查复数基本运算$z\cdot \overlinez+z=(1-2i)(1+2i)+1-2i=6-2i$
-\item 动点$P$到点$F(2,0)$的距离与它到直线$x+2=0$的距离相等, 则$P$的轨迹方程为  $y^2=8x$.
-解析: 考查抛物线定义及标准方程
-定义知$P$的轨迹是以$F(2,0)$为焦点的抛物线, p=2所以其方程为y28x
-\item 行列式$|\begin{cases} \cos \dfrac{\pi }3\begin{matrix}
-     \end{matrix}\sin \dfrac{\pi }6 \\ \sin \dfrac{\pi }3\begin{matrix}
-     \end{matrix}\cos \dfrac{\pi }6 \end{cases}|$的值是\blank{50}0\blank{50}.
-解析: 考查行列式运算法则$|\begin{cases} \cos \dfrac{\pi }3\begin{matrix}
-     \end{matrix}\sin \dfrac{\pi }6 \\ \sin \dfrac{\pi }3\begin{matrix}
-     \end{matrix}\cos \dfrac{\pi }6 \end{cases}|$=$cos\dfrac{\pi}{3}cos\dfrac{\pi}{6}-\sin \dfrac{\pi}{3}\sin \dfrac{\pi}{6}=\cos \dfrac{\pi }2=0$
-\item 圆$C:x^2+y^2-2x-4y+4=0$的圆心到直线l:$3x+4y+4=0$的距离$d=$    3\blank{50}.
-解析: 考查点到直线距离公式
-圆心(1, 2)到直线$3x+4y+4=0$距离为$\dfrac{|3\times 1+4\times 2+4|}5=3$
-\item 随机变量$\xi$的概率分布率由下图给出:
-则随机变量$\xi$的均值是    8.2\blank{50}
-解析: 考查期望定义式E$\xi$=7\times 0.3+8\times 0.35+9\times 0.2+10\times 0.15=8.2
-\item 2010年上海世博会园区每天9:00开园, 20:00停止入园. 在右边的框图中, $S$表示上海世博会官方网站在每个整点报道的入园总人数, $a$表示整点报道前1个小时内入园人数, 则空白的执行框内应填入   S $arrow$S+a\blank{50}.
-\item 对任意不等于1的正数a, 函数f(x)=$\log__a(x+3)$的反函数的图像都经过点P, 则点P的坐标是  (0, -2)\blank{50}
-解析: f(x)=$\log__a(x+3)$的图像过定点(-2, 0), 所以其反函数的图像过定点(0, -2)
-\item 从一副混合后的扑克牌(52张)中随机抽取1张, 事件A为``抽得红桃K'', 事件B为``抽得为黑桃'', 则概率P(A$\cup$B)==$\dfrac 7{26}$(结果用最简分数表示)
-解析: 考查互斥事件概率公式  P(A$\cup$B)=$\dfrac 1{52}+\dfrac{13}{52}=\dfrac 7{26}$
- 10. 在$n$行n列矩阵$\begin{pmatrix}
-   1  2  3  \cdots   n-2  n-1  n  \\2  3  4  \cdots   n-1  n  1  \\3  4  5  \cdots   n  1  2  \\\cdots   \cdots   \cdots   \cdots   \cdots   \cdots   \cdots   \\n  1  2  \cdots   n-3  n-2  n-1  \end{pmatrix}$中,
-记位于第$i$行第$j$列的数为$a_{ij}(i,j=1,2\cdots ,n)$. 当$n=9$时, $a_{11}+a_{22}+a_{33}+\cdots +a_{99}=$   45\blank{50}.
-解析: $a_{11}+a_{22}+a_{33}+\cdots +a_{99}=$1+3+5+7+9+2+4+6+8=45
-\item 将直线$l_2:nx+y-n=0$、$l_3:x+ny-n=0$($n\in \mathbf{N}^*$, $n\ge 2$)x轴、y轴围成的封闭图形的面积记为$S_n$, 则$\undersetn\to \infty \mathop\lim S_n=$    1\blank{50}.
-解析: B$(\dfrac n{n+1},\dfrac n{n+1})$ 所以BO\perp AC,
-$S_n$=$\dfrac 12\times \sqrt 2\times \dfrac n{n+1}\sqrt 2=\dfrac n{n+1}$    所以$\undersetn\to \infty \mathop\lim S_n=\dfrac 12$
-\item 如图所示, 在边长为4的正方形纸片ABCD中, AC与BD相交于O, 剪去$\triangle AOB$, 将剩余部分沿OC、OD折叠, 使OA、OB重合, 则以A、(B)、C、D、O为顶点的四面体的体积为$\dfrac{8\sqrt 2}3$
-解析: 翻折后的几何体为底面边长为4, 侧棱长为$2\sqrt 2$的正三棱锥,
-高为$\dfrac{2\sqrt 6}3$所以该四面体的体积为$\dfrac 13\times \dfrac 12\times 16\times \dfrac{\sqrt 3}2\times \dfrac{2\sqrt 6}3=\dfrac{8\sqrt 2}3$
-\item 如图所示, 直线x=2与双曲线$\Gamma :\dfrac{\lambda ^2}4-y^2=1$的渐近线交于$E_1$, $E_2$两点, 记$\overrightarrow{OE_1}=,\overrightarrow{OE_2}=$, 任取双曲线$\Gamma$上的点P, 若$\overrightarrow{OP}=,+(ab\in \mathbf{R})$, 则a、b满足的一个等式是    4ab=1\blank{50}
-解析: $E_1(2,1),E_2(2,-1)$
-$\overrightarrow{OP}=\overrightarrow{ae}_1+\overrightarrow{be_2}$=$(2a+2b,a-b)$, 点P在双曲线上
-$\therefore \dfrac{(2a+2b)^2}4-(a-b)^2=1$, 化简得4ab1
-\item 以集合U=$\{abcd\}$的子集中选出2个不同的子集, 需同时满足以下两个条件:
-(1)a、b都要选出;
-(2)对选出的任意两个子集A和B, 必有$A\subseteq BB\subseteq A$, 那么共有  36   种不同的选法.
-解析: 列举法  共有36种
-二. 选择题(本大题满分20分)本大题共有4题, 每题有且只有一个正确答案. 考生必须在答题纸的相应编号上, 将代表答案的小方格涂黑, 选对得5分, 否则一律得零分.
-\item ``$x=2k\pi +\dfrac{\pi }4(k\in \mathbf{Z})$''是``$\tan x=1$''成立的\blank{50}[答]( A )
-\fourch{充分不必要条件}{必要不充分条件}{充分条件}{既不充分也不必要条件}
-解析: $\tan (2k\pi +\dfrac{\pi }4)=\tan \dfrac{\pi }4=1$, 所以充分;
-但反之不成立, 如$\tan \dfrac{5\pi }4=1$, 所以不必要
-\item 直线l的参数方程是$\begin{cases} x=1+2t \\ y=2-t \end{cases}(t\in \mathbf{R})$, 则l的方向向量是$\overlined$可以是  【答】(C)
-\fourch{(1, 2)}{(2, 1)}{(-2, 1)}{(1, -2)}
-解析: 直线l的一般方程是$x+2y-5=0$, $k=-\dfrac 12$, 所以C正确
-\item 若$x_0$是方程$(\dfrac 12)^x=x^{\dfrac 13}$的解, 则$x_0$属于区间\blank{50}【答】(C)
-\fourch{($\dfrac 23$, 1)}{($\dfrac 12$, $\dfrac 23$)}{($\dfrac 13$, $\dfrac 12$)}{(0, $\dfrac 13$)}
-解析: 结合图形$\because (\dfrac 12)^{\dfrac 13}>(\dfrac 13)^{\dfrac 13},(\dfrac 12)^{\dfrac 12}<(\dfrac 12)^{\dfrac 13}$, ∴$x_0$属于区间($\dfrac 13$, $\dfrac 12$)
-\item 某人要制作一个三角形, 要求它的三条高的长度分别为$\dfrac 1{13},\dfrac 1{11},\dfrac 15$, 则此人能    【答】(D)
-\fourch{不能作出这样的三角形}{作出一个锐角三角形}{作出一个直角三角形}{作出一个钝角三角形}
-解析: 设三边分别为a, b, c, 利用面积相等可知
-$\dfrac 1{13}a=\dfrac 1{11}b=\dfrac 15c,\therefore a:b:c=13:11:5$
-由余弦定理得$\cos A=\dfrac{5^2+11^2-13^2}{2\times 5\times 11}<0$, 所以角A为钝角
-三、解答题(本大题满分74分)本大题共有5题, 解答下列各题必须在答题纸相应编号的规定区域内写出必要的步骤.
-\item (本题满分12分)
-已知$0<x<\dfrac{\pi }2$, 化简:
-$\lg (\cos x\cdot \tan x+1-2\sin ^2\dfrac x2)+\lg [\sqrt 2\cos (x-\dfrac{\pi }4)]-\lg (1+\sin 2x)$.
-=0
-\item (本题满分13分)本题共有2个 小题, 第一个小题满分5分, 第2个小题满分8分.
-已知数列$\{a_n\}$的前 $n$项和为$S_n$, 且$S_n=n-5a_n-85$, $n\in \mathbf{N}^*$
-(1)证明: $\{a_n-1\}$是等比数列;
-(2)求数列$\{S_n\}$的通项公式, 并求出n为何值时, $S_n$取得最小值, 并说明理由.
-   (2)$S_n$=$n+75(\dfrac 56)^{n-1}-90$  n=15取得最小值
-解析: (1) 当n1时, a114; 当n\ge 2时, anSnSn15an5an11, 所以$a_n-1=\dfrac 56(a_{n-1}-1)$,
-又a1115\ne 0, 所以数列{an1}是等比数列;
-(2) 由(1)知: $a_n-1=-15\cdot (\dfrac 56)^{n-1}$, 得$a_n=1-15\cdot (\dfrac 56)^{n-1}$, 从而$S_n=75\cdot (\dfrac 56)^{n-1}+n-90$(nN*);
-解不等式Sn<Sn1, 得$(\dfrac 56)^{n-1}<\dfrac 25$, $n>\log__{\dfrac 56}\dfrac 2{25}+1\approx 14.9$, 当n\ge 15时, 数列{Sn}单调递增;
-同理可得, 当n\le 15时, 数列{Sn}单调递减; 故当n15时, Sn取得最小值.
-21、(本大题满分13分)本题共有2个小题, 第1小题满分5分, 第2小题满分8分.
-如图所示, 为了制作一个圆柱形灯笼, 先要制作4个全等的矩形骨架, 总计耗用9.6米铁丝, 骨架把圆柱底面8等份, 再用S平方米塑料片制成圆柱的侧面和下底面(不安装上底面).
-(1)当圆柱底面半径$r$取何值时, $S$取得最大值? 并求出该
-最大值(结果精确到0.01平方米);
-(2)在灯笼内, 以矩形骨架的顶点为点, 安装一些霓虹灯, 当灯笼的底面半径为0.3米时, 求图中两根直线$A_1B_3$与$A_3B_5$所在异面直线所成角的大小(结果用反三角函数表示)
-解析: (1) 设圆柱形灯笼的母线长为l, 则l1.22r(0<r<0.6), S3(r0.4)20.48,
-所以当r0.4时, S取得最大值约为1.51平方米;
-(2) 当r0.3时, l0.6, 建立空间直角坐标系, 可得$\overrightarrow{A_1B_3}=(-0.3,0.3,0.6)$, $\overrightarrow{A_3B_5}=(-0.3,-0.3,0.6)$,
-设向量$\overrightarrow{A_1B_3}$与$\overrightarrow{A_3B_5}$的夹角为, 则$\cos \theta =\dfrac{\overrightarrow{A_1B_3}\cdot \overrightarrow{A_3B_5}}{|\overrightarrow{A_1B_3}|\cdot|\overrightarrow{A_3B_5}|}=\dfrac 23$,
-所以A_1B3、A3B5所在异面直线所成角的大小为$\arccos \dfrac 23$.
-\item (本题满分18分)本题共有3个小题, 第1小题满分3分, 第2小题满分5分, 第3小题满分10分.
-若实数$x$、$y$、$m$满足$|x-m||y- m|$, 则称$x$比$y$远离$m$.
-(1)若$x^2-1$比1远离0, 求$x$的取值范围;
-(2)对任意两个不相等的正数$a$、$b$, 证明: $a^3+b^3$比$a^2b+ab^2$远离$2ab\sqrt {ab}$;
-(3)已知函数$f(x)$的定义域$D=x| x\ne \dfrac{k\pi }2+\dfrac{\pi }4k\in \mathbf{Z}x\in \mathbf{R} $.任取$x\in D$, $f(x)$等于$\sin x$和$\cos x$中远离0的那个值.写出函数$f(x)$的解析式, 并指出它的基本性质(结论不要求证明).
-解析: (1) $x\in (-\infty ,-\sqrt 2)\cup (\sqrt 2.+\infty)$;
-(2) 对任意两个不相等的正数a、b, 有$a^3+b^3>2ab\sqrt {ab}$, $a^2b+ab^2>2ab\sqrt {ab}$,
-因为$|a^3+b^3-2ab\sqrt {ab}|-|a^2b+ab^2-2ab\sqrt {ab}|=(a+b)(a-b)^2>0$,
-所以$|a^3+b^3-2ab\sqrt {ab}|>|a^2b+ab^2-2ab\sqrt {ab}|$, 即a3b3比a2bab2远离$2ab\sqrt {ab}$;
-(3) $f(x)=\begin{array}*35l|\sin x|,  x\in (k\pi +\dfrac{\pi }4,k\pi +\dfrac{3\pi }4)  \\|\cos x|,  x\in (k\pi -\dfrac{\pi }4,k\pi +\dfrac{\pi }4)  \end{array}$,
-性质: 1f(x)是偶函数, 图像关于y轴对称, 2f(x)是周期函数, 最小正周期$T=\dfrac{\pi }2$,
-3函数f(x)在区间$(\dfrac{k\pi }2-\dfrac{\pi }4,\dfrac{k\pi }2]$单调递增, 在区间$[\dfrac{k\pi }2,\dfrac{k\pi }2+\dfrac{\pi }4)$单调递减, kZ,
-4函数f(x)的值域为$(\dfrac{\sqrt 2}2,1]$.
-23(本题满分18分)本题共有3个小题, 第1小题满分3分, 第2小题满分6分, 第3小题满分9分.
-已知椭圆$\Gamma$的方程为$\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1(a>b>0)$, 点P的坐标为(-a, b).
-(1)若直角坐标平面上的点M、A(0, -b), B(a, 0)满足$\overset\to \mathopPM=\dfrac{1}{2}(\overset\to \mathopPA+\overset\to \mathopPB)$, 求点$M$的坐标;
-(2)设直线$l_1:y=k_1x+p$交椭圆$\Gamma$于$C$、$D$两点, 交直线$l_2:y=k_2x$于点$E$.若$k_1\cdot k_2=-\dfrac{b^2}{a^2}$, 证明: $E$为$CD$的中点;
-(3)对于椭圆$\Gamma$上的点Q(a cos\theta , b sin\theta )(0<\theta <\pi ), 如果椭圆$\Gamma$上存在不同的两个交点$P_{1}$、$P_{2}$满足$\overset\to \mathopPP_{1}+\overset\to \mathopPP_{2}=\overset\to \mathopPQ$, 写出求作点$P_{1}$、$P_{2}$的步骤, 并求出使$P_{1}$、$P_{2}$存在的\theta 的取值范围.
-解析: (1) $M(\dfrac a2,-\dfrac b2)$;
-(2) 由方程组$\begin{array}*35l
-   y=k_1x+p  \\\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1  \end{array}$, 消y得方程$(a^2k_1^2+b^2)x^2+2a^2k_1px+a^2(p^2-b^2)=0$,
-因为直线$l_1:y=k_1x+p$交椭圆$\Gamma$于$C$、$D$两点,
-所以>0, 即$a^2k_1^2+b^2-p^2>0$,
-设C(x1, y1)、D(x2, y2), CD中点坐标为(x0, y0),
-则$\begin{array}*35l
-   x_0=\dfrac{x_1+x_2}2=-\dfrac{a^2k_1p}{a^2k_1^2+b^2}  \\y_0=k_1x_0+p=\dfrac{b^2p}{a^2k_1^2+b^2}  \end{array}$,
-由方程组$\begin{array}*35l
-   y=k_1x+p  \\y=k_2x  \end{array}$, 消y得方程(k2k1)xp,
-又因为$k_2=-\dfrac{b^2}{a^2k_1}$, 所以$\begin{array}*35l
-   x=\dfrac p{k_2-k_1}=-\dfrac{a^2k_1p}{a^2k_1^2+b^2}=x_0  \\y=k_2x=\dfrac{b^2p}{a^2k_1^2+b^2}=y_0  \end{array}$,
-故E为CD的中点;
-(3) 求作点P1、P2的步骤: 1求出PQ的中点$E(-\dfrac{a(1-\cos \theta)}2,\dfrac{b(1+\sin \theta)}2)$,
-2求出直线OE的斜率$k_2=-\dfrac{b(1+\sin \theta)}{a(1-\cos \theta)}$,
-3由$\overrightarrow{PP_1}+\overrightarrow{PP_2}=\overrightarrow{PQ}$知E为CD的中点, 根据(2)可得CD的斜率$k_1=-\dfrac{b^2}{a^2k_2}=\dfrac{b(1-\cos \theta)}{a(1+\sin \theta)}$,
-4从而得直线CD的方程: $y-\dfrac{b(1+\sin \theta)}2=\dfrac{b(1-\cos \theta)}{a(1+\sin \theta)}(x+\dfrac{a(1-\cos \theta)}2)$,
-5将直线CD与椭圆Γ的方程联立, 方程组的解即为点P1、P2的坐标.
-欲使P1、P2存在, 必须点E在椭圆内,
-所以$\dfrac{(1-\cos \theta)^2}4+\dfrac{(1+\sin \theta)^2}4<1$, 化简得$\sin \theta -\cos \theta <\dfrac 12$, $\sin (\theta -\dfrac{\pi }4)<\dfrac{\sqrt 2}4$,
-又0< <, 即$-\dfrac{\pi }4<\theta -\dfrac{\pi }4<\dfrac{3\pi }4$, 所以$-\dfrac{\pi }4<\theta -\dfrac{\pi }4<\arcsin \dfrac{\sqrt 2}4$,
-故 的取值范围是$(0,\dfrac{\pi }4+\arcsin \dfrac{\sqrt 2}4)$.
-  www.zxsx.com
+
+一、填空题(本大题共有14题, 满分56分)考生应在答题纸相应编号的空格内直接填写结果, 每个空格填对得4分, 否则一律得零分.
+1、设$x\in \mathbf{R}$, 则不等式$|x-3|<1$的解集为\blank{50}.
+2、设$Z=\dfrac{3+2i}i$, 期中$i$为虚数单位, 则$\mathbf Imz$=\blank{50}.
+3、已知平行直线$l_1:2x+y-1=0,l_2:2x+y+1=0$, 则$l_1,l_2$的距离\blank{50}.
+4、某次体检, 6位同学的身高(单位: 米)分别为1.72, 1.78, 1.75, 1.80, 1.69, 1.77则这组数据的中位数是\blank{50}(米).
+5、已知点$(3,9)$在函数$f(x)=1+a^x$的图像上, 则$f(x)f^{-1}(x)=\_\_\_\_\_\_\_\_$.
+6、如图, 在正四棱柱$ABCD-A_1B_1C_1D_1$中, 底面$ABCD$的边长为3, $BD_1$与底面所成角的大小为$\arctan \dfrac 23$, 则该正四棱柱的高等于\blank{50}.
+7、方程$3\sin x=1+\cos 2x$在区间$[0,2\pi]$上的解为\blank{50}
+8、在$(\sqrt[3]x-\dfrac 2x)^n$的二项式中, 所有项的二项式系数之和为256, 则常数项等于\blank{50}.
+9、已知$\triangle ABC$的三边长分别为3, 5, 7, 则该三角形的外接圆半径等于\blank{50}.
+10、设$a>0,b>0.$若关于$x,y$的方程组$\begin{matrix}
+   ax+y=1  \\x+by=1  \end{matrix}$无解, 则$a+b$的取值范围是\blank{50}.
+\item 无穷数列$\{a_n\}$由k个不同的数组成, $S_n$为$\{a_n\}$的前n项和.若对任意$n\in \mathbf{N}^*$, $S_n\in \{2,3\}$, 则k的最大值为\blank{50}.
+\item 在平面直角坐标系中, 已知A(1, 0), B(0, -1), P是曲线$y=\sqrt {1-x^2}$上一个动点, 则$\overrightarrow{BP}\cdot \overrightarrow{BA}$的取值范围是\blank{50}.
+\item 设$a,b\in \mathbf{R},c\in [0,2\pi)$, 若对任意实数$x$都有$2\sin (3x-\dfrac{\pi }3)=a\sin (bx+c)$, 则满足条件的有序实数组$(a,b,c)$的组数为\blank{50}.
+\item 如图, 在平面直角坐标系$xOy$中, O为正八边形$A_1A_2\cdots A_8$的中心, $A_1(1,0)$.任取不同的两点$A_i,A_j$, 点P满足$\overrightarrow{OP}+\overrightarrow{OA_i}+\overrightarrow{OA_j}=\overrightarrow0$, 则点P落在第一象限的概率是\blank{50}.
+二、选择题(5\times 4=20)
+\item 设$a\in \mathbf{R}$, 则``$a>1$''是``$a^2>1$''的\bracket{20}	
+\fourch{充分非必要条件}{必要非充分条件}{充要条件}{既非充分也非必要条件}
+\item 下列极坐标方程中, 对应的曲线为右图的是\bracket{20}.
+\fourch{$\rho =6+5\textcos\theta$}{$\rho =6+5\sin \theta$}{$\rho =6-5\textcos\theta$}{$\rho =6-5\sin \theta$}
+\item 已知无穷等比数列$\{a_n\}$的公比为$q$, 前n项和为$S_n$, 且$\undersetn\to \infty \mathop\lim S_n=S$.下列条件中, 使得$2S_n<S(n\in \mathbf{N}^*)$恒成立的是\bracket{20}.
+\fourch{$a_1>0,0.6<q<0.7$}{$a_1<0,-0.7<q<-0.6$}{$a_1>0,0.7<q<0.8$}{$a_1<0,-0.8<q<-0.7$}
+18、设$f(x)$、$g(x)$、$h(x)$是定义域为$R$的三个函数, 对于命题: \textcircled{1} 若$f(x)+g(x)$、$f(x)+h(x)$、$g(x)+h(x)$均为增函数, 则$f(x)$、$g(x)$、$h(x)$中至少有一个增函数; \textcircled{2} 若$f(x)+g(x)$、$f(x)+h(x)$、$g(x)+h(x)$均是以$T$为周期的函数, 则$f(x)$、$g(x)$、$h(x)$均是以$T$为周期的函数, 下列判断正确的是\bracket{20}.
+$A$、\textcircled{1} 和\textcircled{2} 均为真命题\blank{50}$B$、\textcircled{1} 和\textcircled{2} 均为假命题
+$C$、\textcircled{1} 为真命题, \textcircled{2} 为假命题   $D$、\textcircled{1} 为假命题, \textcircled{2} 为真命题
+三、解答题(74分)
+\item 将边长为1的正方形$AA_1O_1O$(及其内部)绕的$OO_1$旋转一周形成圆柱, 如图, $\overset\frownAC$长为$\dfrac 23\pi$, $\overset\frownA_1B_1$长为$\dfrac{\pi }3$, 其中$B_1$与$C$在平面$AA_1O_1O$的同侧.
+(1)求三棱锥$C-O_1A_1B_1$的体积;
+(2)求异面直线$B_1C$与$AA_1$所成的角的大小.
+20、(本题满分14)
+  有一块正方形菜地$EFGH$, $EH$所在直线是一条小河, 收货的蔬菜可送到$F$点或河边运走. 于是, 菜地分为两个区域$S_1$和$S_2$, 其中$S_1$中的蔬菜运到河边较近, $S_2$中的蔬菜运到$F$点较近, 而菜地内$S_1$和$S_2$的分界线$C$上的点到河边与到$F$点的距离相等, 现建立平面直角坐标系, 其中原点$O$为$EF$的中点, 点$F$的坐标为(1, 0), 如图
+(1)求菜地内的分界线$C$的方程
+(2)菜农从蔬菜运量估计出$S_1$面积是$S_2$面积的两倍, 由此得到$S_1$面积的``经验值''为$\dfrac 83$. 设$M$是$C$上纵坐标为1的点, 请计算以$EH$为一边、另一边过点$M$的矩形的面积, 及五边形$EOMGH$的面积, 并判断哪一个更接近于$S_1$面积的经验值
+\item (本题满分14分)本题共有2个小题, 第1小题满分6分, 第2小题满分8分.
+	双曲线$x^2-\dfrac{y^2}{b^2}=1(b>0)$的左、右焦点分别为$F_1F_2$, 直线$l$过$F_2$且与双曲线交于$AB$两点.
+(1)若$l$的倾斜角为$\dfrac{\pi }2$, $\triangle F_1AB$是等边三角形, 求双曲线的渐近线方程;
+(2)设$b=\sqrt 3$, 若$l$的斜率存在, 且$(\overrightarrow{F_1A}+\overrightarrow{F_1B})\cdot \overrightarrow{AB}=0$, 求$l$的斜率.
+\item (本题满分16分)本题共有3个小题, 第1小题满分4分, 第2小题满分6分, 第3小题满分6分.
+	已知$a\in \mathbf{R}$, 函数$f(x)=\log__2(\dfrac 1x+a)$.
+(1)当$a=5$时, 解不等式$f(x)>0$;
+(2)若关于$x$的方程$f(x)-\log__2[(a-4)x+2a-5]=0$的解集中恰好有一个元素, 求$a$的取值范围;
+(3)设$a>0$, 若对任意$t\in [\dfrac 12,1]$, 函数$f(x)$在区间$[t,t+1]$上的最大值与最小值的差不超过1, 求$a$的取值范围.
+\item (本题满分18分)本题共有3个小题, 第1小题满分4分, 第2小题满分6分, 第3小题满分8分.
+	若无穷数列$\{a_n\}$满足: 只要$a_p=a_q(p,q\in \mathbf{N}^*)$, 必有$a_{p+1}=a_{q+1}$, 则称$\{a_n\}$具有性质$P$.
+(1)若$\{a_n\}$具有性质$P$, 且$a_1=1,a_2=2,a_4=3,a_5=2$, $a_6+a_7+a_8=21$, 求$a_3$;
+(2)若无穷数列$\{b_n\}$是等差数列, 无穷数列$\{c_n\}$是公比为正数的等比数列, $b_1=c_5=1$, $b_5=c_1=81$, $a_n=b_n+c_n$判断$\{a_n\}$是否具有性质$P$, 并说明理由;
+(3)设$\{b_n\}$是无穷数列, 已知$a_{n+1}=b_n+\sin a_n(n\in \mathbf{N}^*)$.求证: ``对任意$a_1,\{a_n\}$都具有性质$P$''的充要条件为``$\{b_n\}$是常数列''.
