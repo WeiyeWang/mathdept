@@ -1,7 +1,7 @@
 \begin{center}
-\begin{tabular}{|c|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|}
 \hline
-$x$ & $1$ & $2$ & $3$ & $4$ & $5$ \\ \hline
-$y$ & $2.2$ & $1$ & $2$ & $4.6$ & $7$ \\ \hline
+$x$ & $7$ & $8$ & $9$ & $10$ \\ \hline
+$P(\xi=x)$ & $0.3$ & $0.35$ & $0.2$ & $0.15$ \\ \hline
 \end{tabular}
 \end{center}

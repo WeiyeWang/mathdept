@@ -17,7 +17,7 @@
 (11) ``$0<x<3$''是``$|x-1|<2$'' 的\blank{50}条件.
 <E题目>
 <B目标>
-
+K0106001B
 <E目标>
 <B标签>
 第一单元
@@ -66,7 +66,8 @@
 \fourch{$bc<ad$}{$bc>ad$}{$\dfrac ac>\dfrac bd$}{$\dfrac ac<\dfrac bd$}
 <E题目>
 <B目标>
-
+K0111001B
+K0111003B
 <E目标>
 <B标签>
 第一单元
@@ -115,7 +116,8 @@
 \fourch{$\{ a\}\subset M$}{$a\subset M$}{$\{ a\}\notin M$}{$a\notin M$}
 <E题目>
 <B目标>
-
+K0101001B
+K0103005B
 <E目标>
 <B标签>
 第一单元
@@ -164,7 +166,8 @@
 \fourch{$M=P$}{$M\subset P$}{$M\supset P$}{$M\not\subset P$且$M\not\supset P$}
 <E题目>
 <B目标>
-
+K0103005B
+K0102002B
 <E目标>
 <B标签>
 第一单元
@@ -275,10 +278,10 @@ D
 \twoch{$\{x|-3<x<-\sqrt 2\text{或}\sqrt 2<x<2\}$}{$\mathbf{R}$}{$\{x|-3<x<-\sqrt 2\}$}{$\{x|\sqrt 2<x<2\}$}
 <E题目>
 <B目标>
-
+K0104001B
 <E目标>
 <B标签>
-
+第一单元
 <E标签>
 <B类型>
 选择题
