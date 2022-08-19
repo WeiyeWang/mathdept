@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  19 AUG 2022 20:28
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  19 AUG 2022 21:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -756,7 +756,8 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \c@coro=\count346
 \c@axiom=\count347
 \c@prop=\count348
- (./test2.aux)
+
+No file test2.aux.
 \openout1 = `test2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
@@ -775,7 +776,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
- ABD: EverySelectfont initializing macros
+ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 45.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -868,27 +869,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
-(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
- (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 50.
- (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
-
-] (./test2.aux) ) 
+(./test2.aux) ) 
 Here is how much of TeX's memory you used:
- 21599 strings out of 476919
- 491117 string characters out of 5825424
- 808781 words of memory out of 5000000
- 41159 multiletter control sequences out of 15000+600000
- 405760 words of font info for 55 fonts, out of 8000000 for 9000
+ 21337 strings out of 476919
+ 486135 string characters out of 5825424
+ 802410 words of memory out of 5000000
+ 40923 multiletter control sequences out of 15000+600000
+ 403550 words of font info for 42 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,5n,104p,412b,686s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,1n,104p,412b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on test2.pdf (1 page).
+No pages of output.
