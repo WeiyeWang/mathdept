@@ -361,7 +361,7 @@ def create_string_from_dict(dict):
                 string += "\n".join(dict[item]) + "\n"
         string += "<E"+delimeters_dict[item]+">"
         string += "\n"
-    string += tail + "\n"
+    string += tail
     return(string)
 
 def create_new_dict(id_num):
