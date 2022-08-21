@@ -1,0 +1,161 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[UTF8,fontset = windows]{ctex}
+\setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{华文中宋}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
+\usepackage{ifthen,indentfirst,enumerate,color,titletoc}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{longtable}
+\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing,3d,angles,quotes,positioning}
+\usepackage[bf,small,indentafter,pagestyles]{titlesec}
+\usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
+\renewcommand{\baselinestretch}{1.65}
+\newtheorem{defi}{定义~}
+\newtheorem{eg}{例~}
+\newtheorem{ex}{~}
+\newtheorem{rem}{注~}
+\newtheorem{thm}{定理~}
+\newtheorem{coro}{推论~}
+\newtheorem{axiom}{公理~}
+\newtheorem{prop}{性质~}
+\newcommand{\blank}[1]{\underline{\hbox to #1pt{}}}
+\newcommand{\bracket}[1]{(\hbox to #1pt{})}
+\newcommand{\onech}[4]{\par\begin{tabular}{p{.9\textwidth}}
+A.~#1\\
+B.~#2\\
+C.~#3\\
+D.~#4
+\end{tabular}}
+\newcommand{\twoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+A.~#1& B.~#2\\
+C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\vartwoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+(1)~#1& (2)~#2\\
+(3)~#3& (4)~#4
+\end{tabular}}
+\newcommand{\fourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+A.~#1 &B.~#2& C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\varfourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+(1)~#1 &(2)~#2& (3)~#3& (4)~#4
+\end{tabular}}
+\begin{document}
+
+\begin{enumerate}[1.]
+
+\item {\tiny (005100)}利用反证法证明: 若$x,y>0$, 且$x+y>2$, 则$\dfrac{1+y}x$和$\dfrac{1+x}y$中至少有一个小于$2$.
+\item {\tiny (005101)}利用反证法证明: 若$0<a<1$, $b>0$, 且$a^b=b^a$, 则$a=b$.
+\item {\tiny (005102)}若$a>0$, $b>0$, 且$a^3+b^3=2$, 试分别利用$x^3+y^3+z^3\ge 3xyz$($x,y,z\ge 0$)构造方程, 并利用判别式以及反证法证明: $a+b\le 2$.
+\item {\tiny (005103)}下列函数中, 最小值为$2$的是\bracket{20}.
+\twoch{$x+\dfrac 1x$}{$\dfrac{x^2+2}{\sqrt{x^2+1}}$}{$\log_ax+\log_xa$($a>0$, $x>0$, $a\ne 1$, $x\ne 1$)}{$3^x+3^{-x}$($x>0$)}
+\item {\tiny (005104)}若$\log_{\sqrt 2}x+\log_{\sqrt 2}y=4$, 则$x+y$的最小值是\bracket{20}.
+\fourch{$8$}{$4\sqrt 2$}{$4$}{$2$}
+\item {\tiny (005105)}若$a,b$均为大于$1$的正数, 且$ab=100$, 则$\lg a\cdot \lg b$的最大值是\bracket{20}.
+\fourch{$0$}{$1$}{$2$}{$\dfrac 52$}
+\item {\tiny (005106)}若实数$x$与$y$满足$x+y-4=0$, 则$x^2+y^2$的最小值是\bracket{20}.
+\fourch{$4$}{$6$}{$8$}{$10$}
+\item {\tiny (005107)}若非负实数$a,b$满足$2a+3b=10$, 则$\sqrt{3b}+\sqrt{2a}$的最大值是\bracket{20}.
+\fourch{$\sqrt{10}$}{$2\sqrt 5$}{$5$}{$10$}
+\item {\tiny (005108)}若$x>1$, 则$\dfrac{x^2-2x+2}{2x-2}$有\bracket{20}.
+\fourch{最小值$1$}{最大值$1$}{最小值$-1$}{最大值$-1$}
+\item {\tiny (005109)}若$x,y\in \mathbf{R}^+$, 且$x^2+y^2=1$, 则$x+y$的最大值是\blank{50}.
+\item {\tiny (005110)}若$x+2y=2\sqrt 2a$($x>0$, $y>0$, $a>1$), 则$\log_ax+\log_ay$的最大值是\blank{50}.
+\item {\tiny (005111)}若$x>1$, 则$2+3x+\dfrac 4{x-1}$的最小值\blank{50}, 此时$x=$\blank{50}.
+\item {\tiny (005112)}若$x>0$, 则$x+\dfrac 1x+\dfrac{16x}{x^2+1}$的最小值是\blank{50}, 此时$x=$\blank{50}.
+\item {\tiny (005113)}若正数$a,b$满足$a^2+\dfrac{b^2}2=1$, 则$a\sqrt{1+b^2}$的最大值为\blank{50}, 此时$a=$\blank{50}, $b=$\blank{50}.
+\item {\tiny (005114)}若$x>0$, 则$3x+\dfrac{12}{x^2}$的最小值是\blank{50}, 此时$x=$\blank{50}.
+\item {\tiny (005115)}若$0<x<\dfrac 13$, 则$x^2(1-3x)$的最大值是\blank{50}, 此时$x=$\blank{50}.
+\item {\tiny (005116)}若$xy>0$, 且$x^2y=2$, 则$xy+x^2$的最小值是\blank{50}.
+\item {\tiny (005118)}若正数$x,y,z$满足$5x+2y+z=100$, 则$\lg x+\lg y+\lg z$的最大值是\blank{50}.
+\item {\tiny (005119)}若$\dfrac{x^2}4+{y^2}=x$, 则$x^2+y^2$有\bracket{20}.
+\fourch{最小值$0$, 最大值$16$}{最小值$-\dfrac 13$, 最大值$0$}{最小值$0$, 最大值$1$}{最小值$1$, 最大值$2$}
+\item {\tiny (005121)}若$x>0$, 则$\dfrac x{x^3+2}$的最大值是\bracket{20}.
+\fourch{$5$}{$3$}{$1$}{$\dfrac 13$}
+\item {\tiny (005122)}若正数$a,b$满足$ab-(a+b)=1$, 则$a+b$的最小值是\bracket{20}.
+\fourch{$2+2\sqrt 2$}{$2\sqrt 2-2$}{$\sqrt 5+2$}{$\sqrt 5-2$}
+\item {\tiny (005127)}若$x,y>0$, 求$\dfrac{\sqrt x+\sqrt y}{\sqrt{x+y}}$的最大值.
+\item {\tiny (005128)}已知正常数$a,b$和正变数$x,y$满足$a+b=10$, $\dfrac ax+\dfrac by=1$, $x+y$的最小值为$18$, 求$a,b$的值.
+\item {\tiny (005129)}已知$x^2+y^2=1$, 求$(1+xy)(1-xy)$的最大值和最小值.
+\item {\tiny (005130)}已知$x^2+y^2=3$, $a^2+b^2=4$, 求$ax+by$的最大值和最小值.
+\item {\tiny (005131)}已知$\sqrt{1-y^2}+y\sqrt{1-x^2}=1$, 求$x+y$的最大值和最小值.
+\item {\tiny (005132)}已知函数$f(x)=\dfrac{2^{x+3}}{{4^x}+8}$.\\
+(1) 求$f(x)$的最大值;\\
+(2) 对于任意实数$a,b$, 求证: $f(a)<b^2-4b+\dfrac{11}2$.
+\item {\tiny (005133)}若直角三角形的周长为$1$, 求它的面积的最大值.
+\item {\tiny (005134)}若直角三角形的内切圆半径为$1$, 求它的面积的最小值.
+\item {\tiny (005135)}若球半径为$R$, 试求它的内接圆柱的最大体积. 请指出下向解法的错误, 并给出正确的解答.\\
+解: 设圆柱底面半径为$r$, 则$4r^2=4R^2-h^2$, 而$V_=\pi {r^2}h=\dfrac{\pi}4(4{R^2}-{h^2})h=\dfrac{\pi }4(2R+h)(2R-h)=\dfrac{\pi}8(2R+h)(4R-2h)h\le \dfrac{\pi}8(\dfrac{2R+h+4R-2h+h}3)^3=\dfrac{\pi}8(2R)^3=\pi R^3$. 所以所求最大体积为$\pi R^3$.
+\item {\tiny (005136)}在$\triangle ABC$中, 已知$BC=a$, $CA=b$, $AB=c$, $\angle ACB=\theta$. 现将$\triangle ABC$分别以$BC,CA,AB$所在直线为轴旋转一周, 设所得三个旋转体的体积依次为$V_1,V_2,V_3$.\\
+(1) 设$T=\dfrac{V_3}{V_1+V_2}$, 试用$a,b,c$表示$T$;\\
+(2) 若$\theta$为定值, 并令$\dfrac{a+b}c=x$, 将$T=\dfrac{V_3}{V_1+V_2}$表示为$x$的函数, 写出这个函数的定义域, 并求这个函数的最大值$M$;\\
+(3) 若$\theta \in [\dfrac{\pi }3,\pi)$, 求(2)中$M$的最大值.
+\item {\tiny (005137)}已知$A(0,\sqrt 3a)$, $B(-a,0)$, $C(a,0)$是等边$\triangle ABC$的顶点, 点$M,N$分别在边$AB,BC$上, 且将$\triangle ABC$的面积两等分, 记$N$的横坐标为$x$, $|MN|=y$.\\
+(1) 写出$y=f(x)$的表达式;\\
+(2) 求$y=f(x)$的最小值.
+\item {\tiny (005139)}已知关于$x$的不等式$ax^2+bx+c>0$的解集是$\{x|\alpha<x<\beta\}$, 其中$0<\alpha<\beta$, 求$cx^2+bx+a<0$的解集.
+\item {\tiny (005140)}解不等式$(x+1)^2(x-1)(x-4)^3>0$.
+\item {\tiny (005141)}解不等式$\dfrac{3x^2-14x+14}{x^2-6x+8}\ge 1$.
+\item {\tiny (005142)}解不等式$\sqrt{x^2-3x+2}>x-3$.
+\item {\tiny (005143)}解不等式$\sqrt{2x-1}<x-2$.
+\item {\tiny (005144)}解不等式$|x^2-4|\le x+2$.
+\item {\tiny (005145)}解不等式$|x^2-\dfrac 12|>2x$.
+\item {\tiny (005146)}解关于$x$的不等式$|\log_ax|<|\log_a(ax^2)|-2$($0<a<1$).
+\item {\tiny (005147)}若关于$x$的不等式$2x-1>a(x-2)$的解集是$\mathbf{R}$, 则实数$a$的取值范围是\bracket{20}.
+\fourch{$a>2$}{$a=2$}{$a<2$}{$a$不存在}
+\item {\tiny (005148)}若关于$x$的不等式$ax^2+bx-2>0$的解集是$(-\infty ,-\dfrac 12)\cup (\dfrac 13,+\infty)$, 则$ab$等于\bracket{20}.
+\fourch{$-24$}{$24$}{$14$}{$-14$}
+\item {\tiny (005149)}若关于$x$的不等式$(a-2)x^2+2(a-2)x-4<0$对一切实数$x$恒成立, 则实数$a$的取值范围是\bracket{20}.
+\fourch{$(-\infty ,2]$}{$(-\infty,-2)$}{$(-2,2]$}{$(-2,2)$}
+\item {\tiny (005151)}若关于$x$的不等式$(a+b)x+2a-3b<0$的解集是$\{x|x<-\dfrac 13\}$, 则$(a-3b)x+b-2a>0$的解集是\blank{50}.
+\item {\tiny (005152)}若不等式$\dfrac{2x^2+2kx+k}{4x^2+6x+3}<1$对一切$x\in \mathbf{R}$恒成立, 则实数$k$的取值范围是\blank{50}.
+\item {\tiny (005153)}若关于$x$的不等式$ax^2+bx+c>0$的解集是$\{x|3<x<5\}$, 则不等式$cx^2+bx+a<0$的解集是\blank{50}.
+\item {\tiny (005154)}若关于$x$的不等式$\dfrac{x-a}{x^2-3x+2}\ge 0$的解集是$\{x|1<x\le ax>2\}$, 则实数$a$的取值范围是\blank{50}.
+\item {\tiny (005155)}不等式$(x+2)(x+1)^2(x-1)^3(x-3)>0$的解集为:\blank{50}.
+\item {\tiny (005156)}不等式$\dfrac{(x-1)^2(x+2)}{(x-3)(x-4)}\le 0$的解集为:\blank{50}.
+\item {\tiny (005157)}不等式$x+1\le \dfrac 4{x+1}$的解集为:\blank{50}.
+\item {\tiny (005158)}若不等式$f(x)\ge 0$的解集为$[1,2]$, 不等式$g(x)\ge 0$的解集为$\varnothing$, 则不等式$\dfrac{f(x)}{g(x)}$的解集是\bracket{20}.
+\fourch{$\varnothing$}{$(-\infty ,1)\cup (2,+\infty)$}{$[1,2)$}{$\mathbf{R}$}
+\item {\tiny (005159)}若关于$x$的不等式$ax^2-bx+c<0$的解集为$(-\infty ,\alpha)\cup (\beta ,+\infty)$, 其中$\alpha <\beta <0$, 则不等式$cx^2+bx+a>0$的解集为\bracket{20}.
+\fourch{$(\dfrac 1{\beta},\dfrac 1{\alpha})$}{$(\dfrac 1{\alpha},\dfrac 1{\beta})$}{$(-\dfrac 1{\beta},-\dfrac 1{\alpha})$}{$(-\dfrac 1{\alpha},-\dfrac 1{\beta})$}
+\item {\tiny (005160)}解关于$x$的不等式: $m^2x-1<x+m$.
+\item {\tiny (005161)}解关于$x$的不等式: $x^2-ax-2a^2<0$.
+\item {\tiny (005162)}已知关于$x$的不等式$\sqrt x>ax+\dfrac 32$的解集是$\{x|4<x<b\}$, 求$a,b$的值.
+\item {\tiny (005163)}已知$x=3$是不等式$ax>b$解集中的元素, 求实数$a,b$应满足的条件.
+\item {\tiny (005164)}已知集合$\{x|x<-2\text{或}x>3\}$是集合$\{x|2ax^2+(2-ab)x-b>0\}$的子集, 求实数$a,b$的取值范围.
+\item {\tiny (005165)}已知集合$A=\{x|\dfrac{2x-1}{x^2+3x+2}>0\}$, $B=\{x|x^2+ax+b\le 0\}$, 且$A\cap B=\{x|\dfrac 12<x\le 3\}$, 求实数$a,b$的取值范围.
+\item {\tiny (005166)}已知集合$A=\{x|(x+2)(x+1)(2x-1)>0\}$, $B=\{x|x^2+ax+b\le 0\}$, 且$A\cup B=\{x|x+2 >0\}$, $A\cap B=\{x|\dfrac 12<x\le 3\}$, 求实数$a,b$的值.
+\item {\tiny (005167)}已知关于$x$的不等式$x^2-ax-6a\le 0$有解, 且解$x_1,x_2$满足$|x_1-x_2|\le 5$, 求实数$a$的取值范围.
+\item {\tiny (005168)}已知关于$x$的方程$3x^2+x\log_{\frac 12}^2a+2\log_{\frac 12}a=0$的两根$x_1,x_2$满足条件$-1<x_1<0<x_2<1$, 求实数$a$的取值范围.
+\item {\tiny (005169)}已知关于$x$的方程$x^2+(m^2-1)x+m-2=0$的一个根比$-1$小, 另一个根比$1$大, 求参数$m$的取值范围.
+\item {\tiny (005170)}已知集合$A=\{x|x-a>0\}$, $B=\{x|x^2-2ax-3a^2<0\}$, 求$A\cap B$与$A\cup B$.
+\item {\tiny (005171)}不等式$\sqrt{x+3}>-1$的解集是\bracket{20}.
+\fourch{$\{x|x>-2\}$}{$\{x|x\ge -3\}$}{$\varnothing$}{$\mathbf{R}$}
+\item {\tiny (005172)}不等式$(x-1)\sqrt{x+2}\ge 0$的解集是\bracket{20}.
+\fourch{$\{x|x>1\}$}{$\{x|x\ge 1\}$}{$\{x|x\ge 1\text{或}x=-2\}$}{$\{x|x>1\text{或}x=-2\}$}
+\item {\tiny (005173)}与不等式$\sqrt{(x-4)(x+3)}\le 1$的解完全相同的不等式是\bracket{20}.
+\fourch{$|(x-4)(x+3)|\le 1$}{$(x-4)(x+3)\le 1$}{$\lg [ (x-4)(x+3) ]\le 0$}{$0\le (x-4)(x+3)\le 1$}
+\item {\tiny (005174)}解不等式: $\sqrt{x-5}+4x-3>3x+1+\sqrt{x-5}$.
+\item {\tiny (005175)}解不等式: $\sqrt{x^2+1}>\sqrt{x^2-x+3}$.
+\item {\tiny (005176)}解不等式: $(x-4)\sqrt{x^2-3x-4}\ge 0$.
+\item {\tiny (005177)}解不等式: $\dfrac{x+1}{x+4}\sqrt{\dfrac{x+3}{1-x}}<0$.
+\item {\tiny (005178)}解不等式: $\sqrt{x+2}+\sqrt{x-5}\ge \sqrt{5-x}$.
+\item {\tiny (005179)}解不等式: $\sqrt{x-6}+\sqrt{x-3}\ge \sqrt{3-x}$.
+\item {\tiny (005180)}解不等式: $\sqrt{2-x}<x$.
+\item {\tiny (005181)}解不等式: $\sqrt{4-x^2}<x+1$.
+\item {\tiny (005182)}解不等式: $\sqrt{3-2x}>x$.
+\item {\tiny (005183)}解不等式: $\sqrt{(x-1)(2-x)}>4-3x$.
+\item {\tiny (005184)}不等式$\sqrt{4-x^2}+\dfrac{|x|}x\ge 0$的解集是\bracket{20}.
+\fourch{$[-2,2]$}{$[-\sqrt 3,0)\cup (0,2]$}{$[-2,0]\cup (0,2]$}{$[-\sqrt 3,0)\cup (0,\sqrt 3]$}
+\item {\tiny (005185)}已知关于$x$的不等式$\sqrt{2x-x^2}>kx$的解集是$\{x|0<x\le 2\}$, 则实数$k$的取值范围是\bracket{20}.
+\fourch{$k<0$}{$k\ge 0$}{$0<k<2$}{$-\dfrac 12<k<0$}
+\item {\tiny (005186)}解不等式: $\sqrt{2x-4}-\sqrt{x+5}<1$.
+\item {\tiny (005187)}解不等式: $\sqrt{x^2-5x-6}<|x-3|$.
+\item {\tiny (005188)}解不等式: $|2\sqrt{x+3}-x+1|<1$.
+\item {\tiny (005189)}解关于$x$的不等式: $\sqrt{a(a-x)}>a-2x$($a>0$).
+\end{enumerate}
+
+
+
+\end{document}
