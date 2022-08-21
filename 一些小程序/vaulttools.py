@@ -355,7 +355,7 @@ def create_string_from_dict(dict):
             else:
                 string += "\n"
         elif type(dict[item]) == list:
-            if item == "标签":
+            if item == "tags":
                 string += "|".join(dict[item]) + "\n"
             else:
                 string += "\n".join(dict[item]) + "\n"

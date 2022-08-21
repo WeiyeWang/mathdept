@@ -9296,7 +9296,7 @@ K0118003B
 005088
 <EID>
 <B题目>
-求证: $\dfrac{x+b+c+abc}{1+ab+bc+ca}\le 1$, 其中$0\le a\le 1$, $0\le b\le 1$, $0\le c\le 1$.
+求证: $\dfrac{a+b+c+abc}{1+ab+bc+ca}\le 1$, 其中$0\le a\le 1$, $0\le b\le 1$, $0\le c\le 1$.
 <E题目>
 <B目标>
 
