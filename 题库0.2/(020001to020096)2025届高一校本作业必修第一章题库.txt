@@ -10,7 +10,7 @@
 (4) 大于$10$且小于$15$的有理数;\\
 (5) 末位是$3$的自然数;\\
 (6) 影响力比较大的中国数学家;\\
-(7) 方程$x^2+x+3=0$的所有实数解;\\ 
+(7) 方程$x^2+x-3=0$的所有实数解;\\ 
 (8) 函数$y=\dfrac 1x$图像上所有的点;\\ 
 (9) 在平面直角坐标系中, 到定点$(0, 0)$的距离等于$1$的所有点;\\
 (10) 不等式$3x-10<0$的所有正整数解;\\
@@ -384,8 +384,8 @@ K0102004B
 <EID>
 <B题目>
 用适当的方法表示下列集合:\\
-(1) 能被$10$整除的所有正整数组成的集合;\\
-(2) 能整除$10$的所有正整数组成的集合;\\
+(1) 能整除$10$的所有正整数组成的集合;\\
+(2) 能被$10$整除的所有正整数组成的集合;\\
 (3) 方程$x^2+2=0$的实数解组成的集合;\\
 (4) 方程组$\begin{cases}2x+y=0, \\ x-y+3=0\end{cases}$的所有解组成的集合;\\
 (5) 两直线$y=2x+1$和$y=x-2$的交点组成的集合.
@@ -2843,7 +2843,7 @@ K0104006B
 020058
 <EID>
 <B题目>
-已知$A=\{x|x<2\}$.\\
+已知$A=\{x|x>2\}$.\\
 (1) 若$U=\mathbf{R}$, 则$\overline A=$\blank{50};\\
 (2) 若$U=\{x|x\ge 0\}$, 则$\overline A=$\blank{50};\\
 (3) 若$U= \mathbf{N}$, 则$\overline A=$\blank{50}.
@@ -2945,7 +2945,7 @@ K0104006B
 020060
 <EID>
 <B题目>
-已知集合$U=\{x|x\ge 2\}$, 集合$A=\{y|3\le y<4\}$, 集合$B=\{z|2\le z<5\}$, 则$\overline A\cap B=$\blank{50}; $\overline B\cup A=$\blank{50}.
+已知全集$U=\{x|x\ge 2\}$, 集合$A=\{y|3\le y<4\}$, 集合$B=\{z|2\le z<5\}$, 则$\overline A\cap B=$\blank{50}; $\overline B\cup A=$\blank{50}.
 <E题目>
 <B目标>
 K0104001B
@@ -3205,11 +3205,6 @@ K0103001B
 \draw (0,0) rectangle (3.5,2.5) node [below left, fill = white] {$U$};
 \filldraw [white] (1.5,1.25) circle (1);
 \filldraw [white] (2.5,1.25) circle (0.7);
-\begin{scope}
-    \clip (1.5,1.25) circle (1);
-    \clip (2.5,1.25) circle (0.7);
-    \filldraw [pattern = {north east lines}] (0,0) rectangle (3.5,2.5);
-\end{scope}
 \draw (1.5,1.25) circle (1) node [left] {$A$};
 \draw (2.5,1.25) circle (0.7) node [right] {$B$};
 \end{tikzpicture}
@@ -3218,6 +3213,11 @@ K0103001B
 \draw (0,0) rectangle (3.5,2.5) node [below left, fill = white] {$U$};
 \filldraw [white] (1.5,1.25) circle (1);
 \filldraw [white] (2.5,1.25) circle (0.7);
+\begin{scope}
+    \clip (1.5,1.25) circle (1);
+    \clip (2.5,1.25) circle (0.7);
+    \filldraw [pattern = {north east lines}] (0,0) rectangle (3.5,2.5);
+\end{scope}
 \draw (1.5,1.25) circle (1) node [left] {$A$};
 \draw (2.5,1.25) circle (0.7) node [right] {$B$};
 \end{tikzpicture}
@@ -3569,8 +3569,8 @@ K0105002B
 (10) 若关于$x$的方程$ax^2+bx+c=0$($a\ne 0$)的两实数根之积是正数, 则$ac>0$;\blank{50};\\
 (11) 若某个整数不是偶数, 则这个数不能被$4$整除;\blank{50};\\
 (12) 合数一定是偶数;\blank{50};\\
-(13) 所有的偶数都是素数或合数;\blank{50};\\
-(14) 所有的偶数都是素数或所有的偶数都是合数;\blank{50};\\
+(13) 所有的正偶数都是素数或合数;\blank{50};\\
+(14) 所有的正偶数都是素数或所有的偶数都是合数;\blank{50};\\
 (15) 如果$A\subset B$, $B\supset C$, 那么$A=C$;\blank{50};\\
 (16) 空集是任何集合的真子集;\blank{50};\\
 (17) 若$x\in \mathbf{R}$, 则方程$x^2-x+1=0$不成立;\blank{50};\\
@@ -3825,7 +3825,7 @@ K0104006B
 020076
 <EID>
 <B题目>
-下列各题中$P$是$Q$的什么条件?(充分非必要、必要非充分、充要、既非充分又非必要)\\
+下列各题中$P$是$Q$的什么条件?(\textcircled{1} 充分非必要、\textcircled{2} 必要非充分、\textcircled{3} 充要、\textcircled{4} 既非充分又非必要)\\
 (1) $P$: $x$是$2$的倍数, $Q$: $x$是$6$的倍数;\blank{50};\\
 (2) $P$: $x$不是$2$的倍数, $Q$: $x$不是$6$的倍数;\blank{50};\\
 (3) $P$: $x\in A$或$x\in B$, $Q$: $x\in A\cap B$;\blank{50};\\
@@ -4023,7 +4023,7 @@ K0106001B
 020080
 <EID>
 <B题目>
-关于$x$的方程$ax^2=0$至少有一个实数根的一个充要条件是\blank{50}.
+关于$x$的方程$ax^2=1$至少有一个实数根的一个充要条件是\blank{50}.
 <E题目>
 <B目标>
 K0106001B
@@ -4121,7 +4121,7 @@ K0107003B
 020082
 <EID>
 <B题目>
-三个数$a$、$b$、$c$不全为零的充要条件是\bracket{20}.
+三个数$a$、$b$、$c$不全为零的一个充要条件是\bracket{20}.
 \twoch{$a,b,c$都不是零}{$a,b,c$中最多一个零}{$a,b,c$中只有一个是零}{$a,b,c$中至少有一个不是零}
 <E题目>
 <B目标>
@@ -4219,11 +4219,11 @@ K0111003B
 020084
 <EID>
 <B题目>
-有限集合$S$中元素的个数记作$\mathrm{card}(S)$, 设$A,B$都是有限集合, 给出下列命题:\\
-\textcircled{1} $A\cap B=\varnothing$的一个充要条件是$\mathrm{card}(A\cup B)=\mathrm{card}(A)+\mathrm{card}(B)$;\\
-\textcircled{2} $A\subseteq B$的一个必要不充分条件是$\mathrm{card}(A)\le \mathrm{card}(B)$; \\
-\textcircled{3} $A$不是$B$的子集的一个充分不必要条件是$\mathrm{card}(A)>\mathrm{card}(B)$;\\ 
-\textcircled{4} $A=B$的一个充要条件是$\mathrm{card}(A)=\mathrm{card}(B)$.\\ 
+有限集合$S$中元素的个数记作$|S|$, 设$A,B$都是有限集合, 给出下列命题:\\
+\textcircled{1} $A\cap B=\varnothing$的一个充要条件是$|A\cup B|=|A|+|B|$;\\
+\textcircled{2} $A\subseteq B$的一个必要不充分条件是$|A|\le |B|$; \\
+\textcircled{3} $A$不是$B$的子集的一个充分不必要条件是$|A|>|B|$;\\ 
+\textcircled{4} $A=B$的一个充要条件是$|A|=|B|$.\\ 
 其中真命题的个数是\bracket{20}.
 \fourch{$0$}{$1$}{$2$}{$3$}
 <E题目>
@@ -4431,7 +4431,7 @@ K0107002B
 020088
 <EID>
 <B题目>
-在横线上写出下列命题的否定形式, 并判断命题真假, 在相应的位置中填入``真''或``假''.\\
+在横线上写出下列命题的否定形式, 并分别判断这两个命题的真假, 在相应的位置中填入``真''或``假''.\\
 (1) $\pi$是无理数; \blank{20}; \blank{150}; \blank{20};\\
 (2) $2+1=4$;  \blank{20}; \blank{150}; \blank{20};\\
 (3) 任何实数是正数或负数;  \blank{20}; \blank{150}; \blank{20};\\
@@ -4441,7 +4441,7 @@ K0107002B
 (7) 对于任意实数$k$, 关于$x$的方程$x^2+x+k=0$都有实数根;  \blank{20}; \blank{250}; \blank{20};\\
 (8) 任何三角形中至多有一个钝角;  \blank{20}; \blank{150}; \blank{20};\\
 (9) 若$a>1$, $b>1$, 则$ab>1$;  \blank{20}; \blank{150}; \blank{20};\\
-(10) 能被$2$整除的整数是质数;  \blank{20}; \blank{150}; \blank{20}.\\
+(10) 能整除$2$的正整数是质数;  \blank{20}; \blank{150}; \blank{20}.\\
 <E题目>
 <B目标>
 K0107001B
@@ -4795,7 +4795,7 @@ K0107002B
 020095
 <EID>
 <B题目>
-证明: 若$x^2\ne y^2$, 则$x\ne y$或$x\ne -y$.
+证明: 若$x^2\ne y^2$, 则$x\ne y$且$x\ne -y$.
 <E题目>
 <B目标>
 K0107003B

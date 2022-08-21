@@ -3,7 +3,7 @@
 030001
 <EID>
 <B题目>
-若$x,y,z$都是实数, 则:(填写``充分非必要、必要非充分、充要、既非充分又非必要''之一)\\
+若$x,y,z$都是实数, 则:(填写``\textcircled{1} 充分非必要、\textcircled{2} 必要非充分、\textcircled{3} 充要、\textcircled{4} 既非充分又非必要''之一)\\
 (1) ``$xy=0$''是``$x=0$''的\blank{50}条件;\\
 (2) ``$x\cdot y=y\cdot z$''是``$x=z$''的\blank{50}条件;\\
 (3) ``$\dfrac xy=\dfrac yz$''是``$xz=y^2$''的\blank{50}条件;\\
