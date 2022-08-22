@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  20 AUG 2022 11:45
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.15)  22 AUG 2022 13:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -868,15 +868,26 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[1
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
+(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 48.
+ (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+) [1
 
 ] (./test2.aux) ) 
 Here is how much of TeX's memory you used:
- 21340 strings out of 476919
- 486164 string characters out of 5825424
- 802410 words of memory out of 5000000
- 40923 multiletter control sequences out of 15000+600000
- 403550 words of font info for 42 fonts, out of 8000000 for 9000
+ 21391 strings out of 476919
+ 487132 string characters out of 5825424
+ 803401 words of memory out of 5000000
+ 40950 multiletter control sequences out of 15000+600000
+ 405768 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  101i,5n,104p,412b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
 
