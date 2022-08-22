@@ -1,12 +1,14 @@
 import os,re,time,shutil
 
 #这里四行每次需要改动
-keywords_in_problem = ["幂","指数","对数","^a","log","lg","ln","^x","^n","^k"]
-keywords_in_objects = []
+keywords_in_problem = ["奇函数","偶函数","奇偶性",]
+keywords_in_objects = ["K0217","K0218"]
 
 keywords_in_tag = ["第二单元"]
 keywords_in_classification = ["选择题","填空题","解答题"]
 #keywords_in_classification = ["填空题","选择题","解答题"]
+#还需要改动已用过的题目列表，在文本处理程序等/usedid.txt中, 可用该目录下的已用题目.ipynb得到
+
 
 def trim(string):
     string = re.sub(r"^[\s\n ]*?","",string)
@@ -45,6 +47,9 @@ def get_objects_list():
         object_dict[name] = "|"+unit+"|"+content
     return(object_dict)
 
+with open("../文本处理程序等/usedid.txt","r",encoding="utf8") as exception_file:
+    exception_list = exception_file.read().split(",")
+
 
 vault_list = [f for f in os.listdir("../题库0.2") if "题库" in f or "vault" in f]
 problems_list = []
@@ -64,7 +69,7 @@ for p in problems_list:
     p_objects = trim(re.findall("<B目标>([\s\S]*?)<E目标>",p)[0])
     p_classification = trim(re.findall("<B类型>([\s\S]*?)<E类型>",p)[0])
     #print([p_id,p_problem,p_tag,p_objects,p_classification])
-    if coincide(keywords_in_tag,p_tag) and (p_classification in keywords_in_classification) and (coincide(keywords_in_problem,p_problem) or  coincide(keywords_in_objects,p_objects)):
+    if coincide(keywords_in_tag,p_tag) and (p_classification in keywords_in_classification) and (coincide(keywords_in_problem,p_problem) or  coincide(keywords_in_objects,p_objects)) and (not p_id in exception_list):
         id_list += p_id + ","
 
 if len(id_list) > 0:
