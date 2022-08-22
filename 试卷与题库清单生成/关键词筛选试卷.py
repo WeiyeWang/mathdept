@@ -1,8 +1,8 @@
 import os,re,time,shutil
 
 #这里四行每次需要改动
-keywords_in_problem = ["奇函数","偶函数","奇偶性",]
-keywords_in_objects = ["K0217","K0218"]
+keywords_in_problem = ["零点","最值","最大","最小","观点"]
+keywords_in_objects = ["K0221","K0222"]
 
 keywords_in_tag = ["第二单元"]
 keywords_in_classification = ["选择题","填空题","解答题"]
