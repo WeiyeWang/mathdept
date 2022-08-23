@@ -1,0 +1,466 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[UTF8,fontset = windows]{ctex}
+\setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{华文中宋}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
+\usepackage{ifthen,indentfirst,enumerate,color,titletoc}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{longtable}
+\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing,3d,angles,quotes,positioning}
+\usepackage[bf,small,indentafter,pagestyles]{titlesec}
+\usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
+\renewcommand{\baselinestretch}{1.65}
+\newtheorem{defi}{定义~}
+\newtheorem{eg}{例~}
+\newtheorem{ex}{~}
+\newtheorem{rem}{注~}
+\newtheorem{thm}{定理~}
+\newtheorem{coro}{推论~}
+\newtheorem{axiom}{公理~}
+\newtheorem{prop}{性质~}
+\newcommand{\blank}[1]{\underline{\hbox to #1pt{}}}
+\newcommand{\bracket}[1]{(\hbox to #1pt{})}
+\newcommand{\onech}[4]{\par\begin{tabular}{p{.9\textwidth}}
+A.~#1\\
+B.~#2\\
+C.~#3\\
+D.~#4
+\end{tabular}}
+\newcommand{\twoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+A.~#1& B.~#2\\
+C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\vartwoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+(1)~#1& (2)~#2\\
+(3)~#3& (4)~#4
+\end{tabular}}
+\newcommand{\fourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+A.~#1 &B.~#2& C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\varfourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+(1)~#1 &(2)~#2& (3)~#3& (4)~#4
+\end{tabular}}
+\begin{document}
+
+\begin{enumerate}[1.]
+
+\item { (003501)}用``$\subseteq$''连接集合$\mathbf{Z}$、$\mathbf{Q}$、$\mathbf{R}$、$\mathbf{C}$:\blank{50}.
+
+
+关联目标:
+
+K0101003B|D01001B|熟悉常用数集的符号, 能在具体的情境中认识和运用.
+
+
+
+标签: 第五单元
+
+答案: 暂无答案
+
+解答或提示: 暂无解答与提示
+
+使用记录:
+
+20220822	2023届高三10班	\fcolorbox[rgb]{0,0,0}{1.000,0.400,0}{0.800}
+
+20220822	2023届高三2班	\fcolorbox[rgb]{0,0,0}{1.000,0.364,0}{0.818}
+
+
+出处: 2022届高三第一轮复习讲义
+\item { (002697)}设全集$U=\{2,3,a^2+2a-3\}$, 集合$A=\{|2a-1|,2\}$, $\overline A=\{5\}$, 则实数$a=$\blank{50}.
+
+
+关联目标:
+
+K0104006B|D01001B|理解在给定集合中一个子集的补集的含义, 在具体数学情境中, 能求给定集合中一个子集的补集.
+
+
+
+标签: 第一单元
+
+答案: 暂无答案
+
+解答或提示: 暂无解答与提示
+
+使用记录:
+
+20220822	2023届高三10班	\fcolorbox[rgb]{0,0,0}{1.000,0.066,0}{0.967}
+
+20220822	2023届高三2班	\fcolorbox[rgb]{0,0,0}{1.000,0.182,0}{0.909}
+
+
+出处: 2022届高三第一轮复习讲义
+\item { (002712)}设集合$A\cap \{-2,0,1\}=\{0,1\}$, $A\cup \{-2,0,2\}=\{-2,0,1,2\}$, 则满足上述条件的集合$A$的个数为\blank{50}个.
+
+
+关联目标:
+
+K0104002B|D01001B|能用文氏图反映两个集合的交集.
+
+K0104004B|D01001B|能用文氏图反映两个集合的并集.
+
+
+
+标签: 第一单元
+
+答案: 暂无答案
+
+解答或提示: 暂无解答与提示
+
+使用记录:
+
+20220822	2023届高三10班	\fcolorbox[rgb]{0,0,0}{1.000,0.400,0}{0.800}
+
+20220822	2023届高三2班	\fcolorbox[rgb]{0,0,0}{1.000,0.304,0}{0.848}
+
+
+出处: 2022届高三第一轮复习讲义
+\item { (002703)}设全集$U=\mathbf{R}$, 函数$y=f(x)$, $y=g(x)$, $y=h(x)$的定义域均为$\mathbf{R}$. 设集合$A=\{x|f(x)=0\}$, $B=\{x|g(x)=0\}$, $C=\{x|h(x)=0, \ x\in \mathbf{R}\}$, 则方程$\dfrac{f^2(x)+g^2(x)}{h(x)}=0$的解集是\blank{50}(用$A,B,C$表示).
+
+
+关联目标:
+
+K0104001B|D01001B|理解两个集合的交集的含义, 在具体数学情境中, 能求两个集合的交集.
+
+K0104007B|D01001B|能用文氏图反映一个集合的补集.
+
+
+
+标签: 第一单元
+
+答案: 暂无答案
+
+解答或提示: 暂无解答与提示
+
+使用记录:
+
+20220822	2023届高三10班	\fcolorbox[rgb]{0,0,0}{1.000,0.134,0}{0.933}
+
+20220822	2023届高三2班	\fcolorbox[rgb]{0,0,0}{1.000,0.182,0}{0.909}
+
+
+出处: 2022届高三第一轮复习讲义
+\item { (001014)}已知集合$M=\{y|y=x+1, \ x \in \mathbf{R}\}$, $N=\{y|y=-x^2+4x,\  x \in \mathbf{R}\}$,
+则$M \cap N=$\blank{80}.
+
+
+关联目标:
+
+K0104001B|D01001B|理解两个集合的交集的含义, 在具体数学情境中, 能求两个集合的交集.
+
+
+
+标签: 第一单元
+
+答案: 暂无答案
+
+解答或提示: 暂无解答与提示
+
+使用记录:
+
+2016届11班	\fcolorbox[rgb]{0,0,0}{0.820,1.000,0}{0.410}
+
+2016届12班	\fcolorbox[rgb]{0,0,0}{0.616,1.000,0}{0.308}
+
+20220822	2023届高三10班	\fcolorbox[rgb]{0,0,0}{1.000,0.866,0}{0.567}
+
+20220822	2023届高三2班	\fcolorbox[rgb]{0,0,0}{1.000,0.182,0}{0.909}
+
+
+出处: 2016届创新班作业	1106-集合的运算
+\item { (004794)}已知非空集合$P$满足: \textcircled{1} $P\subseteq \{1,2,3,4,5\}$; \textcircled{2} 若$a\in P$, 则$6-a\in P$. 符合上述要求的集合P的个数是\bracket{20}.
+\fourch{$4$}{$5$}{$7$}{$31$}
+
+
+关联目标:
+
+K0101001B|D01001B|通过具体的例子理解集合的含义, 理解元素与集合的``属于''关系, 并能用符号表示.
+
+
+
+标签: 第一单元
+
+答案: 暂无答案
+
+解答或提示: 暂无解答与提示
+
+使用记录:
+
+20220822	2023届高三10班	\fcolorbox[rgb]{0,0,0}{1.000,0.134,0}{0.933}
+
+20220822	2023届高三2班	\fcolorbox[rgb]{0,0,0}{1.000,0.182,0}{0.909}
+
+
+出处: 代数精编第一章集合与命题
+\item { (020065)}用集合$A$、$B$的运算式表示图中的阴影部分:\\
+(1) \begin{tikzpicture}
+\draw (0,0) rectangle (3.5,2.5) node [below left] {$U$};
+\filldraw [pattern = {north east lines}] (1.5,1.25) circle (1);
+\filldraw [white] (2.5,1.25) circle (0.7);
+\draw (1.5,1.25) circle (1) node [left, fill = white] {$A$};
+\draw (2.5,1.25) circle (0.7) node [right] {$B$};
+\end{tikzpicture}
+(2) \begin{tikzpicture}
+\filldraw [pattern = {north east lines}] (0,0) rectangle (3.5,2.5);
+\draw (0,0) rectangle (3.5,2.5) node [below left, fill = white] {$U$};
+\filldraw [white] (1.5,1.25) circle (1);
+\filldraw [white] (2.5,1.25) circle (0.7);
+\draw (1.5,1.25) circle (1) node [left] {$A$};
+\draw (2.5,1.25) circle (0.7) node [right] {$B$};
+\end{tikzpicture}
+(3) \begin{tikzpicture}
+\filldraw [pattern = {north east lines}] (0,0) rectangle (3.5,2.5);
+\draw (0,0) rectangle (3.5,2.5) node [below left, fill = white] {$U$};
+\filldraw [white] (1.5,1.25) circle (1);
+\filldraw [white] (2.5,1.25) circle (0.7);
+\begin{scope}
+    \clip (1.5,1.25) circle (1);
+    \clip (2.5,1.25) circle (0.7);
+    \filldraw [pattern = {north east lines}] (0,0) rectangle (3.5,2.5);
+\end{scope}
+\draw (1.5,1.25) circle (1) node [left] {$A$};
+\draw (2.5,1.25) circle (0.7) node [right] {$B$};
+\end{tikzpicture}
+
+
+关联目标:
+
+K0104002B|D01001B|能用文氏图反映两个集合的交集.
+
+K0104004B|D01001B|能用文氏图反映两个集合的并集.
+
+K0104007B|D01001B|能用文氏图反映一个集合的补集.
+
+
+
+标签: 第一单元
+
+答案: 暂无答案
+
+解答或提示: 暂无解答与提示
+
+使用记录:
+
+20220822	2023届高三10班	\fcolorbox[rgb]{0,0,0}{1.000,0.378,0}{0.811}
+
+20220822	2023届高三2班	\fcolorbox[rgb]{0,0,0}{1.000,0.000,0}{1.000}	\fcolorbox[rgb]{0,0,0}{1.000,0.304,0}{0.848}	\fcolorbox[rgb]{0,0,0}{1.000,0.000,0}{1.000}
+
+
+出处: 2025届高一校本作业必修第一章
+\item { (020028)}已知集合$A=\{1\}$, $B=\{x|x\subseteq A\}$, 用列举法表示集合$B$. 并指出$A$与$B$的关系.
+
+
+关联目标:
+
+K0102001B|D01001B|能在具体情境中用列举法表示集合.
+
+
+
+标签: 第一单元
+
+答案: 暂无答案
+
+解答或提示: 暂无解答与提示
+
+使用记录:
+
+20220822	2023届高三10班	\fcolorbox[rgb]{0,0,0}{1.000,0.934,0}{0.533}
+
+20220822	2023届高三2班	\fcolorbox[rgb]{0,0,0}{0.910,1.000,0}{0.455}
+
+
+出处: 2025届高一校本作业必修第一章
+\item { (001016)}已知集合$A=\{1,2\}$, $B=\{x|mx^2+2mx-1<0, x \in\mathbf{R}\}$. 已知$A \cap B=\{1\}$, 求实数$m$的取值范围.
+
+
+关联目标:
+
+K0104001B|D01001B|理解两个集合的交集的含义, 在具体数学情境中, 能求两个集合的交集.
+
+
+
+标签: 第一单元
+
+答案: 暂无答案
+
+解答或提示: 暂无解答与提示
+
+使用记录:
+
+2016届11班	\fcolorbox[rgb]{0,0,0}{1.000,0.410,0}{0.795}
+
+2016届12班	\fcolorbox[rgb]{0,0,0}{1.000,0.616,0}{0.692}
+
+20220822	2023届高三10班	\fcolorbox[rgb]{0,0,0}{1.000,0.600,0}{0.700}
+
+20220822	2023届高三2班	\fcolorbox[rgb]{0,0,0}{1.000,0.728,0}{0.636}
+
+
+出处: 2016届创新班作业	1106-集合的运算
+\item { (010026)}已知集合$A=\{2, (a+1)^2, a^2+3a+3\}$, 且$1\in A$. 求实数$a$的值.
+
+
+关联目标:
+
+K0101001B|D01001B|通过具体的例子理解集合的含义, 理解元素与集合的``属于''关系, 并能用符号表示.
+
+
+
+标签: 第一单元
+
+答案: 暂无答案
+
+解答或提示: 暂无解答与提示
+
+使用记录:
+
+20220822	2023届高三10班	\fcolorbox[rgb]{0,0,0}{1.000,0.066,0}{0.967}
+
+20220822	2023届高三2班	\fcolorbox[rgb]{0,0,0}{1.000,0.484,0}{0.758}
+
+
+出处: 新教材必修第一册习题
+\item { (020034)}已知集合$S=\{1, 2\}$, 集合$T=\{x|ax^2-3x+2=0\}$, 且$S\supseteq T$, 求实数$a$的取值范围.
+
+
+关联目标:
+
+K0103001B|D01001B|理解集合之间包含的概念, 能识别给定集合的子集.
+
+
+
+标签: 第一单元
+
+答案: 暂无答案
+
+解答或提示: 暂无解答与提示
+
+使用记录:
+
+20220822	2023届高三10班	\fcolorbox[rgb]{0,0,0}{1.000,0.486,0}{0.757}
+
+20220822	2023届高三2班	\fcolorbox[rgb]{0,0,0}{1.000,0.424,0}{0.788}
+
+
+出处: 2025届高一校本作业必修第一章
+\item { (004770)}已知$a$是实常数, 集合$A=\{x|x^2-5x+4\le 0\}$与$B=\{x|x^2-2ax+a+2\le 0\}$满足$B\subseteq A$, 求$a$的取值范围.
+
+
+关联目标:
+
+K0101002B|D01001B|理解有限集、无限集、空集的含义.
+
+
+
+标签: 第一单元
+
+答案: 暂无答案
+
+解答或提示: 暂无解答与提示
+
+使用记录:
+
+20220822	2023届高三10班	\fcolorbox[rgb]{0,0,0}{1.000,0.626,0}{0.687}
+
+20220822	2023届高三2班	\fcolorbox[rgb]{0,0,0}{1.000,0.848,0}{0.576}
+
+
+出处: 代数精编第一章集合与命题
+\item { (020040)}已知集合$A=\{1, 1+d, 1+3d\}$, 集合$B=\{1, q, q^2\}$, 其中$d$、$q\in \mathbf{R}$, 且$d\ne 0$. 若$A=B$, 求$q$的值.
+
+
+关联目标:
+
+K0101004B|D01001B|知道集合相等的定义.
+
+
+
+标签: 第一单元
+
+答案: 暂无答案
+
+解答或提示: 暂无解答与提示
+
+使用记录:
+
+20220822	2023届高三10班	\fcolorbox[rgb]{0,0,0}{1.000,0.454,0}{0.773}
+
+20220822	2023届高三2班	\fcolorbox[rgb]{0,0,0}{1.000,0.606,0}{0.697}
+
+
+出处: 2025届高一校本作业必修第一章
+\item { (010021)}已知集合$A=\{1\}$, $B=\{x|x^2-3x+a=0\}$. 是否存在实数$a$, 使得$A\subset B$?  若存在, 求$a$的值; 若不存在, 说明理由.
+
+
+关联目标:
+
+K0103005B|D01001B|理解真子集的概念, 能在具体的例子中证明给定集合间的真子集关系.
+
+
+
+标签: 第一单元
+
+答案: 暂无答案
+
+解答或提示: 暂无解答与提示
+
+使用记录:
+
+20220822	2023届高三10班	\fcolorbox[rgb]{0,0,0}{1.000,0.066,0}{0.967}
+
+20220822	2023届高三2班	\fcolorbox[rgb]{0,0,0}{1.000,0.424,0}{0.788}
+
+
+出处: 新教材必修第一册习题
+\item { (002700)}集合$C=\{x|x=\dfrac k2\pm \dfrac14, \ k\in \mathbf{Z}\},D=\{x|x=\dfrac k4,\ k\in \mathbf{Z}\}$, 试判断$C$与$D$的关系, 并证明.
+
+
+关联目标:
+
+K0103003B|D01001B|能在简单的情境中, 证明集合间的子集关系.
+
+
+
+标签: 第一单元
+
+答案: 暂无答案
+
+解答或提示: 暂无解答与提示
+
+使用记录:
+
+20220822	2023届高三10班	\fcolorbox[rgb]{0,0,0}{1.000,0.634,0}{0.683}
+
+20220822	2023届高三2班	\fcolorbox[rgb]{0,0,0}{1.000,0.606,0}{0.697}
+
+
+出处: 2022届高三第一轮复习讲义
+\item { (020041)}已知$A=\{x|x=a+\sqrt 2b,\ a,b\in \mathbf{N}\}$, 若集合$B=\{x|x=\sqrt 2x_1,\  x_1 \in A\}$, 证明$B\subset A$.
+
+
+关联目标:
+
+K0103005B|D01001B|理解真子集的概念, 能在具体的例子中证明给定集合间的真子集关系.
+
+
+
+标签: 第一单元
+
+答案: 暂无答案
+
+解答或提示: 暂无解答与提示
+
+使用记录:
+
+20220822	2023届高三10班	\fcolorbox[rgb]{0,0,0}{1.000,0.500,0}{0.750}
+
+20220822	2023届高三2班	\fcolorbox[rgb]{0,0,0}{1.000,0.546,0}{0.727}
+
+
+出处: 2025届高一校本作业必修第一章
+\end{enumerate}
+
+
+
+\end{document}
