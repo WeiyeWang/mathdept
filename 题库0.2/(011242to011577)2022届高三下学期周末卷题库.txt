@@ -7187,7 +7187,7 @@ $\displaystyle\lim_{n\to \infty} \dfrac{2^{n+1}+3^{n+1}}{2^n+3^n}=$\blank{50}.
 \fourch{$2$}{$5$}{$7$}{$8$}
 <E题目>
 <B目标>
-
+K0216006B
 <E目标>
 <B标签>
 

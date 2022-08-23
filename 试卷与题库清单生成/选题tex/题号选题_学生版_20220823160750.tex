@@ -1,0 +1,98 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[UTF8,fontset = windows]{ctex}
+\setCJKmainfont[BoldFont=黑体,ItalicFont=楷体]{华文中宋}
+\usepackage{amssymb,amsmath,amsfonts,amsthm,mathrsfs,dsfont,graphicx}
+\usepackage{ifthen,indentfirst,enumerate,color,titletoc}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{longtable}
+\usetikzlibrary{arrows,calc,intersections,patterns,decorations.pathreplacing,3d,angles,quotes,positioning}
+\usepackage[bf,small,indentafter,pagestyles]{titlesec}
+\usepackage[top=1in, bottom=1in,left=0.8in,right=0.8in]{geometry}
+\renewcommand{\baselinestretch}{1.65}
+\newtheorem{defi}{定义~}
+\newtheorem{eg}{例~}
+\newtheorem{ex}{~}
+\newtheorem{rem}{注~}
+\newtheorem{thm}{定理~}
+\newtheorem{coro}{推论~}
+\newtheorem{axiom}{公理~}
+\newtheorem{prop}{性质~}
+\newcommand{\blank}[1]{\underline{\hbox to #1pt{}}}
+\newcommand{\bracket}[1]{(\hbox to #1pt{})}
+\newcommand{\onech}[4]{\par\begin{tabular}{p{.9\textwidth}}
+A.~#1\\
+B.~#2\\
+C.~#3\\
+D.~#4
+\end{tabular}}
+\newcommand{\twoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+A.~#1& B.~#2\\
+C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\vartwoch}[4]{\par\begin{tabular}{p{.46\textwidth}p{.46\textwidth}}
+(1)~#1& (2)~#2\\
+(3)~#3& (4)~#4
+\end{tabular}}
+\newcommand{\fourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+A.~#1 &B.~#2& C.~#3& D.~#4
+\end{tabular}}
+\newcommand{\varfourch}[4]{\par\begin{tabular}{p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}p{.23\textwidth}}
+(1)~#1 &(2)~#2& (3)~#3& (4)~#4
+\end{tabular}}
+\begin{document}
+
+\begin{enumerate}[1.]
+
+\item {\tiny (004770)}已知$a$是实常数, 集合$A=\{x|x^2-5x+4\le 0\}$与$B=\{x|x^2-2ax+a+2\le 0\}$满足$B\subseteq A$, 求$a$的取值范围.
+\vspace*{16ex}
+\item {\tiny (000067)}设常数$a>0$且$a\ne 1$, 若函数$y=\log_a(x+1)$在区间$[0, 1]$上的最大值为$1$, 最小值为$0$, 求实数$a$的值.
+\item {\tiny (000087)}已知函数$y=-x^2+2ax+1-a$, $x\in [0, 1]$的最大值为$2$. 求实数$a$的值.
+\item {\tiny (000884)}函数$y=\sqrt{x^2+2}+\dfrac1{\sqrt{x^2+2}}$的最小值为\blank{50}.
+\item {\tiny (001226)}(1) 函数$y=1-x^2, \ x\in [-1,1]$的最大值为\blank{50}, 最小值为\blank{50}, 最大值点为\blank{50}, 最小值点为\blank{50};\\ 
+(2) 函数$y=2x^2-8x, \ x\in [-1,4]$的最大值为\blank{50}, 最小值为\blank{50}, 最大值点为\blank{50}, 最小值点为\blank{50};\\ 
+(3) 函数$y=6x-x^2, \ x\in [-3,0]$的最大值为\blank{50}, 最小值为\blank{50}, 最大值点为\blank{50}, 最小值点为\blank{50};\\ 
+(4) 函数$y=2x^2-4x+5, \ x\in [2,4]$的最大值为\blank{50}, 最小值为\blank{50}, 最大值点为\blank{50}, 最小值点为\blank{50}.
+\item {\tiny (001227)}(1) 函数$y=x+\dfrac{4}{x}, \ x\in [1,5]$的最大值为\blank{50}, 最小值为\blank{50}, 最大值点为\blank{50}, 最小值点为\blank{50};\\ 
+(2) 函数$y=x-\dfrac{4}{x}, \ x\in [1,5]$的最大值为\blank{50}, 最小值为\blank{50}, 最大值点为\blank{50}, 最小值点为\blank{50};\\ 
+(3) 函数$y=\dfrac{x-5}{3x+2}, \ x\in [0,3]$的最大值为\blank{50}, 最小值为\blank{50}, 最大值点为\blank{50}, 最小值点为\blank{50};\\ 
+(4) 函数$y=x^2+\dfrac{16}{x}, \ x\in [1,4]$的最大值为\blank{50}, 最小值为\blank{50}, 最大值点为\blank{50}, 最小值点为\blank{50}.
+\item {\tiny (001231)}已知函数$y=\dfrac{1}{2}x^2-x+\dfrac{3}{2}$的定义域为$[1,b]$, 最大值为$b$, 最小值为$1$. 求$b$.
+\item {\tiny (001276)}已知$a$是实数, 函数$y=-x^2+2ax+1-a, \ x \in [0,1]$的最大值为$2$. 求$a$.
+\item {\tiny (001277)}已知$a,b$是实数, 函数$y=ax^2-2ax+2+b$在$[2,3]$上的最大值和最小值分别为$5$和$2$, 求$a,b$.
+\item {\tiny (002955)}设常数$a>0,\ a\ne 1$. 函数$f(x)=a^x$在$[0,1]$上的最大值和最小值之和为$a^2$, 则$a=$\blank{50}.
+\item {\tiny (002959)}已知函数$y=(\log_2\dfrac x{2^a})(\log_2\dfrac x4)$, $x\in [\sqrt 2,4]$, 试求该函数的最大值$g(a)$.
+\item {\tiny (002966)}*已知常数$a>1$, 函数$y=|\log_ax|$的定义域为区间$[m,n]$, 值域为区间$[0,1]$. 若$n-m$的最小值为$\dfrac 56$, 则$a$=\blank{50}.
+\item {\tiny (002975)}设常数$a\in \mathbf{R}$. 若函数$y=-x^2+2ax$($0\le x\le 1$)的最小值用$g(a)$表示, 则$g(a)=$\blank{50}.
+\item {\tiny (002986)}设常数$m\in \mathbf{R}$. 若函数$f(x)=x^2-(m-2)x+m-4$的图像与x轴交于$A$, $B$两点, 且$|AB|=2$, 则函数$y=f(x)$的最小值为\blank{50}.
+\item {\tiny (002991)}设常数$a\in \mathbf{R}$, 并将函数$f(x)=1-2a-2a\cos x-2\sin^2 x$的最小值记为$g(a)$.\\
+(1) 写出$g(a)$的表达式;\\
+(2) 是否存在$a$的值, 使得$g(a)=\dfrac 12$? 若存在, 求出$a$的值以及此时函数$y=f(x)$的最大值; 若不存在, 说明理由.
+\item {\tiny (004439)}函数$f(x)=|x^2-a|$在区间$[-1,1]$上的最大值是$a$, 那么实数$a$的取值范围是\bracket{20}.
+\fourch{$[0,+\infty)$}{$[\dfrac 12,1]$}{$[\dfrac 12,+\infty)$}{$[1,+\infty)$}
+\item {\tiny (005344)}已知函数$f(x)=x^2-2x+3$在$[0,m]$上有最大值$3$, 最小值$2$, 求正数$m$的取值范围.
+\item {\tiny (000555)}已知函数$f(x)=x|2x-a|-1$有三个零点, 则实数$a$的取值范围为\blank{50}.
+\item {\tiny (000622)}若函数$f(x)=2^x(x+a)-1$在区间$[0,1]$上有零点, 则实数$a$的取值范围是\blank{50}.
+\item {\tiny (003013)}函数$f(x)=3ax-2a+1$在$[-1,1]$上存在一个零点, 则实数$a$的取值范围是\blank{50}.
+\item {\tiny (003648)}已知$f(x)=ax+\dfrac{1}{x+1}, \ a\in \mathbf{R}$.\\
+(1) 已知$a=1$时, 求不等式$f(x)+1<f(x+1)$的解集;\\
+(2) 若$f(x)$在$x\in [1,2]$时有零点, 求$a$的取值范围.
+\item {\tiny (004720)}已知函数$f(x)=x^2+mx+3$, 其中$m\in \mathbf{R}$.\\
+(1) 若不等式$f(x)<5$的解集是$(-1,2)$, 求$m$的值;\\
+(2) 若函数$y=f(x)$在区间$[0,3]$上有且仅有一个零点, 求$m$的取值范围.
+\item {\tiny (003032)}设常数$a\in \mathbf{R}$.已知函数$f(x)=4^x-a\cdot 2^x+a+3$.\\
+(1) 若函数$y=f(x)$有且仅有一个零点, 求$a$的取值范围;\\
+(2) 若函数$y=f(x)$有零点, 求$a$的取值范围.
+\item {\tiny (010196)}证明: 方程$\lg x+2x=16$没有整数解.
+\item {\tiny (009530)}用函数的观点解不等式: $2^x+\log_2x>2$.
+\item {\tiny (005236)}解不等式: $|x+2|-|x-3|<4$.
+\item {\tiny (010197)}解不等式: $\dfrac 2{x^2}\ge 3x-1$.
+\item {\tiny (009531)}对于在区间$[a, b]$上的图像是一段连续曲线的函数$y=f(x)$, 如果$f(a)\cdot f(b)>0$, 那么是否该函数在区间$(a, b)$上一定无零点? 说明理由.
+\item {\tiny (009532)}已知函数$y=2x^3-3x^2-18x+28$在区间$(1, 2)$上有且仅有一个零点. 试用二分法求出该零点的近似值. (结果精确到$0.1$)
+\item {\tiny (010192)}已知函数$y=x^3+x^2+x-1$在区间$(0, 1)$上有且仅有一个零点, 用二分法求该零点的近似值. (结果精确到$0.1$)
+\end{enumerate}
+
+
+
+\end{document}

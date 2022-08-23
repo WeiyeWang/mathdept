@@ -7784,7 +7784,8 @@ K0106003B
 	\end{tikzpicture}}
 <E题目>
 <B目标>
-
+K0216001B
+K0216003B
 <E目标>
 <B标签>
 第二单元
@@ -8878,7 +8879,7 @@ $\triangle OAB$中$OA=3$, $OB=4$, $C$是$AB$中点, 则$\overrightarrow OC\cdot 
 已知函数$y=f(x)$的定义域为$\{x|-3\le x\le 8, \ x\ne 5\}$, 值域为$\{y|-1\le y\le 2, \ y\ne 0\}$. 下列关于函数$y=f(x)$的说法: \textcircled{1} 当$x=-3$时, $y=-1$; \textcircled{2} 将$y=f(x)$的图像补上$(5,0)$, 得到的图像必定是一条连续的曲线; \textcircled{3} $y=f(x)$是$[-3,5)$上的单调函数; \textcircled{4} $y=f(x)$的图像与坐标轴只有一个交点. 其中正确的命题是\blank{50}.
 <E题目>
 <B目标>
-
+K0216002B
 <E目标>
 <B标签>
 第二单元
@@ -11516,7 +11517,7 @@ $\triangle ABC$的三个内角$A,B,C$所对边的长分别为$a,b,c$, 已知$c=3
 	\end{tikzpicture}}
 <E题目>
 <B目标>
-
+K0216003B
 <E目标>
 <B标签>
 第二单元
